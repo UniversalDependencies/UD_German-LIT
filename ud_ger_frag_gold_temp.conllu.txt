@@ -1,4 +1,4 @@
-﻿1	Man	man	PIS	_	_	2	nsubj	_	_
+1	Man	man	PIS	_	_	2	nsubj	_	_
 2	nennt	nennen	VVFIN	_	_	0	root	_	_
 3	viele	vieler	PIAT	_	_	2	obj	_	_
 4	Künstler	Künstler	NN	_	_	2	xcomp	_	_
