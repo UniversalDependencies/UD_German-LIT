@@ -8,7 +8,9 @@ use open ':utf8';
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
+use Lingua::Interset::Converter;
 
+my $c = new Lingua::Interset::Converter ('from' => 'de::stts', 'to' => 'mul::upos');
 my $srcfilename = 'ud_ger_frag_temp_raw.txt';
 my $conllufilename = 'ud_ger_frag_gold_temp.conllu.txt';
 # Read the entire source file into memory. With 251 kB, it should not be a problem.
@@ -358,8 +360,9 @@ for(my $i = 0; $i <= $#conllu; $i++)
                 }
             }
             # The tags that are now in the data should be in XPOS.
-            ###!!! We also need to generate UPOS from them!
+            # We also need to generate UPOS from them!
             $f[4] = $f[3];
+            $f[3] = $c->convert($f[4]);
             $line = join("\t", @f);
         }
         print("$line\n");
