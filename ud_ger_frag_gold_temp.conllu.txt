@@ -17427,7 +17427,7 @@
 13	eigentliches	eigentlich	ADJA	_	_	14	amod	_	_
 14	Wesen	Wesen	NN	_	_	7	obj	_	_
 15	,	--	$,	_	_	18	punct	_	_
-16	dass	dass	KOUS	_	_	18	mark	_	_
+16	daß	dass	KOUS	_	_	18	mark	_	_
 17	sie	sie	PPER	_	_	18	nsubj	_	_
 18	ewig	ewig	ADJD	_	_	14	advcl	_	_
 19	nur	nur	ADV	_	_	18	advmod	_	_
@@ -17482,7 +17482,7 @@
 17	Gesetz	Gesetz	NN	_	_	18	obl	_	_
 18	anerkennt	anerkennen	VVFIN	_	_	4	advcl	_	_
 19	,	--	$,	_	_	29	punct	_	_
-20	dass	dass	KOUS	_	_	29	mark	_	_
+20	daß	dass	KOUS	_	_	29	mark	_	_
 21	die	der	ART	_	_	22	det	_	_
 22	Willkür	Willkür	NN	_	_	29	nsubj	_	_
 23	des	der	ART	_	_	24	det	_	_
@@ -17657,7 +17657,7 @@
 8	erlaubt	erlauben	VVPP	_	_	9	xcomp	_	_
 9	bleibt	bleiben	VVFIN	_	_	4	advcl	_	_
 10	,	--	$,	_	_	14	punct	_	_
-11	dass	dass	KOUS	_	_	14	mark	_	_
+11	daß	dass	KOUS	_	_	14	mark	_	_
 12	einige	einiger	PIAT	_	_	13	amod	_	_
 13	Teile	Teil	NN	_	_	14	nsubj	_	_
 14	aktiv	aktiv	ADJD	_	_	9	advcl	_	_
@@ -17714,7 +17714,7 @@
 29	vollendet	vollenden	VVPP	_	_	26	conj	_	_
 30	sind	sein	VAFIN	_	_	26	cop	_	_
 31	,	--	$,	_	_	35	punct	_	_
-32	dass	dass	KOUS	_	_	35	mark	_	_
+32	daß	dass	KOUS	_	_	35	mark	_	_
 33	sie	sie	PPER	_	_	35	nsubj	_	_
 34	willkürlich	willkürlich	ADJD	_	_	35	xcomp	_	_
 35	werden	werden	VVFIN	_	_	26	advcl	_	_
@@ -17724,7 +17724,7 @@
 39	zufällig	zufällig	ADV	_	_	40	advmod	_	_
 40	entstanden	entstehen	VVPP	_	_	26	conj	_	_
 41	,	--	$,	_	_	45	punct	_	_
-42	dass	dass	KOUS	_	_	45	mark	_	_
+42	daß	dass	KOUS	_	_	45	mark	_	_
 43	sie	sie	PPER	_	_	45	nsubj	_	_
 44	angeboren	angebären	VVPP	_	_	45	xcomp	_	_
 45	scheinen	scheinen	VVINF	_	_	40	cop	_	_
@@ -17739,7 +17739,7 @@
 6	die	der	ART	_	_	7	det	_	_
 7	Augen	Auge	NN	_	_	3	obl	_	_
 8	,	--	$,	_	_	13	punct	_	_
-9	dass	daß	KOUS	_	_	13	mark	_	_
+9	daß	daß	KOUS	_	_	13	mark	_	_
 10	man	man	PIS	_	_	13	nsubj	_	_
 11	Talente	Talent	NN	_	_	13	obj	_	_
 12	nur	nur	ADV	_	_	13	advmod	_	_
@@ -18087,7 +18087,7 @@
 2	war	sein	VAFIN	_	_	0	cop	_	_
 3	es	es	PPER	_	_	2	expl	_	_
 4	,	--	$,	_	_	13	punct	_	_
-5	dass	dass	KOUS	_	_	13	mark	_	_
+5	daß	dass	KOUS	_	_	13	mark	_	_
 6	die	der	ART	_	_	7	det	_	_
 7	Individuen	Individuum	NN	_	_	13	nsubj	_	_
 8	das	der	ART	_	_	9	det	_	_
@@ -18249,7 +18249,7 @@
 22	innig	innig	ADJD	_	_	19	conj	_	_
 23	würde	werden	VAFIN	_	_	19	cop	_	_
 24	,	--	$,	_	_	28	punct	_	_
-25	dass	daß	KOUS	_	_	28	mark	_	_
+25	daß	daß	KOUS	_	_	28	mark	_	_
 26	es	es	PPER	_	_	28	nsubj	_	_
 27	nichts	nichts	PIS	_	_	28	obj	_	_
 28	Seltnes	Seltnes	NN	_	_	19	obj	_	_
@@ -18432,7 +18432,7 @@
 15	Drama	Drama	NN	_	_	11	obl	_	_
 16	allzusehr	allzusehr	ADV	_	_	8	advmod	_	_
 17	,	--	$,	_	_	3	punct	_	_
-18	dass	dass	KOUS	_	_	25	mark	_	_
+18	daß	dass	KOUS	_	_	25	mark	_	_
 19	die	der	ART	_	_	20	det	_	_
 20	Poesie	Poesie	NN	_	_	25	nsubj	_	_
 21	überhaupt	überhaupt	ADV	_	_	25	advmod	_	_
