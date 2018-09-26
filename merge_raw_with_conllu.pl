@@ -305,14 +305,49 @@ for(my $i = 0; $i <= $#conllu; $i++)
     print("# author = $fragment->{author}\n");
     print("# work = $fragment->{work}\n");
     print("# sent_id = $sid\n");
-    print("# text = $metasnt[$i]{text}\n");
+    my $text = $metasnt[$i]{text};
+    print("# text = $text\n");
+    my $from;
+    my $to;
     foreach my $line (@{$conllu[$i]})
     {
-        if($line =~ m/^\d+\t/)
+        if($line =~ m/^(\d+)-(\d+)\t/)
         {
+            $from = $1;
+            $to = $2;
             my @f = split(/\t/, $line);
-            # Fix the quoted semicolons.
-            $f[1] = ';' if($f[1] eq '";"');
+            # Make sure that the casing of the word form matches the original text.
+            my $l = length($f[1]);
+            $text =~ s/^(.{$l})//;
+            $f[1] = $1;
+            unless($text eq '' || $text =~ s/^\s+//)
+            {
+                $f[9] = 'SpaceAfter=No';
+            }
+            $line = join("\t", @f);
+        }
+        if($line =~ m/^(\d+)\t/)
+        {
+            my $id = $1;
+            if(defined($to) && $id > $to)
+            {
+                $from = undef;
+                $to = undef;
+            }
+            my @f = split(/\t/, $line);
+            unless(defined($to))
+            {
+                # Fix the quoted semicolons.
+                $f[1] = ';' if($f[1] eq '";"');
+                # Make sure that the casing of the word form matches the original text.
+                my $l = length($f[1]);
+                $text =~ s/^(.{$l})//;
+                $f[1] = $1;
+                unless($text eq '' || $text =~ s/^\s+//)
+                {
+                    $f[9] = 'SpaceAfter=No';
+                }
+            }
             # The tags that are now in the data should be in XPOS.
             ###!!! We also need to generate UPOS from them!
             $f[4] = $f[3];
