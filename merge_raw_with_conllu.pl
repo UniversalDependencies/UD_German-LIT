@@ -13,8 +13,10 @@ my $srcfilename = 'ud_ger_frag_temp_raw.txt';
 my $conllufilename = 'ud_ger_frag_gold_temp.conllu.txt';
 # Read the entire source file into memory. With 251 kB, it should not be a problem.
 open(SRC, $srcfilename) or die("Cannot read $srcfilename: $!");
+my $il = 0;
 while(<SRC>)
 {
+    $il++;
     # Skip empty lines. They do not seem to be significant.
     next if(m/^\s*$/);
     # Remove the line terminating characters, and any leading or trailing spaces.
@@ -47,7 +49,8 @@ while(<SRC>)
             'author' => $current_author,
             'work'   => $current_work,
             'fid'    => $current_fragment_number,
-            'text'   => $current_fragment
+            'text'   => $current_fragment,
+            'line'   => $il
         );
         push(@fragments, \%record);
     }
@@ -72,8 +75,14 @@ print("Found $n fragments in total.\n");
 open(CONLLU, $conllufilename) or die("Cannot read $conllufilename: $!");
 my @conllu = ();
 my @current_sentence = ();
+$il = 0;
 while(<CONLLU>)
 {
+    $il++;
+    if(scalar(@current_sentence)==0)
+    {
+        push(@sentence_start_line_numbers, $il);
+    }
     # Remove sentence-terminating characters.
     s/\r?\n$//;
     push(@current_sentence, $_);
@@ -93,18 +102,39 @@ print("Found $o sentences in the CoNLL-U file.\n");
 # However, all CoNLL-U sentences can be located somewhere in the raw fragments.
 my $ifrg = 0;
 my $isnt = 0;
+# Remember if the last message was "not found". Avoid displaying too many such messages.
+my $lmnf = 0;
 while($isnt <= $#conllu)
 {
     # Get the non-whitespace string of the sentence.
     my $nwhsp = '';
+    my $from;
+    my $to;
     foreach my $line (@{$conllu[$isnt]})
     {
-        if($line =~ m/^\d+\t/)
+        # Process multi-word tokens.
+        if($line =~ m/^(\d+)-(\d+)\t/)
         {
+            $from = $1;
+            $to = $2;
             my @f = split(/\t/, $line);
-            # For some reason, semicolons are enclosed in quotation marks in the CoNLL-U file, although they were not in original.
-            $f[1] = ';' if($f[1] eq '";"');
             $nwhsp .= $f[1];
+        }
+        if($line =~ m/^(\d+)\t/)
+        {
+            my $id = $1;
+            if(defined($to) && $id > $to)
+            {
+                $from = undef;
+                $to = undef;
+            }
+            unless(defined($to))
+            {
+                my @f = split(/\t/, $line);
+                # For some reason, semicolons are enclosed in quotation marks in the CoNLL-U file, although they were not in original.
+                $f[1] = ';' if($f[1] eq '";"');
+                $nwhsp .= $f[1];
+            }
         }
     }
     $nwhsp =~ s/\s//g;
@@ -119,7 +149,8 @@ while($isnt <= $#conllu)
     {
         $metasnt[$isnt]{ifrg} = $ifrg;
         $last_sentence_found = $metasnt[$isnt]{text} = $fragments[$ifrg]{text};
-        print STDERR ("Sentence $isnt matches fragment $ifrg.\n");
+        print STDERR ("Sentence $isnt (line $sentence_start_line_numbers[$isnt]) matches fragment $ifrg (line $fragments[$ifrg]{line}).\n");
+        $lmnf = 0;
         # Proceed to the next CoNLL-U sentence and the next fragment.
         $isnt++;
         $ifrg++;
@@ -160,7 +191,8 @@ while($isnt <= $#conllu)
                 shift(@frgchars);
             }
             $fragments[$ifrg]{text} = join('', @frgchars);
-            print STDERR ("Sentence $isnt is a prefix of fragment $ifrg.\n");
+            print STDERR ("Sentence $isnt (line $sentence_start_line_numbers[$isnt]) is a prefix of fragment $ifrg (line $fragments[$ifrg]{line}).\n");
+            $lmnf = 0;
             # Proceed to the next CoNLL-U sentence.
             $isnt++;
         }
@@ -196,18 +228,20 @@ while($isnt <= $#conllu)
             }
             $fragments[$ifrg]{text} = join('', @frgchars);
             # Now the fragment begins with the current sentence and the next pass through the loop will match them.
-            print STDERR ("Sentence $isnt found in fragment $ifrg. Discarding unmatched prefix of the fragment.\n");
+            print STDERR ("Sentence $isnt (line $sentence_start_line_numbers[$isnt]) found in fragment $ifrg. Discarding unmatched prefix of the fragment.\n");
+            $lmnf = 0;
         }
         # The current fragment does not contain the current sentence.
         # Proceed to the next fragment.
         else
         {
-            print STDERR ("Sentence $isnt not found in fragment $ifrg.\n");
+            print STDERR ("Sentence $isnt (line $sentence_start_line_numbers[$isnt]) not found in fragment $ifrg (line $fragments[$ifrg]{line}).\n") unless($lmnf);
+            $lmnf = 1;
             $ifrg++;
             # If there are no more fragments, something went wrong because we were supposed to find all sentences and we didn't.
             if($ifrg > $#fragments)
             {
-                print STDERR ("Something went wrong and we did not find the sentence $isnt:\n");
+                print STDERR ("Something went wrong and we did not find the sentence $isnt (line $sentence_start_line_numbers[$isnt]):\n");
                 print STDERR ("  '$nwhsp'\n");
                 print STDERR ("Last sentence found:\n");
                 print STDERR ("  '$last_sentence_found'\n");
@@ -218,12 +252,13 @@ while($isnt <= $#conllu)
     # Fragment is shorter than sentence. Proceed to the next fragment.
     else
     {
-        print STDERR ("Sentence $isnt is longer than the remainder of fragment $ifrg.\n");
+        print STDERR ("Sentence $isnt (line $sentence_start_line_numbers[$isnt]) is longer than the remainder of fragment $ifrg (line $fragments[$ifrg]{line}).\n") unless($lmnf);
+        $lmnf = 1;
         $ifrg++;
         # If there are no more fragments, something went wrong because we were supposed to find all sentences and we didn't.
         if($ifrg > $#fragments)
         {
-            print STDERR ("Something went wrong and we did not find the sentence $isnt:\n");
+            print STDERR ("Something went wrong and we did not find the sentence $isnt (line $sentence_start_line_numbers[$isnt]):\n");
             print STDERR ("  '$nwhsp'\n");
             print STDERR ("Last sentence found:\n");
             print STDERR ("  '$last_sentence_found'\n");
