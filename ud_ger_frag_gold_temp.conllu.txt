@@ -4149,7 +4149,7 @@
 37	nicht	nicht	PTKNEG	_	_	40	neg	_	_
 38	die	der	ART	_	_	39	det	_	_
 39	Willkür	Willkür	NN	_	_	40	nsubj	_	_
-40	andern	andern	VVINF	_	_	32	acl	_	_
+40	andrer	andern	VVINF	_	_	32	acl	_	_
 41	,	--	$,	_	_	40	punct	_	_
 42	und	und	KON	_	_	46	cc	_	_
 43	dadurch	dadurch	PROAV	_	_	46	advmod	_	_
@@ -4519,7 +4519,7 @@
 14	lassen	lassen	VVFIN	_	_	5	advcl	_	_
 15	,	--	$,	_	_	14	punct	_	_
 16	so	so	ADV	_	_	21	advmod	_	_
-17	ist	ist	ADV	_	_	21	cop	_	_
+17	ists	ist	ADV	_	_	21	cop	_	_
 18	wohl	wohl	ADV	_	_	21	advmod	_	_
 19	der	der	ART	_	_	20	det	_	_
 20	Mühe	Mühe	NN	_	_	21	nsubj	_	_
