@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1922</sentences><tokens>40434</tokens><words>40539</words><fused>105</fused></total>
+  </size>
+  <lemmas unique="5289" /><!-- –, der, sein, und, ein, zu, in, nicht, es, sich, haben, sie, so, werden, man -->
+  <forms unique="7013" /><!-- ,, ., der, und, die, ist, zu, in, nicht, das, es, ein, sich, den, sie -->
+  <fusions unique="6" /><!-- im, zur, zum, am, vom, ins -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">3550</tag><!-- groß, gut, hoch, alt, neu, rein, erster, schön, poetisch, ganz -->
+    <tag name="ADP">2645</tag><!-- in, von, mit, zu, für, an, auf, durch, aus, nach -->
+    <tag name="ADV">3379</tag><!-- so, nur, auch, selbst, wie, noch, aber, doch, immer, wohl -->
+    <tag name="AUX">1859</tag><!-- sein, haben, werden, seyn, ist, ,ist, –, Mengs), bleibt', hören -->
+    <tag name="CCONJ">1945</tag><!-- und, oder, als, wie, aber, sondern, denn, entweder, noch, weder -->
+    <tag name="DET">5391</tag><!-- der, ein, sein, ihr, dieser, aller, kein, jeder, jener, mancher -->
+    <tag name="NOUN">7385</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
+    <tag name="NUM">35</tag><!-- zwei, drei, eins, vier, «, », 1, 2, 3, acht -->
+    <tag name="PART">862</tag><!-- nicht, zu, an, dazu, ja -->
+    <tag name="PRON">3192</tag><!-- der, es, sich, sie, man, er, was, alle, welcher, nichts -->
+    <tag name="PROPN">388</tag><!-- «, Kant, Leibniz, shakespeare, bey, seyn, Deutschland, Diderot, Spinosa, Caesar -->
+    <tag name="PUNCT">5335</tag><!-- – -->
+    <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
+    <tag name="VERB">3750</tag><!-- können, müssen, sollen, geben, machen, wollen, lassen, scheinen, sagen, dürfen -->
+    <tag name="X">302</tag><!-- «, daher, », darin, –, dadurch, darum, dabei, davon, – -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="76">
+    <dep name="0">1</dep>
+    <dep name="11">1</dep>
+    <dep name="12">1</dep>
+    <dep name="16">1</dep>
+    <dep name="18">2</dep>
+    <dep name="32">1</dep>
+    <dep name="4">1</dep>
+    <dep name="9">1</dep>
+    <dep name="ADV">1</dep>
+    <dep name="CC">1</dep>
+    <dep name="PDAT">1</dep>
+    <dep name="PIAT">1</dep>
+    <dep name="VVFIN">3</dep>
+    <dep name="acl">499</dep>
+    <dep name="adv">1</dep>
+    <dep name="advcl">458</dep>
+    <dep name="advmod">4081</dep>
+    <dep name="amod">2400</dep>
+    <dep name="appos">97</dep>
+    <dep name="aux">1047</dep>
+    <dep name="aux:pass">177</dep>
+    <dep name="card">1</dep>
+    <dep name="case">2761</dep>
+    <dep name="cc">1721</dep>
+    <dep name="ccomp">140</dep>
+    <dep name="cconj">5</dep>
+    <dep name="coj">2</dep>
+    <dep name="compoud:prt">1</dep>
+    <dep name="compound">4</dep>
+    <dep name="compound:prt">74</dep>
+    <dep name="con">1</dep>
+    <dep name="conj">1947</dep>
+    <dep name="cop">1177</dep>
+    <dep name="csubj">128</dep>
+    <dep name="dep">39</dep>
+    <dep name="det">4839</dep>
+    <dep name="det:poss">385</dep>
+    <dep name="dobj">2</dep>
+    <dep name="exol">1</dep>
+    <dep name="expl">156</dep>
+    <dep name="fixed">61</dep>
+    <dep name="flat">73</dep>
+    <dep name="foreign">3</dep>
+    <dep name="iboj">1</dep>
+    <dep name="iobj">189</dep>
+    <dep name="mark">902</dep>
+    <dep name="mod:poss">1</dep>
+    <dep name="mwe">3</dep>
+    <dep name="name">6</dep>
+    <dep name="neg">65</dep>
+    <dep name="nmnod">1</dep>
+    <dep name="nmod">2011</dep>
+    <dep name="nmod:poss">73</dep>
+    <dep name="nmod:posss">1</dep>
+    <dep name="nsub">1</dep>
+    <dep name="nsubj">3316</dep>
+    <dep name="nsubj:pass">129</dep>
+    <dep name="nsubj:poss">1</dep>
+    <dep name="nubj">1</dep>
+    <dep name="nummod">24</dep>
+    <dep name="ob">1</dep>
+    <dep name="obj">1613</dep>
+    <dep name="obl">1553</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:pass">1</dep>
+    <dep name="oprhan">2</dep>
+    <dep name="orphan">36</dep>
+    <dep name="parataxis">400</dep>
+    <dep name="paratxis">1</dep>
+    <dep name="punct">5469</dep>
+    <dep name="remnant">1</dep>
+    <dep name="root">1896</dep>
+    <dep name="xcomp">540</dep>
+    <dep name="xcomp7">1</dep>
+    <dep name="xcompl">1</dep>
+    <dep name="xpos">1</dep>
+  </deps>
+</treebank>
