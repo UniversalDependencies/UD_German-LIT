@@ -241,40 +241,40 @@
 # sent_id = lyceum-f7-s2
 # text = Das Schlechteste daran scheint mir der gänzliche Mangel der unentbehrlichen Ironie; und das Beste, die zuversichtliche Voraussetzung, daß die Poesie unendlich viel wert sei; als ob dies eine ausgemachte Sache wäre.
 1	Das	der	ART	ART	_	7	det	_	_
-2	Schlechteste dara	Schlechtestedaran	NN	NN	_	7	root	_	SpaceAfter=No
-3	n schei	scheinen	VVFIN	VVFIN	_	7	cop	_	SpaceAfter=No
-4	nt 	sich	PPER	PPER	_	7	iobj	_	SpaceAfter=No
-5	mir	der	ART	ART	_	7	det	_	_
-6	der gänzl	gänzlich	ADJA	ADJA	_	7	amod	_	SpaceAfter=No
-7	iche M	Mangel	NN	NN	_	0	nsubj	_	SpaceAfter=No
-8	ang	der	ART	ART	_	10	det	_	SpaceAfter=No
-9	el der unentbeh	unentbehrlich	ADJA	ADJA	_	10	amod	_	SpaceAfter=No
-10	rliche	Ironie	NN	NN	_	7	nmod	_	SpaceAfter=No
-11	n	--	$.	$.	_	7	punct	_	_
-12	Iro	und	KON	KON	_	18	cc	_	SpaceAfter=No
-13	nie	der	ART	ART	_	14	det	_	SpaceAfter=No
-14	; und	gut	NN	NN	_	18	nsubj	_	_
-15	d	--	$,	$,	_	2	punct	_	SpaceAfter=No
-16	as 	der	ART	ART	_	18	det	_	SpaceAfter=No
-17	Beste, die zuve	zuversichtlich	ADJA	ADJA	_	18	amod	_	SpaceAfter=No
-18	rsichtliche V	Voraussetzung	NN	NN	_	7	orphan	_	SpaceAfter=No
-19	o	--	$,	$,	_	25	punct	_	SpaceAfter=No
-20	rau	daß	KOUS	KOUS	_	25	mark	_	SpaceAfter=No
-21	sse	der	ART	ART	_	22	det	_	SpaceAfter=No
-22	tzung,	Poesie	NN	NN	_	25	nsubj	_	_
-23	daß die P	unendlich	ADJD	ADJD	_	24	adv	_	SpaceAfter=No
-24	oesi	viel	PIS	PIS	_	25	advmod	_	SpaceAfter=No
-25	e un	wert	ADJD	ADJD	_	18	advcl	_	SpaceAfter=No
-26	end	sein	VAFIN	VAFIN	_	25	cop	_	SpaceAfter=No
-27	l	--	$.	$.	_	7	punct	_	SpaceAfter=No
-28	ich	als	KOKOM	KOKOM	_	33	cc	_	_
-29	vi	ob	KOUS	KOUS	_	28	dep	_	SpaceAfter=No
-30	el w	dieser	PDS	PDS	_	33	nsubj	_	SpaceAfter=No
-31	ert 	ein	ART	ART	_	32	det	_	SpaceAfter=No
-32	sei; als ob	ausgemacht	ADJA	ADJA	_	33	amod	_	_
-33	dies 	Sache	NN	NN	_	7	conj	_	SpaceAfter=No
-34	eine	sein	VAFIN	VAFIN	_	33	cop	_	_
-35	a	--	$.	$.	_	2	punct	_	SpaceAfter=No
+2	Schlechtestedaran	Schlechtestedaran	NN	NN	_	7	root	_	SpaceAfter=No
+3	scheint	scheinen	VVFIN	VVFIN	_	7	cop	_	SpaceAfter=No
+4	mir	sich	PPER	PPER	_	7	iobj	_	SpaceAfter=No
+5	der	der	ART	ART	_	7	det	_	_
+6	gänzliche	gänzlich	ADJA	ADJA	_	7	amod	_	SpaceAfter=No
+7	Mangel	Mangel	NN	NN	_	0	nsubj	_	SpaceAfter=No
+8	der	der	ART	ART	_	10	det	_	SpaceAfter=No
+9	unentbehrlichen	unentbehrlich	ADJA	ADJA	_	10	amod	_	SpaceAfter=No
+10	Ironie	Ironie	NN	NN	_	7	nmod	_	SpaceAfter=No
+11	;	--	$.	$.	_	7	punct	_	_
+12	und	und	KON	KON	_	18	cc	_	SpaceAfter=No
+13	das	der	ART	ART	_	14	det	_	SpaceAfter=No
+14	Beste	gut	NN	NN	_	18	nsubj	_	_
+15	,	--	$,	$,	_	2	punct	_	SpaceAfter=No
+16	die	der	ART	ART	_	18	det	_	SpaceAfter=No
+17	zuversichtliche	zuversichtlich	ADJA	ADJA	_	18	amod	_	SpaceAfter=No
+18	Voraussetzung	Voraussetzung	NN	NN	_	7	orphan	_	SpaceAfter=No
+19	,	--	$,	$,	_	25	punct	_	SpaceAfter=No
+20	daß	daß	KOUS	KOUS	_	25	mark	_	SpaceAfter=No
+21	die	der	ART	ART	_	22	det	_	SpaceAfter=No
+22	Poesie	Poesie	NN	NN	_	25	nsubj	_	_
+23	unendlich	unendlich	ADJD	ADJD	_	24	adv	_	SpaceAfter=No
+24	viel	viel	PIS	PIS	_	25	advmod	_	SpaceAfter=No
+25	wert	wert	ADJD	ADJD	_	18	advcl	_	SpaceAfter=No
+26	sei	sein	VAFIN	VAFIN	_	25	cop	_	SpaceAfter=No
+27	;	--	$.	$.	_	7	punct	_	SpaceAfter=No
+28	als	als	KOKOM	KOKOM	_	33	cc	_	_
+29	ob	ob	KOUS	KOUS	_	28	dep	_	SpaceAfter=No
+30	dies	dieser	PDS	PDS	_	33	nsubj	_	SpaceAfter=No
+31	eine	ein	ART	ART	_	32	det	_	SpaceAfter=No
+32	ausgemachte	ausgemacht	ADJA	ADJA	_	33	amod	_	_
+33	Sache	Sache	NN	NN	_	7	conj	_	SpaceAfter=No
+34	wäre	sein	VAFIN	VAFIN	_	33	cop	_	_
+35	.	--	$.	$.	_	2	punct	_	SpaceAfter=No
 
 # newpar id = lyceum-f8
 # author = Friedrich Schlegel
@@ -2451,16 +2451,16 @@
 11	etwas	etwas	PIS	PIS	_	15	obj	_	_
 12	Griechisches	griechisch	ADJA	ADJA	_	11	appos	_	_
 13	im	in	APPRART	APPRART	_	14	case	_	_
-14	Namen sei	Namensein	NN	NN	_	11	nmod	_	SpaceAfter=No
-15	n so	sollen	VMFIN	VMFIN	_	21	advcl	_	SpaceAfter=No
-16	l	--	$,	$,	_	15	punct	_	SpaceAfter=No
-17	l,	an	PTKA	PTKA	_	18	parataxis	_	_
-18	am bes	gut	ADJD	ADJD	_	21	advmod	_	SpaceAfter=No
-19	ten trau	traurig	ADJA	ADJA	_	20	amod	_	SpaceAfter=No
-20	rige 	Mimen	NN	NN	_	21	xcomp	_	SpaceAfter=No
-21	Mimen 	nennen	VVINF	VVINF	_	4	acl	_	SpaceAfter=No
-22	nennen	können	VMFIN	VMFIN	_	21	aux	_	_
-23	k	--	$.	$.	_	3	punct	_	SpaceAfter=No
+14	Namensein	Namensein	NN	NN	_	11	nmod	_	SpaceAfter=No
+15	soll	sollen	VMFIN	VMFIN	_	21	advcl	_	SpaceAfter=No
+16	,	--	$,	$,	_	15	punct	_	SpaceAfter=No
+17	am	an	PTKA	PTKA	_	18	parataxis	_	_
+18	besten	gut	ADJD	ADJD	_	21	advmod	_	SpaceAfter=No
+19	traurige	traurig	ADJA	ADJA	_	20	amod	_	SpaceAfter=No
+20	Mimen	Mimen	NN	NN	_	21	xcomp	_	SpaceAfter=No
+21	nennen	nennen	VVINF	VVINF	_	4	acl	_	SpaceAfter=No
+22	könnte	können	VMFIN	VMFIN	_	21	aux	_	_
+23	.	--	$.	$.	_	3	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Lyceum Fragmente
@@ -3792,21 +3792,21 @@
 23	:	--	$.	$.	_	1	punct	_	_
 24	diese	dieser	PDAT	PDAT	_	25	nsubj	_	_
 25	kommen	kommen	VVFIN	VVFIN	_	1	parataxis	_	_
-26	sehr bal	sehrbald	ADV	ADV	_	25	advmod	_	SpaceAfter=No
-27	d dah	dahin	PROAV	PROAV	_	25	mark	_	SpaceAfter=No
-28	i	--	$,	$,	_	25	punct	_	SpaceAfter=No
-29	n, 	ihr	PPOSAT	PPOSAT	_	31	det:poss	_	SpaceAfter=No
-30	ihr sogenan	sogenannt	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
-31	ntes Pub	Publikum	NN	NN	_	35	obj	_	SpaceAfter=No
-32	likum	nicht	PTKNEG	PTKNEG	_	33	neg	_	_
-33	nich	bloß	ADV	ADV	_	35	advmod	_	SpaceAfter=No
-34	t 	zu	PTKZU	PTKZU	_	35	aux	_	SpaceAfter=No
-35	bloß zu v	verachten	VVINF	VVINF	_	25	xcomp	_	SpaceAfter=No
-36	e	--	$,	$,	_	39	punct	_	SpaceAfter=No
-37	rachten	sondern	KON	KON	_	39	cc	_	SpaceAfter=No
-38	, 	zu	PTKZU	PTKZU	_	39	aux	_	SpaceAfter=No
-39	sonder	hassen	VVINF	VVINF	_	35	conj	_	SpaceAfter=No
-40	n	--	$.	$.	_	1	punct	_	_
+26	sehrbald	sehrbald	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+27	dahin	dahin	PROAV	PROAV	_	25	mark	_	SpaceAfter=No
+28	,	--	$,	$,	_	25	punct	_	SpaceAfter=No
+29	ihr	ihr	PPOSAT	PPOSAT	_	31	det:poss	_	SpaceAfter=No
+30	sogenanntes	sogenannt	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
+31	Publikum	Publikum	NN	NN	_	35	obj	_	SpaceAfter=No
+32	nicht	nicht	PTKNEG	PTKNEG	_	33	neg	_	_
+33	bloß	bloß	ADV	ADV	_	35	advmod	_	SpaceAfter=No
+34	zu	zu	PTKZU	PTKZU	_	35	aux	_	SpaceAfter=No
+35	verachten	verachten	VVINF	VVINF	_	25	xcomp	_	SpaceAfter=No
+36	,	--	$,	$,	_	39	punct	_	SpaceAfter=No
+37	sondern	sondern	KON	KON	_	39	cc	_	SpaceAfter=No
+38	zu	zu	PTKZU	PTKZU	_	39	aux	_	SpaceAfter=No
+39	hassen	hassen	VVINF	VVINF	_	35	conj	_	SpaceAfter=No
+40	;	--	$.	$.	_	1	punct	_	_
 
 # author = Friedrich Schlegel
 # work = Lyceum Fragmente
@@ -8727,21 +8727,21 @@
 9	mir	sich	PPER	PPER	_	11	obl	_	_
 10	organisch	organisch	ADV	ADV	_	11	advmod	_	_
 11	entwickeln	entwickeln	VVINF	VVINF	_	0	root	_	SpaceAfter=No
-12	; un	XXX	NE	NE	_	11	punct	_	SpaceAfter=No
-13	d w	was	PWS	PWS	_	17	obj	_	SpaceAfter=No
-14	as 	ich	PPER	PPER	_	17	nsubj	_	SpaceAfter=No
-15	ic	zu	PTKZU	PTKZU	_	16	mark	_	SpaceAfter=No
-16	h zu l	lernen	VVINF	VVINF	_	17	xcomp	_	SpaceAfter=No
-17	ernen s	scheinen	VVFIN	VVFIN	_	21	csubj	_	SpaceAfter=No
-18	c	--	$,	$,	_	17	punct	_	SpaceAfter=No
-19	hei	sein	VAFIN	VAFIN	_	21	cop	_	SpaceAfter=No
-20	ne,	nur	ADV	ADV	_	21	advmod	_	_
-21	ist nur	Nahrung	NN	NN	_	11	parataxis	_	_
-22	N	--	$,	$,	_	23	punct	_	SpaceAfter=No
-23	ahrung, In	Inzitament	NN	NN	_	21	conj	_	SpaceAfter=No
-24	zit	der	ART	ART	_	25	det	_	SpaceAfter=No
-25	ament des 	Organismus	NN	NN	_	23	nmod	_	SpaceAfter=No
-26	O	--	$.	$.	_	11	punct	_	SpaceAfter=No
+12	;und	XXX	NE	NE	_	11	punct	_	SpaceAfter=No
+13	was	was	PWS	PWS	_	17	obj	_	SpaceAfter=No
+14	ich	ich	PPER	PPER	_	17	nsubj	_	SpaceAfter=No
+15	zu	zu	PTKZU	PTKZU	_	16	mark	_	SpaceAfter=No
+16	lernen	lernen	VVINF	VVINF	_	17	xcomp	_	SpaceAfter=No
+17	scheine	scheinen	VVFIN	VVFIN	_	21	csubj	_	SpaceAfter=No
+18	,	--	$,	$,	_	17	punct	_	SpaceAfter=No
+19	ist	sein	VAFIN	VAFIN	_	21	cop	_	SpaceAfter=No
+20	nur	nur	ADV	ADV	_	21	advmod	_	_
+21	Nahrung	Nahrung	NN	NN	_	11	parataxis	_	_
+22	,	--	$,	$,	_	23	punct	_	SpaceAfter=No
+23	Inzitament	Inzitament	NN	NN	_	21	conj	_	SpaceAfter=No
+24	des	der	ART	ART	_	25	det	_	SpaceAfter=No
+25	Organismus	Organismus	NN	NN	_	23	nmod	_	SpaceAfter=No
+26	.	--	$.	$.	_	11	punct	_	SpaceAfter=No
 
 # newpar id = bluethenstaub-f19
 # author = Novalis
@@ -15468,26 +15468,26 @@
 # author = Novalis
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f451-s1
-# text =  Es gehört mehr Geist zum Einfachen, als zum Complizirten, aber weniger Talent.
-1	 E	es	PPER	PPER	_	2	expl	_	SpaceAfter=No
-2	s gehö	gehören	VVFIN	VVFIN	_	0	root	_	SpaceAfter=No
-3	rt m	mehr	PIAT	PIAT	_	4	det	_	SpaceAfter=No
-4	ehr G	Geist	NN	NN	_	2	nsubj	_	SpaceAfter=No
-5-6	eis	_	_	_	_	_	_	_	SpaceAfter=No
+# text = Es gehört mehr Geist zum Einfachen, als zum Complizirten, aber weniger Talent.
+1	Es	es	PPER	PPER	_	2	expl	_	_
+2	gehört	gehören	VVFIN	VVFIN	_	0	root	_	_
+3	mehr	mehr	PIAT	PIAT	_	4	det	_	_
+4	Geist	Geist	NN	NN	_	2	nsubj	_	_
+5-6	zum	_	_	_	_	_	_	_	_
 5	zu	zu	APPR	APPR	_	7	case	_	_
 6	dem	der	ART	ART	_	7	det	_	_
-7	t zum Ein	Einfachen	NN	NN	_	2	obl	_	SpaceAfter=No
-8	f	--	$,	$,	_	12	punct	_	SpaceAfter=No
-9	ach	als	KOUS	KOUS	_	12	case	_	SpaceAfter=No
-10-11	en,	_	_	_	_	_	_	_	_
+7	Einfachen	Einfachen	NN	NN	_	2	obl	_	SpaceAfter=No
+8	,	--	$,	$,	_	12	punct	_	_
+9	als	als	KOUS	KOUS	_	12	case	_	_
+10-11	zum	_	_	_	_	_	_	_	_
 10	zu	zu	APPR	APPR	_	12	case	_	_
 11	dem	der	ART	ART	_	12	det	_	_
-12	als zum Comp	Complizirt	NN	NN	_	7	nmod	_	SpaceAfter=No
-13	l	--	$,	$,	_	15	punct	_	SpaceAfter=No
-14	izir	aber	KON	KON	_	15	cc	_	SpaceAfter=No
-15	ten, ab	weniger	PIAT	PIAT	_	16	det	_	SpaceAfter=No
-16	er wen	Talent	NN	NN	_	2	obl	_	SpaceAfter=No
-17	i	--	$.	$.	_	2	punct	_	SpaceAfter=No
+12	Complizirten	Complizirt	NN	NN	_	7	nmod	_	SpaceAfter=No
+13	,	--	$,	$,	_	15	punct	_	_
+14	aber	aber	KON	KON	_	15	cc	_	_
+15	weniger	weniger	PIAT	PIAT	_	16	det	_	_
+16	Talent	Talent	NN	NN	_	2	obl	_	SpaceAfter=No
+17	.	--	$.	$.	_	2	punct	_	_
 
 # newpar id = bluethenstaub-f88
 # author = Novalis
@@ -25582,7 +25582,7 @@
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f136-s3
-# text = Man dringt nicht tief, wenn man einen Bohrer mit großer Gewalt gegen ein Brett drückt, ohne ihn umzudrehen. 
+# text = Man dringt nicht tief, wenn man einen Bohrer mit großer Gewalt gegen ein Brett drückt, ohne ihn umzudrehen.
 1	Man	man	PIS	PIS	_	2	nsubj	_	_
 2	dringt	dringen	VVFIN	VVFIN	_	0	root	_	_
 3	nicht	nicht	PTKNEG	PTKNEG	_	2	advmod	_	_
@@ -27955,7 +27955,7 @@
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f172-s1
-# text = Man kann sagen, daß es ein charakteristisches Kennzeichen des dichtenden Genies ist, viel mehr zu wissen, als es weiß, daß es weiß. 
+# text = Man kann sagen, daß es ein charakteristisches Kennzeichen des dichtenden Genies ist, viel mehr zu wissen, als es weiß, daß es weiß.
 1	Man	man	PIS	PIS	_	3	nsubj	_	_
 2	kann	können	VMFIN	VMFIN	_	3	aux	_	_
 3	sagen	sagen	VVINF	VVINF	_	0	root	_	SpaceAfter=No
@@ -28486,7 +28486,7 @@
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f181-s3
-# text = Wenn in seinen Gemälden mehr innre Harmonie sein sollte, mußte er weniger Schwungkraft haben, oder kein Flamänder sein. 
+# text = Wenn in seinen Gemälden mehr innre Harmonie sein sollte, mußte er weniger Schwungkraft haben, oder kein Flamänder sein.
 1	Wenn	wenn	KOUS	KOUS	_	8	mark	_	_
 2	in	in	APPR	APPR	_	4	case	_	_
 3	seinen	sein	PPOSAT	PPOSAT	_	4	det:poss	_	_
@@ -29004,7 +29004,7 @@
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f190-s5
-# text = Auch die Einbildungskraft hat ihre Antithesen: der größte Maler schauerlicher Wüsteneien, Salvator Rosa, war zu Neapel geboren. 
+# text = Auch die Einbildungskraft hat ihre Antithesen: der größte Maler schauerlicher Wüsteneien, Salvator Rosa, war zu Neapel geboren.
 1	Auch	auch	ADV	ADV	_	3	advmod	_	_
 2	die	der	ART	ART	_	3	det	_	_
 3	Einbildungskraft	Einbildungskraft	NN	NN	_	4	nsubj	_	_
@@ -35290,61 +35290,61 @@
 1	Wie	wie	PWAV	PWAV	_	6	advmod	_	_
 2	weise	weisen	ADV	ADV	_	4	advmod	_	_
 3	diese	dieser	PDAT	PDAT	_	4	det	_	_
-4	Veranstaltung de	Veranstaltungder	NN	NN	_	6	nsubj	_	SpaceAfter=No
-5	r Nat	Natur	NN	NN	_	6	obj	_	SpaceAfter=No
-6	ur 	sein	VAFIN	VAFIN	_	8	VVFIN	_	SpaceAfter=No
-7	s	--	$,	$,	_	6	punct	_	SpaceAfter=No
-8	ei, s	sehen	VVFIN	VVFIN	_	0	root	_	SpaceAfter=No
-9	ieh	man	PIS	PIS	_	8	nsubj	_	SpaceAfter=No
-10	t m	aus	APPR	APPR	_	12	case	_	SpaceAfter=No
-11	an 	der	ART	ART	_	12	det	_	SpaceAfter=No
-12	aus dem 	Zustande	NN	NN	_	8	obl	_	SpaceAfter=No
-13	Zus	der	ART	ART	_	14	det	_	SpaceAfter=No
-14	tande der Wiss	Wissenschaft	NN	NN	_	12	nmod	_	SpaceAfter=No
-15	e	--	$,	$,	_	8	punct	_	SpaceAfter=No
-16	ns	wo	PWAV	PWAV	_	39	advmod	_	SpaceAfter=No
-17	cha	der	ART	ART	_	18	det	_	SpaceAfter=No
-18	ften	Fall	NN	NN	_	39	nsubj	_	SpaceAfter=No
-19	, wo der 	umgekehrt	ADV	ADV	_	18	advmod	_	SpaceAfter=No
-20	Fal	sein	VAFIN	VAFIN	_	18	cop	_	SpaceAfter=No
-21	l	--	$,	$,	_	25	punct	_	_
-22	umg	und	KON	KON	_	25	cc	_	SpaceAfter=No
-23	ek	wo	PWAV	PWAV	_	25	advmod	_	SpaceAfter=No
-24	ehr	ein	ART	ART	_	25	det	_	SpaceAfter=No
-25	t ist, und wo e	Wassersüchtige	NN	NN	_	18	conj	_	SpaceAfter=No
-26	i	--	$,	$,	_	27	punct	_	SpaceAfter=No
-27	n Wassersü	Hektischer	NN	NN	_	25	conj	_	SpaceAfter=No
-28	cht	und	KON	KON	_	29	cc	_	SpaceAfter=No
-29	iger, Hektisc	Gelbsüchtiger	NN	NN	_	25	conj	_	SpaceAfter=No
-30	h	--	$,	$,	_	37	punct	_	SpaceAfter=No
-31	er u	wenn	KOUS	KOUS	_	37	mark	_	SpaceAfter=No
-32	nd	er	PPER	PPER	_	37	nsubj	_	_
-33	Gelb	sich	PRF	PRF	_	37	obj	_	SpaceAfter=No
-34	süc	mit	APPR	APPR	_	36	case	_	SpaceAfter=No
-35	htige	ein	ART	ART	_	36	det	_	SpaceAfter=No
-36	r, wenn 	Gesunde	NN	NN	_	37	obl	_	SpaceAfter=No
-37	er sich mi	vergleichen	VVFIN	VVFIN	_	18	acl	_	SpaceAfter=No
-38	t	--	$,	$,	_	37	punct	_	_
-39	einem 	glauben	VVFIN	VVFIN	_	8	parataxis	_	SpaceAfter=No
-40	G	--	$,	$,	_	39	punct	_	SpaceAfter=No
+4	Veranstaltungder	Veranstaltungder	NN	NN	_	6	nsubj	_	SpaceAfter=No
+5	Natur	Natur	NN	NN	_	6	obj	_	SpaceAfter=No
+6	sei	sein	VAFIN	VAFIN	_	8	VVFIN	_	SpaceAfter=No
+7	,	--	$,	$,	_	6	punct	_	SpaceAfter=No
+8	sieht	sehen	VVFIN	VVFIN	_	0	root	_	SpaceAfter=No
+9	man	man	PIS	PIS	_	8	nsubj	_	SpaceAfter=No
+10	aus	aus	APPR	APPR	_	12	case	_	SpaceAfter=No
+11	dem	der	ART	ART	_	12	det	_	SpaceAfter=No
+12	Zustande	Zustande	NN	NN	_	8	obl	_	SpaceAfter=No
+13	der	der	ART	ART	_	14	det	_	SpaceAfter=No
+14	Wissenschaften	Wissenschaft	NN	NN	_	12	nmod	_	SpaceAfter=No
+15	,	--	$,	$,	_	8	punct	_	SpaceAfter=No
+16	wo	wo	PWAV	PWAV	_	39	advmod	_	SpaceAfter=No
+17	der	der	ART	ART	_	18	det	_	SpaceAfter=No
+18	Fall	Fall	NN	NN	_	39	nsubj	_	SpaceAfter=No
+19	umgekehrt	umgekehrt	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+20	ist	sein	VAFIN	VAFIN	_	18	cop	_	SpaceAfter=No
+21	,	--	$,	$,	_	25	punct	_	_
+22	und	und	KON	KON	_	25	cc	_	SpaceAfter=No
+23	wo	wo	PWAV	PWAV	_	25	advmod	_	SpaceAfter=No
+24	ein	ein	ART	ART	_	25	det	_	SpaceAfter=No
+25	Wassersüchtiger	Wassersüchtige	NN	NN	_	18	conj	_	SpaceAfter=No
+26	,	--	$,	$,	_	27	punct	_	SpaceAfter=No
+27	Hektischer	Hektischer	NN	NN	_	25	conj	_	SpaceAfter=No
+28	und	und	KON	KON	_	29	cc	_	SpaceAfter=No
+29	Gelbsüchtiger	Gelbsüchtiger	NN	NN	_	25	conj	_	SpaceAfter=No
+30	,	--	$,	$,	_	37	punct	_	SpaceAfter=No
+31	wenn	wenn	KOUS	KOUS	_	37	mark	_	SpaceAfter=No
+32	er	er	PPER	PPER	_	37	nsubj	_	_
+33	sich	sich	PRF	PRF	_	37	obj	_	SpaceAfter=No
+34	mit	mit	APPR	APPR	_	36	case	_	SpaceAfter=No
+35	einem	ein	ART	ART	_	36	det	_	SpaceAfter=No
+36	Gesunden	Gesunde	NN	NN	_	37	obl	_	SpaceAfter=No
+37	vergleicht	vergleichen	VVFIN	VVFIN	_	18	acl	_	SpaceAfter=No
+38	,	--	$,	$,	_	37	punct	_	_
+39	glaubt	glauben	VVFIN	VVFIN	_	8	parataxis	_	SpaceAfter=No
+40	,	--	$,	$,	_	39	punct	_	SpaceAfter=No
 41	es	es	PPER	PPER	_	42	nsubj	_	SpaceAfter=No
-42	unde	geben	VVFIN	VVFIN	_	39	parataxis	_	SpaceAfter=No
-43	n vergle	zwischen	APPR	APPR	_	44	case	_	SpaceAfter=No
-44	icht,	ihnen	PPER	PPER	_	42	obl	_	_
-45	glaubt	kein	PIAT	PIAT	_	47	advmod	_	SpaceAfter=No
-46	, es g	anderer	ADJA	ADJA	_	47	amod	_	SpaceAfter=No
-47	äbe zwische	Unterschied	NN	NN	_	42	obj	_	SpaceAfter=No
-48	n i	als	KOKOM	KOKOM	_	51	case	_	SpaceAfter=No
-49	hne	der	ART	ART	_	51	det	_	SpaceAfter=No
-50	n keinen	zwischen	APPR	APPR	_	51	case	_	_
-51	ande	Fett	NN	NN	_	47	nmod	_	SpaceAfter=No
-52	rn 	und	KON	KON	_	53	cc	_	SpaceAfter=No
-53	Unter	Mager	NN	NN	_	51	conj	_	SpaceAfter=No
-54	schi	oder	KON	KON	_	55	cc	_	SpaceAfter=No
-55	ed als 	Brünett	NN	NN	_	53	conj	_	SpaceAfter=No
-56	den	und	KON	KON	_	57	cc	_	_
-57	zwische	Blondin	NN	NN	_	53	conj	_	SpaceAfter=No
-58	n	--	$.	$.	_	8	punct	_	_
+42	gäbe	geben	VVFIN	VVFIN	_	39	parataxis	_	SpaceAfter=No
+43	zwischen	zwischen	APPR	APPR	_	44	case	_	SpaceAfter=No
+44	ihnen	ihnen	PPER	PPER	_	42	obl	_	_
+45	keinen	kein	PIAT	PIAT	_	47	advmod	_	SpaceAfter=No
+46	andern	anderer	ADJA	ADJA	_	47	amod	_	SpaceAfter=No
+47	Unterschied	Unterschied	NN	NN	_	42	obj	_	SpaceAfter=No
+48	als	als	KOKOM	KOKOM	_	51	case	_	SpaceAfter=No
+49	den	der	ART	ART	_	51	det	_	SpaceAfter=No
+50	zwischen	zwischen	APPR	APPR	_	51	case	_	_
+51	Fett	Fett	NN	NN	_	47	nmod	_	SpaceAfter=No
+52	und	und	KON	KON	_	53	cc	_	SpaceAfter=No
+53	Mager	Mager	NN	NN	_	51	conj	_	SpaceAfter=No
+54	oder	oder	KON	KON	_	55	cc	_	SpaceAfter=No
+55	Brünett	Brünett	NN	NN	_	53	conj	_	SpaceAfter=No
+56	und	und	KON	KON	_	57	cc	_	_
+57	Blondin	Blondin	NN	NN	_	53	conj	_	SpaceAfter=No
+58	.	--	$.	$.	_	8	punct	_	_
 
 # newpar id = athenaeum-f281
 # author = Friedrich Schlegel
@@ -35754,7 +35754,7 @@
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f285-s2
-# text = Dort wird es uns erst recht bedeutend werden. 
+# text = Dort wird es uns erst recht bedeutend werden.
 1	Dort	dort	ADV	ADV	_	8	advmod	_	_
 2	wird	werden	VAFIN	VAFIN	_	8	cop	_	_
 3	es	es	PPER	PPER	_	8	nsubj	_	_
@@ -36248,32 +36248,32 @@
 50	,	--	$,	$,	_	52	punct	_	_
 51	das	der	ART	ART	_	52	det	_	_
 52	Ganze	ganze	NN	NN	_	46	conj	_	_
-53	aus Eine	ausein	APPRART	APPRART	_	54	case	_	SpaceAfter=No
-54	m Stü	Stück	NN	NN	_	52	nmod	_	SpaceAfter=No
-55	c	--	$,	$,	_	52	punct	_	SpaceAfter=No
-56	k,	an	APPR	APPR	_	58	case	_	_
-57	an dialektisc	dialektisch	ADJA	ADJA	_	58	amod	_	SpaceAfter=No
-58	her Virtuos	Virtuosität	NN	NN	_	46	nmod	_	SpaceAfter=No
-59	itä	der	ART	ART	_	60	det	_	SpaceAfter=No
-60	t das n	nächster	ADJA	ADJA	_	58	nmod	_	SpaceAfter=No
-61	ächs	nach	APPR	APPR	_	62	case	_	SpaceAfter=No
-62	te nac	Fichte	NN	NN	_	60	nmod	_	SpaceAfter=No
-63	h	--	$,	$,	_	68	punct	_	_
-64	Fic	und	KON	KON	_	68	cc	_	SpaceAfter=No
-65	hte	der	ART	ART	_	68	det	_	SpaceAfter=No
-66	, un	ein	ART	ART	_	68	det	_	SpaceAfter=No
-67	d das	erster	ADJA	ADJA	_	68	amod	_	_
-68	eine er	Schrift	NN	NN	_	46	conj	_	SpaceAfter=No
-69	s	--	$,	$,	_	68	punct	_	SpaceAfter=No
-70	te 	der	PRELS	PRELS	_	72	nsubj	_	SpaceAfter=No
-71	Sch	der	ART	ART	_	72	det	_	SpaceAfter=No
-72	rift, die de	Veranlassung	NN	NN	_	68	acl	_	SpaceAfter=No
-73	r Ve	nach	APPR	APPR	_	75	case	_	SpaceAfter=No
-74	ranl	ein	ART	ART	_	75	det	_	SpaceAfter=No
-75	assung nach eine Ge	Gelegenheitsschrift	NN	NN	_	72	nmod	_	SpaceAfter=No
-76	lege	sein	VAINF	VAINF	_	72	cop	_	SpaceAfter=No
-77	nheits	sollen	VMFIN	VMFIN	_	76	aux	_	SpaceAfter=No
-78	s	--	$.	$.	_	9	punct	_	SpaceAfter=No
+53	ausEinem	ausein	APPRART	APPRART	_	54	case	_	SpaceAfter=No
+54	Stück	Stück	NN	NN	_	52	nmod	_	SpaceAfter=No
+55	,	--	$,	$,	_	52	punct	_	SpaceAfter=No
+56	an	an	APPR	APPR	_	58	case	_	_
+57	dialektischer	dialektisch	ADJA	ADJA	_	58	amod	_	SpaceAfter=No
+58	Virtuosität	Virtuosität	NN	NN	_	46	nmod	_	SpaceAfter=No
+59	das	der	ART	ART	_	60	det	_	SpaceAfter=No
+60	nächste	nächster	ADJA	ADJA	_	58	nmod	_	SpaceAfter=No
+61	nach	nach	APPR	APPR	_	62	case	_	SpaceAfter=No
+62	Fichte	Fichte	NN	NN	_	60	nmod	_	SpaceAfter=No
+63	,	--	$,	$,	_	68	punct	_	_
+64	und	und	KON	KON	_	68	cc	_	SpaceAfter=No
+65	das	der	ART	ART	_	68	det	_	SpaceAfter=No
+66	eine	ein	ART	ART	_	68	det	_	SpaceAfter=No
+67	erste	erster	ADJA	ADJA	_	68	amod	_	_
+68	Schrift	Schrift	NN	NN	_	46	conj	_	SpaceAfter=No
+69	,	--	$,	$,	_	68	punct	_	SpaceAfter=No
+70	die	der	PRELS	PRELS	_	72	nsubj	_	SpaceAfter=No
+71	der	der	ART	ART	_	72	det	_	SpaceAfter=No
+72	Veranlassung	Veranlassung	NN	NN	_	68	acl	_	SpaceAfter=No
+73	nach	nach	APPR	APPR	_	75	case	_	SpaceAfter=No
+74	eine	ein	ART	ART	_	75	det	_	SpaceAfter=No
+75	Gelegenheitsschrift	Gelegenheitsschrift	NN	NN	_	72	nmod	_	SpaceAfter=No
+76	sein	sein	VAINF	VAINF	_	72	cop	_	SpaceAfter=No
+77	sollte	sollen	VMFIN	VMFIN	_	76	aux	_	SpaceAfter=No
+78	.	--	$.	$.	_	9	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -37139,27 +37139,27 @@
 23	zur	zu	APPRART	APPRART	_	24	case	_	_
 24	Universalität	Universalität	NN	NN	_	22	nmod	_	_
 25	ist	sein	VAFIN	VAFIN	_	28	aux	_	_
-26	wohl noc	wohlnoch	ADV	ADV	_	27	advmod	_	SpaceAfter=No
-27	h nic	nicht	PTKNEG	PTKNEG	_	28	advmod	_	SpaceAfter=No
-28	ht gebil	bilden	VVPP	VVPP	_	2	conj	_	SpaceAfter=No
-29	det g	genug	ADV	ADV	_	28	advmod	_	SpaceAfter=No
-30	e	--	$,	$,	_	28	punct	_	SpaceAfter=No
-31	nu	um	KOUI	KOUI	_	38	mark	_	SpaceAfter=No
-32	g,	in	APPR	APPR	_	34	case	_	_
-33	um 	der	ART	ART	_	34	det	_	SpaceAfter=No
-34	in der Phil	Philosophie	NN	NN	_	38	obl	_	SpaceAfter=No
-35	oso	der	ART	ART	_	36	det	_	SpaceAfter=No
-36	phie d	Physik	NN	NN	_	34	nmod	_	SpaceAfter=No
-37	er 	der	PDS	PDS	_	38	expl	_	SpaceAfter=No
-38	Physik	finden	VVFIN	VVFIN	_	28	nmod	_	_
-39	da	zu	PTKZU	PTKZU	_	40	mark	_	SpaceAfter=No
-40	s find	können	VMINF	VMINF	_	38	aux	_	SpaceAfter=No
-41	e	--	$,	$,	_	45	punct	_	SpaceAfter=No
-42	n z	was	PRELS	PRELS	_	45	obj	_	SpaceAfter=No
-43	u k	sie	PPER	PPER	_	45	nsubj	_	SpaceAfter=No
-44	ön	da	ADV	ADV	_	45	advmod	_	SpaceAfter=No
-45	nen, 	suchen	VVFIN	VVFIN	_	38	ccomp	_	SpaceAfter=No
-46	w	--	$.	$.	_	2	punct	_	SpaceAfter=No
+26	wohlnoch	wohlnoch	ADV	ADV	_	27	advmod	_	SpaceAfter=No
+27	nicht	nicht	PTKNEG	PTKNEG	_	28	advmod	_	SpaceAfter=No
+28	gebildet	bilden	VVPP	VVPP	_	2	conj	_	SpaceAfter=No
+29	genug	genug	ADV	ADV	_	28	advmod	_	SpaceAfter=No
+30	,	--	$,	$,	_	28	punct	_	SpaceAfter=No
+31	um	um	KOUI	KOUI	_	38	mark	_	SpaceAfter=No
+32	in	in	APPR	APPR	_	34	case	_	_
+33	der	der	ART	ART	_	34	det	_	SpaceAfter=No
+34	Philosophie	Philosophie	NN	NN	_	38	obl	_	SpaceAfter=No
+35	der	der	ART	ART	_	36	det	_	SpaceAfter=No
+36	Physik	Physik	NN	NN	_	34	nmod	_	SpaceAfter=No
+37	das	der	PDS	PDS	_	38	expl	_	SpaceAfter=No
+38	finden	finden	VVFIN	VVFIN	_	28	nmod	_	_
+39	zu	zu	PTKZU	PTKZU	_	40	mark	_	SpaceAfter=No
+40	können	können	VMINF	VMINF	_	38	aux	_	SpaceAfter=No
+41	,	--	$,	$,	_	45	punct	_	SpaceAfter=No
+42	was	was	PRELS	PRELS	_	45	obj	_	SpaceAfter=No
+43	sie	sie	PPER	PPER	_	45	nsubj	_	SpaceAfter=No
+44	da	da	ADV	ADV	_	45	advmod	_	SpaceAfter=No
+45	sucht	suchen	VVFIN	VVFIN	_	38	ccomp	_	SpaceAfter=No
+46	.	--	$.	$.	_	2	punct	_	SpaceAfter=No
 
 # newpar id = athenaeum-f305
 # author = Friedrich Schlegel
@@ -37585,34 +37585,34 @@
 7	in	in	APPR	APPR	_	9	case	_	_
 8	dieser	dieser	PDAT	PDAT	_	9	det	_	_
 9	Richtung	Richtung	NN	NN	_	10	obl	_	_
-10	nicht treibe	nichttreiben	VVINF	VVINF	_	2	xcomp	_	SpaceAfter=No
-11	n	--	$,	$,	_	10	punct	_	SpaceAfter=No
-12	, 	es	PPER	PPER	_	17	expl	_	SpaceAfter=No
-13	es mü	müssen	VMFIN	VMFIN	_	17	aux	_	SpaceAfter=No
-14	ßte	uns	PPER	PPER	_	17	iobj	_	_
-15	uns 	denn	KON	KON	_	17	advmod	_	SpaceAfter=No
-16	denn j	jemand	PIS	PIS	_	17	nsubj	_	SpaceAfter=No
-17	emand be	belehren	VVINF	VVINF	_	2	parataxis	_	SpaceAfter=No
-18	l	--	$,	$,	_	17	punct	_	SpaceAfter=No
-19	ehren, 	Laokoon	NE	NE	_	23	punct	_	SpaceAfter=No
-20	Lao	sein	VAFIN	VAFIN	_	23	cop	_	SpaceAfter=No
-21	koon sei	wirklich	ADJD	ADJD	_	23	advmod	_	_
-22	wirkl	schon	ADV	ADV	_	23	advmod	_	SpaceAfter=No
-23	ich	tot	ADJD	ADJD	_	17	ccomp	_	_
-24	s	--	$,	$,	_	23	punct	_	SpaceAfter=No
-25	chon to	welcher	PRELS	PRELS	_	35	nsubj	_	SpaceAfter=No
-26	t, w	auch	ADV	ADV	_	35	advmod	_	SpaceAfter=No
-27	el	in	APPR	APPR	_	28	case	_	SpaceAfter=No
-28	ches auch	Rücksicht	NN	NN	_	35	obl	_	_
-29	in 	auf	APPR	APPR	_	31	case	_	SpaceAfter=No
-30	Rüc	der	ART	ART	_	31	det	_	SpaceAfter=No
-31	ksicht	Kenner	NN	NN	_	35	obl	_	_
-32	auf d	sein	PPOSAT	PPOSAT	_	34	det:poss	_	SpaceAfter=No
-33	en Kenner s	vollkommen	ADJA	ADJA	_	34	amod	_	SpaceAfter=No
-34	eine vollko	Richtigkeit	NN	NN	_	35	obj	_	SpaceAfter=No
-35	mmene	haben	VAFIN	VAFIN	_	23	advcl	_	_
-36	Richt	werden	VAFIN	VAFIN	_	35	cop	_	SpaceAfter=No
-37	i	--	$.	$.	_	2	punct	_	SpaceAfter=No
+10	nichttreiben	nichttreiben	VVINF	VVINF	_	2	xcomp	_	SpaceAfter=No
+11	,	--	$,	$,	_	10	punct	_	SpaceAfter=No
+12	es	es	PPER	PPER	_	17	expl	_	SpaceAfter=No
+13	müßte	müssen	VMFIN	VMFIN	_	17	aux	_	SpaceAfter=No
+14	uns	uns	PPER	PPER	_	17	iobj	_	_
+15	denn	denn	KON	KON	_	17	advmod	_	SpaceAfter=No
+16	jemand	jemand	PIS	PIS	_	17	nsubj	_	SpaceAfter=No
+17	belehren	belehren	VVINF	VVINF	_	2	parataxis	_	SpaceAfter=No
+18	,	--	$,	$,	_	17	punct	_	SpaceAfter=No
+19	Laokoon	Laokoon	NE	NE	_	23	punct	_	SpaceAfter=No
+20	sei	sein	VAFIN	VAFIN	_	23	cop	_	SpaceAfter=No
+21	wirklich	wirklich	ADJD	ADJD	_	23	advmod	_	_
+22	schon	schon	ADV	ADV	_	23	advmod	_	SpaceAfter=No
+23	tot	tot	ADJD	ADJD	_	17	ccomp	_	_
+24	,	--	$,	$,	_	23	punct	_	SpaceAfter=No
+25	welches	welcher	PRELS	PRELS	_	35	nsubj	_	SpaceAfter=No
+26	auch	auch	ADV	ADV	_	35	advmod	_	SpaceAfter=No
+27	in	in	APPR	APPR	_	28	case	_	SpaceAfter=No
+28	Rücksicht	Rücksicht	NN	NN	_	35	obl	_	_
+29	auf	auf	APPR	APPR	_	31	case	_	SpaceAfter=No
+30	den	der	ART	ART	_	31	det	_	SpaceAfter=No
+31	Kenner	Kenner	NN	NN	_	35	obl	_	_
+32	seine	sein	PPOSAT	PPOSAT	_	34	det:poss	_	SpaceAfter=No
+33	vollkommene	vollkommen	ADJA	ADJA	_	34	amod	_	SpaceAfter=No
+34	Richtigkeit	Richtigkeit	NN	NN	_	35	obj	_	SpaceAfter=No
+35	haben	haben	VAFIN	VAFIN	_	23	advcl	_	_
+36	würde	werden	VAFIN	VAFIN	_	35	cop	_	SpaceAfter=No
+37	.	--	$.	$.	_	2	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -38227,32 +38227,32 @@
 20	auf	auf	APPR	APPR	_	23	case	_	_
 21	dem	der	ART	ART	_	23	det	_	_
 22	festen	fest	ADJA	ADJA	_	23	amod	_	_
-23	Lande noc	Landenoch	NN	NN	_	25	obl	_	SpaceAfter=No
-24	h weit	weiter	ADV	ADV	_	25	advmod	_	SpaceAfter=No
-25	er verbrei	verbreiten	VVINF	VVINF	_	32	advcl	_	SpaceAfter=No
-26	ten so	sollen	VMFIN	VMFIN	_	25	aux	_	SpaceAfter=No
-27	l	--	$,	$,	_	25	punct	_	SpaceAfter=No
-28	lt	so	ADV	ADV	_	32	advmod	_	SpaceAfter=No
-29	e, so 	möchten	VMFIN	VMFIN	_	32	aux	_	SpaceAfter=No
-30	möc	man	PIS	PIS	_	32	nsubj	_	SpaceAfter=No
-31	hte ma	darauf	PROAV	PROAV	_	32	advmod	_	SpaceAfter=No
-32	n darauf	antragen	VVINF	VVINF	_	0	root	_	_
-33	a	--	$,	$,	_	32	punct	_	SpaceAfter=No
-34	ntr	der	ART	ART	_	37	det	_	SpaceAfter=No
-35	agen, de	ohnedies	ADJA	ADJA	_	37	amod	_	SpaceAfter=No
-36	n ohnedies uns	unschicklich	ADJA	ADJA	_	37	amod	_	SpaceAfter=No
-37	chick	Name	NN	NN	_	42	obj	_	SpaceAfter=No
-38	l	--	$,	$,	_	40	punct	_	SpaceAfter=No
-39	ichen Namen,	historisch	ADJA	ADJA	_	40	amod	_	_
-40	histori	Gemälde	NN	NN	_	37	appos	_	SpaceAfter=No
-41	s	--	$,	$,	_	40	punct	_	SpaceAfter=No
-42	ches Gemälde	abschaffen	ADJA	ADJA	_	32	ccomp	_	SpaceAfter=No
-43	, a	und	KON	KON	_	47	cc	_	SpaceAfter=No
-44	bzusc	dafür	PROAV	PROAV	_	47	advmod	_	SpaceAfter=No
-45	haffen und daf	theatralisch	ADJA	ADJA	_	46	amod	_	SpaceAfter=No
-46	ür thea	Gemälde	NN	NN	_	47	obj	_	SpaceAfter=No
-47	tralisches 	einführen	VVIZU	VVIZU	_	42	conj	_	SpaceAfter=No
-48	G	--	$.	$.	_	32	punct	_	SpaceAfter=No
+23	Landenoch	Landenoch	NN	NN	_	25	obl	_	SpaceAfter=No
+24	weiter	weiter	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+25	verbreiten	verbreiten	VVINF	VVINF	_	32	advcl	_	SpaceAfter=No
+26	sollte	sollen	VMFIN	VMFIN	_	25	aux	_	SpaceAfter=No
+27	,	--	$,	$,	_	25	punct	_	SpaceAfter=No
+28	so	so	ADV	ADV	_	32	advmod	_	SpaceAfter=No
+29	möchte	möchten	VMFIN	VMFIN	_	32	aux	_	SpaceAfter=No
+30	man	man	PIS	PIS	_	32	nsubj	_	SpaceAfter=No
+31	darauf	darauf	PROAV	PROAV	_	32	advmod	_	SpaceAfter=No
+32	antragen	antragen	VVINF	VVINF	_	0	root	_	_
+33	,	--	$,	$,	_	32	punct	_	SpaceAfter=No
+34	den	der	ART	ART	_	37	det	_	SpaceAfter=No
+35	ohnedies	ohnedies	ADJA	ADJA	_	37	amod	_	SpaceAfter=No
+36	unschicklichen	unschicklich	ADJA	ADJA	_	37	amod	_	SpaceAfter=No
+37	Namen	Name	NN	NN	_	42	obj	_	SpaceAfter=No
+38	,	--	$,	$,	_	40	punct	_	SpaceAfter=No
+39	historisches	historisch	ADJA	ADJA	_	40	amod	_	_
+40	Gemälde	Gemälde	NN	NN	_	37	appos	_	SpaceAfter=No
+41	,	--	$,	$,	_	40	punct	_	SpaceAfter=No
+42	abzuschaffen	abschaffen	ADJA	ADJA	_	32	ccomp	_	SpaceAfter=No
+43	und	und	KON	KON	_	47	cc	_	SpaceAfter=No
+44	dafür	dafür	PROAV	PROAV	_	47	advmod	_	SpaceAfter=No
+45	theatralisches	theatralisch	ADJA	ADJA	_	46	amod	_	SpaceAfter=No
+46	Gemälde	Gemälde	NN	NN	_	47	obj	_	SpaceAfter=No
+47	einzuführen	einführen	VVIZU	VVIZU	_	42	conj	_	SpaceAfter=No
+48	.	--	$.	$.	_	32	punct	_	SpaceAfter=No
 
 # newpar id = athenaeum-f312
 # author = Friedrich Schlegel
@@ -40177,7 +40177,7 @@
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f331-s4
-# text = So berührt sich auch hier in der Erscheinung das Niedrigste und das Erhabenste. 
+# text = So berührt sich auch hier in der Erscheinung das Niedrigste und das Erhabenste.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	berührt	berühren	VVFIN	VVFIN	_	0	root	_	_
 3	sich	sich	PRF	PRF	_	2	obj	_	_
@@ -41448,21 +41448,21 @@
 21	und	und	KON	KON	_	28	cc	_	_
 22	mit	mit	APPR	APPR	_	23	case	_	_
 23	wem	wem	PRELS	PRELS	_	25	obl	_	_
-24	es s	esso	ADV	ADV	_	25	advmod	_	SpaceAfter=No
-25	o ste	stehen	VVFIN	VVFIN	_	27	conj	_	SpaceAfter=No
-26	h	--	$,	$,	_	25	punct	_	SpaceAfter=No
-27	t, 	der	PDS	PDS	_	28	nsubj	_	SpaceAfter=No
-28	der	haben	VAFIN	VAFIN	_	2	conj	_	_
-29	hat natür	natürlich	ADV	ADV	_	28	advmod	_	SpaceAfter=No
-30	lic	für	APPR	APPR	_	33	case	_	SpaceAfter=No
-31	h für	sein	PPOSAT	PPOSAT	_	33	det:poss	_	_
-32	seine unbede	unbedeutend	ADJA	ADJA	_	33	amod	_	SpaceAfter=No
-33	utende Of	Offenheit	NN	NN	_	28	obl	_	SpaceAfter=No
-34	fenhe	ein	ART	ART	_	37	det	_	SpaceAfter=No
-35	it e	weit	ADJD	ADJD	_	36	advmod	_	SpaceAfter=No
-36	inen we	größern	ADJA	ADJA	_	37	amod	_	SpaceAfter=No
-37	it größer	Spielraum	NN	NN	_	28	obj	_	SpaceAfter=No
-38	n	--	$.	$.	_	2	punct	_	_
+24	esso	esso	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+25	steht	stehen	VVFIN	VVFIN	_	27	conj	_	SpaceAfter=No
+26	,	--	$,	$,	_	25	punct	_	SpaceAfter=No
+27	der	der	PDS	PDS	_	28	nsubj	_	SpaceAfter=No
+28	hat	haben	VAFIN	VAFIN	_	2	conj	_	_
+29	natürlich	natürlich	ADV	ADV	_	28	advmod	_	SpaceAfter=No
+30	für	für	APPR	APPR	_	33	case	_	SpaceAfter=No
+31	seine	sein	PPOSAT	PPOSAT	_	33	det:poss	_	_
+32	unbedeutende	unbedeutend	ADJA	ADJA	_	33	amod	_	SpaceAfter=No
+33	Offenheit	Offenheit	NN	NN	_	28	obl	_	SpaceAfter=No
+34	einen	ein	ART	ART	_	37	det	_	SpaceAfter=No
+35	weit	weit	ADJD	ADJD	_	36	advmod	_	SpaceAfter=No
+36	größern	größern	ADJA	ADJA	_	37	amod	_	SpaceAfter=No
+37	Spielraum	Spielraum	NN	NN	_	28	obj	_	SpaceAfter=No
+38	.	--	$.	$.	_	2	punct	_	_
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -42022,26 +42022,26 @@
 12	mit	mit	APPR	APPR	_	13	case	_	_
 13	Philosophie	Philosophie	NN	NN	_	11	nmod	_	_
 14	und	und	KON	KON	_	15	cc	_	_
-15	sittlicher Erfahrun	SittlicherErfahrung	NN	NN	_	13	conj	_	SpaceAfter=No
-16	g entsprin	entspringen	VVFIN	VVFIN	_	4	parataxis	_	SpaceAfter=No
-17	gt 	aus	APPR	APPR	_	18	case	_	SpaceAfter=No
-18	aus	ihm	PPER	PPER	_	16	obl	_	_
-19	ihm	der	ART	ART	_	21	det	_	_
-20	die namen	namenlos	ADJA	ADJA	_	21	amod	_	SpaceAfter=No
-21	lose 	Kunst	NN	NN	_	16	nsubj	_	SpaceAfter=No
-22	K	--	$,	$,	_	28	punct	_	SpaceAfter=No
-23	unst, 	welcher	PRELS	PRELS	_	28	nsubj	_	SpaceAfter=No
-24	wel	der	ART	ART	_	27	det	_	SpaceAfter=No
-25	che das v	verworrne	ADJA	ADJA	_	27	amod	_	SpaceAfter=No
-26	erworrne 	flüchtig	ADJA	ADJA	_	27	amod	_	SpaceAfter=No
-27	flüch	Leben	NN	NN	_	28	obj	_	SpaceAfter=No
-28	tige Leb	ergreifen	VVFIN	VVFIN	_	21	acl	_	SpaceAfter=No
-29	en 	und	KON	KON	_	33	cc	_	SpaceAfter=No
-30	erg	zu	APPRART	APPRART	_	32	case	_	SpaceAfter=No
-31	reift 	ewig	ADJA	ADJA	_	32	amod	_	SpaceAfter=No
-32	und zur	Einheit	NN	NN	_	33	obj	_	_
-33	ewigen	bilden	VVFIN	VVFIN	_	28	conj	_	_
-34	E	--	$.	$.	_	4	punct	_	SpaceAfter=No
+15	sittlicherErfahrung	SittlicherErfahrung	NN	NN	_	13	conj	_	SpaceAfter=No
+16	entspringt	entspringen	VVFIN	VVFIN	_	4	parataxis	_	SpaceAfter=No
+17	aus	aus	APPR	APPR	_	18	case	_	SpaceAfter=No
+18	ihm	ihm	PPER	PPER	_	16	obl	_	_
+19	die	der	ART	ART	_	21	det	_	_
+20	namenlose	namenlos	ADJA	ADJA	_	21	amod	_	SpaceAfter=No
+21	Kunst	Kunst	NN	NN	_	16	nsubj	_	SpaceAfter=No
+22	,	--	$,	$,	_	28	punct	_	SpaceAfter=No
+23	welche	welcher	PRELS	PRELS	_	28	nsubj	_	SpaceAfter=No
+24	das	der	ART	ART	_	27	det	_	SpaceAfter=No
+25	verworrne	verworrne	ADJA	ADJA	_	27	amod	_	SpaceAfter=No
+26	flüchtige	flüchtig	ADJA	ADJA	_	27	amod	_	SpaceAfter=No
+27	Leben	Leben	NN	NN	_	28	obj	_	SpaceAfter=No
+28	ergreift	ergreifen	VVFIN	VVFIN	_	21	acl	_	SpaceAfter=No
+29	und	und	KON	KON	_	33	cc	_	SpaceAfter=No
+30	zur	zu	APPRART	APPRART	_	32	case	_	SpaceAfter=No
+31	ewigen	ewig	ADJA	ADJA	_	32	amod	_	SpaceAfter=No
+32	Einheit	Einheit	NN	NN	_	33	obj	_	_
+33	bildet	bilden	VVFIN	VVFIN	_	28	conj	_	_
+34	.	--	$.	$.	_	4	punct	_	SpaceAfter=No
 
 # newpar id = athenaeum-f340
 # author = Friedrich Schlegel
@@ -42404,30 +42404,30 @@
 6	erschrecklichen	erschrecklich	ADJA	ADJA	_	7	amod	_	_
 7	Anlauf	Anlauf	NN	NN	_	2	obj	_	_
 8	und	und	KON	KON	_	10	cc	_	_
-9	wünschen sic	wünschensich	NN	NN	_	10	conj	_	SpaceAfter=No
-10	h Glü	Glück	NN	NN	_	7	obj	_	SpaceAfter=No
-11	ck	zu	APPR	APPR	_	14	case	_	_
-12	zu 	der	ART	ART	_	14	det	_	SpaceAfter=No
-13	der überstan	überstandnen	ADJA	ADJA	_	14	amod	_	SpaceAfter=No
-14	dnen G	Gefahr	NN	NN	_	2	obl	_	SpaceAfter=No
-15	e	--	$.	$.	_	16	punct	_	SpaceAfter=No
-16	fahr;	sehen	VVFIN	VVFIN	_	2	parataxis	_	_
-17	sie	man	PIS	PIS	_	16	nsubj	_	SpaceAfter=No
-18	ht m	aber	ADV	ADV	_	16	advmod	_	SpaceAfter=No
-19	an 	nur	ADV	ADV	_	16	advmod	_	SpaceAfter=No
-20	aber 	etwas	PIS	PIS	_	16	obj	_	SpaceAfter=No
-21	nur e	genau	ADV	ADV	_	16	advmod	_	SpaceAfter=No
-22	tw	zu	PTKZU	PTKZU	_	16	punct	_	SpaceAfter=No
-23	a	--	$,	$,	_	25	punct	_	SpaceAfter=No
-24	s 	so	ADV	ADV	_	25	advmod	_	SpaceAfter=No
-25	genau 	sitzen	VVFIN	VVFIN	_	16	parataxis	_	SpaceAfter=No
-26	zu,	sie	PPER	PPER	_	25	nsubj	_	_
-27	so si	immer	ADV	ADV	_	25	advmod	_	SpaceAfter=No
-28	tze	auf	APPR	APPR	_	31	case	_	SpaceAfter=No
-29	n s	der	ART	ART	_	31	det	_	SpaceAfter=No
-30	ie im	alt	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
-31	mer a	Fleck	NN	NN	_	25	obl	_	SpaceAfter=No
-32	u	--	$.	$.	_	2	punct	_	SpaceAfter=No
+9	wünschensich	wünschensich	NN	NN	_	10	conj	_	SpaceAfter=No
+10	Glück	Glück	NN	NN	_	7	obj	_	SpaceAfter=No
+11	zu	zu	APPR	APPR	_	14	case	_	_
+12	der	der	ART	ART	_	14	det	_	SpaceAfter=No
+13	überstandnen	überstandnen	ADJA	ADJA	_	14	amod	_	SpaceAfter=No
+14	Gefahr	Gefahr	NN	NN	_	2	obl	_	SpaceAfter=No
+15	;	--	$.	$.	_	16	punct	_	SpaceAfter=No
+16	sieht	sehen	VVFIN	VVFIN	_	2	parataxis	_	_
+17	man	man	PIS	PIS	_	16	nsubj	_	SpaceAfter=No
+18	aber	aber	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+19	nur	nur	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+20	etwas	etwas	PIS	PIS	_	16	obj	_	SpaceAfter=No
+21	genau	genau	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+22	zu	zu	PTKZU	PTKZU	_	16	punct	_	SpaceAfter=No
+23	,	--	$,	$,	_	25	punct	_	SpaceAfter=No
+24	so	so	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+25	sitzen	sitzen	VVFIN	VVFIN	_	16	parataxis	_	SpaceAfter=No
+26	sie	sie	PPER	PPER	_	25	nsubj	_	_
+27	immer	immer	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+28	auf	auf	APPR	APPR	_	31	case	_	SpaceAfter=No
+29	dem	der	ART	ART	_	31	det	_	SpaceAfter=No
+30	alten	alt	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
+31	Fleck	Fleck	NN	NN	_	25	obl	_	SpaceAfter=No
+32	.	--	$.	$.	_	2	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -42847,31 +42847,31 @@
 32	Leben	Leben	NN	NN	_	33	obj	_	_
 33	haben	haben	VAINF	VAINF	_	26	aux	_	_
 34	konnten	können	VMFIN	VMFIN	_	38	aux	_	SpaceAfter=No
-35	, noc	,noch	ADJD	ADJD	_	38	advmod	_	SpaceAfter=No
-36	h vie	vieler	PIAT	PIAT	_	37	det	_	SpaceAfter=No
-37	le an	andre	ADJA	ADJA	_	38	amod	_	SpaceAfter=No
-38	dre erz	erzeugen	VVPP	VVPP	_	18	conj	_	SpaceAfter=No
-39	eugt w	werden	VAPP	VAPP	_	38	aux:pass	_	SpaceAfter=No
-40	orden	sein	VAFIN	VAFIN	_	38	aux	_	_
-41	w	--	$,	$,	_	44	punct	_	SpaceAfter=No
-42	äre	der	ART	ART	_	44	nsubj	_	SpaceAfter=No
-43	n, d	zwar	ADV	ADV	_	44	advmod	_	SpaceAfter=No
-44	ie zwa	leben	VVFIN	VVFIN	_	38	conj	_	SpaceAfter=No
-45	r	--	$,	$,	_	44	punct	_	_
-46	lebt	aber	KON	KON	_	47	cc	_	SpaceAfter=No
-47	en, aber 	untergehn	ADV	ADV	_	38	advmod	_	SpaceAfter=No
-48	unterg	müssen	VMFIN	VMFIN	_	38	aux	_	SpaceAfter=No
-49	e	--	$,	$,	_	18	punct	_	SpaceAfter=No
-50	hn m	weil	KOUS	KOUS	_	56	mark	_	SpaceAfter=No
-51	uß	es	PPER	PPER	_	56	nsubj	_	SpaceAfter=No
-52	ten, 	ihnen	PPER	PPER	_	56	obj	_	SpaceAfter=No
-53	we	an	APPR	APPR	_	55	case	_	SpaceAfter=No
-54	il 	der	ART	ART	_	55	det	_	SpaceAfter=No
-55	es ih	Kraft	NN	NN	_	56	obl	_	SpaceAfter=No
-56	nen an	fehlen	VVFIN	VVFIN	_	18	advcl	_	_
-57	der 	sich	PRF	PRF	_	56	obj	_	SpaceAfter=No
-58	Kraft fehlte s	fortpflanzen	VVINF	VVINF	_	56	xcomp	_	SpaceAfter=No
-59	i	--	$.	$.	_	4	punct	_	SpaceAfter=No
+35	,noch	,noch	ADJD	ADJD	_	38	advmod	_	SpaceAfter=No
+36	viele	vieler	PIAT	PIAT	_	37	det	_	SpaceAfter=No
+37	andre	andre	ADJA	ADJA	_	38	amod	_	SpaceAfter=No
+38	erzeugt	erzeugen	VVPP	VVPP	_	18	conj	_	SpaceAfter=No
+39	worden	werden	VAPP	VAPP	_	38	aux:pass	_	SpaceAfter=No
+40	wären	sein	VAFIN	VAFIN	_	38	aux	_	_
+41	,	--	$,	$,	_	44	punct	_	SpaceAfter=No
+42	die	der	ART	ART	_	44	nsubj	_	SpaceAfter=No
+43	zwar	zwar	ADV	ADV	_	44	advmod	_	SpaceAfter=No
+44	lebten	leben	VVFIN	VVFIN	_	38	conj	_	SpaceAfter=No
+45	,	--	$,	$,	_	44	punct	_	_
+46	aber	aber	KON	KON	_	47	cc	_	SpaceAfter=No
+47	untergehn	untergehn	ADV	ADV	_	38	advmod	_	SpaceAfter=No
+48	mußten	müssen	VMFIN	VMFIN	_	38	aux	_	SpaceAfter=No
+49	,	--	$,	$,	_	18	punct	_	SpaceAfter=No
+50	weil	weil	KOUS	KOUS	_	56	mark	_	SpaceAfter=No
+51	es	es	PPER	PPER	_	56	nsubj	_	SpaceAfter=No
+52	ihnen	ihnen	PPER	PPER	_	56	obj	_	SpaceAfter=No
+53	an	an	APPR	APPR	_	55	case	_	SpaceAfter=No
+54	der	der	ART	ART	_	55	det	_	SpaceAfter=No
+55	Kraft	Kraft	NN	NN	_	56	obl	_	SpaceAfter=No
+56	fehlte	fehlen	VVFIN	VVFIN	_	18	advcl	_	_
+57	sich	sich	PRF	PRF	_	56	obj	_	SpaceAfter=No
+58	fortzupflanzen	fortpflanzen	VVINF	VVINF	_	56	xcomp	_	SpaceAfter=No
+59	.	--	$.	$.	_	4	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -43407,24 +43407,24 @@
 31	Abstrakte	Abstrakt	NN	NN	_	33	nsubj	_	_
 32	lehrreich	lehrreich	ADV	ADV	_	33	advmod	_	_
 33	einkleiden	einkleiden	VVPP	VVPP	_	25	acl	_	SpaceAfter=No
-34	; un	";und"	KON	KON	_	36	cc	_	SpaceAfter=No
-35	d 	er	PPER	PPER	_	36	nsubj	_	SpaceAfter=No
-36	er 	haben	VVFIN	VVFIN	_	14	conj	_	SpaceAfter=No
-37	hat	der	ART	ART	_	38	det	_	_
-38	das Zutr	zutrauen	NN	NN	_	36	obj	_	SpaceAfter=No
-39	a	--	$,	$,	_	44	punct	_	SpaceAfter=No
-40	uen	der	ART	ART	_	42	det	_	SpaceAfter=No
-41	, die geoffen	geoffenbart	ADJA	ADJA	_	42	amod	_	SpaceAfter=No
-42	barten Gehe	Geheimnis	NN	NN	_	44	nsubj	_	SpaceAfter=No
-43	imnis	sein	VAFIN	VAFIN	_	44	cop	_	SpaceAfter=No
-44	se seien	bestimmen	ADJD	ADJD	_	36	acl	_	_
-45	b	--	$,	$,	_	50	punct	_	SpaceAfter=No
-46	es	in	APPRART	APPRART	_	47	case	_	SpaceAfter=No
-47	timmt, im Vernunft	Vernunftwahrheit	NN	NN	_	50	obl	_	SpaceAfter=No
-48	wahrheiten 	ausbilden	ADJD	ADJD	_	50	xcomp	_	SpaceAfter=No
-49	au	zu	PTKZU	PTKZU	_	50	mark	_	SpaceAfter=No
-50	sgebil	werden	VAINF	VAINF	_	44	xcomp	_	SpaceAfter=No
-51	d	--	$.	$.	_	5	punct	_	SpaceAfter=No
+34	;und	";und"	KON	KON	_	36	cc	_	SpaceAfter=No
+35	er	er	PPER	PPER	_	36	nsubj	_	SpaceAfter=No
+36	hat	haben	VVFIN	VVFIN	_	14	conj	_	SpaceAfter=No
+37	das	der	ART	ART	_	38	det	_	_
+38	Zutrauen	zutrauen	NN	NN	_	36	obj	_	SpaceAfter=No
+39	,	--	$,	$,	_	44	punct	_	SpaceAfter=No
+40	die	der	ART	ART	_	42	det	_	SpaceAfter=No
+41	geoffenbarten	geoffenbart	ADJA	ADJA	_	42	amod	_	SpaceAfter=No
+42	Geheimnisse	Geheimnis	NN	NN	_	44	nsubj	_	SpaceAfter=No
+43	seien	sein	VAFIN	VAFIN	_	44	cop	_	SpaceAfter=No
+44	bestimmt	bestimmen	ADJD	ADJD	_	36	acl	_	_
+45	,	--	$,	$,	_	50	punct	_	SpaceAfter=No
+46	im	in	APPRART	APPRART	_	47	case	_	SpaceAfter=No
+47	Vernunftwahrheiten	Vernunftwahrheit	NN	NN	_	50	obl	_	SpaceAfter=No
+48	ausgebildet	ausbilden	ADJD	ADJD	_	50	xcomp	_	SpaceAfter=No
+49	zu	zu	PTKZU	PTKZU	_	50	mark	_	SpaceAfter=No
+50	werden	werden	VAINF	VAINF	_	44	xcomp	_	SpaceAfter=No
+51	.	--	$.	$.	_	5	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -44391,113 +44391,113 @@
 4	aber	aber	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 5	,	--	$,	$,	_	9	punct	_	_
 6	der	der	PRELS	PRELS	_	9	nsubj	_	_
-7	seine Handlunge	seinehandlungen	PPOSAT	PPOSAT	_	8	det:poss	_	SpaceAfter=No
-8	n 	so	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-9	so abm	abmessen	VVFIN	VVFIN	_	0	root	_	SpaceAfter=No
-10	i	--	$,	$,	_	9	punct	_	SpaceAfter=No
-11	ßt,	daß	KOUS	KOUS	_	14	mark	_	_
-12	daß ni	nichts	PIS	PIS	_	14	nsubj	_	SpaceAfter=No
-13	chts 	dabei	PROAV	PROAV	_	14	advmod	_	SpaceAfter=No
-14	dabei heraus	herauskommen	VVINF	VVINF	_	9	advcl	_	SpaceAfter=No
-15	komm	können	VMFIN	VMFIN	_	14	aux	_	SpaceAfter=No
-16	e	--	$,	$,	_	14	punct	_	SpaceAfter=No
-17	n k	als	KOKOM	KOKOM	_	112	mark	_	SpaceAfter=No
-18	ann	was	PWS	PWS	_	21	obj	_	SpaceAfter=No
-19	, 	er	PPER	PPER	_	21	nsubj	_	SpaceAfter=No
-20	als wa	selbst	ADV	ADV	_	21	advmod	_	SpaceAfter=No
-21	s er selbst 	beabsichtigen	VVFIN	VVFIN	_	23	csubj	_	SpaceAfter=No
-22	b	--	$,	$,	_	21	punct	_	SpaceAfter=No
-23	eabsi	machen	VVFIN	VVFIN	_	94	advcl	_	SpaceAfter=No
-24	cht	uns	PPER	PPER	_	23	obj	_	SpaceAfter=No
-25	igt	für	APPR	APPR	_	26	case	_	SpaceAfter=No
-26	, mach	beide	PIS	PIS	_	23	obl	_	SpaceAfter=No
-27	t un	bloß	ADV	ADV	_	32	advmod	_	SpaceAfter=No
-28	s f	von	APPR	APPR	_	31	case	_	SpaceAfter=No
-29	ür bei	sein	PPOSAT	PPOSAT	_	31	det:poss	_	SpaceAfter=No
-30	des b	gut	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
-31	loß vo	Wille	NN	NN	_	32	nmod	_	SpaceAfter=No
-32	n seinem	abhängig	ADJD	ADJD	_	26	parataxis	_	_
-33	g	--	$.	$.	_	23	punct	_	SpaceAfter=No
-34	ute	und	KON	KON	_	39	cc	_	SpaceAfter=No
-35	n Wi	wenn	KOUS	KOUS	_	39	mark	_	SpaceAfter=No
-36	ll	er	PPER	PPER	_	39	nsubj	_	SpaceAfter=No
-37	en ab	nicht	PTKNEG	PTKNEG	_	39	advmod	_	SpaceAfter=No
-38	hängig; un	Wohlwollen	NN	NN	_	39	obj	_	SpaceAfter=No
-39	d wenn 	besitzen	VVFIN	VVFIN	_	23	conj	_	SpaceAfter=No
-40	e	--	$,	$,	_	39	punct	_	SpaceAfter=No
-41	r 	um	KOUI	KOUI	_	52	mark	_	SpaceAfter=No
-42	nic	mit	APPR	APPR	_	43	case	_	SpaceAfter=No
-43	ht Wohlwol	Bewußtsein	NN	NN	_	52	obl	_	SpaceAfter=No
-44	len	und	KON	KON	_	45	cc	_	_
-45	besitzt,	Freiheit	NN	NN	_	43	conj	_	_
-46	um	in	APPR	APPR	_	48	case	_	_
-47	mit	der	ART	ART	_	48	det	_	_
-48	Bewußtsei	Absicht	NN	NN	_	52	obl	_	SpaceAfter=No
-49	n und 	andr	ADV	ADV	_	52	advmod	_	SpaceAfter=No
-50	Freihe	hinein	ADV	ADV	_	52	advmod	_	SpaceAfter=No
-51	it	zu	PTKZU	PTKZU	_	52	mark	_	_
-52	in di	gehen	VVINF	VVINF	_	39	advcl	_	SpaceAfter=No
-53	e	--	$,	$,	_	66	punct	_	_
-54	Absi	oder	KON	KON	_	66	cc	_	SpaceAfter=No
-55	chte	wenn	KOUS	KOUS	_	61	mark	_	SpaceAfter=No
-56	n 	es	PPER	PPER	_	61	nsubj	_	SpaceAfter=No
-57	and	ihm	PPER	PPER	_	61	iobj	_	SpaceAfter=No
-58	re	an	APPR	APPR	_	60	case	_	SpaceAfter=No
-59	r h	der	ART	ART	_	60	det	_	SpaceAfter=No
-60	inein 	Ironie	NN	NN	_	61	obl	_	SpaceAfter=No
-61	zu ge	fehlen	VVFIN	VVFIN	_	66	advcl	_	SpaceAfter=No
-62	h	--	$,	$,	_	61	punct	_	SpaceAfter=No
-63	en,	der	PRELS	PRELS	_	66	nsubj	_	_
-64	ode	ihn	PPER	PPER	_	66	obj	_	SpaceAfter=No
-65	r wen	dahin	PROAV	PROAV	_	66	advmod	_	SpaceAfter=No
-66	n es ih	bringen	VVINF	VVINF	_	52	conj	_	SpaceAfter=No
-67	m an d	können	VMFIN	VMFIN	_	66	aux	_	SpaceAfter=No
-68	e	--	$,	$,	_	66	punct	_	SpaceAfter=No
-69	r Ironie fe	absichtlich	ADJD	ADJD	_	74	advmod	_	SpaceAfter=No
-70	hlt,	sich	PRF	PRF	_	74	obj	_	_
-71	die	aus	APPR	APPR	_	73	case	_	_
-72	ihn da	sein	PPOSAT	PPOSAT	_	73	det:poss	_	SpaceAfter=No
-73	hin brin	Klugheit	NN	NN	_	74	obl	_	SpaceAfter=No
-74	gen könnte, ab	heraussetzen	VVINF	VVINF	_	52	conj	_	SpaceAfter=No
-75	sic	und	KON	KON	_	89	cc	_	SpaceAfter=No
-76	htli	sich	PRF	PRF	_	89	obj	_	SpaceAfter=No
-77	ch 	mit	APPR	APPR	_	78	case	_	SpaceAfter=No
-78	sich aus 	Entsagung	NN	NN	_	89	obl	_	SpaceAfter=No
-79	sei	auf	APPR	APPR	_	83	case	_	SpaceAfter=No
-80	ner Klug	derselbe	PDAT	PDAT	_	83	det	_	SpaceAfter=No
-81	hei	als	KOKOM	KOKOM	_	83	case	_	SpaceAfter=No
-82	t h	ein	ART	ART	_	83	det	_	SpaceAfter=No
-83	erauszuset	Naturwesen	NN	NN	_	89	obl	_	SpaceAfter=No
-84	zen	der	ART	ART	_	85	det	_	_
-85	und sich mit	Gesellschaft	NN	NN	_	83	nmod	_	_
-86	Ent	zu	APPRART	APPRART	_	88	case	_	SpaceAfter=No
-87	sagung auf	beliebig	ADJA	ADJA	_	88	amod	_	_
-88	dieselbe	Gebrauch	NN	NN	_	85	nmod	_	_
-89	als ein Na	hingeben	VVINF	VVINF	_	74	conj	_	SpaceAfter=No
-90	t	--	$.	$.	_	23	punct	_	SpaceAfter=No
-91	ur	so	ADV	ADV	_	94	advmod	_	SpaceAfter=No
-92	wes	sein	VAFIN	VAFIN	_	94	cop	_	SpaceAfter=No
-93	en	es	PPER	PPER	_	94	nsubj	_	_
-94	der Gesel	natürlich	ADJD	ADJD	_	112	advcl	_	SpaceAfter=No
-95	l	--	$,	$,	_	94	punct	_	SpaceAfter=No
-96	sch	daß	KOUS	KOUS	_	112	mark	_	SpaceAfter=No
-97	aft	wir	PPER	PPER	_	112	nsubj	_	_
-98	zum	der	ART	ART	_	99	det	_	_
-99	belieb	Stelle	NN	NN	_	112	nsubj	_	SpaceAfter=No
-100	i	--	$,	$,	_	99	punct	_	SpaceAfter=No
-101	gen	der	PRELS	PRELS	_	106	nsubj	_	_
-102	Ge	er	PPER	PPER	_	106	nsubj	_	SpaceAfter=No
-103	br	in	APPR	APPR	_	105	case	_	SpaceAfter=No
-104	auch h	unser	PPOSAT	PPOSAT	_	105	det:poss	_	SpaceAfter=No
-105	inzuge	Kreis	NN	NN	_	106	obl	_	SpaceAfter=No
-106	ben: so 	einnehmen	VVFIN	VVFIN	_	99	acl	_	SpaceAfter=No
-107	i	--	$,	$,	_	106	punct	_	SpaceAfter=No
-108	st 	von	APPR	APPR	_	109	case	_	SpaceAfter=No
-109	es na	ein	PIS	PIS	_	112	obl	_	SpaceAfter=No
-110	türlic	anderer	PIS	PIS	_	111	nsubj:pass	_	SpaceAfter=No
-111	h, daß 	besetzen	VVPP	VVPP	_	112	xcomp	_	SpaceAfter=No
-112	wir die 	wünschen	VVINF	VVINF	_	14	advcl	_	SpaceAfter=No
-113	S	--	$.	$.	_	9	punct	_	SpaceAfter=No
+7	seineHandlungen	seinehandlungen	PPOSAT	PPOSAT	_	8	det:poss	_	SpaceAfter=No
+8	so	so	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+9	abmißt	abmessen	VVFIN	VVFIN	_	0	root	_	SpaceAfter=No
+10	,	--	$,	$,	_	9	punct	_	SpaceAfter=No
+11	daß	daß	KOUS	KOUS	_	14	mark	_	_
+12	nichts	nichts	PIS	PIS	_	14	nsubj	_	SpaceAfter=No
+13	dabei	dabei	PROAV	PROAV	_	14	advmod	_	SpaceAfter=No
+14	herauskommen	herauskommen	VVINF	VVINF	_	9	advcl	_	SpaceAfter=No
+15	kann	können	VMFIN	VMFIN	_	14	aux	_	SpaceAfter=No
+16	,	--	$,	$,	_	14	punct	_	SpaceAfter=No
+17	als	als	KOKOM	KOKOM	_	112	mark	_	SpaceAfter=No
+18	was	was	PWS	PWS	_	21	obj	_	SpaceAfter=No
+19	er	er	PPER	PPER	_	21	nsubj	_	SpaceAfter=No
+20	selbst	selbst	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+21	beabsichtigt	beabsichtigen	VVFIN	VVFIN	_	23	csubj	_	SpaceAfter=No
+22	,	--	$,	$,	_	21	punct	_	SpaceAfter=No
+23	macht	machen	VVFIN	VVFIN	_	94	advcl	_	SpaceAfter=No
+24	uns	uns	PPER	PPER	_	23	obj	_	SpaceAfter=No
+25	für	für	APPR	APPR	_	26	case	_	SpaceAfter=No
+26	beides	beide	PIS	PIS	_	23	obl	_	SpaceAfter=No
+27	bloß	bloß	ADV	ADV	_	32	advmod	_	SpaceAfter=No
+28	von	von	APPR	APPR	_	31	case	_	SpaceAfter=No
+29	seinem	sein	PPOSAT	PPOSAT	_	31	det:poss	_	SpaceAfter=No
+30	guten	gut	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
+31	Willen	Wille	NN	NN	_	32	nmod	_	SpaceAfter=No
+32	abhängig	abhängig	ADJD	ADJD	_	26	parataxis	_	_
+33	;	--	$.	$.	_	23	punct	_	SpaceAfter=No
+34	und	und	KON	KON	_	39	cc	_	SpaceAfter=No
+35	wenn	wenn	KOUS	KOUS	_	39	mark	_	SpaceAfter=No
+36	er	er	PPER	PPER	_	39	nsubj	_	SpaceAfter=No
+37	nicht	nicht	PTKNEG	PTKNEG	_	39	advmod	_	SpaceAfter=No
+38	Wohlwollen	Wohlwollen	NN	NN	_	39	obj	_	SpaceAfter=No
+39	besitzt	besitzen	VVFIN	VVFIN	_	23	conj	_	SpaceAfter=No
+40	,	--	$,	$,	_	39	punct	_	SpaceAfter=No
+41	um	um	KOUI	KOUI	_	52	mark	_	SpaceAfter=No
+42	mit	mit	APPR	APPR	_	43	case	_	SpaceAfter=No
+43	Bewußtsein	Bewußtsein	NN	NN	_	52	obl	_	SpaceAfter=No
+44	und	und	KON	KON	_	45	cc	_	_
+45	Freiheit	Freiheit	NN	NN	_	43	conj	_	_
+46	in	in	APPR	APPR	_	48	case	_	_
+47	die	der	ART	ART	_	48	det	_	_
+48	Absichten	Absicht	NN	NN	_	52	obl	_	SpaceAfter=No
+49	andrer	andr	ADV	ADV	_	52	advmod	_	SpaceAfter=No
+50	hinein	hinein	ADV	ADV	_	52	advmod	_	SpaceAfter=No
+51	zu	zu	PTKZU	PTKZU	_	52	mark	_	_
+52	gehen	gehen	VVINF	VVINF	_	39	advcl	_	SpaceAfter=No
+53	,	--	$,	$,	_	66	punct	_	_
+54	oder	oder	KON	KON	_	66	cc	_	SpaceAfter=No
+55	wenn	wenn	KOUS	KOUS	_	61	mark	_	SpaceAfter=No
+56	es	es	PPER	PPER	_	61	nsubj	_	SpaceAfter=No
+57	ihm	ihm	PPER	PPER	_	61	iobj	_	SpaceAfter=No
+58	an	an	APPR	APPR	_	60	case	_	SpaceAfter=No
+59	der	der	ART	ART	_	60	det	_	SpaceAfter=No
+60	Ironie	Ironie	NN	NN	_	61	obl	_	SpaceAfter=No
+61	fehlt	fehlen	VVFIN	VVFIN	_	66	advcl	_	SpaceAfter=No
+62	,	--	$,	$,	_	61	punct	_	SpaceAfter=No
+63	die	der	PRELS	PRELS	_	66	nsubj	_	_
+64	ihn	ihn	PPER	PPER	_	66	obj	_	SpaceAfter=No
+65	dahin	dahin	PROAV	PROAV	_	66	advmod	_	SpaceAfter=No
+66	bringen	bringen	VVINF	VVINF	_	52	conj	_	SpaceAfter=No
+67	könnte	können	VMFIN	VMFIN	_	66	aux	_	SpaceAfter=No
+68	,	--	$,	$,	_	66	punct	_	SpaceAfter=No
+69	absichtlich	absichtlich	ADJD	ADJD	_	74	advmod	_	SpaceAfter=No
+70	sich	sich	PRF	PRF	_	74	obj	_	_
+71	aus	aus	APPR	APPR	_	73	case	_	_
+72	seiner	sein	PPOSAT	PPOSAT	_	73	det:poss	_	SpaceAfter=No
+73	Klugheit	Klugheit	NN	NN	_	74	obl	_	SpaceAfter=No
+74	herauszusetzen	heraussetzen	VVINF	VVINF	_	52	conj	_	SpaceAfter=No
+75	und	und	KON	KON	_	89	cc	_	SpaceAfter=No
+76	sich	sich	PRF	PRF	_	89	obj	_	SpaceAfter=No
+77	mit	mit	APPR	APPR	_	78	case	_	SpaceAfter=No
+78	Entsagung	Entsagung	NN	NN	_	89	obl	_	SpaceAfter=No
+79	auf	auf	APPR	APPR	_	83	case	_	SpaceAfter=No
+80	dieselbe	derselbe	PDAT	PDAT	_	83	det	_	SpaceAfter=No
+81	als	als	KOKOM	KOKOM	_	83	case	_	SpaceAfter=No
+82	ein	ein	ART	ART	_	83	det	_	SpaceAfter=No
+83	Naturwesen	Naturwesen	NN	NN	_	89	obl	_	SpaceAfter=No
+84	der	der	ART	ART	_	85	det	_	_
+85	Gesellschaft	Gesellschaft	NN	NN	_	83	nmod	_	_
+86	zum	zu	APPRART	APPRART	_	88	case	_	SpaceAfter=No
+87	beliebigen	beliebig	ADJA	ADJA	_	88	amod	_	_
+88	Gebrauch	Gebrauch	NN	NN	_	85	nmod	_	_
+89	hinzugeben	hingeben	VVINF	VVINF	_	74	conj	_	SpaceAfter=No
+90	:	--	$.	$.	_	23	punct	_	SpaceAfter=No
+91	so	so	ADV	ADV	_	94	advmod	_	SpaceAfter=No
+92	ist	sein	VAFIN	VAFIN	_	94	cop	_	SpaceAfter=No
+93	es	es	PPER	PPER	_	94	nsubj	_	_
+94	natürlich	natürlich	ADJD	ADJD	_	112	advcl	_	SpaceAfter=No
+95	,	--	$,	$,	_	94	punct	_	SpaceAfter=No
+96	daß	daß	KOUS	KOUS	_	112	mark	_	SpaceAfter=No
+97	wir	wir	PPER	PPER	_	112	nsubj	_	_
+98	die	der	ART	ART	_	99	det	_	_
+99	Stelle	Stelle	NN	NN	_	112	nsubj	_	SpaceAfter=No
+100	,	--	$,	$,	_	99	punct	_	SpaceAfter=No
+101	die	der	PRELS	PRELS	_	106	nsubj	_	_
+102	er	er	PPER	PPER	_	106	nsubj	_	SpaceAfter=No
+103	in	in	APPR	APPR	_	105	case	_	SpaceAfter=No
+104	unserm	unser	PPOSAT	PPOSAT	_	105	det:poss	_	SpaceAfter=No
+105	Kreise	Kreis	NN	NN	_	106	obl	_	SpaceAfter=No
+106	einnimmt	einnehmen	VVFIN	VVFIN	_	99	acl	_	SpaceAfter=No
+107	,	--	$,	$,	_	106	punct	_	SpaceAfter=No
+108	von	von	APPR	APPR	_	109	case	_	SpaceAfter=No
+109	einem	ein	PIS	PIS	_	112	obl	_	SpaceAfter=No
+110	andern	anderer	PIS	PIS	_	111	nsubj:pass	_	SpaceAfter=No
+111	besetzt	besetzen	VVPP	VVPP	_	112	xcomp	_	SpaceAfter=No
+112	wünschen	wünschen	VVINF	VVINF	_	14	advcl	_	SpaceAfter=No
+113	.	--	$.	$.	_	9	punct	_	SpaceAfter=No
 
 # newpar id = athenaeum-f363
 # author = Friedrich Schlegel
@@ -45366,24 +45366,24 @@
 4	welche	welcher	PRELS	PRELS	_	8	nsubj	_	_
 5	offenbar	offenbar	ADV	ADV	_	8	advmod	_	_
 6	nicht	nicht	PTKNEG	PTKNEG	_	17	advmod	_	_
-7	selten de	seltend	ADJA	ADJA	_	8	amod	_	SpaceAfter=No
-8	r Gei	Geist	NN	NN	_	2	acl	_	SpaceAfter=No
-9	st 	der	ART	ART	_	10	det	_	SpaceAfter=No
-10	der Monarc	Monarchien	NN	NN	_	8	nmod	_	SpaceAfter=No
-11	hie	sein	VAFIN	VAFIN	_	8	cop	_	SpaceAfter=No
-12	n	--	$,	$,	_	8	punct	_	_
-13	war	sein	VAFIN	VAFIN	_	17	cop	_	SpaceAfter=No
-14	, ist viel	vielleicht	ADV	ADV	_	17	advmod	_	SpaceAfter=No
-15	leicht n	nirgends	ADV	ADV	_	17	advmod	_	SpaceAfter=No
-16	ir	so	ADV	ADV	_	17	advmod	_	SpaceAfter=No
-17	gend	rein	ADJD	ADJD	_	0	root	_	SpaceAfter=No
-18	s s	und	KON	KON	_	20	cc	_	SpaceAfter=No
-19	o rein und	konsequent	ADV	ADV	_	20	advmod	_	_
-20	konsequent	ausführen	VVPP	VVPP	_	17	acl	_	_
-21	aus	wie	KOKOM	KOKOM	_	23	cc	_	SpaceAfter=No
-22	ge	zu	APPR	APPR	_	23	case	_	SpaceAfter=No
-23	führt 	Sparta	VVINF	VVINF	_	20	nmod	_	SpaceAfter=No
-24	w	--	$.	$.	_	17	punct	_	SpaceAfter=No
+7	seltender	seltend	ADJA	ADJA	_	8	amod	_	SpaceAfter=No
+8	Geist	Geist	NN	NN	_	2	acl	_	SpaceAfter=No
+9	der	der	ART	ART	_	10	det	_	SpaceAfter=No
+10	Monarchien	Monarchien	NN	NN	_	8	nmod	_	SpaceAfter=No
+11	war	sein	VAFIN	VAFIN	_	8	cop	_	SpaceAfter=No
+12	,	--	$,	$,	_	8	punct	_	_
+13	ist	sein	VAFIN	VAFIN	_	17	cop	_	SpaceAfter=No
+14	vielleicht	vielleicht	ADV	ADV	_	17	advmod	_	SpaceAfter=No
+15	nirgends	nirgends	ADV	ADV	_	17	advmod	_	SpaceAfter=No
+16	so	so	ADV	ADV	_	17	advmod	_	SpaceAfter=No
+17	rein	rein	ADJD	ADJD	_	0	root	_	SpaceAfter=No
+18	und	und	KON	KON	_	20	cc	_	SpaceAfter=No
+19	konsequent	konsequent	ADV	ADV	_	20	advmod	_	_
+20	ausgeführt	ausführen	VVPP	VVPP	_	17	acl	_	_
+21	wie	wie	KOKOM	KOKOM	_	23	cc	_	SpaceAfter=No
+22	zu	zu	APPR	APPR	_	23	case	_	SpaceAfter=No
+23	Sparta	Sparta	VVINF	VVINF	_	20	nmod	_	SpaceAfter=No
+24	.	--	$.	$.	_	17	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -46648,37 +46648,37 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f380-s9
 # text = Bei epischen Gedichten und dem Roman insbesondre sollte der Vorleser nie von seinem Gegenstande hingerissen scheinen, sondern die stille Superiorität des Verfassers selbst behaupten, der über seinem Werke ist.
-1	Bei epische	beiepisch	ADJA	ADJA	_	2	amod	_	SpaceAfter=No
-2	n Gedicht	Gedicht	NN	NN	_	15	iobj	_	SpaceAfter=No
-3	en 	und	KON	KON	_	5	cc	_	SpaceAfter=No
-4	und	der	ART	ART	_	5	det	_	_
-5	dem R	Roman	NN	NN	_	2	conj	_	SpaceAfter=No
-6	oman insbes	insbesondre	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-7	ondre 	sollen	VMFIN	VMFIN	_	15	aux	_	SpaceAfter=No
-8	sol	der	ART	ART	_	9	det	_	SpaceAfter=No
-9	lte der 	Vorleser	NN	NN	_	15	nsubj	_	SpaceAfter=No
-10	Vor	nie	ADV	ADV	_	15	advmod	_	SpaceAfter=No
-11	les	von	APPR	APPR	_	13	case	_	SpaceAfter=No
-12	er nie	sein	PPOSAT	PPOSAT	_	13	det:poss	_	_
-13	von seinem 	Gegenstand	NN	NN	_	15	obl	_	SpaceAfter=No
-14	Gegenstande	hingerissen	VVPP	VVPP	_	15	xcomp	_	_
-15	hingeris	scheinen	VVINF	VVINF	_	0	root	_	SpaceAfter=No
-16	s	--	$,	$,	_	24	punct	_	SpaceAfter=No
-17	en sche	sondern	KON	KON	_	24	cc	_	SpaceAfter=No
-18	ine	der	ART	ART	_	20	det	_	SpaceAfter=No
-19	n, son	still	ADJA	ADJA	_	20	amod	_	SpaceAfter=No
-20	dern die sti	Superiorität	NN	NN	_	24	obj	_	SpaceAfter=No
-21	lle	der	ART	ART	_	22	det	_	_
-22	Superiorit	Verfasser	NN	NN	_	20	nmod	_	SpaceAfter=No
-23	ät des	selbst	ADV	ADV	_	24	advmod	_	_
-24	Verfasser	behaupten	VVFIN	VVFIN	_	15	conj	_	SpaceAfter=No
-25	s	--	$,	$,	_	29	punct	_	_
-26	sel	der	PDS	PDS	_	29	nsubj	_	SpaceAfter=No
-27	bst 	über	APPR	APPR	_	29	case	_	SpaceAfter=No
-28	behaup	sein	PPOSAT	PPOSAT	_	29	det:poss	_	SpaceAfter=No
-29	ten, 	Werk	NN	NN	_	22	acl	_	SpaceAfter=No
-30	der	sein	VAFIN	VAFIN	_	29	cop	_	_
-31	ü	--	$.	$.	_	15	punct	_	SpaceAfter=No
+1	Beiepischen	beiepisch	ADJA	ADJA	_	2	amod	_	SpaceAfter=No
+2	Gedichten	Gedicht	NN	NN	_	15	iobj	_	SpaceAfter=No
+3	und	und	KON	KON	_	5	cc	_	SpaceAfter=No
+4	dem	der	ART	ART	_	5	det	_	_
+5	Roman	Roman	NN	NN	_	2	conj	_	SpaceAfter=No
+6	insbesondre	insbesondre	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	sollte	sollen	VMFIN	VMFIN	_	15	aux	_	SpaceAfter=No
+8	der	der	ART	ART	_	9	det	_	SpaceAfter=No
+9	Vorleser	Vorleser	NN	NN	_	15	nsubj	_	SpaceAfter=No
+10	nie	nie	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+11	von	von	APPR	APPR	_	13	case	_	SpaceAfter=No
+12	seinem	sein	PPOSAT	PPOSAT	_	13	det:poss	_	_
+13	Gegenstande	Gegenstand	NN	NN	_	15	obl	_	SpaceAfter=No
+14	hingerissen	hingerissen	VVPP	VVPP	_	15	xcomp	_	_
+15	scheinen	scheinen	VVINF	VVINF	_	0	root	_	SpaceAfter=No
+16	,	--	$,	$,	_	24	punct	_	SpaceAfter=No
+17	sondern	sondern	KON	KON	_	24	cc	_	SpaceAfter=No
+18	die	der	ART	ART	_	20	det	_	SpaceAfter=No
+19	stille	still	ADJA	ADJA	_	20	amod	_	SpaceAfter=No
+20	Superiorität	Superiorität	NN	NN	_	24	obj	_	SpaceAfter=No
+21	des	der	ART	ART	_	22	det	_	_
+22	Verfassers	Verfasser	NN	NN	_	20	nmod	_	SpaceAfter=No
+23	selbst	selbst	ADV	ADV	_	24	advmod	_	_
+24	behaupten	behaupten	VVFIN	VVFIN	_	15	conj	_	SpaceAfter=No
+25	,	--	$,	$,	_	29	punct	_	_
+26	der	der	PDS	PDS	_	29	nsubj	_	SpaceAfter=No
+27	über	über	APPR	APPR	_	29	case	_	SpaceAfter=No
+28	seinem	sein	PPOSAT	PPOSAT	_	29	det:poss	_	SpaceAfter=No
+29	Werke	Werk	NN	NN	_	22	acl	_	SpaceAfter=No
+30	ist	sein	VAFIN	VAFIN	_	29	cop	_	_
+31	.	--	$.	$.	_	15	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -47362,25 +47362,25 @@
 12	ihren	ihr	PPOSAT	PPOSAT	_	13	det:poss	_	_
 13	Zweck	Zweck	NN	NN	_	14	obl	_	_
 14	überschreiten	überschreiten	ADJA	ADJA	_	7	ccomp	_	SpaceAfter=No
-15	, ihr	,ihr	ADJA	ADJA	_	16	amod	_	SpaceAfter=No
-16	e Kräf	Kraft	NN	NN	_	17	obj	_	SpaceAfter=No
-17	te übersprin	überspringen	VVINF	VVINF	_	14	conj	_	SpaceAfter=No
-18	g	--	$,	$,	_	22	punct	_	SpaceAfter=No
-19	en, 	oder	KON	KON	_	22	cc	_	SpaceAfter=No
-20	ode	der	ART	ART	_	21	det	_	SpaceAfter=No
-21	r die Philo	Philosophie	NN	NN	_	22	nsubj	_	SpaceAfter=No
-22	sophi	dürfen	VMFIN	VMFIN	_	14	conj	_	SpaceAfter=No
-23	e dürf	irgend	ADV	ADV	_	24	fixed	_	SpaceAfter=No
-24	e irg	etwas	ADV	ADV	_	22	advmod	_	SpaceAfter=No
-25	end e	nicht	PTKNEG	PTKNEG	_	17	advmod	_	SpaceAfter=No
-26	t	--	$,	$,	_	29	punct	_	SpaceAfter=No
+15	,ihre	,ihr	ADJA	ADJA	_	16	amod	_	SpaceAfter=No
+16	Kräfte	Kraft	NN	NN	_	17	obj	_	SpaceAfter=No
+17	überspringen	überspringen	VVINF	VVINF	_	14	conj	_	SpaceAfter=No
+18	,	--	$,	$,	_	22	punct	_	SpaceAfter=No
+19	oder	oder	KON	KON	_	22	cc	_	SpaceAfter=No
+20	die	der	ART	ART	_	21	det	_	SpaceAfter=No
+21	Philosophie	Philosophie	NN	NN	_	22	nsubj	_	SpaceAfter=No
+22	dürfe	dürfen	VMFIN	VMFIN	_	14	conj	_	SpaceAfter=No
+23	irgend	irgend	ADV	ADV	_	24	fixed	_	SpaceAfter=No
+24	etwas	etwas	ADV	ADV	_	22	advmod	_	SpaceAfter=No
+25	nicht	nicht	PTKNEG	PTKNEG	_	17	advmod	_	SpaceAfter=No
+26	,	--	$,	$,	_	29	punct	_	SpaceAfter=No
 27	was	was	PWS	PWS	_	29	obj	_	_
-28	nic	sie	PPER	PPER	_	29	nsubj	_	SpaceAfter=No
-29	ht, 	wollen	VMFIN	VMFIN	_	22	ccomp	_	SpaceAfter=No
-30	was	und	KON	KON	_	32	cc	_	_
-31	sie 	also	ADV	ADV	_	32	advmod	_	SpaceAfter=No
-32	will	sollen	VMFIN	VMFIN	_	29	conj	_	_
-33	u	--	$.	$.	_	7	punct	_	SpaceAfter=No
+28	sie	sie	PPER	PPER	_	29	nsubj	_	SpaceAfter=No
+29	will	wollen	VMFIN	VMFIN	_	22	ccomp	_	SpaceAfter=No
+30	und	und	KON	KON	_	32	cc	_	_
+31	also	also	ADV	ADV	_	32	advmod	_	SpaceAfter=No
+32	soll	sollen	VMFIN	VMFIN	_	29	conj	_	_
+33	.	--	$.	$.	_	7	punct	_	SpaceAfter=No
 
 # newpar id = athenaeum-f389
 # author = Friedrich Schlegel
@@ -47712,18 +47712,18 @@
 28	,	--	$,	$,	_	30	punct	_	_
 29	andre	andre	PIS	PIS	_	30	nsubj	_	_
 30	legen	legen	VVFIN	VVFIN	_	3	parataxis	_	_
-31	immer zurech	immerzurecht	ADV	ADV	_	30	advmod	_	SpaceAfter=No
-32	t u	und	KON	KON	_	33	cc	_	SpaceAfter=No
-33	nd mac	machen	VVINF	VVINF	_	30	conj	_	SpaceAfter=No
-34	hen Fä	Fach	NN	NN	_	30	obj	_	SpaceAfter=No
-35	c	--	$,	$,	_	37	punct	_	SpaceAfter=No
-36	her, 	andren	PIS	PIS	_	37	nsubj	_	SpaceAfter=No
-37	andre	sehen	VVINF	VVINF	_	3	parataxis	_	_
-38	se	zu	APPR	APPR	_	37	case	_	SpaceAfter=No
-39	hen	und	KON	KON	_	40	cc	_	_
-40	zu und	machen	VVINF	VVINF	_	37	conj	_	_
-41	mach	nach	APPR	APPR	_	40	case	_	SpaceAfter=No
-42	e	--	$.	$.	_	3	punct	_	SpaceAfter=No
+31	immerzurecht	immerzurecht	ADV	ADV	_	30	advmod	_	SpaceAfter=No
+32	und	und	KON	KON	_	33	cc	_	SpaceAfter=No
+33	machen	machen	VVINF	VVINF	_	30	conj	_	SpaceAfter=No
+34	Fächer	Fach	NN	NN	_	30	obj	_	SpaceAfter=No
+35	,	--	$,	$,	_	37	punct	_	SpaceAfter=No
+36	andre	andren	PIS	PIS	_	37	nsubj	_	SpaceAfter=No
+37	sehen	sehen	VVINF	VVINF	_	3	parataxis	_	_
+38	zu	zu	APPR	APPR	_	37	case	_	SpaceAfter=No
+39	und	und	KON	KON	_	40	cc	_	_
+40	machen	machen	VVINF	VVINF	_	37	conj	_	_
+41	nach	nach	APPR	APPR	_	40	case	_	SpaceAfter=No
+42	.	--	$.	$.	_	3	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -48065,28 +48065,28 @@
 26	frisches	frisch	ADJA	ADJA	_	27	amod	_	_
 27	Kolorit	Kolorit	NN	NN	_	24	conj	_	_
 28	und	und	KON	KON	_	31	cc	_	_
-29	eine gewiss	einegewiß	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
-30	e krystall	krystalln	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
-31	ne Durchsichtigk	Durchsichtigkeit	NN	NN	_	24	conj	_	SpaceAfter=No
-32	eit h	haben	VAFIN	VAFIN	_	11	acl	_	SpaceAfter=No
-33	a	--	$,	$,	_	41	punct	_	SpaceAfter=No
-34	ben	der	PRELS	PRELS	_	41	obj	_	SpaceAfter=No
-35	, d	man	PIS	PIS	_	41	nsubj	_	SpaceAfter=No
-36	ie 	mit	APPR	APPR	_	38	case	_	SpaceAfter=No
-37	man	der	ART	ART	_	38	det	_	_
-38	mit de	Wasser	NN	NN	_	41	obl	_	SpaceAfter=No
-39	m W	der	ART	ART	_	40	det	_	SpaceAfter=No
-40	asser der	Diamant	NN	NN	_	38	nmod	_	_
-41	Diamanten v	vergleichen	VVINF	VVINF	_	32	conj	_	SpaceAfter=No
-42	erglei	möchten	VMFIN	VMFIN	_	41	aux	_	SpaceAfter=No
-43	c	--	$,	$,	_	41	punct	_	SpaceAfter=No
-44	hen 	sein	VAFIN	VAFIN	_	3	parataxis	_	SpaceAfter=No
-45	möc	gar	ADV	ADV	_	44	advmod	_	SpaceAfter=No
-46	hte, 	nicht	PTKNEG	PTKNEG	_	47	neg	_	SpaceAfter=No
-47	sind	mehr	ADV	ADV	_	44	advmod	_	_
-48	ga	zu	PTKZU	PTKZU	_	49	mark	_	SpaceAfter=No
-49	r nicht 	taxieren	VVINF	VVINF	_	44	xcomp	_	SpaceAfter=No
-50	m	--	$.	$.	_	3	punct	_	SpaceAfter=No
+29	einegewisse	einegewiß	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
+30	krystallne	krystalln	ADJA	ADJA	_	31	amod	_	SpaceAfter=No
+31	Durchsichtigkeit	Durchsichtigkeit	NN	NN	_	24	conj	_	SpaceAfter=No
+32	haben	haben	VAFIN	VAFIN	_	11	acl	_	SpaceAfter=No
+33	,	--	$,	$,	_	41	punct	_	SpaceAfter=No
+34	die	der	PRELS	PRELS	_	41	obj	_	SpaceAfter=No
+35	man	man	PIS	PIS	_	41	nsubj	_	SpaceAfter=No
+36	mit	mit	APPR	APPR	_	38	case	_	SpaceAfter=No
+37	dem	der	ART	ART	_	38	det	_	_
+38	Wasser	Wasser	NN	NN	_	41	obl	_	SpaceAfter=No
+39	der	der	ART	ART	_	40	det	_	SpaceAfter=No
+40	Diamanten	Diamant	NN	NN	_	38	nmod	_	_
+41	vergleichen	vergleichen	VVINF	VVINF	_	32	conj	_	SpaceAfter=No
+42	möchte	möchten	VMFIN	VMFIN	_	41	aux	_	SpaceAfter=No
+43	,	--	$,	$,	_	41	punct	_	SpaceAfter=No
+44	sind	sein	VAFIN	VAFIN	_	3	parataxis	_	SpaceAfter=No
+45	gar	gar	ADV	ADV	_	44	advmod	_	SpaceAfter=No
+46	nicht	nicht	PTKNEG	PTKNEG	_	47	neg	_	SpaceAfter=No
+47	mehr	mehr	ADV	ADV	_	44	advmod	_	_
+48	zu	zu	PTKZU	PTKZU	_	49	mark	_	SpaceAfter=No
+49	taxieren	taxieren	VVINF	VVINF	_	44	xcomp	_	SpaceAfter=No
+50	.	--	$.	$.	_	3	punct	_	SpaceAfter=No
 
 # newpar id = athenaeum-f395
 # author = Friedrich Schlegel
@@ -48376,8 +48376,8 @@
 5	Krankheit	Krankheit	NN	NN	_	2	obj	_	_
 6	mit	mit	APPR	APPR	_	8	case	_	_
 7	aller	aller	PIAT	PIAT	_	8	det	_	_
-8	Unphilosophie gemei	Unphilosophiegemein	NN	NN	_	2	nmod	_	SpaceAfter=No
-9	n	--	$.	$.	_	2	punct	_	SpaceAfter=No
+8	Unphilosophiegemein	Unphilosophiegemein	NN	NN	_	2	nmod	_	SpaceAfter=No
+9	.	--	$.	$.	_	2	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -48677,30 +48677,30 @@
 48	ihre	ihr	PPOSAT	PPOSAT	_	49	det:poss	_	_
 49	Geschicklichkeit	Geschicklichkeit	NN	NN	_	51	obl	_	_
 50	ebenso	ebenso	ADV	ADV	_	51	advmod	_	_
-51	gern a	gernan	VVPP	VVPP	_	32	acl	_	SpaceAfter=No
-52	n jed	jeder	PIAT	PIAT	_	54	det	_	SpaceAfter=No
-53	em and	anderer	ADJA	ADJA	_	54	amod	_	SpaceAfter=No
-54	ern S	Stoff	NN	NN	_	55	obj	_	SpaceAfter=No
-55	toff z	zeigen	VVINF	VVINF	_	7	advcl	_	SpaceAfter=No
-56	eig	als	KOKOM	KOKOM	_	59	case	_	SpaceAfter=No
-57	en	an	APPR	APPR	_	59	case	_	_
-58	als	der	ART	ART	_	59	det	_	_
-59	an den	Werk	NN	NN	_	55	obl	_	_
-60	Wer	der	ART	ART	_	61	det	_	SpaceAfter=No
-61	ken des A	Altertum	NN	NN	_	59	nmod	_	SpaceAfter=No
-62	l	--	$,	$,	_	51	punct	_	SpaceAfter=No
-63	ter	für	APPR	APPR	_	64	case	_	SpaceAfter=No
-64	tum	der	PRELS	PRELS	_	72	obl	_	SpaceAfter=No
-65	s, 	sie	PPER	PPER	_	72	nsubj	_	SpaceAfter=No
-66	fü	in	APPR	APPR	_	68	case	_	SpaceAfter=No
-67	r d	der	ART	ART	_	68	det	_	SpaceAfter=No
-68	as si	Regel	NN	NN	_	72	nmod	_	SpaceAfter=No
-69	e in 	weder	KON	KON	_	70	cc	_	SpaceAfter=No
-70	der Regel	Interesse	NN	NN	_	68	conj	_	_
-71	wede	noch	ADV	ADV	_	72	advmod	_	SpaceAfter=No
-72	r In	Sinn	NN	NN	_	73	obj	_	SpaceAfter=No
-73	teres	haben	VAINF	VAINF	_	25	aux	_	SpaceAfter=No
-74	s	--	$.	$.	_	7	punct	_	SpaceAfter=No
+51	gernan	gernan	VVPP	VVPP	_	32	acl	_	SpaceAfter=No
+52	jedem	jeder	PIAT	PIAT	_	54	det	_	SpaceAfter=No
+53	andern	anderer	ADJA	ADJA	_	54	amod	_	SpaceAfter=No
+54	Stoff	Stoff	NN	NN	_	55	obj	_	SpaceAfter=No
+55	zeigen	zeigen	VVINF	VVINF	_	7	advcl	_	SpaceAfter=No
+56	als	als	KOKOM	KOKOM	_	59	case	_	SpaceAfter=No
+57	an	an	APPR	APPR	_	59	case	_	_
+58	den	der	ART	ART	_	59	det	_	_
+59	Werken	Werk	NN	NN	_	55	obl	_	_
+60	des	der	ART	ART	_	61	det	_	SpaceAfter=No
+61	Altertums	Altertum	NN	NN	_	59	nmod	_	SpaceAfter=No
+62	,	--	$,	$,	_	51	punct	_	SpaceAfter=No
+63	für	für	APPR	APPR	_	64	case	_	SpaceAfter=No
+64	das	der	PRELS	PRELS	_	72	obl	_	SpaceAfter=No
+65	sie	sie	PPER	PPER	_	72	nsubj	_	SpaceAfter=No
+66	in	in	APPR	APPR	_	68	case	_	SpaceAfter=No
+67	der	der	ART	ART	_	68	det	_	SpaceAfter=No
+68	Regel	Regel	NN	NN	_	72	nmod	_	SpaceAfter=No
+69	weder	weder	KON	KON	_	70	cc	_	SpaceAfter=No
+70	Interesse	Interesse	NN	NN	_	68	conj	_	_
+71	noch	noch	ADV	ADV	_	72	advmod	_	SpaceAfter=No
+72	Sinn	Sinn	NN	NN	_	73	obj	_	SpaceAfter=No
+73	haben	haben	VAINF	VAINF	_	25	aux	_	SpaceAfter=No
+74	.	--	$.	$.	_	7	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -49463,28 +49463,28 @@
 11	Fantasie	Fantasie	NN	NN	_	15	obl	_	_
 12	und	und	KON	KON	_	14	cc	_	_
 13	mit	mit	APPR	APPR	_	14	case	_	_
-14	grammatischem Sin	GrammatischemSinn	NN	NN	_	11	conj	_	SpaceAfter=No
-15	n verbund	verbinden	VVFIN	VVFIN	_	17	xcomp	_	SpaceAfter=No
-16	e	--	$,	$,	_	17	punct	_	SpaceAfter=No
-17	n, et	etwas	PIS	PIS	_	3	conj	_	SpaceAfter=No
-18	was 	sehr	ADV	ADV	_	19	advmod	_	SpaceAfter=No
-19	sehr Reiz	reizend	NN	NN	_	17	nmod	_	SpaceAfter=No
-20	end	und	KON	KON	_	21	cc	_	SpaceAfter=No
-21	es un	etwas	PRON	PRON	_	17	conj	_	SpaceAfter=No
-22	d et	sehr	ADV	ADV	_	23	advmod	_	SpaceAfter=No
-23	was s	gute	NN	NN	_	21	conj	_	SpaceAfter=No
-24	ehr 	sein	VAINF	VAINF	_	17	cop	_	SpaceAfter=No
-25	Gute	können	VMFIN	VMFIN	_	24	aux	_	SpaceAfter=No
-26	s	--	$,	$,	_	17	punct	_	_
-27	sein 	dienen	VVFIN	VVFIN	_	0	root	_	SpaceAfter=No
-28	kann,	ihnen	PPER	PPER	_	27	iobj	_	_
-29	die	oft	ADV	ADV	_	27	advmod	_	SpaceAfter=No
-30	nt 	als	APPR	APPR	_	31	case	_	SpaceAfter=No
-31	ihnen 	Symbol	NN	NN	_	27	obl	_	SpaceAfter=No
-32	oft a	ihr	PPOSAT	PPOSAT	_	34	det:poss	_	SpaceAfter=No
-33	ls Symb	schön	ADJA	ADJA	_	34	amod	_	SpaceAfter=No
-34	ol ihrer sc	Geheimnis	NN	NN	_	31	nmod	_	SpaceAfter=No
-35	h	--	$.	$.	_	27	punct	_	SpaceAfter=No
+14	grammatischemSinn	GrammatischemSinn	NN	NN	_	11	conj	_	SpaceAfter=No
+15	verbunden	verbinden	VVFIN	VVFIN	_	17	xcomp	_	SpaceAfter=No
+16	,	--	$,	$,	_	17	punct	_	SpaceAfter=No
+17	etwas	etwas	PIS	PIS	_	3	conj	_	SpaceAfter=No
+18	sehr	sehr	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+19	Reizendes	reizend	NN	NN	_	17	nmod	_	SpaceAfter=No
+20	und	und	KON	KON	_	21	cc	_	SpaceAfter=No
+21	etwas	etwas	PRON	PRON	_	17	conj	_	SpaceAfter=No
+22	sehr	sehr	ADV	ADV	_	23	advmod	_	SpaceAfter=No
+23	Gutes	gute	NN	NN	_	21	conj	_	SpaceAfter=No
+24	sein	sein	VAINF	VAINF	_	17	cop	_	SpaceAfter=No
+25	kann	können	VMFIN	VMFIN	_	24	aux	_	SpaceAfter=No
+26	,	--	$,	$,	_	17	punct	_	_
+27	dient	dienen	VVFIN	VVFIN	_	0	root	_	SpaceAfter=No
+28	ihnen	ihnen	PPER	PPER	_	27	iobj	_	_
+29	oft	oft	ADV	ADV	_	27	advmod	_	SpaceAfter=No
+30	als	als	APPR	APPR	_	31	case	_	SpaceAfter=No
+31	Symbol	Symbol	NN	NN	_	27	obl	_	SpaceAfter=No
+32	ihrer	ihr	PPOSAT	PPOSAT	_	34	det:poss	_	SpaceAfter=No
+33	schönen	schön	ADJA	ADJA	_	34	amod	_	SpaceAfter=No
+34	Geheimnisse	Geheimnis	NN	NN	_	31	nmod	_	SpaceAfter=No
+35	.	--	$.	$.	_	27	punct	_	SpaceAfter=No
 
 # newpar id = athenaeum-f415
 # author = Friedrich Schlegel
@@ -49780,46 +49780,46 @@
 8	absolute	absolut	ADJA	ADJA	_	9	amod	_	_
 9	Fantasie	Fantasie	NN	NN	_	17	nsubj:pass	_	_
 10	in	in	APPR	APPR	_	14	case	_	_
-11	diesem Roma	diesemroman	PDAT	PDAT	_	14	det	_	SpaceAfter=No
-12	n au	auch	ADV	ADV	_	14	advmod	_	SpaceAfter=No
-13	ch 	von	APPR	APPR	_	14	case	_	SpaceAfter=No
-14	von Eingewei	Eingeweiht	NN	NN	_	17	obl	_	SpaceAfter=No
-15	hte	der	ART	ART	_	16	det	_	SpaceAfter=No
-16	n der 	Poesie	NN	NN	_	14	nmod	_	SpaceAfter=No
-17	Poesie v	verkennen	VVPP	VVPP	_	2	advcl	_	SpaceAfter=No
-18	erk	und	KON	KON	_	22	cc	_	SpaceAfter=No
-19	ann	als	KOKOM	KOKOM	_	21	case	_	SpaceAfter=No
-20	t un	bloß	ADV	ADV	_	21	advmod	_	SpaceAfter=No
-21	d als bloß 	sentimental	ADJD	ADJD	_	22	xcomp	_	SpaceAfter=No
-22	sentiment	verachten	VVPP	VVPP	_	17	conj	_	SpaceAfter=No
-23	al ver	werden	VAINF	VAINF	_	22	aux:pass	_	SpaceAfter=No
-24	ach	mögen	VMFIN	VMFIN	_	22	aux	_	SpaceAfter=No
-25	t	--	$,	$,	_	45	punct	_	SpaceAfter=No
-26	et werd	während	KOUS	KOUS	_	45	mark	_	SpaceAfter=No
-27	en 	der	ART	ART	_	29	det	_	SpaceAfter=No
-28	mag, während	vernünftig	ADJA	ADJA	_	29	amod	_	_
-29	dem v	Leser	NN	NN	_	45	iobj	_	SpaceAfter=No
-30	e	--	$,	$,	_	39	punct	_	SpaceAfter=No
-31	rnü	der	PRELS	PRELS	_	39	nsubj	_	SpaceAfter=No
-32	nft	für	APPR	APPR	_	34	case	_	SpaceAfter=No
-33	igen	sein	PPOSAT	PPOSAT	_	34	det:poss	_	_
-34	Lese	Geld	NN	NN	_	39	obl	_	SpaceAfter=No
-35	r, de	mäßig	ADV	ADV	_	36	advmod	_	SpaceAfter=No
-36	r für s	rühren	ADJD	ADJD	_	38	xcomp	_	SpaceAfter=No
-37	ei	zu	PTKZU	PTKZU	_	38	mark	_	SpaceAfter=No
-38	n Geld	werden	VVFIN	VVFIN	_	39	xcomp	_	_
-39	mäßig ge	verlangen	VVFIN	VVFIN	_	29	acl	_	SpaceAfter=No
-40	r	--	$,	$,	_	39	punct	_	SpaceAfter=No
-41	ühr	der	ART	ART	_	42	det	_	SpaceAfter=No
-42	t zu werden 	Sentimentale	NN	NN	_	45	nsubj	_	SpaceAfter=No
-43	verla	darin	PROAV	PROAV	_	45	advmod	_	SpaceAfter=No
-44	ngt, das S	keineswegs	ADV	ADV	_	45	advmod	_	SpaceAfter=No
-45	entime	zusagen	VVFIN	VVFIN	_	17	conj	_	SpaceAfter=No
-46	nta	und	KON	KON	_	48	cc	_	SpaceAfter=No
-47	le d	sehr	ADV	ADV	_	48	advmod	_	SpaceAfter=No
-48	arin k	furios	ADJD	ADJD	_	49	xcomp	_	SpaceAfter=No
-49	eines	dünken	VVFIN	VVFIN	_	45	conj	_	SpaceAfter=No
-50	w	--	$.	$.	_	2	punct	_	SpaceAfter=No
+11	diesemRoman	diesemroman	PDAT	PDAT	_	14	det	_	SpaceAfter=No
+12	auch	auch	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+13	von	von	APPR	APPR	_	14	case	_	SpaceAfter=No
+14	Eingeweihten	Eingeweiht	NN	NN	_	17	obl	_	SpaceAfter=No
+15	der	der	ART	ART	_	16	det	_	SpaceAfter=No
+16	Poesie	Poesie	NN	NN	_	14	nmod	_	SpaceAfter=No
+17	verkannt	verkennen	VVPP	VVPP	_	2	advcl	_	SpaceAfter=No
+18	und	und	KON	KON	_	22	cc	_	SpaceAfter=No
+19	als	als	KOKOM	KOKOM	_	21	case	_	SpaceAfter=No
+20	bloß	bloß	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+21	sentimental	sentimental	ADJD	ADJD	_	22	xcomp	_	SpaceAfter=No
+22	verachtet	verachten	VVPP	VVPP	_	17	conj	_	SpaceAfter=No
+23	werden	werden	VAINF	VAINF	_	22	aux:pass	_	SpaceAfter=No
+24	mag	mögen	VMFIN	VMFIN	_	22	aux	_	SpaceAfter=No
+25	,	--	$,	$,	_	45	punct	_	SpaceAfter=No
+26	während	während	KOUS	KOUS	_	45	mark	_	SpaceAfter=No
+27	dem	der	ART	ART	_	29	det	_	SpaceAfter=No
+28	vernünftigen	vernünftig	ADJA	ADJA	_	29	amod	_	_
+29	Leser	Leser	NN	NN	_	45	iobj	_	SpaceAfter=No
+30	,	--	$,	$,	_	39	punct	_	SpaceAfter=No
+31	der	der	PRELS	PRELS	_	39	nsubj	_	SpaceAfter=No
+32	für	für	APPR	APPR	_	34	case	_	SpaceAfter=No
+33	sein	sein	PPOSAT	PPOSAT	_	34	det:poss	_	_
+34	Geld	Geld	NN	NN	_	39	obl	_	SpaceAfter=No
+35	mäßig	mäßig	ADV	ADV	_	36	advmod	_	SpaceAfter=No
+36	gerührt	rühren	ADJD	ADJD	_	38	xcomp	_	SpaceAfter=No
+37	zu	zu	PTKZU	PTKZU	_	38	mark	_	SpaceAfter=No
+38	werden	werden	VVFIN	VVFIN	_	39	xcomp	_	_
+39	verlangt	verlangen	VVFIN	VVFIN	_	29	acl	_	SpaceAfter=No
+40	,	--	$,	$,	_	39	punct	_	SpaceAfter=No
+41	das	der	ART	ART	_	42	det	_	SpaceAfter=No
+42	Sentimentale	Sentimentale	NN	NN	_	45	nsubj	_	SpaceAfter=No
+43	darin	darin	PROAV	PROAV	_	45	advmod	_	SpaceAfter=No
+44	keineswegs	keineswegs	ADV	ADV	_	45	advmod	_	SpaceAfter=No
+45	zusagt	zusagen	VVFIN	VVFIN	_	17	conj	_	SpaceAfter=No
+46	und	und	KON	KON	_	48	cc	_	SpaceAfter=No
+47	sehr	sehr	ADV	ADV	_	48	advmod	_	SpaceAfter=No
+48	furios	furios	ADJD	ADJD	_	49	xcomp	_	SpaceAfter=No
+49	dünkt	dünken	VVFIN	VVFIN	_	45	conj	_	SpaceAfter=No
+50	.	--	$.	$.	_	2	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
@@ -50259,23 +50259,23 @@
 15	zur	zu	APPRART	APPRART	_	16	case	_	_
 16	Energie	Energie	NN	NN	_	14	nmod	_	_
 17	lächeln	lächeln	VVINF	VVINF	_	1	parataxis	_	SpaceAfter=No
-18	, is	,ist	VAFIN	VAFIN	_	25	aux	_	SpaceAfter=No
-19	t s	sie	PPER	PPER	_	25	nsubj	_	SpaceAfter=No
-20	ie 	mit	APPR	APPR	_	22	case	_	SpaceAfter=No
-21	mit e	ein	ART	ART	_	22	det	_	SpaceAfter=No
-22	inem 	Wort	NN	NN	_	25	nmod	_	SpaceAfter=No
-23	Wor	der	ART	ART	_	24	det	_	SpaceAfter=No
-24	te des Enthu	Enthusiasmus	NN	NN	_	22	nmod	_	SpaceAfter=No
-25	siasm	fähig	VVFIN	VVFIN	_	1	parataxis	_	SpaceAfter=No
-26	u	--	$,	$,	_	30	punct	_	SpaceAfter=No
-27	s 	so	ADV	ADV	_	30	advmod	_	SpaceAfter=No
-28	fäh	sein	VAFIN	VAFIN	_	30	cop	_	SpaceAfter=No
-29	ig,	sie	PPER	PPER	_	30	nsubj	_	_
-30	so ist sie	unschuldig	ADJD	ADJD	_	1	parataxis	_	_
-31	un	in	APPRART	APPRART	_	33	case	_	SpaceAfter=No
-32	schuldig i	sittlich	ADJA	ADJA	_	33	amod	_	SpaceAfter=No
-33	m sit	Sinn	NN	NN	_	30	nmod	_	SpaceAfter=No
-34	t	--	$.	$.	_	1	punct	_	SpaceAfter=No
+18	,ist	,ist	VAFIN	VAFIN	_	25	aux	_	SpaceAfter=No
+19	sie	sie	PPER	PPER	_	25	nsubj	_	SpaceAfter=No
+20	mit	mit	APPR	APPR	_	22	case	_	SpaceAfter=No
+21	einem	ein	ART	ART	_	22	det	_	SpaceAfter=No
+22	Worte	Wort	NN	NN	_	25	nmod	_	SpaceAfter=No
+23	des	der	ART	ART	_	24	det	_	SpaceAfter=No
+24	Enthusiasmus	Enthusiasmus	NN	NN	_	22	nmod	_	SpaceAfter=No
+25	fähig	fähig	VVFIN	VVFIN	_	1	parataxis	_	SpaceAfter=No
+26	,	--	$,	$,	_	30	punct	_	SpaceAfter=No
+27	so	so	ADV	ADV	_	30	advmod	_	SpaceAfter=No
+28	ist	sein	VAFIN	VAFIN	_	30	cop	_	SpaceAfter=No
+29	sie	sie	PPER	PPER	_	30	nsubj	_	_
+30	unschuldig	unschuldig	ADJD	ADJD	_	1	parataxis	_	_
+31	im	in	APPRART	APPRART	_	33	case	_	SpaceAfter=No
+32	sittlichen	sittlich	ADJA	ADJA	_	33	amod	_	SpaceAfter=No
+33	Sinne	Sinn	NN	NN	_	30	nmod	_	SpaceAfter=No
+34	.	--	$.	$.	_	1	punct	_	SpaceAfter=No
 
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente

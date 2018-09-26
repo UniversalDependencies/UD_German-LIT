@@ -306,6 +306,8 @@ for(my $i = 0; $i <= $#conllu; $i++)
     print("# work = $fragment->{work}\n");
     print("# sent_id = $sid\n");
     my $text = $metasnt[$i]{text};
+    $text =~ s/^\s+//;
+    $text =~ s/\s+$//;
     print("# text = $text\n");
     my $from;
     my $to;
@@ -342,7 +344,14 @@ for(my $i = 0; $i <= $#conllu; $i++)
                 # Make sure that the casing of the word form matches the original text.
                 my $l = length($f[1]);
                 $text =~ s/^(.{$l})//;
-                $f[1] = $1;
+                my $original = $1;
+                ###!!! Warning! Occasionally the annotated text lacks an original space and we will fall out of sync if we copy it!
+                ###!!! We thus check whether the only difference is casing; if not, we will not replace the form, we will leave the
+                ###!!! CoNLL-U file invalid and the annotation will have to be fixed manually.
+                if(lc($original) eq lc($f[1]))
+                {
+                    $f[1] = $1;
+                }
                 unless($text eq '' || $text =~ s/^\s+//)
                 {
                     $f[9] = 'SpaceAfter=No';
