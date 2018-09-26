@@ -70,7 +70,7 @@ foreach my $fragment (@fragments)
     $fragment->{text} =~ s/\[\d+\]//g;
 }
 my $n = scalar(@fragments);
-print("Found $n fragments in total.\n");
+print STDERR ("Found $n fragments in total.\n");
 # Read the CoNLL-U file into memory.
 open(CONLLU, $conllufilename) or die("Cannot read $conllufilename: $!");
 my @conllu = ();
@@ -96,7 +96,7 @@ while(<CONLLU>)
 }
 close(CONLLU);
 my $o = scalar(@conllu);
-print("Found $o sentences in the CoNLL-U file.\n");
+print STDERR ("Found $o sentences in the CoNLL-U file.\n");
 # Synchronize the CoNLL-U sentences with the raw fragments.
 # According to Alessio, some sentences may be omitted in the CoNLL-U file.
 # However, all CoNLL-U sentences can be located somewhere in the raw fragments.
@@ -264,5 +264,60 @@ while($isnt <= $#conllu)
             print STDERR ("  '$last_sentence_found'\n");
             die();
         }
+    }
+}
+# All sentences have been matched against the original text. Enrich the CoNLL-U representation with metadata.
+# Friedrich Schlegel: Lyceum Fragmente
+# Novalis: Blüthenstaub
+# Friedrich Schlegel: Athenäums Fragmente
+my %docid =
+(
+    'Lyceum Fragmente'    => 'lyceum',
+    'Blüthenstaub'        => 'bluethenstaub',
+    'Athenäums Fragmente' => 'athenaeum'
+);
+my $is;
+for(my $i = 0; $i <= $#conllu; $i++)
+{
+    my $fragment = $fragments[$metasnt[$i]{ifrg}];
+    my $lfragment = $i==0 ? {} : $fragments[$metasnt[$i-1]{ifrg}];
+    my $did = $docid{$fragment->{work}};
+    if(!defined($did))
+    {
+        $did = $fragment->{work};
+        $did =~ s/\s//g;
+    }
+    if($i == 0 || $fragment->{work} ne $lfragment->{work})
+    {
+        print("# newdoc id = $did\n");
+    }
+    my $fid = "$did-f$fragment->{fid}";
+    if($i == 0 || $fragment->{fid} != $lfragment->{fid})
+    {
+        print("# newpar id = $fid\n");
+        $is = 1;
+    }
+    else
+    {
+        $is++;
+    }
+    my $sid = "$fid-s$is";
+    print("# author = $fragment->{author}\n");
+    print("# work = $fragment->{work}\n");
+    print("# sent_id = $sid\n");
+    print("# text = $metasnt[$i]{text}\n");
+    foreach my $line (@{$conllu[$i]})
+    {
+        if($line =~ m/^\d+\t/)
+        {
+            my @f = split(/\t/, $line);
+            # Fix the quoted semicolons.
+            $f[1] = ';' if($f[1] eq '";"');
+            # The tags that are now in the data should be in XPOS.
+            ###!!! We also need to generate UPOS from them!
+            $f[4] = $f[3];
+            $line = join("\t", @f);
+        }
+        print("$line\n");
     }
 }
