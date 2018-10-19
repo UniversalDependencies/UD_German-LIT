@@ -45,6 +45,7 @@ my $o = scalar(@conllu);
 print STDERR ("Found $o sentences in the CoNLL-U file.\n");
 do
 {
+    print STDERR ("Synchronization starts...\n");
     my $dying = 0;
     my $restart = 0;
     # Synchronize the CoNLL-U sentences with the raw fragments.
