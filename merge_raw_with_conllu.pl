@@ -276,8 +276,15 @@ do
         if($dying)
         {
             $restart = add_mwt($conllu[$isnt]);
-            die unless($restart);
-            last;
+            if($restart)
+            {
+                print STDERR ("Added a multi-word token and re-trying from scratch.\n");
+                last;
+            }
+            else
+            {
+                die;
+            }
         }
     }
 }
