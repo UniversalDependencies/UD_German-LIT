@@ -225,7 +225,7 @@ do
                 splice(@metasnt);
                 # Re-read the fragments because we have been processing them destructively.
                 @fragments = read_fragments($srcfilename);
-                last;
+                $isnt = $#conllu + 1;
             }
             else
             {
@@ -233,6 +233,7 @@ do
             }
         }
     }
+    print STDERR ("End of one synchronization attempt...\n");
 }
 while($restart);
 # All sentences have been matched against the original text. Enrich the CoNLL-U representation with metadata.
