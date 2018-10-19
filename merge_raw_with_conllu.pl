@@ -221,6 +221,7 @@ do
             if($restart)
             {
                 print STDERR ("Added a multi-word token and re-trying from scratch.\n");
+                splice(@metasnt);
                 # Re-read the fragments because we have been processing them destructively.
                 @fragments = read_fragments($srcfilename);
                 last;
