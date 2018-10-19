@@ -43,11 +43,12 @@ while(<CONLLU>)
 close(CONLLU);
 my $o = scalar(@conllu);
 print STDERR ("Found $o sentences in the CoNLL-U file.\n");
+my $restart = 0;
 do
 {
     print STDERR ("Synchronization starts...\n");
     my $dying = 0;
-    my $restart = 0;
+    $restart = 0;
     # Synchronize the CoNLL-U sentences with the raw fragments.
     # According to Alessio, some sentences may be omitted in the CoNLL-U file.
     # However, all CoNLL-U sentences can be located somewhere in the raw fragments.
