@@ -233,7 +233,7 @@ do
             }
         }
     }
-    print STDERR ("End of one synchronization attempt...\n");
+    print STDERR ("End of one synchronization attempt... restart=$restart\n");
 }
 while($restart);
 # All sentences have been matched against the original text. Enrich the CoNLL-U representation with metadata.
