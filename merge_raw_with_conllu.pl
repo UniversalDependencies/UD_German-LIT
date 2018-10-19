@@ -14,65 +14,7 @@ my $c = new Lingua::Interset::Converter ('from' => 'de::stts', 'to' => 'mul::upo
 my $srcfilename = 'ud_ger_frag_temp_raw.txt';
 my $conllufilename = 'ud_ger_frag_gold_temp.conllu.txt';
 # Read the entire source file into memory. With 251 kB, it should not be a problem.
-open(SRC, $srcfilename) or die("Cannot read $srcfilename: $!");
-my $il = 0;
-while(<SRC>)
-{
-    $il++;
-    # Skip empty lines. They do not seem to be significant.
-    next if(m/^\s*$/);
-    # Remove the line terminating characters, and any leading or trailing spaces.
-    s/\r?\n$//;
-    s/\s+$//;
-    s/^\s+//;
-    # Comment lines introduce a new document.
-    if(m/^\#\s*Author:\s*(.+)/i)
-    {
-        $current_author = $1;
-    }
-    elsif(m/^\#\s*Work:\s*(.+)/i)
-    {
-        $current_work = $1;
-    }
-    elsif(m/^\#/)
-    {
-        die("Cannot understand line:\n$_\n");
-    }
-    # In some works, the fragment numbers are formatted like [1].
-    # In others, the numbers are formatted like 1.
-    # Fragment numbers are unique within one work.
-    elsif(s/^\[(\d+)\]\s*// || s/(\d+)\.\s*//)
-    {
-        $current_fragment_number = $1;
-        # The fragment text consists of one or more sentences.
-        $current_fragment = $_;
-        my %record =
-        (
-            'author' => $current_author,
-            'work'   => $current_work,
-            'fid'    => $current_fragment_number,
-            'text'   => $current_fragment,
-            'line'   => $il
-        );
-        push(@fragments, \%record);
-    }
-    # Sometimes a line of text does not start with the number of the fragment.
-    # Treat it as a part of the previous fragment.
-    else
-    {
-        $fragments[-1]{text} .= " $_";
-    }
-}
-close(SRC);
-# Sometimes the text of the fragment contains references (number in square brackets)
-# to other fragments. They are not part of the annotated text and we have to discard
-# them.
-foreach my $fragment (@fragments)
-{
-    $fragment->{text} =~ s/\[\d+\]//g;
-}
-my $n = scalar(@fragments);
-print STDERR ("Found $n fragments in total.\n");
+@fragments = read_fragments($srcfilename);
 # Read the CoNLL-U file into memory.
 open(CONLLU, $conllufilename) or die("Cannot read $conllufilename: $!");
 my @conllu = ();
@@ -279,6 +221,8 @@ do
             if($restart)
             {
                 print STDERR ("Added a multi-word token and re-trying from scratch.\n");
+                # Re-read the fragments because we have been processing them destructively.
+                @fragments = read_fragments($srcfilename);
                 last;
             }
             else
@@ -440,4 +384,80 @@ sub add_mwt
         }
     }
     return $changed_something;
+}
+
+
+
+#------------------------------------------------------------------------------
+# Reads the entire source file into memory. With 251 kB, it should not be
+# a problem.
+#------------------------------------------------------------------------------
+sub read_fragments
+{
+    my $srcfilename = shift;
+    my $current_author;
+    my $current_work;
+    my $current_fragment_number;
+    my $current_fragment;
+    my @fragments;
+    open(SRC, $srcfilename) or die("Cannot read $srcfilename: $!");
+    my $il = 0;
+    while(<SRC>)
+    {
+        $il++;
+        # Skip empty lines. They do not seem to be significant.
+        next if(m/^\s*$/);
+        # Remove the line terminating characters, and any leading or trailing spaces.
+        s/\r?\n$//;
+        s/\s+$//;
+        s/^\s+//;
+        # Comment lines introduce a new document.
+        if(m/^\#\s*Author:\s*(.+)/i)
+        {
+            $current_author = $1;
+        }
+        elsif(m/^\#\s*Work:\s*(.+)/i)
+        {
+            $current_work = $1;
+        }
+        elsif(m/^\#/)
+        {
+            die("Cannot understand line:\n$_\n");
+        }
+        # In some works, the fragment numbers are formatted like [1].
+        # In others, the numbers are formatted like 1.
+        # Fragment numbers are unique within one work.
+        elsif(s/^\[(\d+)\]\s*// || s/(\d+)\.\s*//)
+        {
+            $current_fragment_number = $1;
+            # The fragment text consists of one or more sentences.
+            $current_fragment = $_;
+            my %record =
+            (
+                'author' => $current_author,
+                'work'   => $current_work,
+                'fid'    => $current_fragment_number,
+                'text'   => $current_fragment,
+                'line'   => $il
+            );
+            push(@fragments, \%record);
+        }
+        # Sometimes a line of text does not start with the number of the fragment.
+        # Treat it as a part of the previous fragment.
+        else
+        {
+            $fragments[-1]{text} .= " $_";
+        }
+    }
+    close(SRC);
+    # Sometimes the text of the fragment contains references (number in square brackets)
+    # to other fragments. They are not part of the annotated text and we have to discard
+    # them.
+    foreach my $fragment (@fragments)
+    {
+        $fragment->{text} =~ s/\[\d+\]//g;
+    }
+    my $n = scalar(@fragments);
+    print STDERR ("Found $n fragments in total.\n");
+    return @fragments;
 }
