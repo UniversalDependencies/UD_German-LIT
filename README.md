@@ -3,7 +3,7 @@
 It aims to collect texts of the German literary history. Currently, it hosts Fragments of the early Romanticism, i.e. aphorism-like texts that mainly deal with philosophical issues concerning art, beauty and related topics.
 # Introduction
 
-In a long-term perspective, this treebank aims at hosting data coming from different textual genres and different authors of the German literary history. Currently, it exclusively hosts Fragments of the early Romanticism, i.e. really short texts, often in aphorism-like form, dealing with philosophical issues in a witty and cryptic way. They mainly deal with aesthetics, i.e. with philosophy concerning art and beauty. 
+In a long-term perspective, this treebank aims at hosting data coming from different textual genres and different authors of the German literary history. Currently, it exclusively hosts Fragments of the early Romanticism (end of the 18th century, modern German), i.e. really short texts, often in aphorism-like form, dealing with philosophical issues in a witty and cryptic way. They mainly deal with aesthetics, i.e. with philosophy concerning art and beauty. 
 This treebank is mainly designed for stylistic analysis that can benefit from the dependency formalism as well as from the opportunity to automatically retrieve information concerning syntax.
 
 Version 2.4 hosts the following texts (each text is followed by the reference to the original edition from which it  was digitized, as well as by the permalink to the online source of the raw text):
