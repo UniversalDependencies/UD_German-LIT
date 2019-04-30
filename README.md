@@ -43,13 +43,13 @@ Data available since: UD v2.4
 License: CC BY-NC-SA 4.0
 Includes text: yes
 Genre: nonfiction
-Lemmas: manual native
-UPOS: manual native
-XPOS: manual native
-Features: manual native
+Lemmas: automatic with corrections
+UPOS: converted with corrections
+XPOS: automatic with corrections
+Features: not available
 Relations: manual native
 Contributors: Salomoni, Alessio
 Contributing: here
-Contact: alessio.salomoni.89@unibg.com
+Contact: alessio.salomoni@unibg.it
 ===============================================================================
 </pre>
