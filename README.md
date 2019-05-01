@@ -49,7 +49,7 @@ XPOS: automatic with corrections
 Features: not available
 Relations: manual native
 Contributors: Salomoni, Alessio
-Contributing: here
+Contributing: elsewhere
 Contact: alessio.salomoni@unibg.it
 ===============================================================================
 </pre>
