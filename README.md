@@ -36,7 +36,7 @@ Each sentence in the treebank file is preceded by some comments introduced by '#
 '# work = Blüthenstaub'
 '# sent_id = bluethenstaub-f1-s1'
 
-We made this choice since the treebank is exactly intended as a structured version in dependency formalism of the texts it collects, therefore we want to preserve the parallelism between the treebanked data and the source texts as much as possible).
+We made this choice since the treebank is exactly intended as a structured version in dependency formalism of the original texts, therefore we want to preserve the parallelism between the treebanked data and the source texts as much as possible).
 
 # Acknowledgments
 
