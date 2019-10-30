@@ -30,11 +30,11 @@ Each sentence in the treebank is preceded by some comments introduced by '#', th
 - Work
 - Number of the fragment. It is based upon the classification adopted in the source raw text. Each time a new fragemnt begins, it is preceded by the comment 'newpar id = [name]', and the number of the fragment is incorporated into the 'sent_id' field as well, followed by the numer of the sentence in that fragment. Moreover, each time a new collection of fragment, i.e. work, begins, it is preceded by the comment '# newdoc id = [name]'. For instance: 
 
-'# newdoc id = bluethenstaub'
-'# newpar id = bluethenstaub-f1'
-'# author = Novalis'
-'# work = Blüthenstaub'
-'# sent_id = bluethenstaub-f1-s1'
+- '# newdoc id = bluethenstaub'
+- '# newpar id = bluethenstaub-f1'
+- '# author = Novalis'
+- '# work = Blüthenstaub'
+- '# sent_id = bluethenstaub-f1-s1'
 
 In this case, the sentence following the set of comments would be the first sentence of the first fragment of the collection "Blüthenstaub" written by Novalis. 
 We made this choice about such a use of comments because we want to preserve the parallelism between the treebanked data and the source texts as much as possible. In this perpsetive, this treebank aims to be the linguistically annotated counterpart of the orgiginal texts, thus preserving those categories that we are traditionally acquainted to adopt in order to work on literary texts.
@@ -47,7 +47,7 @@ Many thanks to Daniel Zeman, who has promptly solved some fundamental problems c
 # Changelog
 
 * 30/10/2019
- * Fixed all those errors reported by the validation script in the version 2.4.
+ Fixed all those errors reported by the validation script in the version 2.4.
 
 ## References
 
