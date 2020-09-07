@@ -15081,7 +15081,7 @@
 17	verarbeiten	verarbeiten	VERB	VVFIN	_	6	conj	_	_
 18	sie	sie	PRON	PPER	_	17	nsubj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	21	punct	_	_
-20	wie	wie	CCONJ	KOKOM	_	23	cc	_	_
+20	wie	wie	CCONJ	KOKOM	_	21	cc	_	_
 21	alles	alle	PRON	PIS	_	17	obl	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	21	punct	_	_
 23	mühsam	mühsam	ADV	ADV	_	17	advmod	_	_
@@ -20839,7 +20839,7 @@
 # text = Naiv ist, was bis zur Ironie, oder bis zum steten Wechsel von Selbstschöpfung und Selbstvernichtung natürlich, individuell oder klassisch ist, oder scheint.
 1	Naiv	naiv	ADJ	ADJD	_	0	root	_	_
 2	ist	sein	AUX	VAFIN	_	1	cop	_	SpaceAfter=No
-3	,	--	PUNCT	$,	_	1	punct	_	_
+3	,	--	PUNCT	$,	_	20	punct	_	_
 4	was	was	PRON	PWS	_	20	nsubj	_	_
 5	bis	bis	ADV	ADV	_	8	advmod	_	_
 6-7	zur	_	_	_	_	_	_	_	_
@@ -20864,9 +20864,9 @@
 23	oder	oder	CCONJ	KON	_	24	cc	_	_
 24	klassisch	klassisch	ADJ	ADJD	_	22	conj	_	_
 25	ist	sein	AUX	VAFIN	_	20	cop	_	SpaceAfter=No
-26	,	--	PUNCT	$,	_	22	punct	_	_
+26	,	--	PUNCT	$,	_	28	punct	_	_
 27	oder	oder	CCONJ	KON	_	28	cc	_	_
-28	scheint	scheinen	VERB	VVFIN	_	22	acl	_	SpaceAfter=No
+28	scheint	scheinen	VERB	VVFIN	_	20	conj	_	SpaceAfter=No
 29	.	--	PUNCT	$.	_	1	punct	_	_
 
 # genre = fragments
@@ -21046,17 +21046,17 @@
 9	hat	haben	AUX	VAFIN	_	0	root	_	_
 10	doch	doch	ADV	ADV	_	9	advmod	_	_
 11	seine	sein	DET	PPOSAT	_	12	det:poss	_	_
-12	Poesie	Poesie	NOUN	NN	_	9	obj	_	_
+12	Poesie	Poesie	NOUN	NN	_	9	nsubj	_	_
 13	und	und	CCONJ	KON	_	16	cc	_	_
 14	die	der	DET	ART	_	16	det	_	_
 15	eigentliche	eigentlich	ADJ	ADJA	_	16	amod	_	_
 16	Verfasserin	Verfasserin	NOUN	NN	_	12	conj	_	_
-17	derselben	derselbe	PRON	PDS	_	6	obj	_	SpaceAfter=No
-18	,	--	PUNCT	$,	_	16	punct	_	_
+17	derselben	derselbe	PRON	PDS	_	16	nmod	_	SpaceAfter=No
+18	,	--	PUNCT	$,	_	20	punct	_	_
 19	die	der	DET	ART	_	20	det	_	_
-20	Natur	Natur	NOUN	NN	_	16	parataxis	_	SpaceAfter=No
-21	,	--	PUNCT	$,	_	22	punct	_	_
-22	Absicht	Absicht	NOUN	NN	_	16	parataxis	_	SpaceAfter=No
+20	Natur	Natur	NOUN	NN	_	16	appos	_	SpaceAfter=No
+21	,	--	PUNCT	$,	_	20	punct	_	_
+22	Absicht	Absicht	NOUN	NN	_	9	obj	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	9	punct	_	_
 
 # newpar id = athenaeum-f52
@@ -24299,12 +24299,12 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f107-s1
 # text = Das stillschweigends vorausgesetzte, und wirklich erste Postulat aller Kantianischen Harmonien der Evangelisten, lautet: Kants Philosophie soll mit sich selbst übereinstimmen.
-1	Das	der	PRON	PDS	_	3	nsubj	_	_
+1	Das	der	DET	ART	_	8	det	_	_
 2	stillschweigends	stillschweigends	ADV	ADV	_	3	advmod	_	_
 3	vorausgesetzte	vorausgesetzen	ADJ	ADJA	_	8	amod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	7	punct	_	_
 5	und	und	CCONJ	KON	_	7	cc	_	_
-6	wirklich	wirklich	ADV	ADV	_	8	advmod	_	_
+6	wirklich	wirklich	ADV	ADV	_	7	advmod	_	_
 7	erste	erster	ADJ	ADJA	_	3	conj	_	_
 8	Postulat	Postulat	NOUN	NN	_	15	nsubj	_	_
 9	aller	aller	DET	PIAT	_	11	det	_	_
@@ -30196,10 +30196,10 @@
 10	Maler	Maler	NOUN	NN	_	20	parataxis	_	_
 11	schauerlicher	schauerlich	ADJ	ADJA	_	12	amod	_	_
 12	Wüsteneien	Wüstenei	NOUN	NN	_	10	nmod	_	SpaceAfter=No
-13	,	--	PUNCT	$,	_	15	punct	_	_
+13	,	--	PUNCT	$,	_	14	punct	_	_
 14	Salvator	Salvator	PROPN	NE	_	10	appos	_	_
 15	Rosa	Rosa	PROPN	NE	_	14	flat	_	SpaceAfter=No
-16	,	--	PUNCT	$,	_	15	punct	_	_
+16	,	--	PUNCT	$,	_	14	punct	_	_
 17	war	sein	AUX	VAFIN	_	20	aux	_	_
 18	zu	zu	ADP	APPR	_	19	case	_	_
 19	Neapel	Neapel	PROPN	NE	_	20	obl	_	_
