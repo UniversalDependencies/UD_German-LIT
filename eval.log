@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_German-LIT:
-commit b7111ef12e0d5142dd0349a6cca03d362bd70615
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 16:25:24 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_German-LIT:
+commit 7cac811f59696c3e7189c3625619878fcf848ef8
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 14:26:28 2022 +0200
 Size: counted 40440 of 40440 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.39963878830454.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,20 @@ Udapi: found 11857 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 40440 words.
 Genres: found 1 out of 17 known.
 validate.py --lang de --max-err=10 UD_German-LIT/de_lit-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 6258 Sent lyceum-f108-s9 Node 49]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [39, 46]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6930 Sent lyceum-f117-s2 Node 43]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [32, 46]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7004 Sent lyceum-f119-s3 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 2]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7292 Sent lyceum-f120-s1 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7417 Sent lyceum-f122-s1 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7480 Sent lyceum-f122-s1 Node 72]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [61, 68]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7571 Sent lyceum-f123-s3 Node 22]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7825 Sent lyceum-f125-s6 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 8922 Sent bluethenstaub-f16-s3 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 90
+*** FAILED *** with 90 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
@@ -35,6 +47,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.325058797903609) * (availability=1) * (validity=1) = 0.325058797903609
-STARS = 1.5
-UD_German-LIT	0.325058797903609	1.5
+(TOTAL score=0.325058797903609) * (availability=1) * (validity=0.01) = 0.00325058797903609
+STARS = 0
+UD_German-LIT	0.00325058797903609	0
