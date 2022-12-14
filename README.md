@@ -46,8 +46,10 @@ Many thanks to Daniel Zeman, who has promptly solved some fundamental problems c
 
 # Changelog
 
-* 30/10/2019
- Fixed all those errors reported by the validation script in the version 2.4.
+* 2023-05-15 v2.12
+  * Fixed: nominals cannot have obj and iobj children.
+* 2019-10-30
+  * Fixed all those errors reported by the validation script in the version 2.4.
 
 ## References
 

@@ -5481,7 +5481,7 @@
 1	Diese	dieser	PRON	PDS	_	2	nsubj	_	_
 2	verbindet	verbinden	VERB	VVFIN	_	0	root	_	_
 3	doch	doch	ADV	ADV	_	2	advmod	_	_
-4	jenes	jener	PRON	PDS	_	8	obj	_	_
+4	jenes	jener	PRON	PDS	_	8	nmod	_	_
 5	freie	frei	ADJ	ADJA	_	8	amod	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	gleiche	gleich	ADJ	ADJA	_	5	conj	_	_
@@ -7689,7 +7689,7 @@
 3	möchte	mögen	AUX	VMFIN	_	11	aux	_	_
 4	es	es	PRON	PPER	_	11	obj	_	_
 5	den	der	DET	ART	_	6	det	_	_
-6	gigantischen	gigantisch	ADJ	ADJA	_	10	obj	_	_
+6	gigantischen	gigantisch	ADJ	ADJA	_	10	nmod	_	_
 7	oder	oder	CCONJ	KON	_	9	cc	_	_
 8	den	der	DET	ART	_	9	det	_	_
 9	Shakespeareschen	shakespearesch	ADJ	ADJA	_	6	amod	_	_
@@ -10198,7 +10198,7 @@
 8	einer	ein	DET	ART	_	9	det	_	_
 9	Bemerkung	Bemerkung	NOUN	NN	_	6	obl	_	_
 10	dieses	dieser	DET	PDAT	_	12	nsubj	_	_
-11	verkehrten	verkehrt	ADJ	ADJA	_	12	obj	_	_
+11	verkehrten	verkehrt	ADJ	ADJA	_	12	nmod	_	_
 12	Zusammenhangs	Zusammenhang	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -10269,7 +10269,7 @@
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	bemächtigen	bemächtigen	VERB	VVINF	_	6	ccomp	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	16	punct	_	_
-15	das	der	PRON	PRELS	_	16	obj	_	_
+15	das	der	PRON	PRELS	_	16	nmod	_	_
 16	Ich	ich	PRON	PPER	_	13	parataxis	_	_
 17	seines	sein	DET	PPOSAT	_	18	det:poss	_	_
 18	Ich	ich	PRON	PPER	_	16	nmod	_	SpaceAfter=No
@@ -12732,7 +12732,7 @@
 6	es	es	PRON	PPER	_	10	nsubj	_	_
 7	vielen	vieler	DET	PIAT	_	9	det	_	_
 8	dummen	dumm	ADJ	ADJA	_	9	amod	_	_
-9	Kindern	Kind	NOUN	NN	_	10	iobj	_	_
+9	Kindern	Kind	NOUN	NN	_	10	nmod	_	_
 10	gehn	gehn	NUM	CARD	_	2	nsubj	_	_
 11	soll	sollen	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	:	--	PUNCT	$.	_	2	punct	_	_
@@ -14555,7 +14555,7 @@
 2	Gegenstand	Gegenstand	NOUN	NN	_	7	nsubj	_	_
 3	kann	können	AUX	VMFIN	_	2	aux	_	_
 4	dem	der	DET	ART	_	5	det	_	_
-5	Religiösen	Religiöse	NOUN	NN	_	2	iobj	_	_
+5	Religiösen	Religiöse	NOUN	NN	_	2	nmod	_	_
 6	ein	ein	DET	ART	_	7	det	_	_
 7	Tempel	Tempel	NOUN	NN	_	0	root	_	_
 8-9	im	_	_	_	_	_	_	_	_
@@ -14883,7 +14883,7 @@
 11	,	--	PUNCT	$,	_	14	punct	_	_
 12	unserm	unser	DET	PPOSAT	_	14	det:poss	_	_
 13	irdischen	irdisch	ADJ	ADJA	_	14	amod	_	_
-14	Daseyn	Daseyn	NOUN	NN	_	10	obj	_	_
+14	Daseyn	Daseyn	NOUN	NN	_	10	nmod	_	_
 15	überhaupt	überhaupt	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	23	punct	_	_
 17	das	der	PRON	PRELS	_	23	nsubj:pass	_	_
@@ -15575,7 +15575,7 @@
 23	Entdeckungen	Entdeckung	NOUN	NN	_	29	nsubj	_	_
 24	den	der	DET	ART	_	26	det	_	_
 25	rastlosen	rastlos	ADJ	ADJA	_	26	amod	_	_
-26	Geist	Geist	NOUN	NN	_	23	obj	_	_
+26	Geist	Geist	NOUN	NN	_	23	nmod	_	_
 27	der	der	DET	ART	_	28	det	_	_
 28	Menschen	Mensch	NOUN	NN	_	26	nmod	_	_
 29	beschäftigten	beschäftigen	VERB	VVFIN	_	12	acl	_	SpaceAfter=No
@@ -15947,7 +15947,7 @@
 4	verräth	verräth	PROPN	NE	_	0	root	_	_
 5	einen	ein	DET	ART	_	7	det	_	_
 6	spezifischen	spezifisch	ADJ	ADJA	_	7	amod	_	_
-7	Sinn	Sinn	NOUN	NN	_	4	obj	_	SpaceAfter=No
+7	Sinn	Sinn	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 8	.	--	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -16257,7 +16257,7 @@
 3	die	der	DET	ART	_	4	det	_	_
 4	Idee	Idee	NOUN	NN	_	2	nsubj	_	_
 5	eines	ein	DET	ART	_	6	det	_	_
-6	Augenblicks	Augenblick	NOUN	NN	_	4	obj	_	_
+6	Augenblicks	Augenblick	NOUN	NN	_	4	nmod	_	_
 7	oft	oft	ADV	ADV	_	2	advmod	_	_
 8	ungeheure	ungeheuer	ADJ	ADJA	_	9	amod	_	_
 9	Organe	Organ	NOUN	NN	_	2	obj	_	SpaceAfter=No
@@ -16615,7 +16615,7 @@
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Dauer	Dauer	NOUN	NN	_	6	conj	_	_
 9	unsrer	unsrer	ADJ	ADJA	_	10	amod	_	_
-10	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	_	6	obj	_	_
+10	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	_	6	nmod	_	_
 11	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	17	punct	_	_
 13	welches	welcher	DET	ART	_	14	det	_	_
@@ -16907,7 +16907,7 @@
 14	Keim	Keim	NOUN	NN	_	10	obj	_	_
 15	einer	ein	DET	ART	_	17	det	_	_
 16	unermeßlichen	unermeßlich	ADJ	ADJA	_	17	amod	_	_
-17	Welt	Welt	NOUN	NN	_	14	obj	_	SpaceAfter=No
+17	Welt	Welt	NOUN	NN	_	14	nmod	_	SpaceAfter=No
 18	;	--	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
@@ -18645,7 +18645,7 @@
 15	in	in	ADP	APPR	_	17	case	_	_
 16	die	der	DET	ART	_	17	det	_	_
 17	Philosophie	Philosophie	NOUN	NN	_	18	obl	_	_
-18	einzuführen	einführen	VERB	VVIZU	_	6	obj	_	SpaceAfter=No
+18	einzuführen	einführen	VERB	VVIZU	_	6	nmod	_	SpaceAfter=No
 19	?	--	PUNCT	$.	_	6	punct	_	_
 
 # newpar id = athenaeum-f4
@@ -21848,7 +21848,7 @@
 4	die	der	DET	ART	_	5	det	_	_
 5	Größe	Größe	NOUN	NN	_	3	nsubj	_	_
 6	ihres	ihr	DET	PPOSAT	_	7	det:poss	_	_
-7	Abgottes	Abgott	NOUN	NN	_	5	obj	_	_
+7	Abgottes	Abgott	NOUN	NN	_	5	nmod	_	_
 8	antithetisch	antithetisch	ADJ	ADJD	_	3	xcomp	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	3	punct	_	_
 10	durch	durch	ADP	APPR	_	12	case	_	_
@@ -25304,7 +25304,7 @@
 12	,	--	PUNCT	$,	_	15	punct	_	_
 13	und	und	CCONJ	KON	_	15	cc	_	_
 14	gleichsam	gleichsam	ADJ	ADJD	_	15	advmod	_	_
-15	Persönlichkeit	Persönlichkeit	NOUN	NN	_	11	obj	_	_
+15	Persönlichkeit	Persönlichkeit	NOUN	NN	_	11	nmod	_	_
 16	hat	haben	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	20	punct	_	_
 18	wie	wie	ADP	APPR	_	20	case	_	_
@@ -25932,7 +25932,7 @@
 4	Abstraktion	Abstraktion	NOUN	NN	_	5	nsubj	_	_
 5	macht	machen	VERB	VVFIN	_	0	root	_	_
 6	die	der	DET	ART	_	7	det	_	_
-7	Alten	alte	NOUN	NN	_	4	obj	_	SpaceAfter=No
+7	Alten	alte	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	12	punct	_	_
 9	bei	bei	ADP	APPR	_	10	case	_	_
 10	denen	der	PRON	PRELS	_	12	nmod	_	_
@@ -26104,7 +26104,7 @@
 37	sinnlicher	sinnlich	ADJ	ADJA	_	40	amod	_	_
 38	oder	oder	CCONJ	KON	_	39	cc	_	_
 39	geistiger	geistig	ADJ	ADJA	_	37	conj	_	_
-40	Impotenz	Impotenz	NOUN	NN	_	28	obj	_	_
+40	Impotenz	Impotenz	NOUN	NN	_	28	nmod	_	_
 41	scheuen	scheuen	VERB	VVINF	_	16	xcomp	_	_
 42	zu	zu	PART	PTKZU	_	41	mark	_	_
 43	wollen	wollen	AUX	VMINF	_	41	aux	_	SpaceAfter=No
@@ -26142,7 +26142,7 @@
 24	,	--	PUNCT	$,	_	28	punct	_	_
 25	daß	daß	SCONJ	KOUS	_	28	mark	_	_
 26	es	es	PRON	PPER	_	28	nsubj	_	_
-27	nichts	nichts	PRON	PIS	_	28	obj	_	_
+27	nichts	nichts	PRON	PIS	_	28	nmod	_	_
 28	Seltnes	Seltnes	NOUN	NN	_	19	obj	_	_
 29	mehr	mehr	ADV	ADV	_	28	advmod	_	_
 30	wäre	sein	AUX	VAFIN	_	28	cop	_	SpaceAfter=No
@@ -26848,7 +26848,7 @@
 10	Gestalten	Gestalt	NOUN	NN	_	17	obj	_	_
 11	einer	ein	DET	ART	_	13	det	_	_
 12	würdigen	würdig	ADJ	ADJA	_	13	amod	_	_
-13	Darstellung	Darstellung	NOUN	NN	_	10	iobj	_	_
+13	Darstellung	Darstellung	NOUN	NN	_	10	nmod	_	_
 14	der	der	DET	ART	_	16	det	_	_
 15	bessern	bessern	ADJ	ADJA	_	16	amod	_	_
 16	Zukunft	Zukunft	NOUN	NN	_	13	nmod	_	_
@@ -30147,7 +30147,7 @@
 15	leiseste	leisest	ADJ	ADJA	_	16	amod	_	_
 16	Wink	Wink	NOUN	NN	_	22	nsubj	_	_
 17	höheres	hoch	ADJ	ADJA	_	18	amod	_	_
-18	Lebens	Leben	NOUN	NN	_	16	obj	_	_
+18	Lebens	Leben	NOUN	NN	_	16	nmod	_	_
 19	in	in	ADP	APPR	_	21	case	_	_
 20	der	der	DET	ART	_	21	det	_	_
 21	Natur	Natur	NOUN	NN	_	22	obl	_	_
@@ -31170,7 +31170,7 @@
 10	«	«	PUNCT	XY	_	9	punct	_	_
 11	und	und	CCONJ	KON	_	13	cc	_	_
 12	»	»	PUNCT	XY	_	13	punct	_	SpaceAfter=No
-13	Anthusa	Anthusa	PROPN	NE	_	9	obj	_	SpaceAfter=No
+13	Anthusa	Anthusa	PROPN	NE	_	9	nmod	_	SpaceAfter=No
 14	«	«	PUNCT	XY	_	13	punct	_	_
 15	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
@@ -34596,7 +34596,7 @@
 6	,	--	PUNCT	$,	_	9	punct	_	_
 7	oder	oder	CCONJ	KON	_	9	cc	_	_
 8	mimisches	mimisch	ADJ	ADJA	_	9	amod	_	_
-9	Talent	Talent	NOUN	NN	_	2	obj	_	_
+9	Talent	Talent	NOUN	NN	_	2	nmod	_	_
 10	hat	haben	AUX	VAFIN	_	15	csubj	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	15	punct	_	_
 12	müßte	müssen	AUX	VMFIN	_	15	aux	_	_
@@ -35650,7 +35650,7 @@
 14	der	der	DET	ART	_	15	det	_	_
 15	Morgenröte	Morgenröte	NOUN	NN	_	18	obl	_	_
 16	unsrer	unsrer	ADJ	ADJA	_	17	amod	_	_
-17	Literatur	Literatur	NOUN	NN	_	15	obj	_	_
+17	Literatur	Literatur	NOUN	NN	_	15	nmod	_	_
 18	angefangen	anfangen	VERB	VVIZU	_	3	ccomp	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	21	punct	_	_
 20	und	und	CCONJ	KON	_	21	cc	_	_
@@ -36951,7 +36951,7 @@
 34	die	der	DET	ART	_	35	det	_	_
 35	Identität	Identität	NOUN	NN	_	41	obl	_	_
 36	seiner	sein	DET	PPOSAT	_	37	det:poss	_	_
-37	Philosophie	Philosophie	NOUN	NN	_	35	obj	_	_
+37	Philosophie	Philosophie	NOUN	NN	_	35	nmod	_	_
 38	mit	mit	ADP	APPR	_	40	case	_	_
 39	der	der	DET	ART	_	40	det	_	_
 40	Kantischen	Kantisch	NOUN	NN	_	41	obl	_	_
@@ -37871,7 +37871,7 @@
 6	La	La	DET	ART	_	7	det	_	_
 7	gêne	gêne	NOUN	NN	_	8	nsubj	_	_
 8	fait	fait	NOUN	NN	_	4	parataxis	_	_
-9	l'essence	l'essence	NOUN	NN	_	8	obj	_	_
+9	l'essence	l'essence	NOUN	NN	_	8	nmod	_	_
 10	et	et	CCONJ	KOKON	_	12	cc	_	_
 11	le	le	DET	ART	_	12	det	_	_
 12	merite	merien	VERB	VMFIN	_	9	conj	_	_
@@ -40248,7 +40248,7 @@
 25	nicht	nicht	PART	PTKNEG	_	29	advmod	_	_
 26	weil	weil	SCONJ	KOUS	_	29	mark	_	_
 27	es	es	PRON	PPER	_	29	nsubj	_	_
-28	ihr	ihr	PRON	PPER	_	29	iobj	_	_
+28	ihr	ihr	PRON	PPER	_	29	nmod	_	_
 29	alles	alle	PRON	PIS	_	23	advcl	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	35	punct	_	_
 31	sondern	sondern	CCONJ	KON	_	35	cc	_	_
@@ -42441,7 +42441,7 @@
 3	frei	frei	ADJ	ADJD	_	2	xcomp	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	bewege	bewegen	NOUN	NN	_	2	conj	_	_
-6	sich	sich	PRON	PRF	_	5	obj	_	_
+6	sich	sich	PRON	PRF	_	5	nmod	_	_
 7	seiner	sein	DET	PPOSAT	_	8	det:poss	_	_
 8	Natur	Natur	NOUN	NN	_	5	obl	_	_
 9	gemäß	gemäß	ADP	APPO	_	8	case	_	SpaceAfter=No
@@ -42576,7 +42576,7 @@
 19	,	--	PUNCT	$,	_	20	punct	_	_
 20	schüchtern	schüchtern	VERB	VVINF	_	18	amod	_	_
 21	versuchenden	versuchend	ADJ	ADJA	_	22	amod	_	_
-22	Offenheit	Offenheit	NOUN	NN	_	15	obj	_	SpaceAfter=No
+22	Offenheit	Offenheit	NOUN	NN	_	15	nmod	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	22	punct	_	_
 24	die	der	DET	ART	_	39	det	_	_
 25	hie	hie	ADV	ADV	_	39	advmod	_	_
@@ -43934,7 +43934,7 @@
 9	dabei	dabei	ADV	PROAV	_	12	advmod	_	_
 10	ein	ein	DET	ART	_	12	det	_	_
 11	ausgezeichneter	ausgezeichnet	ADJ	ADJA	_	12	amod	_	_
-12	Schriftsteller	Schriftsteller	NOUN	NN	_	6	obj	_	_
+12	Schriftsteller	Schriftsteller	NOUN	NN	_	6	nmod	_	_
 13	ist	sein	AUX	VAFIN	_	12	cop	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	12	punct	_	_
 15	so	so	ADV	ADV	_	25	advmod	_	_
@@ -44021,7 +44021,7 @@
 33	oft	oft	ADV	ADV	_	38	advmod	_	_
 34	mit	mit	ADP	APPR	_	37	case	_	_
 35	dem	der	DET	ART	_	37	det	_	_
-36	philosophierten	philosophiert	ADJ	ADJA	_	37	iobj	_	_
+36	philosophierten	philosophiert	ADJ	ADJA	_	37	nmod	_	_
 37	Ich	ich	PRON	PPER	_	38	obl	_	_
 38	verwechselt	verwechseln	VERB	VVPP	_	24	advcl	_	_
 39	würde	werden	AUX	VAFIN	_	38	aux:pass	_	SpaceAfter=No
@@ -45166,7 +45166,7 @@
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	Tun	tun	NOUN	NN	_	9	conj	_	_
 12	einer	ein	DET	ART	_	13	det	_	_
-13	Monade	Monade	NOUN	NN	_	9	obj	_	_
+13	Monade	Monade	NOUN	NN	_	9	nmod	_	_
 14	beschreibt	beschreiben	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
 16	des	der	DET	ART	_	18	det	_	_
@@ -45600,7 +45600,7 @@
 43	gegebnen	gegebn	ADJ	ADJA	_	44	amod	_	_
 44	Zweck	Zweck	NOUN	NN	_	49	obl	_	_
 45	noch	noch	ADV	ADV	_	49	advmod	_	_
-46	etwas	etwas	PRON	PIS	_	49	obj	_	_
+46	etwas	etwas	PRON	PIS	_	49	nmod	_	_
 47	anders	anders	PRON	PIS	_	48	nmod	_	_
 48	daraus	daraus	ADV	PAV	_	49	advmod	_	_
 49	erfolge	erfolge	PRON	PIS	_	34	advcl	_	SpaceAfter=No
@@ -46170,7 +46170,7 @@
 47	die	der	DET	ART	_	48	det	_	_
 48	Harmonie	Harmonie	NOUN	NN	_	52	obj	_	_
 49	ihrer	ihr	DET	PPOSAT	_	50	det:poss	_	_
-50	Widersprüche	Widerspruch	NOUN	NN	_	48	obj	_	_
+50	Widersprüche	Widerspruch	NOUN	NN	_	48	nmod	_	_
 51	zu	zu	PART	PTKZU	_	52	mark	_	_
 52	verstehn	verstehn	VERB	VVINF	_	44	conj	_	SpaceAfter=No
 53	.	--	PUNCT	$.	_	3	punct	_	_
@@ -46567,7 +46567,7 @@
 # text = 10) Laß dich gelüsten nach der Männer Bildung, Kunst, Weisheit und Ehre.
 1	10)	10)	X	XY	_	2	dep	_	_
 2	Laß	Lassen	NOUN	NN	_	0	root	_	_
-3	dich	dich	PRON	PRF	_	2	obj	_	_
+3	dich	dich	PRON	PRF	_	2	nmod	_	_
 4	gelüsten	gelü	VERB	VVFIN	_	2	xcomp	_	_
 5	nach	nach	ADP	APPR	_	7	case	_	_
 6	der	der	DET	ART	_	7	det	_	_
@@ -47711,7 +47711,7 @@
 24	nach	nach	ADP	APPR	_	25	case	_	_
 25	außen	außen	ADV	ADV	_	26	advmod	_	_
 26	wirkende	wirkend	ADJ	ADJA	_	21	conj	_	_
-27	Kraft	Kraft	NOUN	NN	_	17	obj	_	SpaceAfter=No
+27	Kraft	Kraft	NOUN	NN	_	17	nmod	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	31	punct	_	_
 29	aber	aber	CCONJ	KON	_	31	cc	_	_
 30	universelle	universell	ADJ	ADJA	_	31	amod	_	_
@@ -49708,7 +49708,7 @@
 8	Kraft	Kraft	NOUN	NN	_	4	obl	_	_
 9	ihren	ihr	DET	PPOSAT	_	11	det:poss	_	_
 10	unendlichen	unendlich	ADJ	ADJA	_	11	amod	_	_
-11	Gehalt	Gehalt	NOUN	NN	_	8	obj	_	_
+11	Gehalt	Gehalt	NOUN	NN	_	8	nmod	_	_
 12	und	und	CCONJ	KON	_	15	cc	_	_
 13	ihre	ihr	DET	PPOSAT	_	15	det:poss	_	_
 14	klassische	klassisch	ADJ	ADJA	_	15	amod	_	_
@@ -50600,7 +50600,7 @@
 4	Entwicklung	Entwicklung	NOUN	NN	_	9	iobj	_	_
 5	eines	ein	DET	ART	_	7	det	_	_
 6	ursprünglichen	ursprünglich	ADJ	ADJA	_	7	amod	_	_
-7	Triebes	Trieb	NOUN	NN	_	4	obj	_	_
+7	Triebes	Trieb	NOUN	NN	_	4	nmod	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
 9	widmen	widmen	VERB	VVINF	_	13	csubj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
@@ -50626,7 +50626,7 @@
 30	zum	zu	ADP	APPRART	_	31	case	_	_
 31	Geschäft	Geschäft	NOUN	NN	_	34	obl	_	_
 32	seines	sein	DET	PPOSAT	_	33	det:poss	_	_
-33	Lebens	Leben	NOUN	NN	_	31	obj	_	_
+33	Lebens	Leben	NOUN	NN	_	31	nmod	_	_
 34	wählen	wählen	VERB	VVINF	_	20	acl	_	_
 35	kann	können	AUX	VMFIN	_	34	aux	_	SpaceAfter=No
 36	.	--	PUNCT	$.	_	13	punct	_	_
@@ -52133,7 +52133,7 @@
 22	und	und	CCONJ	KON	_	23	cc	_	_
 23	schöne	schön	ADJ	ADJA	_	21	conj	_	_
 24	Freigeisterei	Freigeisterei	NOUN	NN	_	27	nsubj	_	_
-25	ihnen	ihnen	PRON	PPER	_	27	iobj	_	_
+25	ihnen	ihnen	PRON	PPER	_	27	nmod	_	_
 26	weniger	weniger	ADV	ADV	_	27	advmod	_	_
 27	zieme	ziemen	NOUN	NN	_	12	conj	_	_
 28	als	als	CCONJ	KOKOM	_	30	case	_	_
@@ -52275,7 +52275,7 @@
 44	wie	wie	CCONJ	KOKOM	_	45	case	_	_
 45	Reichstruppen	Reichstruppe	NOUN	NN	_	42	nmod	_	_
 46	zusammengetrommelten	zusammengetrommelt	ADJ	ADJA	_	47	amod	_	_
-47	Bilderwitzes	Bilderwitz	NOUN	NN	_	42	obj	_	_
+47	Bilderwitzes	Bilderwitz	NOUN	NN	_	42	nmod	_	_
 48	ergötzen	ergötzen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 49	,	--	PUNCT	$,	_	55	punct	_	_
 50	oder	oder	CCONJ	KON	_	55	cc	_	_

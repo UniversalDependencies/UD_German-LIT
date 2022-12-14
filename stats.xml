@@ -57,14 +57,14 @@
     <dep name="expl">160</dep>
     <dep name="fixed">65</dep>
     <dep name="flat">64</dep>
-    <dep name="iobj">202</dep>
+    <dep name="iobj">196</dep>
     <dep name="mark">954</dep>
-    <dep name="nmod">2001</dep>
+    <dep name="nmod">2041</dep>
     <dep name="nmod:poss">78</dep>
     <dep name="nsubj">3274</dep>
     <dep name="nsubj:pass">121</dep>
     <dep name="nummod">22</dep>
-    <dep name="obj">1617</dep>
+    <dep name="obj">1583</dep>
     <dep name="obl">1598</dep>
     <dep name="obl:agent">2</dep>
     <dep name="orphan">61</dep>
