@@ -26552,7 +26552,7 @@
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	und	und	CCONJ	KON	_	14	cc	_	_
 12	oft	oft	ADV	ADV	_	14	advmod	_	_
-13	sich	sich	PRON	ADV	PronType=Prs|Reflex=Yes	14	advmod	_	_
+13	sich	sich	PRON	ADV	PronType=Prs|Reflex=Yes	14	obl	_	_
 14	widersprechenden	widersprechend	ADJ	ADJA	_	9	conj	_	_
 15	Teilen	Teil	NOUN	NN	_	6	nmod	_	_
 16	unsrer	unser	DET	PPOSAT	_	17	det:poss	_	_
