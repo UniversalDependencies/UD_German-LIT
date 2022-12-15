@@ -713,7 +713,7 @@
 5	gebildet	bilden	VERB	VVPP	_	2	acl	_	_
 6	sind	sein	AUX	VAFIN	_	5	aux:pass	_	_
 7	und	und	CCONJ	KON	_	6	conj	_	_
-8	sich	sich	PRON	PRF	_	9	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 9	bilden	bilden	VERB	VVFIN	_	5	conj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	15	punct	_	_
 11	müssen	müssen	AUX	VMFIN	_	15	aux	_	_
@@ -857,7 +857,7 @@
 21	vollbrachtem	vollbracht	ADJ	ADJA	_	22	amod	_	_
 22	Tagewerke	Tagewerk	NOUN	NN	_	28	obl	_	_
 23	zu	zu	ADP	APPR	_	24	case	_	_
-24	sich	sich	PRON	PRF	_	28	obl	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	28	obl	_	_
 25	selbst	selbst	ADV	ADV	_	24	advmod	_	_
 26	zu	zu	PART	PTKZU	_	27	mark	_	_
 27	sagen	sagen	VERB	VVINF	_	28	xcomp	_	_
@@ -993,7 +993,7 @@
 3	liberale	liberal	ADJ	ADJA	_	4	amod	_	_
 4	Form	Form	NOUN	NN	_	12	obl	_	_
 5	hat	haben	AUX	VAFIN	_	12	aux	_	_
-6	sich	sich	PRON	PRF	_	12	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 7	die	der	DET	ART	_	8	det	_	_
 8	Lebensweisheit	Lebensweisheit	NOUN	NN	_	12	nsubj	_	_
 9	vor	vor	ADP	APPR	_	11	case	_	_
@@ -1052,12 +1052,12 @@
 # text = Sinnlichkeit die sich selbst anschaut, und sich selbst bildet.
 1	Sinnlichkeit	Sinnlichkeit	NOUN	NN	_	0	root	_	_
 2	die	der	DET	ART	_	5	nsubj	_	_
-3	sich	sich	PRON	PRF	_	5	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 4	selbst	selbst	ADV	ADV	_	5	advmod	_	_
 5	anschaut	anschauen	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	10	punct	_	_
 7	und	und	CCONJ	KON	_	10	cc	_	_
-8	sich	sich	PRON	PRF	_	10	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 9	selbst	selbst	ADV	ADV	_	10	advmod	_	_
 10	bildet	bilden	VERB	VVFIN	_	5	conj	_	SpaceAfter=No
 11	.	--	PUNCT	$.	_	1	punct	_	_
@@ -1130,7 +1130,7 @@
 8	sentimentale	sentimental	ADJ	ADJA	_	6	conj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	10	punct	_	_
 10	ließe	lassen	VERB	VVFIN	_	0	root	_	_
-11	sich	sich	PRON	PRF	_	10	obj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 12	vielleicht	vielleicht	ADV	ADV	_	10	advmod	_	_
 13	sehr	sehr	ADV	ADV	_	14	advmod	_	_
 14	fruchtbar	fruchtbar	ADJ	ADJD	_	10	advmod	_	_
@@ -1522,7 +1522,7 @@
 9	,	--	PUNCT	$,	_	17	punct	_	_
 10	muß	müssen	AUX	VMFIN	_	17	aux	_	_
 11	man	man	PRON	PIS	_	17	nsubj	_	_
-12	sich	sich	PRON	PRF	_	17	obj	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 13	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 14	mehr	mehr	ADV	ADV	_	17	advmod	_	_
 15	für	für	ADP	APPR	_	16	case	_	_
@@ -1574,7 +1574,7 @@
 9	,	--	PUNCT	$,	_	10	punct	_	_
 10	befindet	befinden	VERB	VVFIN	_	0	root	_	_
 11	er	er	PRON	PPER	_	10	nsubj	_	_
-12	sich	sich	PRON	PRF	_	10	obj	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 13	für	für	ADP	APPR	_	15	case	_	_
 14	die	der	DET	ART	_	15	det	_	_
 15	Mitteilung	Mitteilung	NOUN	NN	_	10	obl	_	_
@@ -1665,7 +1665,7 @@
 6	,	--	PUNCT	$,	_	12	punct	_	_
 7	wo	wo	ADV	PWAV	_	12	advmod	_	_
 8	man	man	PRON	PIS	_	12	nsubj	_	_
-9	sich	sich	PRON	PRF	_	12	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 10	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 11	selbst	selbst	ADV	ADV	_	12	advmod	_	_
 12	beschränkt	beschränken	ADJ	ADJD	_	14	advcl	_	SpaceAfter=No
@@ -1699,7 +1699,7 @@
 4	denn	denn	CCONJ	KON	_	17	advmod	_	_
 5	man	man	PRON	PIS	_	17	nsubj	_	_
 6	kann	können	AUX	VMFIN	_	17	aux	_	_
-7	sich	sich	PRON	PRF	_	17	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 8	nur	nur	ADV	ADV	_	17	advmod	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
 10	den	der	DET	ART	_	11	det	_	_
@@ -1760,7 +1760,7 @@
 3	aber	aber	ADV	ADV	_	28	advmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	8	punct	_	_
 5	der	der	PRON	PRELS	_	8	nsubj	_	_
-6	sich	sich	PRON	PRF	_	8	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 7	rein	rein	ADJ	ADJD	_	8	advmod	_	_
 8	ausreden	ausreden	VERB	VVINF	_	2	acl	_	_
 9	will	wollen	AUX	VMFIN	_	8	aux	_	_
@@ -1770,7 +1770,7 @@
 13	der	der	PRON	PRELS	_	17	nsubj	_	_
 14	nichts	nichts	PRON	PIS	_	17	obj	_	_
 15	für	für	ADP	APPR	_	16	case	_	_
-16	sich	sich	PRON	PRF	_	17	nmod	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	nmod	_	_
 17	behält	behalten	VERB	VVFIN	_	8	parataxis	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	21	punct	_	_
 19	und	und	CCONJ	KON	_	21	cc	_	_
@@ -1799,7 +1799,7 @@
 4	Fehlern	Fehler	NOUN	NN	_	5	nmod	_	_
 5	hat	haben	AUX	VAFIN	_	0	root	_	_
 6	man	man	PRON	PIS	_	5	nsubj	_	_
-7	sich	sich	PRON	PRF	_	5	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
 9	hüten	hüten	VERB	VVINF	_	5	xcomp	_	SpaceAfter=No
 10	.	--	PUNCT	$.	_	5	punct	_	_
@@ -1929,7 +1929,7 @@
 13	haben	haben	AUX	VAFIN	_	12	aux	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	12	punct	_	_
 15	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-16	sich	sich	PRON	PRF	_	18	obj	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 17	nichts	nichts	PRON	PIS	_	18	nsubj	_	_
 18	tadeln	tadeln	VERB	VVINF	_	15	xcomp	_	_
 19	als	als	CCONJ	KOKOM	_	22	case	_	_
@@ -1980,7 +1980,7 @@
 17	Nutzen	Nutzen	NOUN	NN	_	12	obj	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	37	punct	_	_
 19	daß	daß	SCONJ	KOUS	_	37	mark	_	_
-20	sich	sich	PRON	PRF	_	37	obj	_	_
+20	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	37	obj	_	_
 21	die	der	DET	ART	_	23	det	_	_
 22	wichtigen	wichtig	ADJ	ADJA	_	23	amod	_	_
 23	Begriffe	Begriff	NOUN	NN	_	37	nsubj	_	_
@@ -2185,7 +2185,7 @@
 2	Poesie	Poesie	NOUN	NN	_	15	nsubj	_	_
 3	allein	allein	ADV	ADV	_	15	advmod	_	_
 4	kann	können	AUX	VMFIN	_	15	aux	_	_
-5	sich	sich	PRON	PRF	_	15	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obj	_	_
 6	auch	auch	ADV	ADV	_	15	advmod	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
 8	dieser	dieser	DET	PDAT	_	9	det	_	_
@@ -2267,7 +2267,7 @@
 9	übersieht	übersehen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	17	punct	_	_
 11	und	und	CCONJ	KON	_	17	cc	_	_
-12	sich	sich	PRON	PRF	_	17	obj	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 13	über	über	ADP	APPR	_	15	case	_	_
 14	alles	alle	DET	PIAT	_	15	det	_	_
 15	Bedingte	Bedingt	NOUN	NN	_	17	obl	_	_
@@ -2365,7 +2365,7 @@
 # text = Man sollte sich nie auf den Geist des Altertums berufen, wie auf eine Autorität.
 1	Man	man	PRON	PIS	_	10	nsubj	_	_
 2	sollte	sollen	AUX	VMFIN	_	10	aux	_	_
-3	sich	sich	PRON	PRF	_	10	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 4	nie	nie	ADV	ADV	_	10	advmod	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	den	der	DET	ART	_	7	det	_	_
@@ -2402,7 +2402,7 @@
 # text = sie lassen sich nicht mit Händen greifen, und dem andern vorhalten.
 1	sie	sie	PRON	PPER	_	2	nsubj	_	_
 2	lassen	lassen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
 6	Händen	Hand	NOUN	NN	_	2	obl	_	_
@@ -2421,7 +2421,7 @@
 # text = Geister zeigen sich nur Geistern.
 1	Geister	Geist	NOUN	NN	_	2	nsubj	_	_
 2	zeigen	zeigen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	iobj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	iobj	_	_
 4	nur	nur	ADV	ADV	_	2	advmod	_	_
 5	Geistern	Geister	NOUN	NN	_	2	obj	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	2	punct	_	_
@@ -2475,7 +2475,7 @@
 14	,	--	PUNCT	$,	_	15	punct	_	_
 15	erinnert	erinnern	VERB	VVFIN	_	0	root	_	_
 16	man	man	PRON	PIS	_	15	nsubj	_	_
-17	sich	sich	PRON	PRF	_	15	obj	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obj	_	_
 18	der	der	DET	ART	_	20	det	_	_
 19	naiven	naiv	ADJ	ADJA	_	20	amod	_	_
 20	Äußerung	Äußerung	NOUN	NN	_	15	obl	_	_
@@ -2604,7 +2604,7 @@
 33	,	--	PUNCT	$,	_	32	punct	_	_
 34	worin	worin	ADV	PWAV	_	38	mark	_	_
 35	Pyramus	Pyramus	PROPN	NE	_	38	nsubj	_	_
-36	sich	sich	PRON	PRF	_	38	obj	_	_
+36	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	38	obj	_	_
 37	selbst	selbst	ADV	ADV	_	36	advmod	_	_
 38	umbringt	umbringen	VERB	VVFIN	_	32	acl	_	SpaceAfter=No
 39	.	--	PUNCT	$.	_	2	punct	_	_
@@ -2724,7 +2724,7 @@
 1	Aber	aber	CCONJ	KON	_	3	advmod	_	_
 2	umkehren	umkehren	VERB	VVINF	_	3	xcomp	_	_
 3	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	dieser	dieser	DET	PDAT	_	6	det	_	_
 6	Satz	Satz	NOUN	NN	_	3	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	3	advmod	_	SpaceAfter=No
@@ -2990,7 +2990,7 @@
 5	selbst	selbst	ADV	ADV	_	7	advmod	_	_
 6	die	der	DET	ART	_	7	det	_	_
 7	Hunde	Hund	NOUN	NN	_	11	nsubj	_	_
-8	sich	sich	PRON	PRF	_	11	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 9	aufs	auf	ADP	APPRART	_	10	case	_	_
 10	Unendliche	unendlich	NOUN	NN	_	11	obl	_	_
 11	beziehen	beziehen	VERB	VVINF	_	2	acl	_	SpaceAfter=No
@@ -3009,7 +3009,7 @@
 5	gebildeter	gebildet	ADJ	ADJA	_	3	conj	_	_
 6	Mensch	Mensch	NOUN	NN	_	27	nsubj:pass	_	_
 7	müßte	müssen	AUX	VMFIN	_	27	aux	_	_
-8	sich	sich	PRON	PRF	_	27	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	27	obj	_	_
 9	selbst	selbst	ADV	ADV	_	8	advmod	_	_
 10	nach	nach	ADP	APPR	_	11	case	_	_
 11	Belieben	Belieben	PROPN	NE	_	27	obl	_	_
@@ -3136,7 +3136,7 @@
 19	die	der	DET	ART	_	21	det	_	_
 20	bankerotte	bankerott	ADJ	ADJA	_	21	amod	_	_
 21	Natur	Natur	NOUN	NN	_	31	nsubj	_	_
-22	sich	sich	PRON	PRF	_	31	obj	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	31	obj	_	_
 23	für	für	ADP	APPR	_	27	case	_	_
 24	die	der	DET	ART	_	27	det	_	_
 25	nicht	nicht	PART	PTKNEG	_	26	advmod	_	_
@@ -3189,7 +3189,7 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	Zweck	Zweck	NOUN	NN	_	0	root	_	_
 4	an	an	ADP	APPR	_	5	case	_	_
-5	sich	sich	PRON	PRF	_	3	obl	_	SpaceAfter=No
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	3	punct	_	_
 7	wie	wie	ADV	PWAV	_	9	cc	_	_
 8	die	der	DET	ART	_	9	det	_	_
@@ -3371,7 +3371,7 @@
 1	Vielleicht	vielleicht	ADV	ADV	_	12	advmod	_	_
 2	würde	werden	AUX	VAFIN	_	12	aux	_	_
 3	man	man	PRON	PIS	_	12	nsubj	_	_
-4	sich	sich	PRON	PRF	_	12	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 5	dann	dann	ADV	ADV	_	12	advmod	_	_
 6	mit	mit	ADP	APPR	_	9	case	_	_
 7	einer	ein	DET	ART	_	9	det	_	_
@@ -3531,7 +3531,7 @@
 22	so	so	ADV	ADV	_	23	advmod	_	_
 23	gewaltig	gewaltig	ADJ	ADJD	_	26	advmod	_	_
 24	um	um	ADP	APPR	_	25	case	_	_
-25	sich	sich	PRON	PRF	_	26	nmod	_	_
+25	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	nmod	_	_
 26	griff	greifen	VERB	VVFIN	_	13	acl	_	SpaceAfter=No
 27	.	--	PUNCT	$.	_	8	punct	_	_
 
@@ -3857,7 +3857,7 @@
 29	im	in	ADP	APPRART	_	30	case	_	_
 30	letzten	letzt	PRON	PIS	_	31	obl	_	_
 31	zeigt	zeigen	VERB	VVFIN	_	4	parataxis	_	_
-32	sich	sich	PRON	PRF	_	31	iobj	_	_
+32	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	31	iobj	_	_
 33	jene	jener	PRON	PDS	_	38	det	_	_
 34	harmonisch	harmonisch	ADV	ADV	_	35	advmod	_	_
 35	ausgebildete	ausgebildet	ADJ	ADJA	_	38	amod	_	_
@@ -3929,7 +3929,7 @@
 4	schreiben	schreiben	VERB	VVINF	_	1	acl	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	9	punct	_	_
 6	und	und	CCONJ	KON	_	9	cc	_	_
-7	sich	sich	PRON	PRF	_	9	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 8	dann	dann	ADV	ADV	_	9	advmod	_	_
 9	einbilden	einbilden	VERB	VVINF	_	4	conj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	15	punct	_	_
@@ -4268,7 +4268,7 @@
 8	ist	sein	AUX	VAFIN	_	7	aux:pass	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	12	punct	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
-11	sich	sich	PRON	PRF	_	12	obj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 12	bildet	bilden	VERB	VVFIN	_	7	conj	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	2	punct	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
@@ -4637,7 +4637,7 @@
 5	will	wollen	AUX	VMFIN	_	3	aux	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	3	punct	_	_
 7	mag	mögen	AUX	VMFIN	_	11	aux	_	_
-8	sich	sich	PRON	PRF	_	11	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 9	doch	doch	ADV	ADV	_	11	advmod	_	_
 10	selbst	selbst	ADV	ADV	_	11	advmod	_	_
 11	bilden	bilden	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -4734,7 +4734,7 @@
 24	genug	genug	ADV	ADV	_	23	advmod	_	_
 25	sind	sein	AUX	VAFIN	_	23	cop	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	23	punct	_	_
-27	sich	sich	PRON	PRF	_	33	obj	_	_
+27	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	33	obj	_	_
 28	selbst	selbst	ADV	ADV	_	33	advmod	_	_
 29	über	über	ADP	APPR	_	31	case	_	_
 30	ihr	ihr	DET	PPOSAT	_	31	nmod:poss	_	_
@@ -5305,7 +5305,7 @@
 36	,	--	PUNCT	$,	_	40	punct	_	_
 37	nicht	nicht	PART	PTKNEG	_	40	advmod	_	_
 38	bloß	bloß	ADV	ADV	_	40	advmod	_	_
-39	sich	sich	PRON	PRF	_	40	obj	_	_
+39	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	40	obj	_	_
 40	äußern	äußern	VERB	VVINF	_	30	parataxis	_	SpaceAfter=No
 41	,	--	PUNCT	$,	_	40	punct	_	_
 42	allein	allein	ADV	ADV	_	40	advmod	_	SpaceAfter=No
@@ -5488,7 +5488,7 @@
 8	Beisammensein	Beisammensein	NOUN	NN	_	2	obj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	2	punct	_	_
 10	worin	worin	ADV	PWAV	_	26	mark	_	_
-11	sich	sich	PRON	PRF	_	26	obj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obj	_	_
 12	auch	auch	ADV	ADV	_	26	advmod	_	_
 13	die	der	DET	ART	_	14	det	_	_
 14	Bürger	Bürger	NOUN	NN	_	26	nsubj	_	_
@@ -6184,9 +6184,9 @@
 10	sie	sie	PRON	PPER	_	11	obl	_	_
 11	setzt	setzen	VERB	VVFIN	_	4	parataxis	_	_
 12	man	man	PRON	PIS	_	11	nsubj	_	_
-13	sich	sich	PRON	PRF	_	11	obj	_	_
+13	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 14	über	über	ADP	APPR	_	15	case	_	_
-15	sich	sich	PRON	PRF	_	11	obl	_	_
+15	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obl	_	_
 16	selbst	selbst	ADV	ADV	_	15	advmod	_	_
 17	weg;	"weg;"	ADV	ADV	_	11	xcomp	_	_
 18	und	und	CCONJ	KON	_	22	cc	_	_
@@ -6419,7 +6419,7 @@
 # text = Obgleich er sich anfänglich mit den Vornehmen gemein gemacht hatte, lebte er dennoch frei, wie er auch frei und würdig starb, und verachtete den kleinen Ruhm eines großen Schriftstellers.
 1	Obgleich	obgleich	SCONJ	KOUS	_	9	mark	_	_
 2	er	er	PRON	PPER	_	9	nsubj	_	_
-3	sich	sich	PRON	PRF	_	9	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 4	anfänglich	anfänglich	ADJ	ADJD	_	9	xcomp	_	_
 5	mit	mit	ADP	APPR	_	7	case	_	_
 6	den	der	DET	ART	_	7	det	_	_
@@ -6587,7 +6587,7 @@
 4	konstruiert	konstruieren	VERB	VVFIN	_	0	root	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	schafft	schaffen	VERB	VVFIN	_	4	conj	_	_
-7	sich	sich	PRON	PRF	_	4	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obj	_	_
 8	einen	ein	DET	ART	_	9	det	_	_
 9	Leser	Leser	NOUN	NN	_	4	obj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	4	punct	_	_
@@ -6604,7 +6604,7 @@
 # text = er denkt sich denselben nicht ruhend und tot, sondern lebendig und entgegenwirkend.
 1	er	er	PRON	PPER	_	2	nsubj	_	_
 2	denkt	denken	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	denselben	derselbe	PRON	PDS	_	6	nsubj	_	_
 5	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 6	ruhend	ruhend	ADV	ADV	_	2	advmod	_	_
@@ -6729,7 +6729,7 @@
 # sent_id = lyceum-f114-s2
 # text = Wenn sich doch auch einmal eine Gesellschaft der Art verbinden wollte, welche bloß den Zweck hätte, die Kritik selbst, die doch auch notwendig ist, allmählich zu realisieren.
 1	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
-2	sich	sich	PRON	PRF	_	10	obj	_	_
+2	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 3	doch	doch	ADV	ADV	_	10	advmod	_	_
 4	auch	auch	ADV	ADV	_	5	advmod	_	_
 5	einmal	einmal	ADV	ADV	_	10	advmod	_	_
@@ -6983,7 +6983,7 @@
 # text = Sie lassen sich weder machen, noch ohne Entweihung öffentlich mitteilen.
 1	Sie	sie	PRON	PPER	_	2	nsubj	_	_
 2	lassen	lassen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	weder	weder	CCONJ	KON	_	5	cc	_	_
 5	machen	machen	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	11	punct	_	_
@@ -7174,7 +7174,7 @@
 13	,	--	PUNCT	$,	_	18	punct	_	_
 14	daß	daß	SCONJ	KOUS	_	18	mark	_	_
 15	sie	sie	PRON	PPER	_	18	nsubj	_	_
-16	sich	sich	PRON	PRF	_	18	obj	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 17	nackt	nackt	ADJ	ADJD	_	18	xcomp	_	_
 18	zeigen	zeigen	VERB	VVINF	_	1	advcl	_	_
 19	dürfte	dürfen	AUX	VMINF	_	18	aux	_	SpaceAfter=No
@@ -7317,7 +7317,7 @@
 # text = Er dürfte sich, was poetische Kritik betrifft, immer zur Ruhe setzen.
 1	Er	er	PRON	PPER	_	14	nsubj	_	_
 2	dürfte	dürfen	AUX	VMFIN	_	14	aux	_	_
-3	sich	sich	PRON	PRF	_	14	obj	_	SpaceAfter=No
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	obj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	14	punct	_	_
 5	was	was	PRON	PWS	_	8	nsubj	_	_
 6	poetische	poetisch	ADJ	ADJA	_	7	amod	_	_
@@ -7756,7 +7756,7 @@
 2	Wie	wie	ADV	PWAV	_	4	advmod	_	_
 3	oft	oft	ADV	ADV	_	2	fixed	_	_
 4	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-5	sich	sich	PRON	PRF	_	4	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obj	_	_
 6	nicht	nicht	PART	PTKNEG	_	4	advmod	_	_
 7	diese	dieser	DET	PDAT	_	8	det	_	_
 8	Frage	Frage	NOUN	NN	_	4	nsubj	_	_
@@ -7851,7 +7851,7 @@
 3	aber	aber	ADV	ADV	_	11	advmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	9	punct	_	_
 5	der	der	PRON	PRELS	_	9	nsubj	_	_
-6	sich	sich	PRON	PRF	_	9	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 7	davon	davon	ADV	PROAV	_	9	advmod	_	_
 8	anstecken	anstecken	VERB	VVINF	_	9	xcomp	_	_
 9	ließe	lassen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
@@ -7893,7 +7893,7 @@
 16	Erden	Erde	NOUN	NN	_	13	conj	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	24	punct	_	_
 18	wovon	wovon	ADV	PWAV	_	24	advmod	_	_
-19	sich	sich	PRON	PRF	_	24	obj	_	_
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obj	_	_
 20	die	der	DET	ART	_	21	det	_	_
 21	Poesie	Poesie	NOUN	NN	_	24	nsubj	_	_
 22	nichts	nichts	PRON	PIS	_	23	obj	_	_
@@ -7935,7 +7935,7 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	indelikat	indelikat	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	sich	sich	PRON	PRF	_	8	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 6	drüber	drüber	ADV	PROAV	_	8	advmod	_	_
 7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	wundern	wundern	VERB	VVINF	_	3	csubj	_	SpaceAfter=No
@@ -8266,7 +8266,7 @@
 11	ihr	ihr	DET	PPOSAT	_	12	det:poss	_	_
 12	Leben	Leben	NOUN	NN	_	10	obj	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
-14	sich	sich	PRON	PRF	_	10	obl	_	SpaceAfter=No
+14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obl	_	SpaceAfter=No
 15	.	--	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -8458,7 +8458,7 @@
 15	kommentirt	kommentieren	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	15	punct	_	_
 17	findet	finden	VERB	VVFIN	_	0	root	_	_
-18	sich	sich	PRON	PRF	_	17	obj	_	_
+18	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 19	gegenseitig	gegenseitig	ADJ	ADJD	_	17	advmod	_	_
 20	in	in	ADP	APPR	_	23	case	_	_
 21	der	der	DET	ART	_	23	det	_	_
@@ -8572,7 +8572,7 @@
 4	,	--	PUNCT	$,	_	9	punct	_	_
 5	indem	indem	SCONJ	KOUS	_	9	mark	_	_
 6	sie	sie	PRON	PPER	_	9	nsubj	_	_
-7	sich	sich	PRON	PRF	_	9	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 8	gegenseitig	gegenseitig	ADV	ADV	_	9	advmod	_	_
 9	aufheben	aufheben	VERB	VVINF	_	3	advcl	_	SpaceAfter=No
 10	.	--	PUNCT	$.	_	3	punct	_	_
@@ -9086,7 +9086,7 @@
 14	Keim	Keim	NOUN	NN	_	18	obj	_	_
 15	davon	davon	ADV	PROAV	_	18	advmod	_	_
 16	in	in	ADP	APPR	_	17	case	_	_
-17	sich	sich	PRON	PRF	_	18	obl	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obl	_	_
 18	hat	haben	AUX	VAFIN	_	8	advcl	_	SpaceAfter=No
 19	?	--	PUNCT	$.	_	8	punct	_	_
 
@@ -9101,7 +9101,7 @@
 4	soll	sollen	AUX	VMFIN	_	3	aux	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	3	punct	_	_
 6	muß	müssen	AUX	VMFIN	_	11	aux	_	_
-7	sich	sich	PRON	PRF	_	11	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
 9	mir	sich	PRON	PPER	_	11	obl	_	_
 10	organisch	organisch	ADV	ADV	_	11	advmod	_	_
@@ -9137,7 +9137,7 @@
 6	da	da	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	13	punct	_	_
 8	wo	wo	ADV	PWAV	_	13	mark	_	_
-9	sich	sich	PRON	PRF	_	13	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 10	Innenwelt	Innenwelt	NOUN	NN	_	13	nsubj	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	Außenwelt	Außenwelt	NOUN	NN	_	10	conj	_	_
@@ -9151,7 +9151,7 @@
 # text = Wo sie sich durchdringen, ist er in jedem Punkte der Durchdringung.
 1	Wo	wo	ADV	PWAV	_	4	advmod	_	_
 2	sie	sie	PRON	PPER	_	4	nsubj	_	_
-3	sich	sich	PRON	PRF	_	4	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obj	_	_
 4	durchdringen	durchdringen	VERB	VVFIN	_	6	advcl	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	ist	sein	VERB	VAFIN	_	0	root	_	_
@@ -9348,7 +9348,7 @@
 9	das	der	DET	ART	_	10	det	_	_
 10	Vermögen	Vermögen	NOUN	NN	_	14	nsubj	_	_
 11	außer	außer	ADP	APPR	_	12	case	_	_
-12	sich	sich	PRON	PRF	_	14	nmod	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	nmod	_	_
 13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	seyn	sein	AUX	VAINF	_	3	xcomp	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
@@ -9799,7 +9799,7 @@
 9	davon	davon	ADV	PROAV	_	10	advmod	_	_
 10	reden	reden	VERB	VVINF	_	0	root	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	15	punct	_	_
-12	sich	sich	PRON	PRF	_	15	obj	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obj	_	_
 13	stillschweigend	stillschweigend	ADJ	ADJD	_	15	advmod	_	_
 14	darüber	darüber	ADV	PROAV	_	15	advmod	_	_
 15	einverstehen	einverstehen	VERB	VVINF	_	10	parataxis	_	SpaceAfter=No
@@ -9918,7 +9918,7 @@
 24	es	es	PRON	PPER	_	28	obj	_	_
 25	nicht	nicht	PART	PTKNEG	_	28	advmod	_	_
 26	über	über	ADP	APPR	_	27	case	_	_
-27	sich	sich	PRON	PRF	_	28	obl	_	_
+27	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	28	obl	_	_
 28	gewinnen	gewinnen	VERB	VVINF	_	21	acl	_	_
 29	kann	können	AUX	VMFIN	_	28	aux	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	28	punct	_	_
@@ -10008,7 +10008,7 @@
 19	Ausweg	Ausweg	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	als	als	SCONJ	KOKOM	_	26	mark	_	_
-22	sich	sich	PRON	PRF	_	26	obj	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obj	_	_
 23	selbst	selbst	ADV	ADV	_	22	fixed	_	_
 24	immer	immer	ADV	ADV	_	26	advmod	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
@@ -10046,7 +10046,7 @@
 18	,	--	PUNCT	$,	_	24	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	24	mark	_	_
 20	man	man	PRON	PIS	_	24	nsubj	_	_
-21	sich	sich	PRON	PRF	_	24	obj	_	_
+21	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obj	_	_
 22	dabey	dabei	ADV	PROAV	_	24	advmod	_	_
 23	leidend	leidend	ADJ	ADJD	_	24	advmod	_	_
 24	verhalten	verhalten	VERB	VVINF	_	17	acl	_	_
@@ -10262,7 +10262,7 @@
 5	Bildung	Bildung	NOUN	NN	_	3	nmod	_	_
 6	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	13	punct	_	_
-8	sich	sich	PRON	PRF	_	13	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 9	seines	sein	DET	PPOSAT	_	11	det:poss	_	_
 10	transcendentalen	transcendental	ADJ	ADJA	_	11	amod	_	_
 11	Selbst	Selbst	NOUN	NN	_	13	obl	_	_
@@ -10805,7 +10805,7 @@
 7	was	was	PRON	PIS	_	12	obj	_	_
 8	man	man	PRON	PIS	_	12	nsubj	_	_
 9	an	an	ADP	APPR	_	10	case	_	_
-10	sich	sich	PRON	PRF	_	12	obl	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obl	_	_
 11	selbst	selbst	ADV	ADV	_	10	advmod	_	_
 12	nimmt	nehmen	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
 13	;	--	PUNCT	$.	_	4	punct	_	_
@@ -10836,7 +10836,7 @@
 19	,	--	PUNCT	$,	_	24	punct	_	_
 20	der	der	PRON	PRELS	_	24	nsubj	_	_
 21	mit	mit	ADP	APPR	_	22	case	_	_
-22	sich	sich	PRON	PRF	_	24	obl	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obl	_	_
 23	selbst	selbst	ADV	ADV	_	22	advmod	_	_
 24	beschäftigt	beschäftigen	VERB	VVPP	_	4	acl	_	_
 25	ist	sein	AUX	VAFIN	_	24	aux	_	SpaceAfter=No
@@ -10924,7 +10924,7 @@
 # text = Jetzt regt sich nur hie und da Geist: wann wird der Geist sich im Ganzen regen? wann wird die Menschheit in Masse sich selbst zu besinnen anfangen?
 1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
 2	regt	regen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
 5	hie	hie	ADV	ADV	_	2	advmod	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
@@ -10935,7 +10935,7 @@
 11	wird	werden	AUX	VAFIN	_	18	aux	_	_
 12	der	der	DET	ART	_	13	det	_	_
 13	Geist	Geist	NOUN	NN	_	18	nsubj	_	_
-14	sich	sich	PRON	PRF	_	18	obj	_	_
+14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 15-16	im	_	_	_	_	_	_	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	_	17	det	_	_
@@ -10948,7 +10948,7 @@
 23	Menschheit	Menschheit	NOUN	NN	_	30	nsubj	_	_
 24	in	in	ADP	APPR	_	25	case	_	_
 25	Masse	Masse	NOUN	NN	_	29	nmod	_	_
-26	sich	sich	PRON	PRF	_	29	obj	_	_
+26	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	29	obj	_	_
 27	selbst	selbst	ADV	ADV	_	26	advmod	_	_
 28	zu	zu	PART	PTKZU	_	29	mark	_	_
 29	besinnen	besinnen	VERB	VVINF	_	30	xcomp	_	_
@@ -10983,7 +10983,7 @@
 7	so	so	ADV	ADV	_	8	advmod	_	_
 8	giebt	gieben	VERB	VVFIN	_	1	parataxis	_	_
 9	er	er	PRON	PPER	_	8	nsubj	_	_
-10	sich	sich	PRON	PRF	_	8	obj	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 11	selbst	selbst	ADV	ADV	_	10	advmod	_	_
 12	preis	preis	ADP	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	1	punct	_	_
@@ -10999,7 +10999,7 @@
 4	verräth	verräth	VERB	VVFIN	_	6	csubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	verräth	verräth	VERB	VVFIN	_	0	root	_	_
-7	sich	sich	PRON	PRF	_	6	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 8	selbst	selbst	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -11371,7 +11371,7 @@
 # sent_id = bluethenstaub-f45-s1
 # text = In sich zurückgehn, bedeutet bey uns, von der Außenwelt abstrahiren.
 1	In	in	ADP	APPR	_	2	case	_	_
-2	sich	sich	PRON	PRF	_	3	obl	_	_
+2	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obl	_	_
 3	zurückgehn	zurückgehn	VERB	VVFIN	_	5	csubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	bedeutet	bedeuten	VERB	VVFIN	_	0	root	_	_
@@ -11404,7 +11404,7 @@
 13	,	--	PUNCT	$,	_	12	punct	_	_
 14	ein	ein	ADP	PTKVZ	_	4	compound:prt	_	_
 15	in	in	ADP	APPR	_	16	case	_	_
-16	sich	sich	PRON	PRF	_	4	obl	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obl	_	_
 17	Hineingehn	Hineingehn	PROPN	NE	_	4	nsubj	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	17	punct	_	_
 19	ein	ein	DET	ART	_	21	det	_	_
@@ -11433,7 +11433,7 @@
 14	,	--	PUNCT	$,	_	15	punct	_	_
 15	Sammeln	Sammel	NOUN	NN	_	13	conj	_	_
 16	in	in	ADP	APPR	_	17	case	_	_
-17	sich	sich	PRON	PRF	_	15	nmod	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	nmod	_	_
 18	selbst	selbst	ADV	ADV	_	17	advmod	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	13	punct	_	_
 20	das	der	PRON	PRELS	_	22	nsubj	_	_
@@ -11475,12 +11475,12 @@
 1	Der	der	DET	ART	_	2	det	_	_
 2	Geist	Geist	NOUN	NN	_	3	nsubj	_	_
 3	entfaltet	entfalten	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	wiederum	wiederum	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	7	punct	_	_
 7	geht	gehen	VERB	VVFIN	_	3	parataxis	_	_
 8	aus	aus	ADP	APPR	_	9	case	_	_
-9	sich	sich	PRON	PRF	_	7	obl	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obl	_	_
 10	selbst	selbst	ADV	ADV	_	9	advmod	_	_
 11	wieder	wieder	ADV	ADV	_	7	advmod	_	_
 12	heraus	heraus	ADP	PTKVZ	_	7	compound:prt	_	SpaceAfter=No
@@ -11554,7 +11554,7 @@
 # sent_id = bluethenstaub-f46-s1
 # text = Ob sich nicht etwas für die neuerdings so sehr gemißhandelten Alltagsmenschen sagen ließe?
 1	Ob	ob	SCONJ	KOUS	_	13	mark	_	_
-2	sich	sich	PRON	PRF	_	13	obj	_	_
+2	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 3	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
 4	etwas	etwas	PRON	PIS	_	13	nsubj	_	_
 5	für	für	ADP	APPR	_	11	case	_	_
@@ -11672,7 +11672,7 @@
 20	gerathen	gerathen	VERB	VVINF	_	6	xcomp	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	25	punct	_	_
 22	oder	oder	CCONJ	KON	_	25	cc	_	_
-23	sich	sich	PRON	PRF	_	25	obj	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	25	obj	_	_
 24	zu	zu	PART	PTKZU	_	25	mark	_	_
 25	bemühen	bemühen	VERB	VVINF	_	20	conj	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	25	punct	_	_
@@ -12022,7 +12022,7 @@
 53	und	und	CCONJ	KON	_	65	cc	_	_
 54	diesen	dieser	PRON	PDS	_	55	det	_	_
 55	Keim	Keim	NOUN	NN	_	65	nsubj	_	_
-56	sich	sich	PRON	PRF	_	65	obj	_	_
+56	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	65	obj	_	_
 57	auf	auf	ADP	APPR	_	60	case	_	_
 58	eine	ein	DET	ART	_	60	det	_	_
 59	eigenthümliche	eigenthümlich	ADJ	ADJA	_	60	amod	_	_
@@ -12275,7 +12275,7 @@
 11	er	er	PRON	PPER	_	15	nsubj	_	_
 12	es	es	PRON	PPER	_	15	obj	_	_
 13	über	über	ADP	APPR	_	14	case	_	_
-14	sich	sich	PRON	PRF	_	15	obl	_	_
+14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obl	_	_
 15	gewinnen	gewinnen	VERB	VVINF	_	2	conj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	32	punct	_	_
 17	schon	schon	ADV	ADV	_	32	advmod	_	_
@@ -12285,7 +12285,7 @@
 21	Grade	Grade	NOUN	NN	_	32	obl	_	_
 22	von	von	ADP	APPR	_	23	case	_	_
 23	Meisterschaft	Meisterschaft	NOUN	NN	_	21	nmod	_	_
-24	sich	sich	PRON	PRF	_	32	obj	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	32	obj	_	_
 25	wieder	wieder	ADV	ADV	_	32	advmod	_	_
 26	in	in	ADP	APPR	_	28	case	_	_
 27	den	der	DET	ART	_	28	det	_	_
@@ -12658,7 +12658,7 @@
 5	Materie	Materie	NOUN	NN	_	0	root	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	die	der	PRON	PRELS	_	12	nsubj	_	_
-8	sich	sich	PRON	PRF	_	12	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 9	um	um	ADP	APPR	_	11	case	_	_
 10	die	der	DET	ART	_	11	det	_	_
 11	Schönheit	Schönheit	NOUN	NN	_	12	obl	_	_
@@ -12677,7 +12677,7 @@
 5	ist	sein	VERB	VVFIN	_	7	advcl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	häuft	häufen	VERB	VVFIN	_	0	root	_	_
-8	sich	sich	PRON	PRF	_	7	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obj	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
 10	konzentrischen	konzentrisch	ADJ	ADJA	_	11	amod	_	_
 11	Schwingungen	Schwingung	NOUN	NN	_	7	obl	_	_
@@ -12927,7 +12927,7 @@
 1	Das	der	DET	ART	_	2	det	_	_
 2	Kapitol	Kapitol	NOUN	NN	_	3	nsubj	_	_
 3	ließe	lassen	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	vielleicht	vielleicht	ADV	ADV	_	3	advmod	_	_
 6	nach	nach	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	_	8	det	_	_
@@ -13284,7 +13284,7 @@
 6	,	--	PUNCT	$,	_	19	punct	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
 8	dem	der	PRON	PRELS	_	19	obl	_	_
-9	sich	sich	PRON	PRF	_	19	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 10	poetischer	poetisch	ADJ	ADJA	_	11	amod	_	_
 11	Geist	Geist	NOUN	NN	_	19	nsubj	_	_
 12	und	und	CCONJ	KON	_	14	cc	_	_
@@ -13537,7 +13537,7 @@
 1	Die	der	DET	ART	_	2	det	_	_
 2	Seele	Seele	NOUN	NN	_	3	nsubj	_	_
 3	zersetzt	zersetzen	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	SpaceAfter=No
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
 5	.	--	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -13603,7 +13603,7 @@
 5	Welt	Welt	NOUN	NN	_	1	obl	_	_
 6	verzehrt	verzehren	VERB	VVFIN	_	0	root	_	_
 7	er	er	PRON	PPER	_	6	nsubj	_	_
-8	sich	sich	PRON	PRF	_	6	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 9	allmählig	allmählig	ADJ	ADJD	_	6	advmod	_	_
 10	selbst	selbst	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	17	punct	_	_
@@ -13769,7 +13769,7 @@
 # text = Je mehr sich unsere Sinne verfeinern, desto fähiger werden sie zur Unterscheidung der Individuen.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
 2	mehr	mehr	ADV	ADV	_	6	advmod	_	_
-3	sich	sich	PRON	PRF	_	6	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 4	unsere	unser	DET	PPOSAT	_	5	det:poss	_	_
 5	Sinne	Sinn	NOUN	NN	_	6	nsubj	_	_
 6	verfeinern	verfeinern	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -13833,7 +13833,7 @@
 1	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
 2	der	der	DET	ART	_	3	det	_	_
 3	Wille	Wille	NOUN	NN	_	10	nsubj	_	_
-4	sich	sich	PRON	PRF	_	10	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 5	in	in	ADP	APPR	_	6	case	_	_
 6	Beziehung	Beziehung	NOUN	NN	_	10	obl	_	_
 7	auf	auf	ADP	APPR	_	9	case	_	_
@@ -13876,7 +13876,7 @@
 13	dieses	dieser	DET	PDAT	_	14	det	_	_
 14	Sinns	Sinn	NOUN	NN	_	9	obj	_	_
 15	auf	auf	ADP	APPR	_	16	case	_	_
-16	sich	sich	PRON	PRF	_	9	obl	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obl	_	_
 17	selbst	selbst	ADV	ADV	_	9	advmod	_	_
 18	bey	bey	ADP	APPR	_	20	case	_	_
 19	herrschender	herrschend	ADJ	ADJA	_	20	amod	_	_
@@ -14064,7 +14064,7 @@
 7	desto	desto	ADV	ADV	_	8	advmod	_	_
 8	mehr	mehr	ADV	ADV	_	9	advmod	_	_
 9	vermindert	vermindern	VERB	VVFIN	_	0	root	_	_
-10	sich	sich	PRON	PRF	_	9	obj	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 11	die	der	DET	ART	_	12	det	_	_
 12	Quantität	Quantität	NOUN	NN	_	9	nsubj	_	_
 13	des	der	DET	ART	_	14	det	_	_
@@ -14073,7 +14073,7 @@
 16	die	der	DET	ART	_	17	det	_	_
 17	Qualität	Qualität	NOUN	NN	_	18	nsubj	_	_
 18	verfeinert	verfeinern	VERB	VVFIN	_	9	parataxis	_	_
-19	sich	sich	PRON	PRF	_	18	obj	_	SpaceAfter=No
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	und	und	CCONJ	KON	_	26	cc	_	_
 22	seine	sein	DET	PPOSAT	_	23	det:poss	_	_
@@ -14440,7 +14440,7 @@
 71	wodurch	wodurch	ADV	PROAV	_	76	advmod	_	_
 72	Gott	Gott	NOUN	NN	_	76	nsubj	_	_
 73	allein	allein	ADV	ADV	_	76	advmod	_	_
-74	sich	sich	PRON	PRF	_	76	obj	_	_
+74	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	76	obj	_	_
 75	vernehmen	vernehmen	VERB	VVINF	_	76	xcomp	_	_
 76	lasse	lassen	VERB	VVFIN	_	67	conj	_	SpaceAfter=No
 77	,	--	PUNCT	$,	_	86	punct	_	_
@@ -14481,7 +14481,7 @@
 8	,	--	PUNCT	$,	_	7	punct	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
 10	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-11	sich	sich	PRON	PRF	_	10	obj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 12	doch	doch	ADV	ADV	_	10	advmod	_	_
 13	ihre	ihr	DET	PPOSAT	_	14	det:poss	_	_
 14	Vereinigung	Vereinigung	NOUN	NN	_	10	nsubj	_	_
@@ -14843,7 +14843,7 @@
 38	in	in	ADP	APPR	_	40	case	_	_
 39	subalternen	subaltern	ADJ	ADJA	_	40	amod	_	_
 40	Händen	Hand	NOUN	NN	_	42	obl	_	_
-41	sich	sich	PRON	PRF	_	42	obj	_	_
+41	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	42	obj	_	_
 42	befand	befinden	VERB	VVFIN	_	13	conj	_	SpaceAfter=No
 43	.	--	PUNCT	$.	_	5	punct	_	_
 
@@ -15031,7 +15031,7 @@
 14	dieser	dieser	DET	PDAT	_	15	det	_	_
 15	Sonntagsrausch	Sonntagsrausch	NOUN	NN	_	16	nsubj	_	_
 16	endigt	endigen	VERB	VVFIN	_	7	conj	_	_
-17	sich	sich	PRON	PRF	_	16	obj	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	16	obj	_	_
 18	mit	mit	ADP	APPR	_	22	case	_	_
 19	einem	ein	DET	ART	_	22	det	_	_
 20	etwas	etwas	ADV	ADV	_	21	advmod	_	_
@@ -15201,7 +15201,7 @@
 2	derbe	derbe	ADJ	ADJA	_	3	nsubj	_	_
 3	Philister	Philister	PROPN	NE	_	4	nsubj	_	_
 4	stellt	stellen	VERB	VVFIN	_	0	root	_	_
-5	sich	sich	PRON	PRF	_	4	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obj	_	_
 6	die	der	DET	ART	_	7	det	_	_
 7	Freuden	Freude	NOUN	NN	_	4	obj	_	_
 8	des	der	DET	ART	_	9	det	_	_
@@ -15488,7 +15488,7 @@
 22	guten	gut	ADJ	ADJA	_	23	amod	_	_
 23	Köpfe	Kopf	NOUN	NN	_	20	nmod	_	_
 24	auf	auf	ADP	APPR	_	25	case	_	_
-25	sich	sich	PRON	PRF	_	26	obl	_	_
+25	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obl	_	_
 26	ziehn	ziehn	ADV	ADV	_	17	conj	_	SpaceAfter=No
 27	.	--	PUNCT	$.	_	17	punct	_	_
 
@@ -15636,7 +15636,7 @@
 1	Daher	daher	ADV	PROAV	_	12	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	12	cop	_	_
 3	man	man	PRON	PIS	_	12	nsubj	_	_
-4	sich	sich	PRON	PRF	_	12	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 5	nie	nie	ADV	ADV	_	12	advmod	_	_
 6	eines	ein	DET	ART	_	7	det	_	_
 7	Gesetzes	Gesetz	NOUN	NN	_	12	obl	_	SpaceAfter=No
@@ -15766,7 +15766,7 @@
 19	,	--	PUNCT	$,	_	27	punct	_	_
 20	wie	wie	ADV	PWAV	_	27	advmod	_	_
 21	sie	sie	PRON	PPER	_	27	nsubj	_	_
-22	sich	sich	PRON	PRF	_	27	obj	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	27	obj	_	_
 23	für	für	ADP	APPR	_	26	case	_	_
 24	die	der	DET	ART	_	26	det	_	_
 25	irdische	irdisch	ADJ	ADJA	_	26	amod	_	_
@@ -16238,7 +16238,7 @@
 29	durch	durch	ADP	APPR	_	30	case	_	_
 30	alles	alle	PRON	PIS	_	38	obl	_	_
 31	dieses	dieser	DET	PDAT	_	38	obj	_	_
-32	sich	sich	PRON	PRF	_	38	obj	_	_
+32	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	38	obj	_	_
 33	gleichsam	gleichsam	ADJ	ADJD	_	38	advmod	_	_
 34	zu	zu	ADP	APPR	_	37	case	_	_
 35	einer	ein	DET	ART	_	37	det	_	_
@@ -16896,7 +16896,7 @@
 3	Genie	Genie	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	8	punct	_	_
 5	das	der	PRON	PRELS	_	8	nsubj	_	_
-6	sich	sich	PRON	PRF	_	8	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 7	selbst	selbst	ADV	ADV	_	6	advmod	_	_
 8	durchdrang	durchdringen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
@@ -17145,7 +17145,7 @@
 # text = Sicherheit vor sich selbst und den unsichtbaren Mächten, war die Basis der bisherigen geistlichen Staaten.
 1	Sicherheit	Sicherheit	NOUN	NN	_	12	nsubj	_	_
 2	vor	vor	ADP	APPR	_	3	case	_	_
-3	sich	sich	PRON	PRF	_	1	nmod	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	1	nmod	_	_
 4	selbst	selbst	ADV	ADV	_	3	advmod	_	_
 5	und	und	CCONJ	KON	_	8	cc	_	_
 6	den	der	DET	ART	_	8	det	_	_
@@ -17206,7 +17206,7 @@
 # text = So scheint sich im Roman der Dichter bald dem Spiel zu nähern, bald wieder zu entfernen, und nie ist es näher, als wenn es am entferntesten zu seyn scheint.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4-5	im	_	_	_	_	_	_	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
 5	dem	der	DET	ART	_	6	det	_	_
@@ -17251,7 +17251,7 @@
 1	Ein	ein	DET	ART	_	2	det	_	_
 2	Verbrecher	Verbrecher	NOUN	NN	_	8	nsubj	_	_
 3	kann	können	AUX	VMFIN	_	8	aux	_	_
-4	sich	sich	PRON	PRF	_	8	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 5	über	über	ADP	APPR	_	6	case	_	_
 6	Unrecht	Unrecht	NOUN	NN	_	8	obl	_	_
 7	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
@@ -17830,7 +17830,7 @@
 40	in	in	ADP	APPR	_	41	case	_	_
 41	Verlegenheit	Verlegenheit	NOUN	NN	_	39	nmod	_	_
 42	gegen	gegen	ADP	APPR	_	43	case	_	_
-43	sich	sich	PRON	PRF	_	45	obl	_	_
+43	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	45	obl	_	_
 44	selbst	selbst	ADV	ADV	_	43	advmod	_	_
 45	setzt	setzen	VERB	VVFIN	_	34	conj	_	SpaceAfter=No
 46	.	--	PUNCT	$.	_	24	punct	_	_
@@ -18188,7 +18188,7 @@
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	mannichfach	mannichfach	ADJ	ADJD	_	0	root	_	_
 3	es	es	PRON	PPER	_	6	nsubj	_	_
-4	sich	sich	PRON	PRF	_	6	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 5	auch	auch	ADV	ADV	_	6	advmod	_	_
 6	verändern	verändern	VERB	VVINF	_	2	advcl	_	_
 7	mag	mögen	AUX	VMFIN	_	6	aux	_	SpaceAfter=No
@@ -18215,7 +18215,7 @@
 1	Dieser	dieser	DET	PDAT	_	2	det	_	_
 2	Satz	Satz	NOUN	NN	_	3	nsubj	_	_
 3	bezieht	beziehen	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	alle	aller	DET	PIAT	_	7	det	_	_
 7	Selbstmodifikazionen	Selbstmodifikazion	NOUN	NN	_	3	obl	_	SpaceAfter=No
@@ -18591,7 +18591,7 @@
 # text = Beide entwickeln sich gern, wo eine Menge Menschen im eingeschloßnen Raum beisammen ist.
 1	Beide	beide	PRON	PIS	_	2	nsubj	_	_
 2	entwickeln	entwickeln	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	gern	gern	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	2	punct	_	_
 6	wo	wo	ADV	PWAV	_	13	advmod	_	_
@@ -18678,7 +18678,7 @@
 # text = So teilt sich zum Beispiel die Naturpoesie in die natürliche und in die künstliche, und die Volkspoesie in die Volkspoesie für das Volk und in die Volkspoesie für Standespersonen und Gelehrte.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	teilt	teilen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	zum	zu	ADP	APPRART	_	5	case	_	_
 5	Beispiel	Beispiel	NOUN	NN	_	2	nmod	_	_
 6	die	der	DET	ART	_	7	det	_	_
@@ -18769,7 +18769,7 @@
 # text = Verhält es sich etwa mit der Bibel ebenso?
 1	Verhält	verhalten	VERB	VVFIN	_	0	root	_	_
 2	es	es	PRON	PPER	_	1	nsubj	_	_
-3	sich	sich	PRON	PRF	_	1	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	1	obj	_	_
 4	etwa	etwa	ADV	ADV	_	1	advmod	_	_
 5	mit	mit	ADP	APPR	_	7	case	_	_
 6	der	der	DET	ART	_	7	det	_	_
@@ -18891,7 +18891,7 @@
 15	Kind	Kind	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
 17	das	der	PRON	PRELS	_	19	nsubj	_	_
-18	sich	sich	PRON	PRF	_	19	obj	_	_
+18	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 19	emanzipieren	emanzipieren	VERB	VVINF	_	15	acl	_	_
 20	will	wollen	AUX	VMFIN	_	19	aux	_	SpaceAfter=No
 21	.	--	PUNCT	$.	_	4	punct	_	_
@@ -19312,7 +19312,7 @@
 20	und	und	CCONJ	KON	_	24	cc	_	_
 21	teilweise	teilweise	ADV	ADV	_	24	advmod	_	_
 22	in	in	ADP	APPR	_	23	case	_	_
-23	sich	sich	PRON	PRF	_	24	obl	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obl	_	_
 24	auszuführen	ausführen	VERB	VVIZU	_	18	conj	_	SpaceAfter=No
 25	.	--	PUNCT	$.	_	5	punct	_	_
 
@@ -19410,7 +19410,7 @@
 6	sind	sein	AUX	VAFIN	_	5	cop	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	14	punct	_	_
 8	die	der	PRON	PRELS	_	14	nsubj	_	_
-9	sich	sich	PRON	PRF	_	14	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	obj	_	_
 10	zugleich	zugleich	ADV	ADV	_	14	advmod	_	_
 11	sagen	sagen	VERB	VVFIN	_	14	xcomp	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
@@ -19428,7 +19428,7 @@
 24	nachzusehen	nachsehen	VERB	VVIZU	_	20	csubj	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	26	punct	_	_
 26	was	was	PRON	PWS	_	24	ccomp	_	_
-27	sich	sich	PRON	PRF	_	26	orphan	_	_
+27	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	orphan	_	_
 28	von	von	ADP	APPR	_	30	case	_	_
 29	dem	der	DET	ART	_	30	det	_	_
 30	Gesprochnen	sprechen	NOUN	NN	_	26	orphan	_	_
@@ -19436,7 +19436,7 @@
 32	,	--	PUNCT	$,	_	40	punct	_	_
 33	und	und	CCONJ	KON	_	40	cc	_	_
 34	was	was	PRON	PWS	_	40	nsubj	_	_
-35	sich	sich	PRON	PRF	_	40	obj	_	_
+35	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	40	obj	_	_
 36	von	von	ADP	APPR	_	38	case	_	_
 37	dem	der	DET	ART	_	38	det	_	_
 38	Geschriebnen	schreiben	NOUN	NN	_	39	obl	_	_
@@ -19513,7 +19513,7 @@
 39	lassen	lassen	VERB	VVINF	_	32	xcomp	_	SpaceAfter=No
 40	,	--	PUNCT	$,	_	48	punct	_	_
 41	und	und	CCONJ	KON	_	48	cc	_	_
-42	sich	sich	PRON	PRF	_	48	obj	_	_
+42	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	48	obj	_	_
 43	demütig	demütig	ADV	ADV	_	48	advmod	_	_
 44	in	in	ADP	APPR	_	46	case	_	_
 45	den	der	DET	ART	_	46	det	_	_
@@ -19538,7 +19538,7 @@
 9	einen	ein	DET	ART	_	10	det	_	_
 10	Wert	Wert	NOUN	NN	_	13	obj	_	_
 11	für	für	ADP	APPR	_	12	case	_	_
-12	sich	sich	PRON	PRF	_	13	obl	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obl	_	_
 13	haben	haben	AUX	VAFIN	_	7	xcomp	_	_
 14	zu	zu	PART	PTKZU	_	13	mark	_	_
 15	wollen	wollen	AUX	VMINF	_	13	aux	_	SpaceAfter=No
@@ -19614,7 +19614,7 @@
 11	,	--	PUNCT	$,	_	10	punct	_	_
 12	man	man	PRON	PIS	_	13	nsubj	_	_
 13	stelle	stellen	VERB	VVFIN	_	5	parataxis	_	_
-14	sich	sich	PRON	PRF	_	13	obj	_	_
+14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 15	wie	wie	ADV	PWAV	_	18	case	_	_
 16	man	man	PRON	PIS	_	18	nsubj	_	_
 17	auch	auch	ADV	ADV	_	18	advmod	_	_
@@ -20129,7 +20129,7 @@
 21	ein	ein	DET	ART	_	22	det	_	_
 22	Individuum	Individuum	NOUN	NN	_	17	ccomp	_	_
 23	für	für	ADP	APPR	_	24	ccomp	_	_
-24	sich	sich	PRON	PRF	_	22	nmod	_	SpaceAfter=No
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	22	nmod	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	30	punct	_	_
 26	oder	oder	CCONJ	KON	_	30	cc	_	_
 27	nur	nur	ADV	ADV	_	30	advmod	_	_
@@ -20153,7 +20153,7 @@
 45	und	und	CCONJ	KON	_	47	cc	_	_
 46	es	es	PRON	PPER	_	47	expl	_	_
 47	läßt	lassen	VERB	VVFIN	_	42	conj	_	_
-48	sich	sich	PRON	PRF	_	47	obj	_	_
+48	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	47	obj	_	_
 49	nicht	nicht	PART	PTKNEG	_	47	advmod	_	_
 50	absehen	absehen	VERB	VVINF	_	47	xcomp	_	SpaceAfter=No
 51	,	--	PUNCT	$,	_	60	punct	_	_
@@ -20397,7 +20397,7 @@
 5	S.	S.	PROPN	NE	_	4	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	4	punct	_	_
 7	verhält	verhalten	VERB	VVFIN	_	0	root	_	_
-8	sich	sich	PRON	PRF	_	7	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obj	_	_
 9	zu	zu	ADP	APPR	_	10	case	_	_
 10	Chamforts	Chamforts	PROPN	NE	_	7	obl	_	_
 11	état	état	PROPN	NE	_	10	flat	_	_
@@ -20514,7 +20514,7 @@
 21	fehlte	fehlen	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	37	punct	_	_
 23	um	um	SCONJ	KOUI	_	37	mark	_	_
-24	sich	sich	PRON	PRF	_	37	obj	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	37	obj	_	_
 25	von	von	ADP	APPR	_	27	case	_	_
 26	den	der	DET	ART	_	27	det	_	_
 27	Gegenständen	Gegenstand	NOUN	NN	_	37	obl	_	_
@@ -20543,14 +20543,14 @@
 50	zu	zu	PART	PTKZU	_	51	mark	_	_
 51	verstehen	verstehen	VERB	VVINF	_	47	xcomp	_	_
 52	als	als	CCONJ	KOKOM	_	53	cc	_	_
-53	sich	sich	PRON	PRF	_	51	obl	_	_
+53	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	51	obl	_	_
 54	selbst	selbst	ADV	ADV	_	53	advmod	_	SpaceAfter=No
 55	;	--	PUNCT	$.	_	57	punct	_	_
 56	oder	oder	CCONJ	KON	_	57	cc	_	_
 57	solche	solcher	PRON	PIS	_	14	conj	_	SpaceAfter=No
 58	,	--	PUNCT	$,	_	57	punct	_	_
 59	die	der	PRON	PRELS	_	63	nsubj	_	_
-60	sich	sich	PRON	PRF	_	63	obj	_	_
+60	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	63	obj	_	_
 61	noch	noch	ADV	ADV	_	63	advmod	_	_
 62	verworrener	verworren	ADV	ADV	_	63	advmod	_	_
 63	ausdrückten	ausdrücken	VERB	VVFIN	_	57	acl	_	_
@@ -21119,7 +21119,7 @@
 # text = Er wird sich also wohl entschließen müssen, beides zu verbinden.
 1	Er	er	PRON	PPER	_	6	nsubj	_	_
 2	wird	werden	AUX	VAFIN	_	6	aux	_	_
-3	sich	sich	PRON	PRF	_	6	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 4	also	also	ADV	ADV	_	6	advmod	_	_
 5	wohl	wohl	ADV	ADV	_	6	advmod	_	_
 6	entschließen	entschließen	VERB	VVINF	_	0	root	_	_
@@ -21576,7 +21576,7 @@
 17	und	und	CCONJ	KON	_	19	cc	_	_
 18	es	es	PRON	PPER	_	19	nsubj	_	_
 19	stößt	stoßen	VERB	VVFIN	_	8	conj	_	_
-20	sich	sich	PRON	PRF	_	19	obj	_	_
+20	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 21	nur	nur	ADV	ADV	_	19	advmod	_	_
 22	an	an	ADP	APPR	_	25	case	_	_
 23	dem	der	DET	ART	_	25	det	_	_
@@ -21624,7 +21624,7 @@
 # text = Auch ließen sich die neuen Produkte von kleinen Dionysen dieser Art hinreichend mit den Worten anzeigen: Führt mich wieder in die Latomien.
 1	Auch	auch	ADV	ADV	_	2	advmod	_	_
 2	ließen	lassen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	die	der	DET	ART	_	6	det	_	_
 5	neuen	neu	ADJ	ADJA	_	6	amod	_	_
 6	Produkte	Produkt	NOUN	NN	_	2	nsubj	_	_
@@ -21659,7 +21659,7 @@
 4	einigen	einiger	DET	PIAT	_	5	det	_	_
 5	Ländern	Land	NOUN	NN	_	6	nmod	_	_
 6	rühmen	rühmen	VERB	VVFIN	_	0	root	_	_
-7	sich	sich	PRON	PRF	_	6	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 8	einer	ein	DET	ART	_	9	det	_	_
 9	Menge	Menge	NOUN	NN	_	6	obl	_	_
 10	Freiheiten	Freiheit	NOUN	NN	_	9	appos	_	SpaceAfter=No
@@ -21789,7 +21789,7 @@
 1	Das	der	DET	ART	_	2	det	_	_
 2	Druckenlassen	Druckenlasse	NOUN	NN	_	3	nsubj	_	_
 3	verhält	verhalten	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5-6	zum	_	_	_	_	_	_	_	_
 5	zu	zu	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	_	7	det	_	_
@@ -21818,7 +21818,7 @@
 5	die	der	DET	ART	_	6	det	_	_
 6	Karikatur	Karikatur	NOUN	NN	_	0	root	_	_
 7	von	von	ADP	APPR	_	8	case	_	_
-8	sich	sich	PRON	PRF	_	6	nmod	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	nmod	_	_
 9	selbst	selbst	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 10	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -22042,7 +22042,7 @@
 33	mag	mögen	AUX	VMFIN	_	32	aux	_	SpaceAfter=No
 34	,	--	PUNCT	$,	_	32	punct	_	_
 35	der	der	PRON	PRELS	_	42	nsubj	_	_
-36	sich	sich	PRON	PRF	_	42	obj	_	_
+36	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	42	obj	_	_
 37-38	im	_	_	_	_	_	_	_	_
 37	in	in	ADP	APPR	_	39	case	_	_
 38	dem	der	DET	ART	_	39	det	_	_
@@ -22147,7 +22147,7 @@
 3	rechte	rechter	ADJ	ADJA	_	4	amod	_	_
 4	Liebhaber	Liebhaber	NOUN	NN	_	5	nsubj	_	_
 5	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-6	sich	sich	PRON	PRF	_	5	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 7	wohl	wohl	ADV	ADV	_	5	advmod	_	_
 8	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
 9	stören	stören	VERB	VVINF	_	5	xcomp	_	SpaceAfter=No
@@ -22662,7 +22662,7 @@
 1	Was	was	PRON	PWS	_	6	nsubj	_	_
 2	auch	auch	ADV	ADV	_	4	advmod	_	_
 3	für	für	ADP	APPR	_	4	case	_	_
-4	sich	sich	PRON	PRF	_	6	obl	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obl	_	_
 5	gar	gar	ADV	ADV	_	6	advmod	_	_
 6	nichts	nichts	PRON	PIS	_	11	csubj	_	_
 7	ist	sein	AUX	VAFIN	_	6	cop	_	SpaceAfter=No
@@ -22765,7 +22765,7 @@
 2	die	der	DET	ART	_	3	det	_	_
 3	Definitionen	Definition	NOUN	NN	_	4	obl	_	_
 4	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-5	sich	sich	PRON	PRF	_	4	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obj	_	_
 6	anwenden	anwenden	VERB	VVINF	_	4	xcomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	was	was	PRON	PWS	_	13	nsubj	_	_
@@ -22839,7 +22839,7 @@
 2	rechten	rechter	ADJ	ADJA	_	3	amod	_	_
 3	Definitionen	Definition	NOUN	NN	_	4	nsubj	_	_
 4	lassen	lassen	VERB	VVFIN	_	0	root	_	_
-5	sich	sich	PRON	PRF	_	4	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obj	_	_
 6	gar	gar	ADV	ADV	_	7	advmod	_	_
 7	nicht	nicht	PART	PTKNEG	_	4	advmod	_	_
 8	aus	aus	ADP	APPR	_	10	case	_	_
@@ -23298,7 +23298,7 @@
 13	als	als	CCONJ	KOKOM	_	17	mark	_	_
 14	könnten	können	AUX	VMFIN	_	17	aux	_	_
 15	sie	sie	PRON	PPER	_	17	nsubj	_	_
-16	sich	sich	PRON	PRF	_	17	obj	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 17	lieben	lieben	VERB	VVINF	_	11	advcl	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	11	punct	_	_
 
@@ -23780,7 +23780,7 @@
 10	,	--	PUNCT	$,	_	3	punct	_	_
 11	erinnert	erinnern	VERB	VVFIN	_	0	root	_	_
 12	man	man	PRON	PIS	_	11	nsubj	_	_
-13	sich	sich	PRON	PRF	_	11	obj	_	_
+13	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 14	immer	immer	ADV	ADV	_	11	advmod	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
 16	die	der	DET	ART	_	17	det	_	_
@@ -23949,7 +23949,7 @@
 15	Abstraktion	Abstraktion	NOUN	NN	_	8	obl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	22	punct	_	_
 17	die	der	PRON	PRELS	_	22	nsubj	_	_
-18	sich	sich	PRON	PRF	_	22	obj	_	_
+18	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	22	obj	_	_
 19	weit	weit	ADJ	ADJD	_	22	advmod	_	_
 20	eher	eher	ADV	ADV	_	22	advmod	_	_
 21	lernen	lernen	VERB	VVINF	_	22	xcomp	_	_
@@ -23969,7 +23969,7 @@
 5	annihiliert	annihilieren	VERB	VVFIN	_	25	advcl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	wobei	wobei	ADV	PWAV	_	15	advmod	_	_
-8	sich	sich	PRON	PRF	_	15	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obj	_	_
 9	der	der	DET	ART	_	10	det	_	_
 10	Unvorsichtige	unvorsichtige	NOUN	NN	_	12	nsubj	_	_
 11	leicht	leicht	ADJ	ADJD	_	12	advmod	_	_
@@ -23987,7 +23987,7 @@
 23	,	--	PUNCT	$,	_	22	punct	_	_
 24	sie	sie	PRON	PPER	_	25	nsubj	_	_
 25	annihiliere	annihilieren	VERB	VVFIN	_	0	root	_	_
-26	sich	sich	PRON	PRF	_	25	obj	_	_
+26	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	25	obj	_	_
 27	selbst	selbst	ADV	ADV	_	26	fixed	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	25	punct	_	_
 29	kann	können	AUX	VMFIN	_	32	aux	_	_
@@ -24037,7 +24037,7 @@
 7	Kantianer	Kantianer	NOUN	NN	_	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	18	punct	_	_
 9	der	der	PRON	PRELS	_	18	nsubj	_	_
-10	sich	sich	PRON	PRF	_	18	obj	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 11	auch	auch	ADV	ADV	_	18	advmod	_	_
 12	für	für	ADP	APPR	_	17	case	_	_
 13	die	der	DET	ART	_	17	det	_	_
@@ -24104,7 +24104,7 @@
 8	die	der	PRON	PDS	_	26	nsubj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	18	punct	_	_
 10	welche	welcher	PRON	PRELS	_	18	nsubj	_	_
-11	sich	sich	PRON	PRF	_	18	iobj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	iobj	_	_
 12	den	der	DET	ART	_	13	det	_	_
 13	Geist	Geist	NOUN	NN	_	18	obj	_	_
 14	des	der	DET	ART	_	16	det	_	_
@@ -24319,7 +24319,7 @@
 18	Philosophie	Philosophie	NOUN	NN	_	23	nsubj	_	_
 19	soll	sollen	AUX	VMFIN	_	23	aux	_	_
 20	mit	mit	ADP	APPR	_	21	case	_	_
-21	sich	sich	PRON	PRF	_	23	obl	_	_
+21	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	23	obl	_	_
 22	selbst	selbst	ADV	ADV	_	21	advmod	_	_
 23	übereinstimmen	übereinstimmen	VERB	VVINF	_	15	parataxis	_	SpaceAfter=No
 24	.	--	PUNCT	$.	_	15	punct	_	_
@@ -24519,7 +24519,7 @@
 11	sein	sein	AUX	VAINF	_	10	aux	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	18	punct	_	_
 13	die	der	PRON	PRELS	_	18	nsubj	_	_
-14	sich	sich	PRON	PRF	_	18	obj	_	_
+14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 15	nur	nur	ADV	ADV	_	18	advmod	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
 17	Ganzen	ganze	NOUN	NN	_	18	obl	_	_
@@ -24865,7 +24865,7 @@
 13	mehre	mehr	ADJ	ADJA	_	11	conj	_	_
 14	Systeme	System	NOUN	NN	_	2	obl	_	_
 15	in	in	ADP	APPR	_	16	case	_	_
-16	sich	sich	PRON	PRF	_	17	obl	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obl	_	_
 17	enthaltenden	enthaltend	ADJ	ADJA	_	18	amod	_	_
 18	Systeme	System	NOUN	NN	_	2	obj	_	_
 19	der	der	DET	ART	_	20	det	_	_
@@ -24896,7 +24896,7 @@
 # text = Sie kann sich so in das Dargestellte verlieren, daß man glauben möchte, poetische Individuen jeder Art zu charakterisieren, sei ihr Eins und Alles; und doch gibt es noch keine Form, die so dazu gemacht wäre, den Geist des Autors vollständig auszudrücken: so daß manche Künstler, die nur auch einen Roman schreiben wollten, von ungefähr sich selbst dargestellt haben.
 1	Sie	sie	PRON	PPER	_	8	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	8	aux	_	_
-3	sich	sich	PRON	PRF	_	8	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 4	so	so	ADV	ADV	_	8	advmod	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
 6	das	der	DET	ART	_	7	det	_	_
@@ -24957,7 +24957,7 @@
 61	,	--	PUNCT	$,	_	59	punct	_	_
 62	von	von	ADP	APPR	_	63	case	_	_
 63	ungefähr	ungefähr	ADJ	ADJD	_	66	advmod	_	_
-64	sich	sich	PRON	PRF	_	66	obj	_	_
+64	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	66	obj	_	_
 65	selbst	selbst	ADV	ADV	_	64	fixed	_	_
 66	dargestellt	darstellen	VERB	VVPP	_	30	advcl	_	_
 67	haben	haben	AUX	VAFIN	_	66	aux	_	SpaceAfter=No
@@ -25242,7 +25242,7 @@
 25	kein	kein	DET	PIAT	_	26	advmod	_	_
 26	Gesetz	Gesetz	NOUN	NN	_	29	obj	_	_
 27	über	über	ADP	APPR	_	28	case	_	_
-28	sich	sich	PRON	PRF	_	29	obl	_	_
+28	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	29	obl	_	_
 29	leide	leide	VERB	VVFIN	_	18	ccomp	_	SpaceAfter=No
 30	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -25360,7 +25360,7 @@
 20	in	in	ADP	APPR	_	22	case	_	_
 21	einem	ein	DET	ART	_	22	det	_	_
 22	Roman	Roman	NOUN	NN	_	26	obl	_	_
-23	sich	sich	PRON	PRF	_	26	obj	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obj	_	_
 24	um	um	ADP	APPR	_	25	case	_	_
 25	Einen	Ein	NOUN	NN	_	26	obl	_	_
 26	bewegen	bewegen	VERB	VVINF	_	13	csubj	_	_
@@ -25407,7 +25407,7 @@
 10	Mittel	Mittel	NOUN	NN	_	7	conj	_	_
 11	ist	sein	AUX	VAFIN	_	7	cop	_	_
 12	für	für	ADP	APPR	_	13	case	_	_
-13	sich	sich	PRON	PRF	_	7	obl	_	_
+13	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obl	_	_
 14	und	und	CCONJ	KON	_	16	cc	_	_
 15	für	für	ADP	APPR	_	16	case	_	_
 16	andre	andre	ADJ	ADJA	_	13	amod	_	SpaceAfter=No
@@ -25724,7 +25724,7 @@
 16	,	--	PUNCT	$,	_	18	punct	_	_
 17	der	der	PRON	PRELS	_	18	nsubj	_	_
 18	stete	sten	VERB	VVFIN	_	13	acl	_	_
-19	sich	sich	PRON	PRF	_	18	obj	_	_
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 20	selbst	selbst	ADV	ADV	_	19	fixed	_	_
 21	erzeugende	erzeugend	ADJ	ADJA	_	22	amod	_	_
 22	Wechsel	Wechsel	NOUN	NN	_	18	obj	_	_
@@ -26149,7 +26149,7 @@
 31	,	--	PUNCT	$,	_	40	punct	_	_
 32	wenn	wenn	SCONJ	KOUS	_	40	mark	_	_
 33	mehre	mehren	DET	PIAT	_	37	amod	_	_
-34	sich	sich	PRON	PRF	_	35	obj	_	_
+34	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	35	obj	_	_
 35	gegenseitig	gegenseitig	ADJ	ADJD	_	36	advmod	_	_
 36	ergänzende	ergänzend	ADJ	ADJA	_	37	amod	_	_
 37	Naturen	Natur	NOUN	NN	_	40	nsubj	_	_
@@ -26166,7 +26166,7 @@
 1	Oft	oft	ADV	ADV	_	8	advmod	_	_
 2	kann	können	AUX	VMFIN	_	8	aux	_	_
 3	man	man	PRON	PIS	_	8	nsubj	_	_
-4	sich	sich	PRON	PRF	_	8	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 5	des	der	DET	ART	_	6	det	_	_
 6	Gedankens	Gedanke	NOUN	NN	_	8	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
@@ -26325,7 +26325,7 @@
 3	kläglicher	kläglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	10	punct	_	_
 5	als	als	CCONJ	KOKOM	_	10	mark	_	_
-6	sich	sich	PRON	PRF	_	10	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 7	dem	der	DET	ART	_	8	det	_	_
 8	Teufel	Teufel	NOUN	NN	_	10	iobj	_	_
 9	umsonst	umsonst	ADV	ADV	_	10	advmod	_	_
@@ -26552,7 +26552,7 @@
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	und	und	CCONJ	KON	_	14	cc	_	_
 12	oft	oft	ADV	ADV	_	14	advmod	_	_
-13	sich	sich	ADV	ADV	_	14	advmod	_	_
+13	sich	sich	PRON	ADV	PronType=Prs|Reflex=Yes	14	advmod	_	_
 14	widersprechenden	widersprechend	ADJ	ADJA	_	9	conj	_	_
 15	Teilen	Teil	NOUN	NN	_	6	nmod	_	_
 16	unsrer	unser	DET	PPOSAT	_	17	det:poss	_	_
@@ -26931,7 +26931,7 @@
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
 9	sein	sein	AUX	VAINF	_	6	xcomp	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	20	punct	_	_
-11	sich	sich	PRON	PRF	_	20	obj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	20	obj	_	_
 12	selbst	selbst	ADV	ADV	_	11	fixed	_	_
 13	mit	mit	ADP	APPR	_	15	case	_	_
 14	freigebiger	freigebig	ADJ	ADJA	_	15	amod	_	_
@@ -26950,7 +26950,7 @@
 27	Egoismus	Egoismus	NOUN	NN	_	33	obl	_	_
 28	alles	alle	PRON	PIS	_	33	obj	_	_
 29	zu	zu	ADP	APPR	_	30	case	_	_
-30	sich	sich	PRON	PRF	_	33	obl	_	_
+30	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	33	obl	_	_
 31	herüber	herüber	ADV	PROAV	_	33	advmod	_	_
 32	zu	zu	PART	PTKZU	_	33	mark	_	_
 33	ziehn	ziehn	VERB	VVINF	_	20	conj	_	SpaceAfter=No
@@ -27119,7 +27119,7 @@
 6	,	--	PUNCT	$,	_	16	punct	_	_
 7	weil	weil	SCONJ	KOUS	_	16	mark	_	_
 8	sie	sie	PRON	PPER	_	16	nsubj	_	_
-9	sich	sich	PRON	PRF	_	16	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	16	obj	_	_
 10	immer	immer	ADV	ADV	_	16	advmod	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	den	der	DET	ART	_	13	det	_	_
@@ -27130,7 +27130,7 @@
 17	;	--	PUNCT	$.	_	19	punct	_	_
 18	hingegen	hingegen	ADV	ADV	_	19	advmod	_	_
 19	setzt	setzen	VERB	VVFIN	_	2	parataxis	_	_
-20	sich	sich	PRON	PRF	_	19	obj	_	_
+20	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 21	die	der	DET	ART	_	22	det	_	_
 22	Vernunft	Vernunft	NOUN	NN	_	19	nsubj	_	_
 23	sogleich	sogleich	ADV	ADV	_	19	advmod	_	_
@@ -27409,7 +27409,7 @@
 7	Altertum	Altertum	NOUN	NN	_	12	obj	_	_
 8	praktisch	praktisch	ADV	ADV	_	12	advmod	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
-10	sich	sich	PRON	PRF	_	12	obj	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	realisieren	realisieren	VERB	VVINF	_	3	conj	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	12	punct	_	_
@@ -27656,7 +27656,7 @@
 14	wünschte	wünschen	VERB	VVFIN	_	11	conj	_	SpaceAfter=No
 15	;	--	PUNCT	$.	_	7	punct	_	_
 16	vorzüglich	vorzüglich	ADJ	ADJD	_	17	advmod	_	_
-17	sich	sich	PRON	PRF	_	7	obj	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obj	_	_
 18	selbst	selbst	ADV	ADV	_	17	fixed	_	SpaceAfter=No
 19	.	--	PUNCT	$.	_	7	punct	_	_
 
@@ -28134,7 +28134,7 @@
 19	fehlt	fehlen	VERB	VVFIN	_	13	acl	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	19	punct	_	_
 21	spaltet	spalten	VERB	VVFIN	_	7	parataxis	_	_
-22	sich	sich	PRON	PRF	_	21	obj	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	21	obj	_	_
 23	in	in	ADP	APPR	_	26	case	_	_
 24	mehre	mehren	DET	PIAT	_	26	det	_	_
 25	entgegengesetzte	entgegengesetzt	ADJ	ADJA	_	26	amod	_	_
@@ -28320,7 +28320,7 @@
 1	Im	in	ADP	APPRART	_	2	case	_	_
 2	Plato	Plato	NOUN	NN	_	3	obl	_	_
 3	finden	finden	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	alle	aller	DET	PIAT	_	7	det	_	_
 6	reinen	rein	ADJ	ADJA	_	7	amod	_	_
 7	Arten	Art	NOUN	NN	_	3	nsubj	_	_
@@ -28545,7 +28545,7 @@
 11	:	--	PUNCT	$.	_	2	punct	_	_
 12	ebenso	ebenso	ADV	ADV	_	13	advmod	_	_
 13	läßt	lassen	VERB	VVFIN	_	2	parataxis	_	_
-14	sich	sich	PRON	PRF	_	13	obj	_	_
+14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 15	fragen	fragen	VERB	VVINF	_	13	xcomp	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
 17	welche	welcher	PRON	PRELS	_	19	nsubj	_	_
@@ -28659,7 +28659,7 @@
 8	selige	selig	ADJ	ADJA	_	9	amod	_	_
 9	Beruhigung	Beruhigung	NOUN	NN	_	5	obj	_	_
 10	bei	bei	ADP	APPR	_	11	case	_	_
-11	sich	sich	PRON	PRF	_	5	obl	_	SpaceAfter=No
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	21	punct	_	_
 13	während	während	SCONJ	KOUS	_	21	mark	_	_
 14	die	der	DET	ART	_	15	det	_	_
@@ -28966,7 +28966,7 @@
 # text = Man sonnt sich wenigstens im Mondschein, wenn man durch das Spazierengehn am Tage seine Haut zu schwärzen fürchtet.
 1	Man	man	PRON	PIS	_	2	nsubj	_	_
 2	sonnt	sonnen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	wenigstens	wenigstens	ADV	ADV	_	2	advmod	_	_
 5	im	in	ADP	APPRART	_	6	case	_	_
 6	Mondschein	Mondschein	NOUN	NN	_	2	obl	_	SpaceAfter=No
@@ -29236,7 +29236,7 @@
 12	malen	malen	VERB	VVINF	_	6	xcomp	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	12	punct	_	_
 14	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-15	sich	sich	PRON	PRF	_	14	obj	_	_
+15	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	obj	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
 17	allgemeinen	allgemein	PRON	PDS	_	14	obl	_	_
 18	wohl	wohl	ADV	ADV	_	14	advmod	_	_
@@ -29424,7 +29424,7 @@
 2	zweite	zweiter	ADJ	ADJA	_	3	obl	_	_
 3	haben	haben	AUX	VAFIN	_	0	root	_	_
 4	sie	sie	PRON	PPER	_	9	nsubj	_	_
-5	sich	sich	PRON	PRF	_	9	iobj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	iobj	_	_
 6	ihre	ihr	DET	PPOSAT	_	7	det:poss	_	_
 7	Gattungen	Gattung	NOUN	NN	_	9	obj	_	_
 8	selbst	selbst	ADV	ADV	_	9	advmod	_	_
@@ -29437,7 +29437,7 @@
 # sent_id = athenaeum-f179-s4
 # text = Läßt sich eins von beiden von der englischen Kunstliebhaberei rühmen?
 1	Läßt	lassen	VERB	VVFIN	_	0	root	_	_
-2	sich	sich	PRON	PRF	_	1	obj	_	_
+2	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	1	obj	_	_
 3	eins	eins	PRON	PIS	_	1	nsubj	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
 5	beiden	beide	PRON	PIS	_	3	nmod	_	_
@@ -29674,7 +29674,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f182-s1
 # text = Sich eine Gemäldeausstellung von einem Diderot beschreiben lassen, ist ein wahrhaft kaiserlicher Luxus.
-1	Sich	sich	PRON	PRF	_	8	iobj	_	_
+1	Sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	iobj	_	_
 2	eine	ein	DET	ART	_	3	det	_	_
 3	Gemäldeausstellung	Gemäldeausstellung	NOUN	NN	_	8	obj	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
@@ -30136,7 +30136,7 @@
 4	:	--	PUNCT	$.	_	2	punct	_	_
 5	es	es	PRON	PPER	_	6	nsubj	_	_
 6	bildet	bilden	VERB	VVFIN	_	2	parataxis	_	_
-7	sich	sich	PRON	PRF	_	6	iobj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	iobj	_	_
 8	ein	ein	DET	ART	_	10	det	_	_
 9	genügsamer	genügsam	ADJ	ADJA	_	10	amod	_	_
 10	Sinn	Sinn	NOUN	NN	_	6	obj	_	SpaceAfter=No
@@ -30356,7 +30356,7 @@
 # text = Wenn man sich nicht durch Künstlernamen und gelehrte Anspielungen blenden läßt, so findet man bei alten und neuen Dichtern den Sinn für bildende Kunst seltner als man erwarten sollte.
 1	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
 2	man	man	PRON	PIS	_	11	nsubj	_	_
-3	sich	sich	PRON	PRF	_	11	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 4	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 5	durch	durch	ADP	APPR	_	6	case	_	_
 6	Künstlernamen	Künstlername	NOUN	NN	_	11	obl	_	_
@@ -30617,7 +30617,7 @@
 4	ruhigen	ruhig	ADJ	ADJA	_	5	amod	_	_
 5	Besitzes	Besitz	NOUN	NN	_	2	nmod	_	_
 6	drängt	drängen	VERB	VVFIN	_	0	root	_	_
-7	sich	sich	PRON	PRF	_	6	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 8	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 9	an	an	ADP	APPR	_	11	case	_	_
 10	den	der	DET	ART	_	11	det	_	_
@@ -30625,7 +30625,7 @@
 12	,	--	PUNCT	$,	_	6	punct	_	_
 13	sie	sie	PRON	PPER	_	14	nsubj	_	_
 14	verheimlicht	verheimlichen	VERB	VVFIN	_	6	parataxis	_	_
-15	sich	sich	PRON	PRF	_	14	obj	_	_
+15	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	obj	_	_
 16	auch	auch	ADV	ADV	_	17	advmod	_	_
 17	nicht	nicht	PART	PTKNEG	_	14	advmod	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	6	punct	_	_
@@ -30820,7 +30820,7 @@
 # text = Es zeigt sich auch hierin daß wir Hyperboreer sind.
 1	Es	es	PRON	PPER	_	2	nsubj	_	_
 2	zeigt	zeigen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	iobj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	iobj	_	_
 4	auch	auch	ADV	ADV	_	2	advmod	_	_
 5	hierin	hierin	ADV	ADV	_	2	advmod	_	_
 6	daß	dass	SCONJ	KOUS	_	8	mark	_	_
@@ -30849,7 +30849,7 @@
 13	wunderlichen	wunderlich	ADJ	ADJA	_	14	amod	_	_
 14	Sprüngen	Sprung	NOUN	NN	_	17	obl	_	_
 15	er	er	PRON	PPER	_	17	nsubj	_	_
-16	sich	sich	PRON	PRF	_	17	obj	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 17	ergötzte	ergötzen	VERB	VVFIN	_	9	conj	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	9	punct	_	_
 
@@ -31179,7 +31179,7 @@
 19	Menschliche	menschliche	NOUN	NN	_	15	advcl	_	_
 20	dem	der	DET	ART	_	21	det	_	_
 21	Heiligen	heilige	NOUN	NN	_	26	iobj	_	_
-22	sich	sich	PRON	PRF	_	26	obj	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obj	_	_
 23	hier	hier	ADV	ADV	_	26	advmod	_	_
 24	überall	überall	ADV	ADV	_	26	advmod	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
@@ -31189,14 +31189,14 @@
 29	Denkende	denkend	NOUN	NN	_	36	nsubj	_	_
 30	im	in	ADP	APPRART	_	31	case	_	_
 31	Sinnbildlichen	sinnbildlichen	NOUN	NN	_	35	obl	_	_
-32	sich	sich	PRON	PRF	_	35	obj	_	_
+32	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	35	obj	_	_
 33	wieder	wieder	ADV	ADV	_	35	advmod	_	_
 34	zu	zu	PART	PTKZU	_	35	mark	_	_
 35	erkennen	erkennen	VERB	VVINF	_	36	orphan	_	_
 36	sucht	suchen	VERB	VVFIN	_	26	conj	_	SpaceAfter=No
 37	,	--	PUNCT	$,	_	43	punct	_	_
 38	aber	aber	CCONJ	KON	_	43	cc	_	_
-39	sich	sich	PRON	PRF	_	43	obj	_	_
+39	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	43	obj	_	_
 40	manchmal	manchmal	ADV	ADV	_	43	advmod	_	_
 41	selbst	selbst	ADV	ADV	_	39	advmod	_	_
 42	nicht	nicht	PART	PTKNEG	_	43	advmod	_	_
@@ -31258,7 +31258,7 @@
 # text = Sie pflegen sich selbst die Kritik zu nennen.
 1	Sie	sie	PRON	PPER	_	2	nsubj	_	_
 2	pflegen	pflegen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	selbst	selbst	ADV	ADV	_	3	fixed	_	_
 5	die	der	DET	ART	_	6	det	_	_
 6	Kritik	Kritik	NOUN	NN	_	8	obj	_	_
@@ -31428,7 +31428,7 @@
 13	abgesondert	absondern	VERB	VVPP	_	0	root	_	_
 14	und	und	CCONJ	KON	_	18	cc	_	_
 15	in	in	ADP	APPR	_	16	case	_	_
-16	sich	sich	PRON	PRF	_	18	obl	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obl	_	_
 17	selbst	selbst	ADV	ADV	_	16	fixed	_	_
 18	vollendet	vollenden	VERB	VVPP	_	13	conj	_	_
 19	sein	sein	AUX	VAINF	_	13	cop	_	_
@@ -31534,7 +31534,7 @@
 # sent_id = athenaeum-f209-s1
 # text = Sollte sich eine durch Konvenienzen gefesselte Sprache, wie etwa die französische, nicht durch einen Machtanspruch des allgemeinen Willens republikanisieren können?
 1	Sollte	sollen	AUX	VMFIN	_	21	aux	_	_
-2	sich	sich	PRON	PRF	_	21	obj	_	_
+2	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	21	obj	_	_
 3	eine	ein	DET	ART	_	7	det	_	_
 4	durch	durch	ADP	APPR	_	5	case	_	_
 5	Konvenienzen	Konvenienz	NOUN	NN	_	6	nmod	_	_
@@ -31838,7 +31838,7 @@
 32	,	--	PUNCT	$,	_	40	punct	_	_
 33	und	und	CCONJ	KON	_	40	cc	_	_
 34	alles	alle	PRON	PIS	_	40	nsubj	_	_
-35	sich	sich	PRON	PRF	_	40	obj	_	_
+35	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	40	obj	_	_
 36	zu	zu	ADP	APPR	_	39	case	_	_
 37	einem	ein	DET	ART	_	39	det	_	_
 38	absoluten	absolut	ADJ	ADJA	_	39	amod	_	_
@@ -31930,7 +31930,7 @@
 21	,	--	PUNCT	$,	_	17	punct	_	_
 22	der	der	PRON	PDS	_	36	nsubj	_	_
 23	hat	haben	AUX	VAFIN	_	36	aux	_	_
-24	sich	sich	PRON	PRF	_	36	obj	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	36	obj	_	_
 25	noch	noch	ADV	ADV	_	26	advmod	_	_
 26	nicht	nicht	PART	PTKNEG	_	36	advmod	_	_
 27	auf	auf	ADP	APPR	_	31	case	_	_
@@ -32054,7 +32054,7 @@
 # text = Man wundert sich immer mißtrauisch, wenn man zu wissen scheint: das und das wird so sein.
 1	Man	man	PRON	PIS	_	2	nsubj	_	_
 2	wundert	wundern	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	immer	immer	ADV	ADV	_	2	advmod	_	_
 5	mißtrauisch	mißtrauisch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	2	punct	_	_
@@ -32115,7 +32115,7 @@
 1	Im	in	ADP	APPRART	_	2	case	_	_
 2	Gibbon	Gibbon	PROPN	NE	_	27	obl	_	_
 3	hat	haben	AUX	VAFIN	_	27	aux	_	_
-4	sich	sich	PRON	PRF	_	27	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	27	obj	_	_
 5	die	der	DET	ART	_	7	det	_	_
 6	gemeine	gemein	ADJ	ADJA	_	7	amod	_	_
 7	Bigotterie	Bigotterie	NOUN	NN	_	27	nsubj	_	_
@@ -32286,7 +32286,7 @@
 9	mehr	mehr	ADV	ADV	_	7	advmod	_	_
 10	als	als	CCONJ	KOKOM	_	16	case	_	_
 11	die	der	DET	ART	_	16	det	_	_
-12	sich	sich	PRON	PRF	_	15	nmod	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	nmod	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	Nichts	nichts	NOUN	NN	_	15	nmod	_	_
 15	auflösende	auflösend	ADJ	ADJA	_	16	amod	_	_
@@ -32822,7 +32822,7 @@
 # text = Konzentriert sie sich ganz darauf, die Individualität zu charakterisieren: so ist sie eine Urkunde oder ein Werk der Lebenskunstlehre.
 1	Konzentriert	konzentriert	VERB	VVFIN	_	0	root	_	_
 2	sie	sie	PRON	PPER	_	1	nsubj	_	_
-3	sich	sich	PRON	PRF	_	1	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	1	obj	_	_
 4	ganz	ganz	ADV	ADV	_	5	advmod	_	_
 5	darauf	darauf	ADV	PROAV	_	1	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	1	punct	_	_
@@ -32939,7 +32939,7 @@
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	wählt	wählen	VERB	VVFIN	_	6	conj	_	_
 9	man	man	PRON	PIS	_	6	nsubj	_	_
-10	sich	sich	PRON	PRF	_	9	nmod	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	nmod	_	_
 11	selbst	selbst	ADV	ADV	_	10	fixed	_	_
 12	unter	unter	ADP	APPR	_	15	case	_	_
 13	den	der	DET	ART	_	15	det	_	_
@@ -32986,7 +32986,7 @@
 21	,	--	PUNCT	$,	_	23	punct	_	_
 22	man	man	PRON	PIS	_	23	nsubj	_	_
 23	schmeichelt	schmeicheln	VERB	VVFIN	_	5	parataxis	_	_
-24	sich	sich	PRON	PRF	_	23	obj	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	23	obj	_	_
 25	reine	rein	ADJ	ADJA	_	27	amod	_	_
 26	solide	solide	ADJ	ADJA	_	27	amod	_	_
 27	Empirie	Empirie	NOUN	NN	_	32	obj	_	_
@@ -33386,7 +33386,7 @@
 14	,	--	PUNCT	$,	_	13	punct	_	_
 15	so	so	ADV	ADV	_	16	advmod	_	_
 16	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-17	sich	sich	PRON	PRF	_	16	obj	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	16	obj	_	_
 18	nicht	nicht	PART	PTKNEG	_	16	advmod	_	_
 19	absehen	absehen	VERB	VVINF	_	16	xcomp	_	_
 20	warum	warum	ADV	PWAV	_	25	mark	_	_
@@ -33526,7 +33526,7 @@
 4	Christen	Christ	NOUN	NN	_	22	nmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	dem	der	PRON	PRELS	_	16	iobj	_	_
-7	sich	sich	PRON	PRF	_	16	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	16	obj	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dieser	dieser	DET	PDAT	_	10	det	_	_
 10	Rücksicht	Rücksicht	NOUN	NN	_	16	obl	_	_
@@ -33649,7 +33649,7 @@
 # text = Er darf sich daher mit Bewußtsein äußern: aber er ist nicht echt, sobald man Vorsatz dabei wahrnimmt.
 1	Er	er	PRON	PPER	_	7	nsubj	_	_
 2	darf	dürfen	AUX	VMFIN	_	7	aux	_	_
-3	sich	sich	PRON	PRF	_	7	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obj	_	_
 4	daher	daher	ADV	PROAV	_	7	advmod	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
 6	Bewußtsein	Bewußtsein	NOUN	NN	_	7	obl	_	_
@@ -33865,7 +33865,7 @@
 11	,	--	PUNCT	$,	_	10	punct	_	_
 12	was	was	ADV	PWAV	_	15	obj	_	_
 13	man	man	PRON	PIS	_	15	nsubj	_	_
-14	sich	sich	PRON	PRF	_	15	iobj	_	_
+14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	iobj	_	_
 15	zueignen	zueignen	VERB	VVINF	_	10	advcl	_	_
 16	möchte	mögen	AUX	VMFIN	_	15	aux	_	SpaceAfter=No
 17	!	--	PUNCT	$.	_	2	punct	_	_
@@ -33941,7 +33941,7 @@
 1	Ist	sein	AUX	VAFIN	_	20	cop	_	SpaceAfter=No
 2	,	--	PUNCT	$,	_	13	punct	_	_
 3	was	was	PRON	PWAV	_	13	nsubj	_	_
-4	sich	sich	PRON	PRF	_	13	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 5	auf	auf	ADP	APPR	_	9	case	_	_
 6	einem	ein	DET	ART	_	9	det	_	_
 7	gewissen	gewiß	ADJ	ADJA	_	9	amod	_	_
@@ -33961,7 +33961,7 @@
 21	,	--	PUNCT	$,	_	28	punct	_	_
 22	als	als	ADP	APPR	_	28	mark	_	_
 23	was	was	PRON	PRELS	_	28	nsubj	_	_
-24	sich	sich	PRON	PRF	_	28	obj	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	28	obj	_	_
 25	nicht	nicht	PART	PTKNEG	_	28	advmod	_	_
 26	weiter	weiter	ADV	ADV	_	27	advmod	_	_
 27	dividieren	dividieren	VERB	VVINF	_	28	xcomp	_	_
@@ -34022,7 +34022,7 @@
 9	von	von	ADP	APPR	_	10	case	_	_
 10	Individuen	Individuum	NOUN	NN	_	8	nmod	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
-12	sich	sich	PRON	PRF	_	13	obl	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obl	_	_
 13	enthalten	enthalten	VERB	VVINF	_	4	acl	_	SpaceAfter=No
 14	?	--	PUNCT	$.	_	1	punct	_	_
 
@@ -34147,7 +34147,7 @@
 6	Kunstwerke	Kunstwerk	NOUN	NN	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	die	der	PRON	PRELS	_	14	nsubj	_	_
-9	sich	sich	PRON	PRF	_	14	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	obj	_	_
 10	von	von	ADP	APPR	_	12	case	_	_
 11	allen	aller	DET	PIAT	_	12	det	_	_
 12	Seiten	Seite	NOUN	NN	_	13	obl	_	_
@@ -34761,7 +34761,7 @@
 # text = Diese findet sich nur in den Alten, und sie selbst würde nichts anders sein, als eine höhere Geschichte vom Geist der klassischen Poesie.
 1	Diese	dieser	PRON	PDS	_	2	nsubj	_	_
 2	findet	finden	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	nur	nur	ADV	ADV	_	2	advmod	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
 6	den	der	DET	ART	_	7	det	_	_
@@ -35515,7 +35515,7 @@
 30	zu	zu	PART	PTKZU	_	31	mark	_	_
 31	wirken	wirken	VERB	VVINF	_	26	xcomp	_	_
 32	und	und	CCONJ	KON	_	35	cc	_	_
-33	sich	sich	PRON	PRF	_	35	obj	_	_
+33	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	35	obj	_	_
 34	zu	zu	PART	PTKZU	_	35	mark	_	_
 35	zeigen	zeigen	VERB	VVINF	_	31	conj	_	SpaceAfter=No
 36	,	--	PUNCT	$,	_	35	punct	_	_
@@ -35709,7 +35709,7 @@
 26	:	--	PUNCT	$.	_	28	punct	_	_
 27	so	so	ADV	ADV	_	28	advmod	_	_
 28	ließe	lassen	VERB	VVFIN	_	25	parataxis	_	_
-29	sich	sich	PRON	PRF	_	28	obj	_	_
+29	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	28	obj	_	_
 30	der	der	DET	ART	_	32	det	_	_
 31	entgegengesetzte	entgegengesetzter	ADJ	ADJA	_	32	amod	_	_
 32	Wahlspruch	Wahlspruch	NOUN	NN	_	28	nsubj	_	_
@@ -35752,7 +35752,7 @@
 4	Mensch	Mensch	NOUN	NN	_	2	conj	_	_
 5	sein	sein	AUX	VAINF	_	4	cop	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	8	punct	_	_
-7	sich	sich	PRON	PRF	_	8	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 8	bilden	bilden	VERB	VVINF	_	2	conj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	sind	sein	AUX	VAFIN	_	11	cop	_	_
@@ -35966,7 +35966,7 @@
 6	nennt	nennen	VERB	VVFIN	_	8	csubj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	verhält	verhalten	VERB	VVFIN	_	0	root	_	_
-9	sich	sich	PRON	PRF	_	8	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 10	zur	zu	ADP	APPRART	_	11	case	_	_
 11	Liebe	Liebe	NOUN	NN	_	8	obl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	8	punct	_	_
@@ -36042,7 +36042,7 @@
 # text = Leibniz ließ sich bekanntlich Augengläser von Spinosa machen, und das ist der einzige Verkehr, den er mit ihm oder mit seiner Philosophie gehabt hat.
 1	Leibniz	Leibniz	PROPN	NE	_	2	nsubj	_	_
 2	ließ	lassen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	bekanntlich	bekanntlich	ADV	ADV	_	2	advmod	_	_
 5	Augengläser	Augengläser	NOUN	NN	_	8	obj	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
@@ -36075,7 +36075,7 @@
 # text = Hatte er sich doch auch Augen von ihm machen lassen um in die ihm unbekannte Weltgegend der Philosophie, wo Spinosa seine Heimat hat, wenigstens aus der Ferne hinüber schauen zu können!
 1	Hatte	haben	AUX	VAFIN	_	10	aux	_	_
 2	er	er	PRON	PPER	_	10	nsubj	_	_
-3	sich	sich	PRON	PRF	_	10	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 4	doch	doch	ADV	ADV	_	10	advmod	_	_
 5	auch	auch	ADV	ADV	_	9	advmod	_	_
 6	Augen	Auge	NOUN	NN	_	9	obj	_	_
@@ -36261,7 +36261,7 @@
 3	seine	sein	DET	PPOSAT	_	4	det:poss	_	_
 4	Mystik	Mystik	NOUN	NN	_	7	obj	_	_
 5	für	für	ADP	APPR	_	6	case	_	_
-6	sich	sich	PRON	PRF	_	7	nmod	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	nmod	_	_
 7	haben	haben	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	16	punct	_	_
 9	nur	nur	ADV	ADV	_	16	advmod	_	_
@@ -36270,7 +36270,7 @@
 12	sie	sie	PRON	PPER	_	16	obj	_	_
 13	auch	auch	ADV	ADV	_	16	advmod	_	_
 14	für	für	ADP	APPR	_	15	case	_	_
-15	sich	sich	PRON	PRF	_	16	obl	_	_
+15	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	16	obl	_	_
 16	behalten	behalten	VERB	VVINF	_	7	parataxis	_	_
 17	Es	es	PRON	PPER	_	18	nsubj	_	_
 18	gibt	geben	VERB	VVFIN	_	7	parataxis	_	_
@@ -36294,7 +36294,7 @@
 36	und	und	CCONJ	KON	_	40	cc	_	_
 37	also	also	ADV	ADV	_	40	advmod	_	_
 38	für	für	ADP	APPR	_	39	case	_	_
-39	sich	sich	PRON	PRF	_	40	obl	_	_
+39	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	40	obl	_	_
 40	behalten	behalten	VERB	VVINF	_	34	conj	_	_
 41	müssen	müssen	AUX	VMFIN	_	40	aux	_	SpaceAfter=No
 42	.	--	PUNCT	$.	_	7	punct	_	_
@@ -36373,7 +36373,7 @@
 17	oft	oft	ADV	ADV	_	20	advmod	_	_
 18	nur	nur	ADV	ADV	_	20	advmod	_	_
 19	für	für	ADP	APPR	_	20	case	_	_
-20	sich	sich	PRON	PRF	_	14	conj	_	_
+20	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	conj	_	_
 21	selbst	selbst	ADV	ADV	_	20	fixed	_	_
 22	untereinander	untereinander	ADV	ADV	_	20	advmod	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	2	punct	_	_
@@ -36733,7 +36733,7 @@
 31	,	--	PUNCT	$,	_	38	punct	_	_
 32	wenn	wenn	SCONJ	KOUS	_	38	mark	_	_
 33	er	er	PRON	PPER	_	38	nsubj	_	_
-34	sich	sich	PRON	PRF	_	38	obj	_	_
+34	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	38	obj	_	_
 35	mit	mit	ADP	APPR	_	37	case	_	_
 36	einem	ein	DET	ART	_	37	det	_	_
 37	Gesunden	Gesunde	NOUN	NN	_	38	obl	_	_
@@ -36996,7 +36996,7 @@
 9	so	so	ADV	ADV	_	10	advmod	_	_
 10	hilft	helfen	VERB	VVFIN	_	0	root	_	_
 11	er	er	PRON	PPER	_	10	nsubj	_	_
-12	sich	sich	PRON	PRF	_	10	obj	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 13	mit	mit	ADP	APPR	_	15	case	_	_
 14	einem	ein	DET	ART	_	15	det	_	_
 15	Machtspruche	Machtspruche	NOUN	NN	_	10	obl	_	SpaceAfter=No
@@ -37039,7 +37039,7 @@
 10	was	was	PRON	PRELS	_	15	obj	_	_
 11	es	es	PRON	PPER	_	15	nsubj	_	_
 12	in	in	ADP	APPR	_	13	case	_	_
-13	sich	sich	PRON	PRF	_	15	obl	_	_
+13	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obl	_	_
 14	vorgehn	vorgehn	PROPN	NE	_	15	xcomp	_	_
 15	sieht	sehen	VERB	VVFIN	_	3	ccomp	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	15	punct	_	_
@@ -37075,7 +37075,7 @@
 46	einem	ein	DET	ART	_	47	det	_	_
 47	Werke	Werk	NOUN	NN	_	52	obl	_	_
 48	frei	frei	ADV	ADV	_	51	advmod	_	_
-49	sich	sich	PRON	PRF	_	51	obj	_	_
+49	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	51	obj	_	_
 50	zu	zu	PART	PTKZU	_	51	mark	_	_
 51	vereinigen	vereinigen	VERB	VVINF	_	52	xcomp	_	_
 52	scheinen	scheinen	VERB	VVINF	_	43	conj	_	SpaceAfter=No
@@ -37239,11 +37239,11 @@
 2	oder	oder	CCONJ	KON	_	3	cc	_	_
 3	weniger	weniger	ADV	ADV	_	1	advmod	_	_
 4	versteht	verstehen	VERB	VVFIN	_	0	root	_	_
-5	sich	sich	PRON	PRF	_	4	obj	_	SpaceAfter=No
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 6	;	--	PUNCT	$.	_	4	punct	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	ließen	lassen	VERB	VVFIN	_	4	conj	_	_
-9	sich	sich	PRON	PRF	_	8	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obj	_	_
 10	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
 11	mehre	mehre	VERB	VVFIN	_	14	parataxis	_	_
 12	höchst	höchst	ADV	ADV	_	13	advmod	_	_
@@ -37362,7 +37362,7 @@
 3	das	der	PRON	PDS	_	1	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	10	punct	_	_
 5	worin	worin	ADV	PWAV	_	10	advmod	_	_
-6	sich	sich	PRON	PRF	_	10	iobj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	iobj	_	_
 7	der	der	DET	ART	_	8	det	_	_
 8	Geist	Geist	NOUN	NN	_	10	nsubj	_	_
 9	unaufhörlich	unaufhörlich	ADV	ADV	_	10	advmod	_	_
@@ -37779,7 +37779,7 @@
 52	eine	ein	DET	ART	_	53	det	_	_
 53	Terminiologie	Terminiologie	NOUN	NN	_	31	parataxis	_	_
 54	die	der	DET	ART	_	68	obj	_	_
-55	sich	sich	PRON	PRF	_	68	iobj	_	_
+55	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	68	iobj	_	_
 56	jedoch	jedoch	ADV	ADV	_	68	advmod	_	_
 57	ein	ein	DET	ART	_	58	det	_	_
 58	Künstler	Künstler	NOUN	NN	_	68	nsubj	_	SpaceAfter=No
@@ -37851,7 +37851,7 @@
 3	ist	sein	AUX	VAFIN	_	2	cop	_	_
 4	es	es	PRON	PPER	_	2	expl	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	10	punct	_	_
-6	sich	sich	PRON	PRF	_	10	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 7	selbst	selbst	ADV	ADV	_	6	advmod	_	_
 8	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
@@ -37948,7 +37948,7 @@
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	wenn	wenn	SCONJ	KOUS	_	26	mark	_	_
 22	es	es	PRON	PPER	_	26	nsubj	_	_
-23	sich	sich	PRON	PRF	_	26	iobj	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	iobj	_	_
 24	selbst	selbst	ADV	ADV	_	23	fixed	_	_
 25	ganz	ganz	ADV	ADV	_	26	advmod	_	_
 26	treu	treu	ADJ	ADJD	_	10	conj	_	SpaceAfter=No
@@ -37959,7 +37959,7 @@
 31	und	und	CCONJ	KON	_	36	cc	_	_
 32	doch	doch	ADV	ADV	_	36	advmod	_	_
 33	über	über	ADP	APPR	_	34	case	_	_
-34	sich	sich	PRON	PRF	_	36	nmod	_	_
+34	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	36	nmod	_	_
 35	selbst	selbst	ADV	ADV	_	34	fixed	_	_
 36	erhaben	erhaben	ADJ	ADJD	_	26	conj	_	_
 37	ist	sein	AUX	VAFIN	_	26	cop	_	SpaceAfter=No
@@ -38126,7 +38126,7 @@
 2	Verstand	Verstand	NOUN	NN	_	6	obj	_	_
 3	und	und	CCONJ	KON	_	4	cc	_	_
 4	Unverstand	Unverstand	NOUN	NN	_	2	conj	_	_
-5	sich	sich	PRON	PRF	_	6	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 6	berühren	berühren	VERB	VVINF	_	9	advcl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
@@ -38354,7 +38354,7 @@
 5	Höhe	Höhe	NOUN	NN	_	3	nmod	_	_
 6	überbieten	überbieten	VERB	VVFIN	_	0	root	_	_
 7	sie	sie	PRON	PPER	_	6	nsubj	_	_
-8	sich	sich	PRON	PRF	_	6	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 9	ordentlich	ordentlich	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	20	punct	_	_
 11	wie	wie	CCONJ	KOKOM	_	20	mark	_	_
@@ -38435,7 +38435,7 @@
 # text = Wo diese sich ganz durchdringen und in eins schmelzen, da entsteht Philosophie; wenn sie sich wieder zersetzt, wird sie Mythologie, oder wirft sich ins Leben zurück.
 1	Wo	wo	ADV	PWAV	_	5	advmod	_	_
 2	diese	dieser	PRON	PDS	_	5	nsubj	_	_
-3	sich	sich	PRON	PRF	_	5	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 4	ganz	ganz	ADV	ADV	_	5	advmod	_	_
 5	durchdringen	durchdringen	VERB	VVFIN	_	12	advcl	_	_
 6	und	und	CCONJ	KON	_	9	cc	_	_
@@ -38449,7 +38449,7 @@
 14	;	--	PUNCT	$.	_	12	punct	_	_
 15	wenn	wenn	SCONJ	KOUS	_	19	mark	_	_
 16	sie	sie	PRON	PPER	_	19	nsubj	_	_
-17	sich	sich	PRON	PRF	_	19	obj	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 18	wieder	wieder	ADV	ADV	_	19	advmod	_	_
 19	zersetzt	zersetzen	VERB	VVFIN	_	21	advcl	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	21	punct	_	_
@@ -38459,7 +38459,7 @@
 24	,	--	PUNCT	$,	_	26	punct	_	_
 25	oder	oder	CCONJ	KON	_	26	cc	_	_
 26	wirft	werfen	VERB	VVFIN	_	5	conj	_	_
-27	sich	sich	PRON	PRF	_	26	obj	_	_
+27	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obj	_	_
 28	ins	in	ADP	APPRART	_	29	case	_	_
 29	Leben	Leben	NOUN	NN	_	26	obl	_	_
 30	zurück	zurück	NOUN	NN	_	26	obl	_	SpaceAfter=No
@@ -38475,7 +38475,7 @@
 3	und	und	CCONJ	KON	_	4	cc	_	_
 4	Gesetzgebung	Gesetzgebung	NOUN	NN	_	2	conj	_	_
 5	bildete	bilden	VERB	VVFIN	_	0	root	_	_
-6	sich	sich	PRON	PRF	_	5	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 7	die	der	DET	ART	_	9	det	_	_
 8	griechische	griechisch	ADJ	ADJA	_	9	amod	_	_
 9	Weisheit	Weisheit	NOUN	NN	_	5	nsubj	_	SpaceAfter=No
@@ -38555,7 +38555,7 @@
 24	Philosophie	Philosophie	NOUN	NN	_	41	obj	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	31	punct	_	_
 26	welche	welcher	PRON	PRELS	_	31	nsubj	_	_
-27	sich	sich	PRON	PRF	_	31	obj	_	_
+27	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	31	obj	_	_
 28	immer	immer	ADV	ADV	_	31	advmod	_	_
 29	von	von	ADP	APPR	_	30	case	_	_
 30	neuem	neu	NOUN	NN	_	31	obl	_	_
@@ -38841,7 +38841,7 @@
 16	Kraftgenies	Kraftgenie	NOUN	NN	_	14	nmod	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	27	punct	_	_
 18	die	der	PRON	PRELS	_	27	nsubj	_	_
-19	sich	sich	PRON	PRF	_	27	obj	_	_
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	27	obj	_	_
 20	nun	nun	ADV	ADV	_	27	advmod	_	_
 21	glücklich	glücklich	ADV	ADV	_	27	advmod	_	_
 22	in	in	ADP	APPR	_	24	case	_	_
@@ -39071,7 +39071,7 @@
 # text = Weiter läßt sich nun die Kennerschaft in dieser Richtung nicht treiben, es müßte uns denn jemand belehren, Laokoon sei wirklich schon tot, welches auch in Rücksicht auf den Kenner seine vollkommene Richtigkeit haben würde.
 1	Weiter	weiter	ADV	ADV	_	2	advmod	_	_
 2	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	nun	nun	ADV	ADV	_	2	advmod	_	_
 5	die	der	DET	ART	_	6	det	_	_
 6	Kennerschaft	Kennerschaft	NOUN	NN	_	2	nsubj	_	_
@@ -39204,7 +39204,7 @@
 18	das	der	PRON	PDS	_	15	expl	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	15	punct	_	_
 20	was	was	PRON	PRELS	_	24	nsubj	_	_
-21	sich	sich	PRON	PRF	_	24	obj	_	_
+21	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obj	_	_
 22	von	von	ADP	APPR	_	23	case	_	_
 23	selbst	selbst	ADV	ADV	_	24	advmod	_	_
 24	versteht	verstehen	VERB	VVFIN	_	15	ccomp	_	SpaceAfter=No
@@ -39233,7 +39233,7 @@
 1	Charakterlose	Charakterlos	ADJ	ADJA	_	2	amod	_	_
 2	Schönheit	Schönheit	NOUN	NN	_	3	nsubj	_	_
 3	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	nicht	nicht	PART	PTKNEG	_	3	advmod	_	_
 6	denken	denken	VERB	VVINF	_	3	xcomp	_	SpaceAfter=No
 7	:	--	PUNCT	$.	_	9	punct	_	_
@@ -39370,7 +39370,7 @@
 21	wäre	sein	AUX	VAFIN	_	19	cop	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	19	punct	_	_
 23	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-24	sich	sich	PRON	PRF	_	23	obj	_	SpaceAfter=No
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	23	obj	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	29	punct	_	_
 26	z.B.	z.B.	CCONJ	KON	_	29	cc	_	_
 27	an	an	ADP	APPR	_	29	case	_	_
@@ -39485,7 +39485,7 @@
 12	sein	sein	AUX	VAINF	_	11	cop	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	28	punct	_	_
 14	oder	oder	CCONJ	KON	_	28	cc	_	_
-15	sich	sich	PRON	PRF	_	28	obj	_	SpaceAfter=No
+15	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	28	obj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
 17	wie	wie	CCONJ	KOKOM	_	19	case	_	_
 18	eine	ein	DET	ART	_	19	det	_	_
@@ -39737,7 +39737,7 @@
 16	befürchten	befürchten	VERB	VVINF	_	17	xcomp	_	_
 17	läßt	lassen	VERB	VVFIN	_	26	advcl	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	26	punct	_	_
-19	sich	sich	PRON	PRF	_	26	obj	_	_
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obj	_	_
 20	auf	auf	ADP	APPR	_	23	case	_	_
 21	dem	der	DET	ART	_	23	det	_	_
 22	festen	fest	ADJ	ADJA	_	23	amod	_	_
@@ -39791,7 +39791,7 @@
 14	würden	werden	AUX	VAFIN	_	13	aux:pass	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	13	punct	_	_
 16	hat	haben	AUX	VAFIN	_	21	aux	_	_
-17	sich	sich	PRON	PRF	_	21	obj	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	21	obj	_	_
 18	der	der	DET	ART	_	19	det	_	_
 19	Säuberer	Säuberer	NOUN	NN	_	21	nsubj	_	_
 20	derselben	derselbe	DET	PDAT	_	19	advmod	_	_
@@ -39862,7 +39862,7 @@
 33	der	der	DET	ART	_	34	det	_	_
 34	Barbierkunst	Barbierkunst	NOUN	NN	_	37	obl	_	_
 35	an	an	ADP	APPR	_	36	case	_	_
-36	sich	sich	PRON	PRF	_	37	obl	_	_
+36	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	37	obl	_	_
 37	haben	haben	AUX	VAFIN	_	2	parataxis	_	SpaceAfter=No
 38	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -39890,7 +39890,7 @@
 16	anzieht	anziehen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	16	punct	_	_
 18	hat	haben	AUX	VAFIN	_	28	aux	_	_
-19	sich	sich	PRON	PRF	_	28	obj	_	_
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	28	obj	_	_
 20	bei	bei	ADP	APPR	_	22	case	_	_
 21	den	der	DET	ART	_	22	det	_	_
 22	Figuren	Figur	NOUN	NN	_	28	obl	_	_
@@ -39933,7 +39933,7 @@
 # text = Vielleicht waren sich die griechischen Malerinnen dieser Grenze oder Klippe ihres Talentes bewußt.
 1	Vielleicht	vielleicht	ADV	ADV	_	13	advmod	_	_
 2	waren	sein	AUX	VAFIN	_	13	cop	_	_
-3	sich	sich	PRON	PRF	_	13	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 4	die	der	DET	ART	_	6	det	_	_
 5	griechischen	griechisch	ADJ	ADJA	_	6	amod	_	_
 6	Malerinnen	Malerin	NOUN	NN	_	13	nsubj	_	_
@@ -40014,7 +40014,7 @@
 1	Mancher	mancher	PRON	PIS	_	13	nsubj	_	SpaceAfter=No
 2	,	--	PUNCT	$,	_	11	punct	_	_
 3	der	der	PRON	PRELS	_	11	nsubj	_	_
-4	sich	sich	PRON	PRF	_	11	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
 6	seiner	sein	DET	PPOSAT	_	7	det:poss	_	_
 7	Frau	Frau	NOUN	NN	_	11	obl	_	_
@@ -40087,7 +40087,7 @@
 2	Empiriker	Empiriker	NOUN	NN	_	34	obl	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	20	punct	_	_
 4	die	der	PRON	PRELS	_	20	nsubj	_	_
-5	sich	sich	PRON	PRF	_	20	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	20	obj	_	_
 6	auch	auch	ADV	ADV	_	20	advmod	_	_
 7	bis	bis	ADP	APPR	_	9	case	_	_
 8	zum	zu	ADP	APPRART	_	9	case	_	_
@@ -40324,7 +40324,7 @@
 18	,	--	PUNCT	$,	_	17	punct	_	_
 19	daß	daß	SCONJ	KOUS	_	30	mark	_	_
 20	er	er	PRON	PPER	_	30	nsubj	_	_
-21	sich	sich	PRON	PRF	_	30	obj	_	_
+21	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	30	obj	_	_
 22	zu	zu	ADP	APPR	_	26	case	_	_
 23	einem	ein	DET	ART	_	26	det	_	_
 24	unglaublich	unglaublich	ADV	ADV	_	25	advmod	_	_
@@ -40484,7 +40484,7 @@
 42	den	der	DET	ART	_	43	det	_	_
 43	Glauben	Glaube	NOUN	NN	_	41	obj	_	_
 44	nach	nach	ADP	APPR	_	45	case	_	_
-45	sich	sich	PRON	PRF	_	41	obl	_	SpaceAfter=No
+45	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	41	obl	_	SpaceAfter=No
 46	.	--	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -40635,7 +40635,7 @@
 # text = Sie legen sich lieber aufs Reisen, Reisebeschreibungen, oder aufs Lesen und Übersetzen von Reisebeschreibungen, und erhalten das Lob der Universalität.
 1	Sie	sie	PRON	PPER	_	2	nsubj	_	_
 2	legen	legen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	lieber	lieber	ADV	ADV	_	2	advmod	_	_
 5	aufs	auf	ADP	APPRART	_	6	case	_	_
 6	Reisen	Reise	NOUN	NN	_	2	obl	_	SpaceAfter=No
@@ -40818,7 +40818,7 @@
 17	verehrt	verehren	VERB	VVPP	_	0	root	_	_
 18	und	und	CCONJ	KON	_	24	cc	_	_
 19	wo	wo	ADV	PWAV	_	24	advmod	_	_
-20	sich	sich	PRON	PRF	_	24	obj	_	_
+20	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obj	_	_
 21	eine	ein	DET	ART	_	22	det	_	_
 22	Muse	Muse	NOUN	NN	_	24	nsubj	_	_
 23	sehen	sehen	VERB	VVINF	_	24	xcomp	_	_
@@ -41044,7 +41044,7 @@
 3	verwandten	verwandt	ADJ	ADJA	_	4	amod	_	_
 4	Gattungen	Gattung	NOUN	NN	_	1	nmod	_	_
 5	verstehn	verstehn	VERB	VVINF	_	0	root	_	_
-6	sich	sich	PRON	PRF	_	5	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 7	oft	oft	ADV	ADV	_	5	advmod	_	_
 8	am	an	ADP	APPRART	_	9	case	_	_
 9	wenigstens	wenigstens	ADV	ADV	_	5	obl	_	SpaceAfter=No
@@ -41089,7 +41089,7 @@
 22	deren	der	DET	PRELAT	_	23	det:poss	_	_
 23	jeder	jeder	PRON	PIS	_	32	nsubj	_	_
 24	aber	aber	ADV	ADV	_	32	advmod	_	_
-25	sich	sich	PRON	PRF	_	32	obj	_	_
+25	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	32	obj	_	_
 26	der	der	DET	ART	_	27	det	_	_
 27	Gottheit	Gottheit	NOUN	NN	_	32	iobj	_	_
 28	auf	auf	ADP	APPR	_	31	case	_	_
@@ -41162,7 +41162,7 @@
 6	derselben	derselbe	PRON	PDAT	_	5	nmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	18	punct	_	_
 8	die	der	PRON	PRELS	_	18	nsubj	_	_
-9	sich	sich	PRON	PRF	_	18	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 10	jedoch	jedoch	ADV	ADV	_	18	advmod	_	_
 11	von	von	ADP	APPR	_	12	case	_	_
 12	selbst	selbst	PRON	PDS	_	18	obl	_	_
@@ -41237,7 +41237,7 @@
 10	,	--	PUNCT	$,	_	12	punct	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	versteht	verstehen	VERB	VVFIN	_	3	conj	_	_
-13	sich	sich	PRON	PRF	_	12	obj	_	_
+13	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obj	_	_
 14	auf	auf	ADP	APPR	_	15	case	_	_
 15	Geheimnisse	Geheimnis	NOUN	NN	_	12	obl	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
@@ -41337,7 +41337,7 @@
 13	der	der	DET	ART	_	14	det	_	_
 14	Religion	Religion	NOUN	NN	_	12	nmod	_	_
 15	in	in	ADP	APPR	_	16	case	_	_
-16	sich	sich	PRON	PRF	_	17	obl	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obl	_	_
 17	vereinigen	vereinigen	VERB	VVINF	_	9	xcomp	_	_
 18	zu	zu	PART	PTKZU	_	17	mark	_	_
 19	wollen	wollen	AUX	VMINF	_	17	aux	_	SpaceAfter=No
@@ -41439,7 +41439,7 @@
 2	der	der	PRON	PDS	_	11	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	7	punct	_	_
 4	welcher	welcher	PRON	PRELS	_	7	nsubj	_	_
-5	sich	sich	PRON	PRF	_	7	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obj	_	_
 6	selbst	selbst	ADV	ADV	_	5	fixed	_	_
 7	setzt	setzen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	7	punct	_	_
@@ -41459,7 +41459,7 @@
 4	der	der	PRON	PDS	_	2	nsubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	9	punct	_	_
 6	welcher	welcher	PRON	PRELS	_	9	nsubj	_	_
-7	sich	sich	PRON	PRF	_	9	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 8	selbst	selbst	ADV	ADV	_	7	advmod	_	_
 9	annihiliert	annihilieren	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
@@ -41565,7 +41565,7 @@
 2	weil	weil	SCONJ	KOUS	_	12	mark	_	_
 3	es	es	PRON	PPER	_	12	nsubj	_	_
 4	für	für	ADP	APPR	_	5	case	_	_
-5	sich	sich	PRON	PRF	_	12	obl	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obl	_	_
 6	selbst	selbst	ADV	ADV	_	5	advmod	_	_
 7	nur	nur	ADV	ADV	_	12	advmod	_	_
 8	in	in	ADP	APPR	_	11	case	_	_
@@ -41689,7 +41689,7 @@
 6	kein	kein	DET	PIAT	_	7	det	_	_
 7	Interesse	Interesse	NOUN	NN	_	11	obj	_	_
 8	an	an	ADP	APPR	_	9	case	_	_
-9	sich	sich	PRON	PRF	_	11	obl	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obl	_	_
 10	selbst	selbst	PRON	PIAT	_	9	nmod	_	_
 11	nehmen	nehmen	VERB	VVINF	_	3	acl	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	2	punct	_	_
@@ -41764,7 +41764,7 @@
 # text = So berührt sich auch hier in der Erscheinung das Niedrigste und das Erhabenste.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	berührt	berühren	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	auch	auch	ADV	ADV	_	2	advmod	_	_
 5	hier	hier	ADV	ADV	_	2	advmod	_	_
 6	in	in	ADP	APPR	_	8	case	_	_
@@ -41912,7 +41912,7 @@
 6	ist	sein	AUX	VAFIN	_	4	cop	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	11	punct	_	_
 8	was	was	PRON	PRELS	_	11	nsubj	_	_
-9	sich	sich	PRON	PRF	_	11	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 10	dynamisch	dynamisch	ADV	ADV	_	11	advmod	_	_
 11	affiziert	affizieren	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	11	punct	_	_
@@ -42000,7 +42000,7 @@
 6	kleine	klein	ADJ	ADJA	_	7	amod	_	_
 7	Silhouetten	Silhouette	NOUN	NN	_	17	obj	_	_
 8	von	von	ADP	APPR	_	9	case	_	_
-9	sich	sich	PRON	PRF	_	7	nmod	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	nmod	_	_
 10	selbst	selbst	ADV	ADV	_	9	advmod	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	verschiednen	verschiednen	ADJ	ADJA	_	13	amod	_	_
@@ -42028,7 +42028,7 @@
 34	den	der	DET	ART	_	35	det	_	_
 35	Kastellan	Kastellan	NOUN	NN	_	40	obj	_	_
 36	von	von	ADP	APPR	_	37	case	_	_
-37	sich	sich	PRON	PRF	_	40	obl	_	_
+37	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	40	obl	_	_
 38	selbst	selbst	ADV	ADV	_	37	advmod	_	_
 39	zu	zu	PART	PTKZU	_	40	mark	_	_
 40	machen	machen	VERB	VVINF	_	31	csubj	_	SpaceAfter=No
@@ -42088,7 +42088,7 @@
 15	was	was	PRON	PWS	_	20	obj	_	_
 16	sie	sie	PRON	PPER	_	20	nsubj	_	_
 17	um	um	ADP	APPR	_	18	case	_	_
-18	sich	sich	PRON	PRF	_	20	obl	_	_
+18	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	20	obl	_	_
 19	sehn	sehn	VERB	VVINF	_	20	xcomp	_	_
 20	mustern	mustern	VERB	VVINF	_	11	csubj	_	_
 21	und	und	CCONJ	KON	_	22	cc	_	_
@@ -42167,7 +42167,7 @@
 57	könnte	können	AUX	VMFIN	_	56	aux	_	SpaceAfter=No
 58	,	--	PUNCT	$,	_	56	punct	_	_
 59	ohne	ohne	SCONJ	KOUI	_	63	mark	_	_
-60	sich	sich	PRON	PRF	_	63	obj	_	_
+60	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	63	obj	_	_
 61	sonderlich	sonderlich	ADJ	ADJD	_	63	advmod	_	_
 62	zu	zu	PART	PTKZU	_	63	mark	_	_
 63	bereichern	bereichern	VERB	VVINF	_	56	xcomp	_	SpaceAfter=No
@@ -42186,7 +42186,7 @@
 6	etwas	etwas	PRON	PIS	_	10	obj	_	_
 7	mehr	mehr	ADV	ADV	_	10	advmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
-9	sich	sich	PRON	PRF	_	10	obl	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obl	_	_
 10	hat	haben	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
 12	als	als	CCONJ	KOKOM	_	15	cc	_	_
@@ -42195,7 +42195,7 @@
 15	Hausbedarf	Hausbedarf	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	15	punct	_	_
 17	wird	werden	AUX	VAFIN	_	22	aux	_	_
-18	sich	sich	PRON	PRF	_	22	obj	_	_
+18	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	22	obj	_	_
 19	freilich	freilich	ADV	ADV	_	22	advmod	_	_
 20	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
 21	so	so	ADV	ADV	_	22	advmod	_	_
@@ -42323,7 +42323,7 @@
 # text = Wer dürfte sich selbst zerlegen, wie das Objekt einer anatomischen Vorlesung, das einzelne aus der Verbindung, in der es allein schön und verständlich ist, herausreißen, und auch das Feinste und Zarteste mit Worten gleichsam aussprützen, daß es zur Ungestaltheit ausgedehnt wird?
 1	Wer	wer	PRON	PWS	_	5	nsubj	_	_
 2	dürfte	dürfen	AUX	VMFIN	_	5	aux	_	_
-3	sich	sich	PRON	PRF	_	5	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 4	selbst	selbst	ADV	ADV	_	3	advmod	_	_
 5	zerlegen	zerlegen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
@@ -42398,7 +42398,7 @@
 1	Der	der	DET	ART	_	2	det	_	_
 2	Mensch	Mensch	NOUN	NN	_	3	nsubj	_	_
 3	gebe	geben	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	selbst	selbst	ADV	ADV	_	4	fixed	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	3	punct	_	_
 7	wie	wie	ADV	PWAV	_	9	advmod	_	_
@@ -42441,7 +42441,7 @@
 3	frei	frei	ADJ	ADJD	_	2	xcomp	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	bewege	bewegen	NOUN	NN	_	2	conj	_	_
-6	sich	sich	PRON	PRF	_	5	nmod	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	nmod	_	_
 7	seiner	sein	DET	PPOSAT	_	8	det:poss	_	_
 8	Natur	Natur	NOUN	NN	_	5	obl	_	_
 9	gemäß	gemäß	ADP	APPO	_	8	case	_	SpaceAfter=No
@@ -42491,7 +42491,7 @@
 27	wäre	sein	AUX	VAFIN	_	26	cop	_	SpaceAfter=No
 28	;	--	PUNCT	$.	_	4	punct	_	_
 29	versteht	verstehen	VERB	VVFIN	_	4	parataxis	_	_
-30	sich	sich	PRON	PRF	_	29	obj	_	SpaceAfter=No
+30	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	29	obj	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	29	punct	_	_
 32	daß	daß	SCONJ	KOUS	_	46	mark	_	_
 33	er	er	PRON	PPER	_	46	nsubj	_	_
@@ -42681,7 +42681,7 @@
 10	Verschlossenheit	Verschlossenheit	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
 12	die	der	PRON	PRELS	_	15	nsubj	_	_
-13	sich	sich	PRON	PRF	_	15	obj	_	_
+13	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obj	_	_
 14	nicht	nicht	PART	PTKNEG	_	15	advmod	_	_
 15	verstellen	verstellen	VERB	VVINF	_	10	acl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
@@ -42816,7 +42816,7 @@
 20	den	der	DET	ART	_	21	det	_	_
 21	Fragen	Frage	NOUN	NN	_	25	obj	_	_
 22	über	über	ADP	APPR	_	23	case	_	_
-23	sich	sich	PRON	PRF	_	25	obl	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	25	obl	_	_
 24	selbst	selbst	ADV	ADV	_	23	advmod	_	_
 25	ausweichen	ausweichen	VERB	VVINF	_	16	advcl	_	_
 26	wollen	wollen	AUX	VMFIN	_	25	aux	_	SpaceAfter=No
@@ -42826,7 +42826,7 @@
 30	manche	mancher	PRON	PIS	_	34	nsubj	_	_
 31	nicht	nicht	PART	PTKNEG	_	34	advmod	_	_
 32	für	für	ADP	APPR	_	33	case	_	_
-33	sich	sich	PRON	PRF	_	34	obl	_	_
+33	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	34	obl	_	_
 34	lesen	lesen	VERB	VVINF	_	50	advcl	_	_
 35	können	können	AUX	VMINF	_	34	aux	_	SpaceAfter=No
 36	,	--	PUNCT	$,	_	34	punct	_	_
@@ -42841,7 +42841,7 @@
 45	so	so	ADV	ADV	_	50	advmod	_	_
 46	können	können	AUX	VMFIN	_	50	aux	_	_
 47	manche	mancher	PRON	PIS	_	50	nsubj	_	_
-48	sich	sich	PRON	PRF	_	50	obj	_	_
+48	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	50	obj	_	_
 49	nicht	nicht	PART	PTKNEG	_	50	advmod	_	_
 50	anschaun	anschaun	VERB	VVINF	_	16	parataxis	_	SpaceAfter=No
 51	,	--	PUNCT	$,	_	55	punct	_	_
@@ -42875,7 +42875,7 @@
 13	scheinbare	scheinbar	ADJ	ADJA	_	14	amod	_	_
 14	Offenheit	Offenheit	NOUN	NN	_	15	nsubj	_	_
 15	kümmert	kümmern	VERB	VVFIN	_	8	conj	_	_
-16	sich	sich	PRON	PRF	_	15	obj	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obj	_	_
 17	nicht	nicht	PART	PTKNEG	_	15	advmod	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	15	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	21	mark	_	_
@@ -42931,7 +42931,7 @@
 22	das	der	DET	ART	_	23	det	_	_
 23	Reich	Reich	NOUN	NN	_	27	obl	_	_
 24	Gottes	Gott	NOUN	NN	_	23	nmod:poss	_	_
-25	sich	sich	PRON	PRF	_	27	obj	_	_
+25	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	27	obj	_	_
 26	selbst	selbst	ADV	ADV	_	25	advmod	_	_
 27	vortragen	vortragen	VERB	VVINF	_	16	acl	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	27	punct	_	_
@@ -43024,7 +43024,7 @@
 14	keiner	keiner	PRON	PIS	_	18	nsubj	_	_
 15	nur	nur	ADV	ADV	_	18	advmod	_	_
 16	für	für	ADP	APPR	_	17	case	_	_
-17	sich	sich	PRON	PRF	_	18	obl	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obl	_	_
 18	haben	haben	AUX	VAFIN	_	0	root	_	_
 19	wollen	wollen	AUX	VMFIN	_	18	aux	_	SpaceAfter=No
 20	;	--	PUNCT	$.	_	18	punct	_	_
@@ -43305,7 +43305,7 @@
 9	hat	haben	AUX	VAFIN	_	1	csubj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	17	punct	_	_
 11	und	und	CCONJ	KON	_	17	cc	_	_
-12	sich	sich	PRON	PRF	_	17	obj	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 13	dann	dann	ADV	ADV	_	17	advmod	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	wann	wann	ADV	PWAV	_	13	advmod	_	_
@@ -43444,7 +43444,7 @@
 1	Im	in	ADP	APPRART	_	2	case	_	_
 2	Ich	ich	PRON	PPER	_	3	obl	_	_
 3	bildet	bilden	VERB	VVFIN	_	0	root	_	_
-4	sich	sich	PRON	PRF	_	3	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	3	obj	_	_
 5	alles	alle	PRON	PIS	_	3	nsubj	_	_
 6	organisch	organisch	ADJ	ADJA	_	3	xcomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	10	punct	_	_
@@ -43493,7 +43493,7 @@
 # text = Sinn der sich selbst sieht, wird Geist; Geist ist innre Geselligkeit, Seele ist verborgene Liebenswürdigkeit.
 1	Sinn	Sinn	NOUN	NN	_	7	nsubj	_	_
 2	der	der	PRON	PRELS	_	5	nsubj	_	_
-3	sich	sich	PRON	PRF	_	5	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 4	selbst	selbst	ADV	ADV	_	3	fixed	_	_
 5	sieht	sehen	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
@@ -43586,7 +43586,7 @@
 # text = Er darf sich nur regen und lieben, so ist er ganz Seele; und wann er reif ist, hat er Sinn für alles.
 1	Er	er	PRON	PPER	_	5	nsubj	_	_
 2	darf	dürfen	AUX	VMFIN	_	5	aux	_	_
-3	sich	sich	PRON	PRF	_	5	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	obj	_	_
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
 5	regen	regen	VERB	VVINF	_	0	root	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
@@ -43761,7 +43761,7 @@
 3	höheren	hoch	ADJ	ADJA	_	4	amod	_	_
 4	Gesichtspunkt	Gesichtspunkt	NOUN	NN	_	8	obl	_	_
 5	für	für	ADP	APPR	_	6	case	_	_
-6	sich	sich	PRON	PRF	_	8	obl	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	obl	_	_
 7	selbst	selbst	ADV	ADV	_	6	advmod	_	_
 8	gefunden	finden	VERB	VVPP	_	24	csubj	_	_
 9	hat	haben	AUX	VAFIN	_	8	aux	_	SpaceAfter=No
@@ -43778,7 +43778,7 @@
 20	die	der	DET	ART	_	21	det	_	_
 21	Welt	Welt	NOUN	NN	_	24	obj	_	_
 22	aus	aus	ADP	APPR	_	23	case	_	_
-23	sich	sich	PRON	PRF	_	24	obl	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obl	_	_
 24	entfernen	entfernen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 25	.	--	PUNCT	$.	_	24	punct	_	_
 
@@ -43792,7 +43792,7 @@
 3	diejenigen	derjenige	PRON	PDS	_	24	nsubj:pass	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	10	punct	_	_
 5	die	der	PRON	PRELS	_	10	nsubj	_	_
-6	sich	sich	PRON	PRF	_	10	obj	_	_
+6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 7	selbst	selbst	ADV	ADV	_	6	fixed	_	_
 8	noch	noch	ADV	ADV	_	9	advmod	_	_
 9	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
@@ -43814,7 +43814,7 @@
 25	,	--	PUNCT	$,	_	30	punct	_	_
 26	ob	ob	SCONJ	KOUS	_	30	mark	_	_
 27	sie	sie	PRON	PPER	_	30	nsubj	_	_
-28	sich	sich	PRON	PRF	_	30	obj	_	_
+28	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	30	obj	_	_
 29	etwa	etwa	ADV	ADV	_	30	advmod	_	_
 30	finden	finden	VERB	VVINF	_	24	advcl	_	_
 31	möchten	mögen	AUX	VMFIN	_	30	aux	_	SpaceAfter=No
@@ -43834,7 +43834,7 @@
 6	ein	ein	DET	ART	_	8	det	_	_
 7	schöner	schön	ADJ	ADJA	_	8	amod	_	_
 8	Geist	Geist	NOUN	NN	_	11	nsubj	_	_
-9	sich	sich	PRON	PRF	_	11	obj	_	_
+9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 10	selbst	selbst	ADV	ADV	_	9	advmod	_	_
 11	anlächelt	anlächeln	VERB	VVFIN	_	3	csubj	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	32	punct	_	_
@@ -43847,7 +43847,7 @@
 19	eine	ein	DET	ART	_	21	det	_	_
 20	große	groß	ADJ	ADJA	_	21	amod	_	_
 21	Natur	Natur	NOUN	NN	_	27	nsubj	_	_
-22	sich	sich	PRON	PRF	_	27	obj	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	27	obj	_	_
 23	mit	mit	ADP	APPR	_	24	case	_	_
 24	Ruhe	Ruhe	NOUN	NN	_	27	obl	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
@@ -44061,7 +44061,7 @@
 7	Anlauf	Anlauf	NOUN	NN	_	2	obj	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	wünschen	wünschen	VERB	VVFIN	_	2	conj	_	_
-10	sich	sich	PRON	PRF	_	9	iobj	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	iobj	_	_
 11	Glück	Glück	NOUN	NN	_	9	obj	_	_
 12	zu	zu	ADP	APPR	_	15	case	_	_
 13	der	der	DET	ART	_	15	det	_	_
@@ -44150,7 +44150,7 @@
 41	Leibniz	Leibniz	PROPN	NE	_	39	conj	_	SpaceAfter=No
 42	,	--	PUNCT	$,	_	50	punct	_	_
 43	wo	wo	ADV	PWAV	_	50	advmod	_	_
-44	sich	sich	PRON	PRF	_	50	obj	_	_
+44	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	50	obj	_	_
 45	sein	sein	DET	PPOSAT	_	47	det:poss	_	_
 46	zarter	zart	ADJ	ADJA	_	47	amod	_	_
 47	Geist	Geist	NOUN	NN	_	50	nsubj	_	_
@@ -44397,7 +44397,7 @@
 17	Gemüts	Gemüt	NOUN	NN	_	15	nmod	_	_
 18	allein	allein	ADV	ADV	_	19	advmod	_	_
 19	tut	tun	VERB	VVFIN	_	6	parataxis	_	_
-20	sich	sich	PRON	PRF	_	19	obj	_	_
+20	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 21	alles	alle	PRON	PIS	_	19	nsubj	_	_
 22	auf	auf	ADP	APPR	_	19	case	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	6	punct	_	_
@@ -44421,7 +44421,7 @@
 12	das	der	DET	ART	_	13	det	_	_
 13	Auge	Auge	NOUN	NN	_	9	obl	_	_
 14	ohne	ohne	ADP	APPR	_	19	case	_	_
-15	sich	sich	PRON	PRF	_	19	obj	_	_
+15	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 16	seiner	sein	DET	PPOSAT	_	18	det:poss	_	_
 17	mathematischen	mathematisch	ADJ	ADJA	_	18	amod	_	_
 18	Operation	Operation	NOUN	NN	_	19	obl	_	_
@@ -44507,7 +44507,7 @@
 20	und	und	CCONJ	KON	_	39	cc	_	_
 21	nachdem	nachdem	SCONJ	KOUS	_	26	mark	_	_
 22	sie	sie	PRON	PPER	_	26	nsubj	_	_
-23	sich	sich	PRON	PRF	_	26	obj	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obj	_	_
 24	in	in	ADP	APPR	_	25	case	_	_
 25	Formen	Form	NOUN	NN	_	26	obl	_	_
 26	erschöpft	erschöpfen	VERB	VVPP	_	39	advcl	_	_
@@ -44542,7 +44542,7 @@
 55	der	der	DET	ART	_	56	det	_	_
 56	Kraft	Kraft	NOUN	NN	_	57	obl	_	_
 57	fehlte	fehlen	VERB	VVFIN	_	39	advcl	_	_
-58	sich	sich	PRON	PRF	_	57	obj	_	_
+58	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	57	obj	_	_
 59	fortzupflanzen	fortpflanzen	VERB	VVINF	_	57	xcomp	_	SpaceAfter=No
 60	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -44552,7 +44552,7 @@
 # sent_id = athenaeum-f352-s2
 # text = Die sich selbst bildende Kraft der Menschheit steht noch auf dieser Stufe.
 1	Die	der	DET	ART	_	5	det	_	_
-2	sich	sich	PRON	PRF	_	4	nmod	_	_
+2	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	4	nmod	_	_
 3	selbst	selbst	ADV	ADV	_	2	advmod	_	_
 4	bildende	bildend	ADJ	ADJA	_	5	amod	_	_
 5	Kraft	Kraft	NOUN	NN	_	8	nsubj	_	_
@@ -44611,7 +44611,7 @@
 19	Kraft	Kraft	NOUN	NN	_	26	obl	_	_
 20	es	es	PRON	PPER	_	26	obj	_	_
 21	aus	aus	ADP	APPR	_	22	case	_	_
-22	sich	sich	PRON	PRF	_	26	obl	_	_
+22	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	obl	_	_
 23	selbst	selbst	ADV	ADV	_	22	advmod	_	_
 24	wieder	wieder	ADV	ADV	_	26	advmod	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
@@ -44734,7 +44734,7 @@
 8	depositum	depositum	NOUN	NN	_	7	flat	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	erwerbe	erwerben	VERB	VVFIN	_	2	conj	_	_
-11	sich	sich	PRON	PRF	_	10	iobj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	iobj	_	_
 12	dadurch	dadurch	ADV	PROAV	_	10	advmod	_	_
 13	ein	ein	DET	ART	_	14	det	_	_
 14	Recht	Recht	NOUN	NN	_	10	obj	_	_
@@ -44948,7 +44948,7 @@
 9	aus	aus	ADP	APPR	_	11	case	_	_
 10	eigner	eign	ADJ	ADJA	_	11	amod	_	_
 11	Kraft	Kraft	NOUN	NN	_	17	obl	_	_
-12	sich	sich	PRON	PRF	_	17	obj	_	_
+12	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obj	_	_
 13	um	um	ADP	APPR	_	15	case	_	_
 14	seine	sein	DET	PPOSAT	_	15	det:poss	_	_
 15	Achse	Achse	NOUN	NN	_	17	obl	_	_
@@ -45156,7 +45156,7 @@
 # text = Leibniz bedient sich einmal, indem er das Wesen und Tun einer Monade beschreibt, des merkwürdigen Ausdrucks: Cela peut aller jusqu'au sentiment.
 1	Leibniz	Leibniz	PROPN	NE	_	2	nsubj	_	_
 2	bedient	bedienen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	einmal	einmal	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	14	punct	_	_
 6	indem	indem	SCONJ	KOUS	_	14	mark	_	_
@@ -45453,7 +45453,7 @@
 28	ungeheurer	ungeheur	ADJ	ADJA	_	29	amod	_	_
 29	Verwüstungen	Verwüstung	NOUN	NN	_	27	nmod	_	_
 30	in	in	ADP	APPR	_	31	case	_	_
-31	sich	sich	PRON	PRF	_	32	obl	_	_
+31	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	32	obl	_	_
 32	trägt	tragen	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
 33	!	--	PUNCT	$.	_	1	punct	_	_
 
@@ -45656,7 +45656,7 @@
 7	verschwenden	verschwend	ADJ	ADJA	_	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	20	punct	_	_
 9	der	der	PRON	PRELS	_	20	nsubj	_	_
-10	sich	sich	PRON	PRF	_	20	obj	_	_
+10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	20	obj	_	_
 11	nur	nur	ADV	ADV	_	20	advmod	_	_
 12	in	in	ADP	APPR	_	15	case	_	_
 13	den	der	DET	ART	_	15	det	_	_
@@ -45670,7 +45670,7 @@
 21	,	--	PUNCT	$,	_	31	punct	_	_
 22	oder	oder	CCONJ	KON	_	31	cc	_	_
 23	der	der	PRON	PRELS	_	31	nsubj	_	_
-24	sich	sich	PRON	PRF	_	31	obj	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	31	obj	_	_
 25	durch	durch	ADP	APPR	_	27	case	_	_
 26	kleinliche	kleinlich	ADJ	ADJA	_	27	amod	_	_
 27	Selbstbeobachtung	Selbstbeobachtung	NOUN	NN	_	31	obl	_	_
@@ -45697,7 +45697,7 @@
 # text = Man denkt sich unter Klugheit doch etwas Bedeutendes und Wichtiges, und das Talent aus einer Musterkarte von Mitteln die zweckmäßigsten auszuwählen ist etwas so Geringfügiges, daß auch der gemeinste Verstand dazu hinreicht, und daß kaum etwas anders als leidenschaftliche Verblendung jemanden darin kann fehl gehen lassen.
 1	Man	man	PRON	PIS	_	2	nsubj	_	_
 2	denkt	denken	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	iobj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	iobj	_	_
 4	unter	unter	ADP	APPR	_	5	case	_	_
 5	Klugheit	Klugheit	NOUN	NN	_	2	obl	_	_
 6	doch	doch	ADV	ADV	_	2	advmod	_	_
@@ -45751,7 +45751,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f362-s4
 # text = Sich für so ein Objekt mit einem so imposanten Wort in Unkosten zu stecken, lohnt wahrlich der Mühe nicht.
-1	Sich	sich	PRON	PRF	_	14	obj	_	_
+1	Sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	14	obj	_	_
 2	für	für	ADP	APPR	_	5	case	_	_
 3	so	so	ADV	ADV	_	20	advmod	_	_
 4	ein	ein	DET	ART	_	5	det	_	_
@@ -46399,7 +46399,7 @@
 25	Gunst	Gunst	NOUN	NN	_	26	obj	_	_
 26	entweiht	entweihen	VERB	VVFIN	_	21	parataxis	_	_
 27	und	und	CCONJ	KON	_	29	cc	_	_
-28	sich	sich	PRON	PRF	_	29	obj	_	_
+28	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	29	obj	_	_
 29	hingibt	hingeben	VERB	VVFIN	_	26	conj	_	_
 30	für	für	ADP	APPR	_	31	case	_	_
 31	Geschenke	Geschenk	NOUN	NN	_	29	obl	_	_
@@ -46748,7 +46748,7 @@
 8	,	--	PUNCT	$,	_	10	punct	_	_
 9	sie	sie	PRON	PPER	_	10	nsubj	_	_
 10	verhält	verhalten	VERB	VVFIN	_	7	parataxis	_	_
-11	sich	sich	PRON	PRF	_	10	obj	_	_
+11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 12	zur	zu	ADP	APPRART	_	13	case	_	_
 13	Philosophie	Philosophie	NOUN	NN	_	10	obl	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	18	punct	_	_
@@ -47195,7 +47195,7 @@
 4	der	der	DET	ART	_	5	det	_	_
 5	Pflichten	Pflicht	NOUN	NN	_	3	nmod	_	_
 6	gegen	gegen	ADP	APPR	_	7	case	_	_
-7	sich	sich	PRON	PRF	_	5	nmod	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	nmod	_	_
 8	selbst	selbst	ADV	ADV	_	7	advmod	_	_
 9	und	und	CCONJ	KON	_	11	cc	_	_
 10	der	der	DET	ART	_	11	det	_	_
@@ -47206,7 +47206,7 @@
 15	bestimmen	bestimmen	VERB	VVINF	_	22	advcl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	15	punct	_	_
 17	dürften	dürfen	AUX	VMFIN	_	22	aux	_	_
-18	sich	sich	PRON	PRF	_	22	obj	_	_
+18	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	22	obj	_	_
 19	schwerlich	schwerlich	ADV	ADV	_	22	advmod	_	_
 20	andre	andr	ADJ	ADJA	_	21	amod	_	_
 21	Kennzeichen	Kennzeichen	NOUN	NN	_	22	obj	_	_
@@ -47722,7 +47722,7 @@
 35	der	der	DET	ART	_	37	det	_	_
 36	ganze	ganz	ADJ	ADJA	_	37	amod	_	_
 37	Mensch	Mensch	NOUN	NN	_	39	nsubj	_	_
-38	sich	sich	PRON	PRF	_	39	obj	_	_
+38	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	39	obj	_	_
 39	bildet	bilden	VERB	VVFIN	_	31	acl	_	_
 40	und	und	CCONJ	KON	_	41	cc	_	_
 41	handelt	handeln	VERB	VVFIN	_	39	conj	_	SpaceAfter=No
@@ -48002,7 +48002,7 @@
 1	Aber	aber	CCONJ	KON	_	10	cc	_	_
 2	sollte	sollen	AUX	VMFIN	_	10	aux	_	_
 3	man	man	PRON	PIS	_	10	nsubj	_	_
-4	sich	sich	PRON	PRF	_	10	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obj	_	_
 5	bisher	bisher	ADV	ADV	_	10	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
@@ -48191,7 +48191,7 @@
 4	zu	zu	ADP	APPR	_	5	case	_	_
 5	welcher	welcher	PRON	PRELS	_	15	obl	_	_
 6	sie	sie	PRON	PPER	_	15	nsubj	_	_
-7	sich	sich	PRON	PRF	_	15	obj	_	SpaceAfter=No
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	13	punct	_	_
 9	um	um	SCONJ	KOUI	_	13	mark	_	_
 10	den	der	DET	ART	_	12	det	_	_
@@ -48275,7 +48275,7 @@
 2	Ton	Ton	NOUN	NN	_	25	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	7	punct	_	_
 4	statt	statt	SCONJ	KOUS	_	7	mark	_	_
-5	sich	sich	PRON	PRF	_	7	obj	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obj	_	_
 6	zu	zu	PART	PTKZU	_	7	mark	_	_
 7	erheben	erheben	VERB	VVINF	_	25	xcomp	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	7	punct	_	_
@@ -48543,7 +48543,7 @@
 # text = Äußert er sich satirisch, so gibt das die eigentlichen Sarkasmen.
 1	Äußert	äußern	VERB	VVFIN	_	0	root	_	_
 2	er	er	PRON	PPER	_	1	nsubj	_	_
-3	sich	sich	PRON	PRF	_	1	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	1	obj	_	_
 4	satirisch	satirisch	ADV	ADV	_	1	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	7	punct	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
@@ -48733,7 +48733,7 @@
 15	an	an	ADP	APPR	_	16	case	_	_
 16	die	der	PRON	PRELS	_	19	obl	_	_
 17	er	er	PRON	PPER	_	19	nsubj	_	_
-18	sich	sich	PRON	PRF	_	19	obj	_	_
+18	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 19	akkomodiert	akkomodieren	VERB	VVFIN	_	13	conj	_	_
 20	usw	usw	X	XY	_	19	dep	_	SpaceAfter=No
 21	.	--	PUNCT	$.	_	3	punct	_	_
@@ -48846,7 +48846,7 @@
 31	ist	sein	AUX	VAFIN	_	30	cop	_	SpaceAfter=No
 32	,	--	PUNCT	$,	_	42	punct	_	_
 33	und	und	CCONJ	KON	_	42	cc	_	_
-34	sich	sich	PRON	PRF	_	42	obj	_	_
+34	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	42	obj	_	_
 35	aus	aus	ADP	APPR	_	37	case	_	_
 36	dem	der	DET	ART	_	37	det	_	_
 37	Begriff	Begriff	NOUN	NN	_	42	obl	_	_
@@ -48860,7 +48860,7 @@
 45	sie	sie	PRON	PPER	_	51	nsubj	_	_
 46	also	also	ADV	ADV	_	51	advmod	_	_
 47	für	für	ADP	APPR	_	48	case	_	_
-48	sich	sich	PRON	PRF	_	51	obl	_	_
+48	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	51	obl	_	_
 49	nicht	nicht	PART	PTKNEG	_	50	advmod	_	_
 50	berechtigt	berechtigt	ADJ	ADJD	_	51	xcomp	_	_
 51	scheinen	scheinen	VERB	VVINF	_	42	xcomp	_	SpaceAfter=No
@@ -49296,7 +49296,7 @@
 5	die	der	DET	ART	_	6	det	_	_
 6	Poesie	Poesie	NOUN	NN	_	3	nmod	_	_
 7	findet	finden	VERB	VVFIN	_	0	root	_	_
-8	sich	sich	PRON	PRF	_	7	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obj	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Harris	Harris	PROPN	NE	_	7	obl	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	12	punct	_	_
@@ -49423,7 +49423,7 @@
 22	,	--	PUNCT	$,	_	24	punct	_	_
 23	und	und	CCONJ	KON	_	24	cc	_	_
 24	halten	halten	VERB	VVFIN	_	20	conj	_	_
-25	sich	sich	PRON	PRF	_	24	obj	_	_
+25	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	24	obj	_	_
 26	überall	überall	ADV	ADV	_	24	advmod	_	_
 27	an	an	ADP	PTKVZ	_	24	compound:prt	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	30	punct	_	_
@@ -49513,7 +49513,7 @@
 13	die	der	DET	ART	_	14	det	_	_
 14	Notdurft	Notdurft	NOUN	NN	_	11	nmod	_	_
 15	und	und	CCONJ	KON	_	19	cc	_	_
-16	sich	sich	PRON	PRF	_	19	obj	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obj	_	_
 17	über	über	ADP	APPR	_	18	case	_	_
 18	nichts	nichts	PRON	PIS	_	19	obl	_	_
 19	freuen	freuen	VERB	VVINF	_	11	conj	_	_
@@ -49572,7 +49572,7 @@
 5	Trieb	Trieb	NOUN	NN	_	6	obj	_	_
 6	befriedigen	befriedigen	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	11	punct	_	_
-8	sich	sich	PRON	PRF	_	11	obj	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 9	selbst	selbst	ADV	ADV	_	8	fixed	_	_
 10	literarisch	literarisch	ADV	ADV	_	11	advmod	_	_
 11	affizieren	affizieren	VERB	VVINF	_	6	conj	_	SpaceAfter=No
@@ -49730,7 +49730,7 @@
 2	Witz	Witz	NOUN	NN	_	9	obj	_	_
 3	kann	können	AUX	VMFIN	_	9	aux	_	_
 4	man	man	PRON	PIS	_	9	nsubj	_	_
-5	sich	sich	PRON	PRF	_	9	expl	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	expl	_	_
 6	doch	doch	ADV	ADV	_	9	advmod	_	_
 7	nur	nur	ADV	ADV	_	8	advmod	_	_
 8	geschrieben	schreiben	VERB	VVPP	_	9	xcomp	_	_
@@ -49879,7 +49879,7 @@
 4	und	und	CCONJ	KON	_	6	cc	_	_
 5	die	der	DET	ART	_	6	det	_	_
 6	Menschheit	Menschheit	NOUN	NN	_	3	conj	_	_
-7	sich	sich	PRON	PRF	_	13	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	13	obj	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
 9	oft	oft	ADV	ADV	_	13	advmod	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
@@ -50097,7 +50097,7 @@
 5	vollkommne	vollkommn	ADJ	ADJA	_	6	amod	_	_
 6	Selbstvernichtung	Selbstvernichtung	NOUN	NN	_	9	obj	_	_
 7	nach	nach	ADP	APPR	_	8	case	_	_
-8	sich	sich	PRON	PRF	_	9	obl	_	_
+8	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obl	_	_
 9	ziehen	ziehen	VERB	VVINF	_	13	csubj	_	_
 10	würde	werden	AUX	VAFIN	_	9	aux	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	9	punct	_	_
@@ -50160,7 +50160,7 @@
 4	verstehn	verstehn	VERB	VVINF	_	36	xcomp	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	11	punct	_	_
 6	der	der	PRON	PRELS	_	11	nsubj	_	_
-7	sich	sich	PRON	PRF	_	11	obj	_	_
+7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obj	_	_
 8	selbst	selbst	ADV	ADV	_	7	fixed	_	_
 9	nur	nur	ADV	ADV	_	11	advmod	_	_
 10	halb	halb	ADV	ADV	_	11	advmod	_	_
@@ -50594,7 +50594,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f404-s9
 # text = Sich ausschließlich der Entwicklung eines ursprünglichen Triebes zu widmen, ist so würdig und so weise, wie das Beste und das Höchste, was der Mensch nur immer zum Geschäft seines Lebens wählen kann.
-1	Sich	sich	PRON	PRF	_	9	obj	_	_
+1	Sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	obj	_	_
 2	ausschließlich	ausschließlich	ADV	ADV	_	9	advmod	_	_
 3	der	der	DET	ART	_	4	det	_	_
 4	Entwicklung	Entwicklung	NOUN	NN	_	9	iobj	_	_
@@ -50913,7 +50913,7 @@
 # text = Oft verliert sich das Talent und die Bildung ganz in diesem umgebenden Element.
 1	Oft	oft	ADV	ADV	_	2	advmod	_	_
 2	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	_	2	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	das	der	DET	ART	_	5	det	_	_
 5	Talent	Talent	NOUN	NN	_	2	nsubj	_	_
 6	und	und	CCONJ	KON	_	8	cc	_	_
@@ -50956,7 +50956,7 @@
 # text = Ideale die sich für unerreichbar halten, sind eben darum nicht Ideale, sondern mathematische Fantome des bloß mechanischen Denkens.
 1	Ideale	ideal	NOUN	NN	_	12	nsubj	_	_
 2	die	der	PRON	PRELS	_	6	nsubj	_	_
-3	sich	sich	PRON	PRF	_	6	obj	_	_
+3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	obj	_	_
 4	für	für	ADP	APPR	_	5	case	_	_
 5	unerreichbar	unerreichbar	ADJ	ADJD	_	6	xcomp	_	_
 6	halten	halten	VERB	VVINF	_	1	acl	_	SpaceAfter=No
@@ -50999,7 +50999,7 @@
 16	ihm	ihm	PRON	PPER	_	14	obl	_	_
 17	das	der	DET	ART	_	18	det	_	_
 18	Produkt	Produkt	NOUN	NN	_	14	obj	_	_
-19	sich	sich	PRON	PRF	_	21	obj	_	_
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	21	obj	_	_
 20	ewig	ewig	ADV	ADV	_	21	advmod	_	_
 21	scheidender	scheidend	ADJ	ADJA	_	24	amod	_	_
 22	und	und	CCONJ	KON	_	23	cc	_	_
@@ -51007,7 +51007,7 @@
 24	Kräfte	Kraft	NOUN	NN	_	18	nmod	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	26	punct	_	_
 26	denkt	denken	VERB	VVFIN	_	14	parataxis	_	_
-27	sich	sich	PRON	PRF	_	26	iobj	_	_
+27	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	iobj	_	_
 28	seine	sein	DET	PPOSAT	_	29	det:poss	_	_
 29	Ideale	Ideal	NOUN	NN	_	26	obj	_	_
 30	wenigstens	wenigstens	ADV	ADV	_	26	advmod	_	_
@@ -51018,7 +51018,7 @@
 35	,	--	PUNCT	$,	_	40	punct	_	_
 36	wenn	wenn	SCONJ	KOUS	_	40	mark	_	_
 37	er	er	PRON	PPER	_	40	nsubj	_	_
-38	sich	sich	PRON	PRF	_	40	obj	_	_
+38	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	40	obj	_	_
 39	entschieden	entscheiden	ADV	ADV	_	40	advmod	_	_
 40	ausdrückt	ausdrücken	VERB	VVFIN	_	34	acl	_	SpaceAfter=No
 41	,	--	PUNCT	$,	_	40	punct	_	_
@@ -51126,7 +51126,7 @@
 2	Philosoph	Philosoph	NOUN	NN	_	7	nsubj	_	_
 3	muß	müssen	AUX	VMFIN	_	7	aux	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
-5	sich	sich	PRON	PRF	_	7	obl	_	_
+5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	7	obl	_	_
 6	selbst	selbst	ADV	ADV	_	5	fixed	_	_
 7	reden	reden	VERB	VVINF	_	0	root	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
@@ -51198,11 +51198,11 @@
 16	werden	werden	VERB	VVINF	_	11	conj	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	11	punct	_	_
 18	verstehn	verstehn	VERB	VVFIN	_	0	root	_	_
-19	sich	sich	PRON	PRF	_	18	obj	_	_
+19	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 20	überall	überall	ADV	ADV	_	18	advmod	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	22	punct	_	_
 22	finden	finden	VERB	VVFIN	_	18	conj	_	_
-23	sich	sich	PRON	PRF	_	22	obj	_	_
+23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	22	obj	_	_
 24	leicht	leicht	ADV	ADV	_	22	advmod	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	27	punct	_	_
 26	und	und	CCONJ	KON	_	27	cc	_	_
@@ -51494,7 +51494,7 @@
 21	die	der	DET	ART	_	22	det	_	_
 22	Poesie	Poesie	NOUN	NN	_	28	nsubj	_	_
 23	über	über	ADP	APPR	_	24	case	_	_
-24	sich	sich	PRON	PRF	_	28	nmod	_	_
+24	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	28	nmod	_	_
 25	selbst	selbst	ADV	ADV	_	24	fixed	_	_
 26	den	der	DET	ART	_	27	det	_	_
 27	Hals	Hals	NOUN	NN	_	28	obj	_	_
@@ -51721,7 +51721,7 @@
 13	scheint	scheinen	VERB	VVFIN	_	5	conj	_	_
 14	angenehm	angenehm	ADJ	ADJD	_	13	xcomp	_	_
 15	über	über	ADP	APPR	_	16	case	_	_
-16	sich	sich	PRON	PRF	_	19	obl	_	_
+16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	19	obl	_	_
 17	selbst	selbst	ADV	ADV	_	16	fixed	_	_
 18	zu	zu	PART	PTKZU	_	19	mark	_	_
 19	fantasieren	fantasieren	VERB	VVINF	_	13	xcomp	_	SpaceAfter=No
@@ -51786,7 +51786,7 @@
 17	tändeln	tändeln	VERB	VVINF	_	3	parataxis	_	_
 18	und	und	CCONJ	KON	_	22	cc	_	_
 19	kann	können	AUX	VMFIN	_	22	aux	_	_
-20	sich	sich	PRON	PRF	_	22	obj	_	_
+20	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	22	obj	_	_
 21	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
 22	täuschen	täuschen	VERB	VVINF	_	17	conj	_	SpaceAfter=No
 23	;	--	PUNCT	$.	_	25	punct	_	_
@@ -51995,7 +51995,7 @@
 18	sei	sein	AUX	VAFIN	_	15	cop	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	15	punct	_	_
 20	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-21	sich	sich	PRON	PRF	_	20	obj	_	_
+21	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	20	obj	_	_
 22	vielleicht	vielleicht	ADV	ADV	_	20	advmod	_	_
 23	sehr	sehr	ADV	ADV	_	24	advmod	_	_
 24	bestimmt	bestimmen	ADV	ADV	_	25	advmod	_	_
@@ -52261,7 +52261,7 @@
 30	haßt	hassen	VERB	VVFIN	_	11	conj	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	48	punct	_	_
 32	kann	können	AUX	VMFIN	_	48	aux	_	_
-33	sich	sich	PRON	PRF	_	48	obj	_	_
+33	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	48	obj	_	_
 34	der	der	DET	ART	_	35	det	_	_
 35	Mensch	Mensch	NOUN	NN	_	48	nsubj	_	_
 36	von	von	ADP	APPR	_	38	case	_	_
@@ -52557,7 +52557,7 @@
 1	Überhaupt	überhaupt	ADV	ADV	_	2	advmod	_	_
 2	läßt	lassen	VERB	VVFIN	_	0	root	_	_
 3	er	er	PRON	PPER	_	2	nsubj	_	_
-4	sich	sich	PRON	PRF	_	2	obj	_	_
+4	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	obj	_	_
 5	fast	fast	ADV	ADV	_	6	advmod	_	_
 6	nie	nie	ADV	ADV	_	2	advmod	_	_
 7	herab	herab	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
@@ -52570,7 +52570,7 @@
 14	daß	daß	SCONJ	KOUS	_	18	mark	_	_
 15	er	er	PRON	PPER	_	18	nsubj	_	_
 16	sie	sie	PRON	PPER	_	18	xcomp	_	_
-17	sich	sich	PRON	PRF	_	18	obj	_	_
+17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obj	_	_
 18	denkt	denken	VERB	VVFIN	_	13	advcl	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	27	punct	_	_
 20	und	und	CCONJ	KON	_	27	cc	_	_
@@ -52620,7 +52620,7 @@
 30	starke	stark	ADJ	ADJA	_	31	amod	_	_
 31	Familienähnlichkeit	Familienähnlichkeit	NOUN	NN	_	27	obj	_	_
 32	unter	unter	ADP	APPR	_	33	case	_	_
-33	sich	sich	PRON	PRF	_	27	obl	_	_
+33	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	27	obl	_	_
 34	und	und	CCONJ	KON	_	37	cc	_	_
 35	mit	mit	ADP	APPR	_	37	case	_	_
 36	dem	der	DET	ART	_	37	det	_	_
