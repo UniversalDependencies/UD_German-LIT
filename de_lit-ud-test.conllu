@@ -47,7 +47,7 @@
 # text = man müßte ihm denn Helden, Musik oder Narren zum besten geben.
 1	man	man	PRON	PIS	_	12	nsubj	_	_
 2	müßte	müssen	AUX	VMFIN	_	12	aux	_	_
-3	ihm	ihm	PRON	PPER	_	12	iobj	_	_
+3	ihm	ihm	PRON	PPER	Case=Dat	12	iobj	_	_
 4	denn	denn	ADV	ADV	_	12	advmod	_	_
 5	Helden	Held	NOUN	NN	_	12	obj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	7	punct	_	_
@@ -255,7 +255,7 @@
 2	Schlechteste	Schlechteste	NOUN	NN	_	4	xcomp	_	_
 3	daran	daran	ADV	ADV	_	4	advmod	_	_
 4	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-5	mir	sich	PRON	PPER	_	4	iobj	_	_
+5	mir	sich	PRON	PPER	Case=Dat	4	iobj	_	_
 6	der	der	DET	ART	_	8	det	_	_
 7	gänzliche	gänzlich	ADJ	ADJA	_	8	amod	_	_
 8	Mangel	Mangel	NOUN	NN	_	4	nsubj	_	_
@@ -1151,7 +1151,7 @@
 3	sentimentale	sentimental	ADJ	ADJA	_	4	amod	_	_
 4	Kunsturteile	Kunsturteil	NOUN	NN	_	2	nsubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	8	punct	_	_
-6	denen	der	PRON	PRELS	_	8	iobj	_	_
+6	denen	der	PRON	PRELS	Case=Dat	8	iobj	_	_
 7	nichts	nichts	PRON	PIS	_	8	nsubj	_	_
 8	fehlt	fehlen	VERB	VVFIN	_	4	acl	_	_
 9	als	als	CCONJ	KOKOM	_	11	case	_	_
@@ -1453,7 +1453,7 @@
 23	,	--	PUNCT	$,	_	21	punct	_	_
 24	für	für	ADP	APPR	_	25	case	_	_
 25	die	der	PRON	PRELS	_	30	nmod	_	_
-26	ihm	ihm	PRON	PPER	_	30	iobj	_	_
+26	ihm	ihm	PRON	PPER	Case=Dat	30	iobj	_	_
 27	der	der	DET	ART	_	28	det	_	_
 28	Sinn	Sinn	NOUN	NN	_	30	nsubj	_	_
 29	durchaus	durchaus	ADV	ADV	_	30	advmod	_	_
@@ -2490,7 +2490,7 @@
 29	:	--	PUNCT	$.	_	15	punct	_	_
 30	que	que	PRON	XY	_	31	nsubj	_	_
 31	pourtant	pourtant	VERB	FM	_	15	parataxis	_	_
-32	nous	nous	PRON	XY	_	31	iobj	_	_
+32	nous	nous	PRON	XY	Case=Dat	31	iobj	_	_
 33	sommes	somm	ADJ	XY	_	34	amod	_	_
 34	menacés	menacé	NOUN	XY	_	31	obj	_	_
 35	de	de	SCONJ	XY	_	36	mark	_	_
@@ -2618,7 +2618,7 @@
 1	Die	der	DET	ART	_	2	det	_	_
 2	Römer	Römer	NOUN	NN	_	5	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	5	cop	_	_
-4	uns	uns	PRON	PPER	_	5	iobj	_	_
+4	uns	uns	PRON	PPER	Case=Dat	5	iobj	_	_
 5	näher	nah	ADJ	ADJD	_	0	root	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	begreiflicher	begreiflich	ADJ	ADJD	_	5	conj	_	_
@@ -4082,7 +4082,7 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	unmöglich	unmöglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	jemanden	jemand	PRON	PIS	_	9	iobj	_	_
+5	jemanden	jemand	PRON	PIS	Case=Dat	9	iobj	_	_
 6	ein	ein	DET	ART	_	7	det	_	_
 7	Ärgernis	Ärgernis	NOUN	NN	_	9	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
@@ -5284,7 +5284,7 @@
 15	jemand	jemand	PRON	PIS	_	16	obj	_	_
 16	haben	haben	VERB	VVINF	_	4	parataxis	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	20	punct	_	_
-18	dem	der	PRON	PRELS	_	20	iobj	_	_
+18	dem	der	PRON	PRELS	Case=Dat	20	iobj	_	_
 19	man's	man's	PRON	PIS	_	20	nsubj	_	_
 20	mitteilen	mitteilen	VERB	VVINF	_	15	acl	_	_
 21	wollen	wollen	AUX	VMFIN	_	20	aux	_	_
@@ -5356,7 +5356,7 @@
 2	das	der	DET	ART	_	3	det	_	_
 3	Alte	alte	NOUN	NN	_	4	nsubj	_	_
 4	wird	werden	VERB	VVFIN	_	0	root	_	_
-5	einem	ein	PRON	PIS	_	4	iobj	_	_
+5	einem	ein	PRON	PIS	Case=Dat	4	iobj	_	_
 6	immer	immer	ADV	ADV	_	4	advmod	_	_
 7	wieder	wieder	ADV	ADV	_	4	advmod	_	_
 8	neu	neu	ADJ	ADJD	_	4	xcomp	_	SpaceAfter=No
@@ -6020,7 +6020,7 @@
 3	nicht	nicht	PART	PTKNEG	_	4	advmod	_	_
 4	hat	haben	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
-6	dem	der	PRON	PDS	_	7	iobj	_	_
+6	dem	der	PRON	PDS	Case=Dat	7	iobj	_	_
 7	bleibt	bleiben	VERB	VVFIN	_	4	parataxis	_	_
 8	sie	sie	PRON	PPER	_	7	nsubj	_	_
 9	auch	auch	ADV	ADV	_	7	advmod	_	_
@@ -7003,7 +7003,7 @@
 2	es	es	PRON	PPER	_	3	nsubj	_	_
 3	tut	tun	VERB	VVFIN	_	6	csubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	dem	der	PRON	PDS	_	6	iobj	_	_
+5	dem	der	PRON	PDS	Case=Dat	6	iobj	_	_
 6	fehlt	fehlen	VERB	VVFIN	_	0	root	_	_
 7	es	es	PRON	PPER	_	6	expl	_	_
 8	zugleich	zugleich	ADV	ADV	_	6	advmod	_	_
@@ -8181,7 +8181,7 @@
 10	werden	werden	AUX	VAFIN	_	18	aux:pass	_	_
 11	und	und	CCONJ	KON	_	18	cc	_	_
 12	können	können	AUX	VMFIN	_	18	aux	_	_
-13	uns	uns	PRON	PPER	_	18	iobj	_	_
+13	uns	uns	PRON	PPER	Case=Dat	18	iobj	_	_
 14	weit	weit	ADV	ADV	_	15	advmod	_	_
 15	mehr	mehr	ADV	ADV	_	18	advmod	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	18	punct	_	_
@@ -9202,7 +9202,7 @@
 # text = Geht es uns doch mit uns selbst nicht besser.
 1	Geht	gehen	VERB	VVFIN	_	0	root	_	_
 2	es	es	PRON	PPER	_	1	nsubj	_	_
-3	uns	uns	PRON	PPER	_	1	iobj	_	_
+3	uns	uns	PRON	PPER	Case=Dat	1	iobj	_	_
 4	doch	doch	ADV	ADV	_	1	advmod	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
 6	uns	uns	PRON	PPER	_	1	obl	_	_
@@ -9608,7 +9608,7 @@
 11	Tageszeiten	Tageszeit	NOUN	NN	_	9	conj	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	6	punct	_	_
 13	liefern	liefern	VERB	VVFIN	_	0	root	_	_
-14	uns	uns	PRON	PPER	_	13	iobj	_	_
+14	uns	uns	PRON	PPER	Case=Dat	13	iobj	_	_
 15	solche	solcher	DET	PIAT	_	16	det	_	_
 16	Erfahrungen	Erfahrung	NOUN	NN	_	13	obj	_	SpaceAfter=No
 17	.	--	PUNCT	$.	_	13	punct	_	_
@@ -10140,7 +10140,7 @@
 13	,	--	PUNCT	$,	_	20	punct	_	_
 14	und	und	CCONJ	KON	_	20	cc	_	_
 15	hat	haben	AUX	VAFIN	_	20	aux	_	_
-16	ihr	ihr	PRON	PPER	_	20	iobj	_	_
+16	ihr	ihr	PRON	PPER	Case=Dat	20	iobj	_	_
 17	einen	ein	DET	ART	_	19	det	_	_
 18	artigen	artig	ADJ	ADJA	_	19	amod	_	_
 19	Kunstgriff	Kunstgriff	NOUN	NN	_	20	obj	_	_
@@ -10446,7 +10446,7 @@
 1	Schlegels	Schlegel	PROPN	NE	_	2	nmod:poss	_	_
 2	Ironie	Ironie	PROPN	NE	_	3	nsubj	_	_
 3	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-4	mir	sich	PRON	PPER	_	3	iobj	_	_
+4	mir	sich	PRON	PPER	Case=Dat	3	iobj	_	_
 5	ächter	ächt	ADJ	ADJA	_	6	amod	_	_
 6	Humor	Humor	NOUN	NN	_	3	xcomp	_	_
 7	zu	zu	PART	PTKZU	_	6	mark	_	_
@@ -10596,7 +10596,7 @@
 # sent_id = bluethenstaub-f33-s1
 # text = Wenn uns ein Geist erschiene, so würden wir uns sogleich unsrer eignen Geistigkeit bemächtigen: wir würden inspirirt seyn durch uns und den Geist zugleich.
 1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
-2	uns	uns	PRON	PPER	_	5	iobj	_	_
+2	uns	uns	PRON	PPER	Case=Dat	5	iobj	_	_
 3	ein	ein	DET	ART	_	4	det	_	_
 4	Geist	Geist	NOUN	NN	_	5	obj	_	_
 5	erschiene	erschienen	VERB	VVFIN	_	15	advcl	_	SpaceAfter=No
@@ -11376,7 +11376,7 @@
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	bedeutet	bedeuten	VERB	VVFIN	_	0	root	_	_
 6	bey	bey	ADP	APPR	_	7	case	_	_
-7	uns	uns	PRON	PPER	_	5	iobj	_	SpaceAfter=No
+7	uns	uns	PRON	PPER	Case=Dat	5	iobj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	5	punct	_	_
 9	von	von	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	_	11	det	_	_
@@ -12262,7 +12262,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f54-s6
 # text = Ihm werden die letzten Schritte beschwerlich, und selten kann er es über sich gewinnen, schon bey einem gewissen Grade von Meisterschaft sich wieder in den Zustand eines Anfängers zu versetzen.
-1	Ihm	ihm	PRON	PPER	_	2	iobj	_	_
+1	Ihm	ihm	PRON	PPER	Case=Dat	2	iobj	_	_
 2	werden	werden	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	_	5	det	_	_
 4	letzten	letzter	ADJ	ADJA	_	5	amod	_	_
@@ -12726,7 +12726,7 @@
 # text = Es geht ihm, wie es vielen dummen Kindern gehn soll: er wird leben und klug seyn, wenn seine frühklugen Geschwister längst vermodert sind, und er nun allein Herr im Hause ist.
 1	Es	es	PRON	PPER	_	2	nsubj	_	_
 2	geht	gehen	VERB	VVFIN	_	0	root	_	_
-3	ihm	ihm	PRON	PPER	_	2	iobj	_	SpaceAfter=No
+3	ihm	ihm	PRON	PPER	Case=Dat	2	iobj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	2	punct	_	_
 5	wie	wie	ADV	PWAV	_	10	advmod	_	_
 6	es	es	PRON	PPER	_	10	nsubj	_	_
@@ -13219,7 +13219,7 @@
 # text = Sie geben uns nicht das wirkliche Kunstwerk, sondern das Ideal desselben.
 1	Sie	sie	PRON	PPER	_	2	nsubj	_	_
 2	geben	geben	VERB	VVFIN	_	0	root	_	_
-3	uns	uns	PRON	PPER	_	2	iobj	_	_
+3	uns	uns	PRON	PPER	Case=Dat	2	iobj	_	_
 4	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
 5	das	der	DET	ART	_	7	det	_	_
 6	wirkliche	wirklich	ADJ	ADJA	_	7	amod	_	_
@@ -13808,7 +13808,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f73-s3
 # text = Ihm entspräche das Talent der Fixirung des Individuums, dessen Fertigkeit und Energie relativ ist.
-1	Ihm	ihm	PRON	PPER	_	2	iobj	_	_
+1	Ihm	ihm	PRON	PPER	Case=Dat	2	iobj	_	_
 2	entspräche	entsprechen	VERB	VVFIN	_	0	root	_	_
 3	das	der	DET	ART	_	4	det	_	_
 4	Talent	Talent	NOUN	NN	_	2	nsubj	_	_
@@ -15169,7 +15169,7 @@
 3	und	und	CCONJ	KON	_	4	cc	_	_
 4	Abendgebete	Abendgebet	NOUN	NN	_	2	flat	_	_
 5	sind	sein	AUX	VAFIN	_	13	cop	_	_
-6	ihnen	ihnen	PRON	PPER	_	13	iobj	_	SpaceAfter=No
+6	ihnen	ihnen	PRON	PPER	Case=Dat	13	iobj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
 8	wie	wie	ADV	PWAV	_	9	advmod	_	_
 9	Frühstück	Frühstück	NOUN	NN	_	13	nmod	_	_
@@ -15418,7 +15418,7 @@
 2	Sentenzen	Sentenze	NOUN	NN	_	11	obl	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	2	punct	_	_
 4	die	der	PRON	PRELS	_	9	nsubj	_	_
-5	uns	uns	PRON	PPER	_	9	iobj	_	_
+5	uns	uns	PRON	PPER	Case=Dat	9	iobj	_	_
 6	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
 8	gemein	gemein	ADJ	ADJD	_	9	advmod	_	_
@@ -16175,7 +16175,7 @@
 12	,	--	PUNCT	$,	_	14	punct	_	_
 13	es	es	PRON	PPER	_	14	expl	_	_
 14	mangelt	mangeln	VERB	VVFIN	_	8	conj	_	_
-15	ihm	ihm	PRON	PPER	_	14	iobj	_	_
+15	ihm	ihm	PRON	PPER	Case=Dat	14	iobj	_	_
 16	nur	nur	ADV	ADV	_	14	advmod	_	_
 17-18	am	_	_	_	_	_	_	_	_
 17	an	an	ADP	APPR	_	20	case	_	_
@@ -18379,7 +18379,7 @@
 39	dasjenige	dasjeniger	ADJ	ADJA	_	32	conj	_	SpaceAfter=No
 40	,	--	PUNCT	$,	_	39	punct	_	_
 41	was	was	PRON	PRELS	_	68	obj	_	_
-42	uns	uns	PRON	PPER	_	68	iobj	_	_
+42	uns	uns	PRON	PPER	Case=Dat	68	iobj	_	_
 43-44	zur	_	_	_	_	_	_	_	_
 43	zu	zu	ADP	APPR	_	45	case	_	_
 44	der	der	DET	ART	_	45	det	_	_
@@ -18529,7 +18529,7 @@
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	mag	mögen	VERB	VVFIN	_	0	root	_	_
 3	freylich	freylich	ADV	ADV	_	2	advmod	_	_
-4	manches	mancher	PRON	PIS	_	2	iobj	_	_
+4	manches	mancher	PRON	PIS	Case=Dat	2	iobj	_	_
 5	taube	taub	ADJ	ADJA	_	6	amod	_	_
 6	Körnchen	Körnchen	NOUN	NN	_	2	csubj	_	_
 7	darunter	darunter	ADV	PROAV	_	6	advmod	_	_
@@ -18820,7 +18820,7 @@
 14	so	so	ADV	ADV	_	15	advmod	_	_
 15	fällt	fallen	VERB	VVFIN	_	0	root	_	_
 16	es	es	PRON	PPER	_	15	nsubj	_	_
-17	ihnen	ihnen	PRON	PPER	_	15	iobj	_	_
+17	ihnen	ihnen	PRON	PPER	Case=Dat	15	iobj	_	_
 18	gar	gar	ADV	ADV	_	19	advmod	_	_
 19	nicht	nicht	PART	PTKNEG	_	15	advmod	_	_
 20	ein	ein	ADP	PTKVZ	_	15	compound:prt	_	SpaceAfter=No
@@ -20000,7 +20000,7 @@
 3	weit	weit	ADJ	ADJD	_	4	advmod	_	_
 4	schwerer	schwer	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	8	punct	_	_
-6	andre	ander	PRON	PIS	_	8	iobj	_	_
+6	andre	ander	PRON	PIS	Case=Dat	8	iobj	_	_
 7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	veranlassen	veranlassen	VERB	VVINF	_	4	ccomp	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	13	punct	_	_
@@ -20506,7 +20506,7 @@
 13	entweder	entweder	ADV	ADV	_	14	advmod	_	_
 14	solche	solcher	PRON	PIS	_	0	root	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	21	punct	_	_
-16	denen	der	PRON	PRELS	_	21	iobj	_	_
+16	denen	der	PRON	PRELS	Case=Dat	21	iobj	_	_
 17	es	es	PRON	PPER	_	21	nsubj	_	_
 18	an	an	ADP	APPR	_	20	case	_	_
 19	einem	ein	DET	ART	_	20	det	_	_
@@ -20706,7 +20706,7 @@
 3	größten	groß	ADJ	ADJA	_	4	amod	_	_
 4	Philosophen	Philosoph	NOUN	NN	_	5	obl	_	_
 5	geht	gehen	VERB	VVFIN	_	0	root	_	_
-6	mirs	mirs	PRON	PRF	_	5	iobj	_	SpaceAfter=No
+6	mirs	mirs	PRON	PRF	Case=Dat	5	iobj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	5	punct	_	_
 8	wie	wie	CCONJ	KOKOM	_	10	case	_	_
 9	dem	der	DET	ART	_	10	det	_	_
@@ -21314,7 +21314,7 @@
 5	alles	alle	PRON	PIS	_	10	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	was	was	PRON	PRELS	_	9	nsubj	_	_
-8	ihr	ihr	PRON	PPER	_	9	iobj	_	_
+8	ihr	ihr	PRON	PPER	Case=Dat	9	iobj	_	_
 9	vorkömmt	vorkömmen	VERB	VVFIN	_	5	acl	_	_
 10	kritisiert	kritisieren	VERB	VVFIN	_	18	advcl	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
@@ -21665,7 +21665,7 @@
 10	Freiheiten	Freiheit	NOUN	NN	_	9	appos	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	19	punct	_	_
 12	die	der	PRON	PRELS	_	19	nsubj	_	_
-13	ihnen	ihnen	PRON	PPER	_	19	iobj	_	_
+13	ihnen	ihnen	PRON	PPER	Case=Dat	19	iobj	_	_
 14	alle	aller	PRON	PIS	_	19	obj	_	_
 15	durch	durch	ADP	APPR	_	17	case	_	_
 16	die	der	DET	ART	_	17	det	_	_
@@ -21880,7 +21880,7 @@
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	sagt	sagen	VERB	VVFIN	_	0	root	_	_
 15	er	er	PRON	PPER	_	14	nsubj	_	_
-16	ihm	ihm	PRON	PPER	_	14	iobj	_	_
+16	ihm	ihm	PRON	PPER	Case=Dat	14	iobj	_	_
 17	gern	gern	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 18	:	--	PUNCT	$.	_	14	punct	_	_
 19	Du	du	PRON	PPER	_	20	expl	_	_
@@ -22802,7 +22802,7 @@
 11	Erklärungen	Erklärung	NOUN	NN	_	9	parataxis	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	20	punct	_	_
 13	die	der	PRON	PRELS	_	20	nsubj	_	_
-14	uns	uns	PRON	PPER	_	20	iobj	_	_
+14	uns	uns	PRON	PPER	Case=Dat	20	iobj	_	_
 15	ein	ein	DET	ART	_	16	det	_	_
 16	Licht	Licht	NOUN	NN	_	20	obj	_	_
 17	oder	oder	CCONJ	KON	_	19	cc	_	_
@@ -22849,7 +22849,7 @@
 12	,	--	PUNCT	$,	_	18	punct	_	_
 13	sondern	sondern	CCONJ	KON	_	18	cc	_	_
 14	müssen	müssen	AUX	VMFIN	_	18	aux	_	_
-15	einem	ein	PRON	PIS	_	18	iobj	_	_
+15	einem	ein	PRON	PIS	Case=Dat	18	iobj	_	_
 16	von	von	ADP	APPR	_	17	case	_	_
 17	selbst	selbst	ADV	ADV	_	18	advmod	_	_
 18	kommen	kommen	VERB	VVINF	_	34	ccomp	_	SpaceAfter=No
@@ -23940,7 +23940,7 @@
 6	des	der	DET	ART	_	7	det	_	_
 7	Unendlichen	unendliche	NOUN	NN	_	5	nmod	_	_
 8	fehlts	fehlt	VERB	VVFIN	_	0	root	_	_
-9	ihnen	ihnen	PRON	PPER	_	8	iobj	_	_
+9	ihnen	ihnen	PRON	PPER	Case=Dat	8	iobj	_	_
 10	gar	gar	ADV	ADV	_	11	advmod	_	_
 11	nicht	nicht	PART	PTKNEG	_	8	advmod	_	SpaceAfter=No
 12	;	--	PUNCT	$.	_	8	punct	_	_
@@ -23982,7 +23982,7 @@
 18	oder	oder	CCONJ	KON	_	22	cc	_	_
 19	daß	daß	SCONJ	KOUS	_	22	mark	_	_
 20	man	man	PRON	PIS	_	22	nsubj	_	_
-21	ihr	ihr	PRON	PPER	_	22	iobj	_	_
+21	ihr	ihr	PRON	PPER	Case=Dat	22	iobj	_	_
 22	zeigt	zeigen	VERB	VVFIN	_	5	conj	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	22	punct	_	_
 24	sie	sie	PRON	PPER	_	25	nsubj	_	_
@@ -23991,7 +23991,7 @@
 27	selbst	selbst	ADV	ADV	_	26	fixed	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	25	punct	_	_
 29	kann	können	AUX	VMFIN	_	32	aux	_	_
-30	ihr	ihr	PRON	PPER	_	32	iobj	_	_
+30	ihr	ihr	PRON	PPER	Case=Dat	32	iobj	_	_
 31	wenig	wenig	PRON	PIS	_	32	obj	_	_
 32	schaden	schaden	VERB	VVINF	_	25	xcomp	_	SpaceAfter=No
 33	.	--	PUNCT	$.	_	25	punct	_	_
@@ -25070,7 +25070,7 @@
 22	;	--	PUNCT	$.	_	9	punct	_	_
 23	indem	indem	SCONJ	KOUS	_	39	mark	_	_
 24	sie	sie	PRON	PPER	_	39	nsubj	_	_
-25	jedem	jeder	PRON	PIS	_	39	iobj	_	SpaceAfter=No
+25	jedem	jeder	PRON	PIS	Case=Dat	39	iobj	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	29	punct	_	_
 27	was	was	PRON	PRELS	_	29	nsubj	_	_
 28	ein	ein	DET	ART	_	29	det	_	_
@@ -25087,7 +25087,7 @@
 39	organisiert	organisieren	VERB	VVPP	_	9	advcl	_	SpaceAfter=No
 40	,	--	PUNCT	$,	_	39	punct	_	_
 41	wodurch	wodurch	ADV	PAV	_	50	advmod	_	_
-42	ihr	ihr	PRON	PPER	_	50	iobj	_	_
+42	ihr	ihr	PRON	PPER	Case=Dat	50	iobj	_	_
 43	die	der	DET	ART	_	44	det	_	_
 44	Aussicht	Aussicht	NOUN	NN	_	50	nsubj:pass	_	_
 45	auf	auf	ADP	APPR	_	49	case	_	_
@@ -26246,7 +26246,7 @@
 2	alles	alle	PRON	PIS	_	8	obj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	6	punct	_	_
 4	was	was	PRON	PRELS	_	6	nsubj	_	_
-5	jenem	jener	PRON	PDS	_	6	iobj	_	_
+5	jenem	jener	PRON	PDS	Case=Dat	6	iobj	_	_
 6	fehlt	fehlen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	hat	haben	AUX	VAFIN	_	0	root	_	_
@@ -26594,7 +26594,7 @@
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	Geister	Geist	NOUN	NN	_	2	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	17	punct	_	_
-5	denen	der	PRON	PRELS	_	17	iobj	_	_
+5	denen	der	PRON	PRELS	Case=Dat	17	iobj	_	_
 6	es	es	PRON	PPER	_	17	obj	_	_
 7	bei	bei	ADP	APPR	_	9	case	_	_
 8	großer	groß	ADJ	ADJA	_	9	amod	_	_
@@ -27777,7 +27777,7 @@
 10	,	--	PUNCT	$,	_	7	punct	_	_
 11	kommt	kommen	VERB	VVFIN	_	14	advcl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	11	punct	_	_
-13	dem	der	PRON	PDS	_	14	iobj	_	_
+13	dem	der	PRON	PDS	Case=Dat	14	iobj	_	_
 14	erscheint	erscheinen	VERB	VVFIN	_	0	root	_	_
 15	die	der	DET	ART	_	17	det	_	_
 16	romantische	romantisch	ADJ	ADJA	_	17	amod	_	_
@@ -28388,7 +28388,7 @@
 3	er	er	PRON	PPER	_	2	nsubj	_	_
 4	noch	noch	ADV	ADV	_	2	advmod	_	_
 5	eine	ein	DET	ART	_	9	det	_	_
-6	ihm	ihm	PRON	PPER	_	7	iobj	_	_
+6	ihm	ihm	PRON	PPER	Case=Dat	7	iobj	_	_
 7	besonders	besonders	ADV	ADV	_	9	acl	_	_
 8	eigne	eign	ADJ	ADJA	_	9	amod	_	_
 9	Art	Art	NOUN	NN	_	2	obj	_	SpaceAfter=No
@@ -28631,7 +28631,7 @@
 22	Geist	Geist	NOUN	NN	_	26	nsubj	_	_
 23	sein	sein	DET	PPOSAT	_	24	det:poss	_	_
 24	Gesetz	Gesetz	NOUN	NN	_	26	obj	_	_
-25	allem	alle	PRON	PIS	_	26	iobj	_	_
+25	allem	alle	PRON	PIS	Case=Dat	26	iobj	_	_
 26	aufprägt	aufprägt	VERB	VVFIN	_	18	ccomp	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	26	punct	_	_
 28	und	und	CCONJ	KON	_	33	cc	_	_
@@ -28697,7 +28697,7 @@
 18	hineinwärts	hineinwärts	ADV	ADV	_	15	advmod	_	_
 19	ließ	lassen	VERB	VVFIN	_	2	parataxis	_	_
 20	er	er	PRON	PPER	_	19	nsubj	_	_
-21	ihr	ihr	PRON	PPER	_	19	iobj	_	SpaceAfter=No
+21	ihr	ihr	PRON	PPER	Case=Dat	19	iobj	_	SpaceAfter=No
 22	.	--	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -29078,7 +29078,7 @@
 13	Kommentar	Kommentar	NOUN	NN	_	14	nmod	_	_
 14	hinzugefügte	hinzugefügt	ADJ	ADJA	_	15	amod	_	_
 15	Wort	Wort	NOUN	NN	_	19	obj	_	_
-16	ihnen	ihnen	PRON	PPER	_	19	iobj	_	_
+16	ihnen	ihnen	PRON	PPER	Case=Dat	19	iobj	_	_
 17	das	der	DET	ART	_	18	det	_	_
 18	Pikante	pikante	NOUN	NN	_	19	obj	_	_
 19	nehmen	nehmen	VERB	VVINF	_	2	advcl	_	_
@@ -29882,7 +29882,7 @@
 11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	lächeln	lächeln	VERB	VVINF	_	5	ccomp	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	21	punct	_	_
-14	dem	der	PRON	PRELS	_	21	iobj	_	_
+14	dem	der	PRON	PRELS	Case=Dat	21	iobj	_	_
 15	man	man	PRON	PIS	_	21	nsubj	_	_
 16	ein	ein	DET	ART	_	17	det	_	_
 17	Stück	Stück	NOUN	NN	_	21	nsubj:pass	_	_
@@ -30476,7 +30476,7 @@
 # text = Es fehlte ihm an Gegenständen, diesen Sinn zu üben: denn die neuere Kunst war damals in ihrer Kindheit, die alte lag noch im Grabe.
 1	Es	es	PRON	PPER	_	2	nsubj	_	_
 2	fehlte	fehlen	VERB	VVFIN	_	0	root	_	_
-3	ihm	ihm	PRON	PPER	_	2	iobj	_	_
+3	ihm	ihm	PRON	PPER	Case=Dat	2	iobj	_	_
 4	an	an	ADP	APPR	_	5	case	_	_
 5	Gegenständen	Gegenstand	NOUN	NN	_	2	obl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	2	punct	_	_
@@ -31108,7 +31108,7 @@
 23	herlaufen	herlaufen	VERB	VVINF	_	15	xcomp	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	23	punct	_	_
 25	um	um	SCONJ	KOUI	_	26	mark	_	_
-26	ihm	ihm	PRON	PPER	_	44	iobj	_	SpaceAfter=No
+26	ihm	ihm	PRON	PPER	Case=Dat	44	iobj	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	32	punct	_	_
 28	so	so	ADV	ADV	_	29	advmod	_	_
 29	bald	bald	ADV	ADV	_	32	advmod	_	_
@@ -31231,7 +31231,7 @@
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	weil	weil	SCONJ	KOUS	_	26	mark	_	_
 22	man	man	PRON	PIS	_	26	nsubj	_	_
-23	ihm	ihm	PRON	PPER	_	26	iobj	_	_
+23	ihm	ihm	PRON	PPER	Case=Dat	26	iobj	_	_
 24	nicht	nicht	PART	PTKNEG	_	26	advmod	_	_
 25	drein	drein	ADV	PROAV	_	26	advmod	_	_
 26	reden	reden	VERB	VVINF	_	5	advcl	_	_
@@ -31349,7 +31349,7 @@
 # text = Korrektheit gilt ihnen für Tugend.
 1	Korrektheit	Korrektheit	NOUN	NN	_	2	nsubj	_	_
 2	gilt	gelten	VERB	VVFIN	_	0	root	_	_
-3	ihnen	ihnen	PRON	PPER	_	2	iobj	_	_
+3	ihnen	ihnen	PRON	PPER	Case=Dat	2	iobj	_	_
 4	für	für	ADP	APPR	_	5	case	_	_
 5	Tugend	Tugend	NOUN	NN	_	2	obl	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	2	punct	_	_
@@ -31366,7 +31366,7 @@
 5	;	--	PUNCT	$.	_	4	punct	_	_
 6	ein	ein	DET	ART	_	7	det	_	_
 7	Götze	Götze	NOUN	NN	_	4	parataxis	_	_
-8	dem	der	PRON	PRELS	_	13	iobj	_	_
+8	dem	der	PRON	PRELS	Case=Dat	13	iobj	_	_
 9	man	man	PRON	PIS	_	13	nsubj	_	_
 10	nur	nur	ADV	ADV	_	13	advmod	_	_
 11	ohne	ohne	ADP	APPR	_	12	case	_	_
@@ -31914,7 +31914,7 @@
 5	Anstoß	Anstoß	NOUN	NN	_	6	obj	_	_
 6	nimmt	nehmen	VERB	VVFIN	_	36	csubj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
-8	wem	wem	PRON	PWS	_	12	iobj	_	_
+8	wem	wem	PRON	PWS	Case=Dat	12	iobj	_	_
 9	keine	kein	DET	PIAT	_	10	advmod	_	_
 10	Revolution	Revolution	NOUN	NN	_	12	nsubj	_	_
 11	wichtig	wichtig	ADJ	ADJD	_	12	xcomp	_	_
@@ -32218,7 +32218,7 @@
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	hätten	haben	AUX	VAFIN	_	12	aux	_	_
 8	es	es	PRON	PPER	_	12	obj	_	_
-9	ihm	ihm	PRON	PPER	_	12	iobj	_	_
+9	ihm	ihm	PRON	PPER	Case=Dat	12	iobj	_	_
 10	eben	eben	ADV	ADV	_	12	advmod	_	_
 11	auch	auch	ADV	ADV	_	12	advmod	_	_
 12	getan	tun	VERB	VVPP	_	5	ccomp	_	SpaceAfter=No
@@ -32440,7 +32440,7 @@
 18	Quintaner	Quintaner	NOUN	NN	_	16	nmod	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	22	punct	_	_
 20	und	und	CCONJ	KON	_	22	cc	_	_
-21	uns	uns	PRON	PPER	_	22	iobj	_	_
+21	uns	uns	PRON	PPER	Case=Dat	22	iobj	_	_
 22	einbilden	einbilden	VERB	VVINF	_	16	conj	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	22	punct	_	_
 24	wir	wir	PRON	PPER	_	27	nsubj	_	_
@@ -32550,7 +32550,7 @@
 1	Der	der	DET	ART	_	2	det	_	_
 2	Christianismus	Christianismus	NOUN	NN	_	3	nsubj	_	_
 3	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-4	mir	sich	PRON	PPER	_	3	iobj	_	_
+4	mir	sich	PRON	PPER	Case=Dat	3	iobj	_	_
 5	ein	ein	DET	ART	_	6	det	_	_
 6	Faktum	Faktum	NOUN	NN	_	3	xcomp	_	_
 7	zu	zu	PART	PTKZU	_	6	mark	_	_
@@ -33525,7 +33525,7 @@
 3	vollkommnen	vollkommnen	ADJ	ADJA	_	4	amod	_	_
 4	Christen	Christ	NOUN	NN	_	22	nmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
-6	dem	der	PRON	PRELS	_	16	iobj	_	_
+6	dem	der	PRON	PRELS	Case=Dat	16	iobj	_	_
 7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	16	obj	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
 9	dieser	dieser	DET	PDAT	_	10	det	_	_
@@ -35103,7 +35103,7 @@
 15	doch	doch	ADV	ADV	_	16	advmod	_	_
 16	wird	werden	AUX	VAFIN	_	8	parataxis	_	_
 17	es	es	PRON	PPER	_	16	nsubj	_	_
-18	ihm	ihm	PRON	PPER	_	16	iobj	_	_
+18	ihm	ihm	PRON	PPER	Case=Dat	16	iobj	_	_
 19	erst	erst	ADV	ADV	_	16	advmod	_	_
 20	durch	durch	ADP	APPR	_	21	case	_	_
 21	sie	sie	PRON	PPER	_	16	obl	_	_
@@ -35831,7 +35831,7 @@
 1	Ein	ein	DET	ART	_	2	det	_	_
 2	Talent	Talent	NOUN	NN	_	0	root	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	2	punct	_	_
-4	dem	der	PRON	PRELS	_	11	iobj	_	_
+4	dem	der	PRON	PRELS	Case=Dat	11	iobj	_	_
 5	eine	ein	DET	ART	_	8	det	_	_
 6	ebenso	ebenso	ADV	ADV	_	7	advmod	_	_
 7	große	groß	ADJ	ADJA	_	8	amod	_	_
@@ -37178,7 +37178,7 @@
 5	dieses	dieser	DET	PDAT	_	6	det	_	_
 6	Leben	Leben	NOUN	NN	_	3	nmod	_	_
 7	erwartet	erwarten	VERB	VVFIN	_	0	root	_	_
-8	uns	uns	PRON	PPER	_	7	iobj	_	SpaceAfter=No
+8	uns	uns	PRON	PPER	Case=Dat	7	iobj	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	7	punct	_	_
 
 # genre = fragments
@@ -37189,7 +37189,7 @@
 1	Dort	dort	ADV	ADV	_	8	advmod	_	_
 2	wird	werden	AUX	VAFIN	_	8	aux	_	_
 3	es	es	PRON	PPER	_	8	nsubj	_	_
-4	uns	uns	PRON	PPER	_	8	iobj	_	_
+4	uns	uns	PRON	PPER	Case=Dat	8	iobj	_	_
 5	erst	erst	ADV	ADV	_	8	advmod	_	_
 6	recht	recht	ADV	ADV	_	7	advmod	_	_
 7	bedeutend	bedeutend	ADJ	ADJD	_	8	xcomp	_	_
@@ -38105,7 +38105,7 @@
 6	Philosophen	Philosoph	NOUN	NN	_	17	nsubj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	8	punct	_	_
 8	dünkt	dünken	VERB	VVFIN	_	17	parataxis	_	_
-9	mich	mich	PRON	PPER	_	8	iobj	_	_
+9	mich	mich	PRON	PPER	Case=Dat	8	iobj	_	_
 10	den	der	DET	ART	_	11	det	_	_
 11	Dichtern	Dichter	NOUN	NN	_	17	iobj	_	_
 12	den	der	DET	ART	_	13	det	_	_
@@ -38317,7 +38317,7 @@
 4	,	--	PUNCT	$,	_	2	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
 6	man	man	PRON	PIS	_	10	nsubj	_	_
-7	ihnen	ihnen	PRON	PPER	_	10	iobj	_	_
+7	ihnen	ihnen	PRON	PPER	Case=Dat	10	iobj	_	_
 8	aufs	auf	ADP	APPRART	_	9	case	_	_
 9	Wort	Wort	NOUN	NN	_	10	obl	_	_
 10	glaubt	glauben	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
@@ -38593,7 +38593,7 @@
 # text = Dagegen scheint mir seine Polemik, besonders aber seine literarische Kritik der Philosophie eine falsche Tendenz zu sein; und seine Anlage zur Universalität ist wohl noch nicht gebildet genug, um in der Philosophie der Physik das finden zu können, was sie da sucht.
 1	Dagegen	dagegen	ADV	ADV	_	2	advmod	_	_
 2	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-3	mir	sich	PRON	PPER	_	2	iobj	_	_
+3	mir	sich	PRON	PPER	Case=Dat	2	iobj	_	_
 4	seine	sein	DET	PPOSAT	_	5	det:poss	_	_
 5	Polemik	Polemik	NOUN	NN	_	2	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	11	punct	_	_
@@ -39083,7 +39083,7 @@
 12	,	--	PUNCT	$,	_	18	punct	_	_
 13	es	es	PRON	PPER	_	18	expl	_	_
 14	müßte	müssen	AUX	VMFIN	_	18	aux	_	_
-15	uns	uns	PRON	PPER	_	18	iobj	_	_
+15	uns	uns	PRON	PPER	Case=Dat	18	iobj	_	_
 16	denn	denn	CCONJ	KON	_	18	advmod	_	_
 17	jemand	jemand	PRON	PIS	_	18	nsubj	_	_
 18	belehren	belehren	VERB	VVINF	_	2	parataxis	_	SpaceAfter=No
@@ -40254,7 +40254,7 @@
 31	sondern	sondern	CCONJ	KON	_	35	cc	_	_
 32	weil	weil	SCONJ	KOUS	_	35	mark	_	_
 33	es	es	PRON	PPER	_	35	nsubj	_	_
-34	ihr	ihr	PRON	PPER	_	35	iobj	_	_
+34	ihr	ihr	PRON	PPER	Case=Dat	35	iobj	_	_
 35	einziges	einzig	ADJ	ADJD	_	29	conj	_	_
 36	ist	sein	AUX	VAFIN	_	35	cop	_	SpaceAfter=No
 37	,	--	PUNCT	$,	_	41	punct	_	_
@@ -40864,7 +40864,7 @@
 24	denken	denken	VERB	VVINF	_	18	xcomp	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	31	punct	_	_
 26	und	und	CCONJ	KON	_	31	cc	_	_
-27	dem	der	PRON	PDS	_	31	iobj	_	_
+27	dem	der	PRON	PDS	Case=Dat	31	iobj	_	_
 28	es	es	PRON	PPER	_	31	expl	_	_
 29	sehr	sehr	ADV	ADV	_	30	advmod	_	_
 30	überflüssig	überflüssig	ADJ	ADJD	_	31	advmod	_	_
@@ -41291,7 +41291,7 @@
 7	,	--	PUNCT	$,	_	11	punct	_	_
 8	und	und	CCONJ	KON	_	11	cc	_	_
 9	was	was	PRON	PWS	_	11	nsubj	_	_
-10	dem	der	PRON	PDS	_	11	iobj	_	_
+10	dem	der	PRON	PDS	Case=Dat	11	iobj	_	_
 11	anhängt	anhängen	VERB	VVFIN	_	6	conj	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	11	punct	_	_
 13	Offenbarungen	Offenbarung	NOUN	NN	_	11	parataxis	_	SpaceAfter=No
@@ -41510,7 +41510,7 @@
 8	,	--	PUNCT	$,	_	10	punct	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	macht	machen	VERB	VVFIN	_	1	conj	_	_
-11	ihnen	ihnen	PRON	PPER	_	10	iobj	_	_
+11	ihnen	ihnen	PRON	PPER	Case=Dat	10	iobj	_	_
 12	vor	vor	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	17	punct	_	_
 14	was	was	PRON	PWS	_	17	obj	_	_
@@ -41645,7 +41645,7 @@
 18	wüßte	wissen	VERB	VVFIN	_	25	csubj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	18	punct	_	_
 20	würde	werden	AUX	VAFIN	_	25	aux	_	_
-21	uns	uns	PRON	PPER	_	25	iobj	_	_
+21	uns	uns	PRON	PPER	Case=Dat	25	iobj	_	_
 22	eine	ein	DET	ART	_	24	det	_	_
 23	neue	neu	ADJ	ADJA	_	24	amod	_	_
 24	Welt	Welt	NOUN	NN	_	25	obj	_	_
@@ -42256,7 +42256,7 @@
 8	aus	aus	ADP	APPR	_	9	case	_	_
 9	dem	der	PRON	PRELS	_	14	obl	_	_
 10	grade	grade	ADV	ADV	_	14	advmod	_	_
-11	ihr	ihr	PRON	PPER	_	14	iobj	_	_
+11	ihr	ihr	PRON	PPER	Case=Dat	14	iobj	_	_
 12	das	der	DET	ART	_	13	det	_	_
 13	Ganze	ganze	NOUN	NN	_	14	obj	_	_
 14	übersehn	übersehn	VERB	VVINF	_	5	acl	_	_
@@ -43114,7 +43114,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f336-s28
 # text = Ihnen muß man erlauben, auch mit dem was andren nur lose anzuhängen pflegt zurückhaltender zu sein, bis vollendete Kenntnis ihrer selbst und der andern ihnen den sichern Takt gibt, die Sache, worauf es den Leuten allein ankommt von ihrer individuellen Ansicht durchaus zu trennen und zu jedem Stoff, die ihnen fremde, jenen aber so erwünschte gemeine Form zu finden.
-1	Ihnen	ihnen	PRON	PPER	_	4	iobj	_	_
+1	Ihnen	ihnen	PRON	PPER	Case=Dat	4	iobj	_	_
 2	muß	müssen	AUX	VMFIN	_	4	aux	_	_
 3	man	man	PRON	PIS	_	4	nsubj	_	_
 4	erlauben	erlauben	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -43168,7 +43168,7 @@
 52	Stoff	Stoff	NOUN	NN	_	58	obl	_	SpaceAfter=No
 53	,	--	PUNCT	$,	_	52	punct	_	_
 54	die	der	PRON	PRELS	_	56	nsubj	_	_
-55	ihnen	ihnen	PRON	PPER	_	56	iobj	_	_
+55	ihnen	ihnen	PRON	PPER	Case=Dat	56	iobj	_	_
 56	fremde	fremd	VERB	VVFIN	_	52	acl	_	SpaceAfter=No
 57	,	--	PUNCT	$,	_	56	punct	_	_
 58	jenen	jener	VERB	VVFIN	_	13	conj	_	_
@@ -43218,7 +43218,7 @@
 30	versagen	versagen	VERB	VVINF	_	24	advcl	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	37	punct	_	_
 32	was	was	PRON	PWS	_	37	obj	_	_
-33	ihm	ihm	PRON	PPER	_	37	iobj	_	_
+33	ihm	ihm	PRON	PPER	Case=Dat	37	iobj	_	_
 34	auch	auch	ADV	ADV	_	37	advmod	_	_
 35	nur	nur	ADV	ADV	_	36	advmod	_	_
 36	entfernt	entfernt	ADV	ADV	_	37	advmod	_	_
@@ -43247,7 +43247,7 @@
 15	Maß	Maß	NOUN	NN	_	10	obl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
 17	welches	welcher	PRON	PRELS	_	19	nsubj	_	_
-18	ihm	ihm	PRON	PPER	_	19	iobj	_	_
+18	ihm	ihm	PRON	PPER	Case=Dat	19	iobj	_	_
 19	zukommt	zukommen	VERB	VVFIN	_	15	acl	_	SpaceAfter=No
 20	.	--	PUNCT	$.	_	10	punct	_	_
 
@@ -43272,12 +43272,12 @@
 14	der	der	PRON	PDS	_	30	nsubj	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
 16	der	der	PRON	PRELS	_	18	nsubj	_	_
-17	ihm	ihm	PRON	PPER	_	18	iobj	_	_
+17	ihm	ihm	PRON	PPER	Case=Dat	18	iobj	_	_
 18	gleich	gleich	ADV	ADV	_	14	advmod	_	_
 19	wäre	sein	AUX	VAFIN	_	18	cop	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	25	punct	_	_
 21	oder	oder	CCONJ	KON	_	25	cc	_	_
-22	dem	der	PRON	PRELS	_	25	iobj	_	_
+22	dem	der	PRON	PRELS	Case=Dat	25	iobj	_	_
 23	er	er	PRON	PPER	_	25	nsubj	_	_
 24	es	es	PRON	PPER	_	25	expl	_	_
 25	gäbe	geben	VERB	VVFIN	_	18	conj	_	SpaceAfter=No
@@ -43401,7 +43401,7 @@
 16	allem	alle	PRON	PIS	_	14	obl	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	20	punct	_	_
 18	was	was	PRON	PRELS	_	20	obj	_	_
-19	ihm	ihm	PRON	PPER	_	20	iobj	_	_
+19	ihm	ihm	PRON	PPER	Case=Dat	20	iobj	_	_
 20	angehört	angehören	VERB	VVFIN	_	16	acl	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	20	punct	_	_
 22	seinen	sein	DET	PPOSAT	_	23	det:poss	_	_
@@ -44110,7 +44110,7 @@
 1	Auch	auch	ADV	ADV	_	3	advmod	_	_
 2	Jacobi	Jacobi	PROPN	NE	_	3	nsubj	_	_
 3	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-4	mir	sich	PRON	PPER	_	3	iobj	_	_
+4	mir	sich	PRON	PPER	Case=Dat	3	iobj	_	_
 5	zwar	zwar	ADV	ADV	_	3	advmod	_	_
 6	nie	nie	ADV	ADV	_	8	advmod	_	_
 7	ruhig	ruhig	ADJ	ADJD	_	8	xcomp	_	_
@@ -44452,7 +44452,7 @@
 14	können	können	AUX	VMINF	_	13	aux	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	20	punct	_	_
 16	ohne	ohne	SCONJ	KOUI	_	20	mark	_	_
-17	ihm	ihm	PRON	PPER	_	20	iobj	_	_
+17	ihm	ihm	PRON	PPER	Case=Dat	20	iobj	_	_
 18	Schmerzen	Schmerz	NOUN	NN	_	20	obj	_	_
 19	zu	zu	PART	PTKZU	_	20	mark	_	_
 20	machen	machen	VERB	VVINF	_	13	xcomp	_	SpaceAfter=No
@@ -44465,7 +44465,7 @@
 # text = Ihr braucht beide keinen weitern Beweis zu führen, daß ihr gebildete Menschen seid.
 1	Ihr	ihr	PRON	PPER	_	2	nsubj	_	_
 2	braucht	brauchen	VERB	VVFIN	_	0	root	_	_
-3	beide	beide	PRON	PIS	_	8	iobj	_	_
+3	beide	beide	PRON	PIS	Case=Dat	8	iobj	_	_
 4	keinen	kein	DET	PIS	_	6	det	_	_
 5	weitern	weitern	VERB	VVINF	_	6	amod	_	_
 6	Beweis	Beweis	NOUN	NN	_	8	obj	_	_
@@ -44604,7 +44604,7 @@
 12	so	so	ADV	ADV	_	13	advmod	_	_
 13	fehlt	fehlen	VERB	VVFIN	_	0	root	_	_
 14	es	es	PRON	PPER	_	13	nsubj	_	_
-15	ihnen	ihnen	PRON	PPER	_	13	iobj	_	_
+15	ihnen	ihnen	PRON	PPER	Case=Dat	13	iobj	_	_
 16	doch	doch	ADV	ADV	_	13	advmod	_	_
 17	an	an	ADP	APPR	_	19	case	_	_
 18	der	der	DET	ART	_	19	det	_	_
@@ -45738,7 +45738,7 @@
 41	als	als	CCONJ	KOKOM	_	43	case	_	_
 42	leidenschaftliche	leidenschaftlich	ADJ	ADJA	_	43	amod	_	_
 43	Verblendung	Verblendung	NOUN	NN	_	49	obl	_	_
-44	jemanden	jemand	PRON	PIS	_	49	iobj	_	_
+44	jemanden	jemand	PRON	PIS	Case=Dat	49	iobj	_	_
 45	darin	darin	ADV	PROAV	_	49	advmod	_	_
 46	kann	können	AUX	VMFIN	_	49	aux	_	_
 47	fehl	fehl	ADV	ADV	_	49	advmod	_	_
@@ -45966,7 +45966,7 @@
 27	und	und	CCONJ	KON	_	32	cc	_	_
 28	daß	daß	SCONJ	KOUS	_	32	mark	_	_
 29	er	er	PRON	PPER	_	32	nsubj:pass	_	_
-30	uns	uns	PRON	PPER	_	32	iobj	_	_
+30	uns	uns	PRON	PPER	Case=Dat	32	iobj	_	_
 31	verhaßt	verhassen	ADJ	ADJD	_	32	xcomp	_	_
 32	wird	werden	AUX	VAFIN	_	25	conj	_	SpaceAfter=No
 33	,	--	PUNCT	$,	_	38	punct	_	_
@@ -46043,7 +46043,7 @@
 25	,	--	PUNCT	$,	_	58	punct	_	_
 26	daß	daß	SCONJ	KOUS	_	58	mark	_	_
 27	er	er	PRON	PPER	_	58	nsubj	_	_
-28	uns	uns	PRON	PPER	_	58	iobj	_	_
+28	uns	uns	PRON	PPER	Case=Dat	58	iobj	_	_
 29	durch	durch	ADP	APPR	_	32	case	_	_
 30	das	der	DET	ART	_	32	det	_	_
 31	freie	frei	ADJ	ADJA	_	32	amod	_	_
@@ -46141,7 +46141,7 @@
 18	anstaunen	anstaunen	VERB	VVINF	_	13	conj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	26	punct	_	_
 20	die	der	PRON	PRELS	_	26	nsubj	_	_
-21	uns	uns	PRON	PPER	_	26	iobj	_	_
+21	uns	uns	PRON	PPER	Case=Dat	26	iobj	_	_
 22	nur	nur	ADV	ADV	_	26	advmod	_	_
 23	darum	darum	ADV	PROAV	_	26	advmod	_	_
 24	als	als	CCONJ	KOKOM	_	26	case	_	_
@@ -46260,7 +46260,7 @@
 5	Geliebten	geliebter	NOUN	NN	_	6	obj	_	_
 6	haben	haben	AUX	VAFIN	_	0	root	_	_
 7	neben	neben	ADP	APPR	_	8	case	_	_
-8	ihm	ihm	PRON	PPER	_	6	iobj	_	SpaceAfter=No
+8	ihm	ihm	PRON	PPER	Case=Dat	6	iobj	_	SpaceAfter=No
 9	:	--	PUNCT	$.	_	13	punct	_	_
 10	aber	aber	ADV	ADV	_	13	advmod	_	_
 11	du	du	PRON	PPER	_	13	nsubj	_	_
@@ -46470,7 +46470,7 @@
 11	auf	auf	ADP	APPR	_	12	case	_	_
 12	daß	daß	PRON	PRELS	_	15	obl	_	_
 13	es	es	PRON	PPER	_	15	nsubj	_	_
-14	ihnen	ihnen	PRON	PPER	_	15	iobj	_	_
+14	ihnen	ihnen	PRON	PPER	Case=Dat	15	iobj	_	_
 15	wohlgehe	wohlgehen	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	20	punct	_	_
 17	und	und	CCONJ	KON	_	20	cc	_	_
@@ -47253,7 +47253,7 @@
 18	selbst	selbst	ADV	ADV	_	17	advmod	_	SpaceAfter=No
 19	;	--	PUNCT	$.	_	24	punct	_	_
 20	ist	sein	AUX	VAFIN	_	24	cop	_	_
-21	dir	dir	PRON	PPER	_	24	iobj	_	_
+21	dir	dir	PRON	PPER	Case=Dat	24	iobj	_	_
 22	das	der	DET	ART	_	23	det	_	_
 23	Weinen	weinen	NOUN	NN	_	24	nsubj	_	_
 24	näher	nah	ADJ	ADJD	_	1	parataxis	_	_
@@ -47502,7 +47502,7 @@
 29	die	der	DET	ART	_	30	det	_	_
 30	Rechtlichkeit	Rechtlichkeit	NOUN	NN	_	27	conj	_	_
 31	mißgönnen	mißgönnen	VERB	VVFIN	_	24	parataxis	_	_
-32	ihr	ihr	PRON	PPER	_	31	iobj	_	_
+32	ihr	ihr	PRON	PPER	Case=Dat	31	iobj	_	_
 33	sogar	sogar	ADV	ADV	_	31	advmod	_	_
 34	die	der	DET	ART	_	35	det	_	_
 35	Existenz	Existenz	NOUN	NN	_	31	obj	_	SpaceAfter=No
@@ -51255,7 +51255,7 @@
 26	kann	können	AUX	VMFIN	_	18	aux	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	18	punct	_	_
 28	dient	dienen	VERB	VVFIN	_	0	root	_	_
-29	ihnen	ihnen	PRON	PPER	_	28	iobj	_	_
+29	ihnen	ihnen	PRON	PPER	Case=Dat	28	iobj	_	_
 30	oft	oft	ADV	ADV	_	28	advmod	_	_
 31	als	als	ADP	APPR	_	32	case	_	_
 32	Symbol	Symbol	NOUN	NN	_	28	obl	_	_
@@ -51414,7 +51414,7 @@
 40	ist	sein	AUX	VAFIN	_	39	cop	_	SpaceAfter=No
 41	,	--	PUNCT	$,	_	39	punct	_	_
 42	hätte	haben	AUX	VAFIN	_	46	aux	_	_
-43	ihm	ihm	PRON	PPER	_	46	iobj	_	_
+43	ihm	ihm	PRON	PPER	Case=Dat	46	iobj	_	_
 44	wohl	wohl	ADV	ADV	_	46	advmod	_	_
 45	nicht	nicht	PART	PTKNEG	_	46	advmod	_	_
 46	geschadet	schaden	VERB	VVPP	_	3	advcl	_	SpaceAfter=No
@@ -52334,7 +52334,7 @@
 41	nennt	nennen	VERB	VVFIN	_	19	conj	_	SpaceAfter=No
 42	,	--	PUNCT	$,	_	76	punct	_	_
 43	und	und	CCONJ	KON	_	76	cc	_	_
-44	dem	der	PRON	PRELS	_	76	iobj	_	_
+44	dem	der	PRON	PRELS	Case=Dat	76	iobj	_	_
 45	man	man	PRON	PIS	_	76	nsubj	_	_
 46	doch	doch	ADV	ADV	_	76	advmod	_	_
 47	schon	schon	ADV	ADV	_	76	advmod	_	_
