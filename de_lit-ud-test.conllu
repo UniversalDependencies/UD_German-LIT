@@ -2421,7 +2421,7 @@
 # text = Geister zeigen sich nur Geistern.
 1	Geister	Geist	NOUN	NN	_	2	nsubj	_	_
 2	zeigen	zeigen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	iobj	_	_
+3	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	2	iobj	_	_
 4	nur	nur	ADV	ADV	_	2	advmod	_	_
 5	Geistern	Geister	NOUN	NN	_	2	obj	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	2	punct	_	_
@@ -3857,7 +3857,7 @@
 29	im	in	ADP	APPRART	_	30	case	_	_
 30	letzten	letzt	PRON	PIS	_	31	obl	_	_
 31	zeigt	zeigen	VERB	VVFIN	_	4	parataxis	_	_
-32	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	31	iobj	_	_
+32	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	31	iobj	_	_
 33	jene	jener	PRON	PDS	_	38	det	_	_
 34	harmonisch	harmonisch	ADV	ADV	_	35	advmod	_	_
 35	ausgebildete	ausgebildet	ADJ	ADJA	_	38	amod	_	_
@@ -24104,7 +24104,7 @@
 8	die	der	PRON	PDS	_	26	nsubj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	18	punct	_	_
 10	welche	welcher	PRON	PRELS	_	18	nsubj	_	_
-11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	iobj	_	_
+11	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	18	iobj	_	_
 12	den	der	DET	ART	_	13	det	_	_
 13	Geist	Geist	NOUN	NN	_	18	obj	_	_
 14	des	der	DET	ART	_	16	det	_	_
@@ -29424,7 +29424,7 @@
 2	zweite	zweiter	ADJ	ADJA	_	3	obl	_	_
 3	haben	haben	AUX	VAFIN	_	0	root	_	_
 4	sie	sie	PRON	PPER	_	9	nsubj	_	_
-5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	iobj	_	_
+5	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	9	iobj	_	_
 6	ihre	ihr	DET	PPOSAT	_	7	det:poss	_	_
 7	Gattungen	Gattung	NOUN	NN	_	9	obj	_	_
 8	selbst	selbst	ADV	ADV	_	9	advmod	_	_
@@ -29674,7 +29674,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f182-s1
 # text = Sich eine Gemäldeausstellung von einem Diderot beschreiben lassen, ist ein wahrhaft kaiserlicher Luxus.
-1	Sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	8	iobj	_	_
+1	Sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	8	iobj	_	_
 2	eine	ein	DET	ART	_	3	det	_	_
 3	Gemäldeausstellung	Gemäldeausstellung	NOUN	NN	_	8	obj	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
@@ -30136,7 +30136,7 @@
 4	:	--	PUNCT	$.	_	2	punct	_	_
 5	es	es	PRON	PPER	_	6	nsubj	_	_
 6	bildet	bilden	VERB	VVFIN	_	2	parataxis	_	_
-7	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	6	iobj	_	_
+7	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	6	iobj	_	_
 8	ein	ein	DET	ART	_	10	det	_	_
 9	genügsamer	genügsam	ADJ	ADJA	_	10	amod	_	_
 10	Sinn	Sinn	NOUN	NN	_	6	obj	_	SpaceAfter=No
@@ -30820,7 +30820,7 @@
 # text = Es zeigt sich auch hierin daß wir Hyperboreer sind.
 1	Es	es	PRON	PPER	_	2	nsubj	_	_
 2	zeigt	zeigen	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	iobj	_	_
+3	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	2	iobj	_	_
 4	auch	auch	ADV	ADV	_	2	advmod	_	_
 5	hierin	hierin	ADV	ADV	_	2	advmod	_	_
 6	daß	dass	SCONJ	KOUS	_	8	mark	_	_
@@ -33865,7 +33865,7 @@
 11	,	--	PUNCT	$,	_	10	punct	_	_
 12	was	was	ADV	PWAV	_	15	obj	_	_
 13	man	man	PRON	PIS	_	15	nsubj	_	_
-14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	iobj	_	_
+14	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	15	iobj	_	_
 15	zueignen	zueignen	VERB	VVINF	_	10	advcl	_	_
 16	möchte	mögen	AUX	VMFIN	_	15	aux	_	SpaceAfter=No
 17	!	--	PUNCT	$.	_	2	punct	_	_
@@ -37362,7 +37362,7 @@
 3	das	der	PRON	PDS	_	1	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	10	punct	_	_
 5	worin	worin	ADV	PWAV	_	10	advmod	_	_
-6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	iobj	_	_
+6	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	10	iobj	_	_
 7	der	der	DET	ART	_	8	det	_	_
 8	Geist	Geist	NOUN	NN	_	10	nsubj	_	_
 9	unaufhörlich	unaufhörlich	ADV	ADV	_	10	advmod	_	_
@@ -37779,7 +37779,7 @@
 52	eine	ein	DET	ART	_	53	det	_	_
 53	Terminiologie	Terminiologie	NOUN	NN	_	31	parataxis	_	_
 54	die	der	DET	ART	_	68	obj	_	_
-55	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	68	iobj	_	_
+55	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	68	iobj	_	_
 56	jedoch	jedoch	ADV	ADV	_	68	advmod	_	_
 57	ein	ein	DET	ART	_	58	det	_	_
 58	Künstler	Künstler	NOUN	NN	_	68	nsubj	_	SpaceAfter=No
@@ -37948,7 +37948,7 @@
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	wenn	wenn	SCONJ	KOUS	_	26	mark	_	_
 22	es	es	PRON	PPER	_	26	nsubj	_	_
-23	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	iobj	_	_
+23	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	26	iobj	_	_
 24	selbst	selbst	ADV	ADV	_	23	fixed	_	_
 25	ganz	ganz	ADV	ADV	_	26	advmod	_	_
 26	treu	treu	ADJ	ADJD	_	10	conj	_	SpaceAfter=No
@@ -44061,7 +44061,7 @@
 7	Anlauf	Anlauf	NOUN	NN	_	2	obj	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	wünschen	wünschen	VERB	VVFIN	_	2	conj	_	_
-10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	iobj	_	_
+10	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	9	iobj	_	_
 11	Glück	Glück	NOUN	NN	_	9	obj	_	_
 12	zu	zu	ADP	APPR	_	15	case	_	_
 13	der	der	DET	ART	_	15	det	_	_
@@ -44734,7 +44734,7 @@
 8	depositum	depositum	NOUN	NN	_	7	flat	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	erwerbe	erwerben	VERB	VVFIN	_	2	conj	_	_
-11	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	iobj	_	_
+11	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	10	iobj	_	_
 12	dadurch	dadurch	ADV	PROAV	_	10	advmod	_	_
 13	ein	ein	DET	ART	_	14	det	_	_
 14	Recht	Recht	NOUN	NN	_	10	obj	_	_
@@ -45697,7 +45697,7 @@
 # text = Man denkt sich unter Klugheit doch etwas Bedeutendes und Wichtiges, und das Talent aus einer Musterkarte von Mitteln die zweckmäßigsten auszuwählen ist etwas so Geringfügiges, daß auch der gemeinste Verstand dazu hinreicht, und daß kaum etwas anders als leidenschaftliche Verblendung jemanden darin kann fehl gehen lassen.
 1	Man	man	PRON	PIS	_	2	nsubj	_	_
 2	denkt	denken	VERB	VVFIN	_	0	root	_	_
-3	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	2	iobj	_	_
+3	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	2	iobj	_	_
 4	unter	unter	ADP	APPR	_	5	case	_	_
 5	Klugheit	Klugheit	NOUN	NN	_	2	obl	_	_
 6	doch	doch	ADV	ADV	_	2	advmod	_	_
@@ -51007,7 +51007,7 @@
 24	Kräfte	Kraft	NOUN	NN	_	18	nmod	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	26	punct	_	_
 26	denkt	denken	VERB	VVFIN	_	14	parataxis	_	_
-27	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	26	iobj	_	_
+27	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	26	iobj	_	_
 28	seine	sein	DET	PPOSAT	_	29	det:poss	_	_
 29	Ideale	Ideal	NOUN	NN	_	26	obj	_	_
 30	wenigstens	wenigstens	ADV	ADV	_	26	advmod	_	_

@@ -32,7 +32,8 @@
     <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="2">
+  <feats unique="3">
+    <feat name="Case" value="Dat" upos="PRON">15</feat><!-- sich -->
     <feat name="PronType" value="Prs" upos="PRON">334</feat><!-- sich -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
@@ -40,7 +41,7 @@
   <deps unique="36">
     <dep name="acl">486</dep>
     <dep name="advcl">499</dep>
-    <dep name="advmod">4127</dep>
+    <dep name="advmod">4126</dep>
     <dep name="amod">2410</dep>
     <dep name="appos">83</dep>
     <dep name="aux">986</dep>
@@ -67,7 +68,7 @@
     <dep name="nsubj:pass">121</dep>
     <dep name="nummod">22</dep>
     <dep name="obj">1583</dep>
-    <dep name="obl">1598</dep>
+    <dep name="obl">1599</dep>
     <dep name="obl:agent">2</dep>
     <dep name="orphan">61</dep>
     <dep name="parataxis">453</dep>
