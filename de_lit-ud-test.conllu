@@ -19121,7 +19121,7 @@
 17	«	«	PUNCT	XY	_	14	punct	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	24	punct	_	_
 19	dem	der	PRON	PRELS	_	20	det	_	_
-20	Malvolio	Malvolio	PROPN	NE	_	24	iobj	_	_
+20	Malvolio	Malvolio	PROPN	NE	Case=Dat	24	iobj	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
 22	den	der	DET	ART	_	23	det	_	_
 23	Weg	Weg	NOUN	NN	_	24	obl	_	_
