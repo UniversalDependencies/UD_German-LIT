@@ -48,6 +48,7 @@ Many thanks to Daniel Zeman, who has promptly solved some fundamental problems c
 
 * 2023-05-15 v2.12
   * Fixed: nominals cannot have obj and iobj children.
+  * Dative arguments are oblique, hence they are obl:arg and not iobj.
 * 2019-10-30
   * Fixed all those errors reported by the validation script in the version 2.4.
 

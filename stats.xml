@@ -60,7 +60,6 @@
     <dep name="expl">160</dep>
     <dep name="fixed">65</dep>
     <dep name="flat">64</dep>
-    <dep name="iobj">196</dep>
     <dep name="mark">954</dep>
     <dep name="nmod">2041</dep>
     <dep name="nmod:poss">78</dep>
@@ -70,6 +69,7 @@
     <dep name="obj">1583</dep>
     <dep name="obl">1599</dep>
     <dep name="obl:agent">2</dep>
+    <dep name="obl:arg">196</dep>
     <dep name="orphan">61</dep>
     <dep name="parataxis">453</dep>
     <dep name="punct">5406</dep>
