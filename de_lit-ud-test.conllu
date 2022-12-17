@@ -6926,7 +6926,7 @@
 39	Satire	Satire	NOUN	NN	Case=Gen	35	nmod	_	_
 40	liberalen	liberal	ADJ	ADJA	_	41	amod	_	_
 41	Ton	Ton	NOUN	NN	Case=Acc	29	conj	_	SpaceAfter=No
-42	,	--	PUNCT	$,	_	35	punct	_	_
+42	,	--	PUNCT	$,	_	14	punct	_	_
 43	hat	haben	AUX	VAFIN	_	0	root	_	_
 44	gar	gar	ADV	ADV	_	45	advmod	_	_
 45	kein	kein	DET	PIAT	_	46	det	_	_
@@ -10074,7 +10074,7 @@
 # text = Eine merkwürdige Eigenheit Goethe's bemerkt man in seinen Verknüpfungen kleiner, unbedeutender Vorfälle mit wichtigern Begebenheiten.
 1	Eine	ein	DET	ART	_	3	det	_	_
 2	merkwürdige	merkwürdig	ADJ	ADJA	_	3	amod	_	_
-3	Eigenheit	Eigenheit	NOUN	NN	Case=Nom	6	nsubj	_	_
+3	Eigenheit	Eigenheit	NOUN	NN	Case=Acc	6	obj	_	_
 4	Goethe	Goethe	PROPN	NE	_	3	nmod:poss	_	SpaceAfter=No
 5	's	es	PRON	PPER	_	4	nmod:poss	_	_
 6	bemerkt	bemerken	VERB	VVFIN	_	0	root	_	_
@@ -11195,7 +11195,7 @@
 1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	lieben	lieben	VERB	VVFIN	_	0	root	_	_
 3	den	der	DET	ART	_	4	det	_	_
-4	Stoff	Stoff	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
+4	Stoff	Stoff	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	in	in	ADP	APPR	_	14	case	_	_
 7	so	so	ADV	ADV	_	8	advmod	_	_
@@ -11941,7 +11941,7 @@
 1	Das	der	DET	ART	_	2	det	_	_
 2	Klassische	klassische	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	stört	stören	VERB	VVFIN	_	0	root	_	_
-4	mich	mich	PRON	PPER	Case=Nom	3	nsubj	_	_
+4	mich	mich	PRON	PPER	Case=Acc	3	obj	_	_
 5	gar	gar	ADV	ADV	_	6	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	_	3	advmod	_	SpaceAfter=No
 7	;	--	PUNCT	$.	_	3	punct	_	_
@@ -12063,9 +12063,9 @@
 22	daß	daß	SCONJ	KOUS	_	28	mark	_	_
 23	ich	ich	PRON	PPER	Case=Nom	28	nsubj	_	_
 24	ein	ein	DET	ART	_	25	det	_	_
-25	Object	Object	NOUN	NN	Case=Nom	28	nsubj	_	_
+25	Object	Object	NOUN	NN	Case=Acc	28	obj	_	_
 26	vor	vor	ADP	APPR	_	27	case	_	_
-27	mir	sich	PRON	PPER	_	28	obl	_	_
+27	mir	sich	PRON	PPER	Case=Dat	28	obl	_	_
 28	sehe	sehen	VERB	VVFIN	_	19	advcl	_	SpaceAfter=No
 29	,	--	PUNCT	$,	_	28	punct	_	_
 30	in	in	ADP	APPR	_	31	case	_	_
@@ -12093,14 +12093,14 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f53-s1
 # text = Formeln für Kunstindividuen finden, durch die sie im eigentlichsten Sinn erst verstanden werden, macht das Geschäft des artistischen Kritikers aus, dessen Arbeiten die Geschichte der Kunst vorbereiten.
-1	Formeln	Formel	NOUN	NN	Case=Nom	17	nsubj	_	_
+1	Formeln	Formel	NOUN	NN	Case=Acc	4	obj	_	_
 2	für	für	ADP	APPR	_	3	case	_	_
 3	Kunstindividuen	Kunstindividue	NOUN	NN	Case=Acc	1	nmod	_	_
-4	finden	finden	VERB	VVFIN	_	3	flat	_	SpaceAfter=No
-5	,	--	PUNCT	$,	_	1	punct	_	_
+4	finden	finden	VERB	VVFIN	_	17	csubj	_	SpaceAfter=No
+5	,	--	PUNCT	$,	_	14	punct	_	_
 6	durch	durch	ADP	APPR	_	7	case	_	_
 7	die	der	PRON	PRELS	Case=Acc	14	obl	_	_
-8	sie	sie	PRON	PPER	Case=Acc	14	obj	_	_
+8	sie	sie	PRON	PPER	Case=Nom	14	nsubj:pass	_	_
 9-10	im	_	_	_	_	_	_	_	_
 9	in	in	ADP	APPR	_	12	case	_	_
 10	dem	der	DET	ART	_	12	det	_	_
@@ -12112,7 +12112,7 @@
 16	,	--	PUNCT	$,	_	14	punct	_	_
 17	macht	machen	VERB	VVFIN	_	0	root	_	_
 18	das	der	DET	ART	_	19	det	_	_
-19	Geschäft	Geschäft	NOUN	NN	Case=Nom	17	nsubj	_	_
+19	Geschäft	Geschäft	NOUN	NN	Case=Acc	17	obj	_	_
 20	des	der	DET	ART	_	22	det	_	_
 21	artistischen	artistisch	ADJ	ADJA	_	22	amod	_	_
 22	Kritikers	Kritiker	NOUN	NN	Case=Gen	19	nmod	_	_
@@ -12390,8 +12390,8 @@
 11	zu	zu	ADP	APPR	_	13	case	_	_
 12	jener	jener	DET	PDAT	_	13	det	_	_
 13	Selbsterleuchtung	Selbsterleuchtung	NOUN	NN	Case=Dat	9	conj	_	SpaceAfter=No
-14	,	--	PUNCT	$,	_	13	punct	_	_
-15	die	der	PRON	PRELS	Case=Nom	20	nsubj	_	_
+14	,	--	PUNCT	$,	_	20	punct	_	_
+15	die	der	PRON	PRELS	Case=Acc	20	obj	_	_
 16	der	der	DET	ART	_	17	det	_	_
 17	Geordnete	Geordnete	NOUN	NN	Case=Nom	20	nsubj	_	_
 18	so	so	ADV	ADV	_	20	advmod	_	_
@@ -12572,7 +12572,7 @@
 1	Einen	ein	DET	ART	_	4	det	_	_
 2	jeden	jeder	DET	PIAT	_	4	amod	_	_
 3	vorzüglichen	vorzüglich	ADJ	ADJA	_	4	amod	_	_
-4	Menschen	Mensch	NOUN	NN	Case=Nom	11	nsubj	_	_
+4	Menschen	Mensch	NOUN	NN	Case=Acc	11	obj	_	_
 5	muß	müssen	AUX	VMFIN	_	11	aux	_	_
 6	gleichsam	gleichsam	ADJ	ADJD	_	11	advmod	_	_
 7	ein	ein	DET	ART	_	8	det	_	_
@@ -12727,13 +12727,13 @@
 1	Es	es	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	geht	gehen	VERB	VVFIN	_	0	root	_	_
 3	ihm	ihm	PRON	PPER	Case=Dat	2	obl:arg	_	SpaceAfter=No
-4	,	--	PUNCT	$,	_	2	punct	_	_
+4	,	--	PUNCT	$,	_	10	punct	_	_
 5	wie	wie	ADV	PWAV	_	10	advmod	_	_
 6	es	es	PRON	PPER	Case=Nom	10	nsubj	_	_
 7	vielen	vieler	DET	PIAT	_	9	det	_	_
 8	dummen	dumm	ADJ	ADJA	_	9	amod	_	_
-9	Kindern	Kind	NOUN	NN	_	10	nmod	_	_
-10	gehn	gehn	NUM	CARD	_	2	nsubj	_	_
+9	Kindern	Kind	NOUN	NN	Case=Dat	10	obl:arg	_	_
+10	gehn	gehen	VERB	VVINF	_	2	advcl	_	_
 11	soll	sollen	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	:	--	PUNCT	$.	_	2	punct	_	_
 13	er	er	PRON	PPER	Case=Nom	15	nsubj	_	_
@@ -13861,7 +13861,7 @@
 # sent_id = bluethenstaub-f73-s5
 # text = Die Meisterschaft im Spiel seiner eignen Rolle verdankt man der Richtung dieses Sinns auf sich selbst bey herrschender Vernunft.
 1	Die	der	DET	ART	_	2	det	_	_
-2	Meisterschaft	Meisterschaft	NOUN	NN	Case=Nom	9	nsubj	_	_
+2	Meisterschaft	Meisterschaft	NOUN	NN	Case=Acc	9	obj	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	_	5	det	_	_
@@ -13970,7 +13970,7 @@
 4	karakteristisch	karakteristisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	16	punct	_	_
 6	und	und	CCONJ	KON	_	16	cc	_	_
-7	es	es	PRON	PPER	Case=Nom	16	nsubj	_	_
+7	es	es	PRON	PPER	Case=Nom	16	expl	_	_
 8	werden	werden	AUX	VAFIN	_	16	aux	_	_
 9	mithin	mithin	ADV	ADV	_	16	advmod	_	_
 10	die	der	DET	ART	_	12	det	_	_
@@ -14171,7 +14171,7 @@
 10	wenn	wenn	SCONJ	KOUS	_	20	mark	_	_
 11	ich	ich	PRON	PPER	Case=Nom	20	nsubj	_	_
 12	diesen	dieser	DET	PDAT	_	13	det	_	_
-13	Mittler	Mittler	NOUN	NN	Case=Nom	20	nsubj	_	_
+13	Mittler	Mittler	NOUN	NN	Case=Acc	20	obj	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
 15	der	der	DET	ART	_	16	det	_	_
 16	That	That	NOUN	NN	_	20	obl	_	_
@@ -14962,7 +14962,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f77-s7
 # text = Poesie mischen sie nur zur Nothdurft unter, weil sie nun einmal an eine gewisse Unterbrechung ihres täglichen Laufs gewöhnt sind.
-1	Poesie	Poesie	PROPN	NE	Case=Nom	2	nsubj	_	_
+1	Poesie	Poesie	NOUN	NN	Case=Acc	2	obj	_	_
 2	mischen	mischen	VERB	VVFIN	_	0	root	_	_
 3	sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 4	nur	nur	ADV	ADV	_	2	advmod	_	_
@@ -15096,7 +15096,7 @@
 # text = Den höchsten Grad seines poetischen Daseyns erreicht der Philister bey einer Reise, Hochzeit, Kindtaufe, und in der Kirche.
 1	Den	der	DET	ART	_	3	det	_	_
 2	höchsten	hoch	ADJ	ADJA	_	3	amod	_	_
-3	Grad	Grad	NOUN	NN	Case=Nom	7	nsubj	_	_
+3	Grad	Grad	NOUN	NN	Case=Acc	7	obj	_	_
 4	seines	sein	DET	PPOSAT	_	6	det:poss	_	_
 5	poetischen	poetisch	ADJ	ADJA	_	6	amod	_	_
 6	Daseyns	Daseyn	NOUN	NN	_	3	nmod	_	_
@@ -16109,7 +16109,7 @@
 1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
 2	versteht	verstehen	VERB	VVFIN	_	0	root	_	_
 3	das	der	DET	ART	_	4	det	_	_
-4	Künstliche	künstliche	NOUN	NN	Case=Nom	2	nsubj	_	_
+4	Künstliche	künstliche	NOUN	NN	Case=Acc	2	obj	_	_
 5	gewöhnlich	gewöhnlich	ADJ	ADJD	_	2	advmod	_	_
 6	besser	gut	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	2	punct	_	_
@@ -16353,7 +16353,7 @@
 # sent_id = bluethenstaub-f90-s1
 # text = Je unwissender man von Natur ist, desto mehr Kapazität für das Wissen.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
-2	unwissender	unwissend	ADJ	ADJD	_	0	root	_	_
+2	unwissender	unwissend	ADJ	ADJD	_	10	advcl	_	_
 3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
 5	Natur	Natur	NOUN	NN	Case=Dat	2	nmod	_	_
@@ -16361,11 +16361,11 @@
 7	,	--	PUNCT	$,	_	2	punct	_	_
 8	desto	desto	CCONJ	KON	_	10	cc	_	_
 9	mehr	mehr	ADV	ADV	_	10	advmod	_	_
-10	Kapazität	Kapazität	NOUN	NN	Case=Nom	2	nsubj	_	_
+10	Kapazität	Kapazität	NOUN	NN	Case=Acc	0	root	_	_
 11	für	für	ADP	APPR	_	13	case	_	_
 12	das	der	DET	ART	_	13	det	_	_
 13	Wissen	wissen	NOUN	NN	Case=Acc	10	nmod	_	SpaceAfter=No
-14	.	--	PUNCT	$.	_	2	punct	_	_
+14	.	--	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
 # author = Novalis
@@ -16441,10 +16441,10 @@
 3	Unwissenheit	Unwissenheit	NOUN	NN	Case=Nom	0	root	_	_
 4	aus	aus	ADP	APPR	_	5	case	_	_
 5	Mangel	Mangel	NOUN	NN	Case=Dat	3	nmod	_	SpaceAfter=No
-6	,	--	PUNCT	$,	_	3	punct	_	_
-7	diese	dieser	DET	PDAT	Case=Nom	3	nsubj	_	_
+6	,	--	PUNCT	$,	_	9	punct	_	_
+7	diese	dieser	DET	PDAT	Case=Nom	9	nsubj	_	_
 8	aus	aus	ADP	APPR	_	9	case	_	_
-9	Überfluß	Überfluß	NOUN	NN	Case=Dat	3	nmod	_	_
+9	Überfluß	Überfluß	NOUN	NN	Case=Dat	3	conj	_	_
 10	der	der	DET	ART	_	11	det	_	_
 11	Erkenntnisse	Erkenntnis	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	3	punct	_	_
@@ -16968,7 +16968,7 @@
 51	,	--	PUNCT	$,	_	53	punct	_	_
 52	durchaus	durchaus	ADV	ADV	_	53	advmod	_	_
 53	erklärbares	erklärbar	ADJ	ADJA	_	50	conj	_	_
-54	Ganzes	ganze	NOUN	NN	Case=Nom	47	nsubj	_	_
+54	Ganzes	ganze	NOUN	NN	Case=Acc	47	obj	_	_
 55	aus	aus	ADP	PTKVZ	_	47	compound:prt	_	SpaceAfter=No
 56	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -18110,7 +18110,7 @@
 3	aber	aber	ADV	ADV	_	2	advmod	_	_
 4	eine	ein	DET	ART	_	6	det	_	_
 5	geistige	geistig	ADJ	ADJA	_	6	amod	_	_
-6	Gegenwart	Gegenwart	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
+6	Gegenwart	Gegenwart	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	12	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom	12	nsubj	_	_
 9	beyde	beyde	PRON	PDS	Case=Acc	12	obj	_	_
@@ -19008,7 +19008,7 @@
 # text = Die dramatische Form kann man wählen aus Hang zur systematischen Vollständigkeit, oder um Menschen nicht bloß darzustellen, sondern nachzuahmen und nachzumachen, oder aus Bequemlichkeit, oder aus Gefälligkeit für die Musik, oder auch aus reiner Freude am Sprechen, und Sprechen lassen.
 1	Die	der	DET	ART	_	3	det	_	_
 2	dramatische	dramatisch	ADJ	ADJA	_	3	amod	_	_
-3	Form	Form	NOUN	NN	Case=Nom	6	nsubj	_	_
+3	Form	Form	NOUN	NN	Case=Acc	6	obj	_	_
 4	kann	können	AUX	VMFIN	_	6	aux	_	_
 5	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
 6	wählen	wählen	VERB	VVINF	_	0	root	_	_
@@ -19751,19 +19751,19 @@
 7	Lieblingsgegenstand	Lieblingsgegenstand	NOUN	NN	Case=Nom	0	root	_	_
 8	der	der	DET	ART	_	9	det	_	_
 9	Charakteriseurs	Charakteriseurs	NOUN	NN	_	7	nmod	_	SpaceAfter=No
-10	,	--	PUNCT	$,	_	17	punct	_	_
-11	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+10	,	--	PUNCT	$,	_	22	punct	_	_
+11	weil	weil	SCONJ	KOUS	_	22	mark	_	_
 12	eine	ein	DET	ART	_	13	det	_	_
-13	Nation	Nation	NOUN	NN	Case=Nom	17	nsubj	_	_
+13	Nation	Nation	NOUN	NN	Case=Nom	22	nsubj	_	_
 14	je	je	ADV	ADV	_	15	advmod	_	_
 15	weniger	weniger	ADV	ADV	_	17	advmod	_	_
 16	sie	sie	PRON	PPER	Case=Nom	17	nsubj	_	_
-17	fertig	fertig	ADJ	ADJD	_	7	advcl	_	SpaceAfter=No
-18	,	--	PUNCT	$,	_	22	punct	_	_
+17	fertig	fertig	ADJ	ADJD	_	22	advcl	_	SpaceAfter=No
+18	,	--	PUNCT	$,	_	17	punct	_	_
 19	umso	umso	ADV	ADV	_	22	cc	_	_
 20	mehr	mehr	ADV	ADV	_	22	advmod	_	_
 21	ein	ein	DET	ART	_	22	det	_	_
-22	Gegenstand	Gegenstand	NOUN	NN	Case=Nom	17	conj	_	_
+22	Gegenstand	Gegenstand	NOUN	NN	Case=Nom_	7	advcl	_	_
 23	der	der	DET	ART	_	24	det	_	_
 24	Kritik	Kritik	NOUN	NN	_	22	nmod	_	_
 25	ist	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
