@@ -2881,7 +2881,7 @@
 6	stellenweise	stellenweise	ADV	ADV	_	4	advmod	_	_
 7	statt	statt	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	_	9	det	_	_
-9	Darstellung	Darstellung	NOUN	NN	_	4	obl	_	_
+9	Darstellung	Darstellung	NOUN	NN	Case=Gen	4	obl	_	_
 10	nur	nur	ADV	ADV	_	12	advmod	_	_
 11	eine	ein	DET	ART	_	12	det	_	_
 12	Überschrift	Überschrift	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
@@ -11180,7 +11180,7 @@
 5	Stoff	Stoff	NOUN	NN	Case=Acc	2	obj	_	_
 6	wegen	wegen	ADP	APPR	_	8	case	_	_
 7	seiner	sein	DET	PPOSAT	_	8	det:poss	_	_
-8	Beziehungen	Beziehung	NOUN	NN	_	2	obl	_	SpaceAfter=No
+8	Beziehungen	Beziehung	NOUN	NN	Case=Gen	2	obl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	seiner	sein	DET	PPOSAT	_	11	det:poss	_	_
 11	Formen	Form	NOUN	NN	_	8	conj	_	_
@@ -25695,7 +25695,7 @@
 13	,	--	PUNCT	$,	_	18	punct	_	_
 14	und	und	CCONJ	KON	_	18	cc	_	_
 15	statt	statt	ADP	APPR	_	16	case	_	_
-16	dessen	der	PRON	PDS	_	18	obl	_	_
+16	dessen	der	PRON	PDS	Case=Gen	18	obl	_	_
 17	bloß	bloß	ADV	ADV	_	18	advmod	_	_
 18	handelt	handeln	VERB	VVFIN	_	11	conj	_	SpaceAfter=No
 19	.	--	PUNCT	$.	_	3	punct	_	_
@@ -27252,7 +27252,7 @@
 8	Alten	alte	NOUN	NN	Case=Nom	18	nsubj	_	_
 9	trotz	trotz	ADP	APPR	_	11	case	_	_
 10	den	der	DET	ART	_	11	det	_	_
-11	Protestationen	Protestation	NOUN	NN	_	18	obl	_	_
+11	Protestationen	Protestation	NOUN	NN	Case=Gen	18	obl	_	_
 12	der	der	DET	ART	_	16	det	_	_
 13	älteren	alt	ADJ	ADJA	_	16	amod	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
@@ -39681,7 +39681,7 @@
 2	von	von	ADP	APPR	_	5	case	_	_
 3	wegen	wegen	ADP	APPR	_	5	case	_	_
 4	des	der	DET	ART	_	5	det	_	_
-5	Schlagflusses	Schlagfluß	NOUN	NN	Case=Dat	0	root	_	SpaceAfter=No
+5	Schlagflusses	Schlagfluß	NOUN	NN	Case=Gen	0	root	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -44355,7 +44355,7 @@
 3	es	es	PRON	PPER	_	11	expl	_	_
 4	trotz	trotz	ADP	APPR	_	6	case	_	_
 5	aller	aller	DET	PIAT	_	6	det	_	_
-6	Sinne	Sinn	NOUN	NN	_	11	obl	_	_
+6	Sinne	Sinn	NOUN	NN	Case=Gen	11	obl	_	_
 7	ohne	ohne	ADP	APPR	_	8	case	_	_
 8	Fantasie	Fantasie	NOUN	NN	Case=Acc	11	obl	_	_
 9	keine	kein	DET	PIAT	_	10	advmod	_	_
@@ -48525,7 +48525,7 @@
 9	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
 10	wegen	wegen	ADP	APPR	_	12	case	_	_
 11	seiner	sein	DET	PPOSAT	_	12	det:poss	_	_
-12	Gediegenheit	Gediegenheit	NOUN	NN	_	19	obl	_	SpaceAfter=No
+12	Gediegenheit	Gediegenheit	NOUN	NN	Case=Gen	19	obl	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	14	punct	_	_
 14	Ausführlichkeit	Ausführlichkeit	NOUN	NN	_	12	conj	_	_
 15	und	und	CCONJ	KON	_	16	cc	_	_
@@ -52201,7 +52201,7 @@
 10	wegen	wegen	ADP	APPR	_	13	case	_	_
 11	der	der	DET	ART	_	13	det	_	_
 12	anscheinenden	anscheinend	ADJ	ADJA	_	13	amod	_	_
-13	Abenteuerlichkeit	Abenteuerlichkeit	NOUN	NN	_	4	obl	_	SpaceAfter=No
+13	Abenteuerlichkeit	Abenteuerlichkeit	NOUN	NN	Case=Gen	4	obl	_	SpaceAfter=No
 14	.	--	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
