@@ -32,8 +32,9 @@
     <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="3">
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1138</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Philosophie, Art -->
+  <feats unique="4">
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">426</feat><!-- sich, Kunst, Poesie, sie, Kraft, den, Menschen, Philosophie, Witz, das -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1133</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Philosophie, Art -->
     <feat name="PronType" value="Prs" upos="PRON">334</feat><!-- sich -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
