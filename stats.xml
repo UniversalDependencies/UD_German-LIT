@@ -34,7 +34,7 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="6">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">1993</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, alles, die -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1123</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Philosophie, Art -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1234</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">324</feat><!-- Geistes, Dichters, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums, Lebens, Witzes -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3376</feat><!-- man, sie, er, es, die, der, was, wir, das, welche -->
     <feat name="PronType" value="Prs" upos="PRON">334</feat><!-- sich -->
