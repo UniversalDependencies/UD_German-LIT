@@ -12097,7 +12097,7 @@
 2	für	für	ADP	APPR	_	3	case	_	_
 3	Kunstindividuen	Kunstindividue	NOUN	NN	Case=Acc	1	nmod	_	_
 4	finden	finden	VERB	VVFIN	_	17	csubj	_	SpaceAfter=No
-5	,	--	PUNCT	$,	_	1	punct	_	_
+5	,	--	PUNCT	$,	_	14	punct	_	_
 6	durch	durch	ADP	APPR	_	7	case	_	_
 7	die	der	PRON	PRELS	Case=Acc	14	obl	_	_
 8	sie	sie	PRON	PPER	Case=Nom	14	nsubj:pass	_	_
