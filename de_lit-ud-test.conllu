@@ -6926,7 +6926,7 @@
 39	Satire	Satire	NOUN	NN	Case=Gen	35	nmod	_	_
 40	liberalen	liberal	ADJ	ADJA	_	41	amod	_	_
 41	Ton	Ton	NOUN	NN	Case=Acc	29	conj	_	SpaceAfter=No
-42	,	--	PUNCT	$,	_	35	punct	_	_
+42	,	--	PUNCT	$,	_	14	punct	_	_
 43	hat	haben	AUX	VAFIN	_	0	root	_	_
 44	gar	gar	ADV	ADV	_	45	advmod	_	_
 45	kein	kein	DET	PIAT	_	46	det	_	_
