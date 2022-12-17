@@ -14171,7 +14171,7 @@
 10	wenn	wenn	SCONJ	KOUS	_	20	mark	_	_
 11	ich	ich	PRON	PPER	Case=Nom	20	nsubj	_	_
 12	diesen	dieser	DET	PDAT	_	13	det	_	_
-13	Mittler	Mittler	NOUN	NN	Case=Nom	20	nsubj	_	_
+13	Mittler	Mittler	NOUN	NN	Case=Acc	20	obj	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
 15	der	der	DET	ART	_	16	det	_	_
 16	That	That	NOUN	NN	_	20	obl	_	_
@@ -14962,7 +14962,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f77-s7
 # text = Poesie mischen sie nur zur Nothdurft unter, weil sie nun einmal an eine gewisse Unterbrechung ihres täglichen Laufs gewöhnt sind.
-1	Poesie	Poesie	PROPN	NE	Case=Nom	2	nsubj	_	_
+1	Poesie	Poesie	NOUN	NN	Case=Acc	2	obj	_	_
 2	mischen	mischen	VERB	VVFIN	_	0	root	_	_
 3	sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 4	nur	nur	ADV	ADV	_	2	advmod	_	_
@@ -15096,7 +15096,7 @@
 # text = Den höchsten Grad seines poetischen Daseyns erreicht der Philister bey einer Reise, Hochzeit, Kindtaufe, und in der Kirche.
 1	Den	der	DET	ART	_	3	det	_	_
 2	höchsten	hoch	ADJ	ADJA	_	3	amod	_	_
-3	Grad	Grad	NOUN	NN	Case=Nom	7	nsubj	_	_
+3	Grad	Grad	NOUN	NN	Case=Acc	7	obj	_	_
 4	seines	sein	DET	PPOSAT	_	6	det:poss	_	_
 5	poetischen	poetisch	ADJ	ADJA	_	6	amod	_	_
 6	Daseyns	Daseyn	NOUN	NN	_	3	nmod	_	_
@@ -16109,7 +16109,7 @@
 1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
 2	versteht	verstehen	VERB	VVFIN	_	0	root	_	_
 3	das	der	DET	ART	_	4	det	_	_
-4	Künstliche	künstliche	NOUN	NN	Case=Nom	2	nsubj	_	_
+4	Künstliche	künstliche	NOUN	NN	Case=Acc	2	obj	_	_
 5	gewöhnlich	gewöhnlich	ADJ	ADJD	_	2	advmod	_	_
 6	besser	gut	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	2	punct	_	_
@@ -16353,7 +16353,7 @@
 # sent_id = bluethenstaub-f90-s1
 # text = Je unwissender man von Natur ist, desto mehr Kapazität für das Wissen.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
-2	unwissender	unwissend	ADJ	ADJD	_	0	root	_	_
+2	unwissender	unwissend	ADJ	ADJD	_	10	advcl	_	_
 3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
 5	Natur	Natur	NOUN	NN	Case=Dat	2	nmod	_	_
@@ -16361,11 +16361,11 @@
 7	,	--	PUNCT	$,	_	2	punct	_	_
 8	desto	desto	CCONJ	KON	_	10	cc	_	_
 9	mehr	mehr	ADV	ADV	_	10	advmod	_	_
-10	Kapazität	Kapazität	NOUN	NN	Case=Nom	2	nsubj	_	_
+10	Kapazität	Kapazität	NOUN	NN	Case=Acc	0	root	_	_
 11	für	für	ADP	APPR	_	13	case	_	_
 12	das	der	DET	ART	_	13	det	_	_
 13	Wissen	wissen	NOUN	NN	Case=Acc	10	nmod	_	SpaceAfter=No
-14	.	--	PUNCT	$.	_	2	punct	_	_
+14	.	--	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
 # author = Novalis
@@ -16441,10 +16441,10 @@
 3	Unwissenheit	Unwissenheit	NOUN	NN	_	0	root	_	_
 4	aus	aus	ADP	APPR	_	5	case	_	_
 5	Mangel	Mangel	NOUN	NN	Case=Dat	3	nmod	_	SpaceAfter=No
-6	,	--	PUNCT	$,	_	3	punct	_	_
-7	diese	dieser	DET	PDAT	Case=Nom	3	nsubj	_	_
+6	,	--	PUNCT	$,	_	9	punct	_	_
+7	diese	dieser	DET	PDAT	Case=Nom	9	nsubj	_	_
 8	aus	aus	ADP	APPR	_	9	case	_	_
-9	Überfluß	Überfluß	NOUN	NN	Case=Dat	3	nmod	_	_
+9	Überfluß	Überfluß	NOUN	NN	Case=Dat	3	conj	_	_
 10	der	der	DET	ART	_	11	det	_	_
 11	Erkenntnisse	Erkenntnis	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	3	punct	_	_
@@ -16968,7 +16968,7 @@
 51	,	--	PUNCT	$,	_	53	punct	_	_
 52	durchaus	durchaus	ADV	ADV	_	53	advmod	_	_
 53	erklärbares	erklärbar	ADJ	ADJA	_	50	conj	_	_
-54	Ganzes	ganze	NOUN	NN	Case=Nom	47	nsubj	_	_
+54	Ganzes	ganze	NOUN	NN	Case=Acc	47	obj	_	_
 55	aus	aus	ADP	PTKVZ	_	47	compound:prt	_	SpaceAfter=No
 56	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -18110,7 +18110,7 @@
 3	aber	aber	ADV	ADV	_	2	advmod	_	_
 4	eine	ein	DET	ART	_	6	det	_	_
 5	geistige	geistig	ADJ	ADJA	_	6	amod	_	_
-6	Gegenwart	Gegenwart	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
+6	Gegenwart	Gegenwart	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	12	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom	12	nsubj	_	_
 9	beyde	beyde	PRON	PDS	Case=Acc	12	obj	_	_
@@ -19008,7 +19008,7 @@
 # text = Die dramatische Form kann man wählen aus Hang zur systematischen Vollständigkeit, oder um Menschen nicht bloß darzustellen, sondern nachzuahmen und nachzumachen, oder aus Bequemlichkeit, oder aus Gefälligkeit für die Musik, oder auch aus reiner Freude am Sprechen, und Sprechen lassen.
 1	Die	der	DET	ART	_	3	det	_	_
 2	dramatische	dramatisch	ADJ	ADJA	_	3	amod	_	_
-3	Form	Form	NOUN	NN	Case=Nom	6	nsubj	_	_
+3	Form	Form	NOUN	NN	Case=Acc	6	obj	_	_
 4	kann	können	AUX	VMFIN	_	6	aux	_	_
 5	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
 6	wählen	wählen	VERB	VVINF	_	0	root	_	_
@@ -19751,15 +19751,15 @@
 7	Lieblingsgegenstand	Lieblingsgegenstand	NOUN	NN	_	0	root	_	_
 8	der	der	DET	ART	_	9	det	_	_
 9	Charakteriseurs	Charakteriseurs	NOUN	NN	_	7	nmod	_	SpaceAfter=No
-10	,	--	PUNCT	$,	_	17	punct	_	_
-11	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+10	,	--	PUNCT	$,	_	22	punct	_	_
+11	weil	weil	SCONJ	KOUS	_	22	mark	_	_
 12	eine	ein	DET	ART	_	13	det	_	_
-13	Nation	Nation	NOUN	NN	Case=Nom	17	nsubj	_	_
+13	Nation	Nation	NOUN	NN	Case=Nom	22	nsubj	_	_
 14	je	je	ADV	ADV	_	15	advmod	_	_
 15	weniger	weniger	ADV	ADV	_	17	advmod	_	_
 16	sie	sie	PRON	PPER	Case=Nom	17	nsubj	_	_
-17	fertig	fertig	ADJ	ADJD	_	7	advcl	_	SpaceAfter=No
-18	,	--	PUNCT	$,	_	22	punct	_	_
+17	fertig	fertig	ADJ	ADJD	_	22	advcl	_	SpaceAfter=No
+18	,	--	PUNCT	$,	_	17	punct	_	_
 19	umso	umso	ADV	ADV	_	22	cc	_	_
 20	mehr	mehr	ADV	ADV	_	22	advmod	_	_
 21	ein	ein	DET	ART	_	22	det	_	_
