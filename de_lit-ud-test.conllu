@@ -19763,7 +19763,7 @@
 19	umso	umso	ADV	ADV	_	22	cc	_	_
 20	mehr	mehr	ADV	ADV	_	22	advmod	_	_
 21	ein	ein	DET	ART	_	22	det	_	_
-22	Gegenstand	Gegenstand	NOUN	NN	_	17	conj	_	_
+22	Gegenstand	Gegenstand	NOUN	NN	_	7	advcl	_	_
 23	der	der	DET	ART	_	24	det	_	_
 24	Kritik	Kritik	NOUN	NN	_	22	nmod	_	_
 25	ist	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
