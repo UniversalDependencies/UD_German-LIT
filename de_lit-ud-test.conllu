@@ -6243,19 +6243,19 @@
 34	sie	sie	PRON	PPER	Case=Nom	36	nsubj	_	_
 35	schwindlicht	schwindlichen	ADJ	ADJD	_	36	xcomp	_	_
 36	werden	werden	VERB	VVFIN	_	29	advcl	_	SpaceAfter=No
-37	,	--	PUNCT	$,	_	36	punct	_	_
+37	,	--	PUNCT	$,	_	39	punct	_	_
 38	den	der	DET	ART	_	39	det	_	_
-39	Scherz	Scherz	NOUN	NN	Case=Nom	49	nsubj	_	_
-40	grade	grade	ADV	ADV	_	49	advmod	_	_
+39	Scherz	Scherz	NOUN	NN	Case=Acc	36	ccomp	_	_
+40	grade	grade	ADV	ADV	_	39	orphan	_	_
 41	für	für	ADP	APPR	_	42	case	_	_
-42	Ernst	Ernst	NOUN	NN	Case=Acc	40	obl	_	SpaceAfter=No
-43	,	--	PUNCT	$,	_	46	punct	_	_
-44	und	und	CCONJ	KON	_	46	cc	_	_
+42	Ernst	Ernst	NOUN	NN	Case=Acc	39	orphan	_	SpaceAfter=No
+43	,	--	PUNCT	$,	_	49	punct	_	_
+44	und	und	CCONJ	KON	_	49	cc	_	_
 45	den	der	DET	ART	_	46	det	_	_
-46	Ernst	Ernst	NOUN	NN	Case=Nom	49	nsubj	_	_
+46	Ernst	Ernst	NOUN	NN	Case=Acc	49	obj	_	_
 47	für	für	ADP	APPR	_	48	case	_	_
 48	Scherz	Scherz	NOUN	NN	Case=Acc	49	obl	_	_
-49	halten	halten	VERB	VVINF	_	36	ccomp	_	SpaceAfter=No
+49	halten	halten	VERB	VVINF	_	39	conj	_	SpaceAfter=No
 50	.	--	PUNCT	$.	_	14	punct	_	_
 
 # genre = fragments
@@ -6884,23 +6884,23 @@
 # sent_id = lyceum-f117-s2
 # text = Ein Kunsturteil, welches nicht selbst ein Kunstwerk ist, entweder im Stoff, als Darstellung des notwendigen Eindrucks in seinem Werden, oder durch eine schöne Form, und einen im Geist der alten römischen Satire liberalen Ton, hat gar kein Bürgerrecht im Reiche der Kunst.
 1	Ein	ein	DET	ART	_	2	det	_	_
-2	Kunsturteil	Kunsturteil	NOUN	NN	Case=Nom	14	nsubj	_	SpaceAfter=No
-3	,	--	PUNCT	$,	_	2	punct	_	_
+2	Kunsturteil	Kunsturteil	NOUN	NN	Case=Nom	43	nsubj	_	SpaceAfter=No
+3	,	--	PUNCT	$,	_	8	punct	_	_
 4	welches	welcher	PRON	PRELS	Case=Nom	8	nsubj	_	_
 5	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
 6	selbst	selbst	ADV	ADV	_	8	advmod	_	_
 7	ein	ein	DET	ART	_	8	det	_	_
-8	Kunstwerk	Kunstwerk	NOUN	NN	_	2	acl	_	_
+8	Kunstwerk	Kunstwerk	NOUN	NN	Case=Nom	2	acl	_	_
 9	ist	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	8	punct	_	_
 11	entweder	entweder	CCONJ	KON	_	14	cc	_	_
 12-13	im	_	_	_	_	_	_	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	_	14	det	_	_
-14	Stoff	Stoff	NOUN	NN	Case=Dat	0	root	_	SpaceAfter=No
+14	Stoff	Stoff	NOUN	NN	Case=Dat	8	nmod	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
 16	als	als	ADP	APPR	_	17	case	_	_
-17	Darstellung	Darstellung	NOUN	NN	_	43	obl	_	_
+17	Darstellung	Darstellung	NOUN	NN	Case=Nom	14	conj	_	_
 18	des	der	DET	ART	_	20	det	_	_
 19	notwendigen	notwendig	ADJ	ADJA	_	20	amod	_	_
 20	Eindrucks	Eindruck	NOUN	NN	Case=Gen	17	nmod	_	_
@@ -6912,31 +6912,31 @@
 26	durch	durch	ADP	APPR	_	29	case	_	_
 27	eine	ein	DET	ART	_	29	det	_	_
 28	schöne	schön	ADJ	ADJA	_	29	amod	_	_
-29	Form	Form	NOUN	NN	Case=Acc	23	conj	_	SpaceAfter=No
-30	,	--	PUNCT	$,	_	43	punct	_	_
-31	und	und	CCONJ	KON	_	43	cc	_	_
-32	einen	ein	PRON	PIS	Case=Nom	43	nsubj	_	_
+29	Form	Form	NOUN	NN	Case=Acc	14	conj	_	SpaceAfter=No
+30	,	--	PUNCT	$,	_	41	punct	_	_
+31	und	und	CCONJ	KON	_	41	cc	_	_
+32	einen	ein	PRON	PIS	Case=Nom	41	nsubj	_	_
 33-34	im	_	_	_	_	_	_	_	_
 33	in	in	ADP	APPR	_	35	case	_	_
 34	dem	der	DET	ART	_	35	det	_	_
-35	Geist	Geist	NOUN	NN	Case=Dat	32	nmod	_	_
+35	Geist	Geist	NOUN	NN	Case=Dat	40	obl	_	_
 36	der	der	DET	ART	_	39	det	_	_
 37	alten	alt	ADJ	ADJA	_	39	amod	_	_
 38	römischen	römisch	ADJ	ADJA	_	39	amod	_	_
-39	Satire	Satire	NOUN	NN	_	35	nmod	_	_
+39	Satire	Satire	NOUN	NN	Case=Gen	35	nmod	_	_
 40	liberalen	liberal	ADJ	ADJA	_	41	amod	_	_
-41	Ton	Ton	NOUN	NN	_	39	nmod	_	SpaceAfter=No
+41	Ton	Ton	NOUN	NN	Case=Acc	29	conj	_	SpaceAfter=No
 42	,	--	PUNCT	$,	_	35	punct	_	_
-43	hat	haben	AUX	VAFIN	_	14	acl	_	_
+43	hat	haben	AUX	VAFIN	_	0	root	_	_
 44	gar	gar	ADV	ADV	_	45	advmod	_	_
-45	kein	kein	DET	PIAT	_	46	advmod	_	_
-46	Bürgerrecht	Bürgerrecht	NOUN	NN	Case=Nom	43	nsubj	_	_
+45	kein	kein	DET	PIAT	_	46	det	_	_
+46	Bürgerrecht	Bürgerrecht	NOUN	NN	Case=Acc	43	obj	_	_
 47-48	im	_	_	_	_	_	_	_	_
 47	in	in	ADP	APPR	_	49	case	_	_
 48	dem	der	DET	ART	_	49	det	_	_
-49	Reiche	Reiche	NOUN	NN	Case=Dat	43	obl	_	_
+49	Reiche	Reich	NOUN	NN	Case=Dat	43	obl	_	_
 50	der	der	DET	ART	_	51	det	_	_
-51	Kunst	Kunst	NOUN	NN	_	49	nmod	_	SpaceAfter=No
+51	Kunst	Kunst	NOUN	NN	Case=Gen	49	nmod	_	SpaceAfter=No
 52	.	--	PUNCT	$.	_	43	punct	_	_
 
 # newpar id = lyceum-f118
@@ -7000,7 +7000,7 @@
 # sent_id = lyceum-f119-s3
 # text = Wer es tut, dem fehlt es zugleich an Stolz und an Bescheidenheit.
 1	Wer	wer	PRON	PWS	Case=Nom	3	nsubj	_	_
-2	es	es	PRON	PPER	Case=Nom	3	nsubj	_	_
+2	es	es	PRON	PPER	Case=Acc	3	obj	_	_
 3	tut	tun	VERB	VVFIN	_	6	csubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	dem	der	PRON	PDS	Case=Dat	6	obl:arg	_	_
@@ -7286,7 +7286,7 @@
 # text = Wer Goethes »Meister« gehörig charakterisierte, der hätte damit wohl eigentlich gesagt, was es jetzt an der Zeit ist in der Poesie.
 1	Wer	wer	PRON	PWS	Case=Nom	6	nsubj	_	_
 2	Goethes	Goethes	PROPN	NE	_	3	nmod:poss	_	_
-3	»Meister	»Meister	PROPN	NE	Case=Nom	6	nsubj	_	SpaceAfter=No
+3	»Meister	»Meister	PROPN	NE	Case=Acc	6	obj	_	SpaceAfter=No
 4	«	«	PUNCT	XY	_	3	punct	_	_
 5	gehörig	gehörig	ADJ	ADJD	_	6	advmod	_	_
 6	charakterisierte	charakterisieren	VERB	VVFIN	_	13	advcl	_	SpaceAfter=No
@@ -7411,7 +7411,7 @@
 3	etwas	etwas	PRON	PIS	Case=Nom	9	nsubj	_	_
 4	die	der	DET	ART	_	6	det	_	_
 5	hohe	hoch	ADJ	ADJA	_	6	amod	_	_
-6	Idee	Idee	NOUN	NN	Case=Nom	9	nsubj	_	_
+6	Idee	Idee	NOUN	NN	Case=Acc	9	obj	_	_
 7	von	von	ADP	APPR	_	8	case	_	_
 8	Deutschheit	Deutschheit	NOUN	NN	Case=Dat	6	nmod	_	_
 9	rechtfertigen	rechtfertigen	VERB	VVINF	_	17	advcl	_	_
@@ -7466,7 +7466,7 @@
 58	erkennen	erkennen	VERB	VVFIN	_	29	parataxis	_	SpaceAfter=No
 59	,	--	PUNCT	$,	_	62	punct	_	_
 60	und	und	CCONJ	KON	_	62	cc	_	_
-61	was	was	PRON	PWS	Case=Nom	72	nsubj	_	_
+61	was	was	PRON	PWS	Case=Nom	62	nsubj	_	_
 62	besser	gut	ADJ	ADJD	_	58	conj	_	_
 63	ist	sein	AUX	VAFIN	_	62	cop	_	SpaceAfter=No
 64	,	--	PUNCT	$,	_	62	punct	_	_
@@ -7546,15 +7546,15 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f123-s3
 # text = da die Philosophie doch weiter nichts kann und können soll, als die gegebnen Kunsterfahrungen und vorhandnen Kunstbegriffe zur Wissenschaft machen, die Kunstansicht erheben, mit Hülfe einer gründlich gelehrten Kunstgeschichte erweitern, und diejenige logische Stimmung auch über diese Gegenstände zu erzeugen, welche absolute Liberalität mit absolutem Rigorismus vereinigt.
-1	da	da	SCONJ	KOUS	_	22	mark	_	_
+1	da	da	SCONJ	KOUS	_	7	mark	_	_
 2	die	der	DET	ART	_	3	det	_	_
-3	Philosophie	Philosophie	NOUN	NN	Case=Nom	22	nsubj	_	_
-4	doch	doch	ADV	ADV	_	22	advmod	_	_
-5	weiter	weiter	ADV	ADV	_	22	advmod	_	_
-6	nichts	nichts	PRON	PIS	Case=Acc	22	obj	_	_
+3	Philosophie	Philosophie	NOUN	NN	Case=Nom	7	nsubj	_	_
+4	doch	doch	ADV	ADV	_	7	advmod	_	_
+5	weiter	weiter	ADV	ADV	_	7	advmod	_	_
+6	nichts	nichts	PRON	PIS	Case=Acc	7	obj	_	_
 7	kann	können	VERB	VMFIN	_	22	advcl	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
-9	können	können	VERB	VMFIN	_	7	conj	_	_
+9	können	können	VERB	VMINF	_	7	conj	_	_
 10	soll	sollen	AUX	VMFIN	_	9	aux	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	7	punct	_	_
 12	als	als	ADP	KOUS	_	22	case	_	_
@@ -7563,7 +7563,7 @@
 15	Kunsterfahrungen	Kunsterfahrung	NOUN	NN	Case=Nom	22	nsubj	_	_
 16	und	und	CCONJ	KON	_	18	cc	_	_
 17	vorhandnen	vorhandnen	ADJ	ADJA	_	18	amod	_	_
-18	Kunstbegriffe	Kunstbegriff	NOUN	NN	_	15	conj	_	_
+18	Kunstbegriffe	Kunstbegriff	NOUN	NN	Case=Nom	15	conj	_	_
 19-20	zur	_	_	_	_	_	_	_	_
 19	zu	zu	ADP	APPR	_	21	case	_	_
 20	der	der	DET	ART	_	21	det	_	_
@@ -7817,10 +7817,10 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f125-s6
 # text = Dichtern mag er auch wohl heilsam sein können, wie jede konsequente Beschränkung, um die Kraft zu kondensieren und zu konzentrieren.
-1	Dichtern	Dichter	VERB	VVINF	_	6	nsubj	_	_
+1	Dichtern	Dichter	NOUN	NN	Case=Dat	6	obl:arg	_	_
 2	mag	mögen	AUX	VMFIN	_	6	aux	_	_
 3	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
-4	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	auch	auch	ADV	ADV	_	6	advmod	_	_
 5	wohl	wohl	ADV	ADV	_	6	advmod	_	_
 6	heilsam	heilsam	ADJ	ADJD	_	0	root	_	_
 7	sein	sein	AUX	VAINF	_	6	cop	_	_
@@ -8916,9 +8916,9 @@
 # sent_id = bluethenstaub-f16-s3
 # text = Die Tiefen unsers Geistes kennen wir nicht.
 1	Die	der	DET	ART	_	2	det	_	_
-2	Tiefen	Tiefe	NOUN	NN	Case=Nom	5	nsubj	_	_
+2	Tiefen	Tiefe	NOUN	NN	Case=Acc	5	obj	_	_
 3	unsers	unsers	DET	PPOSAT	_	4	det	_	_
-4	Geistes	Geist	NOUN	NN	_	2	nmod	_	_
+4	Geistes	Geist	NOUN	NN	Case=Gen	2	nmod	_	_
 5	kennen	kennen	VERB	VVFIN	_	0	root	_	_
 6	wir	wir	PRON	PPER	Case=Nom	5	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	5	advmod	_	SpaceAfter=No
@@ -9190,7 +9190,7 @@
 19	schon	schon	ADV	ADV	_	23	advmod	_	_
 20	eine	ein	DET	ART	_	22	det	_	_
 21	philosophische	philosophisch	ADJ	ADJA	_	22	amod	_	_
-22	Freundschaft	Freundschaft	NOUN	NN	Case=Nom	23	nsubj:pass	_	_
+22	Freundschaft	Freundschaft	NOUN	NN	Case=Nom	23	xcomp	_	_
 23	genannt	nennen	VERB	VVPP	_	0	root	_	_
 24	werden	werden	AUX	VAFIN	_	23	aux:pass	_	SpaceAfter=No
 25	.	--	PUNCT	$.	_	23	punct	_	_
