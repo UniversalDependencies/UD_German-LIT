@@ -2297,7 +2297,7 @@
 39	gewöhnlichen	gewöhnlich	ADJ	ADJA	_	40	advmod	_	_
 40	guten	gut	ADJ	ADJA	_	42	amod	_	_
 41	italiänischen	italiänisch	ADJ	ADJA	_	42	amod	_	_
-42	Buffo	Buffo	NOUN	NN	_	37	nmod	_	SpaceAfter=No
+42	Buffo	Buffo	NOUN	NN	Case=Gen	37	nmod	_	SpaceAfter=No
 43	.	--	PUNCT	$.	_	5	punct	_	_
 
 # newpar id = lyceum-f43
@@ -2480,7 +2480,7 @@
 19	naiven	naiv	ADJ	ADJA	_	20	amod	_	_
 20	Äußerung	Äußerung	NOUN	NN	_	15	obl	_	_
 21	eines	ein	DET	ART	_	22	det	_	_
-22	Franzosen	Franzose	NOUN	NN	_	20	nmod	_	_
+22	Franzosen	Franzose	NOUN	NN	Case=Gen	20	nmod	_	_
 23	bei	bei	ADP	APPR	_	24	case	_	_
 24	Gelegenheit	Gelegenheit	NOUN	NN	Case=Dat	20	nmod	_	_
 25	der	der	DET	ART	_	28	det	_	_
@@ -3320,7 +3320,7 @@
 5	Begriff	Begriff	NOUN	NN	Case=Nom	11	nsubj	_	_
 6	eines	ein	DET	ART	_	8	det	_	_
 7	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	_	8	amod	_	_
-8	Gedichts	Gedicht	NOUN	NN	_	5	nmod	_	_
+8	Gedichts	Gedicht	NOUN	NN	Case=Gen	5	nmod	_	_
 9	wohl	wohl	ADV	ADV	_	11	advmod	_	_
 10	so	so	ADV	ADV	_	11	advmod	_	_
 11	widersinnig	widersinnig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -3421,7 +3421,7 @@
 3	eines	ein	DET	ART	_	6	det	_	_
 4	neuen	neu	ADJ	ADJA	_	6	amod	_	_
 5	»	»	PUNCT	XY	_	6	punct	_	SpaceAfter=No
-6	Laokoon	Laokoon	PROPN	NE	Case=Acc	2	obj	_	SpaceAfter=No
+6	Laokoon	Laokoon	PROPN	NE	Case=Gen	2	obj	_	SpaceAfter=No
 7	«	«	PUNCT	XY	_	6	punct	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	18	punct	_	_
 9	um	um	SCONJ	KOUI	_	18	mark	_	_
@@ -4221,7 +4221,7 @@
 14	Lebens	Leben	NOUN	NN	Case=Gen	10	nmod	_	_
 15	eines	ein	DET	ART	_	17	det	_	_
 16	genialischen	genialisch	ADJ	ADJA	_	17	amod	_	_
-17	Individuums	Individuum	NOUN	NN	_	14	nmod	_	SpaceAfter=No
+17	Individuums	Individuum	NOUN	NN	Case=Gen	14	nmod	_	SpaceAfter=No
 18	;	--	PUNCT	$.	_	7	punct	_	_
 
 # genre = fragments
@@ -4839,7 +4839,7 @@
 6	alle	aller	DET	PIAT	_	7	det	_	_
 7	Romane	Roman	NOUN	NN	Case=Nom	3	nsubj	_	_
 8	eines	ein	DET	ART	_	9	det	_	_
-9	Autors	Autor	NOUN	NN	_	7	nmod	_	_
+9	Autors	Autor	NOUN	NN	Case=Gen	7	nmod	_	_
 10	zusammen	zusammen	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	17	punct	_	_
 12	und	und	CCONJ	KON	_	17	cc	_	_
@@ -5464,7 +5464,7 @@
 24	dem	der	DET	ART	_	25	det	_	_
 25	Geiste	Geist	NOUN	NN	Case=Dat	28	obl	_	_
 26	eines	ein	DET	ART	_	27	det	_	_
-27	Geistes	Geist	NOUN	NN	_	25	nmod	_	_
+27	Geistes	Geist	NOUN	NN	Case=Gen	25	nmod	_	_
 28	belebt	beleben	VERB	VVFIN	_	17	acl	_	SpaceAfter=No
 29	,	--	PUNCT	$,	_	28	punct	_	_
 30	nach	nach	ADP	APPR	_	32	case	_	_
@@ -6448,7 +6448,7 @@
 29	Ruhm	Ruhm	NOUN	NN	Case=Acc	26	obj	_	_
 30	eines	ein	DET	ART	_	32	det	_	_
 31	großen	groß	ADJ	ADJA	_	32	amod	_	_
-32	Schriftstellers	Schriftsteller	NOUN	NN	_	29	nmod	_	SpaceAfter=No
+32	Schriftstellers	Schriftsteller	NOUN	NN	Case=Gen	29	nmod	_	SpaceAfter=No
 33	.	--	PUNCT	$.	_	12	punct	_	_
 
 # genre = fragments
@@ -8201,7 +8201,7 @@
 4	den	der	DET	ART	_	5	det	_	_
 5	Griffen	Griffen	NOUN	NN	Case=Acc	3	obj	_	_
 6	eines	ein	DET	ART	_	7	det	_	_
-7	Flötenspielers	Flötenspieler	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+7	Flötenspielers	Flötenspieler	NOUN	NN	Case=Gen	5	nmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	13	punct	_	_
 9	der	der	PRON	PRELS	Case=Nom	13	nsubj	_	_
 10	um	um	ADP	APPR	_	12	case	_	_
@@ -8708,7 +8708,7 @@
 13	Rechte	Recht	NOUN	NN	Case=Acc	17	obj	_	_
 14	eines	ein	DET	ART	_	16	det	_	_
 15	aktiven	aktiv	ADJ	ADJA	_	16	amod	_	_
-16	Erdenbürgers	Erdenbürger	NOUN	NN	_	13	nmod	_	_
+16	Erdenbürgers	Erdenbürger	NOUN	NN	Case=Gen	13	nmod	_	_
 17	erwerbe	erwerben	VERB	VVFIN	_	6	advcl	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	17	punct	_	_
 19	so	so	ADV	ADV	_	30	advmod	_	_
@@ -9222,7 +9222,7 @@
 4	Leben	Leben	NOUN	NN	Case=Nom	10	nsubj	_	_
 5	eines	ein	DET	ART	_	7	det	_	_
 6	denkenden	denkend	ADJ	ADJA	_	7	amod	_	_
-7	Menschen	Mensch	NOUN	NN	_	4	nmod	_	_
+7	Menschen	Mensch	NOUN	NN	Case=Gen	4	nmod	_	_
 8	wohl	wohl	ADV	ADV	_	10	advmod	_	_
 9	etwas	etwas	DET	PIAT	_	10	det	_	_
 10	andres	ander	ADJ	ADJD	_	0	root	_	_
@@ -10767,7 +10767,7 @@
 8	der	der	DET	ART	_	9	det	_	_
 9	Thätigkeit	Thätigkeit	NOUN	NN	_	3	conj	_	_
 10	eines	ein	DET	ART	_	11	det	_	_
-11	Wesens	Wesen	NOUN	NN	_	9	nmod	_	SpaceAfter=No
+11	Wesens	Wesen	NOUN	NN	Case=Gen	9	nmod	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -11736,7 +11736,7 @@
 15	dem	der	DET	ART	_	16	det	_	_
 16	Fund	Fund	NOUN	NN	Case=Dat	11	obl	_	_
 17	eines	ein	DET	ART	_	18	det	_	_
-18	Systems	Systems	NOUN	NN	_	16	nmod	_	SpaceAfter=No
+18	Systems	Systems	NOUN	NN	Case=Gen	16	nmod	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	18	punct	_	_
 20	das	der	PRON	PRELS	Case=Acc	23	obj	_	_
 21	sie	sie	PRON	PPER	Case=Nom	23	nsubj	_	_
@@ -11898,7 +11898,7 @@
 5	der	der	DET	ART	_	6	det	_	_
 6	Mittelpunkt	Mittelpunkt	NOUN	NN	_	0	root	_	_
 7	eines	ein	DET	ART	_	8	det	_	_
-8	Paradieses	Paradieser	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+8	Paradieses	Paradieser	NOUN	NN	Case=Gen	6	nmod	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	6	punct	_	_
 
 # newpar id = bluethenstaub-f52
@@ -12291,7 +12291,7 @@
 27	den	der	DET	ART	_	28	det	_	_
 28	Zustand	Zustand	NOUN	NN	_	32	obl	_	_
 29	eines	ein	DET	ART	_	30	det	_	_
-30	Anfängers	Anfänger	NOUN	NN	_	28	nmod	_	_
+30	Anfängers	Anfänger	NOUN	NN	Case=Gen	28	nmod	_	_
 31	zu	zu	PART	PTKZU	_	32	mark	_	_
 32	versetzen	versetzen	VERB	VVINF	_	15	xcomp	_	SpaceAfter=No
 33	.	--	PUNCT	$.	_	2	punct	_	_
@@ -12551,7 +12551,7 @@
 14	eines	ein	DET	ART	_	17	det	_	_
 15	absolut	absolut	ADJ	ADJD	_	16	advmod	_	_
 16	witzigen	witzig	ADJ	ADJA	_	17	amod	_	_
-17	Einfalls	Einfall	NOUN	NN	_	13	nmod	_	_
+17	Einfalls	Einfall	NOUN	NN	Case=Gen	13	nmod	_	_
 18	ist	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 19	:	--	PUNCT	$.	_	21	punct	_	_
 20	nemlich	nemlich	ADJ	ADJD	_	21	amod	_	_
@@ -13082,7 +13082,7 @@
 18	Anfang	Anfang	NOUN	NN	_	16	appos	_	_
 19	eines	ein	DET	ART	_	21	det	_	_
 20	unendlichen	unendlich	ADJ	ADJA	_	21	amod	_	_
-21	Romans	Roman	NOUN	NN	_	18	nmod	_	SpaceAfter=No
+21	Romans	Roman	NOUN	NN	Case=Gen	18	nmod	_	SpaceAfter=No
 22	.	--	PUNCT	$.	_	16	punct	_	_
 
 # newpar id = bluethenstaub-f67
@@ -14432,7 +14432,7 @@
 63	der	der	DET	ART	Case=Dat	64	det	_	_
 64	Idee	Idee	NOUN	NN	Case=Dat	67	obl:arg	_	_
 65	eines	ein	DET	ART	_	66	det	_	_
-66	Mittlers	Mittler	NOUN	NN	_	64	nmod	_	_
+66	Mittlers	Mittler	NOUN	NN	Case=Gen	64	nmod	_	_
 67	angemessen	angemessen	ADJ	ADJD	_	53	acl	_	_
 68	sey	sein	AUX	VAFIN	_	67	cop	_	SpaceAfter=No
 69	,	--	PUNCT	$,	_	76	punct	_	_
@@ -15219,7 +15219,7 @@
 20	Reise	Reise	NOUN	NN	_	14	conj	_	_
 21	oder	oder	CCONJ	KON	_	23	cc	_	_
 22	eines	ein	DET	ART	_	23	det	_	_
-23	Balls	Ball	NOUN	NN	_	14	conj	_	_
+23	Balls	Ball	NOUN	NN	Case=Gen	14	conj	_	_
 24	vor	vor	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
 25	:	--	PUNCT	$.	_	4	punct	_	_
 26	der	der	DET	ART	_	27	det	_	_
@@ -15312,7 +15312,7 @@
 8	die	der	DET	ART	_	9	det	_	_
 9	höchste	hoch	ADJ	ADJA	_	6	parataxis	_	_
 10	eines	ein	DET	ART	_	11	det	_	_
-11	Jämmerlings	Jämmerling	NOUN	NN	_	9	nmod	_	SpaceAfter=No
+11	Jämmerlings	Jämmerling	NOUN	NN	Case=Gen	9	nmod	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	6	punct	_	_
 
 # genre = fragments
@@ -15353,7 +15353,7 @@
 18	eines	ein	DET	ART	_	21	det	_	_
 19	solchen	solcher	DET	PIAT	_	21	amod	_	_
 20	stumpfen	stumpfen	ADJ	ADJA	_	21	amod	_	_
-21	Herrn	Herr	NOUN	NN	_	17	nmod	_	_
+21	Herrn	Herr	NOUN	NN	Case=Gen	17	nmod	_	_
 22	ist	sein	AUX	VAFIN	_	17	cop	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	29	punct	_	_
 24	und	und	CCONJ	KON	_	29	cc	_	_
@@ -15639,7 +15639,7 @@
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	_
 5	nie	nie	ADV	ADV	_	12	advmod	_	_
 6	eines	ein	DET	ART	_	7	det	_	_
-7	Gesetzes	Gesetz	NOUN	NN	_	12	obl	_	SpaceAfter=No
+7	Gesetzes	Gesetz	NOUN	NN	Case=Gen	12	obl	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	10	punct	_	_
 9	als	als	ADP	APPR	_	10	case	_	_
 10	solchen	solcher	PRON	PIS	_	7	acl	_	SpaceAfter=No
@@ -16212,7 +16212,7 @@
 3	das	der	DET	ART	_	4	det	_	_
 4	Prinzip	Prinzip	NOUN	NN	Case=Nom	2	nsubj	_	_
 5	eines	ein	DET	ART	_	6	det	_	_
-6	Kriegsschiffes	Kriegsschiff	NOUN	NN	_	4	nmod	_	_
+6	Kriegsschiffes	Kriegsschiff	NOUN	NN	Case=Gen	4	nmod	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	_	9	det	_	_
 9	Idee	Idee	NOUN	NN	_	2	obl	_	_
@@ -16257,7 +16257,7 @@
 3	die	der	DET	ART	_	4	det	_	_
 4	Idee	Idee	NOUN	NN	Case=Nom	2	nsubj	_	_
 5	eines	ein	DET	ART	_	6	det	_	_
-6	Augenblicks	Augenblick	NOUN	NN	_	4	nmod	_	_
+6	Augenblicks	Augenblick	NOUN	NN	Case=Gen	4	nmod	_	_
 7	oft	oft	ADV	ADV	_	2	advmod	_	_
 8	ungeheure	ungeheuer	ADJ	ADJA	_	9	amod	_	_
 9	Organe	Organ	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
@@ -17700,7 +17700,7 @@
 8	eines	ein	DET	ART	_	11	det	_	_
 9	wahrhaft	wahrhaft	ADV	ADV	_	10	advmod	_	_
 10	großen	groß	ADJ	ADJA	_	11	amod	_	_
-11	Mannes	Mann	NOUN	NN	_	7	nmod	_	_
+11	Mannes	Mann	NOUN	NN	Case=Gen	7	nmod	_	_
 12	zu	zu	ADP	APPR	_	13	case	_	_
 13	seyn	seyn	PROPN	NE	Case=Dat	11	nmod	_	SpaceAfter=No
 14	!	--	PUNCT	$.	_	7	punct	_	_
@@ -19178,7 +19178,7 @@
 6	Keim	Keim	NOUN	NN	_	0	root	_	_
 7	eines	ein	DET	ART	_	9	det	_	_
 8	werdenden	werdend	ADJ	ADJA	_	9	amod	_	_
-9	Objekts	Objekt	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+9	Objekts	Objekt	NOUN	NN	Case=Gen	6	nmod	_	SpaceAfter=No
 10	.	--	PUNCT	$.	_	6	punct	_	_
 
 # genre = fragments
@@ -21201,7 +21201,7 @@
 26	eines	ein	DET	ART	_	29	det	_	_
 27	solchen	solcher	DET	PIAT	_	29	amod	_	_
 28	historischen	historisch	ADJ	ADJA	_	29	amod	_	_
-29	Individuums	Individuum	NOUN	NN	_	25	nmod	_	_
+29	Individuums	Individuum	NOUN	NN	Case=Gen	25	nmod	_	_
 30	sind	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
 31	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -23142,7 +23142,7 @@
 25	chemischen	chemisch	ADJ	ADJA	_	26	amod	_	_
 26	Dekomposition	Dekomposition	NOUN	NN	_	10	parataxis	_	_
 27	eines	ein	DET	ART	_	28	det	_	_
-28	Individuums	Individuum	NOUN	NN	_	26	nmod	_	_
+28	Individuums	Individuum	NOUN	NN	Case=Gen	26	nmod	_	_
 29	in	in	ADP	APPR	_	33	case	_	_
 30	seine	sein	DET	PPOSAT	_	33	det:poss	_	_
 31	schlechthin	schlechthin	ADV	ADV	_	32	advmod	_	_
@@ -23518,7 +23518,7 @@
 46	der	der	DET	ART	_	47	det	_	_
 47	Möglichkeit	Möglichkeit	NOUN	NN	_	45	nmod	_	_
 48	eines	ein	DET	ART	_	49	det	_	_
-49	Systems	Systems	NOUN	NN	_	47	nmod	_	_
+49	Systems	Systems	NOUN	NN	Case=Gen	47	nmod	_	_
 50	ausgeht	ausgehen	VERB	VVFIN	_	33	acl	_	SpaceAfter=No
 51	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -24223,7 +24223,7 @@
 12	die	der	DET	ART	_	13	det	_	_
 13	Tugend	Tugend	NOUN	NN	_	0	root	_	_
 14	eines	ein	DET	ART	_	15	det	_	_
-15	Pagliaß	Pagliaß	NOUN	NN	_	13	nmod	_	SpaceAfter=No
+15	Pagliaß	Pagliaß	NOUN	NN	Case=Gen	13	nmod	_	SpaceAfter=No
 16	.	--	PUNCT	$.	_	13	punct	_	_
 
 # genre = fragments
@@ -24477,7 +24477,7 @@
 6	die	der	DET	ART	_	7	det	_	_
 7	Abkürzung	Abkürzung	NOUN	NN	Case=Dat	4	xcomp	_	_
 8	eines	ein	DET	ART	_	9	det	_	_
-9	Auszugs	Auszug	NOUN	NN	_	7	nmod	_	_
+9	Auszugs	Auszug	NOUN	NN	Case=Gen	7	nmod	_	_
 10	zu	zu	PART	PTKZU	_	7	mark	_	_
 11	sein	sein	AUX	VAINF	_	7	cop	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	27	punct	_	_
@@ -27352,7 +27352,7 @@
 10	der	der	DET	ART	_	11	det	_	_
 11	Prosa	Prosa	NOUN	NN	_	19	nmod	_	_
 12	eines	ein	DET	ART	_	13	det	_	_
-13	Cicero	Cicero	PROPN	NE	_	11	nmod	_	SpaceAfter=No
+13	Cicero	Cicero	PROPN	NE	Case=Gen	11	nmod	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	15	punct	_	_
 15	Caesar	Caesar	PROPN	NE	_	13	conj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	17	punct	_	_
@@ -27604,7 +27604,7 @@
 13	Kanonisation	Kanonisation	NOUN	NN	_	0	root	_	_
 14	eines	ein	DET	ART	_	16	det	_	_
 15	konsularischen	konsularisch	ADJ	ADJA	_	16	amod	_	_
-16	Ökonomen	Ökonom	NOUN	NN	_	13	nmod	_	SpaceAfter=No
+16	Ökonomen	Ökonom	NOUN	NN	Case=Gen	13	nmod	_	SpaceAfter=No
 17	.	--	PUNCT	$.	_	13	punct	_	_
 
 # genre = fragments
@@ -32792,7 +32792,7 @@
 23	dem	der	DET	ART	_	24	det	_	_
 24	Auge	Auge	NOUN	NN	Case=Dat	18	obl	_	_
 25	eines	ein	DET	ART	_	26	det	_	_
-26	Weltbürgers	Weltbürger	NOUN	NN	_	24	nmod	_	SpaceAfter=No
+26	Weltbürgers	Weltbürger	NOUN	NN	Case=Gen	24	nmod	_	SpaceAfter=No
 27	.	--	PUNCT	$.	_	3	punct	_	_
 
 # newpar id = athenaeum-f225
@@ -35672,7 +35672,7 @@
 5	eines	ein	DET	ART	_	8	det	_	_
 6	natürlichen	natürlich	ADJ	ADJA	_	8	amod	_	_
 7	optischen	optisch	ADJ	ADJA	_	8	amod	_	_
-8	Betrugs	Betrug	NOUN	NN	_	4	nmod	_	SpaceAfter=No
+8	Betrugs	Betrug	NOUN	NN	Case=Gen	4	nmod	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	4	punct	_	_
 
 # newpar id = athenaeum-f261
@@ -37207,7 +37207,7 @@
 3	eines	ein	DET	ART	_	6	det	_	_
 4	wahrhaft	wahrhaft	ADV	ADV	_	5	advmod	_	_
 5	kanonischen	kanonisch	ADJ	ADJA	_	6	amod	_	_
-6	Menschen	Mensch	NOUN	NN	_	2	nmod	_	_
+6	Menschen	Mensch	NOUN	NN	Case=Gen	2	nmod	_	_
 7	muß	müssen	AUX	VMFIN	_	9	aux	_	_
 8	durchgehends	durchgehends	ADV	ADV	_	9	advmod	_	_
 9	symbolisch	symbolisch	ADJ	ADJD	_	0	root	_	_
@@ -37982,7 +37982,7 @@
 10	Erziehung	Erziehung	NOUN	NN	Case=Dat	2	nmod	_	_
 11	eines	ein	DET	ART	_	13	det	_	_
 12	jungen	jung	ADJ	ADJA	_	13	amod	_	_
-13	Engländers	Engländer	NOUN	NN	_	10	nmod	_	SpaceAfter=No
+13	Engländers	Engländer	NOUN	NN	Case=Gen	10	nmod	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	2	punct	_	_
 15	le	le	DET	ART	Case=Nom	2	nsubj	_	_
 16	grand	grand	X	N	_	15	flat	_	_
@@ -39272,7 +39272,7 @@
 2	Schönheit	Schönheit	NOUN	NN	Case=Nom	14	nsubj	_	_
 3	eines	ein	DET	ART	_	5	det	_	_
 4	gewissen	gewiß	ADJ	ADJA	_	5	amod	_	_
-5	Alters	Alter	NOUN	NN	_	2	nmod	_	_
+5	Alters	Alter	NOUN	NN	Case=Gen	2	nmod	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	Geschlechts	Geschlecht	NOUN	NN	_	5	conj	_	_
 8	sein	sein	AUX	VAINF	_	5	cop	_	SpaceAfter=No
@@ -42125,7 +42125,7 @@
 15	dem	der	DET	ART	_	16	det	_	_
 16	Styl	Styl	NOUN	NN	_	19	obl	_	_
 17	eines	ein	DET	ART	_	18	det	_	_
-18	Gartenhauses	Gartenhaus	NOUN	NN	_	16	nmod	_	_
+18	Gartenhauses	Gartenhaus	NOUN	NN	Case=Gen	16	nmod	_	_
 19	gebaut	bauen	VERB	VVPP	_	10	conj	_	_
 20	sind	sein	AUX	VAFIN	_	19	aux	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	19	punct	_	_
@@ -43946,7 +43946,7 @@
 21	Ruhm	Ruhm	NOUN	NN	_	25	obl	_	_
 22	eines	ein	DET	ART	_	24	det	_	_
 23	großen	groß	ADJ	ADJA	_	24	amod	_	_
-24	Philosophen	Philosoph	NOUN	NN	_	21	nmod	_	_
+24	Philosophen	Philosoph	NOUN	NN	Case=Gen	21	nmod	_	_
 25	rechnen	rechnen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 26	.	--	PUNCT	$.	_	25	punct	_	_
 
@@ -45537,7 +45537,7 @@
 5	die	der	DET	ART	_	6	det	_	_
 6	Expedition	Expedition	NOUN	NN	_	0	root	_	_
 7	eines	ein	DET	ART	_	8	det	_	_
-8	Adelsdiploms	Adelsdiplom	NOUN	NN	_	6	nmod	_	_
+8	Adelsdiploms	Adelsdiplom	NOUN	NN	Case=Gen	6	nmod	_	_
 9	für	für	ADP	APPR	_	12	case	_	_
 10	eine	ein	DET	ART	_	12	det	_	_
 11	schlummernde	schlummernd	ADJ	ADJA	_	12	amod	_	_
@@ -46299,13 +46299,13 @@
 8	,	--	PUNCT	$,	_	11	punct	_	_
 9	weder	weder	CCONJ	KON	_	11	cc	_	_
 10	eines	ein	DET	ART	_	11	det	_	_
-11	Engels	Engel	NOUN	NN	_	7	nmod	_	_
+11	Engels	Engel	NOUN	NN	Case=Gen	7	nmod	_	_
 12	im	in	ADP	APPRART	_	13	case	_	_
 13	Himmel	Himmel	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	17	punct	_	_
 15	noch	noch	ADV	ADV	_	17	advmod	_	_
 16	eines	ein	DET	ART	_	17	det	_	_
-17	Helden	Held	NOUN	NN	_	11	conj	_	_
+17	Helden	Held	NOUN	NN	Case=Gen	11	conj	_	_
 18	aus	aus	ADP	APPR	_	20	case	_	_
 19	einem	ein	DET	ART	_	20	det	_	_
 20	Gedicht	Gedicht	NOUN	NN	Case=Dat	17	nmod	_	_
@@ -46314,7 +46314,7 @@
 23	,	--	PUNCT	$,	_	26	punct	_	_
 24	noch	noch	ADV	ADV	_	26	advmod	_	_
 25	eines	ein	DET	ART	_	26	det	_	_
-26	selbstgeträumten	selbstgeträumt	ADJ	ADJA	_	11	nmod	_	_
+26	selbstgeträumten	selbstgeträumt	ADJ	ADJA	Case=Gen	11	nmod	_	_
 27	oder	oder	CCONJ	KON	_	28	cc	_	_
 28	fantasierten	fantasieren	ADJ	ADJA	_	26	conj	_	SpaceAfter=No
 29	;	--	PUNCT	$.	_	7	punct	_	_
@@ -50285,7 +50285,7 @@
 15	Darstellung	Darstellung	NOUN	NN	_	6	conj	_	_
 16	eines	ein	DET	ART	_	18	det	_	_
 17	philologischen	philologisch	ADJ	ADJA	_	18	amod	_	_
-18	Experiments	Experiment	NOUN	NN	_	15	nmod	_	_
+18	Experiments	Experiment	NOUN	NN	Case=Gen	15	nmod	_	_
 19	und	und	CCONJ	KON	_	22	cc	_	_
 20	einer	ein	DET	ART	_	22	det	_	_
 21	literarischen	literarisch	ADJ	ADJA	_	22	amod	_	_
@@ -50600,7 +50600,7 @@
 4	Entwicklung	Entwicklung	NOUN	NN	Case=Dat	9	obl:arg	_	_
 5	eines	ein	DET	ART	_	7	det	_	_
 6	ursprünglichen	ursprünglich	ADJ	ADJA	_	7	amod	_	_
-7	Triebes	Trieb	NOUN	NN	_	4	nmod	_	_
+7	Triebes	Trieb	NOUN	NN	Case=Gen	4	nmod	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
 9	widmen	widmen	VERB	VVINF	_	13	csubj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
@@ -52342,7 +52342,7 @@
 49	eines	ein	DET	ART	_	52	det	_	_
 50	solchen	solcher	DET	PIAT	_	52	amod	_	_
 51	humoristischen	humoristisch	ADJ	ADJA	_	52	amod	_	_
-52	Dithyrambus	Dithyrambus	NOUN	NN	Case=Acc	76	obl	_	_
+52	Dithyrambus	Dithyrambus	NOUN	NN	Case=Gen	76	obl	_	_
 53	willen	willen	ADP	APZR	_	52	case	_	SpaceAfter=No
 54	,	--	PUNCT	$,	_	57	punct	_	_
 55	wie	wie	ADV	PWAV	_	57	cc	_	_
@@ -52362,7 +52362,7 @@
 69	Namen	Name	NOUN	NN	Case=Acc	76	obj	_	_
 70	eines	ein	DET	ART	_	72	det	_	_
 71	großen	groß	ADJ	ADJA	_	72	amod	_	_
-72	Dichters	Dichter	NOUN	NN	_	69	nmod	_	_
+72	Dichters	Dichter	NOUN	NN	Case=Gen	69	nmod	_	_
 73	nicht	nicht	PART	PTKNEG	_	76	advmod	_	_
 74	ohne	ohne	ADP	APPR	_	75	case	_	_
 75	Ungerechtigkeit	Ungerechtigkeit	NOUN	NN	Case=Acc	76	obl	_	_
