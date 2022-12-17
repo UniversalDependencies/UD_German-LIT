@@ -33,7 +33,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="3">
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">285</feat><!-- dem, ihm, uns, sich, der, ihnen, ihr, einem, den, mir -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1138</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Philosophie, Art -->
     <feat name="PronType" value="Prs" upos="PRON">334</feat><!-- sich -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
