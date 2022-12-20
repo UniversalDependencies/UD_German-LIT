@@ -20,11 +20,11 @@
     <tag name="ADV">3585</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2491</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5366</tag><!-- der, ein, sein, ihr, dieser, aller, kein, jeder, jener, mancher -->
+    <tag name="DET">5371</tag><!-- der, ein, sein, ihr, dieser, aller, kein, jeder, jener, mancher -->
     <tag name="NOUN">7388</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">31</tag><!-- zwei, drei, eins, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
-    <tag name="PRON">3195</tag><!-- der, es, sich, sie, man, er, was, alle, welcher, nichts -->
+    <tag name="PRON">3190</tag><!-- der, es, sich, sie, man, er, was, alle, welcher, nichts -->
     <tag name="PROPN">340</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
     <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
@@ -32,12 +32,13 @@
     <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="7">
+  <feats unique="8">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1237</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">327</feat><!-- Geistes, Dichters, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums, Lebens, Witzes -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3885</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
+    <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
     <feat name="PronType" value="Prs" upos="PRON">334</feat><!-- sich -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
