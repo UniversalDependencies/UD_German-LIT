@@ -17,14 +17,14 @@
   <tags unique="15">
     <tag name="ADJ">3506</tag><!-- groß, gut, hoch, alt, neu, erster, rein, schön, poetisch, ganz -->
     <tag name="ADP">2638</tag><!-- in, von, mit, zu, für, an, auf, durch, aus, nach -->
-    <tag name="ADV">3585</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
+    <tag name="ADV">3584</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2491</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5371</tag><!-- der, ein, sein, ihr, dieser, aller, kein, jeder, jener, mancher -->
+    <tag name="DET">5451</tag><!-- der, ein, sein, ihr, dieser, aller, alle, kein, jeder, jener -->
     <tag name="NOUN">7388</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">31</tag><!-- zwei, drei, eins, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
-    <tag name="PRON">3190</tag><!-- der, es, sich, sie, man, er, was, alle, welcher, nichts -->
+    <tag name="PRON">3111</tag><!-- der, es, sich, sie, man, er, was, welcher, nichts, dieser -->
     <tag name="PROPN">340</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
     <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
@@ -32,7 +32,7 @@
     <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="8">
+  <feats unique="9">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1237</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">327</feat><!-- Geistes, Dichters, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums, Lebens, Witzes -->
@@ -40,13 +40,14 @@
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
     <feat name="PronType" value="Prs" upos="PRON">334</feat><!-- sich -->
+    <feat name="PronType" value="Tot" upos="DET">96</feat><!-- alles, allem, alle -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="36">
     <dep name="acl">485</dep>
     <dep name="advcl">502</dep>
-    <dep name="advmod">4124</dep>
+    <dep name="advmod">4123</dep>
     <dep name="amod">2410</dep>
     <dep name="appos">83</dep>
     <dep name="aux">986</dep>
@@ -60,19 +61,19 @@
     <dep name="cop">1056</dep>
     <dep name="csubj">136</dep>
     <dep name="dep">33</dep>
-    <dep name="det">4787</dep>
+    <dep name="det">4790</dep>
     <dep name="det:poss">383</dep>
     <dep name="expl">161</dep>
     <dep name="fixed">65</dep>
     <dep name="flat">63</dep>
     <dep name="mark">954</dep>
-    <dep name="nmod">2038</dep>
+    <dep name="nmod">2035</dep>
     <dep name="nmod:poss">78</dep>
     <dep name="nsubj">3247</dep>
     <dep name="nsubj:pass">121</dep>
     <dep name="nummod">22</dep>
     <dep name="obj">1604</dep>
-    <dep name="obl">1598</dep>
+    <dep name="obl">1599</dep>
     <dep name="obl:agent">2</dep>
     <dep name="obl:arg">198</dep>
     <dep name="orphan">63</dep>

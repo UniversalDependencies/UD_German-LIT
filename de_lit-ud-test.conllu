@@ -481,12 +481,12 @@
 4	Poesie	Poesie	NOUN	NN	_	9	nmod	_	_
 5	mag	mögen	AUX	VMFIN	_	9	aux	_	_
 6	wohl	wohl	ADV	ADV	_	9	advmod	_	_
-7	alles	alle	DET	PIAT	_	8	det	_	_
+7	alles	alle	DET	PIAT	PronType=Tot	8	det	_	_
 8	Ganze	ganze	NOUN	NN	Case=Nom	9	nsubj	_	_
 9	halb	halb	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	und	und	CCONJ	KON	_	13	cc	_	_
-12	alles	alle	PRON	PIS	_	13	det	_	_
+12	alles	alle	DET	PIS	PronType=Tot	13	det	_	_
 13	Halbe	Halbe	PROPN	NE	Case=Nom	16	nsubj	_	_
 14	doch	doch	ADV	ADV	_	15	advmod	_	_
 15	eigentlich	eigentlich	ADV	ADV	_	16	advmod	_	_
@@ -808,11 +808,11 @@
 3	guten	gut	ADJ	ADJA	_	4	amod	_	_
 4	Gedicht	Gedicht	NOUN	NN	_	7	nmod	_	_
 5	muß	müssen	AUX	VMFIN	_	7	aux	_	_
-6	alles	alle	DET	PIAT	Case=Nom	7	nsubj	_	_
+6	alles	alle	DET	PIAT	Case=Nom|PronType=Tot	7	nsubj	_	_
 7	Absicht	Absicht	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	11	punct	_	_
 9	und	und	CCONJ	KON	_	11	cc	_	_
-10	alles	alle	PRON	PIS	_	11	det	_	_
+10	alles	alle	DET	PIS	PronType=Tot	11	det	_	_
 11	Instinkt	Instinkt	NOUN	NN	_	7	conj	_	_
 12	sein	sein	AUX	VAINF	_	7	cop	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	7	punct	_	_
@@ -912,7 +912,7 @@
 2	der	der	DET	ART	_	3	det	_	_
 3	Gemeinheit	Gemeinheit	NOUN	NN	_	1	nmod	_	SpaceAfter=No
 4	:	--	PUNCT	$.	_	1	punct	_	_
-5	Alles	alle	PRON	PIS	_	7	det	_	_
+5	Alles	alle	DET	PIS	PronType=Tot	7	det	_	_
 6	recht	recht	ADV	ADV	_	7	advmod	_	_
 7	Große	Große	NOUN	NN	Case=Nom	13	nsubj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	9	punct	_	_
@@ -962,7 +962,7 @@
 22	das	der	PRON	PDS	Case=Nom	27	nsubj	_	_
 23	ist	sein	AUX	VAFIN	_	27	cop	_	_
 24	ja	ja	ADV	ADV	_	25	advmod	_	_
-25	alles	alle	PRON	PIS	_	27	det	_	_
+25	alles	alle	DET	PIS	PronType=Tot	27	det	_	_
 26	so	so	ADV	ADV	_	27	advmod	_	_
 27	natürlich	natürlich	ADJ	ADJD	_	18	advcl	_	SpaceAfter=No
 28	.	--	PUNCT	$.	_	1	punct	_	_
@@ -1593,7 +1593,7 @@
 1	Er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
 2	wird	werden	AUX	VAFIN	_	5	aux	_	_
 3	dann	dann	ADV	ADV	_	5	advmod	_	_
-4	alles	alle	PRON	PIS	Case=Acc	5	obj	_	_
+4	alles	alle	DET	PIS	Case=Acc|PronType=Tot	5	obj	_	_
 5	sagen	sagen	VERB	VVINF	_	0	root	_	_
 6	wollen	wollen	AUX	VMINF	_	5	aux	_	SpaceAfter=No
 7	;	--	PUNCT	$.	_	11	punct	_	_
@@ -1774,7 +1774,7 @@
 17	behält	behalten	VERB	VVFIN	_	8	parataxis	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	21	punct	_	_
 19	und	und	CCONJ	KON	_	21	cc	_	_
-20	alles	alle	PRON	PIS	Case=Acc	21	obj	_	_
+20	alles	alle	DET	PIS	Case=Acc|PronType=Tot	21	obj	_	_
 21	sagen	sagen	VERB	VVINF	_	8	conj	_	_
 22	mag	mögen	AUX	VMFIN	_	21	aux	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	26	punct	_	_
@@ -2263,13 +2263,13 @@
 5	Stimmung	Stimmung	NOUN	NN	_	0	root	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	9	punct	_	_
 7	welche	welcher	PRON	PRELS	Case=Nom	9	nsubj	_	_
-8	alles	alle	PRON	PIS	Case=Acc	9	obj	_	_
+8	alles	alle	DET	PIS	Case=Acc|PronType=Tot	9	obj	_	_
 9	übersieht	übersehen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	17	punct	_	_
 11	und	und	CCONJ	KON	_	17	cc	_	_
 12	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	_
 13	über	über	ADP	APPR	_	15	case	_	_
-14	alles	alle	DET	PIAT	_	15	det	_	_
+14	alles	alle	DET	PIAT	PronType=Tot	15	det	_	_
 15	Bedingte	Bedingt	NOUN	NN	_	17	obl	_	_
 16	unendlich	unendlich	ADV	ADV	_	17	advmod	_	_
 17	erhebt	erheben	VERB	VVFIN	_	9	conj	_	SpaceAfter=No
@@ -2751,7 +2751,7 @@
 # text = Paradox ist alles, was zugleich gut und groß ist.
 1	Paradox	Paradox	NOUN	NN	Case=Nom	3	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
-3	alles	alle	PRON	PIS	_	0	root	_	SpaceAfter=No
+3	alles	alle	DET	PIS	PronType=Tot	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom	7	nsubj	_	_
 6	zugleich	zugleich	ADV	ADV	_	7	advmod	_	_
@@ -3561,7 +3561,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f67-s2
 # text = Alles wird da zünftig, und selbst die roués dieser Insel sind Pedanten.
-1	Alles	alle	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Alles	alle	DET	PIS	Case=Nom|PronType=Tot	2	nsubj	_	_
 2	wird	werden	VERB	VVFIN	_	0	root	_	_
 3	da	da	ADV	ADV	_	2	advmod	_	_
 4	zünftig	zünftig	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
@@ -4043,7 +4043,7 @@
 10	und	und	CCONJ	KON	_	17	cc	_	_
 11	zuletzt	zuletzt	ADV	ADV	_	17	advmod	_	_
 12	muß	müssen	AUX	VMFIN	_	17	aux	_	_
-13	alles	alle	PRON	PIS	Case=Nom	17	nsubj	_	_
+13	alles	alle	DET	PIS	Case=Nom|PronType=Tot	17	nsubj	_	_
 14	ein	ein	DET	ART	PronType=Art	16	det	_	_
 15	gutes	gut	ADJ	ADJA	_	16	amod	_	_
 16	Ende	Ende	NOUN	NN	Case=Acc	17	obj	_	_
@@ -4522,7 +4522,7 @@
 43	diese	dieser	PRON	PDS	Case=Nom	50	nsubj	_	_
 44	sind	sein	AUX	VAFIN	_	50	cop	_	_
 45	wie	wie	CCONJ	KOKOM	_	47	case	_	_
-46	alles	alle	DET	PIAT	_	47	det	_	_
+46	alles	alle	DET	PIAT	PronType=Tot	47	det	_	_
 47	Objektive	Objektive	NOUN	NN	_	50	nmod	_	SpaceAfter=No
 48	,	--	PUNCT	$,	_	50	punct	_	_
 49	unendlich	unendlich	ADJ	ADJD	_	50	advmod	_	_
@@ -4576,7 +4576,7 @@
 7	,	--	PUNCT	$,	_	10	punct	_	_
 8	oder	oder	CCONJ	KON	_	10	cc	_	_
 9	für	für	ADP	APPR	_	10	case	_	_
-10	alle	alle	PRON	PIS	Case=Acc	6	conj	_	SpaceAfter=No
+10	alle	alle	DET	PIS	Case=Acc|PronType=Tot	6	conj	_	SpaceAfter=No
 11	.	--	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -5416,7 +5416,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f102-s1
 # text = Alles beurteilen zu wollen, ist eine große Verirrung oder eine kleine Sünde.
-1	Alles	alle	PRON	PIS	Case=Acc	2	obj	_	_
+1	Alles	alle	DET	PIS	Case=Acc|PronType=Tot	2	obj	_	_
 2	beurteilen	beurteilen	VERB	VVFIN	_	9	csubj	_	_
 3	zu	zu	PART	PTKZU	_	2	mark	_	_
 4	wollen	wollen	AUX	VMFIN	_	2	aux	_	SpaceAfter=No
@@ -5653,7 +5653,7 @@
 4	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	37	mark	_	_
-7	alles	alle	PRON	PIS	Case=Nom	37	nsubj	_	SpaceAfter=No
+7	alles	alle	DET	PIS	Case=Nom|PronType=Tot	37	nsubj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	7	punct	_	_
 9	was	was	PRON	PRELS	Case=Acc	22	obj	_	_
 10	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
@@ -6094,19 +6094,19 @@
 1	In	in	ADP	APPR	_	2	case	_	_
 2	ihr	ihr	PRON	PPER	_	5	nmod	_	_
 3	soll	sollen	AUX	VMFIN	_	5	aux	_	_
-4	alles	alle	PRON	PIS	Case=Nom	5	nsubj	_	_
+4	alles	alle	DET	PIS	Case=Nom|PronType=Tot	5	nsubj	_	_
 5	Scherz	Scherz	NOUN	NN	Case=Nom	0	root	_	_
 6	und	und	CCONJ	KON	_	8	cc	_	_
-7	alles	alle	PRON	PIS	_	8	det	_	_
+7	alles	alle	DET	PIS	PronType=Tot	8	det	_	_
 8	Ernst	Ernst	PROPN	NE	_	5	conj	_	_
 9	sein	sein	AUX	VAINF	_	5	cop	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	13	punct	_	_
-11	alles	alle	PRON	PIS	Case=Nom	13	nsubj	_	_
+11	alles	alle	DET	PIS	Case=Nom|PronType=Tot	13	nsubj	_	_
 12	treuherzig	treuherzig	ADJ	ADJD	_	13	advmod	_	_
 13	offen	offen	ADJ	ADJD	_	5	parataxis	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	18	punct	_	_
 15	und	und	CCONJ	KON	_	18	cc	_	_
-16	alles	alle	PRON	PIS	Case=Acc	18	obj	_	_
+16	alles	alle	DET	PIS	Case=Acc|PronType=Tot	18	obj	_	_
 17	tief	tief	ADV	ADV	_	18	xcomp	_	_
 18	verstellt	verstellen	VERB	VVPP	_	5	conj	_	SpaceAfter=No
 19	.	--	PUNCT	$.	_	5	punct	_	_
@@ -6947,7 +6947,7 @@
 # text = War nicht alles, was abgenutzt werden kann, gleich anfangs schief oder platt?
 1	War	sein	AUX	VAFIN	_	12	cop	_	_
 2	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
-3	alles	alle	PRON	PIS	Case=Nom	12	nsubj	_	SpaceAfter=No
+3	alles	alle	DET	PIS	Case=Nom|PronType=Tot	12	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	6	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom	6	nsubj:pass	_	_
 6	abgenutzt	abnutzen	VERB	VVPP	_	3	acl	_	_
@@ -8641,7 +8641,7 @@
 8	hat	haben	AUX	VAFIN	_	3	parataxis	_	_
 9	Anspruch	Anspruch	NOUN	NN	Case=Acc	8	obj	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
-11	alles	alle	PRON	PIS	_	8	obl	_	SpaceAfter=No
+11	alles	alle	DET	PIS	PronType=Tot	8	obl	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -9504,7 +9504,7 @@
 7	,	--	PUNCT	$,	_	11	punct	_	_
 8	mehr	mehr	ADV	ADV	_	11	advmod	_	_
 9	als	als	CCONJ	KOKOM	_	11	case	_	_
-10	alles	alle	DET	PIAT	_	11	det	_	_
+10	alles	alle	DET	PIAT	PronType=Tot	11	det	_	_
 11	Dreyes	Dreyes	NOUN	NN	_	5	conj	_	SpaceAfter=No
 12	:	--	PUNCT	$.	_	6	punct	_	_
 13	eine	ein	DET	ART	PronType=Art	14	det	_	_
@@ -9950,7 +9950,7 @@
 1	Der	der	DET	ART	_	2	det	_	_
 2	Darsteller	Darsteller	NOUN	NN	Case=Nom	5	nsubj	_	_
 3	muß	müssen	AUX	VMFIN	_	5	aux	_	_
-4	alles	alle	PRON	PIS	Case=Acc	5	obj	_	_
+4	alles	alle	DET	PIS	Case=Acc|PronType=Tot	5	obj	_	_
 5	darstellen	darstellen	VERB	VVINF	_	0	root	_	_
 6	können	können	AUX	VVFIN	_	5	aux	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
@@ -10174,7 +10174,7 @@
 6	,	--	PUNCT	$,	_	15	punct	_	_
 7	das	der	PRON	PRELS	Case=Nom	15	nsubj	_	_
 8	wie	wie	CCONJ	KOKOM	_	10	case	_	_
-9	alles	alle	DET	PIAT	_	10	det	_	_
+9	alles	alle	DET	PIAT	PronType=Tot	10	det	_	_
 10	Spiel	Spiel	NOUN	NN	_	15	obl	_	_
 11	auf	auf	ADP	APPR	_	12	case	_	_
 12	Überraschung	Überraschung	NOUN	NN	_	15	obl	_	_
@@ -12445,7 +12445,7 @@
 5	,	--	PUNCT	$,	_	3	punct	_	_
 6	daher	daher	ADV	PROAV	_	11	advmod	_	_
 7	ist	sein	AUX	VAFIN	_	11	cop	_	_
-8	alles	alle	DET	PIAT	_	9	det	_	_
+8	alles	alle	DET	PIAT	PronType=Tot	9	det	_	_
 9	Klassische	klassische	NOUN	NN	Case=Nom	11	nsubj	_	_
 10	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 11	individuell	individuell	ADJ	ADJD	_	3	advcl	_	SpaceAfter=No
@@ -13499,7 +13499,7 @@
 2	bloß	bloß	ADV	ADV	_	3	advmod	_	_
 3	Bücher	Buch	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	alles	alle	PRON	PIS	Case=Nom	11	nsubj:pass	_	_
+5	alles	alle	DET	PIS	Case=Nom|PronType=Tot	11	nsubj:pass	_	_
 6	kann	können	AUX	VMFIN	_	11	aux	_	_
 7	auf	auf	ADP	APPR	_	10	case	_	_
 8	diese	dieser	DET	PDAT	_	10	det	_	_
@@ -14390,7 +14390,7 @@
 22	verstehe	verstehen	VERB	VVFIN	_	16	conj	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	30	punct	_	_
 24	daß	daß	SCONJ	KOUS	_	30	mark	_	_
-25	alles	alle	PRON	PIS	_	26	det	_	_
+25	alles	alle	DET	PIS	PronType=Tot	26	det	_	_
 26	Organ	Organ	NOUN	NN	Case=Nom	30	nsubj	_	_
 27	der	der	DET	ART	_	28	det	_	_
 28	Gottheit	Gottheit	NOUN	NN	_	26	nmod	_	SpaceAfter=No
@@ -14736,7 +14736,7 @@
 2	dem	der	DET	ART	_	3	det	_	_
 3	Staat	Staat	NOUN	NN	Case=Dat	6	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
-5	alles	alle	PRON	PIS	Case=Nom	6	nsubj	_	_
+5	alles	alle	DET	PIS	Case=Nom|PronType=Tot	6	nsubj	_	_
 6	Schauhandlung	Schauhandlung	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	das	der	DET	ART	_	9	det	_	_
@@ -14931,7 +14931,7 @@
 1	Sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	thun	thun	VERB	VVFIN	_	0	root	_	_
 3	das	der	PRON	PDS	Case=Acc	2	obj	_	_
-4	alles	alle	PRON	PIS	_	3	det	_	SpaceAfter=No
+4	alles	alle	DET	PIS	PronType=Tot	3	det	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	2	punct	_	_
 6	um	um	SCONJ	KOUI	_	9	case	_	_
 7	des	der	DET	ART	_	9	det	_	_
@@ -15049,7 +15049,7 @@
 1	daher	daher	ADV	PROAV	_	9	advmod	_	_
 2	auch	auch	ADV	ADV	_	9	advmod	_	_
 3	Montags	Montag	NOUN	NN	_	9	nmod	_	_
-4	alles	alle	PRON	PIS	Case=Nom	9	nsubj	_	_
+4	alles	alle	DET	PIS	Case=Nom|PronType=Tot	9	nsubj	_	_
 5	noch	noch	ADV	ADV	_	9	advmod	_	_
 6	einen	ein	DET	ART	PronType=Art	8	det	_	_
 7	raschern	raschern	ADJ	ADJA	_	8	amod	_	_
@@ -15082,7 +15082,7 @@
 18	sie	sie	PRON	PPER	Case=Nom	17	nsubj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	21	punct	_	_
 20	wie	wie	CCONJ	KOKOM	_	21	cc	_	_
-21	alles	alle	PRON	PIS	_	17	obl	_	SpaceAfter=No
+21	alles	alle	DET	PIS	PronType=Tot	17	obl	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	21	punct	_	_
 23	mühsam	mühsam	ADV	ADV	_	17	advmod	_	_
 24	und	und	CCONJ	KON	_	25	cc	_	_
@@ -15559,7 +15559,7 @@
 7	,	--	PUNCT	$,	_	12	punct	_	_
 8	wo	wo	ADV	PWAV	_	12	advmod	_	_
 9	das	der	DET	ART	_	10	det	_	_
-10	alles	alle	PRON	PIS	_	12	det	_	_
+10	alles	alle	DET	PIS	PronType=Tot	12	det	_	_
 11	so	so	ADV	ADV	_	12	advmod	_	_
 12	gemein	gemein	ADJ	ADJD	_	5	advcl	_	_
 13	wäre	sein	AUX	VAFIN	_	12	cop	_	SpaceAfter=No
@@ -16236,7 +16236,7 @@
 27	indem	indem	SCONJ	KOUS	_	38	mark	_	_
 28	er	er	PRON	PPER	Case=Nom	38	nsubj	_	_
 29	durch	durch	ADP	APPR	_	30	case	_	_
-30	alles	alle	PRON	PIS	Case=Acc	38	obl	_	_
+30	alles	alle	DET	PIS	Case=Acc|PronType=Tot	38	obl	_	_
 31	dieses	dieser	DET	PDAT	Case=Acc	38	obj	_	_
 32	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	38	obj	_	_
 33	gleichsam	gleichsam	ADJ	ADJD	_	38	advmod	_	_
@@ -16794,7 +16794,7 @@
 # sent_id = bluethenstaub-f94-s1
 # text = Beynah alles Genie war bisher einseitig, Resultat einer krankhaften Konstituzion.
 1	Beynah	Beynah	ADV	ADV	_	6	advmod	_	_
-2	alles	alle	DET	PIAT	_	3	det	_	_
+2	alles	alle	DET	PIAT	PronType=Tot	3	det	_	_
 3	Genie	Genie	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	war	sein	AUX	VAFIN	_	6	cop	_	_
 5	bisher	bisher	ADV	ADV	_	6	advmod	_	_
@@ -17004,7 +17004,7 @@
 2	der	der	DET	ART	_	3	det	_	_
 3	Abstrakzion	Abstrakzion	NOUN	NN	_	6	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
-5	alles	alle	PRON	PDS	Case=Nom	6	nsubj	_	_
+5	alles	alle	DET	PDS	Case=Nom|PronType=Tot	6	nsubj	_	_
 6	eins	eins	PRON	PDS	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	11	punct	_	_
 8	aber	aber	CCONJ	KON	_	11	cc	_	_
@@ -17023,7 +17023,7 @@
 3	Abstrakzion	Abstrakzion	NOUN	NN	Case=Dat	7	obl	_	_
 4	ist	sein	AUX	VAFIN	_	7	aux	_	_
 5	wieder	wieder	ADV	ADV	_	7	advmod	_	_
-6	alles	alle	PRON	PIS	Case=Nom	7	nsubj	_	_
+6	alles	alle	DET	PIS	Case=Nom|PronType=Tot	7	nsubj	_	_
 7	vereinigt	vereinigen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	14	punct	_	_
 9	aber	aber	CCONJ	KON	_	14	cc	_	_
@@ -17733,7 +17733,7 @@
 4	genug	genug	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	3	punct	_	_
 6	um	um	SCONJ	KOUI	_	9	mark	_	_
-7	alles	alle	DET	PIAT	_	8	det	_	_
+7	alles	alle	DET	PIAT	PronType=Tot	8	det	_	_
 8	Große	Große	NOUN	NN	Case=Acc	9	obj	_	_
 9	wegzuläugnen	wegzuläugnen	VERB	VVIZU	_	3	xcomp	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	12	punct	_	_
@@ -18239,7 +18239,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f111-s5
 # text = Alles Schöne ist ein selbsterleuchtetes, vollendetes Individuum.
-1	Alles	alle	DET	PIAT	_	2	det	_	_
+1	Alles	alle	DET	PIAT	PronType=Tot	2	det	_	_
 2	Schöne	Schöne	NOUN	NN	Case=Nom	8	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	8	cop	_	_
 4	ein	ein	DET	ART	PronType=Art	8	det	_	_
@@ -18938,7 +18938,7 @@
 7	unterworfen	unterwerfen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	7	punct	_	_
 9	welche	welcher	PRON	PRELS	Case=Nom	11	nsubj	_	_
-10	alles	alle	PRON	PIS	Case=Acc	11	obj	_	_
+10	alles	alle	DET	PIS	Case=Acc|PronType=Tot	11	obj	_	_
 11	bestimmen	bestimmen	VERB	VVINF	_	6	conj	_	_
 12	soll	sollen	AUX	VMFIN	_	11	aux	_	_
 13	was	was	PRON	PWS	Case=Nom	19	nsubj:pass	_	_
@@ -18960,7 +18960,7 @@
 29	Hier	hier	NOUN	NN	_	25	conj	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	25	punct	_	_
 31	und	und	CCONJ	KON	_	19	cc	_	_
-32	alles	alle	PRON	PIS	Case=Acc	33	obj	_	_
+32	alles	alle	DET	PIS	Case=Acc|PronType=Tot	33	obj	_	_
 33	bestimmen	bestimmen	VERB	VVINF	_	19	conj	_	_
 34	darf	dürfen	AUX	VMFIN	_	33	aux	_	SpaceAfter=No
 35	,	--	PUNCT	$,	_	33	punct	_	_
@@ -21311,7 +21311,7 @@
 2	die	der	DET	ART	_	3	det	_	_
 3	Philosophie	Philosophie	NOUN	NN	Case=Nom	10	nsubj	_	_
 4	jetzt	jetzt	ADV	ADV	_	10	advmod	_	_
-5	alles	alle	PRON	PIS	Case=Nom	10	nsubj	_	SpaceAfter=No
+5	alles	alle	DET	PIS	Case=Nom|PronType=Tot	10	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	was	was	PRON	PRELS	Case=Nom	9	nsubj	_	_
 8	ihr	ihr	PRON	PPER	Case=Dat	9	obl:arg	_	_
@@ -21391,7 +21391,7 @@
 # text = »Es ist alles Glück nur Glück;« ist das Resultat mancher literarischen Phänomene nicht minder als der meisten politischen.
 1	»Es	»es	PRON	PWS	_	6	expl	_	_
 2	ist	sein	AUX	VAFIN	_	6	cop	_	_
-3	alles	alle	PRON	PIS	_	4	det	_	_
+3	alles	alle	DET	PIS	PronType=Tot	4	det	_	_
 4	Glück	Glück	NOUN	NN	Case=Nom	6	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
 6	Glück	Glück	NOUN	NN	Case=Nom	11	csubj	_	SpaceAfter=No
@@ -22173,7 +22173,7 @@
 12	,	--	PUNCT	$,	_	11	punct	_	_
 13	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
 14	einer	ein	PRON	PIS	Case=Nom	17	nsubj	_	_
-15	alles	alle	PRON	PIS	_	16	det	_	_
+15	alles	alle	DET	PIS	PronType=Tot	16	det	_	_
 16	einzelne	einzeln	PRON	PIS	Case=Acc	17	obj	_	_
 17	übersieht	übersehen	VERB	VVFIN	_	11	advcl	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	21	punct	_	_
@@ -22255,7 +22255,7 @@
 # sent_id = athenaeum-f74-s2
 # text = Das alles kann das Wort aber schon seiner Bildung nach, gar nicht bezeichnen.
 1	Das	der	DET	ART	_	2	det	_	_
-2	alles	alle	PRON	PIS	Case=Nom	14	nsubj	_	_
+2	alles	alle	DET	PIS	Case=Nom|PronType=Tot	14	nsubj	_	_
 3	kann	können	AUX	VMFIN	_	14	aux	_	_
 4	das	der	DET	ART	_	5	det	_	_
 5	Wort	Wort	NOUN	NN	Case=Acc	14	obj	_	_
@@ -22826,7 +22826,7 @@
 8	Erklärungen	Erklärung	NOUN	NN	_	1	conj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	12	punct	_	_
 10	die	der	PRON	PRELS	Case=Nom	12	nsubj	_	_
-11	alles	alle	PRON	PIS	Case=Acc	12	obj	_	_
+11	alles	alle	DET	PIS	Case=Acc|PronType=Tot	12	obj	_	_
 12	verdunkeln	verdunkeln	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	1	punct	_	_
 
@@ -23455,7 +23455,7 @@
 5	ist	sein	AUX	VAFIN	_	7	cop	_	_
 6	das	der	DET	ART	_	7	det	_	_
 7	Wirklichwerden	Wirklichwerden	NOUN	NN	Case=Nom	0	root	_	_
-8	alles	alle	PRON	PIS	Case=Nom	9	nsubj	_	_
+8	alles	alle	DET	PIS	Case=Nom|PronType=Tot	9	nsubj	_	_
 9	dessen	der	PRON	PDS	_	7	nmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	13	punct	_	_
 11	was	was	PRON	PRELS	Case=Nom	13	nsubj	_	_
@@ -23744,7 +23744,7 @@
 # text = Philosophisch ist alles, was zur Realisierung des logischen Ideals beiträgt, und wissenschaftliche Bildung hat.
 1	Philosophisch	philosophisch	ADJ	ADJD	_	0	root	_	_
 2	ist	sein	AUX	VAFIN	_	1	cop	_	_
-3	alles	alle	PRON	PIS	Case=Nom	1	nsubj	_	SpaceAfter=No
+3	alles	alle	DET	PIS	Case=Nom|PronType=Tot	1	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	12	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom	12	nsubj	_	_
 6-7	zur	_	_	_	_	_	_	_	_
@@ -24197,7 +24197,7 @@
 3	der	der	DET	ART	_	5	det	_	_
 4	gute	gut	ADJ	ADJA	_	5	amod	_	_
 5	Wille	Wille	NOUN	NN	Case=Nom	2	nsubj	_	_
-6	alles	alle	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+6	alles	alle	DET	ADV	PronType=Tot	2	obl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	2	punct	_	_
 8	hier	hier	ADV	ADV	_	10	advmod	_	_
 9	gar	gar	ADV	ADV	_	10	advmod	_	_
@@ -24852,7 +24852,7 @@
 # text = Sie umfaßt alles, was nur poetisch ist, vom größten wieder mehre Systeme in sich enthaltenden Systeme der Kunst, bis zu dem Seufzer, dem Kuß, den das dichtende Kind aushaucht in kunstlosen Gesang.
 1	Sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	umfaßt	umfassen	VERB	VVFIN	_	0	root	_	_
-3	alles	alle	PRON	PIS	Case=Acc	2	obj	_	SpaceAfter=No
+3	alles	alle	DET	PIS	Case=Acc|PronType=Tot	2	obj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	7	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom	7	nsubj	_	_
 6	nur	nur	ADV	ADV	_	7	advmod	_	_
@@ -24919,7 +24919,7 @@
 23	ihr	ihr	DET	PPOSAT	_	24	det:poss	_	_
 24	Eins	Eins	NOUN	NN	Case=Nom	12	ccomp	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
-26	Alles	alle	PRON	PIS	_	24	conj	_	SpaceAfter=No
+26	Alles	alle	DET	PIS	PronType=Tot	24	conj	_	SpaceAfter=No
 27	;	--	PUNCT	$.	_	30	punct	_	_
 28	und	und	CCONJ	KON	_	30	cc	_	_
 29	doch	doch	ADV	ADV	_	30	advmod	_	_
@@ -25849,7 +25849,7 @@
 21	Standpunkte	Standpunkt	NOUN	NN	_	30	obl	_	_
 22	der	der	DET	ART	_	23	det	_	_
 23	Geist	Geist	NOUN	NN	Case=Nom	30	nsubj	_	_
-24	alles	alle	PRON	PIS	Case=Acc	30	obj	_	_
+24	alles	alle	DET	PIS	Case=Acc|PronType=Tot	30	obj	_	_
 25	als	als	ADP	APPR	_	26	case	_	_
 26	Geheimnis	Geheimnis	NOUN	NN	_	30	obl	_	_
 27	und	und	CCONJ	KON	_	30	cc	_	_
@@ -26185,7 +26185,7 @@
 20	und	und	CCONJ	KON	_	22	cc	_	_
 21	nur	nur	ADV	ADV	_	22	advmod	_	_
 22	verbunden	verbinden	VERB	VVPP	_	8	conj	_	_
-23	alles	alle	PRON	PIS	Case=Nom	22	nsubj	_	_
+23	alles	alle	DET	PIS	Case=Nom|PronType=Tot	22	nsubj	_	_
 24	sein	sein	AUX	VAINF	_	22	aux:pass	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	28	punct	_	_
 26	was	was	PRON	PRELS	Case=Acc	28	obj	_	_
@@ -26243,7 +26243,7 @@
 # sent_id = athenaeum-f125-s4
 # text = Grade alles, was jenem fehlt, hat dieser.
 1	Grade	Grade	ADV	ADV	_	8	advmod	_	_
-2	alles	alle	PRON	PIS	Case=Acc	8	obj	_	SpaceAfter=No
+2	alles	alle	DET	PIS	Case=Acc|PronType=Tot	8	obj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	6	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom	6	nsubj	_	_
 5	jenem	jener	PRON	PDS	Case=Dat	6	obl:arg	_	_
@@ -26488,7 +26488,7 @@
 4	wenn	wenn	SCONJ	KOUS	_	3	fixed	_	_
 5	die	der	DET	ART	_	6	det	_	_
 6	Weiber	Weiber	NOUN	NN	Case=Nom	11	nsubj	_	_
-7	alles	alle	PRON	PIS	Case=Acc	11	obj	_	_
+7	alles	alle	DET	PIS	Case=Acc|PronType=Tot	11	obj	_	_
 8	mit	mit	ADP	APPR	_	10	case	_	_
 9	eignen	eignen	ADJ	ADJA	_	10	amod	_	_
 10	Händen	Hand	NOUN	NN	Case=Dat	11	obl	_	_
@@ -26948,7 +26948,7 @@
 25	mit	mit	ADP	APPR	_	27	case	_	_
 26	liebevollem	liebevoll	ADJ	ADJA	_	27	amod	_	_
 27	Egoismus	Egoismus	NOUN	NN	Case=Dat	33	obl	_	_
-28	alles	alle	PRON	PIS	Case=Acc	33	obj	_	_
+28	alles	alle	DET	PIS	Case=Acc|PronType=Tot	33	obj	_	_
 29	zu	zu	ADP	APPR	_	30	case	_	_
 30	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	33	obl	_	_
 31	herüber	herüber	ADV	PROAV	_	33	advmod	_	_
@@ -27492,7 +27492,7 @@
 11	Autor	Autor	NOUN	NN	Case=Nom	12	nsubj	_	_
 12	las	las	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	17	punct	_	_
-14	alles	alle	PRON	PIS	Case=Acc	17	obj	_	_
+14	alles	alle	DET	PIS	Case=Acc|PronType=Tot	17	obj	_	_
 15	im	in	ADP	APPRART	_	16	case	_	_
 16	ganzen	ganz	ADJ	ADJA	Case=Nom	17	nsubj	_	_
 17	sah	sehen	VERB	VVFIN	_	12	conj	_	SpaceAfter=No
@@ -28244,7 +28244,7 @@
 8	mit	mit	ADP	APPR	_	9	case	_	_
 9	der	der	PRON	PRELS	Case=Dat	20	obl	_	_
 10	sie	sie	PRON	PPER	Case=Nom	20	nsubj	_	_
-11	alles	alle	PRON	PIS	Case=Acc	13	obj	_	_
+11	alles	alle	DET	PIS	Case=Acc|PronType=Tot	13	obj	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	wissen	wissen	VERB	VVINF	_	20	xcomp	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	19	punct	_	_
@@ -28280,7 +28280,7 @@
 44	die	der	DET	ART	_	45	det	_	_
 45	Alternative	Alternative	NOUN	NN	Case=Acc	41	obj	_	SpaceAfter=No
 46	,	--	PUNCT	$,	_	50	punct	_	_
-47	alles	alle	PRON	PIS	Case=Acc	50	obj	_	_
+47	alles	alle	DET	PIS	Case=Acc|PronType=Tot	50	obj	_	_
 48	oder	oder	CCONJ	KON	_	49	cc	_	_
 49	nichts	nichts	PRON	PIS	_	47	conj	_	_
 50	wissen	wissen	VERB	VVINF	_	45	xcomp	_	_
@@ -28631,7 +28631,7 @@
 22	Geist	Geist	NOUN	NN	Case=Nom	26	nsubj	_	_
 23	sein	sein	DET	PPOSAT	_	24	det:poss	_	_
 24	Gesetz	Gesetz	NOUN	NN	Case=Acc	26	obj	_	_
-25	allem	alle	PRON	PIS	Case=Dat	26	obl:arg	_	_
+25	allem	alle	DET	PIS	Case=Dat|PronType=Tot	26	obl:arg	_	_
 26	aufprägt	aufprägt	VERB	VVFIN	_	18	ccomp	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	26	punct	_	_
 28	und	und	CCONJ	KON	_	33	cc	_	_
@@ -29134,7 +29134,7 @@
 7	nichts	nichts	PRON	PIS	Case=Nom	8	nsubj	_	_
 8	Schmuck	Schmuck	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
-10	alles	alle	PRON	PIS	Case=Nom	12	nsubj	_	_
+10	alles	alle	DET	PIS	Case=Nom|PronType=Tot	12	nsubj	_	_
 11	notwendige	notwendig	ADJ	ADJA	_	12	amod	_	_
 12	Hieroglyphe	Hieroglyphe	NOUN	NN	_	8	conj	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	8	punct	_	_
@@ -30698,7 +30698,7 @@
 2	verfälschende	verfälschend	ADJ	ADJA	_	3	amod	_	_
 3	Kunst	Kunst	NOUN	NN	Case=Nom	8	nsubj	_	_
 4	hat	haben	AUX	VAFIN	_	8	aux	_	_
-5	alles	alle	PRON	PIS	Case=Acc	7	obj	_	_
+5	alles	alle	DET	PIS	Case=Acc|PronType=Tot	7	obj	_	_
 6	besser	gut	ADV	ADV	_	7	advmod	_	_
 7	nachahmen	nachahmen	VERB	VVINF	_	8	xcomp	_	_
 8	gelernt	lernen	VERB	VVPP	_	0	root	_	SpaceAfter=No
@@ -31837,7 +31837,7 @@
 31	leiten	leiten	VERB	VVFIN	_	29	conj	_	SpaceAfter=No
 32	,	--	PUNCT	$,	_	40	punct	_	_
 33	und	und	CCONJ	KON	_	40	cc	_	_
-34	alles	alle	PRON	PIS	Case=Nom	40	nsubj	_	_
+34	alles	alle	DET	PIS	Case=Nom|PronType=Tot	40	nsubj	_	_
 35	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	40	obj	_	_
 36	zu	zu	ADP	APPR	_	39	case	_	_
 37	einem	ein	DET	ART	PronType=Art	39	det	_	_
@@ -32009,7 +32009,7 @@
 # sent_id = athenaeum-f217-s3
 # text = Das alles muß in der Historie verschmolzen sein, wie auch die Bilder und Antithesen nur angedeutet oder wieder aufgelöst sein müssen, damit der schwebende und fließende Ausdruck dem lebendigen Werden der beweglichen Gestalten entspreche.
 1	Das	der	DET	ART	_	2	det	_	_
-2	alles	alle	PRON	PIS	Case=Nom	7	nsubj	_	_
+2	alles	alle	DET	PIS	Case=Nom|PronType=Tot	7	nsubj	_	_
 3	muß	müssen	AUX	VMFIN	_	7	aux	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	_	6	det	_	_
@@ -33266,7 +33266,7 @@
 21	skeptischen	skeptisch	ADJ	ADJA	_	22	amod	_	_
 22	Resignation	Resignation	NOUN	NN	_	33	obl	_	_
 23	auf	auf	ADP	APPR	_	27	case	_	_
-24	alles	alle	DET	PIAT	_	27	amod	_	_
+24	alles	alle	DET	PIAT	PronType=Tot	27	amod	_	_
 25	nicht	nicht	PART	PTKNEG	_	26	advmod	_	_
 26	empirische	empirisch	ADJ	ADJA	_	27	amod	_	_
 27	Wissen	wissen	NOUN	NN	Case=Acc	33	obj	_	SpaceAfter=No
@@ -33540,7 +33540,7 @@
 18	,	--	PUNCT	$,	_	16	punct	_	_
 19	müßte	müssen	AUX	VMFIN	_	22	aux	_	_
 20	wohl	wohl	ADV	ADV	_	22	advmod	_	_
-21	alles	alle	PRON	PIS	Case=Nom	22	nsubj	_	_
+21	alles	alle	DET	PIS	Case=Nom|PronType=Tot	22	nsubj	_	_
 22	Mittler	Mittler	NOUN	NN	Case=Nom	0	root	_	_
 23	sein	sein	AUX	VAINF	_	22	cop	_	SpaceAfter=No
 24	.	--	PUNCT	$.	_	22	punct	_	_
@@ -33682,7 +33682,7 @@
 6	deren	der	DET	PRELAT	_	11	nmod	_	_
 7	eins	eins	PRON	PIS	Case=Nom	11	nsubj	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
-9	alles	alle	PRON	PIS	_	7	det	_	_
+9	alles	alle	DET	PIS	PronType=Tot	7	det	_	_
 10	das	der	DET	ART	_	11	det	_	_
 11	Verhältnis	Verhältnis	NOUN	NN	Case=Nom	4	acl	_	_
 12	des	der	DET	ART	_	13	det	_	_
@@ -33770,7 +33770,7 @@
 20	Grunde	Grund	NOUN	NN	_	14	obl	_	SpaceAfter=No
 21	:	--	PUNCT	$.	_	14	punct	_	_
 22	daß	daß	SCONJ	KOUS	_	24	mark	_	_
-23	alles	alle	PRON	PIS	Case=Nom	24	nsubj:pass	_	_
+23	alles	alle	DET	PIS	Case=Nom|PronType=Tot	24	nsubj:pass	_	_
 24	poetisiert	poetisieren	VERB	VVPP	_	14	advcl	_	_
 25	werden	werden	AUX	VAINF	_	24	aux:pass	_	_
 26	soll	sollen	AUX	VMFIN	_	24	aux	_	SpaceAfter=No
@@ -34189,7 +34189,7 @@
 14	ein	ein	DET	ART	PronType=Art	15	det	_	_
 15	wenig	wenig	PRON	PIS	Case=Acc	18	obj	_	_
 16	von	von	ADP	APPR	_	17	case	_	_
-17	allem	alle	PRON	PIS	Case=Dat	15	nmod	_	_
+17	allem	alle	DET	PIS	Case=Dat|PronType=Tot	15	det	_	_
 18	haben	haben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	21	punct	_	_
 20	eine	ein	DET	ART	PronType=Art	21	det	_	_
@@ -34508,7 +34508,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f248-s3
 # text = Alles Antike ist genialisch.
-1	Alles	alle	DET	PIAT	_	2	det	_	_
+1	Alles	alle	DET	PIAT	PronType=Tot	2	det	_	_
 2	Antike	Antike	NOUN	NN	Case=Nom	4	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	4	cop	_	_
 4	genialisch	genialisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -37116,7 +37116,7 @@
 2	Genialität	Genialität	NOUN	NN	Case=Acc	3	obl	_	_
 3	existierten	existieren	VERB	VVFIN	_	0	root	_	_
 4	wir	wir	PRON	PPER	Case=Nom	3	nsubj	_	_
-5	alle	alle	DET	PIAT	_	4	appos	_	_
+5	alle	alle	DET	PIAT	PronType=Tot	4	appos	_	_
 6	überhaupt	überhaupt	ADV	ADV	_	3	advmod	_	_
 7	nicht	nicht	PART	PTKNEG	_	3	advmod	_	SpaceAfter=No
 8	.	--	PUNCT	$.	_	3	punct	_	_
@@ -37129,7 +37129,7 @@
 1	Genie	Genie	NOUN	NN	Case=Nom	5	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	5	cop	_	_
 3	zu	zu	ADP	APPR	_	4	case	_	_
-4	allem	alle	PRON	PIS	Case=Dat	5	nmod	_	_
+4	allem	alle	DET	PIS	Case=Dat|PronType=Tot	5	det	_	_
 5	nötig	nötig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	5	punct	_	_
 
@@ -38747,7 +38747,7 @@
 5	der	der	DET	ART	_	6	det	_	_
 6	Elegie	Elegie	NOUN	NN	Case=Dat	3	nmod	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
-8	allem	alle	PRON	PIS	_	6	conj	_	SpaceAfter=No
+8	allem	alle	DET	PIS	PronType=Tot	6	conj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	11	punct	_	_
 10	was	was	PRON	PRELS	Case=Nom	11	nsubj	_	_
 11	transzendental	transzendental	ADJ	ADJD	_	8	acl	_	_
@@ -39515,7 +39515,7 @@
 7	kommt	kommen	VERB	VVFIN	_	0	root	_	_
 8	ja	ja	ADV	ADV	_	7	advmod	_	_
 9	noch	noch	ADV	ADV	_	7	advmod	_	_
-10	alles	alle	PRON	PIS	Case=Nom	7	nsubj	_	_
+10	alles	alle	DET	PIS	Case=Nom|PronType=Tot	7	nsubj	_	_
 11	auf	auf	ADP	APPR	_	13	case	_	_
 12	die	der	DET	ART	_	13	det	_	_
 13	Behandlung	Behandlung	NOUN	NN	_	7	obl	_	_
@@ -40141,7 +40141,7 @@
 5	viel	viel	ADV	ADV	_	6	advmod	_	_
 6	bedeutet	bedeuten	VERB	VVFIN	_	18	advcl	_	_
 7	als	als	CCONJ	KOKOM	_	8	case	_	_
-8	Alles	alle	PRON	PIS	_	6	obl	_	_
+8	Alles	alle	DET	PIS	PronType=Tot	6	obl	_	_
 9	ein	ein	DET	ART	PronType=Art	10	det	_	_
 10	wenig	wenig	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 11	:	--	PUNCT	$.	_	18	punct	_	_
@@ -40249,7 +40249,7 @@
 26	weil	weil	SCONJ	KOUS	_	29	mark	_	_
 27	es	es	PRON	PPER	Case=Nom	29	nsubj	_	_
 28	ihr	ihr	PRON	PPER	_	29	nmod	_	_
-29	alles	alle	PRON	PIS	_	23	advcl	_	SpaceAfter=No
+29	alles	alle	DET	PIS	PronType=Tot	23	advcl	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	35	punct	_	_
 31	sondern	sondern	CCONJ	KON	_	35	cc	_	_
 32	weil	weil	SCONJ	KOUS	_	35	mark	_	_
@@ -42530,7 +42530,7 @@
 13	beweisen	beweisen	VERB	VVINF	_	6	acl	_	_
 14	muß	müssen	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
 15	:	--	PUNCT	$.	_	2	punct	_	_
-16	alles	alle	PRON	PIS	_	17	det	_	_
+16	alles	alle	DET	PIS	PronType=Tot	17	det	_	_
 17	übrige	übrig	ADJ	ADJA	Case=Nom	33	nsubj	_	_
 18	ist	sein	AUX	VAFIN	_	33	cop	_	_
 19	nur	nur	ADV	ADV	_	33	advmod	_	_
@@ -42948,7 +42948,7 @@
 39	,	--	PUNCT	$,	_	43	punct	_	_
 40	an	an	ADP	APPR	_	41	case	_	_
 41	denen	der	PRON	PRELS	_	43	obl	_	_
-42	alles	alle	PRON	PIS	Case=Nom	43	nsubj	_	_
+42	alles	alle	DET	PIS	Case=Nom|PronType=Tot	43	nsubj	_	_
 43	lehrreich	lehrreich	ADJ	ADJD	_	36	acl	_	_
 44	und	und	CCONJ	KON	_	45	cc	_	_
 45	erbaulich	erbaulich	ADJ	ADJD	_	43	conj	_	_
@@ -43398,7 +43398,7 @@
 13	es	es	PRON	PPER	Case=Nom	14	nsubj	_	_
 14	wohnt	wohnen	VERB	VVFIN	_	3	parataxis	_	_
 15	mit	mit	ADP	APPR	_	16	case	_	_
-16	allem	alle	PRON	PIS	Case=Dat	14	obl	_	SpaceAfter=No
+16	allem	alle	DET	PIS	Case=Dat|PronType=Tot	14	obl	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	20	punct	_	_
 18	was	was	PRON	PRELS	Case=Acc	20	obj	_	_
 19	ihm	ihm	PRON	PPER	Case=Dat	20	obl:arg	_	_
@@ -43445,11 +43445,11 @@
 2	Ich	ich	PRON	PPER	_	3	obl	_	_
 3	bildet	bilden	VERB	VVFIN	_	0	root	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	_
-5	alles	alle	PRON	PIS	Case=Nom	3	nsubj	_	_
+5	alles	alle	DET	PIS	Case=Nom|PronType=Tot	3	nsubj	_	_
 6	organisch	organisch	ADJ	ADJA	_	3	xcomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	10	punct	_	_
 8	und	und	CCONJ	KON	_	10	cc	_	_
-9	alles	alle	PRON	PIS	Case=Nom	10	nsubj	_	_
+9	alles	alle	DET	PIS	Case=Nom|PronType=Tot	10	nsubj	_	_
 10	hat	haben	AUX	VAFIN	_	3	conj	_	_
 11	seine	sein	DET	PPOSAT	_	12	det:poss	_	_
 12	Stelle	Stelle	NOUN	NN	Case=Acc	10	obj	_	SpaceAfter=No
@@ -43608,7 +43608,7 @@
 22	er	er	PRON	PPER	Case=Nom	21	nsubj	_	_
 23	Sinn	Sinn	NOUN	NN	Case=Acc	21	obj	_	_
 24	für	für	ADP	APPR	_	25	case	_	_
-25	alles	alle	PRON	PIS	Case=Acc	21	obl	_	SpaceAfter=No
+25	alles	alle	DET	PIS	Case=Acc|PronType=Tot	21	obl	_	SpaceAfter=No
 26	.	--	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -44282,7 +44282,7 @@
 11	werden	werden	AUX	VAINF	_	9	aux:pass	_	SpaceAfter=No
 12	;	--	PUNCT	$.	_	20	punct	_	_
 13	wer	wer	PRON	PWS	Case=Nom	15	nsubj	_	_
-14	alles	alle	PRON	PIS	Case=Acc	15	obj	_	_
+14	alles	alle	DET	PIS	Case=Acc|PronType=Tot	15	obj	_	_
 15	vernichten	vernichten	VERB	VVINF	_	20	advcl	_	_
 16	will	wollen	AUX	VMFIN	_	15	aux	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	15	punct	_	_
@@ -44398,7 +44398,7 @@
 18	allein	allein	ADV	ADV	_	19	advmod	_	_
 19	tut	tun	VERB	VVFIN	_	6	parataxis	_	_
 20	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	19	obj	_	_
-21	alles	alle	PRON	PIS	Case=Nom	19	nsubj	_	_
+21	alles	alle	DET	PIS	Case=Nom|PronType=Tot	19	nsubj	_	_
 22	auf	auf	ADP	APPR	_	19	case	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -45401,7 +45401,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f360-s3
 # text = Alles große Unheil ist seinem innersten Grunde nach eine ernsthaft Fratze, eine mauvaise plaisanterie.
-1	Alles	alle	DET	PIAT	_	3	det	_	_
+1	Alles	alle	DET	PIAT	PronType=Tot	3	det	_	_
 2	große	groß	ADJ	ADJA	_	3	amod	_	_
 3	Unheil	Unheil	NOUN	NN	Case=Nom	11	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	11	cop	_	_
@@ -47132,7 +47132,7 @@
 7	sein	sein	AUX	VAINF	_	6	cop	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	17	punct	_	_
 9	wo	wo	ADV	PWAV	_	17	mark	_	_
-10	alles	alle	DET	PIAT	_	11	det	_	_
+10	alles	alle	DET	PIAT	PronType=Tot	11	det	_	_
 11	Wesentliche	wesentliche	NOUN	NN	Case=Nom	17	nsubj	_	_
 12	durch	durch	ADP	APPR	_	14	case	_	_
 13	ein	ein	DET	ART	PronType=Art	14	det	_	_
@@ -47356,7 +47356,7 @@
 11	Großmut	Großmut	NOUN	NN	_	7	conj	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	was	was	PRON	PWS	_	7	conj	_	_
-14	alles	alle	PRON	PIS	_	13	nmod	_	_
+14	alles	alle	DET	PIS	PronType=Tot	13	det	_	_
 15	für	für	ADP	APPR	_	17	case	_	_
 16	moralisches	moralisch	ADJ	ADJA	_	17	amod	_	_
 17	Unheil	Unheil	NOUN	NN	Case=Acc	13	nmod	_	SpaceAfter=No
@@ -47817,7 +47817,7 @@
 22	Explosionen	Explosion	NOUN	NN	Case=Acc	28	obl	_	_
 23	von	von	ADP	APPR	_	24	case	_	_
 24	Leidenschaft	Leidenschaft	NOUN	NN	Case=Dat	22	nmod	_	_
-25	alles	alle	PRON	PIS	Case=Acc	28	obj	_	_
+25	alles	alle	DET	PIS	Case=Acc|PronType=Tot	28	obj	_	_
 26	in	in	ADP	APPR	_	27	case	_	_
 27	Erstaunen	Erstaunen	NOUN	NN	_	28	obl	_	_
 28	setzt	setzen	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
@@ -49419,7 +49419,7 @@
 18	,	--	PUNCT	$,	_	20	punct	_	_
 19	andre	andren	PRON	PIS	Case=Nom	20	nsubj	_	_
 20	versuchen	versuchen	VERB	VVINF	_	3	parataxis	_	_
-21	alles	alle	PRON	PIS	Case=Acc	20	obj	_	SpaceAfter=No
+21	alles	alle	DET	PIS	Case=Acc|PronType=Tot	20	obj	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	24	punct	_	_
 23	und	und	CCONJ	KON	_	24	cc	_	_
 24	halten	halten	VERB	VVFIN	_	20	conj	_	_
@@ -49533,7 +49533,7 @@
 3	hinkommen	hinkommen	VERB	VVFIN	_	5	advcl	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	wird	werden	VERB	VVFIN	_	0	root	_	_
-6	alles	alle	PRON	PIS	Case=Nom	5	nsubj	_	_
+6	alles	alle	DET	PIS	Case=Nom|PronType=Tot	5	nsubj	_	_
 7	platt	platt	ADJ	ADJD	_	5	xcomp	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	handwerksmäßig	handwerksmäßig	ADJ	ADJD	_	7	conj	_	SpaceAfter=No
@@ -49646,7 +49646,7 @@
 20	daß	daß	SCONJ	KOUS	_	25	mark	_	_
 21	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
 22	allenfalls	allenfalls	ADV	ADV	_	25	advmod	_	_
-23	alles	alle	DET	PIAT	_	24	det	_	_
+23	alles	alle	DET	PIAT	PronType=Tot	24	det	_	_
 24	Moderne	Moderne	NOUN	NN	Case=Acc	25	obj	_	_
 25	machen	machen	VERB	VVINF	_	17	advcl	_	_
 26	könnte	können	AUX	VMFIN	_	25	aux	_	SpaceAfter=No
@@ -49829,7 +49829,7 @@
 3	wahren	wahr	ADJ	ADJA	_	4	amod	_	_
 4	Prosa	Prosa	NOUN	NN	_	7	obl	_	_
 5	muß	müssen	AUX	VMFIN	_	7	aux	_	_
-6	alles	alle	PRON	PIS	Case=Nom	7	nsubj	_	_
+6	alles	alle	DET	PIS	Case=Nom|PronType=Tot	7	nsubj	_	_
 7	unterstrichen	unterstreichen	VERB	VVPP	_	0	root	_	_
 8	sein	sein	AUX	VAINF	_	7	aux	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	7	punct	_	_
@@ -51383,7 +51383,7 @@
 9	,	--	PUNCT	$,	_	46	punct	_	_
 10	und	und	CCONJ	KON	_	46	cc	_	_
 11	daß	daß	SCONJ	KOUS	_	17	mark	_	_
-12	alles	alle	PRON	PIS	_	13	det	_	_
+12	alles	alle	DET	PIS	PronType=Tot	13	det	_	_
 13	Nebenwerk	Nebenwerk	NOUN	NN	Case=Nom	17	nsubj	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	Gerüste	Gerüste	NOUN	NN	_	13	conj	_	_
@@ -51658,7 +51658,7 @@
 22	«	«	PUNCT	XY	_	21	punct	_	_
 23	und	und	CCONJ	KON	_	25	cc	_	_
 24	mit	mit	ADP	APPR	_	25	case	_	_
-25	allem	alle	PRON	PIS	Case=Dat	18	obl	_	_
+25	allem	alle	DET	PIS	Case=Dat|PronType=Tot	18	obl	_	_
 26	was	was	PRON	PIS	Case=Nom	43	nsubj	_	_
 27	in	in	ADP	APPR	_	30	case	_	_
 28	den	der	DET	ART	_	30	det	_	_
@@ -51709,7 +51709,7 @@
 1	Auch	auch	ADV	ADV	_	5	advmod	_	_
 2	hier	hier	ADV	ADV	_	5	advmod	_	_
 3	ist	sein	AUX	VAFIN	_	5	cop	_	_
-4	alles	alle	PRON	PIS	Case=Nom	5	nsubj	_	_
+4	alles	alle	DET	PIS	Case=Nom|PronType=Tot	5	nsubj	_	_
 5	klar	klar	ADJ	ADJD	_	0	root	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	transparent	transparent	ADJ	ADJD	_	5	conj	_	SpaceAfter=No
