@@ -20,11 +20,11 @@
     <tag name="ADV">3584</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2491</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5451</tag><!-- der, ein, sein, ihr, dieser, aller, alle, kein, jeder, jener -->
+    <tag name="DET">5471</tag><!-- der, ein, ihr, sein, dieser, aller, alle, kein, jeder, jener -->
     <tag name="NOUN">7388</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">31</tag><!-- zwei, drei, eins, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
-    <tag name="PRON">3111</tag><!-- der, es, sich, sie, man, er, was, welcher, nichts, dieser -->
+    <tag name="PRON">3091</tag><!-- der, es, sich, sie, man, er, was, welcher, nichts, dieser -->
     <tag name="PROPN">340</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
     <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
@@ -41,11 +41,11 @@
     <feat name="Number[psor]" value="Sing" upos="DET">199</feat><!-- seine, seiner, sein, seinem, seinen, seines, mein, meine, deine, deiner -->
     <feat name="Person" value="1" upos="DET">8</feat><!-- mein, meine, meinem, meinen, meiner, meines -->
     <feat name="Person" value="2" upos="DET">2</feat><!-- deine, deiner -->
-    <feat name="Person" value="3" upos="DET">189</feat><!-- seine, seiner, sein, seinem, seinen, seines -->
-    <feat name="Poss" value="Yes" upos="DET">199</feat><!-- seine, seiner, sein, seinem, seinen, seines, mein, meine, deine, deiner -->
+    <feat name="Person" value="3" upos="DET">382</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
+    <feat name="Poss" value="Yes" upos="DET">392</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">533</feat><!-- sich, seine, seiner, sein, seinem, seinen, seines, mein, meine, deine -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">726</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
     <feat name="PronType" value="Tot" upos="DET">96</feat><!-- alles, allem, alle -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>

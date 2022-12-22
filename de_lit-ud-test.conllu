@@ -304,7 +304,7 @@
 8	und	und	CCONJ	KON	_	10	cc	_	_
 9	das	der	DET	ART	_	10	det	_	_
 10	Quadrat	Quadrat	NOUN	NN	_	7	conj	_	_
-11	ihres	ihr	DET	PPOSAT	_	12	det:poss	_	_
+11	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Buchs	Buch	NOUN	NN	_	10	nmod	_	_
 13	sein	sein	AUX	VAINF	_	7	cop	_	SpaceAfter=No
 14	.	--	PUNCT	$.	_	7	punct	_	_
@@ -381,7 +381,7 @@
 # text = besonders wider ihre Poesie.
 1	besonders	besonders	ADV	ADV	_	4	advmod	_	_
 2	wider	wider	ADV	ADV	_	4	advmod	_	_
-3	ihre	ihr	DET	PPOSAT	_	4	det:poss	_	_
+3	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Poesie	Poesie	NOUN	NN	_	0	root	_	SpaceAfter=No
 5	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -1339,7 +1339,7 @@
 37	oder	oder	CCONJ	KON	_	38	cc	_	_
 38	feindlichen	feindlich	ADJ	ADJA	_	36	conj	_	_
 39	Berührung	Berührung	NOUN	NN	_	33	nmod	_	_
-40	ihr	ihr	DET	PPOSAT	Case=Dat	50	obl:arg	_	_
+40	ihr	ihr	DET	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	50	obl:arg	_	_
 41	blitzende	blitzend	ADJ	ADJA	_	42	amod	_	_
 42	Funken	Funke	NOUN	NN	Case=Acc	50	obj	_	_
 43	und	und	CCONJ	KON	_	45	cc	_	_
@@ -2470,7 +2470,7 @@
 9	Terminologie	Terminologie	NOUN	NN	Case=Acc	4	nmod	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
 11	Benennung	Benennung	NOUN	NN	_	9	nmod	_	_
-12	ihrer	ihr	DET	PPOSAT	_	13	det:poss	_	_
+12	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Produkte	Produkt	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	15	punct	_	_
 15	erinnert	erinnern	VERB	VVFIN	_	0	root	_	_
@@ -3299,7 +3299,7 @@
 2	klassischen	klassisch	ADJ	ADJA	_	3	amod	_	_
 3	Dichtarten	Dichtarten	NOUN	NN	Case=Nom	10	nsubj	_	_
 4	in	in	ADP	APPR	_	7	case	_	_
-5	ihrer	ihr	DET	PPOSAT	_	7	det:poss	_	_
+5	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	strengen	streng	ADJ	ADJA	_	7	amod	_	_
 7	Reinheit	Reinheit	NOUN	NN	_	3	nmod	_	_
 8	sind	sein	AUX	VAFIN	_	10	cop	_	_
@@ -3480,11 +3480,11 @@
 2	Rede	Rede	NOUN	NN	_	0	root	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	7	punct	_	_
 4	die	der	PRON	PRELS	Case=Nom	7	nsubj	_	_
-5	ihr	ihr	DET	PPOSAT	_	7	det:poss	_	_
+5	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	eignes	eign	ADJ	ADJA	_	7	amod	_	_
 7	Gesetz	Gesetz	NOUN	NN	Case=Nom	2	acl	_	_
 8	und	und	CCONJ	KON	_	11	cc	_	_
-9	ihr	ihr	DET	PPOSAT	_	11	det:poss	_	_
+9	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	eigner	eign	ADJ	ADJA	_	11	amod	_	_
 11	Zweck	Zweck	NOUN	NN	_	7	conj	_	_
 12	ist	sein	AUX	VAFIN	_	7	cop	_	SpaceAfter=No
@@ -3583,7 +3583,7 @@
 # text = So auch ihre wits, welche die unbedingte Willkür, deren Schein dem Witz das Romantische und Pikante gibt, in die Wirklichkeit einführen, und so auch witzig leben;
 1	So	so	ADV	ADV	_	4	advmod	_	_
 2	auch	auch	ADV	ADV	_	4	advmod	_	_
-3	ihre	ihr	DET	PPOSAT	_	4	det:poss	_	_
+3	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	wits	wits	NOUN	NN	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	24	punct	_	_
 6	welche	welcher	PRON	PRELS	Case=Nom	24	nsubj	_	_
@@ -3619,7 +3619,7 @@
 # sent_id = lyceum-f67-s4
 # text = daher ihr Talent zur Tollheit.
 1	daher	daher	ADV	PROAV	_	3	advmod	_	_
-2	ihr	ihr	DET	PPOSAT	_	3	det:poss	_	_
+2	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Talent	Talent	NOUN	NN	_	0	root	_	_
 4	zur	zu	ADP	APPRART	_	5	case	_	_
 5	Tollheit	Tollheit	NOUN	NN	_	3	nmod	_	SpaceAfter=No
@@ -3633,7 +3633,7 @@
 1	Sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	sterben	sterben	VERB	VVFIN	_	0	root	_	_
 3	für	für	ADP	APPR	_	5	case	_	_
-4	ihre	ihr	DET	PPOSAT	_	5	det:poss	_	_
+4	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Grundsätze	Grundsatz	NOUN	NN	Case=Acc	2	obl	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -3933,7 +3933,7 @@
 8	dann	dann	ADV	ADV	_	9	advmod	_	_
 9	einbilden	einbilden	VERB	VVINF	_	4	conj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	15	punct	_	_
-11	ihre	ihr	DET	PPOSAT	_	12	det:poss	_	_
+11	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Leser	Leser	NOUN	NN	Case=Nom	15	nsubj	_	_
 13	wären	sein	AUX	VAFIN	_	15	cop	_	_
 14	das	der	DET	ART	_	15	det	_	_
@@ -3952,7 +3952,7 @@
 27	bald	bald	ADV	ADV	_	25	advmod	_	_
 28	dahin	dahin	ADV	PROAV	_	25	advmod	_	SpaceAfter=No
 29	,	--	PUNCT	$,	_	36	punct	_	_
-30	ihr	ihr	DET	PPOSAT	_	32	det:poss	_	_
+30	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
 31	sogenanntes	sogenannt	ADJ	ADJA	_	32	amod	_	_
 32	Publikum	Publikum	NOUN	NN	Case=Acc	36	obj	_	_
 33	nicht	nicht	PART	PTKNEG	_	36	advmod	_	_
@@ -4737,7 +4737,7 @@
 27	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	33	obj	_	_
 28	selbst	selbst	ADV	ADV	_	33	advmod	_	_
 29	über	über	ADP	APPR	_	31	case	_	_
-30	ihr	ihr	DET	PPOSAT	_	31	det:poss	_	_
+30	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 31	Höchstes	Hoch	NOUN	NN	_	33	nmod	_	_
 32	zu	zu	PART	PTKZU	_	33	mark	_	_
 33	erheben	erheben	VERB	VVINF	_	23	xcomp	_	SpaceAfter=No
@@ -5050,7 +5050,7 @@
 26	genötigt	nötigen	VERB	VVPP	_	0	root	_	_
 27	werden	werden	AUX	VAINF	_	26	aux:pass	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	26	punct	_	_
-29	ihr	ihr	DET	PPOSAT	_	30	det:poss	_	_
+29	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 30	Produkt	Produkt	NOUN	NN	Case=Acc	36	obj	_	_
 31	mit	mit	ADP	APPR	_	33	case	_	_
 32	dem	der	DET	ART	_	33	det	_	_
@@ -6053,7 +6053,7 @@
 14	,	--	PUNCT	$,	_	19	punct	_	_
 15	und	und	CCONJ	KON	_	19	cc	_	_
 16	entweder	entweder	CCONJ	KON	_	19	cc	_	_
-17	ihre	ihr	DET	PPOSAT	_	18	det:poss	_	_
+17	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Freude	Freude	NOUN	NN	Case=Acc	19	obj	_	_
 19	haben	haben	AUX	VAFIN	_	13	conj	_	_
 20	an	an	ADP	APPR	_	23	case	_	_
@@ -6092,7 +6092,7 @@
 # sent_id = lyceum-f108-s5
 # text = In ihr soll alles Scherz und alles Ernst sein, alles treuherzig offen, und alles tief verstellt.
 1	In	in	ADP	APPR	_	2	case	_	_
-2	ihr	ihr	PRON	PPER	_	5	nmod	_	_
+2	ihr	ihr	DET	PPER	Person=3|Poss=Yes|PronType=Prs	5	nmod	_	_
 3	soll	sollen	AUX	VMFIN	_	5	aux	_	_
 4	alles	alle	DET	PIS	Case=Nom|PronType=Tot	5	nsubj	_	_
 5	Scherz	Scherz	NOUN	NN	Case=Nom	0	root	_	_
@@ -6327,7 +6327,7 @@
 15	was	was	PRON	PRELS	Case=Acc	20	obj	_	_
 16	die	der	DET	ART	_	17	det	_	_
 17	Prosa	Prosa	NOUN	NN	Case=Nom	20	nsubj	_	_
-18	ihr	ihr	DET	PPOSAT	Case=Dat	20	obl:arg	_	_
+18	ihr	ihr	DET	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	20	obl:arg	_	_
 19	ja	ja	ADV	ADV	_	20	advmod	_	_
 20	lassen	lassen	VERB	VVINF	_	11	acl	_	_
 21	muß	müssen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
@@ -7443,7 +7443,7 @@
 35	mit	mit	ADP	APPR	_	36	case	_	_
 36	Pomp	Pomp	NOUN	NN	Case=Dat	34	nmod	_	_
 37	in	in	ADP	APPR	_	39	case	_	_
-38	ihren	ihr	DET	PPOSAT	_	39	det:poss	_	_
+38	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	39	det:poss	_	_
 39	Johnson	Johnson	PROPN	NE	_	36	nmod	_	_
 40	aufnehmen	aufnehmen	VERB	VVINF	_	29	acl	_	_
 41	würde	werden	AUX	VAFIN	_	40	aux	_	SpaceAfter=No
@@ -7782,7 +7782,7 @@
 8	wirkliche	wirklich	ADJ	ADJA	_	9	amod	_	_
 9	Helden	Held	NOUN	NN	_	13	nmod	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
-11	ihrer	ihr	DET	PPOSAT	_	12	det:poss	_	_
+11	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Darstellung	Darstellung	NOUN	NN	_	13	obl	_	_
 13	verkleinert	verkleinern	VERB	VVPP	_	0	root	_	SpaceAfter=No
 14	?	--	PUNCT	$.	_	13	punct	_	_
@@ -8083,7 +8083,7 @@
 # text = Er ist ihr nothwendiges Organ.
 1	Er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	5	cop	_	_
-3	ihr	ihr	DET	PPOSAT	_	5	det:poss	_	_
+3	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	nothwendiges	nothwendig	ADJ	ADJA	_	5	amod	_	_
 5	Organ	Organ	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	5	punct	_	_
@@ -8149,7 +8149,7 @@
 4	Versuche	Versuch	NOUN	NN	Case=Acc	5	obl	_	_
 5	lernt	lernen	VERB	VVFIN	_	0	root	_	_
 6	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
-7	ihre	ihr	DET	PPOSAT	_	8	det:poss	_	_
+7	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Grundsätze	Grundsatz	NOUN	NN	Case=Acc	9	obj	_	_
 9	kennen	kennen	VERB	VVFIN	_	5	xcomp	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
@@ -8244,7 +8244,7 @@
 8	in	in	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	_	10	det	_	_
 10	Differenz	Differenz	NOUN	NN	_	7	obl	_	_
-11	ihrer	ihr	DET	PPOSAT	_	12	det:poss	_	_
+11	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Lebensfunkzionen	Lebensfunkzion	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	7	punct	_	_
 
@@ -8263,7 +8263,7 @@
 8	die	der	DET	ART	_	9	det	_	_
 9	Wahrheit	Wahrheit	NOUN	NN	Case=Nom	10	nsubj	_	_
 10	lebt	leben	VERB	VVFIN	_	3	parataxis	_	_
-11	ihr	ihr	DET	PPOSAT	_	12	det:poss	_	_
+11	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Leben	Leben	NOUN	NN	Case=Acc	10	obj	_	_
 13	in	in	ADP	APPR	_	14	case	_	_
 14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obl	_	SpaceAfter=No
@@ -8828,7 +8828,7 @@
 2	die	der	DET	ART	_	3	det	_	_
 3	Philosophie	Philosophie	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	hat	haben	AUX	VAFIN	_	0	root	_	_
-5	ihre	ihr	DET	PPOSAT	_	6	det:poss	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Blüthen	Blüthe	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
 7	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -8953,7 +8953,7 @@
 7	die	der	DET	ART	_	8	det	_	_
 8	Ewigkeit	Ewigkeit	NOUN	NN	Case=Nom	6	nsubj	_	_
 9	mit	mit	ADP	APPR	_	11	case	_	_
-10	ihren	ihr	DET	PPOSAT	_	11	det:poss	_	_
+10	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Welten	Welt	NOUN	NN	Case=Dat	6	obl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	14	punct	_	_
 13	die	der	DET	ART	_	14	det	_	_
@@ -8975,7 +8975,7 @@
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	sie	sie	PRON	PPER	Case=Nom	8	nsubj	_	_
 8	wirft	werfen	VERB	VVFIN	_	5	parataxis	_	_
-9	ihren	ihr	DET	PPOSAT	_	10	det:poss	_	_
+9	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Schatten	Schatten	NOUN	NN	Case=Acc	8	obj	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	das	der	DET	ART	_	13	det	_	_
@@ -9701,7 +9701,7 @@
 3	wird	werden	AUX	VAFIN	_	9	aux:pass	_	_
 4	immer	immer	ADV	ADV	_	9	advmod	_	_
 5	in	in	ADP	APPR	_	8	case	_	_
-6	ihrem	ihr	DET	PPOSAT	_	8	det:poss	_	_
+6	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	sanften	sanft	ADJ	ADJA	_	8	amod	_	_
 8	Lichte	Licht	NOUN	NN	_	9	obl	_	_
 9	bleiben	bleiben	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -10140,7 +10140,7 @@
 13	,	--	PUNCT	$,	_	20	punct	_	_
 14	und	und	CCONJ	KON	_	20	cc	_	_
 15	hat	haben	AUX	VAFIN	_	20	aux	_	_
-16	ihr	ihr	PRON	PPER	Case=Dat	20	obl:arg	_	_
+16	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	20	obl:arg	_	_
 17	einen	ein	DET	ART	PronType=Art	19	det	_	_
 18	artigen	artig	ADJ	ADJA	_	19	amod	_	_
 19	Kunstgriff	Kunstgriff	NOUN	NN	Case=Acc	20	obj	_	_
@@ -11319,13 +11319,13 @@
 # text = Dieß bestimmt ihre Wahl, ihren Wechsel, ihre Behandlung.
 1	Dieß	Dieß	PROPN	NE	Case=Nom	2	nsubj	_	_
 2	bestimmt	bestimmen	VERB	VVFIN	_	0	root	_	_
-3	ihre	ihr	DET	PPOSAT	_	4	det:poss	_	_
+3	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Wahl	Wahl	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
-6	ihren	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Wechsel	Wechsel	NOUN	NN	_	4	conj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	7	punct	_	_
-9	ihre	ihr	DET	PPOSAT	_	10	det:poss	_	_
+9	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Behandlung	Behandlung	NOUN	NN	_	4	conj	_	SpaceAfter=No
 11	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -12775,7 +12775,7 @@
 4	den	der	DET	ART	_	5	det	_	_
 5	Wissenschaften	Wissenschaft	NOUN	NN	_	2	nmod	_	_
 6	ist	sein	AUX	VAFIN	_	9	cop	_	_
-7	ihr	ihr	DET	PPOSAT	_	9	det:poss	_	_
+7	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 8	philosophisches	philosophisch	ADJ	ADJA	_	9	amod	_	_
 9	Ingrediens	Ingredien	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
@@ -13291,7 +13291,7 @@
 13	philosophischer	philosophisch	ADJ	ADJA	_	14	amod	_	_
 14	Geist	Geist	NOUN	NN	_	11	conj	_	_
 15	in	in	ADP	APPR	_	18	case	_	_
-16	ihrer	ihr	DET	PPOSAT	_	18	det:poss	_	_
+16	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 17	ganzen	ganz	ADJ	ADJA	_	18	amod	_	_
 18	Fülle	Fülle	NOUN	NN	_	19	obl	_	_
 19	durchdrungen	durdringen	VERB	VVPP	_	4	acl	_	_
@@ -14032,7 +14032,7 @@
 7	Associazion	Associazion	NOUN	NN	Case=Acc	1	obl	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	12	punct	_	_
 9	oder	oder	CCONJ	KON	_	12	cc	_	_
-10	ihre	ihr	DET	PPOSAT	_	12	det:poss	_	_
+10	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 11	besondre	besondr	ADJ	ADJA	_	12	amod	_	_
 12	Schicklichkeit	Schicklichkeit	NOUN	NN	_	1	conj	_	_
 13	dazu	dazu	ADV	PROAV	_	12	advmod	_	SpaceAfter=No
@@ -14274,7 +14274,7 @@
 19	hält	halten	VERB	VVFIN	_	10	parataxis	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	19	punct	_	_
 21	für	für	ADP	APPR	_	24	case	_	_
-22	ihre	ihr	DET	PPOSAT	_	24	det:poss	_	_
+22	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 23	sinnliche	sinnlich	ADJ	ADJA	_	24	amod	_	_
 24	Erscheinung	Erscheinung	NOUN	NN	Case=Acc	19	obl	_	SpaceAfter=No
 25	.	--	PUNCT	$.	_	3	punct	_	_
@@ -14483,7 +14483,7 @@
 10	läßt	lassen	VERB	VVFIN	_	0	root	_	_
 11	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	_
 12	doch	doch	ADV	ADV	_	10	advmod	_	_
-13	ihre	ihr	DET	PPOSAT	_	14	det:poss	_	_
+13	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Vereinigung	Vereinigung	NOUN	NN	Case=Nom	10	nsubj	_	_
 15	bewerkstelligen	bewerkstelligen	VERB	VVINF	_	10	xcomp	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	10	punct	_	_
@@ -14828,7 +14828,7 @@
 23	Repräsentanten	Repräsentant	NOUN	NN	Case=Dat	21	nmod	_	_
 24	des	der	DET	ART	_	25	det	_	_
 25	Genius	Genius	NOUN	NN	Case=Gen	23	nmod	_	_
-26	ihrer	ihr	DET	PPOSAT	_	27	det:poss	_	_
+26	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Zeit	Zeit	NOUN	NN	_	25	nmod	_	_
 28	waren	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 29	,	--	PUNCT	$,	_	42	punct	_	_
@@ -14916,7 +14916,7 @@
 1	Das	der	DET	ART	_	2	det	_	_
 2	Hauptmittel	Hauptmittel	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-4	ihr	ihr	DET	PPOSAT	_	6	det:poss	_	_
+4	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	einziger	einzig	ADJ	ADJA	_	6	amod	_	_
 6	Zweck	Zweck	NOUN	NN	Case=Acc	3	obj	_	_
 7	zu	zu	PART	PTKZU	_	8	mark	_	_
@@ -14950,7 +14950,7 @@
 3	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
 4	und	und	CCONJ	KON	_	9	cc	_	_
 5	nach	nach	ADP	APPR	_	8	case	_	_
-6	ihren	ihr	DET	PPOSAT	_	8	det:poss	_	_
+6	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	eignen	eignen	ADJ	ADJA	_	8	amod	_	_
 8	Äußerungen	Äußerung	NOUN	NN	Case=Dat	9	obl	_	_
 9	scheinen	scheinen	VERB	VVINF	_	3	conj	_	_
@@ -14980,7 +14980,7 @@
 15	eine	ein	DET	ART	PronType=Art	17	det	_	_
 16	gewisse	gewiß	ADJ	ADJA	_	17	amod	_	_
 17	Unterbrechung	Unterbrechung	NOUN	NN	_	21	obl	_	_
-18	ihres	ihr	DET	PPOSAT	_	20	det:poss	_	_
+18	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	täglichen	täglich	ADJ	ADJA	_	20	amod	_	_
 20	Laufs	Lauf	NOUN	NN	_	17	nmod	_	_
 21	gewöhnt	gewöhnen	VERB	VVPP	_	2	advcl	_	_
@@ -15062,7 +15062,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f77-s11
 # text = Ihre parties de plaisir müssen konvenzionell, gewöhnlich, modisch seyn, aber auch ihr Vergnügen verarbeiten sie, wie alles, mühsam und förmlich.
-1	Ihre	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	parties	parteisen	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	de	de	ADP	APPR	_	2	flat	_	_
 4	plaisir	plaisir	NOUN	NN	_	2	flat	_	_
@@ -15076,7 +15076,7 @@
 12	,	--	PUNCT	$,	_	17	punct	_	_
 13	aber	aber	CCONJ	KON	_	17	cc	_	_
 14	auch	auch	ADV	ADV	_	17	advmod	_	_
-15	ihr	ihr	DET	PPOSAT	_	16	det:poss	_	_
+15	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Vergnügen	Vergnügen	NOUN	NN	Case=Acc	17	obj	_	_
 17	verarbeiten	verarbeiten	VERB	VVFIN	_	6	conj	_	_
 18	sie	sie	PRON	PPER	Case=Nom	17	nsubj	_	SpaceAfter=No
@@ -15139,7 +15139,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f77-s14
 # text = Ihre sogenannte Religion wirkt blos, wie ein Opiat: reizend, betäubend, Schmerzen aus Schwäche stillend.
-1	Ihre	ihr	DET	PPOSAT	_	3	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	sogenannte	sogenannter	ADJ	ADJA	_	3	amod	_	_
 3	Religion	Religion	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	wirkt	wirken	VERB	VVFIN	_	0	root	_	_
@@ -15164,7 +15164,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f77-s15
 # text = Ihre Früh- und Abendgebete sind ihnen, wie Frühstück und Abendbrot, nothwendig.
-1	Ihre	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Früh-	Früh	NOUN	NN	Case=Nom	13	nsubj	_	_
 3	und	und	CCONJ	KON	_	4	cc	_	_
 4	Abendgebete	Abendgebet	NOUN	NN	_	2	flat	_	_
@@ -15805,7 +15805,7 @@
 1	Daher	daher	ADV	PROAV	_	7	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	7	cop	_	_
 3	sie	sie	PRON	PPER	Case=Nom	7	nsubj	_	_
-4	ihrem	ihr	DET	PPOSAT	_	5	det:poss	_	_
+4	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Prinzip	Prinzip	NOUN	NN	Case=Dat	7	nmod	_	_
 6	nach	nach	ADP	APPO	_	5	case	_	_
 7	terminirt	terminiren	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -15908,7 +15908,7 @@
 34	,	--	PUNCT	$,	_	40	punct	_	_
 35	sondern	sondern	CCONJ	KON	_	40	cc	_	_
 36	nur	nur	ADV	ADV	_	40	advmod	_	_
-37	ihren	ihr	DET	PPOSAT	_	39	det:poss	_	_
+37	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	39	det:poss	_	_
 38	eignen	eignen	ADJ	ADJA	_	39	amod	_	_
 39	Gang	Gang	NOUN	NN	Case=Acc	40	obj	_	_
 40	gehn	gehn	VERB	VVPP	_	33	conj	_	_
@@ -16078,7 +16078,7 @@
 20	nach	nach	ADP	APPR	_	22	case	_	_
 21	der	der	DET	ART	_	22	det	_	_
 22	Zahl	Zahl	NOUN	NN	Case=Dat	26	obl	_	_
-23	ihrer	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Grundsätze	Grundsatz	NOUN	NN	_	22	nmod	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
 26	rechnen	rechnen	VERB	VVINF	_	27	xcomp	_	_
@@ -16684,7 +16684,7 @@
 3	verfährt	verfahren	VERB	VVFIN	_	0	root	_	_
 4	stündlich	stündlich	ADJ	ADJD	_	3	advmod	_	_
 5	nach	nach	ADP	APPR	_	7	case	_	_
-6	ihren	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Gesetzen	Gesetz	NOUN	NN	Case=Dat	3	obl	_	_
 8	und	und	CCONJ	KON	_	18	cc	_	_
 9	die	der	DET	ART	_	10	det	_	_
@@ -18573,7 +18573,7 @@
 3	gleicht	gleichen	VERB	VVFIN	_	0	root	_	_
 4	auch	auch	ADV	ADV	_	3	advmod	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
-6	ihrer	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Entstehungsart	Entstehungsart	NOUN	NN	_	3	nmod	_	_
 8	der	der	DET	ART	_	9	det	_	_
 9	Stickluft	Stickluft	NOUN	NN	_	7	nmod	_	SpaceAfter=No
@@ -19077,7 +19077,7 @@
 15	die	der	DET	ART	_	16	det	_	_
 16	Worte	Wort	NOUN	NN	Case=Acc	21	obj	_	_
 17	in	in	ADP	APPR	_	20	case	_	_
-18	ihrem	ihr	DET	PPOSAT	_	20	det:poss	_	_
+18	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	ursprünglichen	ursprünglich	ADJ	ADJA	_	20	amod	_	_
 20	Sinne	Sinn	NOUN	NN	_	21	nmod	_	_
 21	braucht	brauchen	VERB	VVFIN	_	11	ccomp	_	SpaceAfter=No
@@ -19116,7 +19116,7 @@
 12	Shakespeares	Shakespeare	PROPN	NE	_	14	nmod:poss	_	_
 13	»	»	PUNCT	XY	_	14	punct	_	SpaceAfter=No
 14	Was	was	PRON	PWS	_	24	nmod	_	_
-15	ihr	ihr	PRON	PPER	_	14	flat	_	_
+15	ihr	ihr	DET	PPER	Person=3|Poss=Yes|PronType=Prs	14	flat	_	_
 16	wollt	wollen	AUX	VMFIN	_	14	flat	_	SpaceAfter=No
 17	«	«	PUNCT	XY	_	14	punct	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	24	punct	_	_
@@ -20437,7 +20437,7 @@
 5	,	--	PUNCT	$,	_	10	punct	_	_
 6	und	und	CCONJ	KON	_	10	cc	_	_
 7	mit	mit	ADP	APPR	_	9	case	_	_
-8	ihren	ihr	DET	PPOSAT	_	9	det:poss	_	_
+8	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Antipoden	Antipod	NOUN	NN	Case=Dat	10	obl	_	_
 10	synthesieren	synthesieren	VERB	VVINF	_	4	conj	_	SpaceAfter=No
 11	.	--	PUNCT	$.	_	4	punct	_	_
@@ -20793,7 +20793,7 @@
 1	Wahre	Wahre	ADJ	ADJA	_	2	amod	_	_
 2	Liebe	Liebe	NOUN	NN	Case=Nom	10	nsubj	_	_
 3	sollte	sollen	AUX	VMFIN	_	10	aux	_	_
-4	ihrem	ihr	DET	PPOSAT	_	5	det:poss	_	_
+4	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Ursprunge	Ursprung	NOUN	NN	Case=Dat	10	obl	_	_
 6	nach	nach	ADP	APPR	_	5	case	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	5	punct	_	_
@@ -20812,7 +20812,7 @@
 20	frei	frei	ADJ	ADJD	_	18	conj	_	_
 21	scheinen	scheinen	VERB	VVINF	_	10	conj	_	SpaceAfter=No
 22	;	--	PUNCT	$.	_	28	punct	_	_
-23	ihrem	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Charakter	Charakter	NOUN	NN	Case=Dat	28	nmod	_	_
 25	nach	nach	ADP	APPR	_	24	case	_	_
 26	aber	aber	ADV	ADV	_	28	advmod	_	_
@@ -21294,7 +21294,7 @@
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	getrennt	trennen	VERB	VVPP	_	10	conj	_	_
 13	wie	wie	CCONJ	KOKOM	_	18	case	_	_
-14	ihre	ihr	DET	PPOSAT	_	15	det:poss	_	_
+14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Diese	dieser	PRON	PDS	_	18	det	_	_
 16	und	und	CCONJ	KON	_	15	cc	_	_
 17	Jene	jener	PROPN	NE	_	15	nmod	_	_
@@ -21314,7 +21314,7 @@
 5	alles	alle	DET	PIS	Case=Nom|PronType=Tot	10	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	was	was	PRON	PRELS	Case=Nom	9	nsubj	_	_
-8	ihr	ihr	PRON	PPER	Case=Dat	9	obl:arg	_	_
+8	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	9	obl:arg	_	_
 9	vorkömmt	vorkömmen	VERB	VVFIN	_	5	acl	_	_
 10	kritisiert	kritisieren	VERB	VVFIN	_	18	advcl	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
@@ -21847,14 +21847,14 @@
 3	beweisen	beweisen	VERB	VVFIN	_	0	root	_	_
 4	die	der	DET	ART	_	5	det	_	_
 5	Größe	Größe	NOUN	NN	Case=Nom	3	nsubj	_	_
-6	ihres	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Abgottes	Abgott	NOUN	NN	_	5	nmod	_	_
 8	antithetisch	antithetisch	ADJ	ADJD	_	3	xcomp	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	3	punct	_	_
 10	durch	durch	ADP	APPR	_	12	case	_	_
 11	die	der	DET	ART	_	12	det	_	_
 12	Darlegung	Darlegung	NOUN	NN	Case=Acc	3	obl	_	_
-13	ihrer	ihr	DET	PPOSAT	_	15	det:poss	_	_
+13	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 14	eignen	eignen	ADJ	ADJA	_	15	amod	_	_
 15	Kleinheit	Kleinheit	NOUN	NN	_	12	nmod	_	SpaceAfter=No
 16	.	--	PUNCT	$.	_	3	punct	_	_
@@ -22576,7 +22576,7 @@
 16	während	während	SCONJ	KOUS	_	22	mark	_	_
 17	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
 18	andre	andren	NOUN	NN	Case=Acc	22	obj	_	_
-19	ihr	ihr	DET	PPOSAT	Case=Dat	20	det:poss	_	_
+19	ihr	ihr	DET	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Glück	Glück	NOUN	NN	Case=Dat	22	obl:arg	_	_
 21	machen	machen	VERB	VVINF	_	22	xcomp	_	_
 22	läßt	lassen	VERB	VVFIN	_	11	conj	_	SpaceAfter=No
@@ -22908,7 +22908,7 @@
 6	Virtuosität	Virtuosität	NOUN	NN	_	4	nmod	_	_
 7	haben	haben	AUX	VAFIN	_	0	root	_	_
 8	sie	sie	PRON	PPER	Case=Nom	7	nsubj	_	_
-9	ihren	ihr	DET	PPOSAT	_	10	det:poss	_	_
+9	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Zweck	Zweck	NOUN	NN	Case=Acc	7	obj	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	Wert	Wert	NOUN	NN	_	10	conj	_	SpaceAfter=No
@@ -23382,7 +23382,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f88-s4
 # text = ihre Aufklärung eine große Lichtputze für die Flamme des Enthusiasmus;
-1	ihre	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Aufklärung	Aufklärung	NOUN	NN	Case=Nom	5	nsubj	_	_
 3	eine	ein	DET	ART	PronType=Art	5	det	_	_
 4	große	groß	ADJ	ADJA	_	5	amod	_	_
@@ -23400,7 +23400,7 @@
 # sent_id = athenaeum-f88-s5
 # text = und ihre Vernunft ein gelindes Laxativ gegen unmäßige Lust und Liebe.
 1	und	und	CCONJ	KON	_	6	cc	_	_
-2	ihre	ihr	DET	PPOSAT	_	3	det:poss	_	_
+2	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Vernunft	Vernunft	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	ein	ein	DET	ART	PronType=Art	6	det	_	_
 5	gelindes	gelind	ADJ	ADJA	_	6	amod	_	_
@@ -23982,7 +23982,7 @@
 18	oder	oder	CCONJ	KON	_	22	cc	_	_
 19	daß	daß	SCONJ	KOUS	_	22	mark	_	_
 20	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
-21	ihr	ihr	PRON	PPER	Case=Dat	22	obl:arg	_	_
+21	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	22	obl:arg	_	_
 22	zeigt	zeigen	VERB	VVFIN	_	5	conj	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	22	punct	_	_
 24	sie	sie	PRON	PPER	Case=Nom	25	nsubj	_	_
@@ -23991,7 +23991,7 @@
 27	selbst	selbst	ADV	ADV	_	26	fixed	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	25	punct	_	_
 29	kann	können	AUX	VMFIN	_	32	aux	_	_
-30	ihr	ihr	PRON	PPER	Case=Dat	32	obl:arg	_	_
+30	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	32	obl:arg	_	_
 31	wenig	wenig	PRON	PIS	Case=Acc	32	obj	_	_
 32	schaden	schaden	VERB	VVINF	_	25	xcomp	_	SpaceAfter=No
 33	.	--	PUNCT	$.	_	25	punct	_	_
@@ -24014,7 +24014,7 @@
 11	ein	ein	DET	ART	PronType=Art	12	det	_	_
 12	Phönix	Phönix	NOUN	NN	Case=Nom	19	nsubj	_	_
 13	aus	aus	ADP	APPR	_	16	case	_	_
-14	ihrer	ihr	DET	PPOSAT	_	16	det:poss	_	_
+14	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 15	eignen	eignen	ADJ	ADJA	_	16	amod	_	_
 16	Asche	Asche	NOUN	NN	Case=Dat	19	nmod	_	_
 17	immer	immer	ADV	ADV	_	18	advmod	_	_
@@ -24469,7 +24469,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f110-s4
 # text = Ihr wissenschaftlicher Unterricht pflegt wohl die Abkürzung eines Auszugs zu sein, und das höchste Produkt ihrer poetischen Kunst, ihre Tragödie, ist nur die Formel einer Form.
-1	Ihr	ihr	DET	PPOSAT	_	3	det:poss	_	_
+1	Ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	wissenschaftlicher	wissenschaftlich	ADJ	ADJA	_	3	amod	_	_
 3	Unterricht	Unterricht	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	pflegt	pflegen	VERB	VVFIN	_	0	root	_	_
@@ -24485,11 +24485,11 @@
 14	das	der	DET	ART	_	16	det	_	_
 15	höchste	hoch	ADJ	ADJA	_	16	amod	_	_
 16	Produkt	Produkt	NOUN	NN	Case=Nom	27	nsubj	_	_
-17	ihrer	ihr	DET	PPOSAT	_	19	det:poss	_	_
+17	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 18	poetischen	poetisch	ADJ	ADJA	_	19	amod	_	_
 19	Kunst	Kunst	NOUN	NN	_	16	nmod	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	22	punct	_	_
-21	ihre	ihr	DET	PPOSAT	_	22	det:poss	_	_
+21	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Tragödie	Tragödie	NOUN	NN	_	19	appos	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	22	punct	_	_
 24	ist	sein	AUX	VAFIN	_	27	cop	_	_
@@ -24746,7 +24746,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f116-s2
 # text = Ihre Bestimmung ist nicht bloß, alle getrennte Gattungen der Poesie wieder zu vereinigen, und die Poesie mit der Philosophie und Rhetorik in Berührung zu setzen.
-1	Ihre	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Bestimmung	Bestimmung	NOUN	NN	Case=Nom	14	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	14	cop	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
@@ -24916,7 +24916,7 @@
 20	charakterisieren	charakterisieren	VERB	VVINF	_	24	csubj	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	20	punct	_	_
 22	sei	sein	AUX	VAFIN	_	24	cop	_	_
-23	ihr	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Eins	Eins	NOUN	NN	Case=Nom	12	ccomp	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
 26	Alles	alle	DET	PIS	PronType=Tot	24	conj	_	SpaceAfter=No
@@ -25076,7 +25076,7 @@
 28	ein	ein	DET	ART	PronType=Art	29	det	_	_
 29	Ganzes	ganze	NOUN	NN	Case=Nom	25	acl	_	_
 30	in	in	ADP	APPR	_	32	case	_	_
-31	ihren	ihr	DET	PPOSAT	_	32	det:poss	_	_
+31	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
 32	Produkten	Produkt	NOUN	NN	_	29	nmod	_	_
 33	sein	sein	AUX	VAINF	_	29	cop	_	_
 34	soll	sollen	AUX	VMFIN	_	29	aux	_	SpaceAfter=No
@@ -25087,7 +25087,7 @@
 39	organisiert	organisieren	VERB	VVPP	_	9	advcl	_	SpaceAfter=No
 40	,	--	PUNCT	$,	_	39	punct	_	_
 41	wodurch	wodurch	ADV	PAV	_	50	advmod	_	_
-42	ihr	ihr	PRON	PPER	Case=Dat	50	obl:arg	_	_
+42	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	50	obl:arg	_	_
 43	die	der	DET	ART	_	44	det	_	_
 44	Aussicht	Aussicht	NOUN	NN	Case=Nom	50	nsubj:pass	_	_
 45	auf	auf	ADP	APPR	_	49	case	_	_
@@ -25165,7 +25165,7 @@
 9	ja	ja	ADV	ADV	_	14	advmod	_	_
 10	das	der	PRON	PDS	_	14	expl	_	_
 11	ist	sein	AUX	VAFIN	_	14	aux	_	_
-12	ihr	ihr	DET	PPOSAT	_	14	det:poss	_	_
+12	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	eigentliches	eigentlich	ADJ	ADJA	_	14	amod	_	_
 14	Wesen	Wesen	NOUN	NN	_	4	parataxis	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	20	punct	_	_
@@ -25203,7 +25203,7 @@
 15	es	es	PRON	PPER	Case=Acc	16	obj	_	_
 16	wagen	wagen	VERB	VVINF	_	6	conj	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	20	punct	_	_
-18	ihr	ihr	DET	PPOSAT	_	19	det:poss	_	_
+18	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Ideal	Ideal	NOUN	NN	Case=Acc	20	obj	_	_
 20	charakterisieren	charakterisieren	VERB	VVINF	_	16	xcomp	_	_
 21	zu	zu	PART	PTKZU	_	20	mark	_	_
@@ -25229,7 +25229,7 @@
 12	und	und	CCONJ	KON	_	18	cc	_	_
 13	das	der	PRON	PDS	Case=Acc	18	obj	_	_
 14	als	als	ADP	APPR	_	17	case	_	_
-15	ihr	ihr	DET	PPOSAT	_	17	det:poss	_	_
+15	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 16	erstes	erster	ADJ	ADJA	_	17	amod	_	_
 17	Gesetz	Gesetz	NOUN	NN	_	18	obl	_	_
 18	anerkennt	anerkennen	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
@@ -25552,7 +25552,7 @@
 19	,	--	PUNCT	$,	_	25	punct	_	_
 20	die	der	PRON	PRELS	Case=Nom	25	nsubj	_	_
 21	doch	doch	ADV	ADV	_	25	advmod	_	_
-22	ihren	ihr	DET	PPOSAT	_	24	det:poss	_	_
+22	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 23	soliden	solide	ADJ	ADJA	_	24	amod	_	_
 24	Wert	Wert	NOUN	NN	Case=Acc	25	obj	_	_
 25	behalten	behalten	VERB	VVINF	_	18	acl	_	SpaceAfter=No
@@ -25646,7 +25646,7 @@
 19	sind	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	29	punct	_	_
 21	denn	denn	CCONJ	KON	_	29	cc	_	_
-22	ihre	ihr	DET	PPOSAT	_	23	det:poss	_	_
+22	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Empfindung	Empfindung	NOUN	NN	Case=Nom	29	nsubj	_	_
 24	ist	sein	AUX	VAFIN	_	29	cop	_	_
 25	nur	nur	ADV	ADV	_	29	advmod	_	_
@@ -25959,7 +25959,7 @@
 7	Individuen	Individuum	NOUN	NN	Case=Nom	13	nsubj	_	_
 8	das	der	DET	ART	_	9	det	_	_
 9	Ideal	Ideal	NOUN	NN	Case=Acc	13	obj	_	_
-10	ihrer	ihr	DET	PPOSAT	_	11	det:poss	_	_
+10	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Gattung	Gattung	NOUN	NN	_	9	nmod	_	_
 12	vollständig	vollständig	ADJ	ADJD	_	13	advmod	_	_
 13	ausdrückten	ausdrücken	VERB	VVFIN	_	2	csubj	_	SpaceAfter=No
@@ -25977,7 +25977,7 @@
 25	isoliert	isolieren	VERB	VVPP	_	19	acl	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	32	punct	_	_
 27	und	und	CCONJ	KON	_	32	cc	_	_
-28	ihrer	ihr	DET	PPOSAT	Case=Dat	29	det:poss	_	_
+28	ihrer	ihr	DET	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	Originalität	Originalität	NOUN	NN	Case=Dat	32	obl:arg	_	_
 30	gleichsam	gleichsam	ADV	ADV	_	32	advmod	_	_
 31	frei	frei	ADJ	ADJD	_	32	advmod	_	_
@@ -26053,7 +26053,7 @@
 17	weil	weil	SCONJ	KOUS	_	22	mark	_	_
 18	nur	nur	ADV	ADV	_	22	advmod	_	_
 19	in	in	ADP	APPR	_	20	case	_	_
-20	ihr	ihr	PRON	PPER	_	22	nmod	_	_
+20	ihr	ihr	DET	PPER	Person=3|Poss=Yes|PronType=Prs	22	nmod	_	_
 21	Dramen	Drama	NOUN	NN	Case=Nom	22	nsubj	_	_
 22	möglich	möglich	ADJ	ADJD	_	10	advcl	_	_
 23	sind	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
@@ -26602,7 +26602,7 @@
 10	und	und	CCONJ	KON	_	12	cc	_	_
 11	bestimmter	bestimmt	ADJ	ADJA	_	12	amod	_	_
 12	Richtung	Richtung	NOUN	NN	_	9	conj	_	_
-13	ihrer	ihr	DET	PPOSAT	_	14	det:poss	_	_
+13	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Kraft	Kraft	NOUN	NN	_	12	nmod	_	_
 15	an	an	ADP	APPR	_	16	case	_	_
 16	Biegsamkeit	Biegsamkeit	NOUN	NN	_	17	obl	_	_
@@ -26711,7 +26711,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f137-s2
 # text = Ihre Bestimmung ist, die Philosophie praktisch zu realisieren, und die praktische Unphilosophie und Antiphilosophie nicht bloß dialektisch zu besiegen, sondern real zu vernichten.
-1	Ihre	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Bestimmung	Bestimmung	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	9	punct	_	_
@@ -26779,7 +26779,7 @@
 3	setzen	setzen	VERB	VVFIN	_	0	root	_	_
 4	die	der	DET	ART	_	5	det	_	_
 5	Szene	Szene	NOUN	NN	Case=Acc	3	obj	_	_
-6	ihrer	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Dichtungen	Dichtung	NOUN	NN	_	5	nmod	_	_
 8	fast	fast	ADV	ADV	_	9	advmod	_	_
 9	immer	immer	ADV	ADV	_	3	advmod	_	_
@@ -26892,7 +26892,7 @@
 15	und	und	CCONJ	KON	_	16	cc	_	_
 16	monströsen	monströsen	ADJ	ADJA	_	14	conj	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	14	punct	_	_
-18	ihren	ihr	DET	PPOSAT	_	19	det:poss	_	_
+18	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Wert	Wert	NOUN	NN	Case=Acc	5	obj	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	22	punct	_	_
 21	als	als	ADP	APPR	_	22	case	_	_
@@ -28157,7 +28157,7 @@
 9	die	der	DET	ART	_	10	det	_	_
 10	Menschen	Mensch	NOUN	NN	Case=Acc	14	obj	_	_
 11	aus	aus	ADP	APPR	_	13	case	_	_
-12	ihren	ihr	DET	PPOSAT	_	13	det:poss	_	_
+12	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Göttern	Gött	NOUN	NN	Case=Dat	14	obl	_	_
 14	kennenlerne	kennenlern	VERB	VVFIN	_	5	advcl	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
@@ -28506,7 +28506,7 @@
 # text = Hier in ihren eignen Produkten sollten die Kritiker die schöne Mitte suchen, und nicht in den Werken der Dichter.
 1	Hier	hier	ADV	ADV	_	12	advmod	_	_
 2	in	in	ADP	APPR	_	5	case	_	_
-3	ihren	ihr	DET	PPOSAT	_	5	det:poss	_	_
+3	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	eignen	eign	ADJ	ADJA	_	5	amod	_	_
 5	Produkten	Produkt	NOUN	NN	_	12	obl	_	_
 6	sollten	sollen	AUX	VMFIN	_	12	aux	_	_
@@ -28537,7 +28537,7 @@
 3	die	der	DET	ART	_	4	det	_	_
 4	Philosophien	Philosophie	NOUN	NN	Case=Acc	2	obj	_	_
 5	nach	nach	ADP	APPR	_	7	case	_	_
-6	ihrer	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Tauglichkeit	Tauglichkeit	NOUN	NN	Case=Dat	2	obl	_	_
 8	für	für	ADP	APPR	_	10	case	_	_
 9	den	der	DET	ART	_	10	det	_	_
@@ -28697,7 +28697,7 @@
 18	hineinwärts	hineinwärts	ADV	ADV	_	15	advmod	_	_
 19	ließ	lassen	VERB	VVFIN	_	2	parataxis	_	_
 20	er	er	PRON	PPER	Case=Nom	19	nsubj	_	_
-21	ihr	ihr	PRON	PPER	Case=Dat	19	obl:arg	_	SpaceAfter=No
+21	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	19	obl:arg	_	SpaceAfter=No
 22	.	--	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -28792,7 +28792,7 @@
 3	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
 4	daraus	daraus	ADV	PAV	_	14	advmod	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
-6	ihre	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Geschicklichkeit	Geschicklichkeit	NOUN	NN	_	14	obl	_	_
 8	Romane	Roman	NOUN	NN	Case=Acc	10	obj	_	_
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
@@ -28878,7 +28878,7 @@
 16	anders	anders	ADV	ADV	_	18	advmod	_	_
 17	dazu	dazu	ADV	PROAV	_	18	advmod	_	_
 18	kommen	kommen	VERB	VVFIN	_	12	acl	_	_
-19	ihre	ihr	DET	PPOSAT	_	20	det:poss	_	_
+19	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Memoiren	Memoire	NOUN	NN	Case=Acc	22	obj	_	_
 21	zu	zu	PART	PTKZU	_	22	mark	_	_
 22	schreiben	schreiben	VERB	VVINF	_	18	xcomp	_	SpaceAfter=No
@@ -29425,7 +29425,7 @@
 3	haben	haben	AUX	VAFIN	_	0	root	_	_
 4	sie	sie	PRON	PPER	Case=Nom	9	nsubj	_	_
 5	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	9	obl:arg	_	_
-6	ihre	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Gattungen	Gattung	NOUN	NN	Case=Acc	9	obj	_	_
 8	selbst	selbst	ADV	ADV	_	9	advmod	_	_
 9	erschaffen	erschaffen	VERB	VVINF	_	3	conj	_	SpaceAfter=No
@@ -29545,7 +29545,7 @@
 4	waren	sein	AUX	VAFIN	_	12	aux	_	_
 5	schon	schon	ADV	ADV	_	12	advmod	_	_
 6	durch	durch	ADP	APPR	_	8	case	_	_
-7	ihre	ihr	DET	PPOSAT	_	8	det:poss	_	_
+7	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Gestalt	Gestalt	NOUN	NN	Case=Acc	12	obl	_	_
 9	aus	aus	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	_	11	det	_	_
@@ -29734,7 +29734,7 @@
 2	heißere	heißerer	ADJ	ADJA	_	3	amod	_	_
 3	Klima	Klima	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
-5	ihr	ihr	DET	PPOSAT	_	6	det:poss	_	_
+5	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Kolorit	Kolorit	NOUN	NN	Case=Acc	4	obj	_	_
 7	gebräunt	gebräunt	VERB	VVPP	_	4	xcomp	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	4	punct	_	_
@@ -29958,7 +29958,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f187-s2
 # text = Ihre zufälligen Wirkungen kommen hiebei nicht in Betracht, denn in schmutzigen Seelen kann selbst eine Vestalin Begierden erregen.
-1	Ihre	ihr	DET	PPOSAT	_	3	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	zufälligen	zufällig	ADJ	ADJA	_	3	amod	_	_
 3	Wirkungen	Wirkung	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	kommen	kommen	VERB	VVFIN	_	0	root	_	_
@@ -30188,7 +30188,7 @@
 2	die	der	DET	ART	_	3	det	_	_
 3	Einbildungskraft	Einbildungskraft	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	hat	haben	AUX	VAFIN	_	0	root	_	_
-5	ihre	ihr	DET	PPOSAT	_	6	det:poss	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Antithesen	Antithese	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
 7	:	--	PUNCT	$.	_	4	punct	_	_
 8	der	der	DET	ART	_	10	det	_	_
@@ -30492,7 +30492,7 @@
 16	war	sein	AUX	VAFIN	_	20	cop	_	_
 17	damals	damals	ADV	ADV	_	20	advmod	_	_
 18	in	in	ADP	APPR	_	20	case	_	_
-19	ihrer	ihr	DET	PPOSAT	_	20	det:poss	_	_
+19	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Kindheit	Kindheit	NOUN	NN	Case=Nom	2	parataxis	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	20	punct	_	_
 22	die	der	DET	ART	_	23	det	_	_
@@ -30596,7 +30596,7 @@
 11	,	--	PUNCT	$,	_	2	punct	_	_
 12	außerdem	außerdem	ADV	PROAV	_	18	advmod	_	_
 13	ist	sein	AUX	VAFIN	_	18	aux:pass	_	_
-14	ihre	ihr	DET	PPOSAT	_	15	det:poss	_	_
+14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Erwähnung	Erwähnung	NOUN	NN	Case=Nom	18	nsubj	_	_
 16	darin	darin	ADV	PROAV	_	18	advmod	_	_
 17	niemals	niemals	ADV	ADV	_	18	advmod	_	_
@@ -30771,7 +30771,7 @@
 16	im	in	ADP	APPRART	_	17	case	_	_
 17	Umgange	Umgange	NOUN	NN	_	13	nmod	_	_
 18	mit	mit	ADP	APPR	_	19	case	_	_
-19	ihr	ihr	PRON	PPER	Case=Dat	17	nmod	_	SpaceAfter=No
+19	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No
 20	?	--	PUNCT	$.	_	8	punct	_	_
 
 # newpar id = athenaeum-f196
@@ -31071,7 +31071,7 @@
 14	sie	sie	PRON	PPER	Case=Acc	20	obj	_	_
 15	mitunter	mitunter	ADV	ADV	_	20	advmod	_	_
 16	auch	auch	ADV	ADV	_	19	advmod	_	_
-17	ihre	ihr	DET	PPOSAT	_	18	det:poss	_	_
+17	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Notdurft	Notdurft	NOUN	NN	Case=Acc	19	obj	_	_
 19	verrichten	verrichten	VERB	VVINF	_	20	xcomp	_	_
 20	sehen	sehen	VERB	VVINF	_	10	conj	_	SpaceAfter=No
@@ -31317,7 +31317,7 @@
 25	diese	dieser	DET	PDAT	_	26	det	_	_
 26	Dinge	Ding	NOUN	NN	Case=Acc	30	obj	_	_
 27	vor	vor	ADP	APPR	_	29	case	_	_
-28	ihr	ihr	DET	PPOSAT	_	29	det:poss	_	_
+28	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	Richterstühlchen	Richterstühlchen	NOUN	NN	_	30	obl	_	_
 30	laden	laden	VERB	VVINF	_	19	xcomp	_	SpaceAfter=No
 31	.	--	PUNCT	$.	_	15	punct	_	_
@@ -31337,7 +31337,7 @@
 8	das	der	DET	ART	_	10	det	_	_
 9	äußerste	äußerster	ADJ	ADJA	_	10	amod	_	_
 10	Ziel	Ziel	NOUN	NN	Case=Nom	0	root	_	_
-11	ihrer	ihr	DET	PPOSAT	_	13	det:poss	_	_
+11	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 12	lauwarmen	lauwarm	ADJ	ADJA	_	13	amod	_	_
 13	Bewunderung	Bewunderung	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 14	.	--	PUNCT	$.	_	10	punct	_	_
@@ -31361,7 +31361,7 @@
 # text = Geschmack ist ihr Idol; ein Götze dem man nur ohne Freude dienen darf.
 1	Geschmack	Geschmack	PROPN	NE	Case=Nom	4	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	4	cop	_	_
-3	ihr	ihr	DET	PPOSAT	_	4	det:poss	_	_
+3	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Idol	Idol	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 5	;	--	PUNCT	$.	_	4	punct	_	_
 6	ein	ein	DET	ART	PronType=Art	7	det	_	_
@@ -31573,7 +31573,7 @@
 9	offenbar	offenbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 10	:	--	PUNCT	$.	_	15	punct	_	_
 11	aber	aber	ADV	ADV	_	15	advmod	_	_
-12	ihre	ihr	DET	PPOSAT	_	14	det:poss	_	_
+12	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	heilige	heilig	ADJ	ADJA	_	14	amod	_	_
 14	Unverletzlichkeit	Unverletzlichkeit	NOUN	NN	Case=Nom	15	nsubj	_	_
 15	folgt	folgen	VERB	VVFIN	_	9	parataxis	_	_
@@ -31874,7 +31874,7 @@
 20	als	als	SCONJ	KOUS	_	21	cc	_	_
 21	die	der	DET	ART	Case=Nom	18	nsubj	_	_
 22	auf	auf	ADP	APPR	_	24	case	_	_
-23	ihr	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Leben	Leben	NOUN	NN	_	21	nmod	_	SpaceAfter=No
 25	?	--	PUNCT	$.	_	6	punct	_	_
 
@@ -32143,7 +32143,7 @@
 29	doch	doch	CCONJ	KON	_	36	cc	_	_
 30	konnte	können	AUX	VMFIN	_	36	aux	_	_
 31	sie	sie	PRON	PPER	Case=Nom	36	nsubj	_	_
-32	ihre	ihr	DET	PPOSAT	_	33	det:poss	_	_
+32	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	Natur	Natur	NOUN	NN	Case=Acc	36	obj	_	_
 34	nicht	nicht	PART	PTKNEG	_	36	advmod	_	_
 35	ganz	ganz	ADV	ADV	_	36	advmod	_	_
@@ -32252,7 +32252,7 @@
 5	die	der	DET	ART	_	7	det	_	_
 6	überraschende	überraschend	ADJ	ADJA	_	7	amod	_	_
 7	Zufälligkeit	Zufälligkeit	NOUN	NN	Case=Acc	1	obl	_	_
-8	ihrer	ihr	DET	PPOSAT	_	9	det:poss	_	_
+8	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Entstehung	Entstehung	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	13	punct	_	_
 11	durch	durch	ADP	APPR	_	13	case	_	_
@@ -32635,7 +32635,7 @@
 9	steht	stehen	VERB	VVFIN	_	14	csubj	_	_
 10	ist	sein	AUX	VAFIN	_	14	cop	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
-12	ihr	ihr	PRON	PPER	_	14	nmod	_	_
+12	ihr	ihr	DET	PPER	Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_
 13	nur	nur	ADV	ADV	_	14	advmod	_	_
 14	Nebensache	Nebensache	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 15	.	--	PUNCT	$.	_	14	punct	_	_
@@ -33169,7 +33169,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f229-s2
 # text = Ihre Liebhaberei, die Originale zu vertilgen, oder wegzuwerfen, wenn die Übersetzung fertig war, charakterisiert den Geist ihrer Philosophie.
-1	Ihre	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Liebhaberei	Liebhaberei	NOUN	NN	Case=Nom	18	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	7	punct	_	_
 4	die	der	DET	ART	_	5	det	_	_
@@ -33189,7 +33189,7 @@
 18	charakterisiert	charakterisieren	VERB	VVFIN	_	0	root	_	_
 19	den	der	DET	ART	_	20	det	_	_
 20	Geist	Geist	NOUN	NN	Case=Acc	18	obj	_	_
-21	ihrer	ihr	DET	PPOSAT	_	22	det:poss	_	_
+21	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Philosophie	Philosophie	NOUN	NN	_	20	nmod	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	18	punct	_	_
 
@@ -34129,7 +34129,7 @@
 22	zu	zu	ADP	APPR	_	23	case	_	_
 23	Elegien	Elegie	NOUN	NN	Case=Dat	19	obl	_	_
 24	über	über	ADP	APPR	_	26	case	_	_
-25	ihren	ihr	DET	PPOSAT	_	26	det:poss	_	_
+25	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
 26	Verlust	Verlust	NOUN	NN	_	23	obl	_	SpaceAfter=No
 27	.	--	PUNCT	$.	_	8	punct	_	_
 
@@ -34903,7 +34903,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f252-s6
 # text = Ihr Anfang gäbe die Prinzipien der reinen Poetik, ihre Mitte die Theorie der besondern eigentümlich modernen Dichtarten, der didaktischen, der musikalischen, der rhetorischen im höhern Sinn u.
-1	Ihr	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Anfang	Anfang	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	gäbe	geben	VERB	VVFIN	_	0	root	_	_
 4	die	der	DET	ART	_	5	det	_	_
@@ -34912,7 +34912,7 @@
 7	reinen	rein	ADJ	ADJA	_	8	amod	_	_
 8	Poetik	Poetik	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	3	punct	_	_
-10	ihre	ihr	DET	PPOSAT	_	11	det:poss	_	_
+10	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Mitte	Mitte	NOUN	NN	_	3	conj	_	_
 12	die	der	DET	ART	_	13	det	_	_
 13	Theorie	Theorie	NOUN	NN	_	11	orphan	_	_
@@ -35098,7 +35098,7 @@
 10	nichts	nichts	DET	PIAT	Case=Acc	8	obj	_	_
 11	Neues	neue	NOUN	NN	_	10	nmod	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
-13	ihr	ihr	PRON	PPER	Case=Dat	10	nmod	_	SpaceAfter=No
+13	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No
 14	;	--	PUNCT	$.	_	8	punct	_	_
 15	doch	doch	ADV	ADV	_	16	advmod	_	_
 16	wird	werden	AUX	VAFIN	_	8	parataxis	_	_
@@ -35286,10 +35286,10 @@
 14	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Zwecken	Zweck	NOUN	NN	_	12	conj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	15	punct	_	_
-17	ihren	ihr	DET	PPOSAT	_	18	det:poss	_	_
+17	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Hindernissen	Hindernis	NOUN	NN	_	15	conj	_	_
 19	und	und	CCONJ	KON	_	21	cc	_	_
-20	ihren	ihr	DET	PPOSAT	_	21	det:poss	_	_
+20	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Gegenständen	Gegenstand	NOUN	NN	_	15	conj	_	_
 22	gründliche	gründlich	ADJ	ADJA	_	23	amod	_	_
 23	Einsicht	Einsicht	NOUN	NN	Case=Acc	26	obj	_	_
@@ -35439,19 +35439,19 @@
 5	sind	sein	AUX	VAFIN	_	6	cop	_	_
 6	ernsthaft	ernsthaft	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 7	;	--	PUNCT	$.	_	6	punct	_	_
-8	ihre	ihr	DET	PPOSAT	_	9	det:poss	_	_
+8	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Komödien	Komödie	NOUN	NN	Case=Nom	13	nsubj	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	Satiren	Satire	NOUN	NN	_	9	conj	_	_
 12	sind	sein	AUX	VAFIN	_	13	cop	_	_
 13	ernsthaft	ernsthaft	ADJ	ADJD	_	6	parataxis	_	SpaceAfter=No
 14	;	--	PUNCT	$.	_	13	punct	_	_
-15	ihre	ihr	DET	PPOSAT	_	16	det:poss	_	_
+15	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Kritik	Kritik	NOUN	NN	Case=Nom	18	nsubj	_	_
 17	ist	sein	AUX	VAFIN	_	18	cop	_	_
 18	ernsthaft	ernsthaft	ADJ	ADJD	_	13	parataxis	_	SpaceAfter=No
 19	;	--	PUNCT	$.	_	18	punct	_	_
-20	ihre	ihr	DET	PPOSAT	_	23	det:poss	_	_
+20	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 21	ganze	ganz	ADJ	ADJA	_	23	amod	_	_
 22	schöne	schön	ADJ	ADJA	_	23	amod	_	_
 23	Literatur	Literatur	NOUN	NN	Case=Nom	25	nsubj	_	_
@@ -35501,7 +35501,7 @@
 16	ekzentrischen	ekzentrisch	ADJ	ADJA	Case=Dat	17	amod	_	_
 17	Poesie	Poesie	NOUN	NN	Case=Dat	26	obl:arg	_	_
 18	in	in	ADP	APPR	_	23	case	_	_
-19	ihren	ihr	DET	PPOSAT	_	23	det:poss	_	_
+19	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 20	komischen	komisch	ADJ	ADJA	_	23	amod	_	_
 21	oder	oder	CCONJ	KON	_	22	cc	_	_
 22	tragischen	tragisch	ADJ	ADJA	_	20	conj	_	_
@@ -35656,7 +35656,7 @@
 20	und	und	CCONJ	KON	_	21	cc	_	_
 21	endige	endig	ADJ	ADJA	_	18	conj	_	_
 22	mit	mit	ADP	APPR	_	24	case	_	_
-23	ihrem	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Untergange	Untergange	NOUN	NN	Case=Dat	21	obl	_	SpaceAfter=No
 25	.	--	PUNCT	$.	_	3	punct	_	_
 
@@ -36592,7 +36592,7 @@
 3	der	der	DET	ART	_	4	det	_	_
 4	Jurisprudenz	Jurisprudenz	NOUN	NN	_	2	nmod	_	_
 5	ist	sein	AUX	VAFIN	_	11	cop	_	_
-6	ihrem	ihr	DET	PPOSAT	_	7	det:poss	_	_
+6	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Zwecke	Zweck	NOUN	NN	Case=Dat	11	nmod	_	_
 8	nach	nach	ADP	APPO	_	7	case	_	_
 9	eine	ein	DET	ART	PronType=Art	11	det	_	_
@@ -36825,7 +36825,7 @@
 19	bestimmten	bestimmt	ADJ	ADJA	_	20	amod	_	_
 20	Gemütswirkungen	Gemütswirkung	NOUN	NN	_	17	nmod	_	_
 21	in	in	ADP	APPR	_	22	case	_	_
-22	ihr	ihr	PRON	PPER	_	20	nmod	_	_
+22	ihr	ihr	DET	PPER	Person=3|Poss=Yes|PronType=Prs	20	nmod	_	_
 23	wie	wie	CCONJ	KOKOM	_	24	case	_	_
 24	Sache	Sache	NOUN	NN	_	12	conj	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
@@ -37605,7 +37605,7 @@
 15	von	von	ADP	APPR	_	16	case	_	_
 16	Universalität	Universalität	NOUN	NN	Case=Dat	14	nmod	_	_
 17	verfehlen	verfehlen	VERB	VVFIN	_	0	root	_	_
-18	ihre	ihr	DET	PPOSAT	_	19	det:poss	_	_
+18	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Wirkung	Wirkung	NOUN	NN	Case=Acc	17	obj	_	_
 20	nicht	nicht	PART	PTKNEG	_	17	advmod	_	_
 21	leicht	leicht	ADJ	ADJD	_	17	xcomp	_	SpaceAfter=No
@@ -38053,7 +38053,7 @@
 6	suchen	suchen	VERB	VVINF	_	0	root	_	_
 7	das	der	DET	ART	_	8	det	_	_
 8	Prinzip	Prinzip	NOUN	NN	Case=Acc	6	obj	_	_
-9	ihrer	ihr	DET	PPOSAT	_	10	det:poss	_	_
+9	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Philosophie	Philosophie	NOUN	NN	_	8	nmod	_	_
 11	vergeblich	vergeblich	ADV	ADV	_	6	advmod	_	_
 12	im	in	ADP	APPRART	_	13	case	_	_
@@ -38511,7 +38511,7 @@
 23	Naturen	Natur	NOUN	NN	Case=Nom	30	nsubj	_	_
 24	erst	erst	ADV	ADV	_	30	advmod	_	_
 25	nach	nach	ADP	APPR	_	27	case	_	_
-26	ihrer	ihr	DET	PPOSAT	_	27	det:poss	_	_
+26	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Art	Art	NOUN	NN	Case=Dat	30	obl	_	_
 28	zu	zu	PART	PTKZU	_	29	mark	_	_
 29	philosophieren	philosophieren	VERB	VVINF	_	30	xcomp	_	_
@@ -38565,7 +38565,7 @@
 34	muß	müssen	AUX	VMFIN	_	31	aux	_	SpaceAfter=No
 35	,	--	PUNCT	$,	_	41	punct	_	_
 36	in	in	ADP	APPR	_	39	case	_	_
-37	ihre	ihr	DET	PPOSAT	_	39	det:poss	_	_
+37	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	39	det:poss	_	_
 38	lebendigen	lebendig	ADJ	ADJA	_	39	amod	_	_
 39	Grundkräfte	Grundkraft	NOUN	NN	_	41	obl	_	_
 40	zu	zu	PART	PTKZU	_	41	mark	_	_
@@ -38573,7 +38573,7 @@
 42	,	--	PUNCT	$,	_	47	punct	_	_
 43	und	und	CCONJ	KON	_	47	cc	_	_
 44	zu	zu	ADP	APPR	_	46	case	_	_
-45	ihrem	ihr	DET	PPOSAT	_	46	det:poss	_	_
+45	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	46	det:poss	_	_
 46	Ursprung	Ursprung	NOUN	NN	Case=Dat	47	obl	_	_
 47	zurückzuführen	zurückführen	VERB	VVINF	_	8	conj	_	SpaceAfter=No
 48	,	--	PUNCT	$,	_	47	punct	_	_
@@ -39220,7 +39220,7 @@
 34	sondern	sondern	CCONJ	KON	_	39	cc	_	_
 35	was	was	PRON	PWS	Case=Nom	39	nsubj	_	_
 36	wesentlich	wesentlich	ADV	ADV	_	39	advmod	_	_
-37	ihre	ihr	DET	PPOSAT	_	38	det:poss	_	_
+37	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	38	det:poss	_	_
 38	Eigentümlichkeit	Eigentümlichkeit	NOUN	NN	Case=Acc	39	obj	_	_
 39	bezeichnet	bezeichnen	VERB	VVFIN	_	24	conj	_	SpaceAfter=No
 40	.	--	PUNCT	$.	_	15	punct	_	_
@@ -39301,7 +39301,7 @@
 4	hat	haben	AUX	VAFIN	_	20	aux	_	_
 5	nicht	nicht	PART	PTKNEG	_	20	advmod	_	_
 6	nur	nur	ADV	ADV	_	20	advmod	_	_
-7	ihre	ihr	DET	PPOSAT	_	13	det:poss	_	_
+7	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 8	unter	unter	ADP	APPR	_	9	case	_	_
 9	Anleitung	Anleitung	NOUN	NN	_	13	nmod	_	_
 10	der	der	DET	ART	_	11	det	_	_
@@ -39732,7 +39732,7 @@
 11	die	der	DET	ART	_	13	det	_	_
 12	mechanische	mechanisch	ADJ	ADJA	_	13	amod	_	_
 13	Zierlichkeit	Zierlichkeit	NOUN	NN	Case=Nom	17	nsubj	_	_
-14	ihrer	ihr	DET	PPOSAT	_	15	det:poss	_	_
+14	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Kupferstiche	Kupferstiche	NOUN	NN	_	13	nmod	_	_
 16	befürchten	befürchten	VERB	VVINF	_	17	xcomp	_	_
 17	läßt	lassen	VERB	VVFIN	_	26	advcl	_	SpaceAfter=No
@@ -39901,7 +39901,7 @@
 27	Art	Art	NOUN	NN	_	28	obl	_	_
 28	eingeschlichen	einschleichen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 29	:	--	PUNCT	$.	_	28	punct	_	_
-30	ihren	ihr	DET	PPOSAT	Case=Dat	31	det:poss	_	_
+30	ihren	ihr	DET	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 31	Jünglingen	jünglingen	NOUN	NN	Case=Dat	32	obl:arg	_	_
 32	sieht	sehen	VERB	VVFIN	_	28	parataxis	_	_
 33	es	es	PRON	PPER	Case=Nom	32	nsubj	_	_
@@ -39941,7 +39941,7 @@
 8	Grenze	Grenze	NOUN	NN	_	13	obl	_	_
 9	oder	oder	CCONJ	KON	_	10	cc	_	_
 10	Klippe	Klippe	NOUN	NN	_	8	conj	_	_
-11	ihres	ihr	DET	PPOSAT	_	12	det:poss	_	_
+11	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Talentes	Talent	NOUN	NN	_	10	nmod	_	_
 13	bewußt	bewußt	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 14	.	--	PUNCT	$.	_	13	punct	_	_
@@ -40031,7 +40031,7 @@
 18	den	der	DET	ART	_	20	det	_	_
 19	reineren	rein	ADJ	ADJA	_	20	amod	_	_
 20	Zügen	Zug	NOUN	NN	_	13	obl	_	_
-21	ihres	ihr	DET	PPOSAT	_	22	det:poss	_	_
+21	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Bildnisses	Bildnis	NOUN	NN	_	20	nmod	_	_
 23	wieder	wieder	ADP	PTKVZ	_	13	compound:prt	_	SpaceAfter=No
 24	.	--	PUNCT	$.	_	13	punct	_	_
@@ -40248,13 +40248,13 @@
 25	nicht	nicht	PART	PTKNEG	_	29	advmod	_	_
 26	weil	weil	SCONJ	KOUS	_	29	mark	_	_
 27	es	es	PRON	PPER	Case=Nom	29	nsubj	_	_
-28	ihr	ihr	PRON	PPER	_	29	nmod	_	_
+28	ihr	ihr	DET	PPER	Person=3|Poss=Yes|PronType=Prs	29	nmod	_	_
 29	alles	alle	DET	PIS	PronType=Tot	23	advcl	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	35	punct	_	_
 31	sondern	sondern	CCONJ	KON	_	35	cc	_	_
 32	weil	weil	SCONJ	KOUS	_	35	mark	_	_
 33	es	es	PRON	PPER	Case=Nom	35	nsubj	_	_
-34	ihr	ihr	PRON	PPER	Case=Dat	35	obl:arg	_	_
+34	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	35	obl:arg	_	_
 35	einziges	einzig	ADJ	ADJD	_	29	conj	_	_
 36	ist	sein	AUX	VAFIN	_	35	cop	_	SpaceAfter=No
 37	,	--	PUNCT	$,	_	41	punct	_	_
@@ -40269,7 +40269,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f319-s3
 # text = Ihr Geist ist nicht so wohl in enge Grenzen eingeschlossen; er hört vielmehr gleich auf, und wo er aufhört, geht unmittelbar der leere Raum an.
-1	Ihr	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Geist	Geist	NOUN	NN	Case=Nom	10	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	10	cop	_	_
 4	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
@@ -40304,7 +40304,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f319-s4
 # text = Ihr ganzes Wesen ist wie ein Punkt, der aber doch die Ähnlichkeit mit dem Golde hat, daß er sich zu einem unglaublich dünnen Plättchen sehr weit auseinanderschlagen läßt.
-1	Ihr	ihr	DET	PPOSAT	_	3	det:poss	_	_
+1	Ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	ganzes	ganz	ADJ	ADJA	_	3	amod	_	_
 3	Wesen	Wesen	NOUN	NN	Case=Nom	7	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	7	cop	_	_
@@ -41724,7 +41724,7 @@
 2	,	--	PUNCT	$,	_	8	punct	_	_
 3	weil	weil	SCONJ	KOUS	_	8	mark	_	_
 4	sie	sie	PRON	PPER	Case=Nom	8	nsubj	_	_
-5	ihres	ihr	DET	PPOSAT	_	7	det:poss	_	_
+5	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	gleichmäßigen	gleichmäßig	ADJ	ADJA	_	7	amod	_	_
 7	Fortschreitens	Fortschreiten	NOUN	NN	_	8	nmod	_	_
 8	sicher	sicher	ADJ	ADJD	_	1	advcl	_	_
@@ -41732,7 +41732,7 @@
 10	,	--	PUNCT	$,	_	20	punct	_	_
 11	und	und	CCONJ	KON	_	20	cc	_	_
 12	weil	weil	SCONJ	KOUS	_	20	mark	_	_
-13	ihre	ihr	DET	PPOSAT	_	15	det:poss	_	_
+13	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 14	selbstbildende	selbstbildend	ADJ	ADJA	_	15	amod	_	_
 15	Kraft	Kraft	NOUN	NN	Case=Acc	20	obj	_	_
 16	keiner	kein	DET	PIAT	PronType=Neg	18	det	_	_
@@ -41746,7 +41746,7 @@
 24	Freiheit	Freiheit	NOUN	NN	Case=Nom	34	nsubj	_	_
 25	in	in	ADP	APPR	_	31	case	_	_
 26	allen	aller	DET	PIAT	_	31	det	_	_
-27	ihren	ihr	DET	PPOSAT	_	31	det:poss	_	_
+27	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 28	höchsten	hoch	ADJ	ADJA	_	31	amod	_	_
 29	und	und	CCONJ	KON	_	30	cc	_	_
 30	schönsten	schön	ADJ	ADJA	_	28	conj	_	_
@@ -42079,7 +42079,7 @@
 6	in	in	ADP	APPR	_	8	case	_	_
 7	die	der	DET	ART	_	8	det	_	_
 8	Gesellschaft	Gesellschaft	NOUN	NN	_	11	obl	_	_
-9	ihre	ihr	DET	PPOSAT	_	10	det:poss	_	_
+9	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Trägheit	Trägheit	NOUN	NN	Case=Acc	11	obj	_	_
 11	mitbringen	mitbringen	VERB	VVINF	_	2	acl	_	_
 12	und	und	CCONJ	KON	_	20	cc	_	_
@@ -42246,7 +42246,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f336-s6
 # text = Ihr müßt selbst den Standpunkt finden, aus dem grade ihr das Ganze übersehn könnt, und müßt verstehn aus den Erscheinungen das Innere nach festen Gesetzen und sichern Ahndungen zu konstruieren.
-1	Ihr	ihr	PRON	PPER	Case=Nom	6	nsubj	_	_
+1	Ihr	ihr	DET	PPER	Case=Nom|Person=3|Poss=Yes|PronType=Prs	6	nsubj	_	_
 2	müßt	müssen	AUX	VMFIN	_	6	aux	_	_
 3	selbst	selbst	ADV	ADV	_	6	advmod	_	_
 4	den	der	DET	ART	_	5	det	_	_
@@ -42256,7 +42256,7 @@
 8	aus	aus	ADP	APPR	_	9	case	_	_
 9	dem	der	PRON	PRELS	Case=Dat	14	obl	_	_
 10	grade	grade	ADV	ADV	_	14	advmod	_	_
-11	ihr	ihr	PRON	PPER	Case=Dat	14	obl:arg	_	_
+11	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	14	obl:arg	_	_
 12	das	der	DET	ART	_	13	det	_	_
 13	Ganze	ganze	NOUN	NN	Case=Acc	14	obj	_	_
 14	übersehn	übersehn	VERB	VVINF	_	5	acl	_	_
@@ -42586,7 +42586,7 @@
 29	einen	ein	DET	ART	PronType=Art	31	det	_	_
 30	kleinen	klein	ADJ	ADJA	_	31	amod	_	_
 31	Druck	Druck	NOUN	NN	Case=Acc	38	obl	_	_
-32	ihr	ihr	DET	PPOSAT	_	34	det:poss	_	_
+32	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	34	det:poss	_	_
 33	innerstes	innerster	ADJ	ADJA	_	34	amod	_	_
 34	Dasein	Dasein	NOUN	NN	_	38	obl	_	_
 35	mit	mit	ADP	APPR	_	37	case	_	_
@@ -42596,7 +42596,7 @@
 39	läßt	lassen	VERB	VVFIN	_	22	acl	_	SpaceAfter=No
 40	,	--	PUNCT	$,	_	48	punct	_	_
 41	und	und	CCONJ	KON	_	48	cc	_	_
-42	ihre	ihr	DET	PPOSAT	_	43	det:poss	_	_
+42	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	43	det:poss	_	_
 43	Tendenz	Tendenz	NOUN	NN	Case=Acc	48	obj	_	_
 44	zu	zu	ADP	APPR	_	45	case	_	_
 45	Liebe	Liebe	NOUN	NN	Case=Dat	43	nmod	_	_
@@ -42887,7 +42887,7 @@
 25	,	--	PUNCT	$,	_	27	punct	_	_
 26	sondern	sondern	CCONJ	KON	_	27	cc	_	_
 27	strömt	strömt	VERB	VVFIN	_	8	conj	_	_
-28	ihren	ihr	DET	PPOSAT	_	29	det:poss	_	_
+28	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	Stoff	Stoff	NOUN	NN	Case=Acc	27	obj	_	_
 30	aus	aus	ADP	APPR	_	32	case	_	_
 31	ins	in	DET	ART	_	32	det	_	_
@@ -43135,7 +43135,7 @@
 19	bis	bis	ADP	APPR	_	21	case	_	_
 20	vollendete	vollendet	ADJ	ADJA	_	21	amod	_	_
 21	Kenntnis	Kenntnis	NOUN	NN	_	31	obl	_	_
-22	ihrer	ihr	DET	PPOSAT	_	23	det:poss	_	_
+22	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	selbst	selbst	ADV	ADV	_	21	advmod	_	_
 24	und	und	CCONJ	KON	_	26	cc	_	_
 25	der	der	DET	ART	_	26	det	_	_
@@ -43156,7 +43156,7 @@
 40	allein	allein	ADV	ADV	_	41	advmod	_	_
 41	ankommt	ankommen	VERB	VVFIN	_	34	acl	_	_
 42	von	von	ADP	APPR	_	45	case	_	_
-43	ihrer	ihr	DET	PPOSAT	_	45	det:poss	_	_
+43	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	45	det:poss	_	_
 44	individuellen	individuell	ADJ	ADJA	_	45	amod	_	_
 45	Ansicht	Ansicht	NOUN	NN	Case=Dat	41	obl	_	_
 46	durchaus	durchaus	ADV	ADV	_	41	advmod	_	_
@@ -43358,7 +43358,7 @@
 11	veränderlich	veränderlich	ADJ	ADJD	_	0	root	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	hat	haben	AUX	VAFIN	_	11	conj	_	_
-14	ihre	ihr	DET	PPOSAT	_	15	det:poss	_	_
+14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Jahreszeiten	Jahreszeit	NOUN	NN	Case=Acc	13	obj	_	SpaceAfter=No
 16	.	--	PUNCT	$.	_	11	punct	_	_
 
@@ -43874,7 +43874,7 @@
 7	zwei	zwei	NUM	CARD	_	8	nummod	_	_
 8	Freunde	Freund	NOUN	NN	Case=Nom	20	nsubj	_	_
 9	zugleich	zugleich	ADV	ADV	_	20	advmod	_	_
-10	ihr	ihr	DET	PPOSAT	_	11	det:poss	_	_
+10	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Heiligstes	Heiligst	NOUN	NN	Case=Acc	20	obj	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
 13	der	der	DET	ART	_	14	det	_	_
@@ -43887,11 +43887,11 @@
 20	erblicken	erblicken	VERB	VVINF	_	4	ccomp	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	35	punct	_	_
 22	und	und	CCONJ	KON	_	35	cc	_	_
-23	ihres	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Wertes	Wert	NOUN	NN	_	26	nmod	_	_
 25	gemeinschaftlich	gemeinschaftlich	ADV	ADV	_	26	advmod	_	_
 26	froh	froh	ADJ	ADJD	_	35	advcl	_	_
-27	ihre	ihr	DET	PPOSAT	_	28	det:poss	_	_
+27	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	28	det:poss	_	_
 28	Schranken	Schranke	NOUN	NN	Case=Acc	35	obj	_	_
 29	nur	nur	ADV	ADV	_	35	advmod	_	_
 30	durch	durch	ADP	APPR	_	32	case	_	_
@@ -44307,7 +44307,7 @@
 8	hat	haben	AUX	VAFIN	_	0	root	_	_
 9	diese	dieser	DET	PDAT	_	10	det	_	_
 10	Gesinnung	Gesinnung	NOUN	NN	Case=Nom	8	nsubj	_	_
-11	ihren	ihr	DET	PPOSAT	_	14	det:poss	_	_
+11	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 12	ganz	ganz	ADV	ADV	_	13	advmod	_	_
 13	freien	frei	ADJ	ADJA	_	14	amod	_	_
 14	Spielraum	Spielraum	NOUN	NN	Case=Acc	8	obj	_	SpaceAfter=No
@@ -44463,7 +44463,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f351-s2
 # text = Ihr braucht beide keinen weitern Beweis zu führen, daß ihr gebildete Menschen seid.
-1	Ihr	ihr	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Ihr	ihr	DET	PPER	Case=Nom|Person=3|Poss=Yes|PronType=Prs	2	nsubj	_	_
 2	braucht	brauchen	VERB	VVFIN	_	0	root	_	_
 3	beide	beide	PRON	PIS	Case=Dat	8	obl:arg	_	_
 4	keinen	kein	DET	PIS	PronType=Neg	6	det	_	_
@@ -44473,7 +44473,7 @@
 8	führen	führen	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	13	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	13	mark	_	_
-11	ihr	ihr	PRON	PPER	Case=Nom	13	nsubj	_	_
+11	ihr	ihr	DET	PPER	Case=Nom|Person=3|Poss=Yes|PronType=Prs	13	nsubj	_	_
 12	gebildete	gebildet	ADJ	ADJA	_	13	amod	_	_
 13	Menschen	Mensch	NOUN	NN	Case=Nom	8	advcl	_	_
 14	seid	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
@@ -44495,7 +44495,7 @@
 8	Natur	Natur	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	18	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	18	mark	_	_
-11	ihre	ihr	DET	PPOSAT	_	13	det:poss	_	_
+11	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 12	plastischen	plastisch	ADJ	ADJA	_	13	amod	_	_
 13	Kräfte	Kraft	NOUN	NN	Case=Nom	18	nsubj	_	_
 14	lange	lange	ADV	ADV	_	18	advmod	_	_
@@ -44592,7 +44592,7 @@
 # text = Wenn sie ihr Ich in einem glücklichen Moment gefunden haben, so fehlt es ihnen doch an der Kraft es aus sich selbst wieder zu erzeugen.
 1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
 2	sie	sie	PRON	PPER	Case=Nom	9	nsubj	_	_
-3	ihr	ihr	DET	PPOSAT	_	4	det:poss	_	_
+3	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Ich	ich	PRON	PPER	Case=Acc	9	obj	_	_
 5	in	in	ADP	APPR	_	8	case	_	_
 6	einem	ein	DET	ART	PronType=Art	8	det	_	_
@@ -44626,7 +44626,7 @@
 1	Der	der	DET	ART	_	2	det	_	_
 2	Tod	Tod	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	6	cop	_	_
-4	ihr	ihr	DET	PPOSAT	_	6	det:poss	_	_
+4	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	gewöhnlicher	gewöhnlich	ADJ	ADJA	_	6	amod	_	_
 6	Zustand	Zustand	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	12	punct	_	_
@@ -44867,10 +44867,10 @@
 2	organische	organisch	ADJ	ADJA	_	3	amod	_	_
 3	Natur	Natur	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	hat	haben	AUX	VAFIN	_	0	root	_	_
-5	ihre	ihr	DET	PPOSAT	_	6	det:poss	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Regel	Regel	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
-8	ihr	ihr	DET	PPOSAT	_	9	det:poss	_	_
+8	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Sollen	Sollen	NOUN	NN	_	6	conj	_	SpaceAfter=No
 10	;	--	PUNCT	$.	_	15	punct	_	_
 11	und	und	CCONJ	KON	_	15	cc	_	_
@@ -44897,7 +44897,7 @@
 4	denn	denn	ADV	ADV	_	2	advmod	_	_
 5	den	der	DET	ART	_	6	det	_	_
 6	Einteilungsgrund	Einteilungsgrund	NOUN	NN	Case=Acc	2	obj	_	_
-7	ihrer	ihr	DET	PPOSAT	_	9	det:poss	_	_
+7	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 8	naturhistorischen	naturhistorisch	ADJ	ADJA	_	9	amod	_	_
 9	Beschreibungen	Beschreibung	NOUN	NN	_	6	nmod	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
@@ -45133,7 +45133,7 @@
 9	wohl	wohl	ADV	ADV	_	10	advmod	_	_
 10	schicklicher	schicklich	ADV	ADV	_	14	advmod	_	_
 11	zu	zu	ADP	APPR	_	13	case	_	_
-12	ihrer	ihr	DET	PPOSAT	_	13	det:poss	_	_
+12	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Bibel	Bibel	NOUN	NN	Case=Acc	14	obj	_	_
 14	wählen	wählen	VERB	VVINF	_	0	root	_	_
 15	können	können	AUX	VMINF	_	14	aux	_	SpaceAfter=No
@@ -45593,7 +45593,7 @@
 36	daß	daß	SCONJ	KOUS	_	49	mark	_	_
 37	nicht	nicht	PART	PTKNEG	_	49	advmod	_	_
 38	außer	außer	ADP	APPR	_	40	case	_	_
-39	ihrer	ihr	DET	PPOSAT	_	40	det:poss	_	_
+39	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	40	det:poss	_	_
 40	Beziehung	Beziehung	NOUN	NN	_	49	obl	_	_
 41	auf	auf	ADP	APPR	_	44	case	_	_
 42	den	der	DET	ART	_	44	det	_	_
@@ -45807,7 +45807,7 @@
 14	man	man	PRON	PIS	Case=Nom	13	nsubj	_	_
 15	in	in	ADP	APPR	_	18	case	_	_
 16	allen	aller	ADJ	ADJA	_	18	amod	_	_
-17	ihren	ihr	DET	PPOSAT	_	18	det:poss	_	_
+17	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Veranstaltungen	Veranstaltung	NOUN	NN	_	13	obl	_	_
 19	dies	dieser	PRON	PDS	_	20	det	_	_
 20	Talent	Talent	NOUN	NN	_	13	obl	_	_
@@ -46093,7 +46093,7 @@
 9	allenfalls	allenfalls	ADV	ADV	_	15	advmod	_	_
 10	auch	auch	ADV	ADV	_	15	advmod	_	_
 11	wider	wider	ADP	APPR	_	13	case	_	_
-12	ihren	ihr	DET	PPOSAT	_	13	det:poss	_	_
+12	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Willen	Wille	NOUN	NN	_	15	obl	_	_
 14	zu	zu	PART	PTKZU	_	15	mark	_	_
 15	erlangen	erlangen	VERB	VVINF	_	7	xcomp	_	SpaceAfter=No
@@ -46169,7 +46169,7 @@
 46	und	und	CCONJ	KON	_	52	cc	_	_
 47	die	der	DET	ART	_	48	det	_	_
 48	Harmonie	Harmonie	NOUN	NN	Case=Acc	52	obj	_	_
-49	ihrer	ihr	DET	PPOSAT	_	50	det:poss	_	_
+49	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	50	det:poss	_	_
 50	Widersprüche	Widerspruch	NOUN	NN	_	48	nmod	_	_
 51	zu	zu	PART	PTKZU	_	52	mark	_	_
 52	verstehn	verstehn	VERB	VVINF	_	44	conj	_	SpaceAfter=No
@@ -46363,7 +46363,7 @@
 26	und	und	CCONJ	KON	_	27	cc	_	_
 27	vierte	vierter	ADJ	ADJA	_	25	conj	_	_
 28	Zeitalter	Zeitalter	NOUN	NN	_	19	obl	_	_
-29	ihrer	ihr	DET	PPOSAT	_	30	det:poss	_	_
+29	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 30	Gefühle	Gefühl	NOUN	NN	_	28	nmod	_	SpaceAfter=No
 31	.	--	PUNCT	$.	_	12	punct	_	_
 
@@ -46389,13 +46389,13 @@
 15	denn	denn	CCONJ	KON	_	21	cc	_	_
 16	die	der	PRON	PDS	Case=Nom	21	nsubj	_	_
 17	wird	werden	AUX	VAFIN	_	21	aux	_	_
-18	ihr	ihr	DET	PPOSAT	_	20	det:poss	_	_
+18	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	zartes	zart	ADJ	ADJA	_	20	amod	_	_
 20	Gefühl	Gefühl	NOUN	NN	Case=Acc	21	obj	_	_
 21	verlieren	verlieren	VERB	VVINF	_	13	parataxis	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	26	punct	_	_
 23	die	der	PRON	PRELS	Case=Nom	26	nsubj	_	_
-24	ihre	ihr	DET	PPOSAT	_	25	det:poss	_	_
+24	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Gunst	Gunst	NOUN	NN	Case=Acc	26	obj	_	_
 26	entweiht	entweihen	VERB	VVFIN	_	21	parataxis	_	_
 27	und	und	CCONJ	KON	_	29	cc	_	_
@@ -46550,7 +46550,7 @@
 11	;	--	PUNCT	$.	_	17	punct	_	_
 12	du	du	PRON	PPER	Case=Nom	17	nsubj	_	_
 13	sollst	sollen	AUX	VMFIN	_	17	aux	_	_
-14	ihre	ihr	DET	PPOSAT	_	15	det:poss	_	_
+14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Barbarei	Barbarei	NOUN	NN	Case=Acc	17	obj	_	_
 16	nicht	nicht	PART	PTKNEG	_	17	advmod	_	_
 17	beschönigen	beschönigen	VERB	VVINF	_	7	parataxis	_	_
@@ -46901,7 +46901,7 @@
 7	,	--	PUNCT	$,	_	14	punct	_	_
 8	die	der	PRON	PDS	Case=Nom	14	nsubj	_	_
 9	über	über	ADP	APPR	_	11	case	_	_
-10	ihre	ihr	DET	PPOSAT	_	11	det:poss	_	_
+10	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Kunst	Kunst	NOUN	NN	_	13	obl	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	philosophieren	philosophieren	VERB	VVINF	_	14	xcomp	_	_
@@ -47083,7 +47083,7 @@
 9	des	der	DET	ART	_	10	det	_	_
 10	Erziehers	Erzieher	NOUN	NN	Case=Gen	7	conj	_	_
 11	ist	sein	AUX	VAFIN	_	15	cop	_	_
-12	ihrer	ihr	DET	PPOSAT	_	13	det:poss	_	_
+12	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Natur	Natur	NOUN	NN	Case=Dat	15	nmod	_	_
 14	nach	nach	ADP	APPO	_	13	case	_	_
 15	unbestimmt	unbestimmt	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -47502,7 +47502,7 @@
 29	die	der	DET	ART	_	30	det	_	_
 30	Rechtlichkeit	Rechtlichkeit	NOUN	NN	_	27	conj	_	_
 31	mißgönnen	mißgönnen	VERB	VVFIN	_	24	parataxis	_	_
-32	ihr	ihr	PRON	PPER	Case=Dat	31	obl:arg	_	_
+32	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	31	obl:arg	_	_
 33	sogar	sogar	ADV	ADV	_	31	advmod	_	_
 34	die	der	DET	ART	_	35	det	_	_
 35	Existenz	Existenz	NOUN	NN	Case=Acc	31	obj	_	SpaceAfter=No
@@ -47781,7 +47781,7 @@
 20	und	und	CCONJ	KON	_	26	cc	_	_
 21	dadurch	dadurch	ADV	PROAV	_	26	advmod	_	_
 22	diese	dieser	PRON	PDS	Case=Acc	26	obj	_	_
-23	ihrer	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Majestät	Majestät	NOUN	NN	_	26	obl	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
 26	entsetzen	entsetzen	VERB	VVINF	_	14	conj	_	SpaceAfter=No
@@ -47857,7 +47857,7 @@
 27	im	in	ADP	APPRART	_	28	case	_	_
 28	Stillen	Stille	NOUN	NN	_	33	obl	_	_
 29	durch	durch	ADP	APPR	_	32	case	_	_
-30	ihre	ihr	DET	PPOSAT	_	32	det:poss	_	_
+30	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
 31	eigne	eign	ADJ	ADJA	_	32	amod	_	_
 32	Kraft	Kraft	NOUN	NN	Case=Acc	33	obl	_	_
 33	wachsen	wachsen	VERB	VVINF	_	14	conj	_	SpaceAfter=No
@@ -48829,7 +48829,7 @@
 14	Gewalt	Gewalt	NOUN	NN	_	19	nmod	_	_
 15	zur	zu	ADP	APPRART	_	16	case	_	_
 16	Erreichung	Erreichung	NOUN	NN	_	19	nmod	_	_
-17	ihrer	ihr	DET	PPOSAT	_	18	det:poss	_	_
+17	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Zwecke	Zweck	NOUN	NN	_	16	nmod	_	_
 19	unentbehrlich	unentbehrlich	ADJ	ADJD	_	3	acl	_	_
 20	sind	sein	AUX	VAFIN	_	19	cop	_	SpaceAfter=No
@@ -49065,7 +49065,7 @@
 9	die	der	DET	ART	_	10	det	_	_
 10	Menschheit	Menschheit	NOUN	NN	Case=Nom	14	nsubj	_	_
 11	könne	können	AUX	VMFIN	_	14	aux	_	_
-12	ihren	ihr	DET	PPOSAT	_	13	det:poss	_	_
+12	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Zweck	Zweck	NOUN	NN	_	14	obl	_	_
 14	überschreiten	überschreiten	ADJ	ADJA	_	7	ccomp	_	SpaceAfter=No
 15	,	--	PUNCT	PUNCT	_	18	punct	_	_
@@ -49131,7 +49131,7 @@
 34	den	der	DET	ART	_	35	det	_	_
 35	Schlüssel	Schlüssel	NOUN	NN	Case=Acc	43	obj	_	_
 36	zu	zu	ADP	APPR	_	40	case	_	_
-37	ihrer	ihr	DET	PPOSAT	_	40	det:poss	_	_
+37	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	40	det:poss	_	_
 38	eignen	eignen	ADJ	ADJA	_	40	amod	_	_
 39	esoterischen	esoterisch	ADJ	ADJA	_	40	amod	_	_
 40	Geschichte	Geschichte	NOUN	NN	Case=Dat	43	obl	_	_
@@ -49519,7 +49519,7 @@
 19	freuen	freuen	VERB	VVINF	_	11	conj	_	_
 20	als	als	CCONJ	KOKOM	_	23	case	_	_
 21	über	über	ADP	APPR	_	23	case	_	_
-22	ihre	ihr	DET	PPOSAT	_	23	det:poss	_	_
+22	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Nützlichkeit	Nützlichkeit	NOUN	NN	_	19	nmod	_	SpaceAfter=No
 24	.	--	PUNCT	$.	_	3	punct	_	_
 
@@ -49550,7 +49550,7 @@
 20	,	--	PUNCT	$,	_	19	punct	_	_
 21	die	der	PRON	PRELS	Case=Nom	26	nsubj	_	_
 22	auf	auf	ADP	APPR	_	24	case	_	_
-23	ihrer	ihr	DET	PPOSAT	_	24	det:poss	_	_
+23	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Drechselbank	Drechselbank	NOUN	NN	_	26	obl	_	_
 25	nichts	nichts	PRON	PIS	_	26	nmod	_	_
 26	edler	edler	ADJ	ADJD	_	13	acl	_	_
@@ -49703,14 +49703,14 @@
 3	Einfälle	Einfall	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	machen	machen	VERB	VVFIN	_	0	root	_	_
 5	durch	durch	ADP	APPR	_	8	case	_	_
-6	ihre	ihr	DET	PPOSAT	_	8	det:poss	_	_
+6	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	zermalmende	zermalmend	ADJ	ADJA	_	8	amod	_	_
 8	Kraft	Kraft	NOUN	NN	Case=Acc	4	obl	_	_
-9	ihren	ihr	DET	PPOSAT	_	11	det:poss	_	_
+9	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	unendlichen	unendlich	ADJ	ADJA	_	11	amod	_	_
 11	Gehalt	Gehalt	NOUN	NN	_	8	nmod	_	_
 12	und	und	CCONJ	KON	_	15	cc	_	_
-13	ihre	ihr	DET	PPOSAT	_	15	det:poss	_	_
+13	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 14	klassische	klassisch	ADJ	ADJA	_	15	amod	_	_
 15	Form	Form	NOUN	NN	_	8	conj	_	_
 16	oft	oft	ADV	ADV	_	4	advmod	_	_
@@ -49983,7 +49983,7 @@
 27	jedoch	jedoch	ADV	ADV	_	34	advmod	_	_
 28	die	der	DET	ART	_	29	det	_	_
 29	Philosophie	Philosophie	NOUN	NN	Case=Acc	34	obj	_	_
-30	ihres	ihr	DET	PPOSAT	_	31	det:poss	_	_
+30	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 31	Eigentümers	Eigentümer	NOUN	NN	_	29	nmod	_	_
 32	hinreichend	hinreichend	ADV	ADV	_	34	advmod	_	_
 33	zu	zu	PART	PTKZU	_	34	mark	_	_
@@ -50017,13 +50017,13 @@
 11	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
 12	eine	ein	DET	ART	PronType=Art	13	det	_	_
 13	Philosophie	Philosophie	NOUN	NN	Case=Nom	17	nsubj	_	_
-14	ihren	ihr	DET	PPOSAT	_	15	det:poss	_	_
+14	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Geist	Geist	NOUN	NN	Case=Acc	17	obj	_	_
 16	selbst	selbst	ADV	ADV	_	17	advmod	_	_
 17	kritisierte	kritisieren	VERB	VVFIN	_	8	conj	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	32	punct	_	_
 19	und	und	CCONJ	KON	_	32	cc	_	_
-20	ihren	ihr	DET	PPOSAT	_	21	det:poss	_	_
+20	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Buchstaben	Buchstabe	NOUN	NN	Case=Acc	32	obj	_	_
 22	auf	auf	ADP	APPR	_	24	case	_	_
 23	dem	der	DET	ART	_	24	det	_	_
@@ -50426,7 +50426,7 @@
 45	Virtuosität	Virtuosität	NOUN	NN	_	42	nmod	_	_
 46	wahrnimmt	wahrnehmen	VERB	VVFIN	_	32	advcl	_	SpaceAfter=No
 47	,	--	PUNCT	$,	_	46	punct	_	_
-48	ihre	ihr	DET	PPOSAT	_	49	det:poss	_	_
+48	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	49	det:poss	_	_
 49	Geschicklichkeit	Geschicklichkeit	NOUN	NN	_	51	obl	_	_
 50	ebenso	ebenso	ADV	ADV	_	51	advmod	_	_
 51	gern	gern	ADV	ADV	_	55	advmod	_	_
@@ -50584,7 +50584,7 @@
 6	die	der	DET	ART	_	8	det	_	_
 7	philologische	philologisch	ADJ	ADJA	_	8	amod	_	_
 8	Kunst	Kunst	NOUN	NN	Case=Nom	11	nsubj	_	_
-9	ihre	ihr	DET	PPOSAT	_	10	det:poss	_	_
+9	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Ansprüche	Anspruch	NOUN	NN	Case=Acc	11	obj	_	_
 11	behaupten	behaupten	VERB	VVINF	_	0	root	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	11	punct	_	_
@@ -50875,7 +50875,7 @@
 15	,	--	PUNCT	$,	_	20	punct	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
 17	Zusammenhange	Zusammenhange	NOUN	NN	_	20	nmod	_	_
-18	ihres	ihr	DET	PPOSAT	_	19	det:poss	_	_
+18	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Ganzen	ganze	NOUN	NN	_	17	nmod	_	_
 20	zweckmäßig	zweckmäßig	ADJ	ADJD	_	10	conj	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	25	punct	_	_
@@ -51071,7 +51071,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f412-s4
 # text = Ihre Thesen darüber sind ganz wahr d.h. philosophisch: aber die Antithesen dazu fehlen.
-1	Ihre	ihr	DET	PPOSAT	_	2	det:poss	_	_
+1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Thesen	These	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	darüber	darüber	ADV	PROAV	_	6	advmod	_	_
 4	sind	sein	AUX	VAFIN	_	6	cop	_	_
@@ -51259,7 +51259,7 @@
 30	oft	oft	ADV	ADV	_	28	advmod	_	_
 31	als	als	ADP	APPR	_	32	case	_	_
 32	Symbol	Symbol	NOUN	NN	_	28	obl	_	_
-33	ihrer	ihr	DET	PPOSAT	_	35	det:poss	_	_
+33	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	35	det:poss	_	_
 34	schönen	schön	ADJ	ADJA	_	35	amod	_	_
 35	Geheimnisse	Geheimnis	NOUN	NN	_	32	nmod	_	SpaceAfter=No
 36	.	--	PUNCT	$.	_	28	punct	_	_
@@ -52032,7 +52032,7 @@
 23	sie	sie	PRON	PPER	Case=Acc	24	obl	_	_
 24	gilt	gelten	VERB	VVFIN	_	34	advcl	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	27	punct	_	_
-26	ihr	ihr	DET	PPOSAT	_	27	det:poss	_	_
+26	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Eins	Eins	NOUN	NN	_	24	conj	_	_
 28	und	und	CCONJ	KON	_	29	cc	_	_
 29	Alles	Alle	PRON	PIS	_	27	conj	_	SpaceAfter=No
@@ -52059,7 +52059,7 @@
 9	kann	können	AUX	VMFIN	_	17	aux	_	_
 10	sie	sie	PRON	PPER	Case=Nom	17	nsubj	_	_
 11	über	über	ADP	APPR	_	14	case	_	_
-12	ihre	ihr	DET	PPOSAT	_	14	det:poss	_	_
+12	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	natürliche	natürlich	ADJ	ADJA	_	14	amod	_	_
 14	Neigung	Neigung	NOUN	NN	_	17	obl	_	_
 15	zur	zu	ADP	APPRART	_	16	case	_	_
