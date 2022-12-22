@@ -979,7 +979,7 @@
 4	die	der	DET	ART	_	6	det	_	_
 5	sokratischen	sokratisch	ADJ	ADJA	_	6	amod	_	_
 6	Dialoge	Dialog	NOUN	NN	Case=Nom	0	root	_	_
-7	unserer	unser	DET	PPOSAT	_	8	det	_	_
+7	unserer	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	Zeit	Zeit	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -8387,7 +8387,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f9-s1
 # text = Unser sämtliches Wahrnehmungsvermögen gleicht dem Auge.
-1	Unser	unser	DET	PPOSAT	_	3	det:poss	_	_
+1	Unser	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	sämtliches	sämtlich	ADJ	ADJA	_	3	amod	_	_
 3	Wahrnehmungsvermögen	Wahrnehmungsvermögen	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	gleicht	gleichen	VERB	VVFIN	_	0	root	_	_
@@ -8995,7 +8995,7 @@
 6	je	je	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	12	punct	_	_
 8	denn	denn	CCONJ	KON	_	12	cc	_	_
-9	unser	unser	DET	PPOSAT	_	10	det:poss	_	_
+9	unser	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Geist	Geist	NOUN	NN	Case=Nom	12	nsubj	_	_
 11	hat	haben	AUX	VAFIN	_	12	aux	_	_
 12	entbehrt	entbehren	VERB	VVPP	_	4	conj	_	SpaceAfter=No
@@ -9428,7 +9428,7 @@
 21	mit	mit	ADP	APPR	_	23	case	_	_
 22	dem	der	DET	ART	_	23	det	_	_
 23	Wechsel	Wechsel	NOUN	NN	Case=Dat	27	obl	_	_
-24	unsrer	unser	DET	PPOSAT	_	26	det:poss	_	_
+24	unsrer	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	_
 25	übrigen	übrig	ADJ	ADJA	_	26	amod	_	_
 26	Zustände	Zustand	NOUN	NN	_	23	nmod	_	_
 27	verbunden	verbinden	ADJ	ADJD	_	12	advcl	_	_
@@ -12835,7 +12835,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f64-s1
 # text = Unsere alte Nazionalität, war, wie mich dünkt, ächt römisch.
-1	Unsere	unser	DET	PPOSAT	_	3	det:poss	_	_
+1	Unsere	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	alte	alt	ADJ	ADJA	_	3	amod	_	_
 3	Nazionalität	Nazionalität	NOUN	NN	Case=Nom	12	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
@@ -13025,7 +13025,7 @@
 # text = Alle Zufälle unsers Lebens sind Materialien, aus denen wir machen können, was wir wollen.
 1	Alle	aller	DET	PIAT	_	2	det	_	_
 2	Zufälle	Zufall	NOUN	NN	Case=Nom	6	nsubj	_	_
-3	unsers	unser	DET	PPOSAT	_	4	det:poss	_	_
+3	unsers	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Lebens	Leben	NOUN	NN	_	2	nmod	_	_
 5	sind	sein	AUX	VAFIN	_	6	cop	_	_
 6	Materialien	Materialien	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
@@ -13141,7 +13141,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f67-s3
 # text = Unsere Kaufleute im Ganzen, die größten nicht ausgenommen, sind nichts als Krämer.
-1	Unsere	unser	DET	PPOSAT	_	2	det:poss	_	_
+1	Unsere	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Kaufleute	Kaufleute	NOUN	NN	Case=Nom	13	nsubj	_	_
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
@@ -13623,7 +13623,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f70-s1
 # text = Unsere Sprache ist entweder mechanisch, atomistisch oder dynamisch.
-1	Unsere	unser	DET	PPOSAT	_	2	det:poss	_	_
+1	Unsere	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Sprache	Sprache	NOUN	NN	Case=Nom	5	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	5	cop	_	_
 4	entweder	entweder	CCONJ	KON	_	5	cc	_	_
@@ -13770,7 +13770,7 @@
 1	Je	je	ADV	ADV	_	2	advmod	_	_
 2	mehr	mehr	ADV	ADV	_	6	advmod	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	_
-4	unsere	unser	DET	PPOSAT	_	5	det:poss	_	_
+4	unsere	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Sinne	Sinn	NOUN	NN	Case=Nom	6	nsubj	_	_
 6	verfeinern	verfeinern	VERB	VVINF	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	10	punct	_	_
@@ -14782,7 +14782,7 @@
 11	Reiche	Reiche	NOUN	NN	Case=Dat	7	nmod	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	15	punct	_	_
 13	ohne	ohne	SCONJ	KOUI	_	15	case	_	_
-14	unser	unser	DET	PPOSAT	_	15	det:poss	_	_
+14	unser	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Zuthun	Zuthun	NOUN	NN	Case=Acc	11	conj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	27	punct	_	_
 17	oder	oder	CCONJ	KON	_	27	cc	_	_
@@ -14853,7 +14853,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f77-s1
 # text = Unser Alltagsleben besteht aus lauter erhaltenden, immer wiederkehrenden Verrichtungen.
-1	Unser	unser	DET	PPOSAT	_	2	det:poss	_	_
+1	Unser	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Alltagsleben	Alltagsleben	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	besteht	bestehen	VERB	VVFIN	_	0	root	_	_
 4	aus	aus	ADP	APPR	_	10	case	_	_
@@ -14881,7 +14881,7 @@
 9	einem	ein	DET	ART	PronType=Art	10	det	_	_
 10	Hauptmittel	Hauptmittel	NOUN	NN	Case=Dat	7	nmod	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	14	punct	_	_
-12	unserm	unser	DET	PPOSAT	_	14	det:poss	_	_
+12	unserm	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	irdischen	irdisch	ADJ	ADJA	_	14	amod	_	_
 14	Daseyn	Daseyn	NOUN	NN	_	10	nmod	_	_
 15	überhaupt	überhaupt	ADV	ADV	_	14	advmod	_	SpaceAfter=No
@@ -15529,7 +15529,7 @@
 4	möglich	möglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	19	mark	_	_
-7	unsere	unser	DET	PPOSAT	_	10	det:poss	_	_
+7	unsere	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
 8	jetzigen	jetzig	ADJ	ADJA	_	10	amod	_	_
 9	genialischen	genialisch	ADJ	ADJA	_	10	amod	_	_
 10	Entdeckungen	Entdeckung	NOUN	NN	Case=Nom	19	nsubj	_	_
@@ -16479,7 +16479,7 @@
 8	aus	aus	ADP	APPR	_	10	case	_	_
 9	indirekter	indirekt	ADJ	ADJA	_	10	amod	_	_
 10	Schwäche	Schwäche	NOUN	NN	Case=Dat	6	nmod	_	_
-11	unsers	unser	DET	PPOSAT	_	12	det:poss	_	_
+11	unsers	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Erkenntnißvermögens	Erkenntnißvermögen	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -26555,7 +26555,7 @@
 13	sich	sich	PRON	ADV	PronType=Prs|Reflex=Yes	14	obl	_	_
 14	widersprechenden	widersprechend	ADJ	ADJA	_	9	conj	_	_
 15	Teilen	Teil	NOUN	NN	_	6	nmod	_	_
-16	unsrer	unser	DET	PPOSAT	_	17	det:poss	_	_
+16	unsrer	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Bildung	Bildung	NOUN	NN	_	15	nmod	_	_
 18	gewahr	gewahr	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
 19	.	--	PUNCT	$.	_	2	punct	_	_
@@ -34687,7 +34687,7 @@
 5	die	der	DET	ART	_	7	det	_	_
 6	zarte	zart	ADJ	ADJA	_	7	amod	_	_
 7	Sittlichkeit	Sittlichkeit	NOUN	NN	Case=Acc	3	nmod	_	_
-8	unsers	unser	DET	PPOSAT	_	9	det:poss	_	_
+8	unsers	unser	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Jahrhunderts	Jahrhundert	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	17	punct	_	_
 11	welches	welcher	PRON	PRELS	Case=Nom	17	nsubj	_	_
