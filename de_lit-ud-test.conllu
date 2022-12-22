@@ -34,7 +34,7 @@
 8	den	der	DET	ART	_	10	det	_	_
 9	mittlern	mittlere	ADJ	ADJA	_	10	amod	_	_
 10	Durchschnitt	Durchschnitt	NOUN	NN	Case=Acc	14	obj	_	_
-11	seiner	sein	DET	PPOSAT	_	13	det:poss	_	_
+11	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 12	eignen	eignen	ADJ	ADJA	_	13	amod	_	_
 13	Oberfläche	Oberfläche	NOUN	NN	_	10	nmod	_	_
 14	schauen	schauen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -87,7 +87,7 @@
 20	,	--	PUNCT	$,	_	22	punct	_	_
 21	und	und	CCONJ	KON	_	22	cc	_	_
 22	erzählt	erzählen	VERB	VVFIN	_	14	conj	_	_
-23	seine	sein	DET	PPOSAT	_	24	det:poss	_	_
+23	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Freude	Freude	NOUN	NN	Case=Acc	22	obj	_	_
 25	dran	dran	ADV	PROAV	_	22	advmod	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	31	punct	_	_
@@ -1445,7 +1445,7 @@
 15	noch	noch	ADV	ADV	_	16	advmod	_	_
 16	ganz	ganz	ADV	ADV	_	21	advmod	_	_
 17	außerhalb	außerhalb	ADP	APPR	_	20	case	_	_
-18	seiner	sein	DET	PPOSAT	_	20	det:poss	_	_
+18	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	eigenen	eigen	ADJ	ADJA	_	20	amod	_	_
 20	Sphäre	Sphäre	NOUN	NN	_	21	obl	_	_
 21	geben	geben	VERB	VVINF	_	7	ccomp	_	_
@@ -1489,7 +1489,7 @@
 22	der	der	PRON	PDS	Case=Nom	38	nsubj	_	_
 23	ist	sein	AUX	VAFIN	_	38	cop	_	_
 24	in	in	ADP	APPR	_	27	case	_	_
-25	seiner	sein	DET	PPOSAT	_	27	det:poss	_	_
+25	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 26	eignen	eign	ADJ	ADJA	_	27	amod	_	_
 27	Sphäre	Sphäre	NOUN	NN	_	38	nmod	_	_
 28	entweder	entweder	CCONJ	KON	_	30	cc	_	_
@@ -2084,7 +2084,7 @@
 2	ist	sein	AUX	VAFIN	_	4	cop	_	_
 3	der	der	DET	ART	_	4	det	_	_
 4	Champagner	Champagner	NOUN	NN	Case=Nom	0	root	_	_
-5	seiner	sein	DET	PPOSAT	_	6	det:poss	_	_
+5	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Gattung	Gattung	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 7	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -2525,7 +2525,7 @@
 19	,	--	PUNCT	$,	_	18	punct	_	_
 20	warum	warum	ADV	PWAV	_	28	advmod	_	_
 21	Dante	Dante	PROPN	NE	Case=Nom	28	nsubj	_	_
-22	sein	sein	DET	PPOSAT	_	24	det:poss	_	_
+22	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 23	großes	groß	ADJ	ADJA	_	24	amod	_	_
 24	Werk	Werk	NOUN	NN	Case=Acc	28	obj	_	_
 25	eine	ein	DET	ART	PronType=Art	27	det	_	_
@@ -3238,7 +3238,7 @@
 29	so	so	ADV	ADV	_	30	advmod	_	_
 30	suchte	suchen	VERB	VVFIN	_	4	conj	_	_
 31	er	er	PRON	PPER	Case=Nom	30	nsubj	_	_
-32	sein	sein	DET	PPOSAT	_	33	det:poss	_	_
+32	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	Höchstes	Hoch	NOUN	NN	Case=Acc	30	obj	_	_
 34	instinktmäßig	instinktmäßig	ADV	ADV	_	30	advmod	_	_
 35	mit	mit	ADP	APPR	_	36	case	_	_
@@ -4272,7 +4272,7 @@
 12	bildet	bilden	VERB	VVFIN	_	7	conj	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	2	punct	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
-15	seinem	sein	DET	PPOSAT	_	16	det:poss	_	_
+15	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Innern	Innere	NOUN	NN	_	2	obl	_	_
 17	einen	ein	DET	ART	PronType=Art	18	det	_	_
 18	Roman	Roman	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
@@ -5202,7 +5202,7 @@
 31	:	--	PUNCT	$.	_	39	punct	_	_
 32	nur	nur	ADV	ADV	_	39	advmod	_	_
 33	muß	müssen	AUX	VMFIN	_	39	aux	_	_
-34	sein	sein	DET	PPOSAT	_	35	det:poss	_	_
+34	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det:poss	_	_
 35	Sinn	Sinn	NOUN	NN	Case=Nom	39	nsubj	_	_
 36	gleich	gleich	ADV	ADV	_	39	advmod	_	_
 37	völlig	völlig	ADJ	ADJD	_	38	advmod	_	_
@@ -5910,12 +5910,12 @@
 1	Nichts	nichts	PRON	PIS	Case=Nom	6	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	6	cop	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
-4	seinem	sein	DET	PPOSAT	_	5	det:poss	_	_
+4	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Ursprung	Ursprung	NOUN	NN	_	6	nmod	_	_
 6	jämmerlicher	jämmerlich	ADJ	ADJA	_	0	root	_	_
 7	und	und	CCONJ	KON	_	11	cc	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
-9	seinen	sein	DET	PPOSAT	_	10	det:poss	_	_
+9	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Folgen	Folge	NOUN	NN	_	11	nmod	_	_
 11	gräßlicher	gräßlich	ADJ	ADJD	_	6	conj	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	17	punct	_	_
@@ -6467,11 +6467,11 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f111-s4
 # text = Sein köstlichster Nachlaß sind seine Einfälle und Bemerkungen zur Lebensweisheit; ein Buch voll von gediegenem Witz, tiefem Sinn, zarter Fühlbarkeit, von reifer Vernunft und fester Männlichkeit, und von interessanten Spuren der lebendigsten Leidenschaftlichkeit, und dabei auserlesen und von vollendetem Ausdruck;
-1	Sein	sein	DET	PPOSAT	_	3	det:poss	_	_
+1	Sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 2	köstlichster	köstlich	ADJ	ADJA	_	3	amod	_	_
 3	Nachlaß	Nachlaß	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	sind	sein	AUX	VAFIN	_	6	cop	_	_
-5	seine	sein	DET	PPOSAT	_	6	det:poss	_	_
+5	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Einfälle	Einfall	NOUN	NN	Case=Nom	0	root	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Bemerkungen	Bemerkung	NOUN	NN	_	6	conj	_	_
@@ -6528,7 +6528,7 @@
 4	höchste	hoch	ADJ	ADJA	_	0	root	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
 6	erste	erster	ADJ	ADJA	_	4	conj	_	_
-7	seiner	sein	DET	PPOSAT	_	8	det:poss	_	_
+7	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Art	Art	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -6558,11 +6558,11 @@
 1	danach	danach	ADV	PROAV	_	2	advmod	_	_
 2	macht	machen	VERB	VVFIN	_	0	root	_	_
 3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
-4	seinen	sein	DET	PPOSAT	_	5	det:poss	_	_
+4	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Kalkül	Kalkül	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	7	punct	_	_
 7	legt	legen	VERB	VVFIN	_	2	parataxis	_	_
-8	seine	sein	DET	PPOSAT	_	9	det:poss	_	_
+8	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Maschinen	Maschine	NOUN	NN	Case=Acc	7	obj	_	_
 10	an	an	ADP	PTKVZ	_	7	compound:prt	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	7	punct	_	_
@@ -6632,7 +6632,7 @@
 8	hat	haben	AUX	VAFIN	_	7	aux	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	7	punct	_	_
 10	vor	vor	ADP	APPR	_	12	case	_	_
-11	seinen	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Augen	Auge	NOUN	NN	_	13	obl	_	_
 13	stufenweise	stufenweise	ADV	ADV	_	2	xcomp	_	_
 14	werden	werden	AUX	VAFIN	_	13	aux:pass	_	SpaceAfter=No
@@ -6697,7 +6697,7 @@
 12	auch	auch	ADV	ADV	_	13	advmod	_	_
 13	Homer	Homer	NOUN	NN	Case=Nom	18	nsubj	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
-15	seiner	sein	DET	PPOSAT	_	16	det:poss	_	_
+15	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Übersetzung	Übersetzung	NOUN	NN	_	18	nmod	_	_
 17	ein	ein	DET	ART	PronType=Art	18	det	_	_
 18	Vosside	Vosside	NOUN	NN	Case=Nom	8	parataxis	_	SpaceAfter=No
@@ -6905,7 +6905,7 @@
 19	notwendigen	notwendig	ADJ	ADJA	_	20	amod	_	_
 20	Eindrucks	Eindruck	NOUN	NN	Case=Gen	17	nmod	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
-22	seinem	sein	DET	PPOSAT	_	23	det:poss	_	_
+22	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Werden	Werden	NOUN	NN	_	20	nmod	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	29	punct	_	_
 25	oder	oder	CCONJ	KON	_	29	cc	_	_
@@ -7024,7 +7024,7 @@
 3	:	--	PUNCT	$.	_	2	punct	_	_
 4	indem	indem	SCONJ	KOUS	_	8	mark	_	_
 5	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
-6	sein	sein	DET	PPOSAT	_	7	det:poss	_	_
+6	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Innerstes	Innerst	NOUN	NN	Case=Acc	8	obj	_	_
 8	herausreißt	herausreißen	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	13	punct	_	_
@@ -7079,7 +7079,7 @@
 3	bleibt's	bleibt	VERB	VVFIN	_	0	root	_	_
 4	immer	immer	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	12	punct	_	_
-6	sein	sein	DET	PPOSAT	_	7	det:poss	_	_
+6	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Selbst	Selbst	ADV	ADV	_	12	obj	_	_
 8	auf	auf	ADP	APPR	_	10	case	_	_
 9	die	der	DET	ART	_	10	det	_	_
@@ -7714,7 +7714,7 @@
 3	glaubte	glauben	VERB	VVFIN	_	0	root	_	_
 4	treuherzig	treuherzig	ADJ	ADJD	_	3	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	10	punct	_	_
-6	seine	sein	DET	PPOSAT	_	8	det:poss	_	_
+6	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	dargestellten	dargestellt	ADJ	ADJA	_	8	amod	_	_
 8	Menschen	Mensch	NOUN	NN	Case=Nom	10	nsubj	_	_
 9	seien	sein	AUX	VAFIN	_	10	cop	_	_
@@ -9908,10 +9908,10 @@
 14	mag	mögen	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	13	punct	_	_
 16	als	als	CCONJ	KOKOM	_	18	case	_	_
-17	seine	sein	DET	PPOSAT	_	18	det:poss	_	_
+17	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc	13	obj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	21	punct	_	_
-20	seine	sein	DET	PPOSAT	_	21	det:poss	_	_
+20	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Lieblingsgegenstände	Lieblingsgegenstand	NOUN	NN	_	18	conj	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	28	punct	_	_
 23	der	der	PRON	PRELS	Case=Nom	28	nsubj	_	_
@@ -10080,7 +10080,7 @@
 6	bemerkt	bemerken	VERB	VVFIN	_	0	root	_	_
 7	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
-9	seinen	sein	DET	PPOSAT	_	10	det:poss	_	_
+9	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Verknüpfungen	Verknüpfung	NOUN	NN	_	6	obl	_	_
 11	kleiner	klein	ADJ	ADJD	_	14	amod	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	13	punct	_	_
@@ -10263,7 +10263,7 @@
 6	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	13	punct	_	_
 8	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	_
-9	seines	sein	DET	PPOSAT	_	11	det:poss	_	_
+9	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	transcendentalen	transcendental	ADJ	ADJA	_	11	amod	_	_
 11	Selbst	Selbst	NOUN	NN	_	13	obl	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
@@ -10271,7 +10271,7 @@
 14	,	--	PUNCT	$,	_	16	punct	_	_
 15	das	der	PRON	PRELS	_	16	nmod	_	_
 16	Ich	ich	PRON	PPER	Case=Dat	13	parataxis	_	_
-17	seines	sein	DET	PPOSAT	_	18	det:poss	_	_
+17	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Ich	ich	PRON	PPER	_	16	nmod	_	SpaceAfter=No
 19	's	es	PRON	PPER	Case=Nom	16	nsubj	_	_
 20	zugleich	zugleich	ADV	ADV	_	16	advmod	_	_
@@ -10504,7 +10504,7 @@
 7	Witzes	Witz	NOUN	NN	Case=Gen	2	obl	_	_
 8	willen	willen	ADP	APZR	_	7	case	_	SpaceAfter=No
 9	:	--	PUNCT	$.	_	14	punct	_	_
-10	seine	sein	DET	PPOSAT	_	11	det:poss	_	_
+10	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Zweckbestimmung	Zweckbestimmung	NOUN	NN	Case=Nom	14	nsubj	_	_
 12	ist	sein	AUX	VAFIN	_	14	cop	_	_
 13	der	der	DET	ART	_	14	det	_	_
@@ -10673,7 +10673,7 @@
 13	die	der	DET	ART	_	14	det	_	_
 14	Erinnerung	Erinnerung	NOUN	NN	Case=Acc	5	parataxis	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
-16	sein	sein	DET	PPOSAT	_	17	det:poss	_	_
+16	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Daseyn	Daseyn	NOUN	NN	_	14	nmod	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	3	punct	_	_
 
@@ -10844,13 +10844,13 @@
 27	der	der	PRON	PRELS	Case=Nom	33	nsubj	_	_
 28	mich	mich	PRON	PPER	Case=Acc	33	obj	_	_
 29	durch	durch	ADP	APPR	_	31	case	_	_
-30	seine	sein	DET	PPOSAT	_	31	det:poss	_	_
+30	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 31	Mittheilung	Mittheilung	NOUN	NN	Case=Acc	33	obl	_	_
 32	gleichsam	gleichsam	ADJ	ADJD	_	33	advmod	_	_
 33	einladet	einladen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
 34	,	--	PUNCT	$,	_	33	punct	_	_
 35	an	an	ADP	APPR	_	37	case	_	_
-36	seinem	sein	DET	PPOSAT	_	37	det:poss	_	_
+36	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	37	det:poss	_	_
 37	Geschäfte	Geschäft	NOUN	NN	_	40	obl	_	_
 38	Theil	Theil	NOUN	NN	Case=Acc	40	obj	_	_
 39	zu	zu	PART	PTKZU	_	40	mark	_	_
@@ -11179,10 +11179,10 @@
 4	leblosen	leblos	ADJ	ADJA	_	5	amod	_	_
 5	Stoff	Stoff	NOUN	NN	Case=Acc	2	obj	_	_
 6	wegen	wegen	ADP	APPR	_	8	case	_	_
-7	seiner	sein	DET	PPOSAT	_	8	det:poss	_	_
+7	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Beziehungen	Beziehung	NOUN	NN	Case=Gen	2	obl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
-10	seiner	sein	DET	PPOSAT	_	11	det:poss	_	_
+10	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Formen	Form	NOUN	NN	_	8	conj	_	_
 12	fest	fest	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	2	punct	_	_
@@ -11207,7 +11207,7 @@
 13	Wesen	Wesen	NOUN	NN	Case=Dat	14	obl	_	_
 14	gehört	gehören	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	18	punct	_	_
-16	seine	sein	DET	PPOSAT	_	17	det:poss	_	_
+16	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Spur	Spur	NOUN	NN	Case=Acc	18	obj	_	_
 18	trägt	tragen	VERB	VVFIN	_	14	conj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	24	punct	_	_
@@ -12461,7 +12461,7 @@
 2	wahre	wahr	ADJ	ADJA	_	3	amod	_	_
 3	Brief	Brief	NOUN	NN	Case=Nom	8	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	8	cop	_	_
-5	seiner	sein	DET	PPOSAT	_	6	det:poss	_	_
+5	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Natur	Natur	NOUN	NN	Case=Dat	8	nmod	_	_
 7	nach	nach	ADP	APPR	_	6	case	_	_
 8	poetisch	poetisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -12543,7 +12543,7 @@
 6	würdigsten	würdig	ADJ	ADJA	Case=Dat	3	obl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	3	punct	_	_
 8	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
-9	sein	sein	DET	PPOSAT	_	11	det:poss	_	_
+9	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	erster	erster	ADJ	ADJA	_	11	amod	_	_
 11	Eindruck	Eindruck	NOUN	NN	Case=Nom	13	nsubj	_	_
 12	der	der	DET	ART	_	13	det	_	_
@@ -12744,7 +12744,7 @@
 18	seyn	seyn	ADP	PTKVZ	_	15	compound:prt	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	25	punct	_	_
 20	wenn	wenn	SCONJ	KOUS	_	25	mark	_	_
-21	seine	sein	DET	PPOSAT	_	23	det:poss	_	_
+21	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 22	frühklugen	frühklug	ADJ	ADJA	_	23	amod	_	_
 23	Geschwister	Geschwister	NOUN	NN	Case=Nom	25	nsubj:pass	_	_
 24	längst	längst	ADV	ADV	_	25	advmod	_	_
@@ -12915,7 +12915,7 @@
 5	großer	groß	ADJ	ADJA	_	6	amod	_	_
 6	Ort	Ort	NOUN	NN	Case=Nom	0	root	_	_
 7	mit	mit	ADP	APPR	_	9	case	_	_
-8	seinen	sein	DET	PPOSAT	_	9	det:poss	_	_
+8	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Gärten	Garten	NOUN	NN	Case=Dat	6	nmod	_	SpaceAfter=No
 10	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -13466,7 +13466,7 @@
 9	ihn	ihn	PRON	PPER	Case=Acc	20	obj	_	_
 10	also	also	ADV	ADV	_	20	advmod	_	_
 11	nach	nach	ADP	APPR	_	17	case	_	_
-12	seiner	sein	DET	PPOSAT	_	17	det:poss	_	_
+12	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 13	und	und	CCONJ	KON	_	15	cc	_	_
 14	des	der	DET	ART	_	15	det	_	_
 15	Dichters	Dichter	NOUN	NN	Case=Gen	12	conj	_	_
@@ -13609,7 +13609,7 @@
 11	,	--	PUNCT	$,	_	17	punct	_	_
 12	und	und	CCONJ	KON	_	17	cc	_	_
 13	ist	sein	AUX	VAFIN	_	17	cop	_	_
-14	seinem	sein	DET	PPOSAT	_	15	det:poss	_	_
+14	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Princip	Princip	NOUN	NN	Case=Dat	17	nmod	_	_
 16	nach	nach	ADP	APPO	_	15	case	_	_
 17	Misanthrop	Misanthrop	NOUN	NN	Case=Nom	6	conj	_	_
@@ -13757,7 +13757,7 @@
 7	,	--	PUNCT	$,	_	9	punct	_	_
 8	die	der	DET	ART	_	9	det	_	_
 9	Archive	Archive	NOUN	NN	_	4	appos	_	_
-10	sein	sein	DET	PPOSAT	_	11	det:poss	_	_
+10	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Gedächtniß	Gedächtniß	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -13866,7 +13866,7 @@
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	_	5	det	_	_
 5	Spiel	Spiel	NOUN	NN	Case=Dat	2	nmod	_	_
-6	seiner	sein	DET	PPOSAT	_	8	det:poss	_	_
+6	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 7	eignen	eignen	ADJ	ADJA	_	8	amod	_	_
 8	Rolle	Rolle	NOUN	NN	_	5	nmod	_	_
 9	verdankt	verdanken	VERB	VVFIN	_	0	root	_	_
@@ -13955,7 +13955,7 @@
 3	Zwang	Zwang	NOUN	NN	Case=Nom	5	nsubj	_	_
 4	hierin	hierin	ADV	ADV	_	5	advmod	_	_
 5	schadet	schaden	VERB	VVFIN	_	0	root	_	_
-6	seiner	sein	DET	PPOSAT	_	7	det:poss	_	_
+6	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Religion	Religion	NOUN	NN	Case=Acc	5	obj	_	SpaceAfter=No
 8	.	--	PUNCT	$.	_	5	punct	_	_
 
@@ -14076,7 +14076,7 @@
 19	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	18	obj	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	und	und	CCONJ	KON	_	26	cc	_	_
-22	seine	sein	DET	PPOSAT	_	23	det:poss	_	_
+22	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Verhältnisse	Verhältnis	NOUN	NN	Case=Nom	26	nsubj	_	_
 24	zu	zu	ADP	APPR	_	25	case	_	_
 25	demselben	derselbe	DET	PDAT	Case=Dat	26	obl	_	_
@@ -15097,7 +15097,7 @@
 1	Den	der	DET	ART	_	3	det	_	_
 2	höchsten	hoch	ADJ	ADJA	_	3	amod	_	_
 3	Grad	Grad	NOUN	NN	Case=Acc	7	obj	_	_
-4	seines	sein	DET	PPOSAT	_	6	det:poss	_	_
+4	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	poetischen	poetisch	ADJ	ADJA	_	6	amod	_	_
 6	Daseyns	Daseyn	NOUN	NN	_	3	nmod	_	_
 7	erreicht	erreichen	VERB	VVFIN	_	0	root	_	_
@@ -15124,7 +15124,7 @@
 # text = Hier werden seine kühnsten Wünsche befriedigt, und oft übertroffen.
 1	Hier	hier	ADV	ADV	_	6	advmod	_	_
 2	werden	werden	AUX	VAFIN	_	6	aux:pass	_	_
-3	seine	sein	DET	PPOSAT	_	5	det:poss	_	_
+3	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	kühnsten	kühn	ADJ	ADJA	_	5	amod	_	_
 5	Wünsche	Wunsch	NOUN	NN	Case=Nom	6	nsubj:pass	_	_
 6	befriedigt	befriedigen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
@@ -15590,7 +15590,7 @@
 1	Ein	ein	DET	ART	PronType=Art	2	det	_	_
 2	Gesetz	Gesetz	NOUN	NN	Case=Nom	8	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	8	cop	_	_
-4	seinem	sein	DET	PPOSAT	_	5	det:poss	_	_
+4	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Begriffe	Begreifen	NOUN	NN	Case=Dat	8	nmod	_	_
 6	nach	nach	ADP	APPO	_	5	case	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	8	punct	_	_
@@ -15729,7 +15729,7 @@
 1	Der	der	DET	ART	_	2	det	_	_
 2	Geist	Geist	NOUN	NN	Case=Nom	12	nsubj	_	_
 3	in	in	ADP	APPR	_	6	case	_	_
-4	seinem	sein	DET	PPOSAT	_	6	det:poss	_	_
+4	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	jetzigen	jetzig	ADJ	ADJA	_	6	amod	_	_
 6	Zustande	Zustande	NOUN	NN	_	2	nmod	_	_
 7	würde	werden	AUX	VAFIN	_	12	aux	_	_
@@ -16187,7 +16187,7 @@
 23	der	der	DET	ART	_	25	det	_	_
 24	verhältnißmäßigen	verhältnißmäßig	ADJ	ADJA	_	25	amod	_	_
 25	Armatur	Armatur	NOUN	NN	_	20	conj	_	_
-26	seiner	sein	DET	PPOSAT	_	27	det:poss	_	_
+26	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Sinneswerkzeuge	Sinneswerkzeug	NOUN	NN	_	25	nmod	_	SpaceAfter=No
 28	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -16989,7 +16989,7 @@
 10	Archimedes	Archimedes	NOUN	NN	Case=Nom	15	nsubj	_	_
 11	kann	können	AUX	VMFIN	_	15	aux	_	_
 12	nun	nun	ADV	ADV	_	15	advmod	_	_
-13	sein	sein	DET	PPOSAT	_	14	det:poss	_	_
+13	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Versprechen	Versprechen	NOUN	NN	Case=Acc	15	obj	_	_
 15	erfüllen	erfüllen	VERB	VVINF	_	7	conj	_	SpaceAfter=No
 16	.	--	PUNCT	$.	_	7	punct	_	_
@@ -17271,7 +17271,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f100-s2
 # text = Sein Verbrechen war ein Eintritt ins Reich der Gewalt, der Tyranney.
-1	Sein	sein	DET	PPOSAT	_	2	det:poss	_	_
+1	Sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Verbrechen	Verbrechen	NOUN	NN	Case=Nom	5	nsubj	_	_
 3	war	sein	AUX	VAFIN	_	5	cop	_	_
 4	ein	ein	DET	ART	PronType=Art	5	det	_	_
@@ -17535,7 +17535,7 @@
 6	den	der	PRON	PRELS	Case=Acc	13	obj	_	_
 7	jeder	jeder	PRON	PIS	Case=Nom	13	nsubj	_	_
 8	mit	mit	ADP	APPR	_	10	case	_	_
-9	seinen	sein	DET	PPOSAT	_	10	det:poss	_	_
+9	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Bekannten	bekannte	NOUN	NN	Case=Dat	13	obl	_	_
 11	der	der	DET	ART	_	12	det	_	_
 12	Art	Art	NOUN	NN	_	10	nmod	_	_
@@ -18402,7 +18402,7 @@
 61	Exponent	Exponent	NOUN	NN	Case=Nom	58	acl	_	_
 62	oder	oder	CCONJ	KON	_	63	cc	_	_
 63	Wurzel	Wurzel	NOUN	NN	_	61	conj	_	_
-64	seine	sein	DET	PPOSAT	_	65	det:poss	_	_
+64	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	65	det:poss	_	_
 65	Individualität	Individualität	NOUN	NN	_	63	nmod	_	_
 66	ist	sein	AUX	VAFIN	_	61	cop	_	SpaceAfter=No
 67	,	--	PUNCT	$,	_	61	punct	_	_
@@ -19211,7 +19211,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f22-s3
 # text = Seinem Ursprunge nach, ganz subjektiv, original, nur grade in diesem Geiste möglich; seinem Charakter nach ganz objektiv, physisch und moralisch notwendig.
-1	Seinem	sein	DET	PPOSAT	_	2	det:poss	_	_
+1	Seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Ursprunge	Ursprunge	NOUN	NN	Case=Dat	6	nmod	_	_
 3	nach	nach	ADP	APPO	_	2	case	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	6	punct	_	_
@@ -19227,7 +19227,7 @@
 14	Geiste	Geist	NOUN	NN	_	15	nmod	_	_
 15	möglich	möglich	ADJ	ADJD	_	6	conj	_	SpaceAfter=No
 16	;	--	PUNCT	$.	_	6	punct	_	_
-17	seinem	sein	DET	PPOSAT	_	18	det:poss	_	_
+17	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Charakter	Charakter	NOUN	NN	Case=Dat	21	nmod	_	_
 19	nach	nach	ADP	APPR	_	18	case	_	_
 20	ganz	ganz	ADV	ADV	_	21	advmod	_	_
@@ -21045,7 +21045,7 @@
 8	so	so	ADV	ADV	_	9	advmod	_	_
 9	hat	haben	AUX	VAFIN	_	0	root	_	_
 10	doch	doch	ADV	ADV	_	9	advmod	_	_
-11	seine	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Poesie	Poesie	NOUN	NN	Case=Nom	9	nsubj	_	_
 13	und	und	CCONJ	KON	_	16	cc	_	_
 14	die	der	DET	ART	_	16	det	_	_
@@ -21599,7 +21599,7 @@
 40	mit	mit	ADP	APPR	_	42	case	_	_
 41	den	der	DET	ART	_	42	det	_	_
 42	Tadlern	Tadler	NOUN	NN	Case=Dat	39	nmod	_	_
-43	seiner	sein	DET	PPOSAT	_	44	det:poss	_	_
+43	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	44	det:poss	_	_
 44	Verse	Verse	NOUN	NN	_	42	nmod	_	SpaceAfter=No
 45	.	--	PUNCT	$.	_	8	punct	_	_
 
@@ -22018,7 +22018,7 @@
 9	der	der	PRON	PRELS	Case=Nom	16	nsubj	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
 11	einige	einige	PRON	PIS	_	16	obl	_	_
-12	seiner	sein	DET	PPOSAT	_	13	det:poss	_	_
+12	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Wünsche	Wunsch	NOUN	NN	_	11	nmod	_	_
 14	völlig	völlig	ADJ	ADJD	_	16	advmod	_	_
 15	Verzicht	Verzicht	NOUN	NN	Case=Acc	16	obj	_	_
@@ -22261,7 +22261,7 @@
 5	Wort	Wort	NOUN	NN	Case=Acc	14	obj	_	_
 6	aber	aber	ADV	ADV	_	14	advmod	_	_
 7	schon	schon	ADV	ADV	_	14	advmod	_	_
-8	seiner	sein	DET	PPOSAT	_	9	det:poss	_	_
+8	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Bildung	Bildung	NOUN	NN	Case=Acc	14	obj	_	_
 10	nach	nach	ADP	APPO	_	9	case	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	14	punct	_	_
@@ -22751,7 +22751,7 @@
 12	beweist	beweisen	VERB	VVFIN	_	5	conj	_	_
 13	dann	dann	ADV	ADV	_	12	advmod	_	_
 14	hinterdrein	hinterdrein	ADV	ADV	_	12	advmod	_	_
-15	sein	sein	DET	PPOSAT	_	16	det:poss	_	_
+15	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Recht	Recht	NOUN	NN	Case=Acc	12	obj	_	_
 17	daran	daran	ADV	PAV	_	12	advmod	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	5	punct	_	_
@@ -23144,7 +23144,7 @@
 27	eines	ein	DET	ART	PronType=Art	28	det	_	_
 28	Individuums	Individuum	NOUN	NN	Case=Gen	26	nmod	_	_
 29	in	in	ADP	APPR	_	33	case	_	_
-30	seine	sein	DET	PPOSAT	_	33	det:poss	_	_
+30	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 31	schlechthin	schlechthin	ADV	ADV	_	32	advmod	_	_
 32	einfachen	einfach	ADJ	ADJA	_	33	amod	_	_
 33	Elemente	Element	NOUN	NN	_	26	nmod	_	SpaceAfter=No
@@ -23615,12 +23615,12 @@
 4	jeder	jeder	DET	PIAT	_	6	det	_	_
 5	große	groß	ADJ	ADJA	_	6	amod	_	_
 6	Philosoph	Philosoph	NOUN	NN	Case=Nom	16	nsubj	_	_
-7	seine	sein	DET	PPOSAT	Case=Dat	8	det:poss	_	_
+7	seine	sein	DET	PPOSAT	Case=Dat|Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Vorgänger	Vorgänger	NOUN	NN	Case=Dat	16	obl:arg	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	13	punct	_	_
 10	oft	oft	ADV	ADV	_	13	advmod	_	_
 11	ohne	ohne	ADP	APPR	_	13	case	_	_
-12	seine	sein	DET	PPOSAT	_	13	det:poss	_	_
+12	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Absicht	Absicht	NOUN	NN	Case=Acc	16	parataxis	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	13	punct	_	_
 15	so	so	ADV	ADV	_	16	advmod	_	_
@@ -23772,7 +23772,7 @@
 2	den	der	DET	ART	_	3	det	_	_
 3	Ausdrücken	Ausdrück	NOUN	NN	Case=Dat	11	obl	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	6	punct	_	_
-5	Seine	sein	DET	PPOSAT	_	6	det:poss	_	_
+5	Seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Philosophie	Philosophie	NOUN	NN	_	3	appos	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
 8	Meine	Mein	DET	PPOSAT	_	9	det:poss	_	_
@@ -24117,14 +24117,14 @@
 21	angebildet	anbilden	VERB	VVPP	_	18	conj	_	_
 22	hatten	haben	AUX	VAFIN	_	21	aux	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	18	punct	_	_
-24	seine	sein	DET	PPOSAT	_	25	det:poss	_	_
+24	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Schüler	Schüler	NOUN	NN	_	26	xcomp	_	_
 26	hießen	hießen	VERB	VVFIN	_	43	advcl	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	35	punct	_	_
 28	und	und	CCONJ	KON	_	35	cc	_	_
 29	als	als	ADP	APPR	_	30	case	_	_
 30	Söhne	Sohn	NOUN	NN	_	35	xcomp	_	_
-31	seines	sein	DET	PPOSAT	_	32	det:poss	_	_
+31	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
 32	Geistes	Geist	NOUN	NN	_	30	nmod	_	_
 33	nach	nach	ADP	APPR	_	34	case	_	_
 34	ihm	ihm	PRON	PPER	Case=Dat	35	obl	_	_
@@ -24277,7 +24277,7 @@
 16	,	--	PUNCT	$,	_	20	punct	_	_
 17	sondern	sondern	CCONJ	KON	_	20	cc	_	_
 18	wider	wider	ADV	ADV	_	20	advmod	_	_
-19	seinen	sein	DET	PPOSAT	_	20	det:poss	_	_
+19	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Willen	Wille	NOUN	NN	Case=Nom	15	conj	_	_
 21	wäre	sein	AUX	VAFIN	_	20	cop	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	31	punct	_	_
@@ -25634,7 +25634,7 @@
 7	wenig	wenig	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	3	punct	_	_
 9	weil	weil	SCONJ	KOUS	_	13	mark	_	_
-10	seine	sein	DET	PPOSAT	_	11	det:poss	_	_
+10	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Äußerungen	Äußerung	NOUN	NN	Case=Nom	13	nsubj	_	_
 12	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
 13	lang	lang	ADJ	ADJD	_	3	advcl	_	SpaceAfter=No
@@ -25798,7 +25798,7 @@
 44	,	--	PUNCT	$,	_	40	punct	_	_
 45	hinbrütendes	hinbrütend	ADJ	ADJA	_	46	amod	_	_
 46	Anschauen	Anschauen	NOUN	NN	_	26	conj	_	_
-47	seiner	sein	DET	PPOSAT	_	49	det:poss	_	_
+47	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	49	det:poss	_	_
 48	eignen	eignen	ADJ	ADJA	_	49	amod	_	_
 49	Nase	Nase	NOUN	NN	_	46	nmod	_	SpaceAfter=No
 50	.	--	PUNCT	$.	_	1	punct	_	_
@@ -27498,7 +27498,7 @@
 17	sah	sehen	VERB	VVFIN	_	12	conj	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	26	punct	_	_
 19	und	und	CCONJ	KON	_	26	cc	_	_
-20	seine	sein	DET	PPOSAT	_	22	det:poss	_	_
+20	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 21	gesamte	gesamt	ADJ	ADJA	_	22	amod	_	_
 22	Kraft	Kraft	NOUN	NN	Case=Acc	26	obj	_	_
 23	auf	auf	ADP	APPR	_	25	case	_	_
@@ -28024,7 +28024,7 @@
 11	,	--	PUNCT	$,	_	17	punct	_	_
 12	die	der	DET	ART	_	13	det	_	_
 13	Größe	Größe	NOUN	NN	Case=Acc	17	obj	_	_
-14	seines	sein	DET	PPOSAT	_	15	det:poss	_	_
+14	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Meisters	Meister	NOUN	NN	_	13	nmod	_	_
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	begreifen	begreifen	VERB	VVINF	_	8	xcomp	_	SpaceAfter=No
@@ -28039,7 +28039,7 @@
 26	interessanteste	interessant	ADJ	ADJA	_	30	amod	_	_
 27	und	und	CCONJ	KON	_	28	cc	_	_
 28	schönste	schön	ADJ	ADJA	_	26	conj	_	_
-29	seiner	sein	DET	PPOSAT	_	30	det:poss	_	_
+29	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 30	Werke	Werk	NOUN	NN	_	22	appos	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	33	punct	_	_
 32	wie	wie	ADV	PWAV	_	33	advmod	_	_
@@ -28629,7 +28629,7 @@
 20	der	der	DET	ART	_	22	det	_	_
 21	menschliche	menschlich	ADJ	ADJA	_	22	amod	_	_
 22	Geist	Geist	NOUN	NN	Case=Nom	26	nsubj	_	_
-23	sein	sein	DET	PPOSAT	_	24	det:poss	_	_
+23	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Gesetz	Gesetz	NOUN	NN	Case=Acc	26	obj	_	_
 25	allem	alle	DET	PIS	Case=Dat|PronType=Tot	26	obl:arg	_	_
 26	aufprägt	aufprägt	VERB	VVFIN	_	18	ccomp	_	SpaceAfter=No
@@ -28638,7 +28638,7 @@
 29	wie	wie	ADV	PWAV	_	33	mark	_	_
 30	die	der	DET	ART	_	31	det	_	_
 31	Welt	Welt	CCONJ	KOKOM	_	33	nsubj	_	_
-32	sein	sein	DET	PPOSAT	_	33	det:poss	_	_
+32	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	Kunstwerk	Kunstwerk	NOUN	NN	Case=Nom	26	conj	_	_
 34	ist	sein	AUX	VAFIN	_	33	cop	_	SpaceAfter=No
 35	.	--	PUNCT	$.	_	18	punct	_	_
@@ -28906,7 +28906,7 @@
 6	ein	ein	DET	ART	PronType=Art	8	det	_	_
 7	weiblicher	weiblich	ADJ	ADJA	_	8	amod	_	_
 8	Geschäftsmann	Geschäftsmann	NOUN	NN	Case=Nom	3	nsubj	_	_
-9	seinen	sein	DET	PPOSAT	_	10	det:poss	_	_
+9	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Abschied	Abschied	NOUN	NN	Case=Acc	12	obj	_	_
 11	zu	zu	PART	PTKZU	_	12	mark	_	_
 12	haben	haben	AUX	VAINF	_	3	xcomp	_	SpaceAfter=No
@@ -28978,7 +28978,7 @@
 12	Spazierengehn	Spazierengehn	NOUN	NN	Case=Acc	19	obl	_	_
 13	am	an	ADP	APPRART	_	14	case	_	_
 14	Tage	Tag	NOUN	NN	_	12	nmod	_	_
-15	seine	sein	DET	PPOSAT	_	16	det:poss	_	_
+15	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Haut	Haut	NOUN	NN	Case=Acc	18	obj	_	_
 17	zu	zu	PART	PTKZU	_	18	mark	_	_
 18	schwärzen	schwärzen	VERB	VVINF	_	19	xcomp	_	_
@@ -29529,7 +29529,7 @@
 2	Ding	Ding	NOUN	NN	Case=Nom	7	nsubj	_	_
 3	muß	müssen	AUX	VMFIN	_	7	aux	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
-5	seiner	sein	DET	PPOSAT	_	6	det:poss	_	_
+5	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Art	Art	NOUN	NN	_	7	obl	_	_
 7	bleiben	bleiben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 8	.	--	PUNCT	$.	_	7	punct	_	_
@@ -29632,7 +29632,7 @@
 # text = Das Feuer seines Geistes kämpft mit der klimatischen Schwerfälligkeit.
 1	Das	der	DET	ART	_	2	det	_	_
 2	Feuer	Feuer	NOUN	NN	Case=Nom	5	nsubj	_	_
-3	seines	sein	DET	PPOSAT	_	4	det:poss	_	_
+3	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Geistes	Geist	NOUN	NN	_	2	nmod	_	_
 5	kämpft	kämpfen	VERB	VVFIN	_	0	root	_	_
 6	mit	mit	ADP	APPR	_	9	case	_	_
@@ -29648,7 +29648,7 @@
 # text = Wenn in seinen Gemälden mehr innre Harmonie sein sollte, mußte er weniger Schwungkraft haben, oder kein Flamänder sein.
 1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
 2	in	in	ADP	APPR	_	4	case	_	_
-3	seinen	sein	DET	PPOSAT	_	4	det:poss	_	_
+3	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Gemälden	Gemälde	NOUN	NN	_	8	obl	_	_
 5	mehr	mehr	DET	PIAT	_	7	det	_	_
 6	innre	innr	ADJ	ADJA	_	7	amod	_	_
@@ -29894,7 +29894,7 @@
 23	und	und	CCONJ	KON	_	28	cc	_	_
 24	der	der	PRON	PRELS	Case=Nom	28	nsubj	_	_
 25	in	in	ADP	APPR	_	27	case	_	_
-26	seiner	sein	DET	PPOSAT	_	27	det:poss	_	_
+26	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Unschuld	Unschuld	NOUN	NN	_	28	obl	_	_
 28	gemeint	meinen	VERB	VVPP	_	21	conj	_	_
 29	hätte	haben	AUX	VAFIN	_	28	aux	_	SpaceAfter=No
@@ -30081,7 +30081,7 @@
 11	könnte	können	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	10	punct	_	_
 13	durch	durch	ADP	APPR	_	16	case	_	_
-14	seine	sein	DET	PPOSAT	_	16	det:poss	_	_
+14	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 15	unvergleichliche	unvergleichlich	ADJ	ADJA	_	16	amod	_	_
 16	Frechheit	Frechheit	NOUN	NN	Case=Acc	19	obl	_	_
 17	selbst	selbst	ADV	ADV	_	19	advmod	_	_
@@ -30331,7 +30331,7 @@
 8	Mummius	Mummius	NOUN	NN	Case=Gen	6	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	19	punct	_	_
 10	der	der	PRON	PRELS	Case=Nom	19	nsubj	_	_
-11	seine	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Kennerschaft	Kennerschaft	NOUN	NN	Case=Acc	19	obj	_	_
 13	an	an	ADP	APPR	_	16	case	_	_
 14	den	der	DET	ART	_	16	det	_	_
@@ -30411,7 +30411,7 @@
 18	Vasengemälde	Vasengemälde	NOUN	NN	_	15	nmod	_	_
 19	erinnert	erinnern	VERB	VVFIN	_	10	conj	_	_
 20	an	an	ADP	APPR	_	23	case	_	_
-21	seine	sein	DET	PPOSAT	_	23	det:poss	_	_
+21	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 22	dorische	dorisch	ADJ	ADJA	_	23	amod	_	_
 23	Weichheit	Weichheit	NOUN	NN	_	19	obl	_	_
 24	und	und	CCONJ	KON	_	26	cc	_	_
@@ -30451,7 +30451,7 @@
 1	Dante	dante	PROPN	NE	Case=Nom	2	nsubj	_	_
 2	zeigt	zeigen	VERB	VVFIN	_	0	root	_	_
 3	durch	durch	ADP	APPR	_	5	case	_	_
-4	seine	sein	DET	PPOSAT	_	5	det:poss	_	_
+4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Behandlung	Behandlung	NOUN	NN	Case=Acc	2	obl	_	_
 6	des	der	DET	ART	_	7	det	_	_
 7	Sichtbaren	Sichtbar	NOUN	NN	Case=Gen	5	nmod	_	_
@@ -30546,7 +30546,7 @@
 15	Malerei	Malerei	NOUN	NN	_	13	nmod	_	_
 16	lebte	leben	VERB	VVFIN	_	3	advcl	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	16	punct	_	_
-18	sein	sein	DET	PPOSAT	_	19	det:poss	_	_
+18	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Geschmack	Geschmack	NOUN	NN	_	33	obl	_	_
 20	daran	daran	X	PROAV	_	19	case	_	_
 21	hat	haben	AUX	VAFIN	_	33	aux	_	_
@@ -30591,7 +30591,7 @@
 6	manchmal	manchmal	ADV	ADV	_	2	advmod	_	_
 7	zum	zu	ADP	APPRART	_	8	case	_	_
 8	Gegenstande	Gegenstande	NOUN	NN	_	2	obl	_	_
-9	seiner	sein	DET	PPOSAT	_	10	det:poss	_	_
+9	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Dichtungen	Dichtung	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	2	punct	_	_
 12	außerdem	außerdem	ADV	PROAV	_	18	advmod	_	_
@@ -30652,14 +30652,14 @@
 15	in	in	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	_	17	det	_	_
 17	Gruppierung	Gruppierung	NOUN	NN	_	27	obl	_	_
-18	seiner	sein	DET	PPOSAT	_	19	det:poss	_	_
+18	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Figuren	Figur	NOUN	NN	_	17	nmod	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	24	punct	_	_
 21	in	in	ADP	APPR	_	24	case	_	_
 22	der	der	DET	ART	_	24	det	_	_
 23	einfachen	einfach	ADJ	ADJA	_	24	amod	_	_
 24	Großheit	Großheit	NOUN	NN	_	17	conj	_	_
-25	seiner	sein	DET	PPOSAT	_	26	det:poss	_	_
+25	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
 26	Umrisse	Umriß	NOUN	NN	_	24	nmod	_	_
 27	unverkennbar	unverkennbar	ADJ	ADJD	_	0	root	_	_
 28	sein	sein	AUX	VAINF	_	27	cop	_	SpaceAfter=No
@@ -30766,7 +30766,7 @@
 11	durch	durch	ADP	APPR	_	13	case	_	_
 12	das	der	DET	ART	_	13	det	_	_
 13	Vergessen	vergessen	NOUN	NN	Case=Acc	8	nmod	_	_
-14	seiner	sein	DET	PPOSAT	_	15	det:poss	_	_
+14	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	selbst	selbst	ADV	ADV	_	13	advmod	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
 17	Umgange	Umgange	NOUN	NN	_	13	nmod	_	_
@@ -30979,7 +30979,7 @@
 17	»	»	PUNCT	XY	_	22	punct	_	SpaceAfter=No
 18	bis	bis	SCONJ	KOUS	_	22	mark	_	_
 19	ich	ich	PRON	PPER	Case=Nom	22	nsubj	_	_
-20	sein	sein	DET	PPOSAT	_	21	det:poss	_	_
+20	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Gehirn	Gehirn	NOUN	NN	Case=Acc	22	obj	_	_
 22	sehe	sehen	VERB	VVFIN	_	9	advcl	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	9	punct	_	_
@@ -31161,7 +31161,7 @@
 1	Man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
 2	könnte	können	AUX	VMFIN	_	15	aux	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
-4	seiner	sein	DET	PPOSAT	_	5	det:poss	_	_
+4	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Sprache	Sprache	NOUN	NN	_	15	obl	_	_
 6	von	von	ADP	APPR	_	9	case	_	_
 7	der	der	DET	ART	_	9	det	_	_
@@ -31634,7 +31634,7 @@
 29	erscheinen	erscheinen	VERB	VVINF	_	25	xcomp	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	29	punct	_	_
 31	da	da	SCONJ	KOUS	_	40	mark	_	_
-32	sein	sein	DET	PPOSAT	_	33	det:poss	_	_
+32	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	Marseiller	Marseiller	NOUN	NN	Case=Nom	40	nsubj	_	_
 34	Marsch	Marsch	NOUN	NN	_	33	appos	_	_
 35	funfzigtausend	funfzigtausend	ADJ	ADJA	Case=Dat	37	amod	_	_
@@ -31697,7 +31697,7 @@
 19	die	der	DET	ART	_	21	det	_	_
 20	mörderische	mörderisch	ADJ	ADJA	_	21	amod	_	_
 21	Gewalt	Gewalt	NOUN	NN	Case=Acc	28	obj	_	_
-22	seiner	sein	DET	PPOSAT	_	23	det:poss	_	_
+22	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Poesie	Poesie	NOUN	NN	_	21	nmod	_	_
 24	in	in	ADP	APPR	_	27	case	_	_
 25	diesem	dieser	DET	PDAT	_	27	det	_	_
@@ -31707,7 +31707,7 @@
 29	:	--	PUNCT	$.	_	28	punct	_	_
 30	mit	mit	ADP	APPR	_	33	case	_	_
 31	allen	aller	DET	PIAT	_	33	det	_	_
-32	seinen	sein	DET	PPOSAT	_	33	det:poss	_	_
+32	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	übrigen	übrig	ADJ	ADJA	Case=Dat	41	amod	_	_
 34	zusammengenommen	zusammengenommen	VERB	VVPP	_	33	nmod	_	SpaceAfter=No
 35	,	--	PUNCT	$,	_	41	punct	_	_
@@ -32192,7 +32192,7 @@
 16	,	--	PUNCT	$,	_	18	punct	_	_
 17	nach	nach	ADP	APPR	_	18	case	_	_
 18	Art	Art	NOUN	NN	Case=Dat	29	orphan	_	_
-19	seiner	sein	DET	PPOSAT	_	25	det:poss	_	_
+19	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 20	zwischen	zwischen	ADP	APPR	_	21	case	_	_
 21	Merkantilität	Merkantilität	NOUN	NN	_	25	nmod	_	_
 22	und	und	CCONJ	KON	_	23	cc	_	_
@@ -32771,7 +32771,7 @@
 2	Müller	Müller	PROPN	NE	_	1	flat	_	_
 3	tut	tun	VERB	VVFIN	_	0	root	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
-5	seiner	sein	DET	PPOSAT	_	6	det:poss	_	_
+5	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Geschichte	Geschichte	NOUN	NN	_	3	obl	_	_
 7	oft	oft	ADV	ADV	_	3	advmod	_	_
 8	Blicke	Blick	NOUN	NN	Case=Acc	3	obj	_	_
@@ -33104,7 +33104,7 @@
 14	Ehre	Ehre	NOUN	NN	Case=Acc	7	obj	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	23	punct	_	_
 16	als	als	CCONJ	KOKOM	_	23	orphan	_	_
-17	seinem	sein	DET	PPOSAT	_	18	det:poss	_	_
+17	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Herzen	Herzen	NOUN	NN	_	23	orphan	_	_
 19	der	der	DET	ART	_	23	det	_	_
 20	mehr	mehr	ADV	ADV	_	22	advmod	_	_
@@ -33131,7 +33131,7 @@
 1	Die	der	DET	ART	_	3	det	_	_
 2	historische	historisch	ADJ	ADJA	_	3	amod	_	_
 3	Tendenz	Tendenz	NOUN	NN	Case=Nom	6	nsubj	_	_
-4	seiner	sein	DET	PPOSAT	_	5	det:poss	_	_
+4	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Handlungen	Handlung	NOUN	NN	_	3	nmod	_	_
 6	bestimmt	bestimmen	VERB	VVFIN	_	0	root	_	_
 7	die	der	DET	ART	_	9	det	_	_
@@ -33299,7 +33299,7 @@
 13	und	und	CCONJ	KON	_	14	cc	_	_
 14	hat	haben	AUX	VAFIN	_	11	conj	_	_
 15	außer	außer	ADP	APPR	_	19	case	_	_
-16	seinem	sein	DET	PPOSAT	_	19	det:poss	_	_
+16	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 17	polemischen	polemisch	ADJ	ADJA	_	19	amod	_	_
 18	revolutionären	revolutionär	ADJ	ADJA	_	19	amod	_	_
 19	Verdienst	Verdienst	NOUN	NN	_	14	obl	_	_
@@ -34397,7 +34397,7 @@
 13	noch	noch	ADV	ADV	_	15	advmod	_	_
 14	das	der	DET	ART	_	15	det	_	_
 15	höchste	hoch	ADJ	ADJA	_	7	conj	_	_
-16	seiner	sein	DET	PPOSAT	_	17	det:poss	_	_
+16	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Art	Art	NOUN	NN	_	15	conj	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	7	punct	_	_
 
@@ -35280,10 +35280,10 @@
 8	der	der	DET	ART	_	9	det	_	_
 9	Künstler	Künstler	NOUN	NN	Case=Nom	26	nsubj	_	_
 10	von	von	ADP	APPR	_	12	case	_	_
-11	seinen	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Mitteln	Mittel	NOUN	NN	Case=Dat	26	obl	_	_
 13	und	und	CCONJ	KON	_	15	cc	_	_
-14	seinen	sein	DET	PPOSAT	_	15	det:poss	_	_
+14	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Zwecken	Zweck	NOUN	NN	_	12	conj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	15	punct	_	_
 17	ihren	ihr	DET	PPOSAT	_	18	det:poss	_	_
@@ -35302,7 +35302,7 @@
 30	der	der	DET	ART	_	31	det	_	_
 31	Dichter	Dichter	NOUN	NN	Case=Nom	35	nsubj	_	_
 32	über	über	ADP	APPR	_	34	case	_	_
-33	seine	sein	DET	PPOSAT	_	34	det:poss	_	_
+33	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det:poss	_	_
 34	Kunst	Kunst	NOUN	NN	_	35	obl	_	_
 35	philosophieren	philosophieren	VERB	VVINF	_	5	parataxis	_	SpaceAfter=No
 36	.	--	PUNCT	$.	_	5	punct	_	_
@@ -35323,12 +35323,12 @@
 9	auch	auch	ADV	ADV	_	10	advmod	_	_
 10	Kenner	Kenner	NOUN	NN	_	5	conj	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
-12	seinem	sein	DET	PPOSAT	_	13	det:poss	_	_
+12	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Fache	Fache	NOUN	NN	_	10	nmod	_	_
 14	sein	sein	AUX	VAINF	_	5	cop	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	23	punct	_	_
 16	und	und	CCONJ	KON	_	23	cc	_	_
-17	seine	sein	DET	PPOSAT	_	18	det:poss	_	_
+17	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Mitbürger	Mitbürger	NOUN	NN	Case=Nom	23	nsubj	_	_
 19	im	in	ADP	APPRART	_	20	case	_	_
 20	Reiche	Reiche	NOUN	NN	_	23	obl	_	_
@@ -35638,7 +35638,7 @@
 2	hat	haben	AUX	VAFIN	_	3	aux	_	_
 3	gemeint	meinen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	seine	sein	DET	PPOSAT	_	11	det:poss	_	_
+5	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 6	beinah	beinah	ADV	ADV	_	9	advmod	_	_
 7	ein	ein	DET	ART	PronType=Art	9	det	_	_
 8	halbes	halb	ADJ	ADJA	_	9	amod	_	_
@@ -36005,7 +36005,7 @@
 18	wie	wie	CCONJ	KOKOM	_	20	case	_	_
 19	eine	ein	DET	ART	PronType=Art	20	det	_	_
 20	Henne	Henne	NOUN	NN	_	16	obl	_	_
-21	seine	sein	DET	PPOSAT	_	22	det:poss	_	_
+21	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Theorie	Theorie	NOUN	NN	_	16	obl	_	SpaceAfter=No
 23	;	--	PUNCT	$.	_	9	punct	_	_
 24	und	und	CCONJ	KON	_	32	cc	_	_
@@ -36018,7 +36018,7 @@
 31	mögliche	möglich	ADJ	ADJA	_	32	amod	_	_
 32	Ruhepunkt	Ruhepunkt	NOUN	NN	Case=Nom	9	conj	_	_
 33	in	in	ADP	APPR	_	36	case	_	_
-34	seinem	sein	DET	PPOSAT	_	36	det:poss	_	_
+34	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	36	det:poss	_	_
 35	beständigen	beständig	ADJ	ADJA	_	36	amod	_	_
 36	Wechsel	Wechsel	NOUN	NN	_	32	nmod	_	_
 37	von	von	ADP	APPR	_	38	case	_	_
@@ -36062,7 +36062,7 @@
 20	ihm	ihm	PRON	PPER	Case=Dat	25	obl	_	_
 21	oder	oder	CCONJ	KON	_	24	cc	_	_
 22	mit	mit	ADP	APPR	_	24	case	_	_
-23	seiner	sein	DET	PPOSAT	_	24	det:poss	_	_
+23	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Philosophie	Philosophie	NOUN	NN	Case=Dat	20	obl	_	_
 25	gehabt	haben	VERB	VVPP	_	15	acl	_	_
 26	hat	haben	AUX	VAFIN	_	25	aux	_	SpaceAfter=No
@@ -36094,7 +36094,7 @@
 19	,	--	PUNCT	$,	_	24	punct	_	_
 20	wo	wo	ADV	PWAV	_	24	advmod	_	_
 21	Spinosa	Spinosa	PROPN	NE	Case=Nom	24	nsubj	_	_
-22	seine	sein	DET	PPOSAT	_	23	det:poss	_	_
+22	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Heimat	Heimat	NOUN	NN	Case=Acc	24	obj	_	_
 24	hat	haben	AUX	VAFIN	_	16	acl	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	24	punct	_	_
@@ -36168,7 +36168,7 @@
 15	von	von	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	_	17	det	_	_
 17	Höhe	Höhe	NOUN	NN	Case=Dat	14	conj	_	_
-18	seiner	sein	DET	PPOSAT	_	19	det:poss	_	_
+18	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Bildung	Bildung	NOUN	NN	_	17	nmod	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	25	punct	_	_
 21	wie	wie	CCONJ	KOKOM	_	25	cc	_	_
@@ -36258,7 +36258,7 @@
 # text = Jeder mag seine Mystik für sich haben, nur muß er sie auch für sich behalten Es gibt wohl viele, die das schöne Altertum travestieren, gewiß aber auch einige die es mystifizieren, und also für sich behalten müssen.
 1	Jeder	jeder	PRON	PIS	Case=Nom	7	nsubj	_	_
 2	mag	mögen	AUX	VMFIN	_	7	aux	_	_
-3	seine	sein	DET	PPOSAT	_	4	det:poss	_	_
+3	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Mystik	Mystik	NOUN	NN	Case=Acc	7	obj	_	_
 5	für	für	ADP	APPR	_	6	case	_	_
 6	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	7	nmod	_	_
@@ -36598,7 +36598,7 @@
 9	eine	ein	DET	ART	PronType=Art	11	det	_	_
 10	allgemeine	allgemein	ADJ	ADJA	_	11	amod	_	_
 11	Ausstellung	Ausstellung	NOUN	NN	Case=Nom	0	root	_	_
-12	seiner	sein	DET	PPOSAT	_	13	det:poss	_	_
+12	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Plane	Plane	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 14	.	--	PUNCT	$.	_	11	punct	_	_
 
@@ -36950,7 +36950,7 @@
 33	man	man	PRON	PIS	Case=Nom	41	nsubj	_	_
 34	die	der	DET	ART	_	35	det	_	_
 35	Identität	Identität	NOUN	NN	_	41	obl	_	_
-36	seiner	sein	DET	PPOSAT	_	37	det:poss	_	_
+36	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	37	det:poss	_	_
 37	Philosophie	Philosophie	NOUN	NN	_	35	nmod	_	_
 38	mit	mit	ADP	APPR	_	40	case	_	_
 39	der	der	DET	ART	_	40	det	_	_
@@ -37047,7 +37047,7 @@
 18	es	es	PRON	PPER	Case=Nom	31	nsubj	_	_
 19	nicht	nicht	PART	PTKNEG	_	31	advmod	_	_
 20	in	in	ADP	APPR	_	22	case	_	_
-21	seiner	sein	DET	PPOSAT	_	22	det:poss	_	_
+21	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Darstellung	Darstellung	NOUN	NN	_	31	obl	_	_
 23	und	und	CCONJ	KON	_	27	cc	_	_
 24	also	also	ADV	ADV	_	27	advmod	_	_
@@ -37061,7 +37061,7 @@
 32	ist	sein	AUX	VAFIN	_	31	aux	_	SpaceAfter=No
 33	,	--	PUNCT	$,	_	43	punct	_	_
 34	sondern	sondern	CCONJ	KON	_	43	cc	_	_
-35	seine	sein	DET	PPOSAT	_	36	det:poss	_	_
+35	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	36	det:poss	_	_
 36	Betrachtung	Betrachtung	NOUN	NN	_	43	obl	_	_
 37	und	und	CCONJ	KON	_	39	cc	_	_
 38	das	der	DET	ART	_	39	det	_	_
@@ -37274,7 +37274,7 @@
 13	wenn	wenn	SCONJ	KOUS	_	18	mark	_	_
 14	ich	ich	PRON	PPER	Case=Nom	18	nsubj	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
-16	seinem	sein	DET	PPOSAT	_	17	det:poss	_	_
+16	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Geiste	Geist	NOUN	NN	_	18	obl	_	_
 18	handeln	handeln	VERB	VVINF	_	10	advcl	_	_
 19	kann	können	AUX	VMFIN	_	18	aux	_	SpaceAfter=No
@@ -37284,7 +37284,7 @@
 23	ihn	ihn	PRON	PPER	Case=Acc	31	obj	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	29	punct	_	_
 25	ohne	ohne	ADP	APPR	_	27	case	_	_
-26	seine	sein	DET	PPOSAT	_	27	det:poss	_	_
+26	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Individualität	Individualität	NOUN	NN	Case=Acc	29	obl	_	_
 28	zu	zu	PART	PTKZU	_	29	mark	_	_
 29	schmälern	schmälern	VERB	VVINF	_	31	xcomp	_	SpaceAfter=No
@@ -37727,10 +37727,10 @@
 # text = Hülsen ist seines Gedankens und seines Ausdrucks völlig Meister, er geht sicher und leise; und diese ruhige hohe Besonnenheit bei dem weltumfassenden Blick und der reinen Humanität, ist es eben was ein historischer Philosoph in seinem antiquarischen und aus der Mode gekommenen Dialekt das Sokratische nennen würde; eine Terminiologie die sich jedoch ein Künstler, der so viel philologischen Geist hat, gefallen lassen muß.
 1	Hülsen	Hülsen	NOUN	NN	Case=Nom	9	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	9	cop	_	_
-3	seines	sein	DET	PPOSAT	_	4	det:poss	_	_
+3	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Gedankens	Gedanke	NOUN	NN	_	9	nmod	_	_
 5	und	und	CCONJ	KON	_	7	cc	_	_
-6	seines	sein	DET	PPOSAT	_	7	det:poss	_	_
+6	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Ausdrucks	Ausdruck	NOUN	NN	_	4	conj	_	_
 8	völlig	völlig	ADJ	ADJD	_	9	advmod	_	_
 9	Meister	Meister	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
@@ -37763,7 +37763,7 @@
 36	historischer	historisch	ADJ	ADJA	_	37	amod	_	_
 37	Philosoph	Philosoph	NOUN	NN	Case=Nom	49	nsubj	_	_
 38	in	in	ADP	APPR	_	46	case	_	_
-39	seinem	sein	DET	PPOSAT	_	46	det:poss	_	_
+39	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	46	det:poss	_	_
 40	antiquarischen	antiquarischen	ADJ	ADJA	_	46	amod	_	_
 41	und	und	CCONJ	KON	_	45	cc	_	_
 42	aus	aus	ADP	APPR	_	44	case	_	_
@@ -38011,18 +38011,18 @@
 15	um	um	SCONJ	KOUI	_	20	mark	_	_
 16	die	der	DET	ART	_	17	det	_	_
 17	Ecken	Ecke	NOUN	NN	Case=Acc	20	obj	_	_
-18	seiner	sein	DET	PPOSAT	_	19	det:poss	_	_
+18	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 19	Individualität	Individualität	NOUN	NN	_	17	nmod	_	_
 20	abzuschleifen	abzuhleifen	VERB	VVINF	_	11	xcomp	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	27	punct	_	_
 22	sondern	sondern	CCONJ	KON	_	27	cc	_	_
 23	um	um	ADP	APPR	_	25	case	_	_
-24	seinen	sein	DET	PPOSAT	_	25	det:poss	_	_
+24	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 25	Blick	Blick	NOUN	NN	Case=Acc	27	obl	_	_
 26	zu	zu	PART	PTKZU	_	27	mark	_	_
 27	erweitern	erweitern	VERB	VVINF	_	20	conj	_	_
 28	und	und	CCONJ	KON	_	43	cc	_	_
-29	seinem	sein	DET	PPOSAT	Case=Dat	30	det:poss	_	_
+29	seinem	sein	DET	PPOSAT	Case=Dat|Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 30	Geist	Geist	NOUN	NN	Case=Dat	43	obl:arg	_	_
 31	mehr	mehr	DET	PIAT	_	32	det	_	_
 32	Freiheit	Freiheit	NOUN	NN	Case=Acc	43	obj	_	_
@@ -38594,12 +38594,12 @@
 1	Dagegen	dagegen	ADV	ADV	_	2	advmod	_	_
 2	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
 3	mir	sich	PRON	PPER	Case=Dat	2	obl:arg	_	_
-4	seine	sein	DET	PPOSAT	_	5	det:poss	_	_
+4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Polemik	Polemik	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	11	punct	_	_
 7	besonders	besonders	ADV	ADV	_	11	advmod	_	_
 8	aber	aber	CCONJ	KON	_	11	cc	_	_
-9	seine	sein	DET	PPOSAT	_	11	det:poss	_	_
+9	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	literarische	literarisch	ADJ	ADJA	_	11	amod	_	_
 11	Kritik	Kritik	NOUN	NN	_	5	conj	_	_
 12	der	der	DET	ART	_	13	det	_	_
@@ -38611,7 +38611,7 @@
 18	sein	sein	AUX	VAINF	_	16	cop	_	SpaceAfter=No
 19	;	--	PUNCT	$.	_	29	punct	_	_
 20	und	und	CCONJ	KON	_	29	cc	_	_
-21	seine	sein	DET	PPOSAT	_	22	det:poss	_	_
+21	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	Anlage	Anlage	NOUN	NN	Case=Nom	29	nsubj	_	_
 23	zur	zu	ADP	APPRART	_	24	case	_	_
 24	Universalität	Universalität	NOUN	NN	_	22	nmod	_	_
@@ -38728,7 +38728,7 @@
 9	tun	tun	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	16	punct	_	_
 11	und	und	CCONJ	KON	_	16	cc	_	_
-12	sein	sein	DET	PPOSAT	_	14	det:poss	_	_
+12	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	eigentliches	eigentlich	ADJ	ADJA	_	14	amod	_	_
 14	Wesen	Wesen	NOUN	NN	Case=Nom	16	nsubj	_	_
 15	ist	sein	AUX	VAFIN	_	16	cop	_	_
@@ -38741,7 +38741,7 @@
 # sent_id = athenaeum-f305-s4
 # text = Daher seine Verwandtschaft mit der Elegie und allem, was transzendental ist; daher aber auch sein Hochmut und sein Hang zur Mystik des Witzes.
 1	Daher	daher	ADV	PAV	_	3	advmod	_	_
-2	seine	sein	DET	PPOSAT	_	3	det:poss	_	_
+2	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Verwandtschaft	Verwandtschaft	NOUN	NN	_	0	root	_	_
 4	mit	mit	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	_	6	det	_	_
@@ -38756,10 +38756,10 @@
 14	daher	daher	ADV	PROAV	_	18	advmod	_	_
 15	aber	aber	ADV	ADV	_	18	advmod	_	_
 16	auch	auch	ADV	ADV	_	18	advmod	_	_
-17	sein	sein	DET	PPOSAT	_	18	det:poss	_	_
+17	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Hochmut	Hochmut	NOUN	NN	_	3	parataxis	_	_
 19	und	und	CCONJ	KON	_	21	cc	_	_
-20	sein	sein	DET	PPOSAT	_	21	det:poss	_	_
+20	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 21	Hang	Hang	NOUN	NN	_	18	conj	_	_
 22	zur	zu	ADP	APPRART	_	23	case	_	_
 23	Mystik	Mystik	NOUN	NN	_	21	nmod	_	_
@@ -39008,7 +39008,7 @@
 15	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
 16	ein	ein	DET	ART	PronType=Art	17	det	_	_
 17	Dichter	Dichter	NOUN	NN	Case=Nom	21	nsubj	_	_
-18	seine	sein	DET	PPOSAT	_	20	det:poss	_	_
+18	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	wirkliche	wirklich	ADJ	ADJA	_	20	amod	_	_
 20	Geliebte	Geliebte	NOUN	NN	Case=Acc	21	obj	_	_
 21	besingt	besingen	VERB	VVFIN	_	13	csubj	_	SpaceAfter=No
@@ -39101,7 +39101,7 @@
 30	auf	auf	ADP	APPR	_	32	case	_	_
 31	den	der	DET	ART	_	32	det	_	_
 32	Kenner	Kenner	NOUN	NN	_	36	obl	_	_
-33	seine	sein	DET	PPOSAT	_	35	det:poss	_	_
+33	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det:poss	_	_
 34	vollkommene	vollkommen	ADJ	ADJA	_	35	amod	_	_
 35	Richtigkeit	Richtigkeit	NOUN	NN	Case=Acc	36	obj	_	_
 36	haben	haben	AUX	VAFIN	_	18	advcl	_	_
@@ -39705,7 +39705,7 @@
 14	Beschreibung	Beschreibung	NOUN	NN	Case=Acc	22	obl	_	_
 15	und	und	CCONJ	KON	_	16	cc	_	_
 16	Verkennung	Verkennung	NOUN	NN	_	14	conj	_	_
-17	seiner	sein	DET	PPOSAT	_	19	det:poss	_	_
+17	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 18	heroischen	heroisch	ADJ	ADJA	_	19	amod	_	_
 19	Größe	Größe	NOUN	NN	_	14	nmod	_	_
 20	die	der	DET	ART	_	21	det	_	_
@@ -39806,7 +39806,7 @@
 29	und	und	CCONJ	KON	_	34	cc	_	_
 30	halb	halb	ADV	ADV	_	34	advmod	_	_
 31	in	in	ADP	APPR	_	34	case	_	_
-32	seinem	sein	DET	PPOSAT	_	34	det:poss	_	_
+32	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det:poss	_	_
 33	ursprünglichen	ursprünglich	ADJ	ADJA	_	34	amod	_	_
 34	Zustand	Zustand	NOUN	NN	_	35	obl	_	_
 35	aufzustellen	aufstellen	VERB	VVINF	_	21	conj	_	SpaceAfter=No
@@ -40016,7 +40016,7 @@
 3	der	der	PRON	PRELS	Case=Nom	11	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
-6	seiner	sein	DET	PPOSAT	_	7	det:poss	_	_
+6	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Frau	Frau	NOUN	NN	_	11	obl	_	_
 8	ein	ein	DET	ART	PronType=Art	9	det	_	_
 9	wenig	wenig	ADV	ADV	_	10	advmod	_	_
@@ -40024,7 +40024,7 @@
 11	gesehen	sehen	VERB	VVINF	_	1	acl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	11	punct	_	_
 13	findet	finden	VERB	VVFIN	_	0	root	_	_
-14	seine	sein	DET	PPOSAT	_	16	det:poss	_	_
+14	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 15	ersten	erster	ADJ	ADJA	_	16	amod	_	_
 16	Regungen	Regung	NOUN	NN	Case=Acc	13	obj	_	_
 17	vor	vor	ADP	APPR	_	20	case	_	_
@@ -40600,7 +40600,7 @@
 3	Prophet	Prophet	NOUN	NN	Case=Nom	8	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
-6	seinem	sein	DET	PPOSAT	_	7	det:poss	_	_
+6	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Vaterlande	Vaterlande	NOUN	NN	_	8	obl	_	_
 8	gilt	gelten	VERB	VVPP	_	12	csubj	_	_
 9	ist	sein	AUX	VAFIN	_	12	aux	_	_
@@ -41273,7 +41273,7 @@
 22	am	an	ADP	APPRART	_	23	case	_	_
 23	wenigsten	wenigster	DET	PIAT	_	20	advmod	_	_
 24	von	von	ADP	APPR	_	26	case	_	_
-25	seiner	sein	DET	PPOSAT	_	26	det:poss	_	_
+25	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
 26	eignen	eignen	PRON	PPOSS	Case=Dat	20	parataxis	_	SpaceAfter=No
 27	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -41828,7 +41828,7 @@
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	weil	weil	SCONJ	KOUS	_	11	mark	_	_
 8	nichts	nichts	PRON	PIS	Case=Nom	11	nsubj	_	_
-9	seine	sein	DET	PPOSAT	_	10	det:poss	_	_
+9	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc	11	obj	_	_
 11	verhindert	verhindern	VERB	VVFIN	_	5	advcl	_	SpaceAfter=No
 12	.	--	PUNCT	$.	_	5	punct	_	_
@@ -41994,7 +41994,7 @@
 # text = Wer mit seiner Manier, kleine Silhouetten von sich selbst in verschiednen Stellungen aus freier Hand auszuschneiden und umherzubieten, eine Gesellschaft unterhalten kann, oder auf den ersten Wink fertig ist, den Kastellan von sich selbst zu machen, und was in ihm ist jedem, der an seiner Türe stehn bleibt, zu zeigen wie ein Landedelmann die verschrobenen Anlagen seines englischen Gartens, der heißt ein offner Mensch.
 1	Wer	wer	PRON	PWS	Case=Nom	23	nsubj	_	_
 2	mit	mit	ADP	APPR	_	4	case	_	_
-3	seiner	sein	DET	PPOSAT	_	4	det:poss	_	_
+3	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Manier	Manier	NOUN	NN	Case=Dat	23	obl	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	17	punct	_	_
 6	kleine	klein	ADJ	ADJA	_	7	amod	_	_
@@ -42042,7 +42042,7 @@
 48	,	--	PUNCT	$,	_	47	punct	_	_
 49	der	der	PRON	PRELS	Case=Nom	54	nsubj	_	_
 50	an	an	ADP	APPR	_	52	case	_	_
-51	seiner	sein	DET	PPOSAT	_	52	det:poss	_	_
+51	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	52	det:poss	_	_
 52	Türe	Türe	NOUN	NN	_	54	obl	_	_
 53	stehn	stehn	VERB	VVINF	_	54	xcomp	_	_
 54	bleibt	bleiben	VERB	VVFIN	_	47	acl	_	SpaceAfter=No
@@ -42055,7 +42055,7 @@
 61	die	der	DET	ART	_	63	det	_	_
 62	verschrobenen	verschroben	ADJ	ADJA	_	63	amod	_	_
 63	Anlagen	Anlage	NOUN	NN	Case=Acc	57	obj	_	_
-64	seines	sein	DET	PPOSAT	_	66	det:poss	_	_
+64	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	66	det:poss	_	_
 65	englischen	englisch	ADJ	ADJA	_	66	amod	_	_
 66	Gartens	Gartens	NOUN	NN	_	63	nmod	_	SpaceAfter=No
 67	,	--	PUNCT	$,	_	69	punct	_	_
@@ -42442,7 +42442,7 @@
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	bewege	bewegen	NOUN	NN	_	2	conj	_	_
 6	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	5	nmod	_	_
-7	seiner	sein	DET	PPOSAT	_	8	det:poss	_	_
+7	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Natur	Natur	NOUN	NN	_	5	obl	_	_
 9	gemäß	gemäß	ADP	APPO	_	8	case	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	2	punct	_	_
@@ -42525,7 +42525,7 @@
 8	der	der	DET	ART	_	9	det	_	_
 9	Mensch	Mensch	NOUN	NN	Case=Nom	13	nsubj	_	_
 10	innerhalb	innerhalb	ADP	APPR	_	12	case	_	_
-11	seines	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Gemüts	Gemüt	NOUN	NN	_	13	obl	_	_
 13	beweisen	beweisen	VERB	VVINF	_	6	acl	_	_
 14	muß	müssen	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
@@ -42590,7 +42590,7 @@
 33	innerstes	innerster	ADJ	ADJA	_	34	amod	_	_
 34	Dasein	Dasein	NOUN	NN	_	38	obl	_	_
 35	mit	mit	ADP	APPR	_	37	case	_	_
-36	seinen	sein	DET	PPOSAT	_	37	det:poss	_	_
+36	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	37	det:poss	_	_
 37	Springfedern	Springfed	NOUN	NN	Case=Dat	38	obl	_	_
 38	erraten	erraten	VERB	VVINF	_	39	xcomp	_	_
 39	läßt	lassen	VERB	VVFIN	_	22	acl	_	SpaceAfter=No
@@ -42632,7 +42632,7 @@
 20	Instinkt	Instinkt	NOUN	NN	Case=Nom	27	nsubj	_	_
 21	der	der	DET	ART	_	22	det	_	_
 22	Freundschaft	Freundschaft	NOUN	NN	_	20	nmod	_	_
-23	seinen	sein	DET	PPOSAT	_	24	det:poss	_	_
+23	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Schatz	Schatz	NOUN	NN	Case=Acc	26	obj	_	_
 25	zu	zu	PART	PTKZU	_	26	mark	_	_
 26	heben	heben	VERB	VVINF	_	27	xcomp	_	_
@@ -43075,7 +43075,7 @@
 29	hat	haben	AUX	VAFIN	_	26	parataxis	_	_
 30	natürlich	natürlich	ADV	ADV	_	29	advmod	_	_
 31	für	für	ADP	APPR	_	34	case	_	_
-32	seine	sein	DET	PPOSAT	_	34	det:poss	_	_
+32	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det:poss	_	_
 33	unbedeutende	unbedeutend	ADJ	ADJA	_	34	amod	_	_
 34	Offenheit	Offenheit	NOUN	NN	Case=Acc	29	obl	_	_
 35	einen	ein	DET	ART	PronType=Art	38	det	_	_
@@ -43404,7 +43404,7 @@
 19	ihm	ihm	PRON	PPER	Case=Dat	20	obl:arg	_	_
 20	angehört	angehören	VERB	VVFIN	_	16	acl	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	20	punct	_	_
-22	seinen	sein	DET	PPOSAT	_	23	det:poss	_	_
+22	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Gedanken	Gedanke	NOUN	NN	_	16	nmod	_	_
 24	und	und	CCONJ	KON	_	25	cc	_	_
 25	Gefühlen	Gefühl	NOUN	NN	_	23	conj	_	SpaceAfter=No
@@ -43451,7 +43451,7 @@
 8	und	und	CCONJ	KON	_	10	cc	_	_
 9	alles	alle	DET	PIS	Case=Nom|PronType=Tot	10	nsubj	_	_
 10	hat	haben	AUX	VAFIN	_	3	conj	_	_
-11	seine	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Stelle	Stelle	NOUN	NN	Case=Acc	10	obj	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	3	punct	_	_
 
@@ -43767,7 +43767,7 @@
 9	hat	haben	AUX	VAFIN	_	8	aux	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	als	als	CCONJ	KOKOM	_	14	case	_	_
-12	sein	sein	DET	PPOSAT	_	14	det:poss	_	_
+12	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 13	äußeres	äußerer	ADJ	ADJA	_	14	amod	_	_
 14	Dasein	Dasein	NOUN	NN	_	8	obl	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
@@ -44151,7 +44151,7 @@
 42	,	--	PUNCT	$,	_	50	punct	_	_
 43	wo	wo	ADV	PWAV	_	50	advmod	_	_
 44	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	50	obj	_	_
-45	sein	sein	DET	PPOSAT	_	47	det:poss	_	_
+45	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	47	det:poss	_	_
 46	zarter	zart	ADJ	ADJA	_	47	amod	_	_
 47	Geist	Geist	NOUN	NN	Case=Nom	50	nsubj	_	_
 48	etwas	etwas	ADV	ADV	_	49	advmod	_	_
@@ -44422,7 +44422,7 @@
 13	Auge	Auge	NOUN	NN	_	9	obl	_	_
 14	ohne	ohne	ADP	APPR	_	19	case	_	_
 15	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	19	obj	_	_
-16	seiner	sein	DET	PPOSAT	_	18	det:poss	_	_
+16	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 17	mathematischen	mathematisch	ADJ	ADJA	_	18	amod	_	_
 18	Operation	Operation	NOUN	NN	_	19	obl	_	_
 19	bewußt	bewußt	ADJ	ADJD	Case=Acc	9	xcomp	_	_
@@ -44446,7 +44446,7 @@
 8	andern	anderer	PRON	PIS	_	6	nmod	_	_
 9	mit	mit	ADP	APPR	_	12	case	_	_
 10	allen	aller	DET	PIAT	_	12	det	_	_
-11	seinen	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Unebenheiten	Unebenheit	NOUN	NN	Case=Dat	13	obl	_	_
 13	berühren	berühren	VERB	VVINF	_	0	root	_	_
 14	können	können	AUX	VMINF	_	13	aux	_	SpaceAfter=No
@@ -44663,7 +44663,7 @@
 8	Zeit	Zeit	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	16	punct	_	_
 10	welcher	welcher	PRON	PRELS	Case=Nom	16	nsubj	_	_
-11	seine	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Adelszeichen	Adelszeiche	NOUN	NN	Case=Acc	16	obj	_	_
 13	den	der	DET	ART	_	14	det	_	_
 14	Gerichten	Gericht	NOUN	NN	_	16	obl	_	_
@@ -44712,7 +44712,7 @@
 10	muß	müssen	AUX	VMFIN	_	17	aux	_	_
 11	es	es	PRON	PPER	Case=Acc	17	obj	_	_
 12	mit	mit	ADP	APPR	_	15	case	_	_
-13	seinem	sein	DET	PPOSAT	_	15	det:poss	_	_
+13	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 14	innern	innern	ADJ	ADJA	_	15	amod	_	_
 15	Adel	Adel	NOUN	NN	Case=Dat	17	obl	_	_
 16	ebenso	ebenso	ADV	ADV	_	17	advmod	_	_
@@ -44950,7 +44950,7 @@
 11	Kraft	Kraft	NOUN	NN	Case=Dat	17	obl	_	_
 12	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	_
 13	um	um	ADP	APPR	_	15	case	_	_
-14	seine	sein	DET	PPOSAT	_	15	det:poss	_	_
+14	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Achse	Achse	NOUN	NN	Case=Acc	17	obl	_	_
 16	frei	frei	ADV	ADV	_	17	advmod	_	_
 17	bewegt	bewegen	VERB	VVFIN	_	2	ccomp	_	SpaceAfter=No
@@ -45231,13 +45231,13 @@
 30	,	--	PUNCT	$,	_	34	punct	_	_
 31	deren	der	DET	PRELAT	_	32	det:poss	_	_
 32	Geheimnisse	Geheimnis	NOUN	NN	_	34	orphan	_	_
-33	seinen	sein	DET	PPOSAT	_	38	det:poss	_	_
+33	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	38	det:poss	_	_
 34	diplomatischen	diplomatisch	ADJ	ADJA	_	28	conj	_	_
 35	und	und	CCONJ	KON	_	42	cc	_	_
 36	deren	der	DET	PRELAT	_	38	det:poss	_	_
 37	verwickelte	verwickelt	ADJ	ADJA	_	38	obl	_	_
 38	Streitfragen	Streitfrage	NOUN	NN	Case=Acc	42	obj	_	_
-39	seinen	sein	DET	PPOSAT	_	41	det:poss	_	_
+39	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	41	det:poss	_	_
 40	chirurgischen	chirurgisch	ADJ	ADJA	_	41	amod	_	_
 41	Sinn	Sinn	NOUN	NN	Case=Acc	42	obj	_	_
 42	anlocken	anlocken	VERB	VVINF	_	34	conj	_	SpaceAfter=No
@@ -45289,7 +45289,7 @@
 88	Genies	Genies	NOUN	NN	_	86	nmod	_	_
 89	die	der	DET	ART	_	90	det	_	_
 90	Form	Form	NOUN	NN	Case=Acc	97	obj	_	_
-91	seines	sein	DET	PPOSAT	_	92	det:poss	_	_
+91	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	92	det:poss	_	_
 92	Innern	innere	NOUN	NN	_	90	nmod	_	_
 93	einzelnen	einzeln	ADJ	ADJA	Case=Dat	94	amod	_	_
 94	Gegenständen	Gegenstand	NOUN	NN	Case=Dat	97	obl:arg	_	_
@@ -45405,7 +45405,7 @@
 2	große	groß	ADJ	ADJA	_	3	amod	_	_
 3	Unheil	Unheil	NOUN	NN	Case=Nom	11	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	11	cop	_	_
-5	seinem	sein	DET	PPOSAT	_	7	det:poss	_	_
+5	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	innersten	inner	ADJ	ADJA	_	7	amod	_	_
 7	Grunde	Grunde	NOUN	NN	Case=Dat	11	nmod	_	_
 8	nach	nach	ADP	APPO	_	7	case	_	_
@@ -45501,7 +45501,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f361-s2
 # text = Sein Gott ist nicht nur Lehnsherr der Existenz, sondern er besitzt auch als Regale allein Freiheit, Harmonie, synthetisches Vermögen.
-1	Sein	sein	DET	PPOSAT	_	2	det:poss	_	_
+1	Sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Gott	Gott	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	6	cop	_	_
 4	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
@@ -46048,7 +46048,7 @@
 30	das	der	DET	ART	_	32	det	_	_
 31	freie	frei	ADJ	ADJA	_	32	amod	_	_
 32	Naturspiel	Naturspiel	NOUN	NN	Case=Acc	58	obl	_	_
-33	seines	sein	DET	PPOSAT	_	34	det:poss	_	_
+33	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det:poss	_	_
 34	Gemüts	Gemüt	NOUN	NN	_	32	nmod	_	_
 35	und	und	CCONJ	KON	_	40	cc	_	_
 36	durch	durch	ADP	APPR	_	40	case	_	_
@@ -46827,7 +46827,7 @@
 1	Soll	sollen	AUX	VMFIN	_	9	aux	_	_
 2	er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
 3	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
-4	sein	sein	DET	PPOSAT	_	6	det:poss	_	_
+4	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	ganzes	ganz	ADJ	ADJA	_	6	amod	_	_
 6	Leben	Leben	NOUN	NN	Case=Acc	9	obj	_	_
 7	dem	der	DET	ART	Case=Dat	8	det	_	_
@@ -46959,7 +46959,7 @@
 7	politische	politisch	ADJ	ADJA	_	8	amod	_	_
 8	Ganze	ganze	NOUN	NN	Case=Acc	18	obj	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
-10	seiner	sein	DET	PPOSAT	_	11	det:poss	_	_
+10	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	Person	Person	NOUN	NN	_	18	nmod	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	14	punct	_	_
 13	gleichsam	gleichsam	ADV	ADV	_	14	advmod	_	_
@@ -47954,13 +47954,13 @@
 3	also	also	ADV	ADV	_	8	advmod	_	_
 4	wohl	wohl	ADV	ADV	_	8	advmod	_	_
 5	auch	auch	ADV	ADV	_	8	advmod	_	_
-6	sein	sein	DET	PPOSAT	_	7	det:poss	_	_
+6	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Gutes	gut	NOUN	NN	Case=Acc	8	obj	_	_
 8	haben	haben	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	31	punct	_	_
 10	und	und	CCONJ	KON	_	31	cc	_	_
 11	wenn	wenn	SCONJ	KOUS	_	31	mark	_	_
-12	sein	sein	DET	PPOSAT	_	13	det:poss	_	_
+12	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Charakter	Charakter	NOUN	NN	Case=Acc	31	obj	_	_
 14	in	in	ADP	APPR	_	17	case	_	_
 15	der	der	DET	ART	_	17	det	_	_
@@ -48338,7 +48338,7 @@
 10	Vorleser	Vorleser	NOUN	NN	Case=Nom	16	nsubj	_	_
 11	nie	nie	ADV	ADV	_	16	advmod	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
-13	seinem	sein	DET	PPOSAT	Case=Dat	14	det:poss	_	_
+13	seinem	sein	DET	PPOSAT	Case=Dat|Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Gegenstande	Gegenstand	NOUN	NN	_	16	obl	_	_
 15	hingerissen	hingerissen	VERB	VVPP	_	16	xcomp	_	_
 16	scheinen	scheinen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -48354,7 +48354,7 @@
 26	,	--	PUNCT	$,	_	31	punct	_	_
 27	der	der	PRON	PDS	Case=Nom	31	nsubj	_	_
 28	über	über	ADP	APPR	_	31	case	_	_
-29	seinem	sein	DET	PPOSAT	_	31	det:poss	_	_
+29	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 30	Werke	Werk	NOUN	NN	_	31	acl	_	_
 31	ist	sein	AUX	VAFIN	_	21	acl	_	SpaceAfter=No
 32	.	--	PUNCT	$.	_	16	punct	_	_
@@ -48524,7 +48524,7 @@
 8	den	der	PRON	PRELS	Case=Acc	19	obj	_	_
 9	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
 10	wegen	wegen	ADP	APPR	_	12	case	_	_
-11	seiner	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Gediegenheit	Gediegenheit	NOUN	NN	Case=Gen	19	obl	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	14	punct	_	_
 14	Ausführlichkeit	Ausführlichkeit	NOUN	NN	_	12	conj	_	_
@@ -48719,7 +48719,7 @@
 1	Jeder	jeder	DET	PIAT	_	2	det	_	_
 2	Philosoph	Philosoph	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	hat	haben	VERB	VVFIN	_	0	root	_	_
-4	seine	sein	DET	PPOSAT	_	6	det:poss	_	_
+4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	veranlassende	veranlassend	ADJ	ADJA	_	6	amod	_	_
 6	Punkte	Punkt	NOUN	NN	Case=Acc	3	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	13	punct	_	_
@@ -49469,7 +49469,7 @@
 1	Jeder	jeder	DET	PIAT	_	2	det	_	_
 2	Mensch	Mensch	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	hat	haben	VERB	VVFIN	_	0	root	_	_
-4	seinen	sein	DET	PPOSAT	_	6	det:poss	_	_
+4	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	ökonomischen	ökonomisch	ADJ	ADJA	_	6	amod	_	_
 6	Instinkt	Instinkt	NOUN	NN	Case=Acc	3	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
@@ -49741,7 +49741,7 @@
 13	;	--	PUNCT	$.	_	21	punct	_	_
 14	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
 15	muß	müssen	AUX	VMFIN	_	21	aux	_	_
-16	seine	sein	DET	PPOSAT	_	17	det:poss	_	_
+16	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Produkte	Produkt	NOUN	NN	Case=Acc	21	obj	_	_
 18	nach	nach	ADP	APPR	_	20	case	_	_
 19	dem	der	DET	ART	_	20	det	_	_
@@ -50625,7 +50625,7 @@
 29	immer	immer	ADV	ADV	_	34	advmod	_	_
 30	zum	zu	ADP	APPRART	_	31	case	_	_
 31	Geschäft	Geschäft	NOUN	NN	_	34	obl	_	_
-32	seines	sein	DET	PPOSAT	_	33	det:poss	_	_
+32	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	Lebens	Leben	NOUN	NN	_	31	nmod	_	_
 34	wählen	wählen	VERB	VVINF	_	20	acl	_	_
 35	kann	können	AUX	VMFIN	_	34	aux	_	SpaceAfter=No
@@ -50739,7 +50739,7 @@
 10	wahren	wahr	ADJ	ADJA	_	11	amod	_	_
 11	Menschen	Mensch	NOUN	NN	Case=Gen	7	conj	_	_
 12	zu	zu	PART	PTKZU	_	14	case	_	_
-13	seinen	sein	DET	PPOSAT	_	14	det:poss	_	_
+13	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 14	Idealen	Ideal	NOUN	NN	Case=Dat	16	nmod	_	_
 15	durchaus	durchaus	ADV	ADV	_	16	advmod	_	_
 16	Religion	Religion	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
@@ -51008,7 +51008,7 @@
 25	,	--	PUNCT	$,	_	26	punct	_	_
 26	denkt	denken	VERB	VVFIN	_	14	parataxis	_	_
 27	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	26	obl:arg	_	_
-28	seine	sein	DET	PPOSAT	_	29	det:poss	_	_
+28	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	Ideale	Ideal	NOUN	NN	Case=Acc	26	obj	_	_
 30	wenigstens	wenigstens	ADV	ADV	_	26	advmod	_	_
 31	chemisch	chemisch	ADV	ADV	_	26	advmod	_	SpaceAfter=No
@@ -51435,7 +51435,7 @@
 1	Lovell	Lovell	PROPN	NE	Case=Nom	14	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	14	cop	_	_
 3	wie	wie	CCONJ	KOKOM	_	10	case	_	_
-4	seine	sein	DET	PPOSAT	_	10	det:poss	_	_
+4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
 6	etwas	etwas	PRON	PIS	_	8	nmod	_	_
 7	zu	zu	PART	PTKA	_	8	case	_	_
@@ -51591,7 +51591,7 @@
 31	,	--	PUNCT	$,	_	40	punct	_	_
 32	der	der	PRON	PRELS	Case=Nom	40	nsubj	_	_
 33	für	für	ADP	APPR	_	35	case	_	_
-34	sein	sein	DET	PPOSAT	_	35	det:poss	_	_
+34	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det:poss	_	_
 35	Geld	Geld	NOUN	NN	Case=Acc	40	obl	_	_
 36	mäßig	mäßig	ADV	ADV	_	37	advmod	_	_
 37	gerührt	rühren	ADJ	ADJD	_	39	xcomp	_	_
@@ -51792,7 +51792,7 @@
 23	;	--	PUNCT	$.	_	25	punct	_	_
 24	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
 25	verfolgt	verfolgen	VERB	VVFIN	_	3	parataxis	_	_
-26	sein	sein	DET	PPOSAT	_	27	det:poss	_	_
+26	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Ziel	Ziel	NOUN	NN	Case=Acc	25	obj	_	_
 28	unermüdet	unermüdet	ADJ	ADJD	_	25	xcomp	_	_
 29	bis	bis	SCONJ	KOUS	_	33	mark	_	_
@@ -52271,7 +52271,7 @@
 40	den	der	DET	ART	_	42	det	_	_
 41	grotesken	grotesk	ADJ	ADJA	_	42	amod	_	_
 42	Porzellanfiguren	Porzellanfigur	NOUN	NN	_	48	obl	_	_
-43	seines	sein	DET	PPOSAT	_	45	det:poss	_	_
+43	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	45	det:poss	_	_
 44	wie	wie	CCONJ	KOKOM	_	45	case	_	_
 45	Reichstruppen	Reichstruppe	NOUN	NN	_	42	nmod	_	_
 46	zusammengetrommelten	zusammengetrommelt	ADJ	ADJA	_	47	amod	_	_
@@ -52376,7 +52376,7 @@
 # sent_id = athenaeum-f421-s5
 # text = Wenn seine Werke auch nicht übermäßig viel Bildung enthalten, so sind sie doch gebildet: das Ganze ist wie das Einzelne und umgekehrt; kurz, er ist fertig.
 1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
-2	seine	sein	DET	PPOSAT	_	3	det:poss	_	_
+2	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Werke	Werk	NOUN	NN	Case=Nom	9	nsubj	_	_
 4	auch	auch	ADV	ADV	_	9	advmod	_	_
 5	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
@@ -52452,7 +52452,7 @@
 # text = Freilich sind seine Engländer am Ende auch Deutsche, nur in idyllischen Verhältnissen und mit sentimentalen Namen: indessen haben sie immer eine starke Ähnlichkeit mit Louvets Polen und gehören mit zu den falschen Tendenzen, deren er so viele hat.
 1	Freilich	freilich	ADV	ADV	_	8	advmod	_	_
 2	sind	sein	AUX	VAFIN	_	8	cop	_	_
-3	seine	sein	DET	PPOSAT	_	4	det:poss	_	_
+3	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Engländer	Engländer	NOUN	NN	Case=Nom	8	nsubj	_	_
 5	am	an	ADP	APPRART	_	6	case	_	_
 6	Ende	Ende	NOUN	NN	_	8	obl	_	_
@@ -52527,7 +52527,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f421-s9
 # text = Seine Frauen haben rote Augen und sind Exempel, Gliederfrauen zu psychologischmoralischen Reflexionen über die Weiblichkeit oder über die Schwärmerei.
-1	Seine	sein	DET	PPOSAT	_	2	det:poss	_	_
+1	Seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Frauen	Frau	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	haben	haben	AUX	VAFIN	_	0	root	_	_
 4	rote	rot	ADJ	ADJA	_	5	amod	_	_
@@ -52643,7 +52643,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f421-s12
 # text = Sein Schmuck besteht in bleiernen Arabesken im Nürnberger Styl.
-1	Sein	sein	DET	PPOSAT	_	2	det:poss	_	_
+1	Sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Schmuck	Schmuck	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	besteht	bestehen	VERB	VVFIN	_	0	root	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
@@ -52666,10 +52666,10 @@
 5	Armut	Armut	NOUN	NN	_	6	nmod	_	_
 6	grenzende	grenzend	ADJ	ADJA	_	7	amod	_	_
 7	Monotonie	Monotonie	NOUN	NN	Case=Nom	14	nsubj	_	_
-8	seiner	sein	DET	PPOSAT	_	9	det:poss	_	_
+8	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Fantasie	Fantasie	NOUN	NN	_	7	nmod	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
-11	seines	sein	DET	PPOSAT	_	12	det:poss	_	_
+11	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Geistes	Geist	NOUN	NN	_	9	conj	_	_
 13	am	an	ADP	APPRART	_	14	case	_	_
 14	auffallendsten	auffallend	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -52678,14 +52678,14 @@
 17	hier	hier	ADV	ADV	_	24	advmod	_	_
 18	ist	sein	AUX	VAFIN	_	24	cop	_	_
 19	auch	auch	ADV	ADV	_	24	advmod	_	_
-20	seine	sein	DET	PPOSAT	_	22	det:poss	_	_
+20	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 21	anziehende	anziehend	ADJ	ADJA	_	22	amod	_	_
 22	Schwerfälligkeit	Schwerfälligkeit	NOUN	NN	Case=Nom	24	nsubj	_	_
 23	zu	zu	ADP	APPR	_	24	case	_	_
 24	Hause	Haus	NOUN	NN	Case=Dat	14	parataxis	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	29	punct	_	_
 26	und	und	CCONJ	KON	_	29	cc	_	_
-27	seine	sein	DET	PPOSAT	_	29	det:poss	_	_
+27	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 28	pikante	pikant	ADJ	ADJA	_	29	amod	_	_
 29	Geschmacklosigkeit	Geschmacklosigkeit	NOUN	NN	_	22	conj	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	37	punct	_	_
@@ -52712,7 +52712,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f421-s14
 # text = Seine Madonna ist eine empfindsame Küstersfrau, und Christus erscheint wie ein aufgeklärter Kandidat.
-1	Seine	sein	DET	PPOSAT	_	2	det:poss	_	_
+1	Seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Madonna	Madonna	PROPN	NE	Case=Nom	6	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	6	cop	_	_
 4	eine	ein	DET	ART	PronType=Art	6	det	_	_
