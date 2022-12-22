@@ -32,14 +32,16 @@
     <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="9">
+  <feats unique="11">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1237</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">327</feat><!-- Geistes, Dichters, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums, Lebens, Witzes -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3885</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
+    <feat name="Number[psor]" value="Sing" upos="DET">8</feat><!-- mein, meine, meinem, meinen, meiner, meines -->
+    <feat name="Person" value="1" upos="DET">8</feat><!-- mein, meine, meinem, meinen, meiner, meines -->
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
-    <feat name="PronType" value="Prs" upos="PRON">334</feat><!-- sich -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">342</feat><!-- sich, mein, meine, meinem, meinen, meiner, meines -->
     <feat name="PronType" value="Tot" upos="DET">96</feat><!-- alles, allem, alle -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
@@ -62,13 +64,13 @@
     <dep name="csubj">136</dep>
     <dep name="dep">33</dep>
     <dep name="det">4790</dep>
-    <dep name="det:poss">383</dep>
+    <dep name="det:poss">403</dep>
     <dep name="expl">161</dep>
     <dep name="fixed">65</dep>
     <dep name="flat">63</dep>
     <dep name="mark">954</dep>
     <dep name="nmod">2035</dep>
-    <dep name="nmod:poss">78</dep>
+    <dep name="nmod:poss">58</dep>
     <dep name="nsubj">3247</dep>
     <dep name="nsubj:pass">121</dep>
     <dep name="nummod">22</dep>

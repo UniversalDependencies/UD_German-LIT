@@ -224,7 +224,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f7-s1
 # text = Mein Versuch über das Studium der griechischen Poesie ist ein manierierter Hymnus in Prosa auf das Objektive in der Poesie.
-1	Mein	mein	DET	PPOSAT	_	2	det	_	_
+1	Mein	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	2	det	_	_
 2	Versuch	Versuch	NOUN	NN	Case=Nom	12	nsubj	_	_
 3	über	über	ADP	APPR	_	5	case	_	_
 4	das	der	DET	ART	_	5	det	_	_
@@ -381,7 +381,7 @@
 # text = besonders wider ihre Poesie.
 1	besonders	besonders	ADV	ADV	_	4	advmod	_	_
 2	wider	wider	ADV	ADV	_	4	advmod	_	_
-3	ihre	ihr	DET	PPOSAT	_	4	nmod:poss	_	_
+3	ihre	ihr	DET	PPOSAT	_	4	det:poss	_	_
 4	Poesie	Poesie	NOUN	NN	_	0	root	_	SpaceAfter=No
 5	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -1445,7 +1445,7 @@
 15	noch	noch	ADV	ADV	_	16	advmod	_	_
 16	ganz	ganz	ADV	ADV	_	21	advmod	_	_
 17	außerhalb	außerhalb	ADP	APPR	_	20	case	_	_
-18	seiner	sein	DET	PPOSAT	_	20	nmod:poss	_	_
+18	seiner	sein	DET	PPOSAT	_	20	det:poss	_	_
 19	eigenen	eigen	ADJ	ADJA	_	20	amod	_	_
 20	Sphäre	Sphäre	NOUN	NN	_	21	obl	_	_
 21	geben	geben	VERB	VVINF	_	7	ccomp	_	_
@@ -1489,7 +1489,7 @@
 22	der	der	PRON	PDS	Case=Nom	38	nsubj	_	_
 23	ist	sein	AUX	VAFIN	_	38	cop	_	_
 24	in	in	ADP	APPR	_	27	case	_	_
-25	seiner	sein	DET	PPOSAT	_	27	nmod:poss	_	_
+25	seiner	sein	DET	PPOSAT	_	27	det:poss	_	_
 26	eignen	eign	ADJ	ADJA	_	27	amod	_	_
 27	Sphäre	Sphäre	NOUN	NN	_	38	nmod	_	_
 28	entweder	entweder	CCONJ	KON	_	30	cc	_	_
@@ -3484,7 +3484,7 @@
 6	eignes	eign	ADJ	ADJA	_	7	amod	_	_
 7	Gesetz	Gesetz	NOUN	NN	Case=Nom	2	acl	_	_
 8	und	und	CCONJ	KON	_	11	cc	_	_
-9	ihr	ihr	DET	PPOSAT	_	11	nmod:poss	_	_
+9	ihr	ihr	DET	PPOSAT	_	11	det:poss	_	_
 10	eigner	eign	ADJ	ADJA	_	11	amod	_	_
 11	Zweck	Zweck	NOUN	NN	_	7	conj	_	_
 12	ist	sein	AUX	VAFIN	_	7	cop	_	SpaceAfter=No
@@ -3510,7 +3510,7 @@
 1	Die	der	DET	ART	_	3	det	_	_
 2	revolutionäre	revolutionär	ADJ	ADJA	_	3	amod	_	_
 3	Objektivitätswut	Objektivitätswut	NOUN	NN	Case=Nom	8	nsubj	_	_
-4	meiner	mein	DET	PPOSAT	_	7	nmod:poss	_	_
+4	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	7	det:poss	_	_
 5	frühern	frühern	ADJ	ADJA	_	7	amod	_	_
 6	philosophischen	philosophisch	ADJ	ADJA	_	7	amod	_	_
 7	Musikalien	Musikalie	NOUN	NN	_	3	nmod	_	_
@@ -3583,7 +3583,7 @@
 # text = So auch ihre wits, welche die unbedingte Willkür, deren Schein dem Witz das Romantische und Pikante gibt, in die Wirklichkeit einführen, und so auch witzig leben;
 1	So	so	ADV	ADV	_	4	advmod	_	_
 2	auch	auch	ADV	ADV	_	4	advmod	_	_
-3	ihre	ihr	DET	PPOSAT	_	4	nmod:poss	_	_
+3	ihre	ihr	DET	PPOSAT	_	4	det:poss	_	_
 4	wits	wits	NOUN	NN	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	24	punct	_	_
 6	welche	welcher	PRON	PRELS	Case=Nom	24	nsubj	_	_
@@ -3619,7 +3619,7 @@
 # sent_id = lyceum-f67-s4
 # text = daher ihr Talent zur Tollheit.
 1	daher	daher	ADV	PROAV	_	3	advmod	_	_
-2	ihr	ihr	DET	PPOSAT	_	3	nmod:poss	_	_
+2	ihr	ihr	DET	PPOSAT	_	3	det:poss	_	_
 3	Talent	Talent	NOUN	NN	_	0	root	_	_
 4	zur	zu	ADP	APPRART	_	5	case	_	_
 5	Tollheit	Tollheit	NOUN	NN	_	3	nmod	_	SpaceAfter=No
@@ -3633,7 +3633,7 @@
 1	Sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	sterben	sterben	VERB	VVFIN	_	0	root	_	_
 3	für	für	ADP	APPR	_	5	case	_	_
-4	ihre	ihr	DET	PPOSAT	_	5	nmod:poss	_	_
+4	ihre	ihr	DET	PPOSAT	_	5	det:poss	_	_
 5	Grundsätze	Grundsatz	NOUN	NN	Case=Acc	2	obl	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -3933,7 +3933,7 @@
 8	dann	dann	ADV	ADV	_	9	advmod	_	_
 9	einbilden	einbilden	VERB	VVINF	_	4	conj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	15	punct	_	_
-11	ihre	ihr	DET	PPOSAT	_	12	nmod:poss	_	_
+11	ihre	ihr	DET	PPOSAT	_	12	det:poss	_	_
 12	Leser	Leser	NOUN	NN	Case=Nom	15	nsubj	_	_
 13	wären	sein	AUX	VAFIN	_	15	cop	_	_
 14	das	der	DET	ART	_	15	det	_	_
@@ -4272,7 +4272,7 @@
 12	bildet	bilden	VERB	VVFIN	_	7	conj	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	2	punct	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
-15	seinem	sein	DET	PPOSAT	_	16	nmod:poss	_	_
+15	seinem	sein	DET	PPOSAT	_	16	det:poss	_	_
 16	Innern	Innere	NOUN	NN	_	2	obl	_	_
 17	einen	ein	DET	ART	PronType=Art	18	det	_	_
 18	Roman	Roman	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
@@ -4737,7 +4737,7 @@
 27	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	33	obj	_	_
 28	selbst	selbst	ADV	ADV	_	33	advmod	_	_
 29	über	über	ADP	APPR	_	31	case	_	_
-30	ihr	ihr	DET	PPOSAT	_	31	nmod:poss	_	_
+30	ihr	ihr	DET	PPOSAT	_	31	det:poss	_	_
 31	Höchstes	Hoch	NOUN	NN	_	33	nmod	_	_
 32	zu	zu	PART	PTKZU	_	33	mark	_	_
 33	erheben	erheben	VERB	VVINF	_	23	xcomp	_	SpaceAfter=No
@@ -5440,7 +5440,7 @@
 1	Viele	vieler	DET	PIAT	_	2	det	_	_
 2	Werke	Werk	NOUN	NN	Case=Nom	10	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	8	punct	_	_
-4	deren	der	DET	PRELAT	_	6	nmod:poss	_	_
+4	deren	der	DET	PRELAT	_	6	det:poss	_	_
 5	schöne	schön	ADJ	ADJA	_	6	amod	_	_
 6	Verkettung	Verkettung	NOUN	NN	Case=Acc	8	obj	_	_
 7	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
@@ -8347,7 +8347,7 @@
 7	Lebhaftigkeit	Lebhaftigkeit	NOUN	NN	_	2	obl	_	_
 8	über	über	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	20	punct	_	_
-10	deren	der	DET	PRELAT	_	12	nmod:poss	_	_
+10	deren	der	DET	PRELAT	_	12	det:poss	_	_
 11	gefährliche	gefährlich	ADJ	ADJA	_	12	amod	_	_
 12	Revoluzionssymptome	Revoluzionssymptom	NOUN	NN	Case=Nom	20	nsubj:pass	_	_
 13	nur	nur	ADV	ADV	_	20	advmod	_	_
@@ -8750,7 +8750,7 @@
 18	,	--	PUNCT	$,	_	24	punct	_	_
 19	wohin	wohin	ADV	PWAV	_	24	advmod	_	_
 20	mir	sich	PRON	PPER	_	24	obl	_	_
-21	meine	mein	DET	PPOSAT	_	23	det:poss	_	_
+21	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	23	det:poss	_	_
 22	geliebten	geliebt	ADJ	ADJA	_	23	amod	_	_
 23	Mitschüler	Mitschüler	NOUN	NN	Case=Nom	24	nsubj	_	_
 24	nachfolgen	nachfolgen	VERB	VVINF	_	17	acl	_	SpaceAfter=No
@@ -9514,7 +9514,7 @@
 17	,	--	PUNCT	$,	_	19	punct	_	_
 18	eine	ein	DET	ART	PronType=Art	19	det	_	_
 19	Ansicht	Ansicht	NOUN	NN	_	14	conj	_	_
-20	meines	mein	DET	PPOSAT	_	24	det:poss	_	_
+20	meines	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	24	det:poss	_	_
 21	wahrhaftesten	wahrhaft	ADJ	ADJA	_	24	amod	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	23	punct	_	_
 23	eigensten	eigen	ADJ	ADJA	_	21	conj	_	_
@@ -10417,7 +10417,7 @@
 6	karakterisirt	karakterisiren	VERB	VVFIN	_	12	csubj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	ist	sein	AUX	VAFIN	_	12	cop	_	_
-9	meinem	mein	DET	PPOSAT	_	10	det:poss	_	_
+9	meinem	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	10	det:poss	_	_
 10	Bedünken	Bedünk	NOUN	NN	Case=Dat	12	nmod	_	_
 11	nach	nach	ADP	APPR	_	10	case	_	_
 12	nichts	nichts	PRON	PIS	_	0	root	_	_
@@ -11916,7 +11916,7 @@
 7	,	--	PUNCT	$,	_	11	punct	_	_
 8	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 9	um	um	ADP	APPR	_	11	case	_	_
-10	mein	mein	DET	PPOSAT	_	11	det:poss	_	_
+10	mein	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	11	det:poss	_	_
 11	selbst	selbst	PRON	PIS	Case=Acc	24	obl	_	_
 12	willen	willen	ADP	APZR	_	11	case	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	17	punct	_	_
@@ -12028,7 +12028,7 @@
 59	eigenthümliche	eigenthümlich	ADJ	ADJA	_	60	amod	_	_
 60	Weise	Weise	NOUN	NN	_	65	obl	_	_
 61	vor	vor	ADP	APPR	_	63	case	_	_
-62	meinen	mein	DET	PPOSAT	_	63	det:poss	_	_
+62	meinen	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	63	det:poss	_	_
 63	Augen	Auge	NOUN	NN	_	65	obl	_	_
 64	entwickeln	entwickeln	VERB	VVINF	_	65	xcomp	_	_
 65	ließe	lassen	VERB	VVFIN	_	51	conj	_	SpaceAfter=No
@@ -18573,7 +18573,7 @@
 3	gleicht	gleichen	VERB	VVFIN	_	0	root	_	_
 4	auch	auch	ADV	ADV	_	3	advmod	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
-6	ihrer	ihr	DET	PPOSAT	_	7	nmod:poss	_	_
+6	ihrer	ihr	DET	PPOSAT	_	7	det:poss	_	_
 7	Entstehungsart	Entstehungsart	NOUN	NN	_	3	nmod	_	_
 8	der	der	DET	ART	_	9	det	_	_
 9	Stickluft	Stickluft	NOUN	NN	_	7	nmod	_	SpaceAfter=No
@@ -19077,7 +19077,7 @@
 15	die	der	DET	ART	_	16	det	_	_
 16	Worte	Wort	NOUN	NN	Case=Acc	21	obj	_	_
 17	in	in	ADP	APPR	_	20	case	_	_
-18	ihrem	ihr	DET	PPOSAT	_	20	nmod:poss	_	_
+18	ihrem	ihr	DET	PPOSAT	_	20	det:poss	_	_
 19	ursprünglichen	ursprünglich	ADJ	ADJA	_	20	amod	_	_
 20	Sinne	Sinn	NOUN	NN	_	21	nmod	_	_
 21	braucht	brauchen	VERB	VVFIN	_	11	ccomp	_	SpaceAfter=No
@@ -19211,7 +19211,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f22-s3
 # text = Seinem Ursprunge nach, ganz subjektiv, original, nur grade in diesem Geiste möglich; seinem Charakter nach ganz objektiv, physisch und moralisch notwendig.
-1	Seinem	sein	DET	PPOSAT	_	2	nmod:poss	_	_
+1	Seinem	sein	DET	PPOSAT	_	2	det:poss	_	_
 2	Ursprunge	Ursprunge	NOUN	NN	Case=Dat	6	nmod	_	_
 3	nach	nach	ADP	APPO	_	2	case	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	6	punct	_	_
@@ -19227,7 +19227,7 @@
 14	Geiste	Geist	NOUN	NN	_	15	nmod	_	_
 15	möglich	möglich	ADJ	ADJD	_	6	conj	_	SpaceAfter=No
 16	;	--	PUNCT	$.	_	6	punct	_	_
-17	seinem	sein	DET	PPOSAT	_	18	nmod:poss	_	_
+17	seinem	sein	DET	PPOSAT	_	18	det:poss	_	_
 18	Charakter	Charakter	NOUN	NN	Case=Dat	21	nmod	_	_
 19	nach	nach	ADP	APPR	_	18	case	_	_
 20	ganz	ganz	ADV	ADV	_	21	advmod	_	_
@@ -23312,7 +23312,7 @@
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	deren	der	DET	PRELAT	_	7	nmod:poss	_	_
+5	deren	der	DET	PRELAT	_	7	det:poss	_	_
 6	ganze	ganz	ADJ	ADJA	_	7	amod	_	_
 7	Tätigkeit	Tätigkeit	NOUN	NN	Case=Nom	9	nsubj	_	_
 8	darin	darin	ADV	PAV	_	9	advmod	_	_
@@ -30845,7 +30845,7 @@
 9	geopfert	opfern	VERB	VVPP	_	0	root	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	17	punct	_	_
 11	an	an	ADP	APPR	_	14	case	_	_
-12	deren	der	DET	PRELAT	_	14	nmod:poss	_	_
+12	deren	der	DET	PRELAT	_	14	det:poss	_	_
 13	wunderlichen	wunderlich	ADJ	ADJA	_	14	amod	_	_
 14	Sprüngen	Sprung	NOUN	NN	_	17	obl	_	_
 15	er	er	PRON	PPER	Case=Nom	17	nsubj	_	_
@@ -34962,7 +34962,7 @@
 3	des	der	DET	ART	_	4	det	_	_
 4	Romans	Roman	NOUN	NN	Case=Gen	2	nmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	12	punct	_	_
-6	deren	der	DET	PRELAT	_	8	nmod:poss	_	_
+6	deren	der	DET	PRELAT	_	8	det:poss	_	_
 7	erste	erster	ADJ	ADJA	_	8	amod	_	_
 8	Grundlinien	Grundlinie	NOUN	NN	Case=Nom	12	nsubj	_	_
 9	Platos	Plato	PROPN	NE	_	11	nmod:poss	_	_
@@ -38861,7 +38861,7 @@
 # text = Wenn ich meine Antipathie gegen das Katzengeschlecht erkläre, so nehme ich Peter Leberechts gestiefelten Kater aus.
 1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom	8	nsubj	_	_
-3	meine	mein	DET	PPOSAT	_	4	det:poss	_	_
+3	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|PronType=Prs	4	det:poss	_	_
 4	Antipathie	Antipathie	NOUN	NN	Case=Acc	8	obj	_	_
 5	gegen	gegen	ADP	APPR	_	7	case	_	_
 6	das	der	DET	ART	_	7	det	_	_
