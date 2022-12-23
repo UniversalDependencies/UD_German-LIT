@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1922</sentences><tokens>40335</tokens><words>40440</words><fused>105</fused></test>
   </size>
-  <lemmas unique="5252" /><!-- –, der, sein, und, ein, zu, in, nicht, es, sich, haben, sie, so, werden, man -->
+  <lemmas unique="5251" /><!-- –, der, sein, und, ein, zu, in, nicht, es, sich, haben, sie, so, werden, man -->
   <forms unique="6979" /><!-- ,, ., der, und, die, ist, zu, in, nicht, das, es, ein, sich, den, sie -->
   <fusions unique="6" /><!-- im, zur, zum, am, vom, ins -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -20,15 +20,15 @@
     <tag name="ADV">3584</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2491</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5537</tag><!-- der, ein, dieser, ihr, sein, aller, alle, kein, jeder, jener -->
+    <tag name="DET">5555</tag><!-- der, ein, dieser, ihr, sein, aller, alle, kein, jeder, jener -->
     <tag name="NOUN">7388</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">31</tag><!-- zwei, drei, eins, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
-    <tag name="PRON">3026</tag><!-- der, es, sich, sie, man, er, was, welcher, nichts, wir -->
-    <tag name="PROPN">340</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
+    <tag name="PRON">3010</tag><!-- der, es, sich, sie, man, er, was, welcher, nichts, wir -->
+    <tag name="PROPN">339</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
     <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
-    <tag name="VERB">3108</tag><!-- geben, machen, lassen, werden, scheinen, sagen, haben, finden, nennen, sein -->
+    <tag name="VERB">3107</tag><!-- geben, machen, lassen, werden, scheinen, sagen, haben, finden, nennen, sein -->
     <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -44,7 +44,7 @@
     <feat name="Person" value="3" upos="DET">382</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="Poss" value="Yes" upos="DET">408</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
-    <feat name="PronType" value="Dem" upos="DET">220</feat><!-- diese, dieser, dies, dieses, diesem, diesen -->
+    <feat name="PronType" value="Dem" upos="DET">268</feat><!-- diese, dieser, dies, dieses, diesem, jene, jener, diesen, jenes, jenem -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">742</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
     <feat name="PronType" value="Tot" upos="DET">96</feat><!-- alles, allem, alle -->
@@ -68,13 +68,13 @@
     <dep name="cop">1056</dep>
     <dep name="csubj">136</dep>
     <dep name="dep">33</dep>
-    <dep name="det">4800</dep>
+    <dep name="det">4801</dep>
     <dep name="det:poss">403</dep>
     <dep name="expl">161</dep>
     <dep name="fixed">65</dep>
     <dep name="flat">63</dep>
     <dep name="mark">954</dep>
-    <dep name="nmod">2025</dep>
+    <dep name="nmod">2024</dep>
     <dep name="nmod:poss">58</dep>
     <dep name="nsubj">3247</dep>
     <dep name="nsubj:pass">121</dep>
