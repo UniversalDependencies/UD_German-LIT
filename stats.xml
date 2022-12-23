@@ -15,16 +15,16 @@
   <fusions unique="6" /><!-- im, zur, zum, am, vom, ins -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">3505</tag><!-- groß, gut, hoch, alt, neu, erster, rein, schön, poetisch, ganz -->
+    <tag name="ADJ">3504</tag><!-- groß, gut, hoch, alt, neu, erster, rein, schön, poetisch, ganz -->
     <tag name="ADP">2638</tag><!-- in, von, mit, zu, für, an, auf, durch, aus, nach -->
     <tag name="ADV">3584</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2491</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5635</tag><!-- der, ein, dieser, ihr, sein, aller, welcher, alle, kein, jeder -->
-    <tag name="NOUN">7388</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
+    <tag name="DET">5657</tag><!-- der, ein, dieser, ihr, sein, aller, welcher, alle, kein, jeder -->
+    <tag name="NOUN">7385</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">31</tag><!-- zwei, drei, eins, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
-    <tag name="PRON">2930</tag><!-- der, es, sich, sie, man, er, was, nichts, wir, etwas -->
+    <tag name="PRON">2912</tag><!-- der, es, sich, sie, man, er, was, nichts, wir, etwas -->
     <tag name="PROPN">339</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
     <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
@@ -32,12 +32,13 @@
     <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="17">
+  <feats unique="18">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1237</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">327</feat><!-- Geistes, Dichters, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums, Lebens, Witzes -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3885</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">189</feat><!-- seine, seiner, sein, seinem, seinen, seines -->
+    <feat name="Number" value="Sing" upos="DET">88</feat><!-- jeder, jedem, jedes, jede, jeden -->
     <feat name="Number[psor]" value="Sing" upos="DET">199</feat><!-- seine, seiner, sein, seinem, seinen, seines, mein, meine, deine, deiner -->
     <feat name="Person" value="1" upos="DET">24</feat><!-- unsere, unser, unsers, mein, meine, unsrer, meinem, meinen, meiner, meines -->
     <feat name="Person" value="2" upos="DET">2</feat><!-- deine, deiner -->
@@ -48,7 +49,7 @@
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">742</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
-    <feat name="PronType" value="Tot" upos="DET">96</feat><!-- alles, allem, alle -->
+    <feat name="PronType" value="Tot" upos="DET">184</feat><!-- alles, jeder, jedem, jedes, jede, jeden, allem, alle -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -69,13 +70,13 @@
     <dep name="cop">1056</dep>
     <dep name="csubj">136</dep>
     <dep name="dep">33</dep>
-    <dep name="det">4802</dep>
+    <dep name="det">4803</dep>
     <dep name="det:poss">403</dep>
     <dep name="expl">161</dep>
     <dep name="fixed">65</dep>
     <dep name="flat">63</dep>
     <dep name="mark">954</dep>
-    <dep name="nmod">2023</dep>
+    <dep name="nmod">2022</dep>
     <dep name="nmod:poss">58</dep>
     <dep name="nsubj">3247</dep>
     <dep name="nsubj:pass">121</dep>

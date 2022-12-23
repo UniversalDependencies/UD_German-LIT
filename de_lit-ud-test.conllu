@@ -24,7 +24,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f2-s1
 # text = Jedes Volk will auf der Schaubühne nur den mittlern Durchschnitt seiner eignen Oberfläche schauen;
-1	Jedes	jeder	DET	PIAT	_	2	det	_	_
+1	Jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Volk	Volk	NOUN	NN	Case=Nom	14	nsubj	_	_
 3	will	wollen	AUX	VMFIN	_	14	aux	_	_
 4	auf	auf	ADP	APPR	_	6	case	_	_
@@ -427,7 +427,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f13-s1
 # text = Jedes Gleichnis, was nur lang ist, nennt Bodmer gern homerisch.
-1	Jedes	jeder	DET	PIAT	_	2	det	_	_
+1	Jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Gleichnis	Gleichnis	NOUN	NN	Case=Acc	9	obj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	6	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom	6	nsubj	_	_
@@ -804,7 +804,7 @@
 # sent_id = lyceum-f23-s1
 # text = In jedem guten Gedicht muß alles Absicht, und alles Instinkt sein.
 1	In	in	ADP	APPR	_	4	case	_	_
-2	jedem	jeder	DET	PIAT	_	4	det	_	_
+2	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	4	det	_	_
 3	guten	gut	ADJ	ADJA	_	4	amod	_	_
 4	Gedicht	Gedicht	NOUN	NN	_	7	nmod	_	_
 5	muß	müssen	AUX	VMFIN	_	7	aux	_	_
@@ -1239,7 +1239,7 @@
 6	immer	immer	ADV	ADV	_	7	advmod	_	_
 7	herrschende	herrschend	ADJ	ADJA	_	8	amod	_	_
 8	Neigung	Neigung	NOUN	NN	Case=Nom	0	root	_	_
-9	jedes	jeder	DET	PIAT	_	10	det	_	_
+9	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	10	det	_	_
 10	Schriftstellers	Schriftsteller	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 11	:	--	PUNCT	$.	_	8	punct	_	_
 12	entweder	entweder	CCONJ	KON	_	16	cc	_	_
@@ -1306,7 +1306,7 @@
 4	erst	erst	ADV	ADV	_	12	advmod	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
 6	Leben	Leben	NOUN	NN	Case=Dat	12	obl	_	_
-7	jeder	jeder	DET	PIAT	_	8	det	_	_
+7	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	8	det	_	_
 8	Art	Art	NOUN	NN	_	6	nmod	_	_
 9	bis	bis	ADP	APPR	_	11	case	_	_
 10	zur	zu	ADP	APPRART	_	11	case	_	_
@@ -1735,7 +1735,7 @@
 6	was	was	PRON	PWS	Case=Nom	12	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
-9	jedem	jeder	DET	PIAT	_	10	det	_	_
+9	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	10	det	_	_
 10	Augenblick	Augenblick	NOUN	NN	_	12	obl	_	_
 11	frei	frei	ADV	ADV	_	12	advmod	_	_
 12	abbrechen	abbrechen	VERB	VVINF	_	4	acl	_	_
@@ -3041,12 +3041,12 @@
 37	stimmt	stimmen	VERB	VVFIN	_	27	advcl	_	SpaceAfter=No
 38	,	--	PUNCT	$,	_	41	punct	_	_
 39	zu	zu	ADP	APPR	_	41	case	_	_
-40	jeder	jeder	DET	PIAT	_	41	det	_	_
+40	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	41	det	_	_
 41	Zeit	Zeit	NOUN	NN	Case=Dat	37	nmod	_	SpaceAfter=No
 42	,	--	PUNCT	$,	_	41	punct	_	_
 43	und	und	CCONJ	KON	_	46	cc	_	_
 44	in	in	ADP	APPR	_	46	case	_	_
-45	jedem	jeder	DET	PIAT	_	46	det	_	_
+45	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	46	det	_	_
 46	Grade	Grade	NOUN	NN	_	41	conj	_	SpaceAfter=No
 47	.	--	PUNCT	$.	_	27	punct	_	_
 
@@ -4260,7 +4260,7 @@
 # text = Auch enthält jeder Mensch, der gebildet ist, und sich bildet, in seinem Innern einen Roman.
 1	Auch	auch	ADV	ADV	_	2	advmod	_	_
 2	enthält	enthalten	VERB	VVFIN	_	0	root	_	_
-3	jeder	jeder	DET	PIAT	_	4	det	_	_
+3	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	4	det	_	_
 4	Mensch	Mensch	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	7	punct	_	_
 6	der	der	PRON	PRELS	Case=Nom	7	nsubj:pass	_	_
@@ -4567,7 +4567,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f85-s1
 # text = Jeder rechtliche Autor schreibt für niemand, oder für alle.
-1	Jeder	jeder	DET	PIAT	_	3	det	_	_
+1	Jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 2	rechtliche	rechtlich	ADJ	ADJA	_	3	amod	_	_
 3	Autor	Autor	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	schreibt	schreiben	VERB	VVFIN	_	0	root	_	_
@@ -7437,7 +7437,7 @@
 29	Schriftsteller	Schriftsteller	NOUN	NN	_	25	nmod	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	40	punct	_	_
 31	die	der	PRON	PRELS	Case=Nom	40	nsubj	_	_
-32	jede	jeder	DET	PIAT	_	34	det	_	_
+32	jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	34	det	_	_
 33	andre	andr	ADJ	ADJA	_	34	amod	_	_
 34	Nation	Nation	NOUN	NN	Case=Acc	40	obj	_	_
 35	mit	mit	ADP	APPR	_	36	case	_	_
@@ -7827,7 +7827,7 @@
 8	können	können	AUX	VMINF	_	6	aux	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	6	punct	_	_
 10	wie	wie	CCONJ	KOKOM	_	13	case	_	_
-11	jede	jeder	DET	PIAT	_	13	det	_	_
+11	jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	13	det	_	_
 12	konsequente	konsequent	ADJ	ADJA	_	13	amod	_	_
 13	Beschränkung	Beschränkung	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	6	punct	_	_
@@ -8637,7 +8637,7 @@
 4	die	der	DET	ART	_	5	det	_	_
 5	Erde	Erde	NOUN	NN	Case=Nom	3	nsubj	_	SpaceAfter=No
 6	;	--	PUNCT	$.	_	3	punct	_	_
-7	jeder	jeder	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	8	nsubj	_	_
 8	hat	haben	AUX	VAFIN	_	3	parataxis	_	_
 9	Anspruch	Anspruch	NOUN	NN	Case=Acc	8	obj	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
@@ -9157,7 +9157,7 @@
 6	ist	sein	VERB	VAFIN	_	0	root	_	_
 7	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
-9	jedem	jeder	DET	PIAT	_	10	det	_	_
+9	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	10	det	_	_
 10	Punkte	Punkt	NOUN	NN	_	6	obl	_	_
 11	der	der	DET	ART	_	12	det	_	_
 12	Durchdringung	Durchdringung	NOUN	NN	_	10	nmod	_	SpaceAfter=No
@@ -9373,7 +9373,7 @@
 2	Mensch	Mensch	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	vermag	vermögen	VERB	VVFIN	_	0	root	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
-5	jedem	jeder	DET	PIAT	_	6	det	_	_
+5	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	6	det	_	_
 6	Augenblicke	Augenblick	NOUN	NN	_	3	obl	_	_
 7	ein	ein	DET	ART	PronType=Art	9	det	_	_
 8	übersinnliches	übersinnlich	ADJ	ADJA	_	9	amod	_	_
@@ -10876,7 +10876,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f36-s2
 # text = Jede zur Besinnung gebrachte Eigenschaft, Handlungsweise unsers Geistes ist im eigentlichsten Sinn eine neuentdeckte Welt.
-1	Jede	jeder	NOUN	NN	Case=Nom	18	nsubj	_	_
+1	Jede	jeder	DET	NN	Case=Nom|Number=Sing|PronType=Tot	18	nsubj	_	_
 2-3	zur	_	_	_	_	_	_	_	_
 2	zu	zu	ADP	APPR	_	4	case	_	_
 3	der	der	DET	ART	_	4	det	_	_
@@ -11138,7 +11138,7 @@
 2	freuen	freuen	VERB	VVFIN	_	0	root	_	_
 3	uns	uns	PRON	PRF	Case=Acc	2	obj	_	_
 4	über	über	ADP	APPR	_	11	case	_	_
-5	jedes	jeder	DET	PIAT	_	11	det	_	_
+5	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	11	det	_	_
 6	neue	neu	ADJ	ADJA	_	11	amod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	8	punct	_	_
 8	treffende	treffend	ADJ	ADJA	_	6	conj	_	SpaceAfter=No
@@ -11356,7 +11356,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f44-s4
 # text = Jeder Mensch ist eine kleine Gesellschaft.
-1	Jeder	jeder	DET	PIAT	_	2	det	_	_
+1	Jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Mensch	Mensch	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	6	cop	_	_
 4	eine	ein	DET	ART	PronType=Art	6	det	_	_
@@ -11773,7 +11773,7 @@
 11	den	der	DET	ART	_	12	det	_	_
 12	Selbstthätigen	selbstthätige	NOUN	NN	Case=Acc	9	nmod	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	15	punct	_	_
-14	jeder	jeder	DET	PIAT	_	15	det	_	_
+14	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	15	det	_	_
 15	Last	Last	NOUN	NN	_	5	conj	_	_
 16	gewachsenen	gewachsen	VERB	VVPP	_	15	amod	_	SpaceAfter=No
 17	.	--	PUNCT	$.	_	5	punct	_	_
@@ -11853,7 +11853,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f50-s1
 # text = Jede Stufe der Bildung fängt mit Kindheit an.
-1	Jede	jeder	DET	PIAT	_	2	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Stufe	Stufe	NOUN	NN	Case=Nom	5	nsubj	_	_
 3	der	der	DET	ART	_	4	det	_	_
 4	Bildung	Bildung	NOUN	NN	_	2	nmod	_	_
@@ -11891,7 +11891,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f51-s1
 # text = Jeder geliebte Gegenstand ist der Mittelpunkt eines Paradieses.
-1	Jeder	jeder	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	3	nsubj	_	_
 2	geliebte	geliebt	ADJ	ADJA	_	3	amod	_	_
 3	Gegenstand	Gegenstand	NOUN	NN	_	6	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
@@ -12570,7 +12570,7 @@
 # sent_id = bluethenstaub-f58-s2
 # text = Einen jeden vorzüglichen Menschen muß gleichsam ein Geist zu durchschweben scheinen, der die sichtbare Erscheinung idealisch parodirt.
 1	Einen	ein	DET	ART	PronType=Art	4	det	_	_
-2	jeden	jeder	DET	PIAT	_	4	amod	_	_
+2	jeden	jeder	DET	PIAT	Number=Sing|PronType=Tot	4	amod	_	_
 3	vorzüglichen	vorzüglich	ADJ	ADJA	_	4	amod	_	_
 4	Menschen	Mensch	NOUN	NN	Case=Acc	11	obj	_	_
 5	muß	müssen	AUX	VMFIN	_	11	aux	_	_
@@ -13062,10 +13062,10 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f66-s3
 # text = Jede Bekanntschaft, jeder Vorfall, wäre für den durchaus Geistigen erstes Glied einer unendlichen Reihe, Anfang eines unendlichen Romans.
-1	Jede	jeder	DET	PIAT	_	2	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Bekanntschaft	Bekanntschaft	NOUN	NN	Case=Nom	16	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	5	punct	_	_
-4	jeder	jeder	DET	PIAT	_	5	det	_	_
+4	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	5	det	_	_
 5	Vorfall	Vorfall	NOUN	NN	_	2	parataxis	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	2	punct	_	_
 7	wäre	sein	AUX	VAFIN	_	16	cop	_	_
@@ -13485,7 +13485,7 @@
 28	der	der	DET	ART	_	29	det	_	_
 29	Menschheit	Menschheit	NOUN	NN	_	27	nmod	_	_
 30	mit	mit	ADP	APPR	_	33	case	_	_
-31	jedem	jeder	DET	PIAT	_	33	det	_	_
+31	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	33	det	_	_
 32	einzelnen	einzeln	ADJ	ADJA	_	33	amod	_	_
 33	Menschen	Mensch	NOUN	NN	Case=Dat	29	obl	_	SpaceAfter=No
 34	.	--	PUNCT	$.	_	4	punct	_	_
@@ -14551,7 +14551,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f74-s20
 # text = Jeder Gegenstand kann dem Religiösen ein Tempel im Sinn der Auguren seyn.
-1	Jeder	jeder	DET	PIAT	_	2	det	_	_
+1	Jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Gegenstand	Gegenstand	NOUN	NN	Case=Nom	7	nsubj	_	_
 3	kann	können	AUX	VMFIN	_	2	aux	_	_
 4	dem	der	DET	ART	_	5	det	_	_
@@ -15381,7 +15381,7 @@
 7	der	der	DET	ART	_	8	det	_	_
 8	Urtheilskraft	Urtheilskraft	NOUN	NN	_	6	nmod	_	_
 9	war	sein	AUX	VAFIN	_	14	cop	_	_
-10	jedes	jeder	DET	PIAT	_	12	det	_	_
+10	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	12	det	_	_
 11	neue	neu	ADJ	ADJA	_	12	amod	_	_
 12	Urtheil	Urtheil	NOUN	NN	Case=Nom	14	nsubj	_	_
 13	ein	ein	DET	ART	PronType=Art	14	det	_	_
@@ -15941,7 +15941,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f84-s1
 # text = Jede spezifische Inzitazion verräth einen spezifischen Sinn.
-1	Jede	jeder	DET	PIAT	_	3	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 2	spezifische	spezifisch	ADJ	ADJA	_	3	amod	_	_
 3	Inzitazion	Inzitazion	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	verräth	verräth	PROPN	NE	_	0	root	_	_
@@ -16289,7 +16289,7 @@
 # sent_id = bluethenstaub-f89-s1
 # text = In jeder Berührung entsteht eine Substanz, deren Wirkung so lange, als die Berührung dauert.
 1	In	in	ADP	APPR	_	3	case	_	_
-2	jeder	jeder	DET	PIAT	_	3	det	_	_
+2	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 3	Berührung	Berührung	NOUN	NN	_	4	obl	_	_
 4	entsteht	entstehen	VERB	VVFIN	_	0	root	_	_
 5	eine	ein	DET	ART	PronType=Art	6	det	_	_
@@ -16372,7 +16372,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f90-s2
 # text = Jede neue Erkenntniß macht einen viel tiefern, lebendigern Eindruck.
-1	Jede	jeder	DET	PIAT	_	3	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 2	neue	neu	ADJ	ADJA	_	3	amod	_	_
 3	Erkenntniß	Erkenntniß	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	macht	machen	VERB	VVFIN	_	0	root	_	_
@@ -17350,7 +17350,7 @@
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	so	so	ADV	ADV	_	10	advmod	_	_
 7	ist	sein	AUX	VAFIN	_	10	cop	_	_
-8	jedes	jeder	PRON	PDS	_	10	det	_	_
+8	jedes	jeder	DET	PDS	Number=Sing|PronType=Tot	10	det	_	_
 9	ächte	ächen	ADJ	ADJA	_	10	amod	_	_
 10	Buch	Buch	NOUN	NN	Case=Nom	0	root	_	_
 11	Bibel	Bibel	PROPN	NE	_	10	appos	_	SpaceAfter=No
@@ -17396,7 +17396,7 @@
 # text = Freylich muß jedes nützliche Buch wenigstens stark legirt seyn.
 1	Freylich	freylich	ADV	ADV	_	8	advmod	_	_
 2	muß	müssen	AUX	VMFIN	_	8	aux	_	_
-3	jedes	jeder	DET	PIAT	_	5	det	_	_
+3	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	5	det	_	_
 4	nützliche	nützlich	ADJ	ADJA	_	5	amod	_	_
 5	Buch	Buch	NOUN	NN	Case=Nom	8	nsubj	_	_
 6	wenigstens	wenigstens	ADV	ADV	_	7	advmod	_	_
@@ -17533,7 +17533,7 @@
 4	Stock	Stock	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	13	punct	_	_
 6	den	der	PRON	PRELS	Case=Acc	13	obj	_	_
-7	jeder	jeder	PRON	PIS	Case=Nom	13	nsubj	_	_
+7	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	13	nsubj	_	_
 8	mit	mit	ADP	APPR	_	10	case	_	_
 9	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Bekannten	bekannte	NOUN	NN	Case=Dat	13	obl	_	_
@@ -18255,7 +18255,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f112-s1
 # text = Jede Menschengestalt belebt einen individuellen Keim im Betrachtenden.
-1	Jede	jeder	DET	PIAT	_	2	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Menschengestalt	Menschengestalt	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	belebt	beleben	VERB	VVFIN	_	0	root	_	_
 4	einen	ein	DET	ART	PronType=Art	6	det	_	_
@@ -18395,7 +18395,7 @@
 54	Ausdrücken	Ausdrück	NOUN	NN	Case=Dat	52	nmod	_	_
 55	und	und	CCONJ	KON	_	56	cc	_	_
 56	Organen	Organ	NOUN	NN	_	54	conj	_	_
-57	jedes	jeder	DET	PIAT	_	58	det	_	_
+57	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	58	det	_	_
 58	Geistes	Geist	NOUN	NN	_	54	nmod	_	SpaceAfter=No
 59	,	--	PUNCT	$,	_	58	punct	_	_
 60	deren	der	DET	PRELAT	_	61	det	_	_
@@ -20599,7 +20599,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f44-s1
 # text = Jede philosophische Rezension sollte zugleich Philosophie der Rezensionen sein.
-1	Jede	jeder	DET	PIAT	_	3	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 2	philosophische	philosophisch	ADJ	ADJA	_	3	amod	_	_
 3	Rezension	Rezension	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	sollte	sollen	AUX	VMFIN	_	6	aux	_	_
@@ -21811,7 +21811,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f63-s1
 # text = Jeder ungebildete Mensch ist die Karikatur von sich selbst.
-1	Jeder	jeder	DET	PIAT	_	3	det	_	_
+1	Jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 2	ungebildete	ungebildet	ADJ	ADJA	_	3	amod	_	_
 3	Mensch	Mensch	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
@@ -21933,7 +21933,7 @@
 6	vorauszusetzen	vorauszusetzen	VERB	VVIZU	_	3	ccomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	12	punct	_	_
 8	ein	ein	DET	ART	PronType=Art	10	det	_	_
-9	jeder	jeder	DET	PIAT	_	10	det	_	_
+9	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	10	det	_	_
 10	Philosoph	Philosoph	NOUN	NN	Case=Nom	12	nsubj	_	_
 11	sei	sein	AUX	VAFIN	_	12	cop	_	_
 12	liberal	liberal	ADJ	ADJD	_	6	ccomp	_	SpaceAfter=No
@@ -22866,7 +22866,7 @@
 29	,	--	PUNCT	$,	_	34	punct	_	_
 30	und	und	CCONJ	KON	_	34	cc	_	_
 31	von	von	ADP	APPR	_	33	case	_	_
-32	jedem	jeder	DET	PIAT	_	33	det	_	_
+32	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	33	det	_	_
 33	Individuum	Individuum	NOUN	NN	Case=Dat	34	obl	_	_
 34	gibt	geben	VERB	VVFIN	_	4	conj	_	_
 35	es	es	PRON	PPER	_	34	expl	_	_
@@ -23612,7 +23612,7 @@
 1	Immer	immer	ADV	ADV	_	16	advmod	_	_
 2	hat	haben	AUX	VAFIN	_	16	aux	_	_
 3	noch	noch	ADV	ADV	_	16	advmod	_	_
-4	jeder	jeder	DET	PIAT	_	6	det	_	_
+4	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	6	det	_	_
 5	große	groß	ADJ	ADJA	_	6	amod	_	_
 6	Philosoph	Philosoph	NOUN	NN	Case=Nom	16	nsubj	_	_
 7	seine	sein	DET	PPOSAT	Case=Dat|Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
@@ -24032,7 +24032,7 @@
 2	dem	der	DET	ART	_	3	det	_	_
 3	Weltbegriffe	Weltbegriff	NOUN	NN	Case=Dat	7	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	7	cop	_	_
-5	jeder	jeder	PRON	PIS	Case=Nom	7	nsubj	_	_
+5	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	7	nsubj	_	_
 6	ein	ein	DET	ART	PronType=Art	7	det	_	_
 7	Kantianer	Kantianer	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	18	punct	_	_
@@ -24830,7 +24830,7 @@
 48	mit	mit	ADP	APPR	_	50	case	_	_
 49	gediegnem	gediegn	ADJ	ADJA	_	50	amod	_	_
 50	Bildungsstoff	Bildungsstoff	NOUN	NN	Case=Dat	53	obl	_	_
-51	jeder	jeder	DET	PIAT	_	52	det	_	_
+51	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	52	det	_	_
 52	Art	Art	NOUN	NN	_	50	nmod	_	_
 53	anfüllen	anfüllen	VERB	VVFIN	_	19	conj	_	_
 54	und	und	CCONJ	KON	_	55	cc	_	_
@@ -24910,7 +24910,7 @@
 14	,	--	PUNCT	$,	_	20	punct	_	_
 15	poetische	poetisch	ADJ	ADJA	_	16	amod	_	_
 16	Individuen	Individuum	NOUN	NN	Case=Acc	20	obj	_	_
-17	jeder	jeder	DET	PIAT	_	18	det	_	_
+17	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	18	det	_	_
 18	Art	Art	NOUN	NN	Case=Acc	20	obj	_	_
 19	zu	zu	PART	PTKZU	_	20	mark	_	_
 20	charakterisieren	charakterisieren	VERB	VVINF	_	24	csubj	_	SpaceAfter=No
@@ -25070,7 +25070,7 @@
 22	;	--	PUNCT	$.	_	9	punct	_	_
 23	indem	indem	SCONJ	KOUS	_	39	mark	_	_
 24	sie	sie	PRON	PPER	Case=Nom	39	nsubj	_	_
-25	jedem	jeder	PRON	PIS	Case=Dat	39	obl:arg	_	SpaceAfter=No
+25	jedem	jeder	DET	PIS	Case=Dat|Number=Sing|PronType=Tot	39	obl:arg	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	29	punct	_	_
 27	was	was	PRON	PRELS	Case=Nom	29	nsubj	_	_
 28	ein	ein	DET	ART	PronType=Art	29	det	_	_
@@ -27640,7 +27640,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f151-s1
 # text = Jeder hat noch in den Alten gefunden, was er brauchte, oder wünschte; vorzüglich sich selbst.
-1	Jeder	jeder	PRON	PIS	Case=Nom	7	nsubj	_	_
+1	Jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	7	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	7	aux	_	_
 3	noch	noch	ADV	ADV	_	7	advmod	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
@@ -29073,7 +29073,7 @@
 8	Einfällen	Einfall	NOUN	NN	Case=Dat	2	obl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	19	punct	_	_
 10	daß	dass	SCONJ	KOUS	_	19	mark	_	_
-11	jedes	jeder	DET	PIAT	_	15	amod	_	_
+11	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	15	amod	_	_
 12	als	als	ADP	APPR	_	13	case	_	_
 13	Kommentar	Kommentar	NOUN	NN	_	14	nmod	_	_
 14	hinzugefügte	hinzugefügt	ADJ	ADJA	_	15	amod	_	_
@@ -29525,7 +29525,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f180-s3
 # text = Jedes Ding muß in seiner Art bleiben.
-1	Jedes	jeder	DET	PIAT	_	2	det	_	_
+1	Jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Ding	Ding	NOUN	NN	Case=Nom	7	nsubj	_	_
 3	muß	müssen	AUX	VMFIN	_	7	aux	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
@@ -32952,7 +32952,7 @@
 20	die	der	PRON	PRELS	_	25	obl	_	_
 21	man	man	PRON	PIS	Case=Nom	25	nsubj	_	_
 22	Fakta	Fakta	PROPN	NE	Case=Acc	25	obj	_	_
-23	jeder	jeder	DET	PIAT	_	24	det	_	_
+23	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	24	det	_	_
 24	Art	Art	NOUN	NN	_	22	nmod	_	_
 25	beziehen	beziehen	VERB	VVINF	_	17	acl	_	_
 26	soll	sollen	AUX	VMFIN	_	25	aux	_	SpaceAfter=No
@@ -34606,7 +34606,7 @@
 16	können	können	AUX	VMINF	_	15	aux	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	15	punct	_	_
 18	wie	wie	ADV	PWAV	_	21	cc	_	_
-19	jedes	jeder	DET	PIAT	_	21	det	_	_
+19	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	21	det	_	_
 20	andre	andr	ADJ	ADJA	_	21	amod	_	_
 21	Mechanische	mechanisch	NOUN	NN	_	15	obl	_	SpaceAfter=No
 22	.	--	PUNCT	$.	_	15	punct	_	_
@@ -35730,7 +35730,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f262-s1
 # text = Jeder gute Mensch wird immer mehr und mehr Gott.
-1	Jeder	jeder	DET	PIAT	_	3	det	_	_
+1	Jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 2	gute	gut	ADJ	ADJA	_	3	amod	_	_
 3	Mensch	Mensch	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	wird	werden	VERB	VVFIN	_	0	root	_	_
@@ -36256,7 +36256,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f273-s2
 # text = Jeder mag seine Mystik für sich haben, nur muß er sie auch für sich behalten Es gibt wohl viele, die das schöne Altertum travestieren, gewiß aber auch einige die es mystifizieren, und also für sich behalten müssen.
-1	Jeder	jeder	PRON	PIS	Case=Nom	7	nsubj	_	_
+1	Jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	7	nsubj	_	_
 2	mag	mögen	AUX	VMFIN	_	7	aux	_	_
 3	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Mystik	Mystik	NOUN	NN	Case=Acc	7	obj	_	_
@@ -36332,7 +36332,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f274-s1
 # text = Jede Philosophie der Philosophie, nach der Spinosa kein Philosoph ist muß verdächtig scheinen.
-1	Jede	jeder	DET	PIAT	_	2	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Philosophie	Philosophie	NOUN	NN	Case=Nom	14	nsubj	_	_
 3	der	der	DET	ART	_	4	det	_	_
 4	Philosophie	Philosophie	NOUN	NN	_	2	nmod	_	SpaceAfter=No
@@ -36904,7 +36904,7 @@
 12	es	es	PRON	PPER	Case=Acc	18	obj	_	_
 13	nicht	nicht	PART	PTKNEG	_	18	advmod	_	_
 14	auf	auf	ADP	APPR	_	17	case	_	_
-15	jede	jeder	DET	PIAT	_	17	det	_	_
+15	jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	17	det	_	_
 16	Fichtische	Fichtisch	ADJ	ADJA	_	17	amod	_	_
 17	Schrift	Schrift	NOUN	NN	_	18	obl	_	_
 18	paßt	passen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
@@ -37224,7 +37224,7 @@
 3	dieser	dieser	DET	PDAT	PronType=Dem	4	det	_	_
 4	Voraussetzung	Voraussetzung	NOUN	NN	_	9	nmod	_	_
 5	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
-6	jeder	jeder	DET	PIAT	_	7	det	_	_
+6	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	7	det	_	_
 7	Tod	Tod	NOUN	NN	Case=Nom	9	nsubj	_	_
 8	ein	ein	DET	ART	PronType=Art	9	det	_	_
 9	Versöhnungstod	Versöhnungstod	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
@@ -37555,7 +37555,7 @@
 14	Metaphysik	Metaphysik	NOUN	NN	_	12	nmod	_	_
 15	sind	sein	AUX	VAFIN	_	19	cop	_	_
 16	Antworten	Antwort	NOUN	NN	Case=Nom	19	nsubj	_	_
-17	jeder	jeder	DET	PIAT	_	18	det	_	_
+17	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	18	det	_	_
 18	Art	Art	NOUN	NN	_	16	nmod	_	_
 19	erschienen	erscheinen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 20	:	--	PUNCT	$.	_	19	punct	_	_
@@ -38222,7 +38222,7 @@
 7	Crayon	Crayon	NOUN	NN	Case=Dat	8	obl	_	_
 8	skizzieren	skizzieren	VERB	VVINF	_	36	advcl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	20	punct	_	_
-10	jeden	jeder	DET	PIAT	_	11	det	_	_
+10	jeden	jeder	DET	PIAT	Number=Sing|PronType=Tot	11	det	_	_
 11	Gedanken	Gedanke	NOUN	NN	Case=Acc	20	obj	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	15	punct	_	_
 13	der	der	PRON	PRELS	Case=Nom	15	nsubj	_	_
@@ -39318,7 +39318,7 @@
 21	,	--	PUNCT	$,	_	35	punct	_	_
 22	sondern	sondern	CCONJ	KON	_	35	cc	_	_
 23	mit	mit	ADP	APPR	_	25	case	_	_
-24	jedem	jeder	DET	PIAT	_	25	det	_	_
+24	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	25	det	_	_
 25	Charakter	Charakter	NOUN	NN	Case=Dat	35	obl	_	_
 26	der	der	DET	ART	_	27	det	_	_
 27	Formen	Form	NOUN	NN	_	25	nmod	_	_
@@ -40413,7 +40413,7 @@
 6	der	der	DET	ART	_	7	det	_	_
 7	Alten	alte	NOUN	NN	_	3	nmod	_	_
 8	glaubt	glauben	VERB	VVFIN	_	0	root	_	_
-9	jeder	jeder	DET	PIAT	Case=Nom	8	nsubj	_	_
+9	jeder	jeder	DET	PIAT	Case=Nom|Number=Sing|PronType=Tot	8	nsubj	_	_
 10	mitsprechen	mitsprechen	ADJ	ADJA	Case=Dat	8	xcomp	_	_
 11	zu	zu	PART	PTKZU	_	10	mark	_	_
 12	dürfen	dürfen	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
@@ -40461,7 +40461,7 @@
 19	sein	sein	AUX	VAINF	_	16	csubj	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	19	punct	_	_
 21	daß	daß	SCONJ	KOUS	_	25	mark	_	_
-22	jeder	jeder	DET	PIAT	_	23	det	_	_
+22	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	23	det	_	_
 23	Mensch	Mensch	NOUN	NN	Case=Nom	25	nsubj	_	_
 24	ein	ein	DET	ART	PronType=Art	25	det	_	_
 25	Poet	Poet	NOUN	NN	Case=Nom	19	obl	_	_
@@ -41087,7 +41087,7 @@
 20	leben	leben	VERB	VVINF	_	18	conj	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	32	punct	_	_
 22	deren	der	DET	PRELAT	_	23	det:poss	_	_
-23	jeder	jeder	PRON	PIS	Case=Nom	32	nsubj	_	_
+23	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	32	nsubj	_	_
 24	aber	aber	ADV	ADV	_	32	advmod	_	_
 25	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	32	obj	_	_
 26	der	der	DET	ART	Case=Dat	27	det	_	_
@@ -41465,7 +41465,7 @@
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	ein	ein	DET	ART	PronType=Art	12	det	_	_
 12	Recht	Recht	NOUN	NN	Case=Acc	2	obj	_	_
-13	jeden	jeder	DET	PIAT	_	14	det	_	_
+13	jeden	jeder	DET	PIAT	Number=Sing|PronType=Tot	14	det	_	_
 14	andern	anderer	PRON	PIS	Case=Acc	16	obj	_	_
 15	zu	zu	PART	PTKZU	_	16	mark	_	_
 16	annihilieren	annihilieren	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
@@ -41627,7 +41627,7 @@
 # text = Wer für jedes, was in der menschlichen Natur schön ist, ein untrügliches Reagens zu entdecken wüßte, würde uns eine neue Welt zeigen.
 1	Wer	wer	PRON	PWS	Case=Nom	18	nsubj	_	_
 2	für	für	ADP	APPR	_	3	case	_	_
-3	jedes	jeder	PRON	PIS	Case=Acc	18	obl	_	SpaceAfter=No
+3	jedes	jeder	DET	PIS	Case=Acc|Number=Sing|PronType=Tot	18	obl	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	10	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom	10	nsubj	_	_
 6	in	in	ADP	APPR	_	9	case	_	_
@@ -42038,7 +42038,7 @@
 44	in	in	ADP	APPR	_	45	case	_	_
 45	ihm	ihm	PRON	PPER	_	47	nmod	_	_
 46	ist	sein	AUX	VAFIN	_	47	cop	_	_
-47	jedem	jeder	PRON	PIS	_	40	conj	_	SpaceAfter=No
+47	jedem	jeder	DET	PIS	Number=Sing|PronType=Tot	40	conj	_	SpaceAfter=No
 48	,	--	PUNCT	$,	_	47	punct	_	_
 49	der	der	PRON	PRELS	Case=Nom	54	nsubj	_	_
 50	an	an	ADP	APPR	_	52	case	_	_
@@ -42130,7 +42130,7 @@
 20	sind	sein	AUX	VAFIN	_	19	aux	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	19	punct	_	_
 22	wo	wo	ADV	PWAV	_	26	advmod	_	_
-23	jedes	jeder	DET	PIAT	_	24	det	_	_
+23	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	24	det	_	_
 24	Fenster	Fenster	NOUN	NN	Case=Nom	26	nsubj	_	_
 25	eine	ein	DET	ART	PronType=Art	26	det	_	_
 26	Tür	Tür	NOUN	NN	Case=Nom	19	advcl	_	_
@@ -42409,7 +42409,7 @@
 12	im	in	ADP	APPRART	_	13	case	_	_
 13	Freien	freie	NOUN	NN	_	14	obl	_	_
 14	ausgestellt	ausstellen	VERB	VVPP	_	18	xcomp	_	_
-15	jedem	jeder	DET	PIAT	Case=Dat	18	obl:arg	_	_
+15	jedem	jeder	DET	PIAT	Case=Dat|Number=Sing|PronType=Tot	18	obl:arg	_	_
 16	den	der	DET	ART	_	17	det	_	_
 17	Zutritt	Zutritt	NOUN	NN	Case=Acc	18	obj	_	_
 18	verstattet	verstatten	VERB	VVPP	_	9	acl	_	SpaceAfter=No
@@ -42479,7 +42479,7 @@
 15	,	--	PUNCT	$,	_	13	punct	_	_
 16	wo	wo	ADV	PWAV	_	19	advmod	_	_
 17	hinein	hinein	ADV	ADV	_	19	advmod	_	_
-18	jeder	jeder	PRON	PIS	Case=Nom	19	nsubj	_	_
+18	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	19	nsubj	_	_
 19	gehn	gehn	VERB	VVINF	_	13	csubj	_	_
 20	kann	können	AUX	VMFIN	_	19	aux	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	26	punct	_	_
@@ -42692,7 +42692,7 @@
 21	,	--	PUNCT	$,	_	24	punct	_	_
 22	und	und	CCONJ	KON	_	24	cc	_	_
 23	die	der	DET	ART	_	24	det	_	_
-24	jeden	jeder	NOUN	NN	_	6	conj	_	SpaceAfter=No
+24	jeden	jeder	DET	NN	Number=Sing|PronType=Tot	6	conj	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	24	punct	_	_
 26	der	der	PRON	PRELS	Case=Nom	31	nsubj	_	_
 27	das	der	DET	ART	_	28	det	_	_
@@ -43031,7 +43031,7 @@
 21	sie	sie	PRON	PPER	Case=Nom	29	nsubj	_	_
 22	müssen	müssen	AUX	VMFIN	_	29	aux	_	_
 23	für	für	ADP	APPR	_	26	case	_	_
-24	jeden	jeder	DET	PIAT	_	26	det	_	_
+24	jeden	jeder	DET	PIAT	Number=Sing|PronType=Tot	26	det	_	_
 25	rechtlichen	rechtlich	ADJ	ADJA	_	26	amod	_	_
 26	Mann	Mann	NOUN	NN	Case=Acc	29	obl	_	_
 27	immer	immer	ADV	ADV	_	28	advmod	_	_
@@ -43164,7 +43164,7 @@
 48	trennen	trennen	VERB	VVINF	_	41	xcomp	_	_
 49	und	und	CCONJ	KON	_	58	cc	_	_
 50	zu	zu	ADP	APPR	_	52	case	_	_
-51	jedem	jeder	DET	PIAT	_	52	det	_	_
+51	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	52	det	_	_
 52	Stoff	Stoff	NOUN	NN	Case=Dat	58	obl	_	SpaceAfter=No
 53	,	--	PUNCT	$,	_	52	punct	_	_
 54	die	der	PRON	PRELS	Case=Nom	56	nsubj	_	_
@@ -43238,7 +43238,7 @@
 6	,	--	PUNCT	$,	_	10	punct	_	_
 7	könnte	können	AUX	VMFIN	_	10	aux	_	_
 8	für	für	ADP	APPR	_	9	case	_	_
-9	jeden	jeder	PRON	PIS	Case=Acc	10	nmod	_	_
+9	jeden	jeder	DET	PIS	Case=Acc|Number=Sing|PronType=Tot	10	det	_	_
 10	offen	offen	ADJ	ADJD	_	0	root	_	_
 11	sein	sein	AUX	VAINF	_	10	cop	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	10	punct	_	_
@@ -43256,7 +43256,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f336-s31
 # text = Jeder würde glauben, ihn zu haben und zu kennen, und nur der, der ihm gleich wäre, oder dem er es gäbe, würde ihn wirklich besitzen.
-1	Jeder	jeder	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	3	nsubj	_	_
 2	würde	werden	AUX	VAFIN	_	3	aux	_	_
 3	glauben	glauben	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
@@ -44766,7 +44766,7 @@
 40	,	--	PUNCT	$,	_	44	punct	_	_
 41	wie	wie	SCONJ	KOUS	_	44	mark	_	_
 42	es	es	PRON	PPER	Case=Acc	44	obj	_	_
-43	jeder	jeder	PRON	PIS	Case=Nom	44	nsubj	_	_
+43	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	44	nsubj	_	_
 44	verlangt	verlangen	VERB	VVFIN	_	28	advcl	_	SpaceAfter=No
 45	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -44863,7 +44863,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f355-s2
 # text = Jede organische Natur hat ihre Regel, ihr Sollen; und wer darum nicht weiß, wie kann der sie kennen?
-1	Jede	jeder	DET	PIAT	_	3	det	_	_
+1	Jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	3	det	_	_
 2	organische	organisch	ADJ	ADJA	_	3	amod	_	_
 3	Natur	Natur	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	hat	haben	AUX	VAFIN	_	0	root	_	_
@@ -45652,7 +45652,7 @@
 3	es	es	PRON	PPER	_	7	expl	_	_
 4	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 5	an	an	ADP	APPR	_	6	case	_	_
-6	jeden	jeder	PRON	PDS	_	7	obl	_	_
+6	jeden	jeder	DET	PDS	Number=Sing|PronType=Tot	7	obl	_	_
 7	verschwenden	verschwend	ADJ	ADJA	_	0	root	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	20	punct	_	_
 9	der	der	PRON	PRELS	Case=Nom	20	nsubj	_	_
@@ -45865,7 +45865,7 @@
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	die	der	PRON	PRELS	Case=Nom	26	nsubj	_	_
 22	eine	ein	DET	ART	PronType=Art	24	det	_	_
-23	jede	jeder	ADJ	ADJA	_	24	amod	_	_
+23	jede	jeder	DET	ADJA	Number=Sing|PronType=Tot	24	amod	_	_
 24	Handlung	Handlung	NOUN	NN	Case=Acc	26	obj	_	_
 25	nebenher	nebenher	ADV	ADV	_	26	advmod	_	_
 26	haben	haben	AUX	VAFIN	_	19	conj	_	_
@@ -46020,7 +46020,7 @@
 2	hoffen	hoffen	VERB	VVFIN	_	0	root	_	_
 3	nämlich	nämlich	ADV	ADV	_	2	advmod	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
-5	jedem	jeder	DET	PIAT	_	6	det	_	_
+5	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	6	det	_	_
 6	Menschen	Mensch	NOUN	NN	Case=Dat	2	obl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	2	punct	_	_
 8	daß	daß	SCONJ	KOUS	_	18	mark	_	_
@@ -47375,7 +47375,7 @@
 6	aller	aller	DET	PIAT	_	7	det	_	_
 7	Systeme	System	NOUN	NN	_	5	nmod	_	_
 8	eher	eher	ADV	ADV	_	0	root	_	_
-9	jedes	jeder	PRON	PIS	_	10	det	_	_
+9	jedes	jeder	DET	PIS	Number=Sing|PronType=Tot	10	det	_	_
 10	andre	andren	PRON	PIS	_	8	nmod	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	14	punct	_	_
 12	nur	nur	ADV	ADV	_	14	advmod	_	_
@@ -48716,7 +48716,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f384-s1
 # text = Jeder Philosoph hat seine veranlassende Punkte, die ihn nicht selten real beschränken, an die er sich akkomodiert usw.
-1	Jeder	jeder	DET	PIAT	_	2	det	_	_
+1	Jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Philosoph	Philosoph	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	hat	haben	VERB	VVFIN	_	0	root	_	_
 4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
@@ -48798,7 +48798,7 @@
 1	Sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	kommen	kommen	VERB	VVFIN	_	0	root	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
-4	jedem	jeder	DET	PIAT	_	5	det	_	_
+4	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	5	det	_	_
 5	System	System	NOUN	NN	_	2	obl	_	_
 6	wieder	wieder	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	10	punct	_	_
@@ -49096,7 +49096,7 @@
 # sent_id = athenaeum-f389-s1
 # text = Wenn jede rein willkürliche oder rein zufällige Verknüpfung von Form und Materie grotesk ist: so hat auch die Philosophie Grotesken wie die Poesie; nur weiß sie weniger darum, und hat den Schlüssel zu ihrer eignen esoterischen Geschichte noch nicht finden können.
 1	Wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
-2	jede	jeder	NOUN	NN	Case=Nom	13	nsubj	_	_
+2	jede	jeder	DET	NN	Case=Nom|Number=Sing|PronType=Tot	13	nsubj	_	_
 3	rein	rein	ADV	ADV	_	4	advmod	_	_
 4	willkürliche	willkürlich	ADJ	ADJA	_	8	amod	_	_
 5	oder	oder	CCONJ	KON	_	7	cc	_	_
@@ -49466,7 +49466,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f390-s5
 # text = Jeder Mensch hat seinen ökonomischen Instinkt, der gebildet werden muß, so gut wie auch die Orthographie und die Metrik gelernt zu werden verdienen.
-1	Jeder	jeder	DET	PIAT	_	2	det	_	_
+1	Jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	2	det	_	_
 2	Mensch	Mensch	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	hat	haben	VERB	VVFIN	_	0	root	_	_
 4	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
@@ -50430,7 +50430,7 @@
 49	Geschicklichkeit	Geschicklichkeit	NOUN	NN	_	51	obl	_	_
 50	ebenso	ebenso	ADV	ADV	_	51	advmod	_	_
 51	gern	gern	ADV	ADV	_	55	advmod	_	_
-52	jedem	jeder	DET	PIAT	_	54	det	_	_
+52	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	54	det	_	_
 53	andern	anderer	ADJ	ADJA	_	54	amod	_	_
 54	Stoff	Stoff	NOUN	NN	Case=Acc	55	obj	_	_
 55	zeigen	zeigen	VERB	VVINF	_	7	advcl	_	_
@@ -50707,7 +50707,7 @@
 # sent_id = athenaeum-f406-s1
 # text = Wenn jedes unendliche Individuum Gott ist, so gibts so viele Götter als Ideale.
 1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
-2	jedes	jeder	DET	PIAT	_	4	det	_	_
+2	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	4	det	_	_
 3	unendliche	unendlich	ADJ	ADJA	_	4	amod	_	_
 4	Individuum	Individuum	NOUN	NN	Case=Nom	9	advcl	_	_
 5	Gott	Gott	NOUN	NN	_	4	nmod	_	_
@@ -50772,7 +50772,7 @@
 20	und	und	CCONJ	KON	_	21	cc	_	_
 21	soll	sollen	AUX	VMFIN	_	19	conj	_	_
 22	es	es	PRON	PPER	_	24	xcomp	_	_
-23	jeder	jeder	PRON	PIS	Case=Nom	24	nsubj	_	_
+23	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	24	nsubj	_	_
 24	werden	werden	AUX	VAINF	_	15	conj	_	SpaceAfter=No
 25	.	--	PUNCT	$.	_	15	punct	_	_
 
@@ -51447,19 +51447,19 @@
 13	vollkommner	vollkommn	ADJ	ADJA	_	14	amod	_	_
 14	Fantast	Fantast	NOUN	NN	Case=Nom	0	root	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
-16	jedem	jeder	DET	PIAT	_	17	det	_	_
+16	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	17	det	_	_
 17	guten	gut	ADJ	ADJA	_	14	nmod	_	_
 18	und	und	CCONJ	KON	_	21	cc	_	_
 19	in	in	ADP	APPR	_	21	case	_	_
-20	jedem	jeder	DET	PIAT	_	21	det	_	_
+20	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	21	det	_	_
 21	schlechten	schlecht	ADJ	ADJA	_	17	conj	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	25	punct	_	_
 23	in	in	ADP	APPR	_	25	case	_	_
-24	jedem	jeder	DET	PIAT	_	25	det	_	_
+24	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	25	det	_	_
 25	schönen	schön	ADJ	ADJA	_	17	conj	_	_
 26	und	und	CCONJ	KON	_	30	cc	_	_
 27	in	in	ADP	APPR	_	30	case	_	_
-28	jedem	jeder	DET	PIAT	_	30	det	_	_
+28	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	30	det	_	_
 29	häßlichen	häßlich	ADJ	ADJA	_	30	amod	_	_
 30	Sinne	Sinn	NOUN	NN	_	17	conj	_	_
 31	des	der	DET	ART	_	32	det	_	_
