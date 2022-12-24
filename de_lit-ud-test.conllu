@@ -7,7 +7,7 @@
 # text = Man nennt viele Künstler, die eigentlich Kunstwerke der Natur sind.
 1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
 2	nennt	nennen	VERB	VVFIN	_	0	root	_	_
-3	viele	vieler	DET	PIAT	Case=Acc	2	obj	_	_
+3	viele	viel	DET	PIAT	Case=Acc|PronType=Ind	2	obj	_	_
 4	Künstler	Künstler	NOUN	NN	_	2	xcomp	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	8	punct	_	_
 6	die	der	PRON	PRELS	Case=Nom	8	nsubj	_	_
@@ -108,7 +108,7 @@
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	so	so	ADV	ADV	_	4	advmod	_	_
-4	viel	viel	DET	PIAT	_	5	amod	_	_
+4	viel	viel	DET	PIAT	PronType=Ind	5	det	_	_
 5	Poesie	Poesie	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	2	punct	_	_
 7	und	und	CCONJ	KON	_	11	cc	_	_
@@ -884,7 +884,7 @@
 # sent_id = lyceum-f25-s1
 # text = Die beiden Hauptgrundsätze der sogenannten historischen Kritik sind das Postulat der Gemeinheit, und das Axiom der Gewöhnlichkeit.
 1	Die	der	DET	ART	_	3	det	_	_
-2	beiden	beide	DET	PIAT	_	3	amod	_	_
+2	beiden	beide	DET	PIAT	_	3	det	_	_
 3	Hauptgrundsätze	Hauptgrundsatz	NOUN	NN	Case=Nom	10	nsubj	_	_
 4	der	der	DET	ART	_	7	det	_	_
 5	sogenannten	sogenannter	ADJ	ADJA	_	7	amod	_	_
@@ -1255,7 +1255,7 @@
 22	müßte	müssen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	20	punct	_	_
 24	oder	oder	CCONJ	KON	_	27	cc	_	_
-25	vieles	viele	PRON	PIS	Case=Acc	27	obj	_	_
+25	vieles	viel	DET	PIS	Case=Acc|PronType=Ind	27	obj	_	_
 26	zu	zu	PART	PTKZU	_	27	mark	_	_
 27	sagen	sagen	VERB	VVINF	_	16	conj	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	35	punct	_	_
@@ -2063,7 +2063,7 @@
 5	geselliger	gesellig	ADJ	ADJA	_	6	amod	_	_
 6	Fröhlichkeit	Fröhlichkeit	NOUN	NN	_	3	conj	_	_
 7	sind	sein	AUX	VAFIN	_	0	root	_	_
-8	wenige	weniger	DET	PIAT	_	9	amod	_	_
+8	wenige	weniger	DET	PIAT	_	9	det	_	_
 9	Bücher	Buch	NOUN	NN	Case=Nom	7	nsubj	_	_
 10	mit	mit	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	_	12	det	_	_
@@ -2506,7 +2506,7 @@
 # text = – Manche solcher Benennungen der Feudalpoesie können bei den Literatoren künftiger Zeitalter ähnliche Untersuchungen veranlassen, wie die, warum Dante sein großes Werk eine göttliche Komödie nannte.
 1	–	–	PUNCT	XY	_	15	punct	_	_
 2	Manche	Mancher	PRON	PIS	Case=Nom	15	nsubj	_	_
-3	solcher	solcher	DET	PIAT	_	4	amod	_	_
+3	solcher	solcher	DET	PIAT	_	4	det	_	_
 4	Benennungen	Benennung	NOUN	NN	_	2	nmod	_	_
 5	der	der	DET	ART	_	6	det	_	_
 6	Feudalpoesie	Feudalpoesie	NOUN	NN	_	4	nmod	_	_
@@ -2928,7 +2928,7 @@
 5	Einheit	Einheit	NOUN	NN	_	2	nmod	_	_
 6	sind	sein	AUX	VAFIN	_	11	cop	_	_
 7	die	der	DET	ART	_	10	det	_	_
-8	meisten	meister	DET	PIAT	_	10	amod	_	_
+8	meisten	meister	DET	PIAT	_	10	det	_	_
 9	modernen	modern	ADJ	ADJA	_	10	amod	_	_
 10	Gedichte	Gedicht	NOUN	NN	Case=Nom	11	nsubj	_	_
 11	Allegorien	Allegorie	NOUN	NN	Case=Nom	0	root	_	_
@@ -3342,7 +3342,7 @@
 2	hat	haben	VERB	VVFIN	_	0	root	_	_
 3	schon	schon	ADV	ADV	_	2	advmod	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
-5	viele	vieler	DET	PIAT	_	6	amod	_	_
+5	viele	viel	DET	PIAT	PronType=Ind	6	det	_	_
 6	Theorien	Theorie	NOUN	NN	Case=Acc	2	obj	_	_
 7	der	der	DET	ART	_	8	det	_	_
 8	Dichtarten	Dichtart	NOUN	NN	_	6	nmod	_	SpaceAfter=No
@@ -3444,7 +3444,7 @@
 1	Zur	zu	ADP	APPRART	_	3	case	_	_
 2	richtigen	richtig	ADJ	ADJA	_	3	amod	_	_
 3	Ansicht	Ansicht	NOUN	NN	_	6	obl	_	_
-4	mancher	mancher	DET	PIAT	_	5	amod	_	_
+4	mancher	mancher	DET	PIAT	_	5	det	_	_
 5	Schriften	Schrift	NOUN	NN	_	3	nmod	_	_
 6	fehlt	fehlen	VERB	VVFIN	_	0	root	_	_
 7	es	es	PRON	PPER	Case=Nom	6	nsubj	_	_
@@ -3643,7 +3643,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f68-s1
 # text = Wieviel Autoren gibts wohl unter den Schriftstellern?
-1	Wieviel	wieviel	DET	PWAT	_	2	amod	_	_
+1	Wieviel	wieviel	DET	PWAT	_	2	det	_	_
 2	Autoren	Autor	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	gibts	gibt	ADV	ADV	_	0	root	_	_
 4	wohl	wohl	ADV	ADV	_	3	advmod	_	_
@@ -5437,7 +5437,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f103-s1
 # text = Viele Werke, deren schöne Verkettung man preist, haben weniger Einheit, als ein bunter Haufen von Einfällen, die nur vom Geiste eines Geistes belebt, nach Einem Ziele zielen.
-1	Viele	vieler	DET	PIAT	_	2	det	_	_
+1	Viele	viel	DET	PIAT	PronType=Ind	2	det	_	_
 2	Werke	Werk	NOUN	NN	Case=Nom	10	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	8	punct	_	_
 4	deren	der	DET	PRELAT	_	6	det:poss	_	_
@@ -5447,7 +5447,7 @@
 8	preist	preisen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	haben	haben	AUX	VAFIN	_	0	root	_	_
-11	weniger	weniger	DET	PIAT	_	12	amod	_	_
+11	weniger	weniger	DET	PIAT	_	12	det	_	_
 12	Einheit	Einheit	NOUN	NN	Case=Acc	10	obj	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	17	punct	_	_
 14	als	als	CCONJ	KOKOM	_	17	case	_	_
@@ -6712,7 +6712,7 @@
 1	Es	es	PRON	PPER	_	2	xcomp	_	_
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	so	so	ADV	ADV	_	2	advmod	_	_
-4	viele	vieler	DET	PIAT	_	6	det	_	_
+4	viele	viel	DET	PIAT	PronType=Ind	6	det	_	_
 5	kritische	kritisch	ADJ	ADJA	_	6	amod	_	_
 6	Zeitschriften	Zeitschrift	NOUN	NN	Case=Nom	2	nsubj	_	_
 7	von	von	ADP	APPR	_	9	case	_	_
@@ -6859,7 +6859,7 @@
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	es	es	PRON	PPER	_	2	expl	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
-5	wenige	weniger	DET	PIAT	_	6	amod	_	_
+5	wenige	weniger	DET	PIAT	_	6	det	_	_
 6	Deutsche	deutsche	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 7	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -7194,7 +7194,7 @@
 33	mehr	mehr	ADV	ADV	_	28	advmod	_	_
 34	für	für	ADP	APPR	_	37	case	_	_
 35	ein	ein	DET	ART	PronType=Art	37	det	_	_
-36	solches	solcher	DET	PIAT	_	37	amod	_	_
+36	solches	solcher	DET	PIAT	_	37	det	_	_
 37	Schauspiel	Schauspiel	NOUN	NN	Case=Acc	28	obl	_	SpaceAfter=No
 38	.	--	PUNCT	$.	_	1	punct	_	_
 
@@ -7743,7 +7743,7 @@
 12	,	--	PUNCT	$,	_	9	punct	_	_
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	unzählig	unzählig	ADJ	ADJD	_	16	advmod	_	_
-15	viele	vieler	DET	PIAT	_	16	det	_	_
+15	viele	viel	DET	PIAT	PronType=Ind	16	det	_	_
 16	andre	andren	ADJ	ADJA	Case=Nom	9	nsubj	_	SpaceAfter=No
 17	?	--	PUNCT	$.	_	6	punct	_	_
 
@@ -7880,7 +7880,7 @@
 4	etwa	etwa	ADV	ADV	_	7	advmod	_	_
 5	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 6	unendlich	unendlich	ADJ	ADJD	_	7	advmod	_	_
-7	viel	viel	DET	PIAT	_	8	det	_	_
+7	viel	viel	DET	PIAT	PronType=Ind	8	det	_	_
 8	Gutes	gut	NOUN	NN	Case=Acc	2	obj	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	Schönes	Schönes	NOUN	NN	_	8	conj	_	_
@@ -9560,13 +9560,13 @@
 15	bey	bey	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	_	17	det	_	_
 17	Erblickung	Erblickung	NOUN	NN	_	7	conj	_	_
-18	mancher	mancher	DET	PIAT	_	19	amod	_	_
+18	mancher	mancher	DET	PIAT	_	19	det	_	_
 19	Augen	Auge	NOUN	NN	_	17	nmod	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	22	punct	_	_
-21	mancher	mancher	DET	PIAT	_	22	amod	_	_
+21	mancher	mancher	DET	PIAT	_	22	det	_	_
 22	Minen	Mine	NOUN	NN	_	19	conj	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	25	punct	_	_
-24	mancher	mancher	DET	PIAT	_	25	amod	_	_
+24	mancher	mancher	DET	PIAT	_	25	det	_	_
 25	Bewegungen	Bewegung	NOUN	NN	_	19	conj	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	28	punct	_	_
 27	beym	beym	ADP	APPRART	_	28	case	_	_
@@ -9596,7 +9596,7 @@
 # sent_id = bluethenstaub-f22-s10
 # text = Sehr viele Zufälle, manche Naturereignisse, besonders Jahrs- und Tageszeiten, liefern uns solche Erfahrungen.
 1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
-2	viele	vieler	DET	PIAT	_	3	amod	_	_
+2	viele	viel	DET	PIAT	PronType=Ind	3	det	_	_
 3	Zufälle	Zufall	NOUN	NN	Case=Nom	13	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	6	punct	_	_
 5	manche	mancher	DET	PIAT	_	6	det	_	_
@@ -9622,7 +9622,7 @@
 2	Stimmungen	Stimmung	NOUN	NN	Case=Nom	7	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	7	cop	_	_
 4	vorzüglich	vorzüglich	ADJ	ADJD	_	7	amod	_	_
-5	solchen	solcher	DET	PIAT	_	6	amod	_	_
+5	solchen	solcher	DET	PIAT	_	6	det	_	_
 6	Offenbarungen	Offenbarung	NOUN	NN	_	7	nmod	_	_
 7	günstig	günstig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 8	.	--	PUNCT	$.	_	7	punct	_	_
@@ -9651,7 +9651,7 @@
 # text = Hier ist viel Unterschied zwischen den Menschen.
 1	Hier	hier	ADV	ADV	_	4	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	4	cop	_	_
-3	viel	viel	DET	PIAT	_	4	det	_	_
+3	viel	viel	DET	PIAT	PronType=Ind	4	det	_	_
 4	Unterschied	Unterschied	NOUN	NN	Case=Nom	0	root	_	_
 5	zwischen	zwischen	ADP	APPR	_	7	case	_	_
 6	den	der	DET	ART	_	7	det	_	_
@@ -10559,7 +10559,7 @@
 40	Sonderbare	sonderbar	NOUN	NN	_	41	obl	_	_
 41	haben	haben	AUX	VAFIN	_	32	conj	_	SpaceAfter=No
 42	,	--	PUNCT	$,	_	45	punct	_	_
-43	viel	viel	PRON	PIS	Case=Nom	45	nsubj	_	_
+43	viel	viel	DET	PIS	Case=Nom|PronType=Ind	45	nsubj	_	_
 44	darin	darin	ADV	PROAV	_	45	advmod	_	_
 45	suchen	suchen	VERB	VVINF	_	41	parataxis	_	_
 46	und	und	CCONJ	KON	_	47	cc	_	_
@@ -11637,7 +11637,7 @@
 # sent_id = bluethenstaub-f47-s2
 # text = Sehr viele Gelehrte besitzen diesen Hang nicht.
 1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
-2	viele	vieler	DET	PIAT	_	3	det	_	_
+2	viele	viel	DET	PIAT	PronType=Ind	3	det	_	_
 3	Gelehrte	Gelehrt	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	besitzen	besitzen	VERB	VVFIN	_	0	root	_	_
 5	diesen	dieser	DET	PDAT	PronType=Dem	6	det	_	_
@@ -11705,7 +11705,7 @@
 # sent_id = bluethenstaub-f47-s5
 # text = Bey vielen währt dieser Hang nur eine Zeitlang.
 1	Bey	Bey	ADP	APPR	_	2	case	_	_
-2	vielen	vieler	PRON	PIS	Case=Acc	3	obj	_	_
+2	vielen	viel	DET	PIS	Case=Acc|PronType=Ind	3	obj	_	_
 3	währt	währen	VERB	VVFIN	_	0	root	_	_
 4	dieser	dieser	DET	PDAT	PronType=Dem	5	det	_	_
 5	Hang	Hang	NOUN	NN	Case=Nom	3	nsubj	_	_
@@ -11874,7 +11874,7 @@
 4-5	am	_	_	_	_	_	_	_	_
 4	an	an	ADP	APPR	_	10	case	_	_
 5	dem	der	DET	ART	_	10	det	_	_
-6	meisten	meister	DET	PIAT	_	10	amod	_	_
+6	meisten	meister	DET	PIAT	_	10	det	_	_
 7	gebildete	gebildet	ADJ	ADJA	_	10	amod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	10	punct	_	_
 9	irdische	irdisch	ADJ	ADJA	_	10	amod	_	_
@@ -12570,7 +12570,7 @@
 # sent_id = bluethenstaub-f58-s2
 # text = Einen jeden vorzüglichen Menschen muß gleichsam ein Geist zu durchschweben scheinen, der die sichtbare Erscheinung idealisch parodirt.
 1	Einen	ein	DET	ART	PronType=Art	4	det	_	_
-2	jeden	jeder	DET	PIAT	Number=Sing|PronType=Tot	4	amod	_	_
+2	jeden	jeder	DET	PIAT	Number=Sing|PronType=Tot	4	det	_	_
 3	vorzüglichen	vorzüglich	ADJ	ADJA	_	4	amod	_	_
 4	Menschen	Mensch	NOUN	NN	Case=Acc	11	obj	_	_
 5	muß	müssen	AUX	VMFIN	_	11	aux	_	_
@@ -12730,7 +12730,7 @@
 4	,	--	PUNCT	$,	_	10	punct	_	_
 5	wie	wie	ADV	PWAV	_	10	advmod	_	_
 6	es	es	PRON	PPER	Case=Nom	10	nsubj	_	_
-7	vielen	vieler	DET	PIAT	_	9	det	_	_
+7	vielen	viel	DET	PIAT	PronType=Ind	9	det	_	_
 8	dummen	dumm	ADJ	ADJA	_	9	amod	_	_
 9	Kindern	Kind	NOUN	NN	Case=Dat	10	obl:arg	_	_
 10	gehn	gehen	VERB	VVINF	_	2	advcl	_	_
@@ -13047,12 +13047,12 @@
 # sent_id = bluethenstaub-f66-s2
 # text = Wer viel Geist hat, macht viel aus seinemLeben.
 1	Wer	wer	PRON	PWS	Case=Nom	4	nsubj	_	_
-2	viel	viel	DET	PIAT	_	3	amod	_	_
+2	viel	viel	DET	PIAT	PronType=Ind	3	det	_	_
 3	Geist	Geist	NOUN	NN	Case=Acc	4	obj	_	_
 4	hat	haben	AUX	VAFIN	_	6	csubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	macht	machen	VERB	VVFIN	_	0	root	_	_
-7	viel	viel	PRON	PIS	Case=Acc	6	obj	_	_
+7	viel	viel	DET	PIS	Case=Acc|PronType=Ind	6	obj	_	_
 8	aus	aus	ADP	APPR	_	9	case	_	_
 9	seinemLeben	seinemleben	DET	PPOSAT	Case=Dat	6	obl	_	SpaceAfter=No
 10	.	--	PUNCT	$.	_	6	punct	_	_
@@ -13257,7 +13257,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	_	3	det	_	_
 3	Geist	Geist	NOUN	NN	Case=Dat	10	obl	_	_
-4	mancher	mancher	DET	PIAT	_	5	amod	_	_
+4	mancher	mancher	DET	PIAT	_	5	det	_	_
 5	Kritiken	Kritik	NOUN	NN	_	3	nmod	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	Beschreibungen	Beschreibung	NOUN	NN	_	5	conj	_	_
@@ -13329,7 +13329,7 @@
 4	Madonna	Madonna	PROPN	NE	Case=Nom	8	nsubj	_	_
 5	ist	sein	AUX	VAFIN	_	8	cop	_	_
 6	ein	ein	DET	ART	PronType=Art	8	det	_	_
-7	solcher	solcher	DET	PIAT	_	8	amod	_	_
+7	solcher	solcher	DET	PIAT	_	8	det	_	_
 8	Mythus	Mythus	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	8	punct	_	_
 
@@ -13358,7 +13358,7 @@
 1	Sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	erfordern	erfordern	VERB	VVFIN	_	0	root	_	_
 3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
-4	viel	viel	DET	PIAT	_	5	det	_	_
+4	viel	viel	DET	PIAT	PronType=Ind	5	det	_	_
 5	Gelehrsamkeit	Gelehrsamkeit	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	10	punct	_	_
 7	aber	aber	CCONJ	KON	_	10	cc	_	_
@@ -15234,7 +15234,7 @@
 35	schöner	schön	ADJ	ADJA	_	36	amod	_	_
 36	Musik	Musik	NOUN	NN	Case=Dat	28	nmod	_	SpaceAfter=No
 37	,	--	PUNCT	$,	_	39	punct	_	_
-38	vielem	viel	DET	PIAT	_	39	det	_	_
+38	vielem	viel	DET	PIAT	PronType=Ind	39	det	_	_
 39	Gepränge	Geprang	NOUN	NN	_	36	conj	_	SpaceAfter=No
 40	,	--	PUNCT	$,	_	42	punct	_	_
 41	mit	mit	ADP	APPR	_	42	case	_	_
@@ -15351,7 +15351,7 @@
 16	listige	listig	ADJ	ADJA	_	17	amod	_	_
 17	Sklav	Sklav	NOUN	NN	Case=Nom	2	advcl	_	_
 18	eines	ein	DET	ART	PronType=Art	21	det	_	_
-19	solchen	solcher	DET	PIAT	_	21	amod	_	_
+19	solchen	solcher	DET	PIAT	_	21	det	_	_
 20	stumpfen	stumpfen	ADJ	ADJA	_	21	amod	_	_
 21	Herrn	Herr	NOUN	NN	Case=Gen	17	nmod	_	_
 22	ist	sein	AUX	VAFIN	_	17	cop	_	SpaceAfter=No
@@ -15874,7 +15874,7 @@
 # text = In den meisten Religionssystemen werden wir als Glieder der Gottheit betrachtet, die, wenn sie nicht den Impulsionen des Ganzen gehorchen wenn sie auch nicht absichtlich gegen die Gesetze des Ganzen agiren, sondern nur ihren eignen Gang gehn und nicht Glieder seyn wollen, von der Gottheit ärztlich behandelt, und entweder schmerzhaft geheilt, oder gar abgeschnitten werden.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	_	4	det	_	_
-3	meisten	meister	DET	PIAT	_	4	amod	_	_
+3	meisten	meister	DET	PIAT	_	4	det	_	_
 4	Religionssystemen	Religionssystem	NOUN	NN	_	11	obl	_	_
 5	werden	werden	AUX	VAFIN	_	11	aux:pass	_	_
 6	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
@@ -16091,7 +16091,7 @@
 # sent_id = bluethenstaub-f86-s2
 # text = Je weniger Grundsätze, desto höher die Wissenschaft.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
-2	weniger	weniger	DET	PIAT	_	3	amod	_	_
+2	weniger	weniger	DET	PIAT	_	3	det	_	_
 3	Grundsätze	Grundsatz	NOUN	NN	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	desto	desto	CCONJ	KON	_	6	cc	_	_
@@ -16377,7 +16377,7 @@
 3	Erkenntniß	Erkenntniß	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	macht	machen	VERB	VVFIN	_	0	root	_	_
 5	einen	ein	DET	ART	PronType=Art	10	det	_	_
-6	viel	viel	PRON	PIS	Case=Acc	7	obj	_	_
+6	viel	viel	DET	PIS	Case=Acc|PronType=Ind	7	obj	_	_
 7	tiefern	tiefern	VERB	VVINF	_	10	acl	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	9	punct	_	_
 9	lebendigern	lebendigern	VERB	VVINF	_	7	conj	_	_
@@ -16410,7 +16410,7 @@
 3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
 4	durch	durch	ADP	APPR	_	7	case	_	_
 5	zu	zu	PART	PTKA	_	7	case	_	_
-6	vieles	viele	DET	PIAT	_	7	det	_	_
+6	vieles	viel	DET	PIAT	PronType=Ind	7	det	_	_
 7	Studiren	Studire	NOUN	NN	Case=Acc	2	obl	_	_
 8	an	an	ADP	APPR	_	9	case	_	_
 9	Kapazität	Kapazität	NOUN	NN	_	2	nmod	_	SpaceAfter=No
@@ -16822,7 +16822,7 @@
 9	die	der	PRON	PRELS	_	10	det	_	_
 10	andere	anderer	PRON	PIS	_	4	parataxis	_	_
 11	zu	zu	PART	PTKA	_	12	case	_	_
-12	viel	viel	PRON	PIS	Case=Dat	10	orphan	_	_
+12	viel	viel	DET	PIS	Case=Dat|PronType=Ind	10	orphan	_	_
 13	innern	innern	VERB	VVINF	_	10	orphan	_	_
 14	Sinn	Sinn	NOUN	NN	_	10	orphan	_	SpaceAfter=No
 15	.	--	PUNCT	$.	_	4	punct	_	_
@@ -17384,7 +17384,7 @@
 21	so	so	ADV	ADV	_	26	advmod	_	_
 22	sind	sein	AUX	VAFIN	_	26	cop	_	_
 23	die	der	DET	ART	_	25	det	_	_
-24	meisten	meister	DET	PIAT	_	25	amod	_	_
+24	meisten	meister	DET	PIAT	_	25	det	_	_
 25	Bücher	Buch	NOUN	NN	Case=Nom	26	nsubj	_	_
 26	Ephraimiten	Ephraimit	NOUN	NN	Case=Nom	18	parataxis	_	SpaceAfter=No
 27	.	--	PUNCT	$.	_	11	punct	_	_
@@ -17429,7 +17429,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f102-s5
 # text = Vielen wahren Büchern geht es wie den Goldklumpen in Irland.
-1	Vielen	vieler	DET	PIAT	Case=Dat	3	det	_	_
+1	Vielen	viel	DET	PIAT	Case=Dat|PronType=Ind	3	det	_	_
 2	wahren	wahr	ADJ	ADJA	Case=Dat	3	amod	_	_
 3	Büchern	Buch	NOUN	NN	Case=Dat	4	obl:arg	_	_
 4	geht	gehen	VERB	VVFIN	_	0	root	_	_
@@ -17551,7 +17551,7 @@
 # text = Es sind viele antirevoluzionäre Bücher für die Revoluzion geschrieben worden.
 1	Es	es	PRON	PPER	_	9	expl	_	_
 2	sind	sein	AUX	VAFIN	_	9	aux	_	_
-3	viele	vieler	DET	PIAT	_	5	det	_	_
+3	viele	viel	DET	PIAT	PronType=Ind	5	det	_	_
 4	antirevoluzionäre	antirevoluzionär	ADJ	ADJA	_	5	amod	_	_
 5	Bücher	Buch	NOUN	NN	Case=Nom	9	nsubj:pass	_	_
 6	für	für	ADP	APPR	_	8	case	_	_
@@ -17585,7 +17585,7 @@
 # sent_id = bluethenstaub-f105-s1
 # text = Die meisten Beobachter der Revoluzion, besonders die Klugen und Vornehmen, haben sie für eine lebensgefährliche und ansteckende Krankheit erklärt.
 1	Die	der	DET	ART	_	3	det	_	_
-2	meisten	meister	DET	PIAT	_	3	amod	_	_
+2	meisten	meister	DET	PIAT	_	3	det	_	_
 3	Beobachter	Beobachter	NOUN	NN	Case=Nom	21	nsubj	_	_
 4	der	der	DET	ART	_	5	det	_	_
 5	Revoluzion	Revoluzion	NOUN	NN	_	3	nmod	_	SpaceAfter=No
@@ -18449,7 +18449,7 @@
 13	auch	auch	ADV	ADV	_	14	advmod	_	_
 14	Locke	Locke	NOUN	NN	_	4	conj	_	_
 15	den	der	DET	ART	_	17	det	_	_
-16	meisten	meister	DET	PIAT	_	17	amod	_	_
+16	meisten	meister	DET	PIAT	_	17	det	_	_
 17	Beyfall	Beyfall	NOUN	NN	_	14	nmod	_	_
 18	unter	unter	ADP	APPR	_	20	case	_	_
 19	dieser	dieser	DET	PDAT	PronType=Dem	20	det	_	_
@@ -18843,7 +18843,7 @@
 2	haben	haben	AUX	VAFIN	_	0	root	_	_
 3	die	der	DET	ART	_	4	det	_	_
 4	Leute	Leute	NOUN	NN	Case=Nom	2	nsubj	_	_
-5	weniger	weniger	DET	PIAT	_	6	amod	_	_
+5	weniger	weniger	DET	PIAT	_	6	det	_	_
 6	Respekt	Respekt	NOUN	NN	Case=Acc	2	obj	_	_
 7	vor	vor	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	_	9	det	_	_
@@ -19627,7 +19627,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f24-s1
 # text = Viele Werke der Alten sind Fragmente geworden.
-1	Viele	vieler	DET	PIAT	_	2	det	_	_
+1	Viele	viel	DET	PIAT	PronType=Ind	2	det	_	_
 2	Werke	Werk	NOUN	NN	Case=Nom	7	nsubj	_	_
 3	der	der	DET	ART	_	4	det	_	_
 4	Alten	alte	NOUN	NN	_	2	nmod	_	_
@@ -19641,7 +19641,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f24-s2
 # text = Viele Werke der Neuern sind es gleich bei der Entstehung.
-1	Viele	vieler	DET	PIAT	_	2	det	_	_
+1	Viele	viel	DET	PIAT	PronType=Ind	2	det	_	_
 2	Werke	Werk	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	der	der	DET	ART	_	4	det	_	_
 4	Neuern	neuer	NOUN	NN	_	2	nmod	_	_
@@ -19674,7 +19674,7 @@
 13	Zweckmäßigen	zweckmäßig	NOUN	NN	Case=Gen	9	conj	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	20	punct	_	_
 15	und	und	CCONJ	KON	_	20	cc	_	_
-16	viele	vieler	DET	PIAT	_	17	amod	_	_
+16	viele	viel	DET	PIAT	PronType=Ind	17	det	_	_
 17	Ableitungen	Ableitung	NOUN	NN	Case=Nom	20	nsubj	_	_
 18	sind	sein	AUX	VAFIN	_	20	cop	_	_
 19	eigentlich	eigentlich	ADV	ADV	_	20	advmod	_	_
@@ -19804,7 +19804,7 @@
 # text = Es gibt wenig Existenten.
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
-3	wenig	wenig	DET	PIAT	_	4	amod	_	_
+3	wenig	wenig	DET	PIAT	_	4	det	_	_
 4	Existenten	Existent	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -20092,7 +20092,7 @@
 5	dessen	der	DET	PRELAT	_	6	det	_	_
 6	Realisierung	Realisierung	NOUN	NN	Case=Nom	14	nsubj	_	_
 7	jedoch	jedoch	ADV	ADV	_	14	advmod	_	_
-8	viele	vieler	ADJ	ADJA	_	11	amod	_	_
+8	viele	viel	DET	ADJA	PronType=Ind	11	det	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	große	groß	ADJ	ADJA	_	8	conj	_	_
 11	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Acc	13	obj	_	_
@@ -20447,7 +20447,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f39-s3
 # text = Viele philosophische Schriften, die es sonst nicht haben würden, erhalten dadurch ein großes Interesse.
-1	Viele	viel	DET	PIAT	_	3	det	_	_
+1	Viele	viel	DET	PIAT	PronType=Ind	3	det	_	_
 2	philosophische	philosophisch	ADJ	ADJA	_	3	amod	_	_
 3	Schriften	Schrift	NOUN	NN	Case=Nom	12	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
@@ -20665,7 +20665,7 @@
 7	nach	nach	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	_	9	det	_	_
 9	Denkart	Denkart	NOUN	NN	Case=Dat	13	nmod	_	_
-10	mancher	mancher	DET	PIAT	_	11	amod	_	_
+10	mancher	mancher	DET	PIAT	_	11	det	_	_
 11	Philosophen	Philosoph	NOUN	NN	_	9	nmod	_	_
 12	ein	ein	DET	ART	PronType=Art	13	det	_	_
 13	System	System	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
@@ -21014,7 +21014,7 @@
 11	ist	sein	AUX	VAFIN	_	8	cop	_	_
 12	wenigstens	wenigstens	ADV	ADV	_	8	advmod	_	_
 13	so	so	ADV	ADV	_	14	advmod	_	_
-14	viel	viel	DET	PIAT	_	15	det	_	_
+14	viel	viel	DET	PIAT	PronType=Ind	15	det	_	_
 15	Absicht	Absicht	NOUN	NN	Case=Nom	8	nsubj	_	_
 16	darin	darin	ADV	PROAV	_	15	advmod	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	15	punct	_	_
@@ -21199,7 +21199,7 @@
 24	wie	wie	CCONJ	KOKOM	_	25	case	_	_
 25	Zentralmonaden	Zentralmonaden	NOUN	NN	_	22	conj	_	_
 26	eines	ein	DET	ART	PronType=Art	29	det	_	_
-27	solchen	solcher	DET	PIAT	_	29	amod	_	_
+27	solchen	solcher	DET	PIAT	_	29	det	_	_
 28	historischen	historisch	ADJ	ADJA	_	29	amod	_	_
 29	Individuums	Individuum	NOUN	NN	Case=Gen	25	nmod	_	_
 30	sind	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
@@ -21377,7 +21377,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f57-s3
 # text = Viele heißen durch Zufall groß.
-1	Viele	vieler	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Viele	viel	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	heißen	heißen	VERB	VVFIN	_	0	root	_	_
 3	durch	durch	ADP	APPR	_	4	case	_	_
 4	Zufall	Zufall	NOUN	NN	Case=Acc	2	obl	_	_
@@ -21693,7 +21693,7 @@
 11	auf	auf	ADP	APPR	_	13	case	_	_
 12	die	der	DET	ART	_	13	det	_	_
 13	Schönheiten	Schönheit	NOUN	NN	_	10	nmod	_	_
-14	mancher	mancher	DET	PIAT	_	15	amod	_	_
+14	mancher	mancher	DET	PIAT	_	15	det	_	_
 15	Gedichte	Gedicht	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	21	punct	_	_
 17	weil	weil	SCONJ	KOUS	_	21	mark	_	_
@@ -21732,7 +21732,7 @@
 # sent_id = athenaeum-f61-s1
 # text = Die wenigen Schriften, welche gegen die Kantische Philosophie existieren, sind die wichtigsten Dokumente zur Krankheitsgeschichte des gesunden Menschenverstandes.
 1	Die	der	DET	ART	_	3	det	_	_
-2	wenigen	weniger	DET	PIAT	_	3	amod	_	_
+2	wenigen	weniger	DET	PIAT	_	3	det	_	_
 3	Schriften	Schrift	NOUN	NN	Case=Nom	15	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	10	nsubj	_	_
@@ -21842,7 +21842,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f65-s1
 # text = Viele Lobredner beweisen die Größe ihres Abgottes antithetisch, durch die Darlegung ihrer eignen Kleinheit.
-1	Viele	vieler	DET	PIAT	_	2	det	_	_
+1	Viele	viel	DET	PIAT	PronType=Ind	2	det	_	_
 2	Lobredner	Lobredner	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	beweisen	beweisen	VERB	VVFIN	_	0	root	_	_
 4	die	der	DET	ART	_	5	det	_	_
@@ -22623,7 +22623,7 @@
 # sent_id = athenaeum-f81-s1
 # text = Die meisten Menschen wissen von keiner andern Würde, als von repräsentativer;
 1	Die	der	DET	ART	_	3	det	_	_
-2	meisten	meister	DET	PIAT	_	3	amod	_	_
+2	meisten	meister	DET	PIAT	_	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	wissen	wissen	VERB	VVFIN	_	0	root	_	_
 5	von	von	ADP	APPR	_	8	case	_	_
@@ -22647,7 +22647,7 @@
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
 5	so	so	ADV	ADV	_	6	advmod	_	_
 6	äußerst	äußerst	ADV	ADV	_	3	advmod	_	_
-7	wenige	weniger	DET	PIAT	_	8	amod	_	_
+7	wenige	weniger	DET	PIAT	_	8	det	_	_
 8	Sinn	Sinn	NOUN	NN	Case=Acc	3	obj	_	_
 9	für	für	ADP	APPR	_	11	case	_	_
 10	repräsentativen	repräsentativ	ADJ	ADJA	_	11	amod	_	_
@@ -22872,7 +22872,7 @@
 35	es	es	PRON	PPER	_	34	expl	_	_
 36	doch	doch	ADV	ADV	_	34	advmod	_	_
 37	unendlich	unendlich	ADJ	ADJD	_	34	advmod	_	_
-38	viele	vieler	DET	PIAT	_	40	det	_	_
+38	viele	viel	DET	PIAT	PronType=Ind	40	det	_	_
 39	reale	real	ADJ	ADJA	_	40	amod	_	_
 40	Definitionen	Definition	NOUN	NN	Case=Acc	34	obj	_	SpaceAfter=No
 41	.	--	PUNCT	$.	_	4	punct	_	_
@@ -22979,7 +22979,7 @@
 8	ist	sein	AUX	VAFIN	_	14	cop	_	_
 9	in	in	ADP	APPR	_	12	case	_	_
 10	den	der	DET	ART	_	12	det	_	_
-11	meisten	meister	DET	PIAT	_	12	amod	_	_
+11	meisten	meister	DET	PIAT	_	12	det	_	_
 12	Fällen	Fall	NOUN	NN	_	14	nmod	_	_
 13	herzlich	herzlich	ADV	ADV	_	14	advmod	_	_
 14	überflüssig	überflüssig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -24134,7 +24134,7 @@
 38	dürfte	dürfen	AUX	VMFIN	_	43	aux	_	_
 39	es	es	PRON	PPER	_	43	expl	_	_
 40	nur	nur	ADV	ADV	_	43	advmod	_	_
-41	wenige	weniger	DET	PIAT	_	42	amod	_	_
+41	wenige	weniger	DET	PIAT	_	42	det	_	_
 42	Kantianer	Kantianer	NOUN	NN	Case=Nom	43	nsubj	_	_
 43	geben	geben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 44	.	--	PUNCT	$.	_	43	punct	_	_
@@ -25442,7 +25442,7 @@
 9	bleibt	bleiben	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	daß	dass	SCONJ	KOUS	_	14	mark	_	_
-12	einige	einiger	DET	PIAT	_	13	amod	_	_
+12	einige	einiger	DET	PIAT	_	13	det	_	_
 13	Teile	Teil	NOUN	NN	Case=Nom	14	nsubj	_	_
 14	aktiv	aktiv	ADJ	ADJD	_	9	advcl	_	_
 15	andre	andre	X	FM	_	16	cc	_	_
@@ -25760,7 +25760,7 @@
 6	Denker	Denker	NOUN	NN	Case=Acc	1	obl	_	_
 7	nicht	nicht	PART	PTKNEG	_	1	advmod	_	_
 8	so	so	ADV	ADV	_	1	advmod	_	_
-9	viel	viel	DET	PIAT	_	1	advmod	_	_
+9	viel	viel	DET	PIAT	PronType=Ind	1	advmod	_	_
 10	Individualität	Individualität	NOUN	NN	Case=Acc	1	obj	_	_
 11	wie	wie	CCONJ	KOKOM	_	13	case	_	_
 12	die	der	DET	ART	_	13	det	_	_
@@ -26148,7 +26148,7 @@
 30	wäre	sein	AUX	VAFIN	_	28	cop	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	40	punct	_	_
 32	wenn	wenn	SCONJ	KOUS	_	40	mark	_	_
-33	mehre	mehren	DET	PIAT	_	37	amod	_	_
+33	mehre	mehren	DET	PIAT	_	37	det	_	_
 34	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	35	obj	_	_
 35	gegenseitig	gegenseitig	ADJ	ADJD	_	36	advmod	_	_
 36	ergänzende	ergänzend	ADJ	ADJA	_	37	amod	_	_
@@ -27918,7 +27918,7 @@
 # text = Ovid hat viel Ähnlichkeit mit dem Euripides.
 1	Ovid	Ovid	PROPN	NE	Case=Nom	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	viel	viel	DET	PIAT	_	4	det	_	_
+3	viel	viel	DET	PIAT	PronType=Ind	4	det	_	_
 4	Ähnlichkeit	Ähnlichkeit	NOUN	NN	Case=Acc	2	obj	_	_
 5	mit	mit	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	_	7	det	_	_
@@ -28842,7 +28842,7 @@
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	daß	dass	SCONJ	KOUS	_	14	orphan	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
-13	viele	vieler	ADJ	ADJA	_	14	amod	_	_
+13	viele	viel	DET	ADJA	PronType=Ind	14	det	_	_
 14	Romane	Roman	NOUN	NN	_	9	advcl	_	_
 15	von	von	ADP	APPR	_	16	case	_	_
 16	englischen	englisch	ADJ	ADJD	Case=Dat	14	nmod	_	SpaceAfter=No
@@ -29073,7 +29073,7 @@
 8	Einfällen	Einfall	NOUN	NN	Case=Dat	2	obl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	19	punct	_	_
 10	daß	dass	SCONJ	KOUS	_	19	mark	_	_
-11	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	15	amod	_	_
+11	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	15	det	_	_
 12	als	als	ADP	APPR	_	13	case	_	_
 13	Kommentar	Kommentar	NOUN	NN	_	14	nmod	_	_
 14	hinzugefügte	hinzugefügt	ADJ	ADJA	_	15	amod	_	_
@@ -29200,7 +29200,7 @@
 # sent_id = athenaeum-f176-s1
 # text = Von vielen Plafonds kann man recht eigentlich sagen, daß der Himmel voll Geigen hängt.
 1	Von	von	ADP	APPR	_	3	case	_	_
-2	vielen	vieler	DET	PIAT	_	3	det	_	_
+2	vielen	viel	DET	PIAT	PronType=Ind	3	det	_	_
 3	Plafonds	Plafonds	NOUN	NN	Case=Dat	8	obl	_	_
 4	kann	können	AUX	VMFIN	_	8	aux	_	_
 5	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
@@ -29337,7 +29337,7 @@
 # text = Er musiziert viele Gemälde wie der Abt Vogler.
 1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	musiziert	musizieren	VERB	VVFIN	_	0	root	_	_
-3	viele	vieler	DET	PIAT	_	4	det	_	_
+3	viele	viel	DET	PIAT	PronType=Ind	4	det	_	_
 4	Gemälde	Gemälde	NOUN	NN	Case=Acc	2	obj	_	_
 5	wie	wie	CCONJ	KOKOM	_	7	case	_	_
 6	der	der	DET	ART	_	7	det	_	_
@@ -30804,7 +30804,7 @@
 4	andre	andre	ADJ	ADJA	_	5	amod	_	_
 5	Literatur	Literatur	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
-7	viele	vieler	DET	PIAT	_	8	amod	_	_
+7	viele	viel	DET	PIAT	PronType=Ind	8	det	_	_
 8	Ausgeburten	Ausgeburte	NOUN	NN	Case=Acc	2	obj	_	_
 9	der	der	DET	ART	_	10	det	_	_
 10	Originalitätssucht	Originalitätssucht	NOUN	NN	_	8	nmod	_	_
@@ -32322,7 +32322,7 @@
 3	Philosophie	Philosophie	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	besteht	bestehen	VERB	VVFIN	_	0	root	_	_
 5	aus	aus	ADP	APPR	_	11	case	_	_
-6	wenigen	weniger	DET	PIAT	_	11	amod	_	_
+6	wenigen	weniger	DET	PIAT	_	11	det	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	diesem	dieser	DET	PDAT	PronType=Dem	9	det	_	_
 9	Sinne	Sinn	NOUN	NN	_	10	nmod	_	_
@@ -32431,7 +32431,7 @@
 9	lange	lange	ADV	ADV	_	16	advmod	_	_
 10	wir	wir	PRON	PPER	Case=Nom	16	nsubj	_	_
 11	die	der	DET	ART	_	13	det	_	_
-12	meisten	meister	DET	PIAT	_	13	amod	_	_
+12	meisten	meister	DET	PIAT	_	13	det	_	_
 13	Wissenschaften	Wissenschaft	NOUN	NN	Case=Acc	16	obj	_	_
 14	nur	nur	ADV	ADV	_	15	advmod	_	_
 15	noch	noch	ADV	ADV	_	16	advmod	_	_
@@ -32453,7 +32453,7 @@
 31	in	in	ADP	APPR	_	32	case	_	_
 32	einem	einer	PRON	PIS	_	38	obl	_	_
 33	der	der	DET	ART	_	35	det	_	_
-34	vielen	vieler	DET	PIAT	_	35	amod	_	_
+34	vielen	viel	DET	PIAT	PronType=Ind	35	det	_	_
 35	Dialekte	Dialekt	NOUN	NN	_	32	nmod	_	_
 36	der	der	DET	ART	_	37	det	_	_
 37	Philosophie	Philosophie	NOUN	NN	_	35	nmod	_	_
@@ -33266,7 +33266,7 @@
 21	skeptischen	skeptisch	ADJ	ADJA	_	22	amod	_	_
 22	Resignation	Resignation	NOUN	NN	_	33	obl	_	_
 23	auf	auf	ADP	APPR	_	27	case	_	_
-24	alles	alle	DET	PIAT	PronType=Tot	27	amod	_	_
+24	alles	alle	DET	PIAT	PronType=Tot	27	det	_	_
 25	nicht	nicht	PART	PTKNEG	_	26	advmod	_	_
 26	empirische	empirisch	ADJ	ADJA	_	27	amod	_	_
 27	Wissen	wissen	NOUN	NN	Case=Acc	33	obj	_	SpaceAfter=No
@@ -33488,7 +33488,7 @@
 15	Bildung	Bildung	NOUN	NN	_	7	conj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
 17	je	je	CCONJ	KON	_	19	cc	_	_
-18	weniger	weniger	DET	PIAT	_	19	amod	_	_
+18	weniger	weniger	DET	PIAT	_	19	det	_	_
 19	Religion	Religion	NOUN	NN	_	15	conj	_	SpaceAfter=No
 20	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -34204,11 +34204,11 @@
 # sent_id = athenaeum-f245-s2
 # text = Ein wenig Unglück und ein wenig Glück, etwas Kunst, und etwas Natur, die gehörige Quantität Tugend und eine gewisse Dosis Laster.
 1	Ein	ein	DET	ART	PronType=Art	3	det	_	_
-2	wenig	wenig	DET	PIAT	_	3	amod	_	_
+2	wenig	wenig	DET	PIAT	_	3	det	_	_
 3	Unglück	Unglück	NOUN	NN	_	0	root	_	_
 4	und	und	CCONJ	KON	_	7	cc	_	_
 5	ein	ein	DET	ART	PronType=Art	7	det	_	_
-6	wenig	wenig	DET	PIAT	_	7	amod	_	_
+6	wenig	wenig	DET	PIAT	_	7	det	_	_
 7	Glück	Glück	NOUN	NN	_	3	conj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	10	punct	_	_
 9	etwas	etwas	DET	PIAT	_	10	det	_	_
@@ -34643,7 +34643,7 @@
 # sent_id = athenaeum-f251-s1
 # text = Wie viele gibt es nicht jetzt, die zu weich und gutmütig sind, um Tragödien sehen zu können, und zu edel und würdig, um Komödien hören zu wollen.
 1	Wie	wie	ADV	ADV	_	3	advmod	_	_
-2	viele	vieler	PRON	PIS	Case=Nom	3	nsubj	_	_
+2	viele	viel	DET	PIS	Case=Nom|PronType=Ind	3	nsubj	_	_
 3	gibt	geben	VERB	VVFIN	_	0	root	_	_
 4	es	es	PRON	PPER	_	3	expl	_	_
 5	nicht	nicht	PART	PTKNEG	_	3	advmod	_	_
@@ -34997,7 +34997,7 @@
 15	freilich	freilich	ADV	ADV	_	20	advmod	_	_
 16	müßte	müssen	AUX	VMFIN	_	20	aux	_	_
 17	eine	ein	DET	ART	PronType=Art	19	det	_	_
-18	solche	solcher	DET	PIAT	_	19	amod	_	_
+18	solche	solcher	DET	PIAT	_	19	det	_	_
 19	Poetik	Poetik	NOUN	NN	Case=Nom	20	nsubj	_	_
 20	vorkommen	vorkommen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	20	punct	_	_
@@ -35816,7 +35816,7 @@
 4	zur	zu	ADP	APPRART	_	5	case	_	_
 5	Wahrheit	Wahrheit	NOUN	NN	_	2	obl	_	SpaceAfter=No
 6	;	--	PUNCT	$.	_	2	punct	_	_
-7	viele	vieler	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	viele	viel	DET	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 8	haben	haben	VERB	VVFIN	_	2	conj	_	_
 9	Talent	Talent	NOUN	NN	Case=Acc	8	obj	_	_
 10	zum	zu	ADP	APPRART	_	11	case	_	_
@@ -36275,7 +36275,7 @@
 17	Es	es	PRON	PPER	Case=Nom	18	nsubj	_	_
 18	gibt	geben	VERB	VVFIN	_	7	parataxis	_	_
 19	wohl	wohl	ADV	ADV	_	18	advmod	_	_
-20	viele	viele	DET	PIAT	Case=Acc	18	obj	_	SpaceAfter=No
+20	viele	viel	DET	PIAT	Case=Acc|PronType=Ind	18	obj	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	26	punct	_	_
 22	die	der	PRON	PRELS	Case=Nom	26	nsubj	_	_
 23	das	der	DET	ART	_	25	det	_	_
@@ -36545,7 +36545,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f278-s1
 # text = Vieles was Dummheit scheint, ist Narrheit, die gemeiner ist, als man denkt.
-1	Vieles	viele	NOUN	NN	Case=Nom	7	nsubj	_	_
+1	Vieles	viel	DET	NN	Case=Nom|PronType=Ind	7	nsubj	_	_
 2	was	was	PRON	PRELS	Case=Nom	4	nsubj	_	_
 3	Dummheit	Dummheit	NOUN	NN	_	4	xcomp	_	_
 4	scheint	scheinen	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
@@ -37389,7 +37389,7 @@
 30	,	--	PUNCT	$,	_	35	punct	_	_
 31	wie	wie	CCONJ	KOKOM	_	35	cc	_	_
 32	bei	bei	ADP	APPR	_	35	case	_	_
-33	vielen	vieler	DET	PIAT	_	35	det	_	_
+33	vielen	viel	DET	PIAT	PronType=Ind	35	det	_	_
 34	philosophischen	philosophisch	ADJ	ADJA	_	35	amod	_	_
 35	Systemen	System	NOUN	NN	Case=Dat	29	conj	_	SpaceAfter=No
 36	.	--	PUNCT	$.	_	1	punct	_	_
@@ -37498,7 +37498,7 @@
 7	vielleicht	vielleicht	ADV	ADV	_	1	advmod	_	_
 8	deswegen	deswegen	VERB	VVINF	_	1	conj	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
-10	viel	viel	DET	PIAT	_	11	amod	_	_
+10	viel	viel	DET	PIAT	PronType=Ind	11	det	_	_
 11	Kraft	Kraft	NOUN	NN	Case=Acc	1	obj	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	Anstrengung	Anstrengung	NOUN	NN	_	11	conj	_	SpaceAfter=No
@@ -37589,7 +37589,7 @@
 # sent_id = athenaeum-f295-s2
 # text = Ein wenig Enthusiasmus, wenn er auch roh sein sollte, ein gewisser Schein von Universalität verfehlen ihre Wirkung nicht leicht, und verschaffen auch wohl dem Paradoxen ein Publikum.
 1	Ein	ein	DET	ART	PronType=Art	3	det	_	_
-2	wenig	wenig	DET	PIAT	_	3	amod	_	_
+2	wenig	wenig	DET	PIAT	_	3	det	_	_
 3	Enthusiasmus	Enthusiasmus	NOUN	NN	Case=Nom	17	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	8	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
@@ -38931,7 +38931,7 @@
 3	braucht	brauchen	VERB	VVFIN	_	0	root	_	_
 4	grade	grade	ADV	ADV	_	3	advmod	_	_
 5	ein	ein	DET	ART	PronType=Art	7	det	_	_
-6	solches	solcher	DET	PIAT	_	7	amod	_	_
+6	solches	solcher	DET	PIAT	_	7	det	_	_
 7	Licht	Licht	NOUN	NN	Case=Acc	3	obj	_	_
 8	wie	wie	CCONJ	KOKOM	_	10	case	_	_
 9	der	der	DET	ART	_	10	det	_	_
@@ -40706,7 +40706,7 @@
 6	alle	aller	ADJ	ADJA	_	7	amod	_	_
 7	andern	anderer	PRON	PIS	_	3	nmod	_	_
 8	und	und	CCONJ	KON	_	13	cc	_	_
-9	viele	vieler	DET	PIAT	_	10	det	_	_
+9	viele	viel	DET	PIAT	PronType=Ind	10	det	_	_
 10	Wege	Weg	NOUN	NN	Case=Nom	13	nsubj	_	_
 11	mögen	mögen	AUX	VMFIN	_	13	aux	_	_
 12	dahin	dahin	ADV	PROAV	_	13	advmod	_	_
@@ -41157,7 +41157,7 @@
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	unendlich	unendlich	ADV	ADV	_	4	advmod	_	_
-4	viel	viel	ADJ	ADJA	_	5	amod	_	_
+4	viel	viel	DET	ADJA	PronType=Ind	5	det	_	_
 5	Arten	Art	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	derselben	derselbe	PRON	PDAT	_	5	nmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	18	punct	_	_
@@ -41547,7 +41547,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f330-s1
 # text = Viele haben Geist oder Gemüt oder Fantasie.
-1	Viele	vieler	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Viele	viel	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	haben	haben	VERB	VVFIN	_	0	root	_	_
 3	Geist	Geist	NOUN	NN	Case=Acc	2	obj	_	_
 4	oder	oder	CCONJ	KON	_	5	cc	_	_
@@ -42380,7 +42380,7 @@
 3	Leben	Leben	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	verschwindet	verschwinden	VERB	VVFIN	_	0	root	_	_
 5	unter	unter	X	APP	_	7	case	_	_
-6	dieser	dieser	DET	ADJA	PronType=Dem	7	amod	_	_
+6	dieser	dieser	DET	ADJA	PronType=Dem	7	det	_	_
 7	Behandlung	Behandlung	NOUN	NN	_	4	obl	_	SpaceAfter=No
 8	;	--	PUNCT	$.	_	4	punct	_	_
 9	sie	sie	PRON	PPER	Case=Nom	13	nsubj	_	_
@@ -42806,7 +42806,7 @@
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	so	so	ADV	ADV	_	16	advmod	_	_
 12	sind	sein	AUX	VAFIN	_	16	aux	_	_
-13	viele	viele	DET	PIAT	Case=Nom	16	nsubj	_	_
+13	viele	viel	DET	PIAT	Case=Nom|PronType=Ind	16	nsubj	_	_
 14	nur	nur	ADV	ADV	_	16	advmod	_	_
 15	deswegen	deswegen	ADV	PROAV	_	16	advmod	_	_
 16	verschlossen	verschließen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -43544,10 +43544,10 @@
 7	Seele	Seele	NOUN	NN	Case=Acc	5	obl	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	11	punct	_	_
 9	und	und	CCONJ	KON	_	11	cc	_	_
-10	viel	viel	DET	PIAT	_	11	det	_	_
+10	viel	viel	DET	PIAT	PronType=Ind	11	det	_	_
 11	Seele	Seele	NOUN	NN	_	5	conj	_	_
 12	bei	bei	ADP	APPR	_	14	case	_	_
-13	weniger	weniger	DET	PIAT	_	14	amod	_	_
+13	weniger	weniger	DET	PIAT	_	14	det	_	_
 14	Gemüt	Gemüt	NOUN	NN	Case=Dat	11	orphan	_	SpaceAfter=No
 15	.	--	PUNCT	$.	_	5	punct	_	_
 
@@ -43733,7 +43733,7 @@
 20	ekelhaften	ekelhaft	ADJ	ADJA	_	21	amod	_	_
 21	Hellsehen	Hellsehen	NOUN	NN	Case=Dat	17	obl	_	_
 22	und	und	CCONJ	KON	_	24	cc	_	_
-23	viel	viel	ADJ	ADJA	_	24	amod	_	_
+23	viel	viel	DET	ADJA	PronType=Ind	24	det	_	_
 24	Ermattung	Ermattung	NOUN	NN	_	21	conj	_	SpaceAfter=No
 25	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -44521,7 +44521,7 @@
 34	konnten	können	AUX	VMFIN	_	33	aux	_	SpaceAfter=No
 35	,	,	PUNCT	$,	_	39	punct	_	_
 36	noch	noch	ADV	ADV	_	39	advmod	_	_
-37	viele	vieler	ADJ	ADJA	_	39	amod	_	_
+37	viele	viel	DET	ADJA	PronType=Ind	39	det	_	_
 38	andre	andre	PRON	PIS	Case=Nom	39	nsubj:pass	_	_
 39	erzeugt	erzeugen	VERB	VVPP	_	18	conj	_	_
 40	worden	werden	AUX	VAPP	_	39	aux:pass	_	_
@@ -45254,14 +45254,14 @@
 53	er	er	PRON	PPER	Case=Nom	58	nsubj	_	_
 54	noch	noch	ADV	ADV	_	58	advmod	_	_
 55	so	so	ADV	ADV	_	56	advmod	_	_
-56	viel	viel	ADJ	ADJA	_	57	amod	_	_
+56	viel	viel	DET	ADJA	PronType=Ind	57	det	_	_
 57	Instinkt	Instinkt	NOUN	NN	Case=Acc	58	obj	_	_
 58	hat	haben	VERB	VVFIN	_	45	advcl	_	_
 59	als	als	ADP	APPR	_	60	case	_	_
 60	Leibniz	Leibniz	PROPN	NE	_	58	obl	_	_
 61	Aber	Aber	CCONJ	KON	_	74	cc	_	_
 62	eine	ein	DET	ART	PronType=Art	64	det	_	_
-63	solche	solcher	DET	PIAT	_	64	amod	_	_
+63	solche	solcher	DET	PIAT	_	64	det	_	_
 64	Philosophie	Philosophie	NOUN	NN	Case=Nom	74	nsubj	_	_
 65	wird	werden	AUX	VAFIN	_	74	aux	_	_
 66	doch	doch	ADV	ADV	_	74	advmod	_	_
@@ -45865,7 +45865,7 @@
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	die	der	PRON	PRELS	Case=Nom	26	nsubj	_	_
 22	eine	ein	DET	ART	PronType=Art	24	det	_	_
-23	jede	jeder	DET	ADJA	Number=Sing|PronType=Tot	24	amod	_	_
+23	jede	jeder	DET	ADJA	Number=Sing|PronType=Tot	24	det	_	_
 24	Handlung	Handlung	NOUN	NN	Case=Acc	26	obj	_	_
 25	nebenher	nebenher	ADV	ADV	_	26	advmod	_	_
 26	haben	haben	AUX	VAFIN	_	19	conj	_	_
@@ -46999,7 +46999,7 @@
 5	offenbar	offenbar	ADV	ADV	_	9	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 7	selten	selten	ADV	ADV	_	9	advmod	_	_
-8	der	der	DET	ART	_	9	amod	_	_
+8	der	der	DET	ART	_	9	det	_	_
 9	Geist	Geist	NOUN	NN	Case=Nom	2	acl	_	_
 10	der	der	DET	ART	_	11	det	_	_
 11	Monarchien	Monarchien	NOUN	NN	_	9	nmod	_	_
@@ -47688,7 +47688,7 @@
 1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
 3	unermeßlich	unermeßlich	ADV	ADV	_	2	advmod	_	_
-4	viel	viel	DET	PIAT	_	5	det	_	_
+4	viel	viel	DET	PIAT	PronType=Ind	5	det	_	_
 5	Projekte	Projekt	NOUN	NN	Case=Acc	2	obj	_	_
 6	oder	oder	CCONJ	KON	_	8	cc	_	_
 7	gar	gar	ADV	ADV	_	8	advmod	_	_
@@ -48037,7 +48037,7 @@
 18	Prätensionen	Prätension	NOUN	NN	Case=Acc	13	obl	_	_
 19	auf	auf	ADP	APPR	_	20	case	_	_
 20	Ruchlosigkeit	Ruchlosigkeit	NOUN	NN	_	13	obl	_	_
-21	solcher	solcher	DET	PIAT	_	22	amod	_	_
+21	solcher	solcher	DET	PIAT	_	22	det	_	_
 22	Karikaturen	Karikatur	NOUN	NN	_	20	nmod	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	32	punct	_	_
 24	die	der	PRON	PRELS	Case=Nom	32	nsubj	_	_
@@ -48252,7 +48252,7 @@
 5	sie	sie	PRON	PPER	Case=Acc	10	obj	_	_
 6	nur	nur	ADV	ADV	_	10	advmod	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
-8	solcher	solcher	DET	PIAT	_	9	amod	_	_
+8	solcher	solcher	DET	PIAT	_	9	det	_	_
 9	Entfernung	Entfernung	NOUN	NN	_	10	nmod	_	_
 10	ertragen	ertragen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	19	punct	_	_
@@ -48442,7 +48442,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f381-s1
 # text = Viele der ersten Stifter der modernen Physik müssen gar nicht als Philosophen, sondern als Künstler betrachtet werden.
-1	Viele	vieler	PRON	PIS	Case=Nom	17	nsubj:pass	_	_
+1	Viele	viel	DET	PIS	Case=Nom|PronType=Ind	17	nsubj:pass	_	_
 2	der	der	DET	ART	_	4	det	_	_
 3	ersten	erster	ADJ	ADJA	_	4	amod	_	_
 4	Stifter	Stifter	NOUN	NN	_	1	nmod	_	_
@@ -48625,7 +48625,7 @@
 15	nur	nur	ADV	ADV	_	24	advmod	_	_
 16	durch	durch	ADP	APPR	_	21	case	_	_
 17	eine	ein	DET	ART	PronType=Art	21	det	_	_
-18	solche	solcher	DET	PIAT	_	21	amod	_	_
+18	solche	solcher	DET	PIAT	_	21	det	_	_
 19	einzig	einzig	ADV	ADV	_	20	advmod	_	_
 20	schöne	schön	ADJ	ADJA	_	21	amod	_	_
 21	Seltsamkeit	Seltsamkeit	NOUN	NN	Case=Acc	24	obl	_	_
@@ -48996,7 +48996,7 @@
 11	und	und	CCONJ	KON	_	16	cc	_	_
 12	es	es	PRON	PPER	_	16	expl	_	_
 13	auf	auf	ADP	APPR	_	15	case	_	_
-14	viele	vieler	DET	PIAT	_	15	det	_	_
+14	viele	viel	DET	PIAT	PronType=Ind	15	det	_	_
 15	Weisen	Weise	NOUN	NN	_	16	obl	_	_
 16	können	können	AUX	VMINF	_	8	conj	_	SpaceAfter=No
 17	.	--	PUNCT	$.	_	8	punct	_	_
@@ -49603,7 +49603,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f392-s1
 # text = Viele musikalische Kompositionen sind nur Übersetzungen des Gedichts in die Sprache der Musik.
-1	Viele	vieler	DET	PIAT	_	3	det	_	_
+1	Viele	viel	DET	PIAT	PronType=Ind	3	det	_	_
 2	musikalische	musikalisch	ADJ	ADJA	_	3	amod	_	_
 3	Kompositionen	Komposition	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	sind	sein	AUX	VAFIN	_	6	cop	_	_
@@ -50078,7 +50078,7 @@
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Foderung	Foderung	NOUN	NN	_	6	conj	_	_
 9	unendlich	unendlich	ADV	ADV	_	12	advmod	_	_
-10	vieler	vieler	ADJ	ADJA	_	11	amod	_	_
+10	vieler	viel	DET	ADJA	PronType=Ind	11	det	_	_
 11	Widersprüche	Widerspruch	NOUN	NN	Case=Acc	12	obj	_	_
 12	anfangen	anfangen	VERB	VVINF	_	0	root	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
@@ -50716,7 +50716,7 @@
 8	so	so	ADV	ADV	_	9	advmod	_	_
 9	gibts	gibts	ADV	ADV	_	0	root	_	_
 10	so	so	ADV	ADV	_	11	advmod	_	_
-11	viele	vieler	ADJ	ADJA	_	12	amod	_	_
+11	viele	viel	DET	ADJA	PronType=Ind	12	det	_	_
 12	Götter	Gott	NOUN	NN	Case=Nom	9	nsubj	_	_
 13	als	als	CCONJ	KOKOM	_	14	case	_	_
 14	Ideale	Ideal	NOUN	NN	_	9	obl	_	SpaceAfter=No
@@ -50944,7 +50944,7 @@
 10	Gottheit	Gottheit	NOUN	NN	_	8	nmod	_	_
 11	mit	mit	ADP	APPR	_	14	case	_	_
 12	unendlich	unendlich	ADV	ADV	_	13	advmod	_	_
-13	vielen	vieler	DET	PIAT	_	14	amod	_	_
+13	vielen	viel	DET	PIAT	PronType=Ind	14	det	_	_
 14	Variationen	Variation	NOUN	NN	Case=Dat	8	nmod	_	SpaceAfter=No
 15	.	--	PUNCT	$.	_	8	punct	_	_
 
@@ -52147,7 +52147,7 @@
 36	von	von	ADP	APPR	_	41	case	_	_
 37	den	der	DET	ART	_	41	det	_	_
 38	unendlich	unendlich	ADJ	ADJD	_	39	advmod	_	_
-39	vielen	vieler	DET	PIAT	_	41	det	_	_
+39	vielen	viel	DET	PIAT	PronType=Ind	41	det	_	_
 40	gemeingeltenden	gemeingeltend	ADJ	ADJA	_	41	amod	_	_
 41	Plattheiten	Plattheit	NOUN	NN	Case=Dat	35	nmod	_	SpaceAfter=No
 42	,	--	PUNCT	$,	_	51	punct	_	_
@@ -52340,7 +52340,7 @@
 47	schon	schon	ADV	ADV	_	76	advmod	_	_
 48	um	um	ADP	APPR	_	52	case	_	_
 49	eines	ein	DET	ART	PronType=Art	52	det	_	_
-50	solchen	solcher	DET	PIAT	_	52	amod	_	_
+50	solchen	solcher	DET	PIAT	_	52	det	_	_
 51	humoristischen	humoristisch	ADJ	ADJA	_	52	amod	_	_
 52	Dithyrambus	Dithyrambus	NOUN	NN	Case=Gen	76	obl	_	_
 53	willen	willen	ADP	APZR	_	52	case	_	SpaceAfter=No
@@ -52489,7 +52489,7 @@
 37	deren	der	PRON	PRELS	_	41	obl	_	_
 38	er	er	PRON	PPER	Case=Nom	41	nsubj	_	_
 39	so	so	ADV	ADV	_	40	advmod	_	_
-40	viele	vieler	PRON	PIS	Case=Acc	41	obj	_	_
+40	viele	viel	DET	PIS	Case=Acc|PronType=Ind	41	obj	_	_
 41	hat	haben	VERB	VVFIN	_	35	acl	_	SpaceAfter=No
 42	.	--	PUNCT	$.	_	8	punct	_	_
 
