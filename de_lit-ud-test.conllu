@@ -51569,7 +51569,7 @@
 9	Fantasie	Fantasie	NOUN	NN	Case=Nom	18	nsubj:pass	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
 11	diesem	dieser	DET	PDAT	PronType=Dem	12	det	_	_
-12	Roman	Roman	DET	PDAT	_	18	obl	_	_
+12	Roman	Roman	NOUN	NN	Case=Dat	18	obl	_	_
 13	auch	auch	ADV	ADV	_	18	advmod	_	_
 14	von	von	ADP	APPR	_	15	case	_	_
 15	Eingeweihten	Eingeweiht	NOUN	NN	Case=Dat	18	obl	_	_
