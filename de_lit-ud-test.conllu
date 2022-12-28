@@ -46457,7 +46457,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f364-s8
 # text = 5) Ehre die Eigentümlichkeit und die Willkür deiner Kinder, auf daß es ihnen wohlgehe, und sie kräftig leben auf Erden.
-1	5)	5)	DET	PIAT	_	2	det	_	_
+1	5)	5)	X	XY	_	2	dep	_	_
 2	Ehre	Ehre	VERB	VVIMP	_	0	root	_	_
 3	die	der	DET	ART	_	4	det	_	_
 4	Eigentümlichkeit	Eigentümlichkeit	NOUN	NN	Case=Acc	2	obj	_	_
