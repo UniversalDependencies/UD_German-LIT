@@ -20,26 +20,27 @@
     <tag name="ADV">3584</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2491</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5690</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, viel -->
-    <tag name="NOUN">7384</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
+    <tag name="DET">5707</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, viel -->
+    <tag name="NOUN">7385</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">31</tag><!-- zwei, drei, eins, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
-    <tag name="PRON">2888</tag><!-- der, es, sich, sie, man, er, was, nichts, wir, etwas -->
+    <tag name="PRON">2869</tag><!-- der, es, sich, sie, man, er, was, nichts, wir, etwas -->
     <tag name="PROPN">339</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
     <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
     <tag name="VERB">3107</tag><!-- geben, machen, lassen, werden, scheinen, sagen, haben, finden, nennen, sein -->
-    <tag name="X">65</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
+    <tag name="X">66</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="19">
+  <feats unique="20">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1237</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1238</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">327</feat><!-- Geistes, Dichters, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums, Lebens, Witzes -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3885</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">189</feat><!-- seine, seiner, sein, seinem, seinen, seines -->
     <feat name="Number" value="Sing" upos="DET">88</feat><!-- jeder, jedem, jedes, jede, jeden -->
     <feat name="Number[psor]" value="Sing" upos="DET">199</feat><!-- seine, seiner, sein, seinem, seinen, seines, mein, meine, deine, deiner -->
+    <feat name="NumType" value="Card" upos="DET">20</feat><!-- beiden, beide, beides -->
     <feat name="Person" value="1" upos="DET">24</feat><!-- unsere, unser, unsers, mein, meine, unsrer, meinem, meinen, meiner, meines -->
     <feat name="Person" value="2" upos="DET">2</feat><!-- deine, deiner -->
     <feat name="Person" value="3" upos="DET">382</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
@@ -50,7 +51,7 @@
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">742</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
-    <feat name="PronType" value="Tot" upos="DET">311</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, jeden, allem -->
+    <feat name="PronType" value="Tot" upos="DET">331</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, beiden, jeden -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -70,8 +71,8 @@
     <dep name="conj">1938</dep>
     <dep name="cop">1056</dep>
     <dep name="csubj">136</dep>
-    <dep name="dep">33</dep>
-    <dep name="det">4874</dep>
+    <dep name="dep">34</dep>
+    <dep name="det">4873</dep>
     <dep name="det:poss">403</dep>
     <dep name="expl">161</dep>
     <dep name="fixed">65</dep>
