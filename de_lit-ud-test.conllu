@@ -253,7 +253,7 @@
 # text = Das Schlechteste daran scheint mir der gänzliche Mangel der unentbehrlichen Ironie; und das Beste, die zuversichtliche Voraussetzung, daß die Poesie unendlich viel wert sei; als ob dies eine ausgemachte Sache wäre.
 1	Das	der	DET	ART	_	2	det	_	_
 2	Schlechteste	Schlechteste	NOUN	NN	_	4	xcomp	_	_
-3	daran	daran	ADV	ADV	_	4	advmod	_	_
+3	daran	daran	ADV	ADV	PronType=Dem	4	advmod	_	_
 4	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
 5	mir	sich	PRON	PPER	Case=Dat	4	obl:arg	_	_
 6	der	der	DET	ART	_	8	det	_	_
@@ -822,7 +822,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f23-s2
 # text = Dadurch wird es idealisch.
-1	Dadurch	dadurch	ADV	PROAV	_	2	advmod	_	_
+1	Dadurch	dadurch	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	wird	werden	VERB	VVFIN	_	0	root	_	_
 3	es	es	PRON	PPER	Case=Nom	2	nsubj	_	_
 4	idealisch	idealisch	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
@@ -1618,7 +1618,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f37-s5
 # text = Dadurch verkennt er den Wert und die Würde der Selbstbeschränkung, die doch für den Künstler wie für den Menschen das Erste und das Letzte, das Notwendigste und das Höchste ist.
-1	Dadurch	dadurch	ADV	PROAV	_	2	advmod	_	_
+1	Dadurch	dadurch	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	verkennt	verkennen	VERB	VVFIN	_	0	root	_	_
 3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
 4	den	der	DET	ART	_	5	det	_	_
@@ -3618,7 +3618,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f67-s4
 # text = daher ihr Talent zur Tollheit.
-1	daher	daher	ADV	PROAV	_	3	advmod	_	_
+1	daher	daher	ADV	PROAV	PronType=Dem	3	advmod	_	_
 2	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Talent	Talent	NOUN	NN	_	0	root	_	_
 4	zur	zu	ADP	APPRART	_	5	case	_	_
@@ -4246,7 +4246,7 @@
 15	«	«	PUNCT	XY	_	14	punct	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	17	punct	_	_
 17	bekommen	bekommen	VERB	VVFIN	_	0	root	_	_
-18	dadurch	dadurch	ADV	PROAV	_	17	advmod	_	_
+18	dadurch	dadurch	ADV	PROAV	PronType=Dem	17	advmod	_	_
 19	einen	ein	DET	ART	PronType=Art	20	det	_	_
 20	Anstrich	Anstrich	NOUN	NN	Case=Acc	17	obj	_	_
 21	vom	von	ADP	APPRART	_	22	case	_	_
@@ -5933,7 +5933,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f106-s2
 # text = Daher z.B. die Knechtschaft der Weiber und mancher andre Krebsschaden der Menschheit.
-1	Daher	daher	ADV	PROAV	_	4	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	4	advmod	_	_
 2	z.B.	z.b.	X	XY	_	4	dep	_	_
 3	die	der	DET	ART	_	4	det	_	_
 4	Knechtschaft	Knechtschaft	NOUN	NN	_	0	root	_	_
@@ -7293,7 +7293,7 @@
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	der	der	PRON	PDS	Case=Nom	13	nsubj	_	_
 9	hätte	haben	AUX	VAFIN	_	13	aux	_	_
-10	damit	damit	ADV	PROAV	_	13	advmod	_	_
+10	damit	damit	ADV	PROAV	PronType=Dem	13	advmod	_	_
 11	wohl	wohl	ADV	ADV	_	13	advmod	_	_
 12	eigentlich	eigentlich	ADV	ADV	_	13	advmod	_	_
 13	gesagt	sagen	VERB	VVPP	_	0	root	_	SpaceAfter=No
@@ -7700,7 +7700,7 @@
 14	Shakespeare	Shakespeare	PROPN	NE	Case=Nom	16	nsubj	_	_
 15	ist	sein	AUX	VAFIN	_	16	cop	_	_
 16	Meister	Meister	NOUN	NN	Case=Nom	11	parataxis	_	_
-17	darin	darin	ADV	PROAV	_	16	advmod	_	SpaceAfter=No
+17	darin	darin	ADV	PROAV	PronType=Dem	16	advmod	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	11	punct	_	_
 
 # newpar id = lyceum-f125
@@ -7852,7 +7852,7 @@
 4	,	--	PUNCT	$,	_	9	punct	_	_
 5	der	der	PRON	PRELS	Case=Nom	9	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	_
-7	davon	davon	ADV	PROAV	_	9	advmod	_	_
+7	davon	davon	ADV	PROAV	PronType=Dem	9	advmod	_	_
 8	anstecken	anstecken	VERB	VVINF	_	9	xcomp	_	_
 9	ließe	lassen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
@@ -9084,7 +9084,7 @@
 12	nicht	nicht	PART	PTKNEG	_	18	advmod	_	_
 13	den	der	DET	ART	_	14	det	_	_
 14	Keim	Keim	NOUN	NN	Case=Acc	18	obj	_	_
-15	davon	davon	ADV	PROAV	_	18	advmod	_	_
+15	davon	davon	ADV	PROAV	PronType=Dem	18	advmod	_	_
 16	in	in	ADP	APPR	_	17	case	_	_
 17	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	18	obl	_	_
 18	hat	haben	AUX	VAFIN	_	8	advcl	_	SpaceAfter=No
@@ -9463,7 +9463,7 @@
 21	Überzeugung	Überzeugung	NOUN	NN	Case=Nom	14	nsubj	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	25	punct	_	_
 23	die	der	PRON	PRELS	Case=Nom	25	nsubj	_	_
-24	daraus	daraus	ADV	PROAV	_	25	advmod	_	_
+24	daraus	daraus	ADV	PROAV	PronType=Dem	25	advmod	_	_
 25	entsteht	entstehen	VERB	VVFIN	_	21	acl	_	SpaceAfter=No
 26	;	--	PUNCT	$.	_	25	punct	_	_
 27	der	der	DET	ART	_	28	det	_	_
@@ -9796,12 +9796,12 @@
 6	,	--	PUNCT	$,	_	7	punct	_	_
 7	vertrauten	vertraut	ADJ	ADJA	_	5	conj	_	_
 8	Momenten	Moment	NOUN	NN	_	10	obl	_	_
-9	davon	davon	ADV	PROAV	_	10	advmod	_	_
+9	davon	davon	ADV	PROAV	PronType=Dem	10	advmod	_	_
 10	reden	reden	VERB	VVINF	_	0	root	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	15	punct	_	_
 12	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	_
 13	stillschweigend	stillschweigend	ADJ	ADJD	_	15	advmod	_	_
-14	darüber	darüber	ADV	PROAV	_	15	advmod	_	_
+14	darüber	darüber	ADV	PROAV	PronType=Dem	15	advmod	_	_
 15	einverstehen	einverstehen	VERB	VVINF	_	10	parataxis	_	SpaceAfter=No
 16	.	--	PUNCT	$.	_	10	punct	_	_
 
@@ -9962,7 +9962,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f25-s3
 # text = Dadurch entsteht der große Styl der Darstellung, den man mit Recht an Goethe so sehr bewundert.
-1	Dadurch	dadurch	ADV	PROAV	_	2	advmod	_	_
+1	Dadurch	dadurch	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	entsteht	entstehen	VERB	VVFIN	_	0	root	_	_
 3	der	der	DET	ART	_	5	det	_	_
 4	große	groß	ADJ	ADJA	_	5	amod	_	_
@@ -9998,7 +9998,7 @@
 9	und	und	CCONJ	KON	_	13	cc	_	_
 10	kann	können	AUX	VMFIN	_	13	aux	_	_
 11	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
-12	davon	davon	ADV	PROAV	_	13	advmod	_	_
+12	davon	davon	ADV	PROAV	PronType=Dem	13	advmod	_	_
 13	lassen	lassen	VERB	VVINF	_	1	conj	_	SpaceAfter=No
 14	:	--	PUNCT	$.	_	16	punct	_	_
 15	so	so	ADV	ADV	_	16	advmod	_	_
@@ -10341,7 +10341,7 @@
 3	ist	sein	AUX	VAFIN	_	5	cop	_	_
 4	das	der	DET	ART	_	5	det	_	_
 5	Pikante	pikant	NOUN	NN	Case=Nom	0	root	_	_
-6	daran	daran	ADV	PROAV	_	5	advmod	_	SpaceAfter=No
+6	daran	daran	ADV	PROAV	PronType=Dem	5	advmod	_	SpaceAfter=No
 7	:	--	PUNCT	$.	_	10	punct	_	_
 8	Humor	Humor	NOUN	NN	Case=Nom	10	nsubj	_	_
 9	ist	sein	AUX	VAFIN	_	10	cop	_	_
@@ -10560,7 +10560,7 @@
 41	haben	haben	AUX	VAFIN	_	32	conj	_	SpaceAfter=No
 42	,	--	PUNCT	$,	_	45	punct	_	_
 43	viel	viel	DET	PIS	Case=Nom|PronType=Ind	45	nsubj	_	_
-44	darin	darin	ADV	PROAV	_	45	advmod	_	_
+44	darin	darin	ADV	PROAV	PronType=Dem	45	advmod	_	_
 45	suchen	suchen	VERB	VVINF	_	41	parataxis	_	_
 46	und	und	CCONJ	KON	_	47	cc	_	_
 47	ahnden	ahnden	VERB	VVFIN	_	45	conj	_	SpaceAfter=No
@@ -10701,7 +10701,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f34-s3
 # text = Daher ist es Pflicht an die Verstorbenen zu denken.
-1	Daher	daher	ADV	PROAV	_	4	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	4	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	4	cop	_	_
 3	es	es	PRON	PPER	Case=Nom	4	nsubj	_	_
 4	Pflicht	Pflicht	NOUN	NN	Case=Nom	0	root	_	_
@@ -11868,7 +11868,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f50-s2
 # text = Daher ist der am meisten gebildete, irdische Mensch dem Kinde so ähnlich.
-1	Daher	daher	ADV	PROAV	_	14	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	14	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	14	cop	_	_
 3	der	der	DET	ART	_	14	det	_	_
 4-5	am	_	_	_	_	_	_	_	_
@@ -12338,7 +12338,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f54-s9
 # text = Daher ist der Verworrne so progressiv, so perfektibel, dahingegen der Ordentliche so früh als Philister aufhört.
-1	Daher	daher	ADV	PROAV	_	6	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	6	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	6	cop	_	_
 3	der	der	DET	ART	_	4	det	_	_
 4	Verworrne	Verworrne	NOUN	NN	Case=Nom	6	nsubj	_	_
@@ -12443,7 +12443,7 @@
 3	interessirt	interessirt	VERB	VVFIN	_	0	root	_	_
 4	nur	nur	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	3	punct	_	_
-6	daher	daher	ADV	PROAV	_	11	advmod	_	_
+6	daher	daher	ADV	PROAV	PronType=Dem	11	advmod	_	_
 7	ist	sein	AUX	VAFIN	_	11	cop	_	_
 8	alles	alle	DET	PIAT	PronType=Tot	9	det	_	_
 9	Klassische	klassische	NOUN	NN	Case=Nom	11	nsubj	_	_
@@ -13268,7 +13268,7 @@
 12	aber	aber	ADV	ADV	_	10	advmod	_	_
 13	helle	hell	ADJ	ADJA	_	14	amod	_	_
 14	Spuren	Spur	NOUN	NN	Case=Acc	10	obj	_	_
-15	davon	davon	ADV	PROAV	_	10	advmod	_	SpaceAfter=No
+15	davon	davon	ADV	PROAV	PronType=Dem	10	advmod	_	SpaceAfter=No
 16	.	--	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
@@ -13280,7 +13280,7 @@
 2	gehört	gehören	VERB	VVFIN	_	0	root	_	_
 3	ein	ein	DET	ART	PronType=Art	4	det	_	_
 4	Kopf	Kopf	NOUN	NN	Case=Nom	2	nsubj	_	_
-5	dazu	dazu	ADV	PROAV	_	2	advmod	_	SpaceAfter=No
+5	dazu	dazu	ADV	PROAV	PronType=Dem	2	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	19	punct	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
 8	dem	der	PRON	PRELS	_	19	obl	_	_
@@ -13545,7 +13545,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f69-s3
 # text = Daher der tödtliche Frost, die freye Denkkraft, der schmetternde unaufhörliche Witz dieser Art von Verzweiflung.
-1	Daher	daher	ADV	PROAV	_	4	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	4	advmod	_	_
 2	der	der	DET	ART	_	4	det	_	_
 3	tödtliche	tödtlich	ADJ	ADJA	_	4	amod	_	_
 4	Frost	Frost	NOUN	NN	_	0	root	_	SpaceAfter=No
@@ -14035,7 +14035,7 @@
 10	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 11	besondre	besondr	ADJ	ADJA	_	12	amod	_	_
 12	Schicklichkeit	Schicklichkeit	NOUN	NN	_	1	conj	_	_
-13	dazu	dazu	ADV	PROAV	_	12	advmod	_	SpaceAfter=No
+13	dazu	dazu	ADV	PROAV	PronType=Dem	12	advmod	_	SpaceAfter=No
 14	.	--	PUNCT	$.	_	1	punct	_	_
 
 # genre = fragments
@@ -14402,7 +14402,7 @@
 34	indem	indem	SCONJ	KOUS	_	38	mark	_	_
 35	ich	ich	PRON	PPER	Case=Nom	38	nsubj	_	_
 36	es	es	PRON	PPER	Case=Acc	38	obj	_	_
-37	dazu	dazu	ADV	PROAV	_	38	advmod	_	_
+37	dazu	dazu	ADV	PROAV	PronType=Dem	38	advmod	_	_
 38	erhebe:so	erheben	VERB	VERB	_	30	advcl	_	_
 39	wie	wie	SCONJ	KOUS	_	46	mark	_	_
 40	Monotheism	Monotheism	PROPN	NE	Case=Nom	46	nsubj	_	_
@@ -14623,7 +14623,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f75-s2
 # text = Darauf beruht die Macht der Hierarchie, der ächten Maçonnerie, und des unsichtbaren Bundes ächter Denker.
-1	Darauf	darauf	ADV	PROAV	_	2	advmod	_	_
+1	Darauf	darauf	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	beruht	beruhen	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	_	4	det	_	_
 4	Macht	Macht	NOUN	NN	Case=Nom	2	nsubj	_	_
@@ -15046,7 +15046,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f77-s10
 # text = daher auch Montags alles noch einen raschern Gang hat.
-1	daher	daher	ADV	PROAV	_	9	advmod	_	_
+1	daher	daher	ADV	PROAV	PronType=Dem	9	advmod	_	_
 2	auch	auch	ADV	ADV	_	9	advmod	_	_
 3	Montags	Montag	NOUN	NN	_	9	nmod	_	_
 4	alles	alle	DET	PIS	Case=Nom|PronType=Tot	9	nsubj	_	_
@@ -15633,7 +15633,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f79-s4
 # text = Daher ist man sich nie eines Gesetzes, als solchen, bewußt.
-1	Daher	daher	ADV	PROAV	_	12	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	12	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	12	cop	_	_
 3	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	_
@@ -15736,7 +15736,7 @@
 8	eine	ein	DET	ART	PronType=Art	10	det	_	_
 9	zerstörende	zerstörend	ADJ	ADJA	_	10	amod	_	_
 10	Anwendung	Anwendung	NOUN	NN	Case=Acc	12	obj	_	_
-11	davon	davon	ADV	PROAV	_	12	advmod	_	_
+11	davon	davon	ADV	PROAV	PronType=Dem	12	advmod	_	_
 12	machen	machen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	12	punct	_	_
 
@@ -15802,7 +15802,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f80-s5
 # text = Daher ist sie ihrem Prinzip nach terminirt.
-1	Daher	daher	ADV	PROAV	_	7	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	7	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	7	cop	_	_
 3	sie	sie	PRON	PPER	Case=Nom	7	nsubj	_	_
 4	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -16405,7 +16405,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f90-s4
 # text = Daher verliert man durch zu vieles Studiren an Kapazität.
-1	Daher	daher	ADV	PROAV	_	2	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
 3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
 4	durch	durch	ADP	APPR	_	7	case	_	_
@@ -16932,7 +16932,7 @@
 15	denn	denn	CCONJ	KON	_	17	cc	_	_
 16	es	es	PRON	PPER	_	17	expl	_	_
 17	beginnt	beginnen	VERB	VVFIN	_	2	conj	_	_
-18	damit	damit	ADV	PAV	_	17	advmod	_	_
+18	damit	damit	ADV	PAV	PronType=Dem	17	advmod	_	_
 19	eine	ein	DET	ART	PronType=Art	22	det	_	_
 20	ganz	ganz	ADV	ADV	_	21	advmod	_	_
 21	neue	neu	ADJ	ADJA	_	22	amod	_	_
@@ -17302,7 +17302,7 @@
 8	dieser	dieser	DET	PDAT	PronType=Dem	9	det	_	_
 9	Welt	Welt	NOUN	NN	_	4	obl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	4	punct	_	_
-11	daher	daher	ADV	PROAV	_	19	advmod	_	_
+11	daher	daher	ADV	PROAV	PronType=Dem	19	advmod	_	_
 12	darf	dürfen	AUX	VMFIN	_	19	aux	_	_
 13	ihn	ihn	PRON	PPER	Case=Acc	19	obj	_	_
 14	die	der	DET	ART	_	15	det	_	_
@@ -17788,7 +17788,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f106-s5
 # text = Daher wird Goethe, der jetzt der wahre Statthalter des poetischen Geistes auf Erden ist, so gemein als möglich behandelt und schnöde angesehn, wenn er die Erwartungen des gewöhnlichen Zeitvertreibs nicht befriedigt, und sie einen Augenblick in Verlegenheit gegen sich selbst setzt.
-1	Daher	daher	ADV	PROAV	_	24	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	24	advmod	_	_
 2	wird	werden	AUX	VAFIN	_	24	aux:pass	_	_
 3	Goethe	Goethe	PROPN	NE	Case=Nom	24	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
@@ -18040,7 +18040,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f109-s4
 # text = Daher ist alle Erinnerung wehmüthig, alle Ahndung freudig.
-1	Daher	daher	ADV	PROAV	_	5	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	5	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	5	cop	_	_
 3	alle	alle	DET	PIAT	PronType=Tot	4	det	_	_
 4	Erinnerung	Erinnerung	NOUN	NN	Case=Nom	5	nsubj	_	_
@@ -18226,7 +18226,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f111-s4
 # text = Daher erscheint das Schöne so ruhig.
-1	Daher	daher	ADV	PROAV	_	2	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	erscheint	erscheinen	VERB	VVFIN	_	0	root	_	_
 3	das	der	DET	ART	_	4	det	_	_
 4	Schöne	Schöne	NOUN	NN	Case=Nom	2	nsubj	_	_
@@ -18272,7 +18272,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f112-s2
 # text = Dadurch wird diese Anschauung unendlich, sie ist mit dem Gefühl einer unerschöpflichen Kraft verbunden, und darum so absolut belebend.
-1	Dadurch	dadurch	ADV	PROAV	_	2	advmod	_	_
+1	Dadurch	dadurch	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	wird	werden	VERB	VVFIN	_	0	root	_	_
 3	diese	dieser	DET	PDAT	PronType=Dem	4	det	_	_
 4	Anschauung	Anschauung	NOUN	NN	Case=Nom	5	nsubj	_	_
@@ -18289,7 +18289,7 @@
 15	verbunden	verbinden	VERB	VVPP	_	5	parataxis	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	21	punct	_	_
 17	und	und	CCONJ	KON	_	21	cc	_	_
-18	darum	darum	ADV	PROAV	_	21	advmod	_	_
+18	darum	darum	ADV	PROAV	PronType=Dem	21	advmod	_	_
 19	so	so	ADV	ADV	_	20	advmod	_	_
 20	absolut	absolut	ADJ	ADJD	_	21	advmod	_	_
 21	belebend	belebend	ADJ	ADJD	_	15	conj	_	SpaceAfter=No
@@ -18971,7 +18971,7 @@
 40	andrer	andern	VERB	VVINF	_	32	acl	_	SpaceAfter=No
 41	,	--	PUNCT	$,	_	40	punct	_	_
 42	und	und	CCONJ	KON	_	46	cc	_	_
-43	dadurch	dadurch	ADV	PROAV	_	46	advmod	_	_
+43	dadurch	dadurch	ADV	PROAV	PronType=Dem	46	advmod	_	_
 44	sie	sie	PRON	PPER	Case=Nom	46	nsubj	_	_
 45	selbst	selbst	ADV	ADV	_	46	advmod	_	_
 46	vernichtet	vernichten	VERB	VVPP	_	40	conj	_	SpaceAfter=No
@@ -19546,7 +19546,7 @@
 17	und	und	CCONJ	KON	_	21	cc	_	_
 18	müssen	müssen	AUX	VMFIN	_	21	aux	_	_
 19	Anspruch	Anspruch	NOUN	NN	Case=Acc	21	obj	_	_
-20	darauf	darauf	ADV	PROAV	_	21	advmod	_	_
+20	darauf	darauf	ADV	PROAV	PronType=Dem	21	advmod	_	_
 21	machen	machen	VERB	VVINF	_	13	conj	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	23	punct	_	_
 23	eigen	eigen	VERB	VVINF	_	21	conj	_	_
@@ -19569,7 +19569,7 @@
 6	Art	Art	NOUN	NN	Case=Acc	10	obj	_	_
 7	von	von	ADP	APPR	_	8	case	_	_
 8	Trost	Trost	NOUN	NN	Case=Dat	6	nmod	_	_
-9	dagegen	dagegen	ADV	PROAV	_	10	advmod	_	_
+9	dagegen	dagegen	ADV	PROAV	PronType=Dem	10	advmod	_	_
 10	gibt	geben	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	2	punct	_	_
 12	ist	sein	AUX	VAFIN	_	2	cop	_	SpaceAfter=No
@@ -19746,7 +19746,7 @@
 2	Deutschheit	Deutschheit	NOUN	NN	Case=Nom	7	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	7	cop	_	_
 4	wohl	wohl	ADV	ADV	_	7	advmod	_	_
-5	darum	darum	ADV	PROAV	_	7	advmod	_	_
+5	darum	darum	ADV	PROAV	PronType=Dem	7	advmod	_	_
 6	ein	ein	DET	ART	PronType=Art	7	det	_	_
 7	Lieblingsgegenstand	Lieblingsgegenstand	NOUN	NN	Case=Nom	0	root	_	_
 8	der	der	DET	ART	_	9	det	_	_
@@ -20107,7 +20107,7 @@
 # sent_id = athenaeum-f34-s3
 # text = Schon darum sollte die Willkür, die wohl ein Wort mitreden darf, wenn es darauf ankommt, ob einer ein Individuum für sich, oder nur der integrante Teil einer gemeinschaftlichen Personalität sein will, hier so wenig als möglich beschränkt werden; und es läßt sich nicht absehen, was man gegen eine Ehe à quatre Gründliches einwenden könnte.
 1	Schon	schon	ADV	ADV	_	42	advmod	_	_
-2	darum	darum	ADV	PROAV	_	42	advmod	_	_
+2	darum	darum	ADV	PROAV	PronType=Dem	42	advmod	_	_
 3	sollte	sollen	AUX	VMFIN	_	42	aux	_	_
 4	die	der	DET	ART	_	5	det	_	_
 5	Willkür	Willkür	NOUN	NN	Case=Nom	42	nsubj:pass	_	SpaceAfter=No
@@ -20121,7 +20121,7 @@
 13	,	--	PUNCT	$,	_	17	punct	_	_
 14	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
 15	es	es	PRON	PPER	Case=Nom	17	nsubj	_	_
-16	darauf	darauf	ADV	PROAV	_	17	advmod	_	_
+16	darauf	darauf	ADV	PROAV	PronType=Dem	17	advmod	_	_
 17	ankommt	ankommen	VERB	VVFIN	_	11	advcl	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	22	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	22	mark	_	_
@@ -20190,7 +20190,7 @@
 14	so	so	ADV	ADV	_	15	advmod	_	_
 15	hindert	hindern	VERB	VVFIN	_	0	root	_	_
 16	er	er	PRON	PPER	Case=Nom	15	nsubj	_	_
-17	dadurch	dadurch	ADV	PROAV	_	15	advmod	_	_
+17	dadurch	dadurch	ADV	PROAV	PronType=Dem	15	advmod	_	_
 18	die	der	DET	ART	_	19	det	_	_
 19	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc	15	obj	_	_
 20	der	der	DET	ART	_	21	det	_	_
@@ -20251,7 +20251,7 @@
 2	kömmt	kommen	VERB	VVFIN	_	0	root	_	_
 3	also	also	ADV	ADV	_	2	advmod	_	_
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
-5	darauf	darauf	ADV	PROAV	_	2	advmod	_	_
+5	darauf	darauf	ADV	PROAV	PronType=Dem	2	advmod	_	_
 6	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	2	punct	_	_
 8	die	der	DET	ART	_	9	det	_	_
@@ -20459,7 +20459,7 @@
 10	würden	werden	AUX	VAFIN	_	9	aux:pass	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	9	punct	_	_
 12	erhalten	erhalten	VERB	VVFIN	_	0	root	_	_
-13	dadurch	dadurch	ADV	PROAV	_	12	advmod	_	_
+13	dadurch	dadurch	ADV	PROAV	PronType=Dem	12	advmod	_	_
 14	ein	ein	DET	ART	PronType=Art	16	det	_	_
 15	großes	groß	ADJ	ADJA	_	16	amod	_	_
 16	Interesse	Interesse	NOUN	NN	Case=Acc	12	obj	_	SpaceAfter=No
@@ -20494,7 +20494,7 @@
 1	Die	der	PRON	PIS	_	3	det	_	_
 2	welche	welcher	DET	PWAT	PronType=Int,Rel	3	det	_	_
 3	Profession	Profession	NOUN	NN	Case=Nom	14	nsubj	_	_
-4	davon	davon	ADV	PROAV	_	5	advmod	_	_
+4	davon	davon	ADV	PROAV	PronType=Dem	5	advmod	_	_
 5	gemacht	machen	VERB	VVPP	_	3	acl	_	_
 6	haben	haben	AUX	VAFIN	_	5	aux	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	5	punct	_	_
@@ -21016,7 +21016,7 @@
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	viel	viel	DET	PIAT	PronType=Ind	15	det	_	_
 15	Absicht	Absicht	NOUN	NN	Case=Nom	8	nsubj	_	_
-16	darin	darin	ADV	PROAV	_	15	advmod	_	SpaceAfter=No
+16	darin	darin	ADV	PROAV	PronType=Dem	15	advmod	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	15	punct	_	_
 18	wie	wie	ADV	PWAV	_	23	advmod	_	_
 19	in	in	ADP	APPR	_	21	case	_	_
@@ -22079,7 +22079,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f69-s2
 # text = Dagegen ist aber die ganze Poesie jetzt pantomimisch.
-1	Dagegen	dagegen	ADV	ADV	_	8	advmod	_	_
+1	Dagegen	dagegen	ADV	ADV	PronType=Dem	8	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	8	cop	_	_
 3	aber	aber	ADV	ADV	_	8	advmod	_	_
 4	die	der	DET	ART	_	6	det	_	_
@@ -22280,7 +22280,7 @@
 3	scheint	scheinen	VERB	VVFIN	_	5	csubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
 5	braucht	brauchen	VERB	VVFIN	_	0	root	_	_
-6	darum	darum	ADV	PROAV	_	5	advmod	_	_
+6	darum	darum	ADV	PROAV	PronType=Dem	5	advmod	_	_
 7	auch	auch	ADV	ADV	_	5	advmod	_	_
 8	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
 9-10	im	_	_	_	_	_	_	_	_
@@ -22538,7 +22538,7 @@
 2	Narrheit	Narrheit	NOUN	NN	Case=Nom	9	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	9	aux:pass	_	_
 4	bloß	bloß	ADV	ADV	_	9	advmod	_	_
-5	dadurch	dadurch	ADV	PROAV	_	9	advmod	_	_
+5	dadurch	dadurch	ADV	PROAV	PronType=Dem	9	advmod	_	_
 6	von	von	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	_	8	det	_	_
 8	Tollheit	Tollheit	NOUN	NN	Case=Dat	9	obl	_	_
@@ -22753,7 +22753,7 @@
 14	hinterdrein	hinterdrein	ADV	ADV	_	12	advmod	_	_
 15	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 16	Recht	Recht	NOUN	NN	Case=Acc	12	obj	_	_
-17	daran	daran	ADV	PAV	_	12	advmod	_	SpaceAfter=No
+17	daran	daran	ADV	PAV	PronType=Dem	12	advmod	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -23283,7 +23283,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f87-s3
 # text = Darum kann die Sinnlichkeit schlechte Menschen auf eine kurze Zeit täuschen, als könnten sie sich lieben.
-1	Darum	darum	ADV	PROAV	_	11	advmod	_	_
+1	Darum	darum	ADV	PROAV	PronType=Dem	11	advmod	_	_
 2	kann	können	AUX	VMFIN	_	11	aux	_	_
 3	die	der	DET	ART	_	4	det	_	_
 4	Sinnlichkeit	Sinnlichkeit	NOUN	NN	Case=Nom	11	nsubj	_	_
@@ -23315,7 +23315,7 @@
 5	deren	der	DET	PRELAT	_	7	det:poss	_	_
 6	ganze	ganz	ADJ	ADJA	_	7	amod	_	_
 7	Tätigkeit	Tätigkeit	NOUN	NN	Case=Nom	9	nsubj	_	_
-8	darin	darin	ADV	PAV	_	9	advmod	_	_
+8	darin	darin	ADV	PAV	PronType=Dem	9	advmod	_	_
 9	besteht	bestehen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	immer	immer	ADV	ADV	_	14	advmod	_	_
@@ -23586,7 +23586,7 @@
 9	unter	unter	ADP	APPR	_	10	case	_	_
 10	andern	anderer	PRON	PIS	_	14	nmod	_	_
 11	auch	auch	ADV	ADV	_	14	advmod	_	_
-12	darum	darum	ADV	PROAV	_	14	advmod	_	_
+12	darum	darum	ADV	PROAV	PronType=Dem	14	advmod	_	_
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	interessant	interessant	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	25	punct	_	_
@@ -24237,7 +24237,7 @@
 4	Witze	Witze	NOUN	NN	_	2	nmod	_	_
 5	darf	dürfen	AUX	VMFIN	_	8	aux	_	_
 6	nur	nur	ADV	ADV	_	7	advmod	_	_
-7	darin	darin	ADV	PAV	_	8	advmod	_	_
+7	darin	darin	ADV	PAV	PronType=Dem	8	advmod	_	_
 8	bestehen	bestehen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	15	mark	_	_
@@ -24459,7 +24459,7 @@
 18	Kürze	Kürze	NOUN	NN	Case=Nom	22	nsubj:pass	_	_
 19	und	und	CCONJ	KON	_	20	cc	_	_
 20	Leerheit	Leerheit	NOUN	NN	_	18	conj	_	_
-21	dadurch	dadurch	ADV	PROAV	_	22	advmod	_	_
+21	dadurch	dadurch	ADV	PROAV	PronType=Dem	22	advmod	_	_
 22	begünstigt	begünstigen	VERB	VVPP	_	15	orphan	_	_
 23	wird	werden	AUX	VAFIN	_	22	aux:pass	_	SpaceAfter=No
 24	.	--	PUNCT	$.	_	6	punct	_	_
@@ -24695,7 +24695,7 @@
 13	,	--	PUNCT	$,	_	20	punct	_	_
 14	die	der	PRON	PRELS	Case=Nom	20	nsubj	_	_
 15	wenigstens	wenigstens	ADV	ADV	_	20	advmod	_	_
-16	darin	darin	ADV	PROAV	_	20	advmod	_	_
+16	darin	darin	ADV	PROAV	PronType=Dem	20	advmod	_	_
 17	die	der	DET	ART	_	18	det	_	_
 18	Alten	alte	NOUN	NN	Case=Nom	20	nsubj	_	_
 19	haben	haben	AUX	VAFIN	_	20	aux	_	_
@@ -24931,7 +24931,7 @@
 35	,	--	PUNCT	$,	_	39	punct	_	_
 36	die	der	PRON	PRELS	Case=Nom	39	nsubj	_	_
 37	so	so	ADV	ADV	_	39	advmod	_	_
-38	dazu	dazu	ADV	PAV	_	39	advmod	_	_
+38	dazu	dazu	ADV	PAV	PronType=Dem	39	advmod	_	_
 39	gemacht	machen	VERB	VVPP	_	34	acl	_	_
 40	wäre	sein	AUX	VAFIN	_	39	aux	_	SpaceAfter=No
 41	,	--	PUNCT	$,	_	47	punct	_	_
@@ -25629,7 +25629,7 @@
 2	Witz	Witz	NOUN	NN	Case=Acc	3	obj	_	_
 3	achten	achten	VERB	VVFIN	_	0	root	_	_
 4	sie	sie	PRON	PPER	Case=Nom	3	nsubj	_	_
-5	darum	darum	ADV	PAV	_	3	advmod	_	_
+5	darum	darum	ADV	PAV	PronType=Dem	3	advmod	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
 7	wenig	wenig	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	3	punct	_	_
@@ -26381,7 +26381,7 @@
 29	der	der	PRON	PRELS	Case=Dat	34	obl	_	_
 30	es	es	PRON	PPER	Case=Acc	34	obj	_	_
 31	aber	aber	ADV	ADV	_	34	advmod	_	_
-32	dafür	dafür	ADV	PROAV	_	34	advmod	_	_
+32	dafür	dafür	ADV	PROAV	PronType=Dem	34	advmod	_	_
 33	auch	auch	ADV	ADV	_	34	advmod	_	_
 34	heißen	heißen	VERB	VVINF	_	25	acl	_	_
 35	kann	können	AUX	VMFIN	_	34	aux	_	SpaceAfter=No
@@ -27264,7 +27264,7 @@
 20	ist	sein	AUX	VAFIN	_	25	cop	_	_
 21	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
 22	eben	eben	ADV	ADV	_	25	advmod	_	_
-23	darum	darum	ADV	PAV	_	25	advmod	_	_
+23	darum	darum	ADV	PAV	PronType=Dem	25	advmod	_	_
 24	sehr	sehr	ADV	ADV	_	25	advmod	_	_
 25	unsittlich	unsittlich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 26	.	--	PUNCT	$.	_	25	punct	_	_
@@ -27328,7 +27328,7 @@
 51	,	--	PUNCT	$,	_	53	punct	_	_
 52	und	und	CCONJ	KON	_	53	cc	_	_
 53	gibt	geben	VERB	VVFIN	_	39	conj	_	_
-54	darin	darin	ADV	PROAV	_	53	advmod	_	_
+54	darin	darin	ADV	PROAV	PronType=Dem	53	advmod	_	_
 55	gleichsam	gleichsam	ADJ	ADJD	_	53	advmod	_	_
 56	den	der	DET	ART	_	57	det	_	_
 57	Ton	Ton	NOUN	NN	Case=Acc	53	obj	_	_
@@ -27616,7 +27616,7 @@
 2	der	der	DET	ART	_	3	det	_	_
 3	Denkart	Denkart	PROPN	NE	Case=Dat	8	nmod	_	_
 4	die	der	DET	ART	Case=Nom	6	nsubj	_	_
-5	darin	darin	ADV	PROAV	_	6	dep	_	_
+5	darin	darin	ADV	PROAV	PronType=Dem	6	dep	_	_
 6	herrscht	herrschen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	8	punct	_	_
 8	ist	sein	AUX	VAFIN	_	0	root	_	_
@@ -28790,7 +28790,7 @@
 1	Was	was	PRON	PWS	Case=Acc	14	obj	_	_
 2	soll	sollen	AUX	VMFIN	_	14	aux	_	_
 3	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
-4	daraus	daraus	ADV	PAV	_	14	advmod	_	_
+4	daraus	daraus	ADV	PAV	PronType=Dem	14	advmod	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Geschicklichkeit	Geschicklichkeit	NOUN	NN	_	14	obl	_	_
@@ -28876,7 +28876,7 @@
 14	die	der	PRON	PRELS	Case=Nom	18	nsubj	_	_
 15	nicht	nicht	PART	PTKNEG	_	18	advmod	_	_
 16	anders	anders	ADV	ADV	_	18	advmod	_	_
-17	dazu	dazu	ADV	PROAV	_	18	advmod	_	_
+17	dazu	dazu	ADV	PROAV	PronType=Dem	18	advmod	_	_
 18	kommen	kommen	VERB	VVFIN	_	12	acl	_	_
 19	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Memoiren	Memoire	NOUN	NN	Case=Acc	22	obj	_	_
@@ -29509,7 +29509,7 @@
 10	,	--	PUNCT	$,	_	12	punct	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	zeigt	zeigen	VERB	VVFIN	_	2	conj	_	_
-13	daher	daher	ADV	PROAV	_	12	advmod	_	_
+13	daher	daher	ADV	PROAV	PronType=Dem	12	advmod	_	_
 14	die	der	DET	ART	_	16	det	_	_
 15	viehischen	viehisch	ADJ	ADJA	_	16	amod	_	_
 16	Lüste	Lüste	NOUN	NN	Case=Acc	12	obj	_	_
@@ -29598,7 +29598,7 @@
 13	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
 14	eigne	eignen	ADJ	ADJA	_	18	amod	_	_
 15	ursprünglich	ursprünglich	ADV	ADV	_	17	advmod	_	_
-16	dazu	dazu	ADV	PAV	_	17	advmod	_	_
+16	dazu	dazu	ADV	PAV	PronType=Dem	17	advmod	_	_
 17	bestimmte	bestimmt	ADJ	ADJA	_	18	amod	_	_
 18	Geschöpfe	Geschopf	NOUN	NN	Case=Acc	12	obj	_	SpaceAfter=No
 19	.	--	PUNCT	$.	_	12	punct	_	_
@@ -29930,7 +29930,7 @@
 13	bildende	bildend	ADJ	ADJA	_	14	amod	_	_
 14	Kunst	Kunst	NOUN	NN	_	10	nmod	_	_
 15	ist	sein	AUX	VAFIN	_	17	cop	_	_
-16	daher	daher	ADV	PROAV	_	17	advmod	_	_
+16	daher	daher	ADV	PROAV	PronType=Dem	17	advmod	_	_
 17	keusch	keusch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	26	punct	_	_
 19	ohne	ohne	ADP	APPR	_	20	case	_	_
@@ -30598,7 +30598,7 @@
 13	ist	sein	AUX	VAFIN	_	18	aux:pass	_	_
 14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Erwähnung	Erwähnung	NOUN	NN	Case=Nom	18	nsubj	_	_
-16	darin	darin	ADV	PROAV	_	18	advmod	_	_
+16	darin	darin	ADV	PROAV	PronType=Dem	18	advmod	_	_
 17	niemals	niemals	ADV	ADV	_	18	advmod	_	_
 18	angebracht	anbringen	VERB	VVPP	_	2	parataxis	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	21	punct	_	_
@@ -30938,7 +30938,7 @@
 23	begünstigt	begünstigen	VERB	VVPP	_	15	conj	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	39	punct	_	_
 25	und	und	CCONJ	KON	_	39	cc	_	_
-26	dadurch	dadurch	ADV	PROAV	_	39	advmod	_	_
+26	dadurch	dadurch	ADV	PROAV	PronType=Dem	39	advmod	_	_
 27	einen	ein	DET	ART	PronType=Art	31	det	_	_
 28	nicht	nicht	PART	PTKNEG	_	30	advmod	_	_
 29	zu	zu	PART	PTKZU	_	30	case	_	_
@@ -31150,7 +31150,7 @@
 13	suchte	suchen	VERB	VVFIN	_	2	conj	_	_
 14	etwas	etwas	PRON	PIS	Case=Acc	13	obj	_	_
 15	Geheimnisvolles	Geheimnisvolle	NOUN	NN	_	14	nmod	_	_
-16	darin	darin	ADV	PROAV	_	13	advmod	_	SpaceAfter=No
+16	darin	darin	ADV	PROAV	PronType=Dem	13	advmod	_	SpaceAfter=No
 17	.	--	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -31577,7 +31577,7 @@
 13	heilige	heilig	ADJ	ADJA	_	14	amod	_	_
 14	Unverletzlichkeit	Unverletzlichkeit	NOUN	NN	Case=Nom	15	nsubj	_	_
 15	folgt	folgen	VERB	VVFIN	_	9	parataxis	_	_
-16	daraus	daraus	ADV	PAV	_	15	advmod	_	_
+16	daraus	daraus	ADV	PAV	PronType=Dem	15	advmod	_	_
 17	ebenso	ebenso	ADV	ADV	_	15	advmod	_	_
 18	wenig	wenig	ADV	ADV	_	15	nsubj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	15	punct	_	_
@@ -32400,7 +32400,7 @@
 9	des	der	DET	ART	_	11	det	_	_
 10	synthesierenden	synthesierend	ADJ	ADJA	_	11	amod	_	_
 11	Genies	Genie	NOUN	NN	Case=Gen	8	nmod	_	_
-12	darum	darum	ADV	PROAV	_	14	advmod	_	_
+12	darum	darum	ADV	PROAV	PronType=Dem	14	advmod	_	_
 13	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 14	achten	achten	VERB	VVINF	_	0	root	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
@@ -32824,7 +32824,7 @@
 2	sie	sie	PRON	PPER	Case=Nom	1	nsubj	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	1	obj	_	_
 4	ganz	ganz	ADV	ADV	_	5	advmod	_	_
-5	darauf	darauf	ADV	PROAV	_	1	advmod	_	SpaceAfter=No
+5	darauf	darauf	ADV	PROAV	PronType=Dem	1	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	1	punct	_	_
 7	die	der	DET	ART	_	8	det	_	_
 8	Individualität	Individualität	NOUN	NN	Case=Acc	10	obj	_	_
@@ -33199,7 +33199,7 @@
 # sent_id = athenaeum-f229-s3
 # text = Eben darum waren sie vielleicht unendlich kultivierter, aber bei aller Kultur rein barbarischer als die Europäer des Mittelalters.
 1	Eben	eben	ADV	ADV	_	7	advmod	_	_
-2	darum	darum	ADV	PAV	_	7	advmod	_	_
+2	darum	darum	ADV	PAV	PronType=Dem	7	advmod	_	_
 3	waren	sein	AUX	VAFIN	_	7	cop	_	_
 4	sie	sie	PRON	PPER	Case=Nom	7	nsubj	_	_
 5	vielleicht	vielleicht	ADV	ADV	_	7	advmod	_	_
@@ -33650,7 +33650,7 @@
 1	Er	er	PRON	PPER	Case=Nom	7	nsubj	_	_
 2	darf	dürfen	AUX	VMFIN	_	7	aux	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	7	obj	_	_
-4	daher	daher	ADV	PROAV	_	7	advmod	_	_
+4	daher	daher	ADV	PROAV	PronType=Dem	7	advmod	_	_
 5	mit	mit	ADP	APPR	_	6	case	_	_
 6	Bewußtsein	Bewußtsein	NOUN	NN	Case=Dat	7	obl	_	_
 7	äußern	äußern	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -34296,7 +34296,7 @@
 16	,	--	PUNCT	$,	_	27	punct	_	_
 17	wie	wie	ADV	ADV	_	18	case	_	_
 18	manche	mancher	PRON	PIS	_	27	obl	_	_
-19	darum	darum	ADV	PROAV	_	27	advmod	_	_
+19	darum	darum	ADV	PROAV	PronType=Dem	27	advmod	_	_
 20	immer	immer	ADV	ADV	_	27	advmod	_	_
 21	zu	zu	ADP	APPR	_	23	case	_	_
 22	lobende	lobend	ADJ	ADJA	_	23	amod	_	_
@@ -35110,7 +35110,7 @@
 22	ein	ein	DET	ART	PronType=Art	23	det	_	_
 23	Wissen	Wissen	NOUN	NN	_	16	xcomp	_	_
 24	und	und	CCONJ	KON	_	26	cc	_	_
-25	dadurch	dadurch	ADV	PROAV	_	26	advmod	_	_
+25	dadurch	dadurch	ADV	PROAV	PronType=Dem	26	advmod	_	_
 26	neu	neu	ADJ	ADJD	_	23	conj	_	_
 27	von	von	ADP	APPR	_	28	case	_	_
 28	Gestalt	Gestalt	NOUN	NN	Case=Dat	26	nmod	_	SpaceAfter=No
@@ -36394,7 +36394,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f275-s3
 # text = Dadurch wird die deutsche Literatur immer mehr Geist und Charakter bekommen.
-1	Dadurch	dadurch	ADV	PAV	_	11	advmod	_	_
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	11	advmod	_	_
 2	wird	werden	AUX	VAFIN	_	11	aux	_	_
 3	die	der	DET	ART	_	5	det	_	_
 4	deutsche	deutsch	ADJ	ADJA	_	5	amod	_	_
@@ -36630,7 +36630,7 @@
 # text = Das Eigne davon ist bloße Kombination des juristischen Stoffs mit der theologischen Form.
 1	Das	der	DET	ART	_	2	det	_	_
 2	Eigne	Eigne	NOUN	NN	Case=Nom	6	nsubj	_	_
-3	davon	davon	ADV	PROAV	_	6	advmod	_	_
+3	davon	davon	ADV	PROAV	PronType=Dem	6	advmod	_	_
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
 5	bloße	bloß	ADJ	ADJA	_	6	amod	_	_
 6	Kombination	Kombination	NOUN	NN	Case=Nom	0	root	_	_
@@ -36811,7 +36811,7 @@
 5	der	der	DET	ART	_	7	det	_	_
 6	kritischen	kritisch	ADJ	ADJA	_	7	amod	_	_
 7	Methode	Methode	NOUN	NN	_	4	nmod	_	_
-8	darin	darin	ADV	PROAV	_	9	advmod	_	_
+8	darin	darin	ADV	PROAV	PronType=Dem	9	advmod	_	_
 9	besteht	bestehen	VERB	VVFIN	_	53	advcl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	daß	daß	SCONJ	KOUS	_	32	mark	_	_
@@ -37249,7 +37249,7 @@
 12	höchst	höchst	ADV	ADV	_	13	advmod	_	_
 13	merkwürdige	merkwürdig	ADJ	ADJA	_	14	amod	_	_
 14	Folgerungen	Folgerung	NOUN	NN	Case=Acc	8	obj	_	_
-15	daraus	daraus	ADV	PAV	_	16	advmod	_	_
+15	daraus	daraus	ADV	PAV	PronType=Dem	16	advmod	_	_
 16	ziehen	ziehen	VERB	VVINF	_	8	xcomp	_	SpaceAfter=No
 17	?	--	PUNCT	$.	_	4	punct	_	_
 
@@ -37454,7 +37454,7 @@
 4	Popularität	Popularität	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	9	punct	_	_
 6	und	und	CCONJ	KON	_	9	cc	_	_
-7	darum	darum	ADV	PROAV	_	9	advmod	_	_
+7	darum	darum	ADV	PROAV	PronType=Dem	9	advmod	_	_
 8	ein	ein	DET	ART	PronType=Art	9	det	_	_
 9	Ideal	Ideal	NOUN	NN	_	4	conj	_	SpaceAfter=No
 10	.	--	PUNCT	$.	_	4	punct	_	_
@@ -38030,7 +38030,7 @@
 34	innre	innr	ADJ	ADJA	_	35	amod	_	_
 35	Vielseitigkeit	Vielseitigkeit	NOUN	NN	_	32	conj	_	_
 36	und	und	CCONJ	KON	_	39	cc	_	_
-37	dadurch	dadurch	ADV	PAV	_	39	advmod	_	_
+37	dadurch	dadurch	ADV	PAV	PronType=Dem	39	advmod	_	_
 38	mehr	mehr	ADV	ADV	_	39	advmod	_	_
 39	Selbständigkeit	Selbständigkeit	NOUN	NN	_	32	conj	_	_
 40	und	und	CCONJ	KON	_	41	cc	_	_
@@ -38337,7 +38337,7 @@
 3	Weiterkommen	weiterkommen	NOUN	NN	Case=Dat	4	obl	_	_
 4	geht	gehen	VERB	VVFIN	_	0	root	_	_
 5	es	es	PRON	PPER	_	4	expl	_	_
-6	dagegen	dagegen	ADV	PAV	_	4	advmod	_	_
+6	dagegen	dagegen	ADV	PAV	PronType=Dem	4	advmod	_	_
 7	langsam	langsam	ADV	ADV	_	4	advmod	_	_
 8	genug	genug	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 9	.	--	PUNCT	$.	_	4	punct	_	_
@@ -38591,7 +38591,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f304-s6
 # text = Dagegen scheint mir seine Polemik, besonders aber seine literarische Kritik der Philosophie eine falsche Tendenz zu sein; und seine Anlage zur Universalität ist wohl noch nicht gebildet genug, um in der Philosophie der Physik das finden zu können, was sie da sucht.
-1	Dagegen	dagegen	ADV	ADV	_	2	advmod	_	_
+1	Dagegen	dagegen	ADV	ADV	PronType=Dem	2	advmod	_	_
 2	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
 3	mir	sich	PRON	PPER	Case=Dat	2	obl:arg	_	_
 4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -38740,7 +38740,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f305-s4
 # text = Daher seine Verwandtschaft mit der Elegie und allem, was transzendental ist; daher aber auch sein Hochmut und sein Hang zur Mystik des Witzes.
-1	Daher	daher	ADV	PAV	_	3	advmod	_	_
+1	Daher	daher	ADV	PAV	PronType=Dem	3	advmod	_	_
 2	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	Verwandtschaft	Verwandtschaft	NOUN	NN	_	0	root	_	_
 4	mit	mit	ADP	APPR	_	6	case	_	_
@@ -38753,7 +38753,7 @@
 11	transzendental	transzendental	ADJ	ADJD	_	8	acl	_	_
 12	ist	sein	AUX	VAFIN	_	11	cop	_	SpaceAfter=No
 13	;	--	PUNCT	$.	_	18	punct	_	_
-14	daher	daher	ADV	PROAV	_	18	advmod	_	_
+14	daher	daher	ADV	PROAV	PronType=Dem	18	advmod	_	_
 15	aber	aber	ADV	ADV	_	18	advmod	_	_
 16	auch	auch	ADV	ADV	_	18	advmod	_	_
 17	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
@@ -38889,7 +38889,7 @@
 4	,	--	PUNCT	$,	_	12	punct	_	_
 5	und	und	CCONJ	KON	_	12	cc	_	_
 6	wer	wer	PRON	PWS	Case=Nom	8	nsubj:pass	_	_
-7	davon	davon	ADV	PAV	_	8	advmod	_	_
+7	davon	davon	ADV	PAV	PronType=Dem	8	advmod	_	_
 8	geritzt	ritzen	VERB	VVPP	_	12	csubj	_	_
 9	worden	werden	AUX	VAPP	_	8	aux:pass	_	_
 10	ist	sein	AUX	VAFIN	_	8	aux	_	SpaceAfter=No
@@ -39497,7 +39497,7 @@
 24	aus	aus	ADP	APPR	_	26	case	_	_
 25	mutwilliger	mutwillig	ADJ	ADJA	_	26	amod	_	_
 26	Lust	Lust	NOUN	NN	Case=Dat	28	obl	_	_
-27	dazu	dazu	ADV	PROAV	_	28	advmod	_	_
+27	dazu	dazu	ADV	PROAV	PronType=Dem	28	advmod	_	_
 28	herablassen	herablassen	VERB	VVINF	_	11	conj	_	SpaceAfter=No
 29	.	--	PUNCT	$.	_	4	punct	_	_
 
@@ -39527,7 +39527,7 @@
 19	Hauch	Hauch	NOUN	NN	Case=Acc	23	obj	_	_
 20	der	der	DET	ART	_	21	det	_	_
 21	Schönheit	Schönheit	NOUN	NN	_	19	nmod	_	_
-22	darüber	darüber	ADV	PROAV	_	23	advmod	_	_
+22	darüber	darüber	ADV	PROAV	PronType=Dem	23	advmod	_	_
 23	verbreiten	verbreiten	VERB	VVINF	_	6	acl	_	_
 24	kann	können	AUX	VMFIN	_	23	aux	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	34	punct	_	_
@@ -39750,7 +39750,7 @@
 29	so	so	ADV	ADV	_	33	advmod	_	_
 30	möchte	mögen	AUX	VMFIN	_	33	aux	_	_
 31	man	man	PRON	PIS	Case=Nom	33	nsubj	_	_
-32	darauf	darauf	ADV	PROAV	_	33	advmod	_	_
+32	darauf	darauf	ADV	PROAV	PronType=Dem	33	advmod	_	_
 33	antragen	antragen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 34	,	--	PUNCT	$,	_	38	punct	_	_
 35	den	der	DET	ART	_	38	det	_	_
@@ -39763,7 +39763,7 @@
 42	,	--	PUNCT	$,	_	41	punct	_	_
 43	abzuschaffen	abschaffen	ADJ	ADJA	_	33	ccomp	_	_
 44	und	und	CCONJ	KON	_	48	cc	_	_
-45	dafür	dafür	ADV	PROAV	_	48	advmod	_	_
+45	dafür	dafür	ADV	PROAV	PronType=Dem	48	advmod	_	_
 46	theatralisches	theatralisch	ADJ	ADJA	_	47	amod	_	_
 47	Gemälde	Gemälde	NOUN	NN	Case=Acc	48	obj	_	_
 48	einzuführen	einführen	VERB	VVIZU	_	43	conj	_	SpaceAfter=No
@@ -40871,7 +40871,7 @@
 31	scheinen	scheinen	VERB	VVINF	_	18	conj	_	_
 32	mußte	müssen	AUX	VMFIN	_	31	aux	_	SpaceAfter=No
 33	,	--	PUNCT	$,	_	36	punct	_	_
-34	daran	daran	ADV	PROAV	_	36	advmod	_	_
+34	daran	daran	ADV	PROAV	PronType=Dem	36	advmod	_	_
 35	zu	zu	PART	PTKZU	_	36	mark	_	_
 36	erinnern	erinnern	VERB	VVINF	_	31	xcomp	_	SpaceAfter=No
 37	,	--	PUNCT	$,	_	44	punct	_	_
@@ -40888,7 +40888,7 @@
 48	er	er	PRON	PPER	Case=Nom	52	nsubj	_	_
 49	keine	kein	DET	PIAT	PronType=Neg	50	advmod	_	_
 50	Vorstellung	Vorstellung	NOUN	NN	Case=Acc	52	obj	_	_
-51	davon	davon	ADV	PROAV	_	52	advmod	_	_
+51	davon	davon	ADV	PROAV	PronType=Dem	52	advmod	_	_
 52	hatte	haben	VERB	VVFIN	_	36	advcl	_	SpaceAfter=No
 53	,	--	PUNCT	$,	_	57	punct	_	_
 54	daß	daß	SCONJ	KOUS	_	57	mark	_	_
@@ -41047,7 +41047,7 @@
 6	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	oft	oft	ADV	ADV	_	5	advmod	_	_
 8	am	an	ADP	APPRART	_	9	case	_	_
-9	wenigstens	wenigstens	ADV	ADV	_	5	obl	_	SpaceAfter=No
+9	wenigstens	wenigstens	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	16	punct	_	_
 11	und	und	CCONJ	KON	_	16	cc	_	_
 12	auch	auch	ADV	ADV	_	16	advmod	_	_
@@ -41146,7 +41146,7 @@
 16	ein	ein	DET	ART	PronType=Art	18	det	_	_
 17	klein	klein	ADJ	ADJA	_	18	amod	_	_
 18	Stück	Stück	NOUN	NN	Case=Acc	13	obj	_	_
-19	davon	davon	ADV	PROAV	_	13	advmod	_	SpaceAfter=No
+19	davon	davon	ADV	PROAV	PronType=Dem	13	advmod	_	SpaceAfter=No
 20	.	--	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -41353,7 +41353,7 @@
 3	Ausführung	Ausführung	NOUN	NN	_	8	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
 5	s	es	PRON	PPER	Case=Nom	8	nsubj	_	_
-6	damit	damit	ADV	ADV	_	8	advmod	_	_
+6	damit	damit	ADV	ADV	PronType=Dem	8	advmod	_	_
 7	aber	aber	ADV	ADV	_	8	advmod	_	_
 8	ungefähr	ungefähr	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	13	punct	_	_
@@ -41854,7 +41854,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f334-s1
 # text = Dafür ist das Zeitalter noch nicht reif, sagen sie immer.
-1	Dafür	dafür	ADV	PROAV	_	7	advmod	_	_
+1	Dafür	dafür	ADV	PROAV	PronType=Dem	7	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	7	cop	_	_
 3	das	der	DET	ART	_	4	det	_	_
 4	Zeitalter	Zeitalter	NOUN	NN	Case=Nom	7	nsubj	_	_
@@ -43089,12 +43089,12 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f336-s27
 # text = Dagegen sind diejenigen sehr übel daran, bei denen Eigentümlichkeit des Sinnes und Charakters überall ins Spiel kommt.
-1	Dagegen	dagegen	ADV	ADV	_	5	advmod	_	_
+1	Dagegen	dagegen	ADV	ADV	PronType=Dem	5	advmod	_	_
 2	sind	sein	AUX	VAFIN	_	5	cop	_	_
 3	diejenigen	derjenige	PRON	PDS	Case=Nom	5	nsubj	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	übel	übel	ADJ	ADJD	_	0	root	_	_
-6	daran	daran	ADV	PROAV	_	5	advmod	_	SpaceAfter=No
+6	daran	daran	ADV	PROAV	PronType=Dem	5	advmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	5	punct	_	_
 8	bei	bei	ADP	APPR	_	9	case	_	_
 9	denen	der	PRON	PRELS	Case=Dat	18	obl	_	_
@@ -44735,7 +44735,7 @@
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	erwerbe	erwerben	VERB	VVFIN	_	2	conj	_	_
 11	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	10	obl:arg	_	_
-12	dadurch	dadurch	ADV	PROAV	_	10	advmod	_	_
+12	dadurch	dadurch	ADV	PROAV	PronType=Dem	10	advmod	_	_
 13	ein	ein	DET	ART	PronType=Art	14	det	_	_
 14	Recht	Recht	NOUN	NN	Case=Acc	10	obj	_	_
 15	ihn	ihn	PRON	PPER	Case=Acc	18	obj	_	_
@@ -44849,7 +44849,7 @@
 27	unerachtet	unerachtet	VERB	VVFIN	_	1	parataxis	_	_
 28	sie	sie	PRON	PPER	Case=Nom	27	nsubj	_	_
 29	nicht	nicht	PART	PTKNEG	_	27	advmod	_	_
-30	darüber	darüber	ADV	PROAV	_	31	advmod	_	_
+30	darüber	darüber	ADV	PROAV	PronType=Dem	31	advmod	_	_
 31	spekulierten	spekulieren	VERB	VVINF	_	27	xcomp	_	SpaceAfter=No
 32	,	--	PUNCT	$,	_	31	punct	_	_
 33	was	was	PRON	PWS	_	31	ccomp	_	_
@@ -44875,7 +44875,7 @@
 10	;	--	PUNCT	$.	_	15	punct	_	_
 11	und	und	CCONJ	KON	_	15	cc	_	_
 12	wer	wer	PRON	PWS	Case=Nom	15	nsubj	_	_
-13	darum	darum	ADV	PROAV	_	15	advmod	_	_
+13	darum	darum	ADV	PROAV	PronType=Dem	15	advmod	_	_
 14	nicht	nicht	PART	PTKNEG	_	15	advmod	_	_
 15	weiß	weiß	VERB	VVFIN	_	4	parataxis	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	21	punct	_	_
@@ -45038,7 +45038,7 @@
 19	kein	kein	DET	PIAT	PronType=Neg	21	advmod	_	_
 20	philosophischer	philosophisch	ADJ	ADJA	_	21	amod	_	_
 21	Traum	Traum	NOUN	NN	Case=Nom	23	nsubj:pass	_	_
-22	darin	darin	ADV	PROAV	_	23	advmod	_	_
+22	darin	darin	ADV	PROAV	PronType=Dem	23	advmod	_	_
 23	realisiert	realisieren	VERB	VVPP	_	16	ccomp	_	_
 24	werden	werden	AUX	VAINF	_	23	aux:pass	_	_
 25	kann	können	AUX	VMFIN	_	23	aux	_	SpaceAfter=No
@@ -45225,7 +45225,7 @@
 24	er	er	PRON	PPER	Case=Nom	28	nsubj	_	_
 25	die	der	DET	ART	_	26	det	_	_
 26	Theologie	Theologie	NOUN	NN	Case=Acc	28	obj	_	_
-27	dazu	dazu	ADV	ADV	_	28	advmod	_	_
+27	dazu	dazu	ADV	ADV	PronType=Dem	28	advmod	_	_
 28	nehmen	nehmen	VERB	VVINF	_	22	ccomp	_	_
 29	muß	müssen	AUX	VMFIN	_	28	aux	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	34	punct	_	_
@@ -45602,7 +45602,7 @@
 45	noch	noch	ADV	ADV	_	49	advmod	_	_
 46	etwas	etwas	PRON	PIS	_	49	nmod	_	_
 47	anders	anders	PRON	PIS	_	48	nmod	_	_
-48	daraus	daraus	ADV	PAV	_	49	advmod	_	_
+48	daraus	daraus	ADV	PAV	PronType=Dem	49	advmod	_	_
 49	erfolge	erfolge	PRON	PIS	_	34	advcl	_	SpaceAfter=No
 50	,	--	PUNCT	$,	_	58	punct	_	_
 51	was	was	PRON	PRELS	Case=Nom	58	nsubj	_	_
@@ -45727,7 +45727,7 @@
 30	der	der	DET	ART	_	32	det	_	_
 31	gemeinste	gemein	ADJ	ADJA	_	32	amod	_	_
 32	Verstand	Verstand	NOUN	NN	Case=Nom	34	nsubj	_	_
-33	dazu	dazu	ADV	PROAV	_	34	advmod	_	_
+33	dazu	dazu	ADV	PROAV	PronType=Dem	34	advmod	_	_
 34	hinreicht	hinreichen	VERB	VVFIN	_	24	advcl	_	SpaceAfter=No
 35	,	--	PUNCT	$,	_	49	punct	_	_
 36	und	und	CCONJ	KON	_	49	cc	_	_
@@ -45739,7 +45739,7 @@
 42	leidenschaftliche	leidenschaftlich	ADJ	ADJA	_	43	amod	_	_
 43	Verblendung	Verblendung	NOUN	NN	_	49	obl	_	_
 44	jemanden	jemand	PRON	PIS	Case=Dat	49	obl:arg	_	_
-45	darin	darin	ADV	PROAV	_	49	advmod	_	_
+45	darin	darin	ADV	PROAV	PronType=Dem	49	advmod	_	_
 46	kann	können	AUX	VMFIN	_	49	aux	_	_
 47	fehl	fehl	ADV	ADV	_	49	advmod	_	_
 48	gehen	gehen	VERB	VVINF	_	49	xcomp	_	_
@@ -45825,7 +45825,7 @@
 # text = Es wäre daher besser, dies Wort für die zweite Eigenschaft allein aufzubewahren.
 1	Es	es	PRON	PPER	_	4	expl	_	_
 2	wäre	sein	AUX	VAFIN	_	4	cop	_	_
-3	daher	daher	ADV	PROAV	_	4	advmod	_	_
+3	daher	daher	ADV	PROAV	PronType=Dem	4	advmod	_	_
 4	besser	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	dies	dieser	DET	PDS	Case=Nom|PronType=Dem	7	nsubj	_	_
@@ -46143,7 +46143,7 @@
 20	die	der	PRON	PRELS	Case=Nom	26	nsubj	_	_
 21	uns	uns	PRON	PPER	Case=Dat	26	obl:arg	_	_
 22	nur	nur	ADV	ADV	_	26	advmod	_	_
-23	darum	darum	ADV	PROAV	_	26	advmod	_	_
+23	darum	darum	ADV	PROAV	PronType=Dem	26	advmod	_	_
 24	als	als	CCONJ	KOKOM	_	26	case	_	_
 25	solche	solcher	DET	PIAT	Case=Acc	26	obj	_	_
 26	erscheint	erscheinen	VERB	VVFIN	_	17	acl	_	SpaceAfter=No
@@ -47283,7 +47283,7 @@
 4	Einteilung	Einteilung	NOUN	NN	Case=Nom	8	nsubj	_	_
 5	am	an	ADP	APPRART	_	6	case	_	_
 6	Ende	Ende	NOUN	NN	_	8	obl	_	_
-7	darauf	darauf	ADV	PROAV	_	8	advmod	_	_
+7	darauf	darauf	ADV	PROAV	PronType=Dem	8	advmod	_	_
 8	hinausläuft	hinauslaufen	VERB	VVFIN	_	20	csubj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	17	punct	_	_
 10	und	und	CCONJ	KON	_	17	cc	_	_
@@ -47307,7 +47307,7 @@
 # text = Es entsteht daraus die Ansicht als ob es zwei ganz verschiedne im Streit liegende Stimmungen gäbe, die entweder sorgfältig auseinander gehalten oder durch eine kleinliche Arithmetik künstlich verglichen werden müßten.
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	entsteht	entstehen	VERB	VVFIN	_	0	root	_	_
-3	daraus	daraus	ADV	PROAV	_	2	advmod	_	_
+3	daraus	daraus	ADV	PROAV	PronType=Dem	2	advmod	_	_
 4	die	der	DET	ART	_	5	det	_	_
 5	Ansicht	Ansicht	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	als	als	CCONJ	KOKOM	_	16	mark	_	_
@@ -47345,7 +47345,7 @@
 # text = Es entstehn daraus die Fantome von Hingebung, Aufopferung, Großmut und was alles für moralisches Unheil.
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	entstehn	entstehn	VERB	VVFIN	_	0	root	_	_
-3	daraus	daraus	ADV	PROAV	_	2	advmod	_	_
+3	daraus	daraus	ADV	PROAV	PronType=Dem	2	advmod	_	_
 4	die	der	DET	ART	_	5	det	_	_
 5	Fantome	Fantom	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
@@ -47450,7 +47450,7 @@
 2	gewiß	gewiß	ADV	ADV	_	8	advmod	_	_
 3	würden	werden	AUX	VAFIN	_	8	aux	_	_
 4	sie	sie	PRON	PPER	Case=Nom	8	nsubj	_	_
-5	darum	darum	ADV	PROAV	_	8	advmod	_	_
+5	darum	darum	ADV	PROAV	PronType=Dem	8	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
 7	weniger	weniger	ADJ	ADJA	_	8	amod	_	_
 8	Maler	Maler	NOUN	NN	Case=Nom	0	root	_	_
@@ -47779,7 +47779,7 @@
 18	Verträge	Vertrag	NOUN	NN	_	14	conj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	26	punct	_	_
 20	und	und	CCONJ	KON	_	26	cc	_	_
-21	dadurch	dadurch	ADV	PROAV	_	26	advmod	_	_
+21	dadurch	dadurch	ADV	PROAV	PronType=Dem	26	advmod	_	_
 22	diese	dieser	DET	PDS	Case=Acc|PronType=Dem	26	obj	_	_
 23	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Majestät	Majestät	NOUN	NN	_	26	obl	_	_
@@ -48874,7 +48874,7 @@
 1	Ist	sein	AUX	VAFIN	_	11	aux	_	_
 2	die	der	DET	ART	_	3	det	_	_
 3	Befugnis	Befugnis	NOUN	NN	Case=Nom	11	nsubj	_	_
-4	dazu	dazu	ADV	PROAV	_	11	advmod	_	_
+4	dazu	dazu	ADV	PROAV	PronType=Dem	11	advmod	_	_
 5	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 6	etwa	etwa	ADV	ADV	_	11	advmod	_	_
 7	von	von	ADP	APPR	_	10	case	_	_
@@ -48884,7 +48884,7 @@
 11	entlehnt	entlehnen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	19	punct	_	_
 13	die	der	PRON	PRELS	Case=Nom	19	nsubj	_	_
-14	daher	daher	ADV	PROAV	_	19	advmod	_	_
+14	daher	daher	ADV	PROAV	PronType=Dem	19	advmod	_	_
 15	auch	auch	ADV	ADV	_	19	advmod	_	_
 16	notwendig	notwendig	ADV	ADV	_	19	advmod	_	_
 17	ein	ein	DET	ART	PronType=Art	18	det	_	_
@@ -49124,7 +49124,7 @@
 27	weiß	weiß	VERB	VVFIN	_	17	parataxis	_	_
 28	sie	sie	PRON	PPER	Case=Nom	27	nsubj	_	_
 29	weniger	weniger	ADV	ADV	_	27	advmod	_	_
-30	darum	darum	ADV	PROAV	_	27	advmod	_	SpaceAfter=No
+30	darum	darum	ADV	PROAV	PronType=Dem	27	advmod	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	43	punct	_	_
 32	und	und	CCONJ	KON	_	43	cc	_	_
 33	hat	haben	AUX	VAFIN	_	43	aux	_	_
@@ -49937,7 +49937,7 @@
 12	weiß	weiß	VERB	VVFIN	_	9	parataxis	_	_
 13	alle	alle	DET	PIAT	PronType=Tot	14	det	_	_
 14	Bedürfnisse	Bedürfnis	NOUN	NN	Case=Acc	17	obj	_	_
-15	damit	damit	ADV	PROAV	_	17	advmod	_	_
+15	damit	damit	ADV	PROAV	PronType=Dem	17	advmod	_	_
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	bestreiten	bestreiten	VERB	VVINF	_	12	ccomp	_	_
 18	und	und	CCONJ	KON	_	23	cc	_	_
@@ -50213,7 +50213,7 @@
 13	,	--	PUNCT	$,	_	12	punct	_	_
 14	kömmts	kömmt	VERB	VVFIN	_	0	root	_	_
 15	eigentlich	eigentlich	ADV	ADV	_	14	advmod	_	_
-16	darauf	darauf	ADV	PROAV	_	14	advmod	_	_
+16	darauf	darauf	ADV	PROAV	PronType=Dem	14	advmod	_	_
 17	an	an	ADP	PTKVZ	_	14	compound:prt	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	32	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	32	mark	_	_
@@ -50414,7 +50414,7 @@
 33	,	--	PUNCT	$,	_	46	punct	_	_
 34	an	an	ADP	APPR	_	36	case	_	_
 35	deren	der	DET	PRELAT	_	36	det	_	_
-36	meisten	meister	ADV	ADV	_	46	obl	_	_
+36	meisten	meister	ADV	ADV	_	46	advmod	_	_
 37	man	man	PRON	PIS	Case=Nom	46	nsubj	_	_
 38	die	der	DET	ART	_	42	det	_	_
 39	gewöhnlichsten	gewöhnlich	ADJ	ADJA	_	42	amod	_	_
@@ -50963,7 +50963,7 @@
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	sind	sein	AUX	VAFIN	_	12	cop	_	_
 9	eben	eben	ADV	ADV	_	12	advmod	_	_
-10	darum	darum	ADV	PROAV	_	12	advmod	_	_
+10	darum	darum	ADV	PROAV	PronType=Dem	12	advmod	_	_
 11	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 12	Ideale	Ideal	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	16	punct	_	_
@@ -50991,7 +50991,7 @@
 8	weiß	weiß	VERB	VVFIN	_	5	conj	_	_
 9	was	was	PRON	PWS	Case=Acc	12	obj	_	_
 10	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
-11	damit	damit	ADV	ADV	_	12	advmod	_	_
+11	damit	damit	ADV	ADV	PronType=Dem	12	advmod	_	_
 12	will	wollen	AUX	VMFIN	_	8	ccomp	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	8	punct	_	_
 14	sieht	sehen	VERB	VVFIN	_	0	root	_	_
@@ -51073,7 +51073,7 @@
 # text = Ihre Thesen darüber sind ganz wahr d.h. philosophisch: aber die Antithesen dazu fehlen.
 1	Ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Thesen	These	NOUN	NN	Case=Nom	6	nsubj	_	_
-3	darüber	darüber	ADV	PROAV	_	6	advmod	_	_
+3	darüber	darüber	ADV	PROAV	PronType=Dem	6	advmod	_	_
 4	sind	sein	AUX	VAFIN	_	6	cop	_	_
 5	ganz	ganz	ADV	ADV	_	6	advmod	_	_
 6	wahr	wahr	ADJ	ADJD	_	0	root	_	_
@@ -51083,7 +51083,7 @@
 10	aber	aber	ADV	ADV	_	14	advmod	_	_
 11	die	der	DET	ART	_	12	det	_	_
 12	Antithesen	Antithese	NOUN	NN	Case=Nom	14	nsubj	_	_
-13	dazu	dazu	ADV	PAV	_	14	advmod	_	_
+13	dazu	dazu	ADV	PAV	PronType=Dem	14	advmod	_	_
 14	fehlen	fehlen	VERB	VVINF	_	6	conj	_	SpaceAfter=No
 15	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -51356,7 +51356,7 @@
 20	durchaus	durchaus	ADV	ADV	_	21	advmod	_	_
 21	neuer	neu	ADJ	ADJA	_	22	amod	_	_
 22	Charakter	Charakter	NOUN	NN	Case=Nom	28	nsubj:pass	_	_
-23	darin	darin	ADV	PROAV	_	28	advmod	_	_
+23	darin	darin	ADV	PROAV	PronType=Dem	28	advmod	_	_
 24	auf	auf	ADP	APPR	_	27	case	_	_
 25	eine	ein	DET	ART	PronType=Art	27	det	_	_
 26	interessante	interessant	ADJ	ADJA	_	27	amod	_	_
@@ -51387,7 +51387,7 @@
 13	Nebenwerk	Nebenwerk	NOUN	NN	Case=Nom	17	nsubj	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	Gerüste	Gerüste	NOUN	NN	_	13	conj	_	_
-16	darin	darin	ADV	PROAV	_	17	advmod	_	_
+16	darin	darin	ADV	PROAV	PronType=Dem	17	advmod	_	_
 17	gemein	gemein	ADJ	ADJD	_	46	csubj	_	_
 18	oder	oder	CCONJ	KON	_	19	cc	_	_
 19	mißglückt	mißglücken	ADJ	ADJD	_	17	conj	_	_
@@ -51405,7 +51405,7 @@
 31	daß	daß	SCONJ	KOUS	_	39	mark	_	_
 32	das	der	DET	ART	_	33	det	_	_
 33	Ungewöhnliche	ungewöhnliche	NOUN	NN	Case=Nom	39	nsubj	_	_
-34	darin	darin	ADV	PROAV	_	39	advmod	_	_
+34	darin	darin	ADV	PROAV	PronType=Dem	39	advmod	_	_
 35	oft	oft	ADV	ADV	_	39	advmod	_	_
 36	nur	nur	ADV	ADV	_	39	advmod	_	_
 37	ein	ein	DET	ART	PronType=Art	39	det	_	_
@@ -51536,7 +51536,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f418-s6
 # text = Daher die Wiederholungen, wodurch die Darstellung der erhabenen Langenweile zuweilen in Mitteilung übergehn kann.
-1	Daher	daher	ADV	PROAV	_	3	advmod	_	_
+1	Daher	daher	ADV	PROAV	PronType=Dem	3	advmod	_	_
 2	die	der	DET	ART	_	3	det	_	_
 3	Wiederholungen	Wiederholung	NOUN	NN	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	14	punct	_	_
@@ -51601,7 +51601,7 @@
 41	,	--	PUNCT	$,	_	40	punct	_	_
 42	das	der	DET	ART	_	43	det	_	_
 43	Sentimentale	Sentimentale	NOUN	NN	Case=Nom	46	nsubj	_	_
-44	darin	darin	ADV	PROAV	_	46	advmod	_	_
+44	darin	darin	ADV	PROAV	PronType=Dem	46	advmod	_	_
 45	keineswegs	keineswegs	ADV	ADV	_	46	advmod	_	_
 46	zusagt	zusagen	VERB	VVFIN	_	18	advcl	_	_
 47	und	und	CCONJ	KON	_	50	cc	_	_
@@ -51808,7 +51808,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f419-s4
 # text = Dazu gehört Energie, Geisteskraft von schlechthin unbegrenzter Extension und Intension.
-1	Dazu	dazu	ADV	PAV	_	2	advmod	_	_
+1	Dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	_
 2	gehört	gehören	VERB	VVFIN	_	0	root	_	_
 3	Energie	Energie	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	5	punct	_	_
@@ -52427,7 +52427,7 @@
 13	Ausführung	Ausführung	NOUN	NN	Case=Nom	19	nsubj	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	Darstellung	Darstellung	NOUN	NN	_	13	conj	_	_
-16	darin	darin	ADV	PROAV	_	19	advmod	_	_
+16	darin	darin	ADV	PROAV	PronType=Dem	19	advmod	_	_
 17	noch	noch	ADV	ADV	_	19	advmod	_	_
 18	am	an	PART	PTKA	_	19	case	_	_
 19	besten	gut	ADJ	ADJD	_	5	csubj	_	_
@@ -52441,7 +52441,7 @@
 27	so	so	ADV	ADV	_	28	advmod	_	_
 28	wenig	wenig	ADV	ADV	_	29	advmod	_	_
 29	Engländer	Engländer	NOUN	NN	Case=Nom	24	csubj	_	_
-30	darin	darin	ADV	PROAV	_	29	advmod	_	_
+30	darin	darin	ADV	PROAV	PronType=Dem	29	advmod	_	_
 31	sind	sein	AUX	VAFIN	_	29	cop	_	SpaceAfter=No
 32	.	--	PUNCT	$.	_	5	punct	_	_
 

@@ -46,7 +46,7 @@
     <feat name="Person" value="3" upos="DET">382</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="Poss" value="Yes" upos="DET">408</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
-    <feat name="PronType" value="Dem" upos="DET">268</feat><!-- diese, dieser, dies, dieses, diesem, jene, jener, diesen, jenes, jenem -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">403</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
     <feat name="PronType" value="Ind" upos="DET">62</feat><!-- viele, viel, vielen, vieles, vielem, vieler -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
@@ -58,7 +58,7 @@
   <deps unique="36">
     <dep name="acl">485</dep>
     <dep name="advcl">502</dep>
-    <dep name="advmod">4123</dep>
+    <dep name="advmod">4125</dep>
     <dep name="amod">2339</dep>
     <dep name="appos">83</dep>
     <dep name="aux">986</dep>
@@ -84,7 +84,7 @@
     <dep name="nsubj:pass">121</dep>
     <dep name="nummod">22</dep>
     <dep name="obj">1604</dep>
-    <dep name="obl">1599</dep>
+    <dep name="obl">1597</dep>
     <dep name="obl:agent">2</dep>
     <dep name="obl:arg">198</dep>
     <dep name="orphan">63</dep>
