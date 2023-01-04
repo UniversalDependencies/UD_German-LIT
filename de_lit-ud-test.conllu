@@ -15023,7 +15023,7 @@
 6	sie	sie	PRON	PPER	Case=Nom	7	nsubj	_	_
 7	leben	leben	VERB	VVFIN	_	2	conj	_	_
 8	ein	ein	DET	ART	PronType=Art	9	det	_	_
-9	bißchen	bißchen	PRON	PIS	Case=Nom	12	nsubj:pass	_	_
+9	bißchen	bisschen	ADV	PIS	PronType=Ind	12	nsubj:pass	_	_
 10	besser	gut	ADJ	ADJD	_	12	advmod	_	_
 11	als	als	CCONJ	KOKOM	_	12	case	_	_
 12	gewöhnlich	gewöhnlich	ADJ	ADJD	_	7	advmod	_	_
