@@ -32,11 +32,12 @@
     <tag name="X">66</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="22">
+  <feats unique="23">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1243</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">357</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3883</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
+    <feat name="Definite" value="Def" upos="DET">3324</feat><!-- der, die, das, den, des, dem -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">189</feat><!-- seine, seiner, sein, seinem, seinen, seines -->
     <feat name="Number" value="Plur" upos="DET,PRON">25</feat><!-- denen, den -->
     <feat name="Number" value="Sing" upos="DET,PRON">97</feat><!-- jeder, jedem, jedes, jede, dessen, jeden -->
@@ -46,7 +47,7 @@
     <feat name="Person" value="2" upos="DET">2</feat><!-- deine, deiner -->
     <feat name="Person" value="3" upos="DET">382</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="Poss" value="Yes" upos="DET">408</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
-    <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
+    <feat name="PronType" value="Art" upos="DET">4246</feat><!-- der, die, ein, das, den, eine, des, dem, einen, einer -->
     <feat name="PronType" value="Dem" upos="ADV,DET">403</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">471</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET">63</feat><!-- viele, viel, vielen, vieles, bißchen, vielem, vieler -->
