@@ -781,7 +781,7 @@
 13	witzigen	witzig	ADJ	ADJA	_	14	amod	_	_
 14	Einfall	Einfall	NOUN	NN	Case=Acc	29	obj	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	20	punct	_	_
-16	dessen	der	DET	PRELAT	_	17	det:poss	_	_
+16	dessen	der	PRON	PRELAT	Case=Gen|Number=Sing|PronType=Dem,Rel	17	nmod:poss	_	_
 17	Flamme	Flamme	NOUN	NN	Case=Nom	20	nsubj	_	_
 18	nun	nun	ADV	ADV	_	20	advmod	_	_
 19	erst	erst	ADV	ADV	_	20	advmod	_	_
@@ -5555,7 +5555,7 @@
 3	hingegen	hingegen	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	9	punct	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
-6	dessen	der	DET	PRELAT	_	7	det	_	_
+6	dessen	der	PRON	PRELAT	Case=Gen|Number=Sing|PronType=Dem,Rel	7	nmod	_	_
 7	Zusammenhang	Zusammenhang	NOUN	NN	_	9	obl	_	_
 8	niemand	niemand	PRON	PIS	Case=Nom	9	nsubj	_	_
 9	zweifelt	zweifeln	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
@@ -12118,7 +12118,7 @@
 22	Kritikers	Kritiker	NOUN	NN	Case=Gen	19	nmod	_	_
 23	aus	aus	ADP	PTKVZ	_	17	compound:prt	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	17	punct	_	_
-25	dessen	der	DET	PRELAT	_	26	det	_	_
+25	dessen	der	PRON	PRELAT	Case=Gen|Number=Sing|PronType=Dem,Rel	26	nmod	_	_
 26	Arbeiten	Arbeit	NOUN	NN	Case=Nom	31	nsubj	_	_
 27	die	der	DET	ART	_	28	det	_	_
 28	Geschichte	Geschichte	NOUN	NN	Case=Acc	31	obj	_	_
@@ -13817,7 +13817,7 @@
 7	des	der	DET	ART	_	8	det	_	_
 8	Individuums	Individuum	NOUN	NN	Case=Gen	6	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	14	punct	_	_
-10	dessen	der	DET	PRELAT	_	11	det	_	_
+10	dessen	der	PRON	PRELAT	Case=Gen|Number=Sing|PronType=Dem,Rel	11	nmod	_	_
 11	Fertigkeit	Fertigkeit	NOUN	NN	Case=Nom	14	nsubj	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	Energie	Energie	NOUN	NN	_	11	conj	_	_
@@ -15359,7 +15359,7 @@
 24	und	und	CCONJ	KON	_	29	cc	_	_
 25	nur	nur	ADV	ADV	_	28	advmod	_	_
 26	für	für	ADP	APPR	_	28	case	_	_
-27	dessen	der	PRON	PDS	_	28	nmod	_	_
+27	dessen	der	PRON	PDS	Case=Gen|Number=Sing|PronType=Dem,Rel	28	nmod	_	_
 28	Lüste	Lüste	NOUN	NN	Case=Acc	29	obl	_	_
 29	sinnt	sinnen	VERB	VVFIN	_	17	conj	_	_
 30	und	und	CCONJ	KON	_	31	cc	_	_
@@ -20089,7 +20089,7 @@
 2	artiger	artig	ADJ	ADJA	_	3	amod	_	_
 3	Gedanke	Gedanke	NOUN	NN	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	dessen	der	DET	PRELAT	_	6	det	_	_
+5	dessen	der	PRON	PRELAT	Case=Gen|Number=Sing|PronType=Dem,Rel	6	nmod	_	_
 6	Realisierung	Realisierung	NOUN	NN	Case=Nom	14	nsubj	_	_
 7	jedoch	jedoch	ADV	ADV	_	14	advmod	_	_
 8	viele	viel	DET	ADJA	PronType=Ind	11	det	_	_
@@ -23456,7 +23456,7 @@
 6	das	der	DET	ART	_	7	det	_	_
 7	Wirklichwerden	Wirklichwerden	NOUN	NN	Case=Nom	0	root	_	_
 8	alles	alle	DET	PIS	Case=Nom|PronType=Tot	9	nsubj	_	_
-9	dessen	der	PRON	PDS	_	7	nmod	_	SpaceAfter=No
+9	dessen	der	PRON	PDS	Case=Gen|Number=Sing|PronType=Dem,Rel	7	nmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	13	punct	_	_
 11	was	was	PRON	PRELS	Case=Nom	13	nsubj	_	_
 12	praktisch	praktisch	ADJ	ADJD	_	13	advmod	_	_
@@ -25695,7 +25695,7 @@
 13	,	--	PUNCT	$,	_	18	punct	_	_
 14	und	und	CCONJ	KON	_	18	cc	_	_
 15	statt	statt	ADP	APPR	_	16	case	_	_
-16	dessen	der	PRON	PDS	Case=Gen	18	obl	_	_
+16	dessen	der	PRON	PDS	Case=Gen|Number=Sing|PronType=Dem,Rel	18	obl	_	_
 17	bloß	bloß	ADV	ADV	_	18	advmod	_	_
 18	handelt	handeln	VERB	VVFIN	_	11	conj	_	SpaceAfter=No
 19	.	--	PUNCT	$.	_	3	punct	_	_
@@ -48307,7 +48307,7 @@
 34	daß	daß	SCONJ	KOUS	_	41	mark	_	_
 35	das	der	DET	ART	_	36	det	_	_
 36	Verstehen	verstehen	NOUN	NN	Case=Nom	41	nsubj:pass	_	_
-37	dessen	der	PRON	PRELS	_	40	obl	_	_
+37	dessen	der	PRON	PRELS	Case=Gen|Number=Sing|PronType=Dem,Rel	40	obl	_	_
 38	was	was	PRON	PRELS	Case=Acc	40	obj	_	_
 39	man	man	PRON	PIS	Case=Nom	40	nsubj	_	_
 40	liest	lesen	VERB	VVFIN	_	36	acl	_	_
