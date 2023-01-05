@@ -48,7 +48,7 @@
     <feat name="Poss" value="Yes" upos="DET">408</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
     <feat name="PronType" value="Dem" upos="ADV,DET">403</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
-    <feat name="PronType" value="Dem,Rel" upos="PRON">50</feat><!-- deren, denen, dessen, derer -->
+    <feat name="PronType" value="Dem,Rel" upos="PRON">471</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET">63</feat><!-- viele, viel, vielen, vieles, bißchen, vielem, vieler -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
