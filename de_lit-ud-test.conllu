@@ -50520,7 +50520,7 @@
 11	im	in	ADP	APPRART	_	13	case	_	_
 12	gewöhnlichen	gewöhnlich	ADJ	ADJA	_	13	amod	_	_
 13	Styl	Styl	NOUN	NN	_	1	nmod	_	_
-14	derer	der	PRON	PDS	_	13	nmod	_	SpaceAfter=No
+14	derer	der	PRON	PDS	Case=Gen|PronType=Dem,Rel	13	nmod	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	20	punct	_	_
 16	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	20	nsubj	_	_
 17	die	der	DET	ART	_	18	det	_	_

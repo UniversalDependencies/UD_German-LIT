@@ -35,7 +35,7 @@
   <feats unique="22">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1243</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">356</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">357</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3883</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">189</feat><!-- seine, seiner, sein, seinem, seinen, seines -->
     <feat name="Number" value="Plur" upos="PRON">19</feat><!-- denen -->
@@ -48,7 +48,7 @@
     <feat name="Poss" value="Yes" upos="DET">408</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">922</feat><!-- ein, eine, einen, einer, einem, eines, 'n -->
     <feat name="PronType" value="Dem" upos="ADV,DET">403</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
-    <feat name="PronType" value="Dem,Rel" upos="PRON">49</feat><!-- deren, denen, dessen -->
+    <feat name="PronType" value="Dem,Rel" upos="PRON">50</feat><!-- deren, denen, dessen, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET">63</feat><!-- viele, viel, vielen, vieles, bißchen, vielem, vieler -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
