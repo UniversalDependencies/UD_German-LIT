@@ -38,7 +38,7 @@
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">357</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3883</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">189</feat><!-- seine, seiner, sein, seinem, seinen, seines -->
-    <feat name="Number" value="Plur" upos="PRON">19</feat><!-- denen -->
+    <feat name="Number" value="Plur" upos="DET,PRON">25</feat><!-- denen, den -->
     <feat name="Number" value="Sing" upos="DET,PRON">97</feat><!-- jeder, jedem, jedes, jede, dessen, jeden -->
     <feat name="Number[psor]" value="Sing" upos="DET">199</feat><!-- seine, seiner, sein, seinem, seinen, seines, mein, meine, deine, deiner -->
     <feat name="NumType" value="Card" upos="DET">20</feat><!-- beiden, beide, beides -->

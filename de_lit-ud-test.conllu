@@ -5114,7 +5114,7 @@
 1	–	–	X	XY	_	17	dep	_	_
 2	Er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
 3	wird	werden	AUX	VAFIN	_	9	aux	_	_
-4	den	der	DET	ART	Case=Dat	5	det	_	_
+4	den	der	DET	ART	Case=Dat|Number=Plur	5	det	_	_
 5	Menschen	Mensch	NOUN	NN	Case=Dat	9	obl:arg	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	das	der	DET	ART	_	8	det	_	_
@@ -15889,7 +15889,7 @@
 15	wenn	wenn	SCONJ	KOUS	_	22	mark	_	_
 16	sie	sie	PRON	PPER	Case=Nom	22	nsubj:pass	_	_
 17	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
-18	den	der	DET	ART	Case=Dat	19	det	_	_
+18	den	der	DET	ART	Case=Dat|Number=Plur	19	det	_	_
 19	Impulsionen	Impulsion	NOUN	NN	Case=Dat	22	obl:arg	_	_
 20	des	der	DET	ART	_	21	det	_	_
 21	Ganzen	ganze	NOUN	NN	Case=Gen	19	nmod	_	_
@@ -27295,7 +27295,7 @@
 18	Umgestaltungen	Umgestaltung	NOUN	NN	Case=Acc	39	obl	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	18	punct	_	_
 20	bei	bei	ADP	APPR	_	21	case	_	_
-21	den	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	39	obl	_	_
+21	den	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	39	obl	_	_
 22	Römern	Römer	PROPN	NE	Case=Nom	21	nsubj	_	_
 23	doch	doch	ADV	ADV	_	27	advmod	_	_
 24	immer	immer	ADV	ADV	_	27	advmod	_	_
@@ -38106,7 +38106,7 @@
 7	,	--	PUNCT	$,	_	8	punct	_	_
 8	dünkt	dünken	VERB	VVFIN	_	17	parataxis	_	_
 9	mich	mich	PRON	PPER	Case=Dat	8	obl:arg	_	_
-10	den	der	DET	ART	Case=Dat	11	det	_	_
+10	den	der	DET	ART	Case=Dat|Number=Plur	11	det	_	_
 11	Dichtern	Dichter	NOUN	NN	Case=Dat	17	obl:arg	_	_
 12	den	der	DET	ART	_	13	det	_	_
 13	Rang	Rang	NOUN	NN	Case=Acc	17	obj	_	_
@@ -38201,7 +38201,7 @@
 3	,	--	PUNCT	$,	_	2	punct	_	_
 4	was	was	PRON	PWS	Case=Acc	10	obj	_	_
 5	diese	dieser	DET	PDS	Case=Nom|PronType=Dem	10	nsubj	_	_
-6	den	der	DET	ART	Case=Dat	7	det	_	_
+6	den	der	DET	ART	Case=Dat|Number=Plur	7	det	_	_
 7	Kennern	Kenner	NOUN	NN	Case=Dat	10	obl:arg	_	_
 8	der	der	DET	ART	_	9	det	_	_
 9	Malerei	Malerei	NOUN	NN	_	7	nmod	_	_
@@ -41481,7 +41481,7 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	kindisch	kindisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	den	der	DET	ART	Case=Dat	6	det	_	_
+5	den	der	DET	ART	Case=Dat|Number=Plur	6	det	_	_
 6	Leuten	Leute	NOUN	NN	Case=Dat	8	obl:arg	_	_
 7	das	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	8	obj	_	_
 8	einreden	einreden	VERB	VVINF	_	3	xcomp	_	_
