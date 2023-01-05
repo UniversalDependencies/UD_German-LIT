@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1922</sentences><tokens>40335</tokens><words>40440</words><fused>105</fused></test>
   </size>
-  <lemmas unique="5250" /><!-- –, der, sein, und, ein, zu, in, nicht, es, sich, haben, sie, so, werden, man -->
+  <lemmas unique="5249" /><!-- –, der, sein, und, ein, zu, in, nicht, es, sich, haben, sie, so, werden, man -->
   <forms unique="6979" /><!-- ,, ., der, und, die, ist, zu, in, nicht, das, es, ein, sich, den, sie -->
   <fusions unique="6" /><!-- im, zur, zum, am, vom, ins -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -20,53 +20,60 @@
     <tag name="ADV">3585</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2491</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5681</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, viel -->
+    <tag name="DET">5680</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, viel -->
     <tag name="NOUN">7385</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">31</tag><!-- zwei, drei, eins, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
     <tag name="PRON">2894</tag><!-- der, es, sich, sie, man, er, was, nichts, wir, etwas -->
     <tag name="PROPN">339</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
-    <tag name="SCONJ">521</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
+    <tag name="SCONJ">522</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
     <tag name="VERB">3107</tag><!-- geben, machen, lassen, werden, scheinen, sagen, haben, finden, nennen, sein -->
     <tag name="X">66</tag><!-- –, –, usw, z.b., «, 3), d, d.h., etwas, 1) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="23">
-    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2017</feat><!-- sich, was, es, sie, ihn, etwas, Sinn, nichts, die, alles -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1243</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">357</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3883</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
+  <feats unique="29">
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">2020</feat><!-- sich, was, es, sie, ihn, etwas, die, Sinn, nichts, alles -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1245</feat><!-- dem, ihm, sich, uns, der, ihnen, denen, ihr, Sinn, Geist -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN">358</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">3885</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
     <feat name="Definite" value="Def" upos="DET">3324</feat><!-- der, die, das, den, des, dem -->
+    <feat name="Gender" value="Fem" upos="DET,NOUN">7</feat><!-- die, Eigentümlichkeit, Erden, Gottheit, Willkür, der -->
+    <feat name="Gender" value="Neut" upos="NOUN,PRON">3</feat><!-- Kinder, Mittelglied, das -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">189</feat><!-- seine, seiner, sein, seinem, seinen, seines -->
-    <feat name="Number" value="Plur" upos="DET,PRON">25</feat><!-- denen, den -->
-    <feat name="Number" value="Sing" upos="DET,PRON">97</feat><!-- jeder, jedem, jedes, jede, dessen, jeden -->
+    <feat name="Mood" value="Imp" upos="VERB">1</feat><!-- Ehre -->
+    <feat name="Mood" value="Sub" upos="VERB">2</feat><!-- leben, wohlgehe -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON,VERB">29</feat><!-- denen, den, Kinder, ihnen, leben, sie -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON,VERB">108</feat><!-- jeder, jedem, jedes, jede, dessen, jeden, die, Ehre, Eigentümlichkeit, Erden -->
     <feat name="Number[psor]" value="Sing" upos="DET">199</feat><!-- seine, seiner, sein, seinem, seinen, seines, mein, meine, deine, deiner -->
     <feat name="NumType" value="Card" upos="DET">20</feat><!-- beiden, beide, beides -->
     <feat name="Person" value="1" upos="DET">24</feat><!-- unsere, unser, unsers, mein, meine, unsrer, meinem, meinen, meiner, meines -->
-    <feat name="Person" value="2" upos="DET">2</feat><!-- deine, deiner -->
-    <feat name="Person" value="3" upos="DET">382</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
+    <feat name="Person" value="2" upos="DET,VERB">3</feat><!-- Ehre, deine, deiner -->
+    <feat name="Person" value="3" upos="DET,PRON,VERB">386</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="Poss" value="Yes" upos="DET">408</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">4246</feat><!-- der, die, ein, das, den, eine, des, dem, einen, einer -->
     <feat name="PronType" value="Dem" upos="ADV,DET">403</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
-    <feat name="PronType" value="Dem,Rel" upos="PRON">471</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
+    <feat name="PronType" value="Dem,Rel" upos="PRON">472</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET">63</feat><!-- viele, viel, vielen, vieles, bißchen, vielem, vieler -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">742</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">744</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
     <feat name="PronType" value="Tot" upos="DET">331</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, beiden, jeden -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->
+    <feat name="Tense" value="Pres" upos="VERB">2</feat><!-- leben, wohlgehe -->
+    <feat name="VerbForm" value="Fin" upos="VERB">3</feat><!-- Ehre, leben, wohlgehe -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="36">
-    <dep name="acl">485</dep>
+  <deps unique="37">
+    <dep name="acl">484</dep>
+    <dep name="acl:relcl">1</dep>
     <dep name="advcl">502</dep>
     <dep name="advmod">4125</dep>
     <dep name="amod">2339</dep>
     <dep name="appos">83</dep>
     <dep name="aux">986</dep>
     <dep name="aux:pass">166</dep>
-    <dep name="case">2750</dep>
+    <dep name="case">2749</dep>
     <dep name="cc">1737</dep>
     <dep name="ccomp">156</dep>
     <dep name="compound">4</dep>
@@ -75,19 +82,19 @@
     <dep name="cop">1056</dep>
     <dep name="csubj">136</dep>
     <dep name="dep">34</dep>
-    <dep name="det">4838</dep>
+    <dep name="det">4837</dep>
     <dep name="det:poss">392</dep>
     <dep name="expl">161</dep>
     <dep name="fixed">65</dep>
     <dep name="flat">63</dep>
-    <dep name="mark">954</dep>
+    <dep name="mark">956</dep>
     <dep name="nmod">2057</dep>
     <dep name="nmod:poss">69</dep>
-    <dep name="nsubj">3247</dep>
+    <dep name="nsubj">3248</dep>
     <dep name="nsubj:pass">121</dep>
     <dep name="nummod">22</dep>
     <dep name="obj">1604</dep>
-    <dep name="obl">1597</dep>
+    <dep name="obl">1596</dep>
     <dep name="obl:agent">2</dep>
     <dep name="obl:arg">198</dep>
     <dep name="orphan">63</dep>
