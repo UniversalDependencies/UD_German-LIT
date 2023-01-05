@@ -2222,7 +2222,7 @@
 5	moderne	modern	ADJ	ADJA	_	3	conj	_	_
 6	Gedichte	Gedicht	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	19	punct	_	_
-8	die	der	PRON	PRELS	_	19	det	_	_
+8	die	der	PRON	PRELS	_	19	nmod	_	_
 9	durchgängig	durchgängig	ADV	ADV	_	19	advmod	_	_
 10	im	in	ADP	APPRART	_	11	amod	_	_
 11	Ganzen	Ganze	NOUN	NN	_	19	obl	_	_
@@ -2409,7 +2409,7 @@
 7	greifen	greifen	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	12	punct	_	_
 9	und	und	CCONJ	KON	_	12	cc	_	_
-10	dem	der	PRON	PDS	_	11	det	_	_
+10	dem	der	PRON	PDS	_	11	nmod	_	_
 11	andern	anderer	PRON	PIS	_	12	obl	_	_
 12	vorhalten	vorhalten	VERB	VVINF	_	2	conj	_	SpaceAfter=No
 13	.	--	PUNCT	$.	_	2	punct	_	_
@@ -3338,7 +3338,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f62-s1
 # text = Man hat schon so viele Theorien der Dichtarten.
-1	Man	man	PRON	PIS	_	2	det	_	_
+1	Man	man	PRON	PIS	_	2	nmod	_	_
 2	hat	haben	VERB	VVFIN	_	0	root	_	_
 3	schon	schon	ADV	ADV	_	2	advmod	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
@@ -3591,7 +3591,7 @@
 8	unbedingte	unbedingt	ADJ	ADJA	_	9	amod	_	_
 9	Willkür	Willkür	NOUN	NN	Case=Acc	24	obj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	19	punct	_	_
-11	deren	der	DET	PRELAT	_	12	det	_	_
+11	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	12	nmod	_	_
 12	Schein	Schein	NOUN	NN	Case=Nom	19	nsubj	_	_
 13	dem	der	DET	ART	Case=Dat	14	det	_	_
 14	Witz	Witz	NOUN	NN	Case=Dat	19	obl:arg	_	_
@@ -3809,7 +3809,7 @@
 10	Förmlichkeiten	Förmlichkeit	NOUN	NN	_	8	conj	_	_
 11	hat	haben	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	16	punct	_	_
-13	die	der	PRON	PRELS	_	16	det	_	_
+13	die	der	PRON	PRELS	_	16	nmod	_	_
 14	trockne	trock	ADJ	ADJA	_	16	amod	_	_
 15	harte	hart	ADJ	ADJA	_	16	amod	_	_
 16	Schale	Schale	NOUN	NN	_	11	parataxis	_	_
@@ -5440,7 +5440,7 @@
 1	Viele	viel	DET	PIAT	PronType=Ind	2	det	_	_
 2	Werke	Werk	NOUN	NN	Case=Nom	10	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	8	punct	_	_
-4	deren	der	DET	PRELAT	_	6	det:poss	_	_
+4	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	6	nmod:poss	_	_
 5	schöne	schön	ADJ	ADJA	_	6	amod	_	_
 6	Verkettung	Verkettung	NOUN	NN	Case=Acc	8	obj	_	_
 7	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
@@ -6397,7 +6397,7 @@
 13	,	--	PUNCT	$,	_	20	punct	_	_
 14-15	im	_	_	_	_	_	_	_	_
 14	in	in	ADP	APPR	_	16	case	_	_
-15	dem	der	PRON	PRELS	_	16	det	_	_
+15	dem	der	PRON	PRELS	_	16	nmod	_	_
 16	Sinne	Sinn	NOUN	NN	Case=Dat	20	nmod	_	_
 17	der	der	DET	ART	_	18	det	_	_
 18	Alten	alte	NOUN	NN	_	16	nmod	_	_
@@ -7570,7 +7570,7 @@
 21	Wissenschaft	Wissenschaft	NOUN	NN	Case=Dat	22	obl	_	_
 22	machen	machen	VERB	VVINF	_	26	advcl	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	22	punct	_	_
-24	die	der	PRON	PRELS	_	25	det	_	_
+24	die	der	PRON	PRELS	_	25	nmod	_	_
 25	Kunstansicht	Kunstansicht	NOUN	NN	Case=Acc	26	obj	_	_
 26	erheben	erheben	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	34	punct	_	_
@@ -8347,7 +8347,7 @@
 7	Lebhaftigkeit	Lebhaftigkeit	NOUN	NN	_	2	obl	_	_
 8	über	über	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	20	punct	_	_
-10	deren	der	DET	PRELAT	_	12	det:poss	_	_
+10	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	12	nmod:poss	_	_
 11	gefährliche	gefährlich	ADJ	ADJA	_	12	amod	_	_
 12	Revoluzionssymptome	Revoluzionssymptom	NOUN	NN	Case=Nom	20	nsubj:pass	_	_
 13	nur	nur	ADV	ADV	_	20	advmod	_	_
@@ -9923,7 +9923,7 @@
 29	kann	können	AUX	VMFIN	_	28	aux	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	28	punct	_	_
 31	auch	auch	ADV	ADV	_	44	advmod	_	_
-32	einen	ein	PRON	PIS	_	39	det	_	_
+32	einen	ein	PRON	PIS	_	39	nmod	_	_
 33	ganz	ganz	ADV	ADV	_	34	advmod	_	_
 34	fremden	fremden	ADJ	ADJA	_	39	amod	_	SpaceAfter=No
 35	,	--	PUNCT	$,	_	38	punct	_	_
@@ -13550,7 +13550,7 @@
 3	tödtliche	tödtlich	ADJ	ADJA	_	4	amod	_	_
 4	Frost	Frost	NOUN	NN	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
-6	die	der	PRON	PRELS	_	8	det	_	_
+6	die	der	PRON	PRELS	_	8	nmod	_	_
 7	freye	frey	ADJ	ADJA	_	8	amod	_	_
 8	Denkkraft	Denkkraft	NOUN	NN	_	4	appos	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
@@ -15359,7 +15359,7 @@
 24	und	und	CCONJ	KON	_	29	cc	_	_
 25	nur	nur	ADV	ADV	_	28	advmod	_	_
 26	für	für	ADP	APPR	_	28	case	_	_
-27	dessen	der	PRON	PDS	_	28	det	_	_
+27	dessen	der	PRON	PDS	_	28	nmod	_	_
 28	Lüste	Lüste	NOUN	NN	Case=Acc	29	obl	_	_
 29	sinnt	sinnen	VERB	VVFIN	_	17	conj	_	_
 30	und	und	CCONJ	KON	_	31	cc	_	_
@@ -16295,7 +16295,7 @@
 5	eine	ein	DET	ART	PronType=Art	6	det	_	_
 6	Substanz	Substanz	NOUN	NN	Case=Nom	4	nsubj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	16	punct	_	_
-8	deren	der	DET	PRELAT	_	9	det	_	_
+8	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	9	nmod	_	_
 9	Wirkung	Wirkung	NOUN	NN	Case=Nom	16	nsubj	_	_
 10	so	so	ADV	ADV	_	11	advmod	_	_
 11	lange	lange	ADV	ADV	_	16	advmod	_	SpaceAfter=No
@@ -16819,7 +16819,7 @@
 6	viel	viel	ADV	ADV	_	4	advmod	_	_
 7	äußern	äußern	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	10	punct	_	_
-9	die	der	PRON	PRELS	_	10	det	_	_
+9	die	der	PRON	PRELS	_	10	nmod	_	_
 10	andere	anderer	PRON	PIS	_	4	parataxis	_	_
 11	zu	zu	PART	PTKA	_	12	case	_	_
 12	viel	viel	DET	PIS	Case=Dat|PronType=Ind	10	orphan	_	_
@@ -18398,7 +18398,7 @@
 57	jedes	jeder	DET	PIAT	Number=Sing|PronType=Tot	58	det	_	_
 58	Geistes	Geist	NOUN	NN	_	54	nmod	_	SpaceAfter=No
 59	,	--	PUNCT	$,	_	58	punct	_	_
-60	deren	der	DET	PRELAT	_	61	det	_	_
+60	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	61	nmod	_	_
 61	Exponent	Exponent	NOUN	NN	Case=Nom	58	acl	_	_
 62	oder	oder	CCONJ	KON	_	63	cc	_	_
 63	Wurzel	Wurzel	NOUN	NN	_	61	conj	_	_
@@ -18952,7 +18952,7 @@
 21	kann	können	AUX	VMFIN	_	19	aux	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	19	punct	_	_
 23	wie	wie	CCONJ	KOKOM	_	25	case	_	_
-24	das	der	PRON	PDS	_	25	det	_	_
+24	das	der	PRON	PDS	_	25	nmod	_	_
 25	Jetzt	jetzt	ADV	ADV	_	19	nmod	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	25	punct	_	_
 27	und	und	CCONJ	KON	_	25	cc	_	_
@@ -19120,7 +19120,7 @@
 16	wollt	wollen	AUX	VMFIN	_	14	flat	_	SpaceAfter=No
 17	«	«	PUNCT	XY	_	14	punct	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	24	punct	_	_
-19	dem	der	PRON	PRELS	Case=Dat	20	det	_	_
+19	dem	der	PRON	PRELS	Case=Dat	20	nmod	_	_
 20	Malvolio	Malvolio	PROPN	NE	Case=Dat	24	obl:arg	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
 22	den	der	DET	ART	_	23	det	_	_
@@ -20048,7 +20048,7 @@
 24	wirklichen	wirklich	ADJ	ADJA	_	25	amod	_	_
 25	Ehe	Ehe	NOUN	NN	Case=Dat	21	nmod	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	25	punct	_	_
-27	deren	der	DET	PRELAT	_	29	det:poss	_	_
+27	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	29	nmod:poss	_	_
 28	eigentliches	eigentlich	ADJ	ADJA	_	29	amod	_	_
 29	Wesen	Wesen	NOUN	NN	Case=Acc	48	obj	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	29	punct	_	_
@@ -20125,7 +20125,7 @@
 17	ankommt	ankommen	VERB	VVFIN	_	11	advcl	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	22	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	22	mark	_	_
-20	einer	ein	PRON	PIS	_	22	det	_	_
+20	einer	ein	PRON	PIS	_	22	nmod	_	_
 21	ein	ein	DET	ART	PronType=Art	22	det	_	_
 22	Individuum	Individuum	NOUN	NN	_	17	ccomp	_	_
 23	für	für	ADP	APPR	_	24	ccomp	_	_
@@ -20491,7 +20491,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f41-s1
 # text = Die welche Profession davon gemacht haben, den Kant zu erklären waren entweder solche, denen es an einem Organ fehlte, um sich von den Gegenständen über die Kant geschrieben hat, einige Notiz zu verschaffen; oder solche, die nur das kleine Unglück hatten, niemand zu verstehen als sich selbst; oder solche, die sich noch verworrener ausdrückten als er.
-1	Die	der	PRON	PIS	_	3	det	_	_
+1	Die	der	PRON	PIS	_	3	nmod	_	_
 2	welche	welcher	DET	PWAT	PronType=Int,Rel	3	det	_	_
 3	Profession	Profession	NOUN	NN	Case=Nom	14	nsubj	_	_
 4	davon	davon	ADV	PROAV	PronType=Dem	5	advmod	_	_
@@ -23312,7 +23312,7 @@
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	3	punct	_	_
-5	deren	der	DET	PRELAT	_	7	det:poss	_	_
+5	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	7	nmod:poss	_	_
 6	ganze	ganz	ADJ	ADJA	_	7	amod	_	_
 7	Tätigkeit	Tätigkeit	NOUN	NN	Case=Nom	9	nsubj	_	_
 8	darin	darin	ADV	PAV	PronType=Dem	9	advmod	_	_
@@ -25292,7 +25292,7 @@
 # text = Werke, deren Ideal für den Künstler nicht ebensoviel lebendige Realität, und gleichsam Persönlichkeit hat, wie die Geliebte oder der Freund, blieben besser ungeschrieben.
 1	Werke	Werk	NOUN	NN	Case=Nom	25	nsubj	_	SpaceAfter=No
 2	,	--	PUNCT	$,	_	4	punct	_	_
-3	deren	der	DET	PRELAT	_	4	det	_	_
+3	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	4	nmod	_	_
 4	Ideal	Ideal	NOUN	NN	Case=Nom	16	nsubj	_	_
 5	für	für	ADP	APPR	_	7	case	_	_
 6	den	der	DET	ART	_	7	det	_	_
@@ -25845,7 +25845,7 @@
 17	Philosophie	Philosophie	NOUN	NN	Case=Acc	44	nmod	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	30	punct	_	_
 19	auf	auf	ADP	APPR	_	21	case	_	_
-20	deren	der	DET	PRELAT	_	21	det	_	_
+20	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	21	nmod	_	_
 21	Standpunkte	Standpunkt	NOUN	NN	_	30	obl	_	_
 22	der	der	DET	ART	_	23	det	_	_
 23	Geist	Geist	NOUN	NN	Case=Nom	30	nsubj	_	_
@@ -26002,7 +26002,7 @@
 9	vorkam	vorkommen	VERB	VVFIN	_	20	advcl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	die	der	PRON	PRELS	Case=Nom	14	nsubj	_	_
-12	einen	ein	PRON	PIS	_	14	det	_	_
+12	einen	ein	PRON	PIS	_	14	nmod	_	_
 13	weder	weder	CCONJ	KON	_	14	cc	_	_
 14	kalt	kalt	ADJ	ADJD	_	5	acl	_	_
 15	noch	noch	CCONJ	KON	_	16	cc	_	_
@@ -26357,7 +26357,7 @@
 5	Fragen	Frage	NOUN	NN	Case=Dat	3	obl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	8	punct	_	_
 7	wie	wie	CCONJ	KOKOM	_	8	case	_	_
-8	die	der	PRON	PDS	_	5	det	_	_
+8	die	der	PRON	PDS	_	5	nmod	_	_
 9	über	über	ADP	APPR	_	11	case	_	_
 10	den	der	DET	ART	_	11	det	_	_
 11	Gebrauch	Gebrauch	NOUN	NN	_	8	obl	_	_
@@ -30518,7 +30518,7 @@
 8	lernen	lernen	VERB	VVINF	_	3	xcomp	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	13	punct	_	_
 10	von	von	ADP	APPR	_	12	case	_	_
-11	dem	der	PRON	PRELS	_	12	det	_	_
+11	dem	der	PRON	PRELS	_	12	nmod	_	_
 12	Michelangelo	Michelangelo	PROPN	NE	Case=Dat	13	obl	_	_
 13	lernen	lernen	VERB	VVINF	_	8	conj	_	_
 14	konnte	können	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
@@ -30845,7 +30845,7 @@
 9	geopfert	opfern	VERB	VVPP	_	0	root	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	17	punct	_	_
 11	an	an	ADP	APPR	_	14	case	_	_
-12	deren	der	DET	PRELAT	_	14	det:poss	_	_
+12	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	14	nmod:poss	_	_
 13	wunderlichen	wunderlich	ADJ	ADJA	_	14	amod	_	_
 14	Sprüngen	Sprung	NOUN	NN	_	17	obl	_	_
 15	er	er	PRON	PPER	Case=Nom	17	nsubj	_	_
@@ -33679,7 +33679,7 @@
 3	eine	ein	DET	ART	PronType=Art	4	det	_	_
 4	Poesie	Poesie	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	11	punct	_	_
-6	deren	der	DET	PRELAT	_	11	det	_	_
+6	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	11	nmod	_	_
 7	eins	eins	PRON	PIS	Case=Nom	11	nsubj	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	alles	alle	DET	PIS	PronType=Tot	7	det	_	_
@@ -34962,7 +34962,7 @@
 3	des	der	DET	ART	_	4	det	_	_
 4	Romans	Roman	NOUN	NN	Case=Gen	2	nmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	12	punct	_	_
-6	deren	der	DET	PRELAT	_	8	det:poss	_	_
+6	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	8	nmod:poss	_	_
 7	erste	erster	ADJ	ADJA	_	8	amod	_	_
 8	Grundlinien	Grundlinie	NOUN	NN	Case=Nom	12	nsubj	_	_
 9	Platos	Plato	PROPN	NE	_	11	nmod:poss	_	_
@@ -39554,7 +39554,7 @@
 4	Elementen	Element	NOUN	NN	_	22	obl	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	10	punct	_	_
 6	in	in	ADP	APPR	_	10	case	_	_
-7	dem	der	PRON	PRELS	_	10	det	_	_
+7	dem	der	PRON	PRELS	_	10	nmod	_	_
 8	unauflöslich	unauflöslich	ADV	ADV	_	9	advmod	_	_
 9	scheinenden	scheinend	ADJ	ADJA	_	10	amod	_	_
 10	Widerspruche	Widerspruche	NOUN	NN	Case=Dat	4	conj	_	_
@@ -40565,7 +40565,7 @@
 1	Oder	oder	CCONJ	KON	_	6	cc	_	_
 2	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
 3	hat	haben	AUX	VAFIN	_	6	aux	_	_
-4	etwas	etwas	PRON	PIS	_	6	det	_	_
+4	etwas	etwas	PRON	PIS	_	6	nmod	_	_
 5	Neues	neue	NOUN	NN	_	4	nmod	_	_
 6	gehört	gehören	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
@@ -41086,7 +41086,7 @@
 19	oder	oder	CCONJ	KON	_	20	cc	_	_
 20	leben	leben	VERB	VVINF	_	18	conj	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	32	punct	_	_
-22	deren	der	DET	PRELAT	_	23	det:poss	_	_
+22	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	23	nmod:poss	_	_
 23	jeder	jeder	DET	PIS	Case=Nom|Number=Sing|PronType=Tot	32	nsubj	_	_
 24	aber	aber	ADV	ADV	_	32	advmod	_	_
 25	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	32	obj	_	_
@@ -42571,7 +42571,7 @@
 14	zuvorkommendern	zuvorkommendern	ADJ	ADJA	_	15	amod	_	_
 15	Mitteilung	Mitteilung	NOUN	NN	_	9	obl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	22	punct	_	_
-17	einer	ein	PRON	PIS	_	22	det	_	_
+17	einer	ein	PRON	PIS	_	22	nmod	_	_
 18	schamhaften	schamhaft	VERB	VVFIN	_	22	amod	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	20	punct	_	_
 20	schüchtern	schüchtern	VERB	VVINF	_	18	amod	_	_
@@ -43011,7 +43011,7 @@
 1	Erfahrungen	Erfahrung	NOUN	NN	Case=Nom	18	nsubj	_	_
 2	und	und	CCONJ	KON	_	3	cc	_	_
 3	Erkenntnisse	Erkenntnis	NOUN	NN	_	1	conj	_	_
-4	deren	der	DET	PRELAT	_	5	det	_	_
+4	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	5	nmod	_	_
 5	Erwerbung	Erwerbung	NOUN	NN	Case=Nom	11	nsubj	_	_
 6	von	von	ADP	APPR	_	10	case	_	_
 7	lokalen	lokal	ADJ	ADJA	_	10	amod	_	_
@@ -45229,12 +45229,12 @@
 28	nehmen	nehmen	VERB	VVINF	_	22	ccomp	_	_
 29	muß	müssen	AUX	VMFIN	_	28	aux	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	34	punct	_	_
-31	deren	der	DET	PRELAT	_	32	det:poss	_	_
+31	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	32	nmod:poss	_	_
 32	Geheimnisse	Geheimnis	NOUN	NN	_	34	orphan	_	_
 33	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	38	det:poss	_	_
 34	diplomatischen	diplomatisch	ADJ	ADJA	_	28	conj	_	_
 35	und	und	CCONJ	KON	_	42	cc	_	_
-36	deren	der	DET	PRELAT	_	38	det:poss	_	_
+36	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	38	nmod:poss	_	_
 37	verwickelte	verwickelt	ADJ	ADJA	_	38	obl	_	_
 38	Streitfragen	Streitfrage	NOUN	NN	Case=Acc	42	obj	_	_
 39	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	41	det:poss	_	_
@@ -45441,7 +45441,7 @@
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	kämpfen	kämpfen	VERB	VVINF	_	11	xcomp	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	17	punct	_	_
-19	deren	der	DET	PRELAT	_	20	det	_	_
+19	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	20	nmod	_	_
 20	Unscheinbarstes	Unscheinbarster	NOUN	NN	Case=Nom	32	nsubj	_	_
 21	oft	oft	ADV	ADV	_	32	advmod	_	_
 22	den	der	DET	ART	_	23	det	_	_
@@ -47400,7 +47400,7 @@
 9	selten	selten	ADV	ADV	_	7	advmod	_	_
 10	der	der	DET	ART	_	11	det	_	_
 11	Geist	Geist	NOUN	NN	Case=Nom	7	nsubj	_	_
-12	einer	ein	PRON	PIS	_	14	det	_	_
+12	einer	ein	PRON	PIS	_	14	nmod	_	_
 13	andern	anderer	ADJ	ADJA	_	14	amod	_	_
 14	Kunst	Kunst	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 15	.	--	PUNCT	$.	_	7	punct	_	_
@@ -48085,7 +48085,7 @@
 12	en	--	ADP	APPR	_	11	nmod	_	_
 13	miniature	miniature	NOUN	NN	_	12	flat	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	19	punct	_	_
-15	deren	der	DET	PRELAT	_	16	det:poss	_	_
+15	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	16	nmod:poss	_	_
 16	Schein	Schein	NOUN	NN	Case=Nom	19	nsubj	_	_
 17	die	der	DET	ART	_	18	det	_	_
 18	Unschuld	Unschuld	NOUN	NN	Case=Acc	19	obj	_	_
@@ -50389,7 +50389,7 @@
 8	die	der	DET	ART	_	9	det	_	_
 9	Kritik	Kritik	NOUN	NN	Case=Nom	7	nsubj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	15	punct	_	_
-11	deren	der	DET	PRELAT	_	12	det	_	_
+11	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	12	nmod	_	_
 12	Stoff	Stoff	NOUN	NN	Case=Nom	15	nsubj	_	_
 13	nur	nur	ADV	ADV	_	15	advmod	_	_
 14	das	der	DET	ART	_	15	det	_	_
@@ -50413,7 +50413,7 @@
 32	Philologen	Philologe	NOUN	NN	Case=Nom	55	nsubj	_	SpaceAfter=No
 33	,	--	PUNCT	$,	_	46	punct	_	_
 34	an	an	ADP	APPR	_	36	case	_	_
-35	deren	der	DET	PRELAT	_	36	det	_	_
+35	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	36	nmod	_	_
 36	meisten	meister	ADV	ADV	_	46	advmod	_	_
 37	man	man	PRON	PIS	Case=Nom	46	nsubj	_	_
 38	die	der	DET	ART	_	42	det	_	_
@@ -52486,7 +52486,7 @@
 34	falschen	falsch	ADJ	ADJA	_	35	amod	_	_
 35	Tendenzen	Tendenz	NOUN	NN	Case=Dat	30	obl	_	SpaceAfter=No
 36	,	--	PUNCT	$,	_	41	punct	_	_
-37	deren	der	PRON	PRELS	_	41	obl	_	_
+37	deren	der	PRON	PRELS	Case=Gen|PronType=Dem,Rel	41	obl	_	_
 38	er	er	PRON	PPER	Case=Nom	41	nsubj	_	_
 39	so	so	ADV	ADV	_	40	advmod	_	_
 40	viele	viel	DET	PIS	Case=Acc|PronType=Ind	41	obj	_	_
