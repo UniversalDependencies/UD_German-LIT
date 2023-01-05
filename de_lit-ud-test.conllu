@@ -4158,13 +4158,13 @@
 # text = Gabriel, che fra i primi era il secondo;
 1	Gabriel	Gabriel	PROPN	NE	_	0	root	_	SpaceAfter=No
 2	,	--	PUNCT	$,	_	9	punct	_	_
-3	che	chen	PRON	XY	Case=Nom	9	nsubj	_	_
-4	fra	fra	ADP	XY	_	6	case	_	_
-5	i	I	DET	XY	_	6	det	_	_
-6	primi	PRON	X	FM	_	9	nmod	_	_
-7	era	era	VERB	FM	_	9	dep	_	_
-8	il	il	DET	FM	_	9	det	_	_
-9	secondo	ADJ	X	FM	_	1	acl	_	SpaceAfter=No
+3	che	che	PRON	FM	Foreign=Yes|PronType=Rel	9	nsubj	_	Lang=it
+4	fra	fra	ADP	FM	Foreign=Yes	6	case	_	Lang=it
+5	i	il	DET	FM	Foreign=Yes|Gender=Masc|Number=Plur|PronType=Art	6	det	_	Lang=it
+6	primi	primo	ADJ	FM	Foreign=Yes|Gender=Masc|Number=Plur	9	obl	_	Lang=it
+7	era	essere	AUX	FM	Foreign=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	Lang=it
+8	il	il	DET	FM	Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Lang=it
+9	secondo	secondo	ADJ	FM	Foreign=Yes|Gender=Masc|Number=Sing	1	acl:relcl	_	Lang=it|SpaceAfter=No
 10	;	--	PUNCT	$.	_	1	punct	_	_
 
 # genre = fragments
@@ -45154,7 +45154,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f358-s1
 # text = Leibniz bedient sich einmal, indem er das Wesen und Tun einer Monade beschreibt, des merkwürdigen Ausdrucks: Cela peut aller jusqu'au sentiment.
-1	Leibniz	Leibniz	PROPN	NE	Case=Nom	2	nsubj	_	_
+1	Leibniz	Leibniz	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	bedient	bedienen	VERB	VVFIN	_	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	einmal	einmal	ADV	ADV	_	2	advmod	_	SpaceAfter=No
@@ -45169,15 +45169,15 @@
 13	Monade	Monade	NOUN	NN	_	9	nmod	_	_
 14	beschreibt	beschreiben	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	14	punct	_	_
-16	des	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
-17	merkwürdigen	merkwürdig	ADJ	ADJA	_	18	amod	_	_
-18	Ausdrucks	Ausdruck	NOUN	NN	Case=Gen	2	obl	_	SpaceAfter=No
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	merkwürdigen	merkwürdig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	Ausdrucks	Ausdruck	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 19	:	--	PUNCT	$.	_	21	punct	_	_
-20	Cela	Cela	PROPN	NE	Case=Nom	21	nsubj	_	_
-21	peut	peut	NOUN	NN	Case=Acc	2	obj	_	_
-22	aller	alle	DET	PIAT	PronType=Tot	23	det	_	_
-23	jusqu'au	jusqu'au	NOUN	NN	_	21	nmod	_	_
-24	sentiment	sentiment	ADJ	ADJD	_	21	xcomp	_	SpaceAfter=No
+20	Cela	cela	PRON	PDS	Foreign=Yes|PronType=Dem	21	nsubj	_	Lang=fr
+21	peut	pouvoir	VERB	VVFIN	Foreign=Yes|VerbForm=Fin	18	appos	_	Lang=fr
+22	aller	aller	VERB	VVINF	Foreign=Yes|VerbForm=Inf	21	xcomp	_	Lang=fr
+23	jusqu'au	jusqu'au	ADP	APPR	Foreign=Yes	24	case	_	Lang=fr
+24	sentiment	sentiment	NOUN	NN	Foreign=Yes	22	obl	_	Lang=fr|SpaceAfter=No
 25	.	--	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -45242,13 +45242,13 @@
 41	Sinn	Sinn	NOUN	NN	Case=Acc	42	obj	_	_
 42	anlocken	anlocken	VERB	VVINF	_	34	conj	_	SpaceAfter=No
 43	:	--	PUNCT	$.	_	45	punct	_	_
-44	cela	cela	PRON	PDS	Case=Nom	45	nsubj	_	_
-45	peut	peut	VERB	VVFIN	_	8	parataxis	_	_
-46	aller	alle	DET	PIAT	Case=Acc|PronType=Tot	45	obj	_	_
-47	jusqu'	jusqu'	ADP	APPR	_	58	case	_	_
-48	à	à	ADP	APPR	_	50	case	_	_
-49	la	la	DET	ART	_	50	det	_	_
-50	philosophie	philosophie	NOUN	NN	_	45	obl	_	SpaceAfter=No
+44	cela	cela	PRON	PDS	Foreign=Yes|PronType=Dem	45	nsubj	_	Lang=fr
+45	peut	pouvoir	VERB	VVFIN	Foreign=Yes|VerbForm=Fin	8	parataxis	_	Lang=fr
+46	aller	aller	VERB	VVINF	Foreign=Yes|VerbForm=Inf	45	xcomp	_	Lang=fr
+47	jusqu'	jusqu'	ADP	APPR	Foreign=Yes	50	case	_	Lang=fr
+48	à	à	ADP	APPR	Foreign=Yes	50	case	_	Lang=fr
+49	la	il	DET	ART	Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing|PronType=Art	50	det	_	Lang=fr
+50	philosophie	philosophie	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	46	obl	_	Lang=fr|SpaceAfter=No
 51	,	--	PUNCT	$,	_	58	punct	_	_
 52	wenn	wenn	SCONJ	KOUS	_	58	mark	_	_
 53	er	er	PRON	PPER	Case=Nom	58	nsubj	_	_
