@@ -13899,14 +13899,14 @@
 7	unentbehrlicher	unentbehrlich	ADJ	ADJD	_	0	root	_	_
 8	als	als	CCONJ	KOKOM	_	10	case	_	_
 9	ein	ein	DET	ART	PronType=Art	10	det	_	_
-10	Mittelglied	Mittelglied	NOUN	NN	_	7	nmod	_	SpaceAfter=No
+10	Mittelglied	Mittelglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	17	punct	_	_
-12	das	das	DET	ART	_	17	det	_	_
+12	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	_
 13	uns	uns	PRON	PPER	Case=Acc	17	obj	_	_
 14	mit	mit	ADP	APPR	_	16	case	_	_
-15	der	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
-16	Gottheit	Gottheit	NOUN	NN	Case=Dat	17	obl	_	_
-17	verbindet	verbinden	VERB	VVFIN	_	10	acl	_	SpaceAfter=No
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Gottheit	Gottheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+17	verbindet	verbinden	VERB	VVFIN	_	10	acl:relcl	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	7	punct	_	_
 
 # genre = fragments
@@ -46458,27 +46458,27 @@
 # sent_id = athenaeum-f364-s8
 # text = 5) Ehre die Eigentümlichkeit und die Willkür deiner Kinder, auf daß es ihnen wohlgehe, und sie kräftig leben auf Erden.
 1	5)	5)	X	XY	_	2	dep	_	_
-2	Ehre	Ehre	VERB	VVIMP	_	0	root	_	_
-3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-4	Eigentümlichkeit	Eigentümlichkeit	NOUN	NN	Case=Acc	2	obj	_	_
+2	Ehre	ehren	VERB	VVIMP	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Eigentümlichkeit	Eigentümlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 5	und	und	CCONJ	KON	_	7	cc	_	_
-6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
-7	Willkür	Willkür	NOUN	NN	_	4	conj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Willkür	Willkür	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
 8	deiner	dein	DET	PPOSAT	Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	9	det:poss	_	_
-9	Kinder	Kind	NOUN	NN	_	7	nmod	_	SpaceAfter=No
+9	Kinder	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	15	punct	_	_
-11	auf	auf	ADP	APPR	_	12	case	_	_
-12	daß	daß	PRON	PRELS	_	15	obl	_	_
+11	auf	auf	ADP	APPR	_	15	mark	_	_
+12	daß	daß	SCONJ	KOUS	_	15	mark	_	_
 13	es	es	PRON	PPER	Case=Nom	15	nsubj	_	_
-14	ihnen	ihnen	PRON	PPER	Case=Dat	15	obl:arg	_	_
-15	wohlgehe	wohlgehen	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
+14	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	15	obl:arg	_	_
+15	wohlgehe	wohlgehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	20	punct	_	_
 17	und	und	CCONJ	KON	_	20	cc	_	_
-18	sie	sie	PRON	PPER	Case=Nom	20	nsubj	_	_
+18	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
 19	kräftig	kräftig	ADV	ADV	_	20	advmod	_	_
-20	leben	leben	VERB	VVINF	_	15	conj	_	_
+20	leben	leben	VERB	VVFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 21	auf	auf	ADP	APPR	_	22	case	_	_
-22	Erden	Erde	NOUN	NN	_	20	obl	_	SpaceAfter=No
+22	Erden	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
