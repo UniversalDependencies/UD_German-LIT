@@ -403,7 +403,7 @@
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	fehlt	fehlen	VERB	VVFIN	_	0	root	_	_
 12	gewöhnlich	gewöhnlich	ADJ	ADJD	_	11	advmod	_	_
-13	eins	eins	PRON	PIS	Case=Acc	11	obj	_	_
+13	eins	eins	NUM	PIS	Case=Acc|NumType=Card	11	obj	_	_
 14	von	von	ADP	APPR	_	15	case	_	_
 15	beiden	beide	DET	PIS	Case=Dat|NumType=Card|PronType=Tot	13	det	_	SpaceAfter=No
 16	;	--	PUNCT	$.	_	11	punct	_	_
@@ -1231,7 +1231,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f33-s1
 # text = Eins von beiden ist fast immer herrschende Neigung jedes Schriftstellers: entweder manches nicht zu sagen, was durchaus gesagt werden müßte, oder vieles zu sagen, was durchaus nicht gesagt zu werden brauchte.
-1	Eins	Eins	NUM	CARD	_	8	nsubj	_	_
+1	Eins	eins	NUM	CARD	NumType=Card	8	nsubj	_	_
 2	von	von	ADP	APPR	_	3	case	_	_
 3	beiden	beide	DET	PIS	Case=Dat|NumType=Card|PronType=Tot	1	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	8	cop	_	_
@@ -2767,7 +2767,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f49-s1
 # text = Eins der wichtigsten Moyens der dramatischen und romantischen Kunst bei den Engländern sind die Guineen.
-1	Eins	Eins	PRON	PIS	Case=Nom	15	nsubj	_	_
+1	Eins	eins	NUM	PIS	Case=Nom|NumType=Card	15	nsubj	_	_
 2	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 3	wichtigsten	wichtig	ADJ	ADJA	_	4	amod	_	_
 4	Moyens	Moyen	NOUN	NN	_	1	nmod	_	_
@@ -5577,7 +5577,7 @@
 25	nur	nur	ADV	ADV	_	26	advmod	_	_
 26	Bruchstück	Bruchstück	NOUN	NN	_	2	conj	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	28	punct	_	_
-28	eins	eins	NUM	CARD	_	26	conj	_	_
+28	eins	eins	NUM	CARD	NumType=Card	26	conj	_	_
 29	oder	oder	CCONJ	KON	_	30	cc	_	_
 30	mehre	mehren	VERB	VVFIN	_	28	conj	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	32	punct	_	_
@@ -17005,7 +17005,7 @@
 3	Abstrakzion	Abstrakzion	NOUN	NN	_	6	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
 5	alles	alle	DET	PDS	Case=Nom|PronType=Tot	6	nsubj	_	_
-6	eins	eins	PRON	PDS	_	0	root	_	SpaceAfter=No
+6	eins	eins	NUM	PDS	NumType=Card	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	11	punct	_	_
 8	aber	aber	CCONJ	KON	_	11	cc	_	_
 9	eins	einer	PRON	PIS	_	11	amod	_	_
@@ -24917,7 +24917,7 @@
 21	,	--	PUNCT	$,	_	20	punct	_	_
 22	sei	sein	AUX	VAFIN	_	24	cop	_	_
 23	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
-24	Eins	Eins	NOUN	NN	Case=Nom	12	ccomp	_	_
+24	Eins	eins	NUM	NN	Case=Nom|NumType=Card	12	ccomp	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
 26	Alles	alle	DET	PIS	PronType=Tot	24	conj	_	SpaceAfter=No
 27	;	--	PUNCT	$.	_	30	punct	_	_
@@ -29438,7 +29438,7 @@
 # text = Läßt sich eins von beiden von der englischen Kunstliebhaberei rühmen?
 1	Läßt	lassen	VERB	VVFIN	_	0	root	_	_
 2	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	1	obj	_	_
-3	eins	eins	PRON	PIS	Case=Nom	1	nsubj	_	_
+3	eins	eins	NUM	PIS	Case=Nom|NumType=Card	1	nsubj	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
 5	beiden	beide	DET	PIS	Case=Dat|NumType=Card|PronType=Tot	3	nmod	_	_
 6	von	von	ADP	APPR	_	9	case	_	_
@@ -33680,7 +33680,7 @@
 4	Poesie	Poesie	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	11	punct	_	_
 6	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	11	nmod	_	_
-7	eins	eins	PRON	PIS	Case=Nom	11	nsubj	_	_
+7	eins	eins	NUM	PIS	Case=Nom|NumType=Card	11	nsubj	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	alles	alle	DET	PIS	PronType=Tot	7	det	_	_
 10	das	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
@@ -38440,7 +38440,7 @@
 5	durchdringen	durchdringen	VERB	VVFIN	_	12	advcl	_	_
 6	und	und	CCONJ	KON	_	9	cc	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
-8	eins	eins	PRON	PIS	_	9	obl	_	_
+8	eins	eins	NUM	PIS	NumType=Card	9	obl	_	_
 9	schmelzen	schmelzen	VERB	VVINF	_	5	conj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	da	da	ADV	ADV	_	12	advmod	_	_
@@ -40976,7 +40976,7 @@
 9	so	so	ADV	ADV	_	10	advmod	_	_
 10	erfolgt	erfolgen	VERB	VVFIN	_	0	root	_	_
 11	gewöhnlich	gewöhnlich	ADJ	ADJD	_	10	advmod	_	_
-12	eins	eins	PRON	PIS	Case=Nom	10	nsubj	_	_
+12	eins	eins	NUM	PIS	Case=Nom|NumType=Card	10	nsubj	_	_
 13	von	von	ADP	APPR	_	14	case	_	_
 14	beiden	beide	DET	PIS	Case=Dat|NumType=Card|PronType=Tot	12	nmod	_	SpaceAfter=No
 15	:	--	PUNCT	$.	_	10	punct	_	_
@@ -52033,7 +52033,7 @@
 24	gilt	gelten	VERB	VVFIN	_	34	advcl	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	27	punct	_	_
 26	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
-27	Eins	Eins	NOUN	NN	_	24	conj	_	_
+27	Eins	eins	NUM	NN	NumType=Card	24	conj	_	_
 28	und	und	CCONJ	KON	_	29	cc	_	_
 29	Alles	alle	DET	PIS	PronType=Tot	27	conj	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	27	punct	_	_
