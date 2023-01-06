@@ -5,7 +5,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f1-s1
 # text = Man nennt viele Künstler, die eigentlich Kunstwerke der Natur sind.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	nennt	nennen	VERB	VVFIN	_	0	root	_	_
 3	viele	viel	DET	PIAT	Case=Acc|PronType=Ind	2	obj	_	_
 4	Künstler	Künstler	NOUN	NN	_	2	xcomp	_	SpaceAfter=No
@@ -45,7 +45,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f2-s2
 # text = man müßte ihm denn Helden, Musik oder Narren zum besten geben.
-1	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+1	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 2	müßte	müssen	AUX	VMFIN	_	12	aux	_	_
 3	ihm	ihm	PRON	PPER	Case=Dat	12	obl:arg	_	_
 4	denn	denn	ADV	ADV	_	12	advmod	_	_
@@ -181,7 +181,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f6-s1
 # text = Man tadelt die metrische Sorglosigkeit der Goetheschen Gedichte.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	tadelt	tadeln	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	metrische	metrisch	ADJ	ADJA	_	5	amod	_	_
@@ -332,7 +332,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f10-s1
 # text = Man muß das Brett bohren, wo es am dicksten ist.
-1	Man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	_	5	aux	_	_
 3	das	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Brett	Brett	NOUN	NN	Case=Acc	5	obj	_	_
@@ -395,7 +395,7 @@
 2	dem	der	PRON	PDS	PronType=Dem,Rel	11	obl	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	9	punct	_	_
 4	was	was	PRON	PRELS	Case=Acc	9	obj	_	_
-5	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 6	Philosophie	Philosophie	NOUN	NN	_	9	xcomp	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Kunst	Kunst	NOUN	NN	_	6	nmod	_	_
@@ -448,7 +448,7 @@
 # text = So hört man auch wohl Witz aristophanisch nennen, an dem nichts klassisch ist, als die Zwanglosigkeit und die Deutlichkeit.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	hört	hören	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	auch	auch	ADV	ADV	_	2	advmod	_	_
 5	wohl	wohl	ADV	ADV	_	2	advmod	_	_
 6	Witz	Witz	NOUN	NN	Case=Acc	8	obj	_	_
@@ -595,7 +595,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f16-s2
 # text = Man soll von jedermann Genie fordern, aber ohne es zu erwarten.
-1	Man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 2	soll	sollen	AUX	VMFIN	_	6	aux	_	_
 3	von	von	ADP	APPR	_	4	case	_	_
 4	jedermann	jedermann	DET	PIAT	Case=Dat	6	det	_	_
@@ -1521,7 +1521,7 @@
 8	können	können	AUX	VMINF	_	6	aux	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	17	punct	_	_
 10	muß	müssen	AUX	VMFIN	_	17	aux	_	_
-11	man	man	PRON	PIS	Case=Nom	17	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 12	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	_
 13	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 14	mehr	mehr	ADV	ADV	_	17	advmod	_	_
@@ -1539,7 +1539,7 @@
 2	Gedanke	Gedanke	NOUN	NN	Case=Nom	14	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	8	punct	_	_
 4	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	8	obj	_	_
-5	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 6	mit	mit	ADP	APPR	_	7	case	_	_
 7	Besonnenheit	Besonnenheit	NOUN	NN	Case=Dat	8	obl	_	_
 8	ausdrücken	ausdrücken	VERB	VVINF	_	2	acl	_	_
@@ -1664,7 +1664,7 @@
 5	überall	überall	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	12	punct	_	_
 7	wo	wo	ADV	PWAV	_	12	advmod	_	_
-8	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	_
 10	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 11	selbst	selbst	ADV	ADV	_	12	advmod	_	_
@@ -1682,7 +1682,7 @@
 # sent_id = lyceum-f37-s7
 # text = wodurch man ein Knecht wird.
 1	wodurch	wodurch	ADV	ADV	_	5	advmod	_	_
-2	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 3	ein	ein	DET	ART	PronType=Art	4	det	_	_
 4	Knecht	Knecht	NOUN	NN	_	5	xcomp	_	_
 5	wird	werden	AUX	VAFIN	_	0	root	_	SpaceAfter=No
@@ -1697,7 +1697,7 @@
 2	Höchste	hoch	NOUN	NN	_	0	root	_	SpaceAfter=No
 3	:	--	PUNCT	$.	_	2	punct	_	_
 4	denn	denn	CCONJ	KON	_	17	advmod	_	_
-5	man	man	PRON	PIS	Case=Nom	17	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 6	kann	können	AUX	VMFIN	_	17	aux	_	_
 7	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	_
 8	nur	nur	ADV	ADV	_	17	advmod	_	_
@@ -1712,7 +1712,7 @@
 17	beschränken	beschränken	VERB	VVINF	_	2	parataxis	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	23	punct	_	_
 19	wo	wo	ADV	PWAV	_	23	advmod	_	_
-20	man	man	PRON	PIS	Case=Nom	23	nsubj	_	_
+20	man	man	PRON	PIS	Case=Nom|PronType=Ind	23	nsubj	_	_
 21	unendliche	unendlich	ADJ	ADJA	_	22	amod	_	_
 22	Kraft	Kraft	NOUN	NN	Case=Acc	23	obj	_	_
 23	hat	haben	AUX	VAFIN	_	11	acl	_	SpaceAfter=No
@@ -1798,7 +1798,7 @@
 3	drei	drei	NUM	CARD	_	4	nummod	_	_
 4	Fehlern	Fehler	NOUN	NN	_	5	nmod	_	_
 5	hat	haben	AUX	VAFIN	_	0	root	_	_
-6	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 7	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	5	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
 9	hüten	hüten	VERB	VVINF	_	5	xcomp	_	SpaceAfter=No
@@ -1865,7 +1865,7 @@
 # text = Zweitens: man muß mit der Selbstbeschränkung nicht zu sehr eilen, und erst der Selbstschöpfung, der Erfindung und Begeisterung Raum lassen, bis sie fertig ist.
 1	Zweitens	zweitens	ADV	ADV	_	11	advmod	_	SpaceAfter=No
 2	:	--	PUNCT	$.	_	11	punct	_	_
-3	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 4	muß	müssen	AUX	VMFIN	_	11	aux	_	_
 5	mit	mit	ADP	APPR	_	7	case	_	_
 6	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -1900,7 +1900,7 @@
 # text = Drittens: man muß die Selbstbeschränkung nicht übertreiben.
 1	Drittens	drittens	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 2	:	--	PUNCT	$.	_	8	punct	_	_
-3	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 4	muß	müssen	AUX	VMFIN	_	8	aux	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Selbstbeschränkung	Selbstbeschränkung	NOUN	NN	Case=Acc	8	obj	_	_
@@ -2104,7 +2104,7 @@
 8	Ironie	Ironie	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	15	punct	_	_
 10	welche	welcher	DET	PRELS	Case=Acc|PronType=Int,Rel	15	obj	_	_
-11	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 12	logische	logisch	ADJ	ADJA	_	13	amod	_	_
 13	Schönheit	Schönheit	NOUN	NN	_	14	xcomp	_	_
 14	definieren	definieren	VERB	VVINF	_	15	xcomp	_	_
@@ -2128,7 +2128,7 @@
 32	wird	werden	AUX	VAFIN	_	31	aux:pass	_	SpaceAfter=No
 33	,	--	PUNCT	$,	_	31	punct	_	_
 34	soll	sollen	AUX	VMFIN	_	37	aux	_	_
-35	man	man	PRON	PIS	Case=Nom	37	nsubj	_	_
+35	man	man	PRON	PIS	Case=Nom|PronType=Ind	37	nsubj	_	_
 36	Ironie	Ironie	NOUN	NN	Case=Acc	37	obj	_	_
 37	leisten	leisten	VERB	VVINF	_	6	parataxis	_	_
 38	und	und	CCONJ	KON	_	39	cc	_	_
@@ -2316,7 +2316,7 @@
 8	empfehlungswürdige	empfehlungswürdig	ADJ	ADJA	_	9	amod	_	_
 9	Maxime	Maxime	NOUN	NN	Case=Acc	6	obj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	25	punct	_	_
-11	man	man	PRON	PIS	Case=Nom	25	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	25	nsubj	_	_
 12	müsse	müssen	AUX	VMFIN	_	25	aux	_	_
 13	das	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 14	schmackhafte	schmackhaft	ADJ	ADJA	_	15	amod	_	_
@@ -2363,7 +2363,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f44-s1
 # text = Man sollte sich nie auf den Geist des Altertums berufen, wie auf eine Autorität.
-1	Man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 2	sollte	sollen	AUX	VMFIN	_	10	aux	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	_
 4	nie	nie	ADV	ADV	_	10	advmod	_	_
@@ -2474,7 +2474,7 @@
 13	Produkte	Produkt	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	15	punct	_	_
 15	erinnert	erinnern	VERB	VVFIN	_	0	root	_	_
-16	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 17	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	_
 18	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 19	naiven	naiv	ADJ	ADJA	_	20	amod	_	_
@@ -2545,7 +2545,7 @@
 4	Tragödien	Tragödie	NOUN	NN	Case=Nom	3	nsubj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	22	punct	_	_
 6	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	22	obj	_	_
-7	man	man	PRON	PIS	Case=Nom	22	nsubj	_	SpaceAfter=No
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	22	nsubj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	11	punct	_	_
 9	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
 10	einmal	einmal	ADV	ADV	_	11	advmod	_	_
@@ -2877,7 +2877,7 @@
 2	manchem	mancher	DET	PIAT	_	3	det	_	_
 3	Gedicht	Gedicht	NOUN	NN	_	4	obl	_	_
 4	erhält	erhalten	VERB	VVFIN	_	0	root	_	_
-5	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 6	stellenweise	stellenweise	ADV	ADV	_	4	advmod	_	_
 7	statt	statt	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
@@ -3035,7 +3035,7 @@
 31	willkürlich	willkürlich	ADJ	ADJD	_	27	parataxis	_	SpaceAfter=No
 32	,	--	PUNCT	$,	_	31	punct	_	_
 33	wie	wie	ADV	PWAV	_	37	mark	_	_
-34	man	man	PRON	PIS	Case=Nom	37	nsubj	_	_
+34	man	man	PRON	PIS	Case=Nom|PronType=Ind	37	nsubj	_	_
 35	ein	ein	DET	ART	PronType=Art	36	det	_	_
 36	Instrument	Instrument	NOUN	NN	Case=Acc	37	obj	_	_
 37	stimmt	stimmen	VERB	VVFIN	_	27	advcl	_	SpaceAfter=No
@@ -3338,7 +3338,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f62-s1
 # text = Man hat schon so viele Theorien der Dichtarten.
-1	Man	man	PRON	PIS	_	2	nmod	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nmod	_	_
 2	hat	haben	VERB	VVFIN	_	0	root	_	_
 3	schon	schon	ADV	ADV	_	2	advmod	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
@@ -3355,7 +3355,7 @@
 # text = Warum hat man noch keinen Begriff von Dichtart?
 1	Warum	warum	ADV	PWAV	_	2	advmod	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	noch	noch	ADV	ADV	_	2	advmod	_	_
 5	keinen	kein	DET	PIAT	PronType=Neg	6	det	_	_
 6	Begriff	Begriff	NOUN	NN	Case=Acc	2	obj	_	_
@@ -3370,7 +3370,7 @@
 # text = Vielleicht würde man sich dann mit einer einzigen Theorie der Dichtarten behelfen müssen.
 1	Vielleicht	vielleicht	ADV	ADV	_	12	advmod	_	_
 2	würde	werden	AUX	VAFIN	_	12	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	_
 5	dann	dann	ADV	ADV	_	12	advmod	_	_
 6	mit	mit	ADP	APPR	_	9	case	_	_
@@ -3691,7 +3691,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f69-s2
 # text = Man kann etwas innig lieben, eben weil mans nicht hat: das gibt wenigstens ein Vorgefühl ohne Nachsatz.
-1	Man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	5	aux	_	_
 3	etwas	etwas	PRON	PIS	Case=Acc	5	obj	_	_
 4	innig	innig	ADV	ADV	_	5	advmod	_	_
@@ -3699,7 +3699,7 @@
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	eben	eben	ADV	ADV	_	8	advmod	_	_
 8	weil	weil	SCONJ	KOUS	_	11	mark	_	_
-9	mans	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+9	mans	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 10	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 11	hat	haben	AUX	VAFIN	_	5	advcl	_	SpaceAfter=No
 12	:	--	PUNCT	$.	_	5	punct	_	_
@@ -3722,7 +3722,7 @@
 3	Unfähigkeit	Unfähigkeit	NOUN	NN	Case=Nom	20	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	8	punct	_	_
 5	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	8	obj	_	_
-6	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 7	klar	klar	ADV	ADV	_	8	advmod	_	_
 8	weiß	weiß	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	14	punct	_	_
@@ -4616,7 +4616,7 @@
 4	Kritik	Kritik	NOUN	NN	_	2	nmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	6	punct	_	_
 6	sagt	sagen	VERB	VVFIN	_	9	parataxis	_	_
-7	man	man	PRON	PIS	Case=Nom	6	nsubj	_	SpaceAfter=No
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	6	punct	_	_
 9	sei	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	9	punct	_	_
@@ -4998,7 +4998,7 @@
 2	den	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Alten	alt	NOUN	NN	_	4	obl	_	_
 4	sieht	sehen	VERB	VVFIN	_	0	root	_	_
-5	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 6	den	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 7	vollendeten	vollendet	ADJ	ADJA	_	8	amod	_	_
 8	Buchstaben	Buchstabe	NOUN	NN	Case=Acc	4	obj	_	_
@@ -5010,7 +5010,7 @@
 14	den	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 15	Neuern	neuer	NOUN	NN	_	16	obl	_	_
 16	ahnet	ahnen	VERB	VVFIN	_	4	parataxis	_	_
-17	man	man	PRON	PIS	Case=Nom	16	nsubj	_	_
+17	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
 18	den	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 19	werdenden	werdend	ADJ	ADJA	_	20	amod	_	_
 20	Geist	Geist	NOUN	NN	Case=Acc	16	obj	_	SpaceAfter=No
@@ -5267,7 +5267,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f98-s2
 # text = Man muß etwas haben, was mitgeteilt werden soll; 2) man muß jemand haben, dem man's mitteilen wollen darf; 3) man muß es wirklich mitteilen, mit ihm teilen können, nicht bloß sich äußern, allein;
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	_	4	aux	_	_
 3	etwas	etwas	PRON	PIS	Case=Acc	4	obj	_	_
 4	haben	haben	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -5279,7 +5279,7 @@
 10	;	--	PUNCT	$.	_	16	punct	_	_
 11	2	2	NUM	CARD	_	16	nummod	_	SpaceAfter=No
 12	)	--	PUNCT	$(	_	11	punct	_	_
-13	man	man	PRON	PIS	Case=Nom	16	nsubj	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
 14	muß	müssen	AUX	VMFIN	_	16	aux	_	_
 15	jemand	jemand	PRON	PIS	Case=Acc	16	obj	_	_
 16	haben	haben	VERB	VVINF	_	4	parataxis	_	SpaceAfter=No
@@ -5292,7 +5292,7 @@
 23	;	--	PUNCT	$.	_	30	punct	_	_
 24	3	3	NUM	CARD	_	30	nummod	_	SpaceAfter=No
 25	)	--	PUNCT	$(	_	24	punct	_	_
-26	man	man	PRON	PIS	Case=Nom	30	nsubj	_	_
+26	man	man	PRON	PIS	Case=Nom|PronType=Ind	30	nsubj	_	_
 27	muß	müssen	AUX	VMFIN	_	30	aux	_	_
 28	es	es	PRON	PPER	Case=Acc	30	obj	_	_
 29	wirklich	wirklich	ADV	ADV	_	30	advmod	_	_
@@ -5362,7 +5362,7 @@
 8	neu	neu	ADJ	ADJD	_	4	xcomp	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	14	punct	_	_
 10	bis	bis	SCONJ	KOUS	_	14	mark	_	_
-11	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 12	selbst	selbst	ADV	ADV	_	14	advmod	_	_
 13	alt	alt	ADJ	ADJD	_	14	xcomp	_	_
 14	wird	werden	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
@@ -5443,7 +5443,7 @@
 4	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	6	nmod:poss	_	_
 5	schöne	schön	ADJ	ADJA	_	6	amod	_	_
 6	Verkettung	Verkettung	NOUN	NN	Case=Acc	8	obj	_	_
-7	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 8	preist	preisen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	haben	haben	AUX	VAFIN	_	0	root	_	_
@@ -5531,7 +5531,7 @@
 17	wird	werden	AUX	VAFIN	_	16	aux:pass	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	16	punct	_	_
 19	was	was	PRON	PRELS	Case=Acc	31	obj	_	_
-20	man	man	PRON	PIS	Case=Nom	31	nsubj	_	_
+20	man	man	PRON	PIS	Case=Nom|PronType=Ind	31	nsubj	_	_
 21	so	so	ADV	ADV	_	22	advmod	_	_
 22	seltsam	seltsam	ADJ	ADJD	_	31	advmod	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	26	punct	_	_
@@ -5656,7 +5656,7 @@
 7	alles	alle	DET	PIS	Case=Nom|PronType=Tot	37	nsubj	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	7	punct	_	_
 9	was	was	PRON	PRELS	Case=Acc	22	obj	_	_
-10	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	22	nsubj	_	_
 11	den	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 12	gediegenen	gediegen	ADJ	ADJA	_	13	amod	_	_
 13	Stücken	Stück	NOUN	NN	_	22	nmod	_	SpaceAfter=No
@@ -5804,7 +5804,7 @@
 # sent_id = lyceum-f104-s1
 # text = Was man gewöhnlich Vernunft nennt, ist nur eine Gattung derselben;
 1	Was	was	PRON	PWS	Case=Acc	5	obj	_	_
-2	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 3	gewöhnlich	gewöhnlich	ADV	ADV	_	5	advmod	_	_
 4	Vernunft	Vernunft	NOUN	NN	_	5	xcomp	_	_
 5	nennt	nennen	VERB	VVFIN	_	10	csubj	_	SpaceAfter=No
@@ -5870,7 +5870,7 @@
 # sent_id = lyceum-f105-s1
 # text = Sieht man auf den Geist, nicht auf den Buchstaben: so war das ganze römische Volk, samt dem Senat, und samt allen Triumphatoren und Cäsaren ein Zyniker.
 1	Sieht	sehen	VERB	VVFIN	_	0	root	_	_
-2	man	man	PRON	PIS	Case=Nom	1	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	1	nsubj	_	_
 3	auf	auf	ADP	APPR	_	5	case	_	_
 4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Geist	Geist	NOUN	NN	_	1	obl	_	SpaceAfter=No
@@ -6183,7 +6183,7 @@
 9	durch	durch	ADP	APPR	_	10	case	_	_
 10	sie	sie	PRON	PPER	Case=Acc	11	obl	_	_
 11	setzt	setzen	VERB	VVFIN	_	4	parataxis	_	_
-12	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+12	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 13	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	_
 14	über	über	ADP	APPR	_	15	case	_	_
 15	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	11	obl	_	_
@@ -6820,7 +6820,7 @@
 2	Deutschen	deutsche	NOUN	NN	Case=Nom	21	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	4	punct	_	_
 4	sagt	sagen	VERB	VVFIN	_	21	parataxis	_	_
-5	man	man	PRON	PIS	Case=Nom	4	nsubj	_	SpaceAfter=No
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	4	punct	_	_
 7	sind	sein	AUX	VAFIN	_	21	cop	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	17	punct	_	_
@@ -7227,7 +7227,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f119-s13
 # text = Man kann ein Zyniker sein und ein großer Dichter: der Hund und der Lorbeer haben gleiches Recht, Horazens Denkmal zu zieren.
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	4	aux	_	_
 3	ein	ein	DET	ART	PronType=Art	4	det	_	_
 4	Zyniker	Zyniker	NOUN	NN	Case=Nom	0	root	_	_
@@ -7347,7 +7347,7 @@
 7	wie	wie	CCONJ	KOKOM	_	18	cc	_	SpaceAfter=No
 8	:	--	PUNCT	$.	_	18	punct	_	_
 9	Soll	sollen	AUX	VMFIN	_	18	aux	_	_
-10	man	man	PRON	PIS	Case=Nom	18	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	18	nsubj	_	_
 11	Shakespeares	Shakespeare	PROPN	NE	_	12	nmod:poss	_	_
 12	Werke	Werk	NOUN	NN	Case=Acc	18	obj	_	_
 13	als	als	ADP	APPR	_	14	case	_	_
@@ -7418,7 +7418,7 @@
 10	kann	können	AUX	VMFIN	_	9	aux	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	9	punct	_	_
 12	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	17	obj	_	_
-13	man	man	PRON	PIS	Case=Nom	17	nsubj	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 14	hie	hie	ADV	ADV	_	17	advmod	_	_
 15	und	und	CCONJ	KON	_	16	cc	_	_
 16	da	da	ADV	ADV	_	14	conj	_	_
@@ -8148,7 +8148,7 @@
 3	geordnete	geordnet	ADJ	ADJA	_	4	amod	_	_
 4	Versuche	Versuch	NOUN	NN	Case=Acc	5	obl	_	_
 5	lernt	lernen	VERB	VVFIN	_	0	root	_	_
-6	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 7	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Grundsätze	Grundsatz	NOUN	NN	Case=Acc	9	obj	_	_
 9	kennen	kennen	VERB	VVFIN	_	5	xcomp	_	_
@@ -8274,13 +8274,13 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f8-s3
 # text = Man vernichtet den Wahn, wie man Krankheiten vernichtet, und der Wahn ist also nichts, als logische Entzündung oder Verlöschung, Schwärmerey und Philisterey.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	vernichtet	vernichten	VERB	VVFIN	_	0	root	_	_
 3	den	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Wahn	Wahn	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	9	punct	_	_
 6	wie	wie	ADV	PWAV	_	9	mark	_	_
-7	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 8	Krankheiten	Krankheit	NOUN	NN	Case=Acc	9	obj	_	_
 9	vernichtet	vernichten	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	16	punct	_	_
@@ -8844,13 +8844,13 @@
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	von	von	ADP	APPR	_	7	case	_	_
 7	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	11	obl	_	_
-8	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 9	immer	immer	ADV	ADV	_	11	advmod	_	_
 10	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 11	weiß	weiß	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	11	punct	_	_
 13	ob	ob	SCONJ	KOUS	_	19	mark	_	_
-14	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 15	sie	sie	PRON	PPER	Case=Acc	19	obj	_	_
 16	schön	schön	ADJ	ADJD	_	19	xcomp	_	_
 17	oder	oder	CCONJ	KON	_	18	cc	_	_
@@ -9170,7 +9170,7 @@
 # sent_id = bluethenstaub-f20-s1
 # text = Wenn man in der Mittheilung der Gedanken zwischen absolutem Verstehen und absolutem Nichtverstehen abwechselt, so darf das schon eine philosophische Freundschaft genannt werden.
 1	Wenn	wenn	SCONJ	KOUS	_	14	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Mittheilung	Mittheilung	NOUN	NN	_	14	obl	_	_
@@ -9297,7 +9297,7 @@
 2	dieses	dieser	DET	PDAT	PronType=Dem	3	det	_	_
 3	Talent	Talent	NOUN	NN	Case=Acc	4	obl	_	_
 4	sieht	sehen	VERB	VVFIN	_	0	root	_	_
-5	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 6	nur	nur	ADV	ADV	_	4	advmod	_	_
 7	halb	halb	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	14	punct	_	_
@@ -9314,7 +9314,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f21-s4
 # text = man kann genialische Anlage haben, die in Ermangelung jenes Talents nie zur Entwickelung kommt.
-1	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+1	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	5	aux	_	_
 3	genialische	genialisch	ADJ	ADJA	_	4	amod	_	_
 4	Anlage	Anlage	NOUN	NN	Case=Acc	5	obj	_	_
@@ -9788,7 +9788,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f23-s3
 # text = Man sollte nur in seltnen, vertrauten Momenten davon reden, sich stillschweigend darüber einverstehen.
-1	Man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 2	sollte	sollen	AUX	VMFIN	_	10	aux	_	_
 3	nur	nur	ADV	ADV	_	8	advmod	_	_
 4	in	in	ADP	APPR	_	8	case	_	_
@@ -9971,7 +9971,7 @@
 7	Darstellung	Darstellung	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	17	punct	_	_
 9	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	17	obj	_	_
-10	man	man	PRON	PIS	Case=Nom	17	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 11	mit	mit	ADP	APPR	_	12	case	_	_
 12	Recht	Recht	NOUN	NN	Case=Dat	17	obl	_	_
 13	an	an	ADP	APPR	_	14	case	_	_
@@ -9988,7 +9988,7 @@
 # sent_id = bluethenstaub-f26-s1
 # text = Hat man nun einmal die Liebhaberey fürs Absolute und kann nicht davon lassen: so bleibt einem kein Ausweg, als sich selbst immer zu widersprechen, und entgegengesetzte Extreme zu verbinden.
 1	Hat	haben	AUX	VAFIN	_	0	root	_	_
-2	man	man	PRON	PIS	Case=Nom	1	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	1	nsubj	_	_
 3	nun	nun	ADV	ADV	_	4	advmod	_	_
 4	einmal	einmal	ADV	ADV	_	1	advmod	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -10038,14 +10038,14 @@
 10	geschehen	geschehen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	14	punct	_	_
 12	und	und	CCONJ	KON	_	14	cc	_	_
-13	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 14	hat	haben	AUX	VAFIN	_	10	conj	_	_
 15	nur	nur	ADV	ADV	_	14	advmod	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Wahl	Wahl	NOUN	NN	Case=Acc	14	obj	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	24	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	24	mark	_	_
-20	man	man	PRON	PIS	Case=Nom	24	nsubj	_	_
+20	man	man	PRON	PIS	Case=Nom|PronType=Ind	24	nsubj	_	_
 21	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	24	obj	_	_
 22	dabey	dabei	ADV	PROAV	_	24	advmod	_	_
 23	leidend	leidend	ADJ	ADJD	_	24	advmod	_	_
@@ -10054,7 +10054,7 @@
 26	,	--	PUNCT	$,	_	37	punct	_	_
 27	oder	oder	CCONJ	KON	_	37	cc	_	_
 28	ob	ob	SCONJ	KOUS	_	37	mark	_	_
-29	man	man	PRON	PIS	Case=Nom	37	nsubj	_	_
+29	man	man	PRON	PIS	Case=Nom|PronType=Ind	37	nsubj	_	_
 30	die	der	DET	ART	Definite=Def|PronType=Art	31	det	_	_
 31	Nothwendigkeit	Nothwendigkeit	NOUN	NN	Case=Acc	37	obj	_	_
 32	durch	durch	ADP	APPR	_	33	case	_	_
@@ -10078,7 +10078,7 @@
 4	Goethe	Goethe	PROPN	NE	_	3	nmod:poss	_	SpaceAfter=No
 5	's	es	PRON	PPER	_	4	nmod:poss	_	_
 6	bemerkt	bemerken	VERB	VVFIN	_	0	root	_	_
-7	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
 9	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Verknüpfungen	Verknüpfung	NOUN	NN	_	6	obl	_	_
@@ -10309,7 +10309,7 @@
 2	vollendetes	vollendet	ADJ	ADJA	_	3	amod	_	_
 3	Selbstverständniß	Selbstverständniß	NOUN	NN	Case=Acc	10	obl	_	_
 4	wird	werden	AUX	VAFIN	_	10	aux	_	_
-5	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 6	nie	nie	ADV	ADV	_	10	advmod	_	_
 7	andere	anderer	PRON	PIS	Case=Acc	10	obj	_	_
 8	wahrhaft	wahrhaft	ADV	ADV	_	9	advmod	_	_
@@ -10522,7 +10522,7 @@
 3	Gemeine	Gemein	NOUN	NN	Case=Acc	20	obj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	9	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
-6	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
 8	selbst	selbst	ADV	ADV	_	9	advmod	_	_
 9	gemein	gemein	ADJ	ADJD	_	20	advcl	_	_
@@ -10545,7 +10545,7 @@
 26	entspringt	entspringen	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	26	punct	_	_
 28	muß	müssen	AUX	VMFIN	_	32	aux	_	_
-29	man	man	PRON	PIS	Case=Nom	32	nsubj	_	_
+29	man	man	PRON	PIS	Case=Nom|PronType=Ind	32	nsubj	_	_
 30	nichts	nichts	PRON	PIS	Case=Acc	32	obj	_	_
 31	sonderbarer	sonderbar	ADJ	ADJD	_	32	xcomp	_	_
 32	finden	finden	VERB	VVINF	_	0	root	_	_
@@ -10803,7 +10803,7 @@
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	als	als	CCONJ	KOKOM	_	12	mark	_	_
 7	was	was	PRON	PIS	Case=Acc	12	obj	_	_
-8	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 9	an	an	ADP	APPR	_	10	case	_	_
 10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	12	obl	_	_
 11	selbst	selbst	ADV	ADV	_	10	advmod	_	_
@@ -11513,7 +11513,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f45-s6
 # text = Man sieht hier, wie relativ das Herausgehn und Hineingehn ist.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	sieht	sehen	VERB	VVFIN	_	0	root	_	_
 3	hier	hier	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	2	punct	_	_
@@ -12139,7 +12139,7 @@
 4	Mensch	Mensch	NOUN	NN	Case=Nom	2	nsubj	_	_
 5	ist	sein	AUX	VAFIN	_	4	cop	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	8	punct	_	_
-7	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 8	nennt	nennen	VERB	VVFIN	_	2	parataxis	_	_
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Verworrenen	verworrener	NOUN	NN	Case=Acc	8	obj	_	_
@@ -12794,7 +12794,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f62-s2
 # text = Man dephilosophire die Wissenschaften: was bleibt übrig?
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	dephilosophire	dephilosophiren	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Wissenschaften	Wissenschaft	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
@@ -13264,7 +13264,7 @@
 8	von	von	ADP	APPR	_	9	case	_	_
 9	Kunstwerken	Kunstwerk	NOUN	NN	Case=Dat	7	nmod	_	_
 10	trifft	treffen	VERB	VVFIN	_	0	root	_	_
-11	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 12	aber	aber	ADV	ADV	_	10	advmod	_	_
 13	helle	hell	ADJ	ADJA	_	14	amod	_	_
 14	Spuren	Spur	NOUN	NN	Case=Acc	10	obj	_	_
@@ -13659,7 +13659,7 @@
 1	Wie	wie	ADV	PWAV	_	3	advmod	_	_
 2	oft	oft	ADV	ADV	_	1	fixed	_	_
 3	fühlt	fühlen	VERB	VVFIN	_	0	root	_	_
-4	man	man	PRON	PIS	Case=Nom	3	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	3	nsubj	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Armuth	Armuth	NOUN	NN	Case=Acc	3	obj	_	_
 7	an	an	ADP	APPR	_	8	case	_	_
@@ -13870,7 +13870,7 @@
 7	eignen	eignen	ADJ	ADJA	_	8	amod	_	_
 8	Rolle	Rolle	NOUN	NN	_	5	nmod	_	_
 9	verdankt	verdanken	VERB	VVFIN	_	0	root	_	_
-10	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 11	der	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	12	det	_	_
 12	Richtung	Richtung	NOUN	NN	Case=Dat	9	obl:arg	_	_
 13	dieses	dieser	DET	PDAT	PronType=Dem	14	det	_	_
@@ -14106,7 +14106,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f74-s10
 # text = Man sieht bald, wie relativ diese Wahlen sind, und wird unvermerkt auf die Idee getrieben, daß das Wesen der Religion wohl nicht von der Beschaffenheit des Mittlers abhange, sondern lediglich in der Ansicht desselben, in den Verhältnissen zu ihm bestehe.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	sieht	sehen	VERB	VVFIN	_	0	root	_	_
 3	bald	bald	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	2	punct	_	_
@@ -14211,7 +14211,7 @@
 23	Theismus	Theismus	NOUN	NN	_	16	conj	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	30	punct	_	_
 25	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	30	obj	_	_
-26	man	man	PRON	PIS	Case=Nom	30	nsubj	_	_
+26	man	man	PRON	PIS	Case=Nom|PronType=Ind	30	nsubj	_	_
 27	auch	auch	ADV	ADV	_	30	advmod	_	_
 28	ältern	ältern	ADJ	ADJA	_	29	amod	_	_
 29	Judaism	Judaism	NOUN	NN	_	30	xcomp	_	_
@@ -14488,7 +14488,7 @@
 15	bewerkstelligen	bewerkstelligen	VERB	VVINF	_	10	xcomp	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	10	punct	_	_
 17	wenn	wenn	SCONJ	KOUS	_	29	mark	_	_
-18	man	man	PRON	PIS	Case=Nom	29	nsubj	_	_
+18	man	man	PRON	PIS	Case=Nom|PronType=Ind	29	nsubj	_	_
 19	den	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 20	monotheistischen	monotheistisch	ADJ	ADJA	_	21	amod	_	_
 21	Mittler	Mittler	NOUN	NN	Case=Acc	29	obj	_	_
@@ -14694,7 +14694,7 @@
 1	Fast	fast	ADV	ADV	_	2	advmod	_	_
 2	immer	immer	ADV	ADV	_	21	advmod	_	_
 3	hat	haben	AUX	VAFIN	_	21	aux	_	_
-4	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 5	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Anführer	Anführer	NOUN	NN	Case=Acc	21	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
@@ -15441,7 +15441,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f78-s4
 # text = Man mußte Genie und Scharfsinn aufbieten, um mittelst des neuen Werkzeugs neue Verhältnisse zu finden.
-1	Man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 2	mußte	müssen	AUX	VMFIN	_	6	aux	_	_
 3	Genie	Genie	NOUN	NN	Case=Acc	6	obj	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
@@ -15504,7 +15504,7 @@
 5	Massen	Masse	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	18	obj	_	_
-8	man	man	PRON	PIS	Case=Nom	18	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	18	nsubj	_	_
 9	zu	zu	ADP	APPR	_	11	case	_	_
 10	allen	alle	DET	PIAT	PronType=Tot	11	det	_	_
 11	Zeiten	Zeit	NOUN	NN	Case=Dat	18	obl	_	_
@@ -15635,7 +15635,7 @@
 # text = Daher ist man sich nie eines Gesetzes, als solchen, bewußt.
 1	Daher	daher	ADV	PROAV	PronType=Dem	12	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	12	cop	_	_
-3	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	_
 5	nie	nie	ADV	ADV	_	12	advmod	_	_
 6	eines	ein	DET	ART	PronType=Art	7	det	_	_
@@ -15655,7 +15655,7 @@
 1	In	in	ADP	APPR	_	8	advmod	_	_
 2	so	so	ADV	ADV	_	1	fixed	_	_
 3	fern	fern	VERB	VVFIN	_	1	fixed	_	_
-4	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
 6	ein	ein	DET	ART	PronType=Art	7	det	_	_
 7	Gesetz	Gesetz	NOUN	NN	_	8	obl	_	_
@@ -16106,7 +16106,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f87-s1
 # text = Man versteht das Künstliche gewöhnlich besser, als das Natürliche.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	versteht	verstehen	VERB	VVFIN	_	0	root	_	_
 3	das	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Künstliche	künstliche	NOUN	NN	Case=Acc	2	obj	_	_
@@ -16161,7 +16161,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f88-s2
 # text = Man kann wohl sagen, der Mensch versteht eine Welt hervorzubringen, es mangelt ihm nur am gehörigen Apparat, an der verhältnißmäßigen Armatur seiner Sinneswerkzeuge.
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	4	aux	_	_
 3	wohl	wohl	ADV	ADV	_	4	advmod	_	_
 4	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -16354,7 +16354,7 @@
 # text = Je unwissender man von Natur ist, desto mehr Kapazität für das Wissen.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
 2	unwissender	unwissend	ADJ	ADJD	_	10	advcl	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
 5	Natur	Natur	NOUN	NN	Case=Dat	2	nmod	_	_
 6	ist	sein	AUX	VAFIN	_	2	cop	_	SpaceAfter=No
@@ -16389,7 +16389,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f90-s3
 # text = Man bemerkt dieses deutlich beym Eintritt in eine Wissenschaft.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	bemerkt	bemerken	VERB	VVFIN	_	0	root	_	_
 3	dieses	dieser	DET	PDS	Case=Acc|PronType=Dem	2	obj	_	_
 4	deutlich	deutlich	ADJ	ADJD	_	2	advmod	_	_
@@ -16407,7 +16407,7 @@
 # text = Daher verliert man durch zu vieles Studiren an Kapazität.
 1	Daher	daher	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	durch	durch	ADP	APPR	_	7	case	_	_
 5	zu	zu	PART	PTKA	_	7	case	_	_
 6	vieles	viel	DET	PIAT	PronType=Ind	7	det	_	_
@@ -16488,7 +16488,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f90-s9
 # text = Man ist nicht im Stande die Masse zu durchdringen, und sie in bestimmter Gestalt vollkommen zu beleben: die plastische Kraft reicht nicht zu.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	ist	sein	VERB	VVFIN	_	0	root	_	_
 3	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
 4-5	im	_	_	_	_	_	_	_	_
@@ -17258,7 +17258,7 @@
 8	beklagen	beklagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	wenn	wenn	SCONJ	KOUS	_	16	mark	_	_
-11	man	man	PRON	PIS	Case=Nom	16	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
 12	ihn	ihn	PRON	PPER	Case=Acc	16	obj	_	_
 13	hart	hart	ADJ	ADJD	_	16	advmod	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
@@ -17926,7 +17926,7 @@
 9	gewesen	sein	AUX	VAPP	_	8	cop	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	weil	weil	SCONJ	KOUS	_	14	mark	_	_
-12	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+12	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 13	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 14	gewußt	wissen	VERB	VVPP	_	8	advcl	_	_
 15	hat	haben	AUX	VAFIN	_	14	aux	_	SpaceAfter=No
@@ -17943,7 +17943,7 @@
 # sent_id = bluethenstaub-f108-s2
 # text = Wenn man erst wissen wird, was ein Mensch ist, so wird man auch Individuen wahrhaft genetisch beschreiben können.
 1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 3	erst	erst	ADV	ADV	_	4	advmod	_	_
 4	wissen	wissen	VERB	VVINF	_	19	advcl	_	_
 5	wird	werden	AUX	VAFIN	_	4	aux	_	SpaceAfter=No
@@ -17955,7 +17955,7 @@
 11	,	--	PUNCT	$,	_	9	punct	_	_
 12	so	so	ADV	ADV	_	19	advmod	_	_
 13	wird	werden	AUX	VAFIN	_	19	aux	_	_
-14	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 15	auch	auch	ADV	ADV	_	19	advmod	_	_
 16	Individuen	Individuum	NOUN	NN	Case=Acc	19	obj	_	_
 17	wahrhaft	wahrhaft	ADV	ADV	_	18	advmod	_	_
@@ -18663,7 +18663,7 @@
 7	den	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Dichtarten	Dichtart	NOUN	NN	Case=Dat	5	nmod	_	_
 9	vernachlässigt	vernachlässigen	VERB	VVFIN	_	0	root	_	_
-10	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 11	oft	oft	ADV	ADV	_	9	advmod	_	_
 12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Unterabteilungen	Unterabteilung	NOUN	NN	Case=Acc	9	obj	_	_
@@ -18737,7 +18737,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f12-s1
 # text = Man hat von manchem Monarchen gesagt: er würde ein sehr liebenswürdiger Privatmann gewesen sein, nur zum Könige habe er nicht getaugt.
-1	Man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	6	aux	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
 4	manchem	mancher	DET	PIAT	_	5	det	_	_
@@ -19010,7 +19010,7 @@
 2	dramatische	dramatisch	ADJ	ADJA	_	3	amod	_	_
 3	Form	Form	NOUN	NN	Case=Acc	6	obj	_	_
 4	kann	können	AUX	VMFIN	_	6	aux	_	_
-5	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 6	wählen	wählen	VERB	VVINF	_	0	root	_	_
 7	aus	aus	ADP	APPR	_	8	case	_	_
 8	Hang	Hang	NOUN	NN	Case=Dat	6	obl	_	_
@@ -19073,7 +19073,7 @@
 11	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	21	punct	_	_
 13	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
-14	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 16	Worte	Wort	NOUN	NN	Case=Acc	21	obj	_	_
 17	in	in	ADP	APPR	_	20	case	_	_
@@ -19250,7 +19250,7 @@
 4	Projekte	Projekt	NOUN	NN	Case=Acc	2	nmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	12	punct	_	_
 6	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	12	obj	_	_
-7	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 8	Fragmente	Fragment	NOUN	NN	_	12	xcomp	_	_
 9	aus	aus	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
@@ -19350,7 +19350,7 @@
 # text = so könnte man wohl sagen, der Sinn für Fragmente und Projekte sei der transzendentale Bestandteil des historischen Geistes.
 1	so	so	ADV	ADV	_	5	advmod	_	_
 2	könnte	können	AUX	VMFIN	_	5	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 4	wohl	wohl	ADV	ADV	_	5	advmod	_	_
 5	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
@@ -19612,11 +19612,11 @@
 9	alle	alle	DET	PIS	PronType=Tot	10	det	_	_
 10	abgeleiteten	abgeleiten	ADJ	ADJA	Case=Nom	5	nsubj	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
-12	man	man	PRON	PIS	Case=Nom	13	nsubj	_	_
+12	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
 13	stelle	stellen	VERB	VVFIN	_	5	parataxis	_	_
 14	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	_
 15	wie	wie	ADV	PWAV	_	18	case	_	_
-16	man	man	PRON	PIS	Case=Nom	18	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	18	nsubj	_	_
 17	auch	auch	ADV	ADV	_	18	advmod	_	_
 18	will	wollen	AUX	VMFIN	_	13	advcl	_	SpaceAfter=No
 19	.	--	PUNCT	$.	_	5	punct	_	_
@@ -19703,7 +19703,7 @@
 15	sind	sein	AUX	VAFIN	_	14	cop	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	21	punct	_	_
 17	als	als	CCONJ	KOKOM	_	21	mark	_	_
-18	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+18	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 19	uns	uns	PRON	PPER	Case=Acc	21	obj	_	_
 20	glauben	glauben	VERB	VVINF	_	21	xcomp	_	_
 21	machen	machen	VERB	VVINF	_	14	advcl	_	_
@@ -19730,7 +19730,7 @@
 13	erstaunen	erstaunen	VERB	VVINF	_	6	xcomp	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	18	punct	_	_
 15	das	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	18	obj	_	_
-16	man	man	PRON	PIS	Case=Nom	18	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	18	nsubj	_	_
 17	selbst	selbst	ADV	ADV	_	18	advmod	_	_
 18	veranstaltet	veranstalten	VERB	VVPP	_	11	acl	_	_
 19	hat	haben	AUX	VAFIN	_	18	aux	_	SpaceAfter=No
@@ -19969,7 +19969,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f32-s1
 # text = Man soll Witz haben, aber nicht haben wollen; sonst entsteht Witzelei, Alexandrinischer Styl in Witz.
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	soll	sollen	AUX	VMFIN	_	4	aux	_	_
 3	Witz	Witz	NOUN	NN	Case=Acc	4	obj	_	_
 4	haben	haben	AUX	VAINF	_	0	root	_	SpaceAfter=No
@@ -20158,7 +20158,7 @@
 50	absehen	absehen	VERB	VVINF	_	47	xcomp	_	SpaceAfter=No
 51	,	--	PUNCT	$,	_	60	punct	_	_
 52	was	was	PRON	PWS	Case=Acc	60	obj	_	_
-53	man	man	PRON	PIS	Case=Nom	60	nsubj	_	_
+53	man	man	PRON	PIS	Case=Nom|PronType=Ind	60	nsubj	_	_
 54	gegen	gegen	ADP	APPR	_	56	case	_	_
 55	eine	ein	DET	ART	PronType=Art	56	det	_	_
 56	Ehe	Ehe	NOUN	NN	Case=Acc	60	obl	_	_
@@ -20262,7 +20262,7 @@
 13	,	--	PUNCT	$,	_	12	punct	_	_
 14	als	als	CCONJ	KOKOM	_	19	case	_	_
 15	ob	ob	SCONJ	KOUS	_	19	mark	_	_
-16	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 17	sie	sie	PRON	PPER	Case=Acc	19	obj	_	_
 18	nicht	nicht	PART	PTKNEG	_	19	advmod	_	_
 19	hätte	haben	VERB	VVFIN	_	12	advcl	_	SpaceAfter=No
@@ -20291,7 +20291,7 @@
 16	,	--	PUNCT	$,	_	21	punct	_	_
 17	als	als	SCONJ	KOKOM	_	21	mark	_	_
 18	ob	ob	SCONJ	KOUS	_	21	mark	_	_
-19	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+19	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 20	sie	sie	PRON	PPER	Case=Acc	21	obj	_	_
 21	hätte	haben	VERB	VVFIN	_	15	advcl	_	SpaceAfter=No
 22	.	--	PUNCT	$.	_	2	punct	_	_
@@ -20334,7 +20334,7 @@
 # text = Warum macht man also an die rhetorische Poesie, welche nur auf der Bühne existiert, Foderungen, die nur durch höhere dramatische Kunst erfüllt werden können?
 1	Warum	warum	ADV	PWAV	_	2	advmod	_	_
 2	macht	machen	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	also	also	ADV	ADV	_	2	advmod	_	_
 5	an	an	ADP	APPR	_	8	case	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -20432,7 +20432,7 @@
 # text = Diese muß man umkehren, und mit ihren Antipoden synthesieren.
 1	Diese	dieser	DET	PDS	Case=Acc|PronType=Dem	4	obj	_	_
 2	muß	müssen	AUX	VMFIN	_	4	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 4	umkehren	umkehren	VERB	VVINF	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	10	punct	_	_
 6	und	und	CCONJ	KON	_	10	cc	_	_
@@ -21136,7 +21136,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f54-s1
 # text = Man kann nur Philosoph werden, nicht es sein.
-1	Man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	5	aux	_	_
 3	nur	nur	ADV	ADV	_	5	advmod	_	_
 4	Philosoph	Philosoph	NOUN	NN	_	5	xcomp	_	_
@@ -21153,14 +21153,14 @@
 # sent_id = athenaeum-f54-s2
 # text = Sobald man es zu sein glaubt, hört man auf es zu werden.
 1	Sobald	sobald	SCONJ	KOUS	_	6	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 3	es	es	PRON	PPER	Case=Dat	6	ccomp	_	_
 4	zu	zu	PART	PTKZU	_	3	mark	_	_
 5	sein	sein	AUX	VAINF	_	3	cop	_	_
 6	glaubt	glauben	VERB	VVFIN	_	8	advcl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	hört	hören	VERB	VVFIN	_	0	root	_	_
-9	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
 11	es	es	PRON	PPER	_	13	xcomp	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
@@ -21258,7 +21258,7 @@
 2	den	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Neuern	neuer	NOUN	NN	Case=Dat	4	obl	_	_
 4	redet	reden	VERB	VVFIN	_	0	root	_	_
-5	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 6	immer	immer	ADV	ADV	_	4	advmod	_	_
 7	von	von	ADP	APPR	_	11	case	_	_
 8	dieser	dieser	DET	PDAT	PronType=Dem	11	det	_	_
@@ -21682,7 +21682,7 @@
 # text = So legt man wohl nur deswegen einen so großen Nachdruck auf die Schönheiten mancher Gedichte, weil sie keine Schönheit haben.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	legt	legen	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	wohl	wohl	ADV	ADV	_	2	advmod	_	_
 5	nur	nur	ADV	ADV	_	2	advmod	_	_
 6	deswegen	deswegen	ADV	PROAV	_	2	advmod	_	_
@@ -21955,7 +21955,7 @@
 5	fingieren	fingieren	VERB	VVINF	_	0	root	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
-8	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 9	auch	auch	ADV	ADV	_	12	advmod	_	_
 10	das	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Gegenteil	Gegenteil	NOUN	NN	Case=Acc	12	obj	_	_
@@ -22117,7 +22117,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f71-s1
 # text = Man redet immer von der Störung, welche die Zergliederung des Kunstschönen dem Genuß des Liebhabers verursachen soll.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	redet	reden	VERB	VVFIN	_	0	root	_	_
 3	immer	immer	ADV	ADV	_	2	advmod	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
@@ -22205,7 +22205,7 @@
 15	Streben	Streben	NOUN	NN	Case=Nom	22	nsubj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
 17	wie	wie	ADV	PWAV	_	19	advmod	_	_
-18	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+18	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 19	sagt	sagen	VERB	VVFIN	_	22	parataxis	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	19	punct	_	_
 21	mehr	mehr	ADV	ADV	_	22	advmod	_	_
@@ -22574,7 +22574,7 @@
 14	einzusperren	einzperren	VERB	VVIZU	_	11	xcomp	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	22	punct	_	_
 16	während	während	SCONJ	KOUS	_	22	mark	_	_
-17	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
+17	man	man	PRON	PIS	Case=Nom|PronType=Ind	22	nsubj	_	_
 18	andre	andren	NOUN	NN	Case=Acc	22	obj	_	_
 19	ihr	ihr	DET	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Glück	Glück	NOUN	NN	Case=Dat	22	obl:arg	_	_
@@ -22683,7 +22683,7 @@
 21	dieser	dieser	DET	PDAT	PronType=Dem	22	det	_	_
 22	Rücksicht	Rücksicht	NOUN	NN	_	25	obl	_	_
 23	könnte	können	AUX	VMFIN	_	25	aux	_	_
-24	man	man	PRON	PIS	Case=Nom	25	nsubj	_	_
+24	man	man	PRON	PIS	Case=Nom|PronType=Ind	25	nsubj	_	_
 25	sagen	sagen	VERB	VVINF	_	11	conj	_	SpaceAfter=No
 26	:	--	PUNCT	$.	_	29	punct	_	_
 27	Niemand	niemand	PRON	PIS	Case=Nom	29	nsubj	_	_
@@ -22742,7 +22742,7 @@
 3	den	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Wissenschaften	Wissenschaft	NOUN	NN	_	5	obl	_	_
 5	besetzt	besetzen	VERB	VVFIN	_	0	root	_	_
-6	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 7	erst	erst	ADV	ADV	_	5	advmod	_	_
 8	ein	ein	DET	ART	PronType=Art	9	det	_	_
 9	Terrain	Terrain	NOUN	NN	Case=Acc	5	obj	_	SpaceAfter=No
@@ -22776,7 +22776,7 @@
 13	sagte	sagen	VERB	VVFIN	_	6	ccomp	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	13	punct	_	_
 15	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	21	obj	_	_
-16	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 17	so	so	ADV	ADV	_	21	advmod	_	_
 18	in	in	ADP	APPR	_	20	case	_	_
 19	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
@@ -22953,13 +22953,13 @@
 6	immer	immer	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	4	punct	_	_
 8	daß	daß	SCONJ	KOUS	_	11	mark	_	_
-9	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 10	etwas	etwas	PRON	PIS	Case=Acc	11	obj	_	_
 11	weiß	weiß	VERB	VVFIN	_	4	ccomp	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	17	punct	_	_
 13	und	und	CCONJ	KON	_	17	cc	_	_
 14	daß	daß	SCONJ	KOUS	_	17	mark	_	_
-15	man	man	PRON	PIS	Case=Nom	17	nsubj	_	_
+15	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 16	es	es	PRON	PPER	Case=Acc	17	obj	_	_
 17	sagt	sagen	VERB	VVFIN	_	11	conj	_	SpaceAfter=No
 18	.	--	PUNCT	$.	_	4	punct	_	_
@@ -23632,7 +23632,7 @@
 21	,	--	PUNCT	$,	_	20	punct	_	_
 22	als	als	SCONJ	KOUS	_	30	mark	_	_
 23	habe	haben	AUX	VAFIN	_	30	aux	_	_
-24	man	man	PRON	PIS	Case=Nom	30	nsubj	_	_
+24	man	man	PRON	PIS	Case=Nom|PronType=Ind	30	nsubj	_	_
 25	sie	sie	PRON	PPER	Case=Acc	30	obj	_	_
 26	vor	vor	ADP	APPR	_	27	case	_	_
 27	ihm	ihm	PRON	PPER	_	30	obl	_	_
@@ -23779,7 +23779,7 @@
 9	Philosophie	Philosophie	NOUN	NN	_	6	conj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	3	punct	_	_
 11	erinnert	erinnern	VERB	VVFIN	_	0	root	_	_
-12	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+12	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 13	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	_
 14	immer	immer	ADV	ADV	_	11	advmod	_	_
 15	an	an	ADP	APPR	_	17	case	_	_
@@ -23873,7 +23873,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f101-s3
 # text = Man darf nicht glauben sollen, daß es jetzt wirklich geschehe.
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	darf	dürfen	AUX	VMFIN	_	4	aux	_	_
 3	nicht	nicht	PART	PTKNEG	_	4	advmod	_	_
 4	glauben	glauben	VERB	VVINF	_	0	root	_	_
@@ -23963,7 +23963,7 @@
 # sent_id = athenaeum-f103-s1
 # text = Daß man eine Philosophie annihiliert, wobei sich der Unvorsichtige leicht gelegentlich selbst mit annihilieren kann, oder daß man ihr zeigt, sie annihiliere sich selbst, kann ihr wenig schaden.
 1	Daß	dass	SCONJ	KOUS	_	5	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 3	eine	ein	DET	ART	PronType=Art	4	det	_	_
 4	Philosophie	Philosophie	NOUN	NN	Case=Acc	5	obj	_	_
 5	annihiliert	annihilieren	VERB	VVFIN	_	25	advcl	_	SpaceAfter=No
@@ -23981,7 +23981,7 @@
 17	,	--	PUNCT	$,	_	22	punct	_	_
 18	oder	oder	CCONJ	KON	_	22	cc	_	_
 19	daß	daß	SCONJ	KOUS	_	22	mark	_	_
-20	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
+20	man	man	PRON	PIS	Case=Nom|PronType=Ind	22	nsubj	_	_
 21	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	22	obl:arg	_	_
 22	zeigt	zeigen	VERB	VVFIN	_	5	conj	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	22	punct	_	_
@@ -24149,7 +24149,7 @@
 2	Philosophie	Philosophie	NOUN	NN	Case=Nom	11	nsubj	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	8	punct	_	_
 4	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	8	obj	_	_
-5	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 6	kritisierten	kritisiert	ADJ	ADJA	_	7	amod	_	_
 7	Mystizismus	Mystizismus	NOUN	NN	_	8	xcomp	_	_
 8	nennen	nennen	VERB	VVINF	_	2	acl	_	_
@@ -24241,7 +24241,7 @@
 8	bestehen	bestehen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	15	mark	_	_
-11	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 12	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 13	konventionellen	konventionell	ADJ	ADJA	_	14	amod	_	_
 14	Schranken	Schranke	NOUN	NN	Case=Acc	15	obj	_	_
@@ -24633,7 +24633,7 @@
 33	ist	sein	AUX	VAFIN	_	45	cop	_	SpaceAfter=No
 34	,	--	PUNCT	$,	_	45	punct	_	_
 35	was	was	PRON	PWS	Case=Acc	45	obj	_	_
-36	man	man	PRON	PIS	Case=Nom	45	nsubj	_	_
+36	man	man	PRON	PIS	Case=Nom|PronType=Ind	45	nsubj	_	_
 37	zu	zu	ADP	APPR	_	39	case	_	_
 38	irgendeiner	irgendein	DET	PIAT	_	39	det	_	_
 39	Zeit	Zeit	NOUN	NN	Case=Dat	45	obl	_	SpaceAfter=No
@@ -24904,7 +24904,7 @@
 8	verlieren	verlieren	VERB	VVINF	_	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	12	punct	_	_
 10	daß	daß	SCONJ	KOUS	_	12	mark	_	_
-11	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 12	glauben	glauben	VERB	VVINF	_	8	advcl	_	_
 13	möchte	mögen	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	20	punct	_	_
@@ -25484,7 +25484,7 @@
 4	Analogie	Analogie	NOUN	NN	Case=Acc	13	nmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	8	punct	_	_
 6	könnte	können	AUX	VMFIN	_	8	aux	_	_
-7	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 8	denken	denken	VERB	VVINF	_	13	parataxis	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	ist	sein	AUX	VAFIN	_	13	cop	_	_
@@ -25540,7 +25540,7 @@
 7	Augen	Auge	NOUN	NN	_	3	obl	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	13	punct	_	_
 9	daß	daß	SCONJ	KOUS	_	13	mark	_	_
-10	man	man	PRON	PIS	Case=Nom	13	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
 11	Talente	Talent	NOUN	NN	Case=Acc	13	obj	_	_
 12	nur	nur	ADV	ADV	_	13	advmod	_	_
 13	hat	haben	AUX	VAFIN	_	15	advcl	_	SpaceAfter=No
@@ -25575,7 +25575,7 @@
 # text = Genie kann man eigentlich nie haben, nur sein.
 1	Genie	Genie	NOUN	NN	Case=Acc	6	obj	_	_
 2	kann	können	AUX	VMFIN	_	6	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 4	eigentlich	eigentlich	ADV	ADV	_	6	advmod	_	_
 5	nie	nie	ADV	ADV	_	6	advmod	_	_
 6	haben	haben	VERB	VVFIN	_	0	root	_	SpaceAfter=No
@@ -25828,7 +25828,7 @@
 # text = Nur sollte man das nicht Mystik nennen, da dies schöne alte Wort für die absolute Philosophie, auf deren Standpunkte der Geist alles als Geheimnis und als Wunder betrachtet, was er aus andern Gesichtspunkten theoretisch und praktisch natürlich findet, so brauchbar und so unentbehrlich ist.
 1	Nur	nur	ADV	ADV	_	7	advmod	_	_
 2	sollte	sollen	AUX	VMFIN	_	7	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	7	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 4	das	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	7	obj	_	_
 5	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 6	Mystik	Mystik	NOUN	NN	_	7	xcomp	_	_
@@ -26066,7 +26066,7 @@
 # sent_id = athenaeum-f124-s1
 # text = Wenn man einmal aus Psychologie Romane schreibt oder Romane liest, so ist es sehr inkonsequent, und klein, auch die langsamste und ausführlichste Zergliederung unnatürlicher Lüste, gräßlicher Marter, empörender Infamie, ekelhafter sinnlicher oder geistiger Impotenz scheuen zu wollen.
 1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	7	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 3	einmal	einmal	ADV	ADV	_	7	advmod	_	_
 4	aus	aus	ADP	APPR	_	5	case	_	_
 5	Psychologie	Psychologie	NOUN	NN	Case=Dat	7	obl	_	_
@@ -26165,7 +26165,7 @@
 # text = Oft kann man sich des Gedankens nicht erwehren, zwei Geister möchten eigentlich zusammengehören, wie getrennte Hälften, und nur verbunden alles sein, was sie könnten.
 1	Oft	oft	ADV	ADV	_	8	advmod	_	_
 2	kann	können	AUX	VMFIN	_	8	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	_
 5	des	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Gedankens	Gedanke	NOUN	NN	Case=Gen	8	nsubj	_	_
@@ -26542,7 +26542,7 @@
 # text = Zuweilen nimmt man doch einen Zusammenhang zwischen den getrennten, und oft sich widersprechenden Teilen unsrer Bildung gewahr.
 1	Zuweilen	zuweilen	ADV	ADV	_	2	advmod	_	_
 2	nimmt	nehmen	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	doch	doch	ADV	ADV	_	2	advmod	_	_
 5	einen	ein	DET	ART	PronType=Art	6	det	_	_
 6	Zusammenhang	Zusammenhang	NOUN	NN	Case=Acc	2	obj	_	_
@@ -26637,13 +26637,13 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f136-s3
 # text = Man dringt nicht tief, wenn man einen Bohrer mit großer Gewalt gegen ein Brett drückt, ohne ihn umzudrehen.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	dringt	dringen	VERB	VVFIN	_	0	root	_	_
 3	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
 4	tief	tief	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	16	punct	_	_
 6	wenn	wenn	SCONJ	KOUS	_	16	mark	_	_
-7	man	man	PRON	PIS	Case=Nom	16	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
 8	einen	ein	DET	ART	PronType=Art	9	det	_	_
 9	Bohrer	Bohrer	NOUN	NN	Case=Acc	16	obj	_	_
 10	mit	mit	ADP	APPR	_	12	case	_	_
@@ -26697,7 +26697,7 @@
 30	Politik	Politik	NOUN	NN	_	16	conj	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	30	punct	_	_
 32	welche	welcher	DET	PRELS	Case=Acc|PronType=Int,Rel	39	obj	_	_
-33	man	man	PRON	PIS	Case=Nom	39	nsubj	_	_
+33	man	man	PRON	PIS	Case=Nom|PronType=Ind	39	nsubj	_	_
 34	mit	mit	ADP	APPR	_	36	case	_	_
 35	demselben	derselbe	DET	PDAT	_	36	det	_	_
 36	Namen	Name	NOUN	NN	Case=Dat	38	obl	_	_
@@ -27157,7 +27157,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f143-s1
 # text = Man kann niemand zwingen, die Alten für klassisch zu halten, oder für alt; das hängt zuletzt von Maximen ab.
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	4	aux	_	_
 3	niemand	niemand	PRON	PIS	Case=Acc	4	obj	_	_
 4	zwingen	zwingen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -27368,7 +27368,7 @@
 26	ist	sein	AUX	VAFIN	_	19	cop	_	SpaceAfter=No
 27	,	--	PUNCT	$,	_	19	punct	_	_
 28	muß	müssen	AUX	VMFIN	_	35	aux	_	_
-29	man	man	PRON	PIS	Case=Nom	35	nsubj	_	_
+29	man	man	PRON	PIS	Case=Nom|PronType=Ind	35	nsubj	_	_
 30	die	der	DET	ART	Definite=Def|PronType=Art	32	det	_	_
 31	Horazischen	horazisch	ADJ	ADJA	_	32	amod	_	_
 32	Satiren	Satire	NOUN	NN	Case=Acc	35	obj	_	_
@@ -27560,7 +27560,7 @@
 25	ist	sein	AUX	VAFIN	_	24	aux	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	24	punct	_	_
 27	darf	dürfen	AUX	VMFIN	_	29	aux	_	_
-28	man	man	PRON	PIS	Case=Nom	29	nsubj	_	_
+28	man	man	PRON	PIS	Case=Nom|PronType=Ind	29	nsubj	_	_
 29	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	37	punct	_	_
 31	daß	dass	SCONJ	KOUS	_	37	mark	_	_
@@ -28082,7 +28082,7 @@
 # sent_id = athenaeum-f162-s1
 # text = Hat man nicht bei Untersuchung der ältesten griechischen Mythologie viel zu wenig Rücksicht auf den Instinkt des menschlichen Geistes zu parallelisieren und zu antithesieren genommen?
 1	Hat	haben	AUX	VAFIN	_	25	aux	_	_
-2	man	man	PRON	PIS	Case=Nom	25	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	25	nsubj	_	_
 3	nicht	nicht	PART	PTKNEG	_	25	advmod	_	_
 4	bei	bei	ADP	APPR	_	5	case	_	_
 5	Untersuchung	Untersuchung	NOUN	NN	Case=Dat	25	obl	_	_
@@ -28153,7 +28153,7 @@
 5	Bemerkung	Bemerkung	NOUN	NN	_	16	obl	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	14	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	14	mark	_	_
-8	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Menschen	Mensch	NOUN	NN	Case=Acc	14	obj	_	_
 11	aus	aus	ADP	APPR	_	13	case	_	_
@@ -28296,7 +28296,7 @@
 1	Das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	16	nsubj	_	SpaceAfter=No
 2	,	--	PUNCT	$,	_	10	punct	_	_
 3	woraus	woraus	ADV	PWAV	_	10	advmod	_	_
-4	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
 6	etwas	etwas	PRON	PIS	Case=Acc	10	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
@@ -28409,7 +28409,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f165-s4
 # text = Man könnte sie eine Mischung der mythischen, und panegyrischen nennen, wenn sie nicht auch etwas von dem gedrängten und einfach Würdigen der physischen hätte.
-1	Man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 2	könnte	können	AUX	VMFIN	_	11	aux	_	_
 3	sie	sie	PRON	PPER	Case=Acc	11	obj	_	_
 4	eine	ein	DET	ART	PronType=Art	5	det	_	_
@@ -28789,7 +28789,7 @@
 # text = Was soll man daraus auf ihre Geschicklichkeit Romane zu spielen für einen Schluß ziehen?
 1	Was	was	PRON	PWS	Case=Acc	14	obj	_	_
 2	soll	sollen	AUX	VMFIN	_	14	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 4	daraus	daraus	ADV	PAV	PronType=Dem	14	advmod	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
@@ -28833,7 +28833,7 @@
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	letzte	letzter	NOUN	NN	Case=Acc	9	obj	_	_
 3	sollte	sollen	AUX	VMFIN	_	9	aux	_	_
-4	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 5	beinah	beinah	ADV	ADV	_	9	advmod	_	_
 6	aus	aus	ADP	APPR	_	8	case	_	_
 7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -28964,7 +28964,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f170-s8
 # text = Man sonnt sich wenigstens im Mondschein, wenn man durch das Spazierengehn am Tage seine Haut zu schwärzen fürchtet.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	sonnt	sonnen	VERB	VVFIN	_	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	wenigstens	wenigstens	ADV	ADV	_	2	advmod	_	_
@@ -28972,7 +28972,7 @@
 6	Mondschein	Mondschein	NOUN	NN	_	2	obl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	19	punct	_	_
 8	wenn	wenn	SCONJ	KOUS	_	19	mark	_	_
-9	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 10	durch	durch	ADP	APPR	_	12	case	_	_
 11	das	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Spazierengehn	Spazierengehn	NOUN	NN	Case=Acc	19	obl	_	_
@@ -29047,7 +29047,7 @@
 11	aufbewahrt	aufbewahren	VERB	VVPP	_	0	root	_	_
 12	werden	werden	AUX	VAINF	_	11	aux:pass	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	11	punct	_	_
-14	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	22	nsubj	_	_
 15	kann	können	AUX	VMFIN	_	22	aux	_	_
 16	sie	sie	PRON	PPER	Case=Acc	22	obj	_	_
 17	mit	mit	ADP	APPR	_	19	case	_	_
@@ -29091,7 +29091,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f172-s1
 # text = Man kann sagen, daß es ein charakteristisches Kennzeichen des dichtenden Genies ist, viel mehr zu wissen, als es weiß, daß es weiß.
-1	Man	man	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	3	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	3	aux	_	_
 3	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	9	punct	_	_
@@ -29203,7 +29203,7 @@
 2	vielen	viel	DET	PIAT	PronType=Ind	3	det	_	_
 3	Plafonds	Plafonds	NOUN	NN	Case=Dat	8	obl	_	_
 4	kann	können	AUX	VMFIN	_	8	aux	_	_
-5	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 6	recht	recht	ADV	ADV	_	8	advmod	_	_
 7	eigentlich	eigentlich	ADV	ADV	_	8	advmod	_	_
 8	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -29595,7 +29595,7 @@
 10	,	--	PUNCT	$,	_	8	punct	_	_
 11	so	so	ADV	ADV	_	12	advmod	_	_
 12	dichtete	dichten	VERB	VVFIN	_	0	root	_	_
-13	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 14	eigne	eignen	ADJ	ADJA	_	18	amod	_	_
 15	ursprünglich	ursprünglich	ADV	ADV	_	17	advmod	_	_
 16	dazu	dazu	ADV	PAV	PronType=Dem	17	advmod	_	_
@@ -29764,7 +29764,7 @@
 6	vergessen	vergessen	VERB	VVINF	_	7	xcomp	_	_
 7	machen	machen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 8	:	--	PUNCT	$.	_	7	punct	_	_
-9	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 10	fand	finden	VERB	VVFIN	_	7	parataxis	_	_
 11	es	es	PRON	PPER	Case=Acc	10	obj	_	_
 12	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
@@ -29883,7 +29883,7 @@
 12	lächeln	lächeln	VERB	VVINF	_	5	ccomp	_	SpaceAfter=No
 13	,	--	PUNCT	$,	_	21	punct	_	_
 14	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	21	obl:arg	_	_
-15	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+15	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 16	ein	ein	DET	ART	PronType=Art	17	det	_	_
 17	Stück	Stück	NOUN	NN	Case=Nom	21	nsubj:pass	_	_
 18	mit	mit	ADP	APPR	_	20	case	_	_
@@ -29901,7 +29901,7 @@
 30	:	--	PUNCT	$.	_	28	punct	_	_
 31	so	so	ADV	ADV	_	32	advmod	_	_
 32	malte	malen	VERB	VVFIN	_	28	parataxis	_	_
-33	man	man	PRON	PIS	Case=Nom	32	nsubj	_	_
+33	man	man	PRON	PIS	Case=Nom|PronType=Ind	32	nsubj	_	_
 34	wohl	wohl	ADV	ADV	_	32	advmod	_	_
 35	im	in	ADP	APPRART	_	36	case	_	_
 36	Lande	Land	NOUN	NN	_	32	obl	_	_
@@ -30027,7 +30027,7 @@
 15	einem	ein	DET	ART	Case=Dat|PronType=Art	16	det	_	_
 16	Künstler	Künstler	NOUN	NN	Case=Dat	20	obl:arg	_	_
 17	kann	können	AUX	VMFIN	_	20	aux	_	_
-18	man	man	PRON	PIS	Case=Nom	20	nsubj	_	_
+18	man	man	PRON	PIS	Case=Nom|PronType=Ind	20	nsubj	_	_
 19	nicht	nicht	PART	PTKNEG	_	20	advmod	_	_
 20	zumuten	zumuten	ADV	ADV	_	0	root	_	_
 21	ein	ein	DET	ART	PronType=Art	23	det	_	_
@@ -30112,7 +30112,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f190-s2
 # text = Man denke an den Reichtum der holländischen Kunst in diesem Fache.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	denke	denken	VERB	VVFIN	_	0	root	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
 4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
@@ -30355,7 +30355,7 @@
 # sent_id = athenaeum-f193-s1
 # text = Wenn man sich nicht durch Künstlernamen und gelehrte Anspielungen blenden läßt, so findet man bei alten und neuen Dichtern den Sinn für bildende Kunst seltner als man erwarten sollte.
 1	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	_
 4	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 5	durch	durch	ADP	APPR	_	6	case	_	_
@@ -30368,7 +30368,7 @@
 12	,	--	PUNCT	$,	_	11	punct	_	_
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	findet	finden	VERB	VVFIN	_	0	root	_	_
-15	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+15	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 16	bei	bei	ADP	APPR	_	20	case	_	_
 17	alten	alt	ADJ	ADJA	_	20	amod	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
@@ -30381,7 +30381,7 @@
 25	Kunst	Kunst	NOUN	NN	Case=Acc	22	nmod	_	_
 26	seltner	seltn	ADV	ADV	_	14	advmod	_	_
 27	als	als	CCONJ	KOKOM	_	29	mark	_	_
-28	man	man	PRON	PIS	Case=Nom	29	nsubj	_	_
+28	man	man	PRON	PIS	Case=Nom|PronType=Ind	29	nsubj	_	_
 29	erwarten	erwarten	VERB	VVINF	_	14	advcl	_	_
 30	sollte	sollen	AUX	VMFIN	_	29	aux	_	SpaceAfter=No
 31	.	--	PUNCT	$.	_	14	punct	_	_
@@ -30532,7 +30532,7 @@
 1	Im	in	ADP	APPRART	_	2	case	_	_
 2	Ariost	Ariost	PROPN	NE	_	3	obl	_	_
 3	trifft	treffen	VERB	VVFIN	_	0	root	_	_
-4	man	man	PRON	PIS	Case=Nom	3	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	3	nsubj	_	_
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	starke	stark	ADJ	ADJA	_	7	amod	_	_
 7	Spuren	Spur	NOUN	NN	_	3	obl	_	SpaceAfter=No
@@ -30679,7 +30679,7 @@
 6	antiker	antik	ADJ	ADJA	_	7	amod	_	_
 7	Münzen	Münze	NOUN	NN	_	5	nmod	_	_
 8	kennt	kennen	VERB	VVFIN	_	0	root	_	_
-9	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 10	in	in	ADP	APPR	_	12	case	_	_
 11	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Numismatik	Numismatik	NOUN	NN	_	8	obl	_	_
@@ -30879,7 +30879,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f198-s2
 # text = Man vergißt zu oft, daß diese Dinge innig vereinbar sind, daß in der schönen Darstellung die Natur idealisch und das Ideal natürlich sein soll.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	vergißt	vergessen	VERB	VVFIN	_	0	root	_	_
 3	zu	zu	PART	PTKA	_	4	case	_	_
 4	oft	oft	ADV	ADV	_	2	advmod	_	SpaceAfter=No
@@ -30990,7 +30990,7 @@
 # sent_id = athenaeum-f200-s2
 # text = « Man möchte diese Bedingung des Zutrauens gewissen angeblichen Philosophen zumuten; was gilts, man fände papier maché aus Kantischen Schriften verfertigt.
 1	«	«	PUNCT	XY	_	11	punct	_	_
-2	Man	Man	PRON	PIS	Case=Nom	11	nsubj	_	_
+2	Man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 3	möchte	mögen	AUX	VMFIN	_	11	aux	_	_
 4	diese	dieser	DET	PDAT	PronType=Dem	5	det	_	_
 5	Bedingung	Bedingung	NOUN	NN	Case=Acc	11	obj	_	_
@@ -31004,7 +31004,7 @@
 13	was	was	PRON	PWS	Case=Nom	14	nsubj	_	_
 14	gilts	gilt	ADV	ADV	_	23	advmod	_	SpaceAfter=No
 15	,	--	PUNCT	$,	_	17	punct	_	_
-16	man	man	PRON	PIS	Case=Nom	17	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 17	fände	fand	VERB	VVFIN	_	23	parataxis	_	_
 18	papier	papier	ADJ	ADJD	_	17	advmod	_	_
 19	maché	maché	X	FM	_	17	amod	_	_
@@ -31098,7 +31098,7 @@
 13	ist	sein	AUX	VAFIN	_	11	aux	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	11	punct	_	_
 15	sieht	sehen	VERB	VVFIN	_	0	root	_	_
-16	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 17	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Lehrlinge	Lehrling	NOUN	NN	Case=Acc	15	obj	_	_
 19	treuherzig	treuherzig	ADV	ADV	_	23	advmod	_	_
@@ -31158,7 +31158,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f203-s2
 # text = Man könnte in seiner Sprache von der »Mythologie« und »Anthusa« sagen, daß das Menschliche dem Heiligen sich hier überall zu nähern und das Denkende im Sinnbildlichen sich wieder zu erkennen sucht, aber sich manchmal selbst nicht versteht.
-1	Man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 2	könnte	können	AUX	VMFIN	_	15	aux	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -31230,7 +31230,7 @@
 19	weg	weg	ADV	ADV	_	5	parataxis	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	weil	weil	SCONJ	KOUS	_	26	mark	_	_
-22	man	man	PRON	PIS	Case=Nom	26	nsubj	_	_
+22	man	man	PRON	PIS	Case=Nom|PronType=Ind	26	nsubj	_	_
 23	ihm	ihm	PRON	PPER	Case=Dat	26	obl:arg	_	_
 24	nicht	nicht	PART	PTKNEG	_	26	advmod	_	_
 25	drein	drein	ADV	PROAV	_	26	advmod	_	_
@@ -31367,7 +31367,7 @@
 6	ein	ein	DET	ART	PronType=Art	7	det	_	_
 7	Götze	Götze	NOUN	NN	_	4	parataxis	_	_
 8	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	13	obl:arg	_	_
-9	man	man	PRON	PIS	Case=Nom	13	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
 10	nur	nur	ADV	ADV	_	13	advmod	_	_
 11	ohne	ohne	ADP	APPR	_	12	case	_	_
 12	Freude	Freude	NOUN	NN	Case=Acc	13	obl	_	_
@@ -31485,7 +31485,7 @@
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	Tage	Tag	NOUN	NN	Case=Nom	2	nsubj	_	_
 4	wo	wo	ADV	PWAV	_	8	advmod	_	_
-5	man	man	PRON	PIS	Case=Nom	8	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
 6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
 7	glücklich	glücklich	ADJ	ADJD	_	8	xcomp	_	_
 8	gestimmt	stimmen	VERB	VVPP	_	3	acl	_	_
@@ -31582,7 +31582,7 @@
 18	wenig	wenig	ADV	ADV	_	15	nsubj	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	15	punct	_	_
 20	als	als	CCONJ	KOKOM	_	32	mark	_	_
-21	man	man	PRON	PIS	Case=Nom	32	nsubj	_	_
+21	man	man	PRON	PIS	Case=Nom|PronType=Ind	32	nsubj	_	_
 22	im	in	ADP	APPRART	_	23	case	_	_
 23	Naturrecht	Naturrecht	NOUN	NN	_	31	obl	_	_
 24	den	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
@@ -31603,7 +31603,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f210-s1
 # text = Man erzählt, Klopstock habe den französischen Dichter Rouget de Lisle, der ihn besuchte, mit der Anrede begrüßt: wie er es wage in Deutschland zu erscheinen, da sein Marseiller Marsch funfzigtausend braven Deutschen das Leben gekostet?
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	erzählt	erzählen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	20	punct	_	_
 4	Klopstock	Klopstock	PROPN	NE	Case=Nom	20	nsubj	_	_
@@ -31712,7 +31712,7 @@
 34	zusammengenommen	zusammengenommen	VERB	VVPP	_	33	nmod	_	SpaceAfter=No
 35	,	--	PUNCT	$,	_	41	punct	_	_
 36	würde	werden	AUX	VAFIN	_	41	aux	_	_
-37	man	man	PRON	PIS	Case=Nom	41	nsubj	_	_
+37	man	man	PRON	PIS	Case=Nom|PronType=Ind	41	nsubj	_	_
 38	keine	kein	DET	PIAT	PronType=Neg	39	advmod	_	_
 39	Fliege	Fliege	NOUN	NN	Case=Acc	41	obj	_	_
 40	tot	tot	ADJ	ADJD	_	41	xcomp	_	_
@@ -32052,14 +32052,14 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f218-s1
 # text = Man wundert sich immer mißtrauisch, wenn man zu wissen scheint: das und das wird so sein.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	wundert	wundern	VERB	VVFIN	_	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	immer	immer	ADV	ADV	_	2	advmod	_	_
 5	mißtrauisch	mißtrauisch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	2	punct	_	_
 7	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
-8	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	wissen	wissen	VERB	VVINF	_	11	xcomp	_	_
 11	scheint	scheinen	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
@@ -32213,7 +32213,7 @@
 1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Türken	Türke	NOUN	NN	Case=Nom	12	nsubj	_	_
 3	sollte	sollen	AUX	VMFIN	_	5	aux	_	_
-4	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 5	denken	denken	VERB	VVINF	_	0	root	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	hätten	haben	AUX	VAFIN	_	12	aux	_	_
@@ -32850,7 +32850,7 @@
 # sent_id = athenaeum-f226-s1
 # text = Da man immer so sehr gegen die Hypothesen redet, so sollte man doch einmal versuchen, die Geschichte ohne Hypothese anzufangen.
 1	Da	da	SCONJ	KOUS	_	9	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 3	immer	immer	ADV	ADV	_	9	advmod	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
 5	sehr	sehr	ADV	ADV	_	9	advmod	_	_
@@ -32861,7 +32861,7 @@
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	so	so	ADV	ADV	_	16	advmod	_	_
 12	sollte	sollen	AUX	VMFIN	_	16	aux	_	_
-13	man	man	PRON	PIS	Case=Nom	16	nsubj	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
 14	doch	doch	ADV	ADV	_	16	advmod	_	_
 15	einmal	einmal	ADV	ADV	_	16	advmod	_	_
 16	versuchen	versuchen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -32878,7 +32878,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f226-s2
 # text = Man kann nicht sagen, daß etwas ist, ohne zu sagen, was es ist.
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	4	aux	_	_
 3	nicht	nicht	PART	PTKNEG	_	4	advmod	_	_
 4	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -32902,12 +32902,12 @@
 # sent_id = athenaeum-f226-s3
 # text = Indem man sie denkt, bezieht man Fakta schon auf Begriffe, und es ist doch wohl nicht einerlei, auf welche.
 1	Indem	indem	SCONJ	KOUS	_	4	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 3	sie	sie	PRON	PPER	Case=Acc	4	obj	_	_
 4	denkt	denken	VERB	VVFIN	_	6	advcl	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	6	punct	_	_
 6	bezieht	beziehen	VERB	VVFIN	_	0	root	_	_
-7	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 8	Fakta	Fakta	PROPN	NE	Case=Acc	6	obj	_	_
 9	schon	schon	ADV	ADV	_	6	advmod	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
@@ -32931,14 +32931,14 @@
 # sent_id = athenaeum-f226-s4
 # text = Weiß man dies, so bestimmt und wählt man sich selbst unter den möglichen Begriffen die notwendigen, auf die man Fakta jeder Art beziehen soll.
 1	Weiß	weiße	VERB	VVFIN	_	0	root	_	_
-2	man	man	PRON	PIS	Case=Nom	1	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	1	nsubj	_	_
 3	dies	dieser	DET	PDS	Case=Acc|PronType=Dem	1	obj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	1	punct	_	_
 5	so	so	ADV	ADV	_	6	advmod	_	_
 6	bestimmt	bestimmen	VERB	VVFIN	_	1	parataxis	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	wählt	wählen	VERB	VVFIN	_	6	conj	_	_
-9	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 10	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	nmod	_	_
 11	selbst	selbst	ADV	ADV	_	10	fixed	_	_
 12	unter	unter	ADP	APPR	_	15	case	_	_
@@ -32950,7 +32950,7 @@
 18	,	--	PUNCT	$,	_	25	punct	_	_
 19	auf	auf	ADP	APPR	_	20	case	_	_
 20	die	der	PRON	PRELS	PronType=Dem,Rel	25	obl	_	_
-21	man	man	PRON	PIS	Case=Nom	25	nsubj	_	_
+21	man	man	PRON	PIS	Case=Nom|PronType=Ind	25	nsubj	_	_
 22	Fakta	Fakta	PROPN	NE	Case=Acc	25	obj	_	_
 23	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	24	det	_	_
 24	Art	Art	NOUN	NN	_	22	nmod	_	_
@@ -32964,7 +32964,7 @@
 # sent_id = athenaeum-f226-s5
 # text = Will man es nicht anerkennen, so bleibt die Wahl dem Instinkt, dem Zufall, oder der Willkür überlassen, man schmeichelt sich reine solide Empirie ganz a posteriori zu haben, und hat eine höchst einseitige, höchst dogmatizistische und transzendente Ansicht a priori.
 1	Will	wollen	AUX	VMFIN	_	5	aux	_	_
-2	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 3	es	es	PRON	PPER	Case=Acc	5	obj	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
 5	anerkennen	anerkennen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
@@ -32984,7 +32984,7 @@
 19	Willkür	Willkür	NOUN	NN	_	12	conj	_	_
 20	überlassen	überlassen	VERB	VVINF	_	8	xcomp	_	SpaceAfter=No
 21	,	--	PUNCT	$,	_	23	punct	_	_
-22	man	man	PRON	PIS	Case=Nom	23	nsubj	_	_
+22	man	man	PRON	PIS	Case=Nom|PronType=Ind	23	nsubj	_	_
 23	schmeichelt	schmeicheln	VERB	VVFIN	_	5	parataxis	_	_
 24	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	23	obj	_	_
 25	reine	rein	ADJ	ADJA	_	27	amod	_	_
@@ -33471,7 +33471,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f233-s2
 # text = Man kann also sagen: Je freier, je religiöser; und je mehr Bildung, je weniger Religion.
-1	Man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	4	aux	_	_
 3	also	also	ADV	ADV	_	4	advmod	_	_
 4	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -33662,7 +33662,7 @@
 13	echt	echt	ADJ	ADJD	_	7	parataxis	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	13	punct	_	_
 15	sobald	sobald	SCONJ	KOUS	_	19	mark	_	_
-16	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 17	Vorsatz	Vorsatz	NOUN	NN	Case=Acc	19	obj	_	_
 18	dabei	dabei	ADV	PAV	_	19	advmod	_	_
 19	wahrnimmt	wahrnehmen	VERB	VVFIN	_	13	advcl	_	SpaceAfter=No
@@ -33864,7 +33864,7 @@
 10	bedeuten	bedeuten	VERB	VVINF	_	2	csubj	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
 12	was	was	ADV	PWAV	_	15	obj	_	_
-13	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 14	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	15	obl:arg	_	_
 15	zueignen	zueignen	VERB	VVINF	_	10	advcl	_	_
 16	möchte	mögen	AUX	VMFIN	_	15	aux	_	SpaceAfter=No
@@ -33876,7 +33876,7 @@
 # sent_id = athenaeum-f241-s2
 # text = Indem man unaufhörlich von ihnen spricht, glaubt einen der gutmütige Leser im Besitz der bezeichneten Eigenschaft.
 1	Indem	indem	SCONJ	KOUS	_	6	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 3	unaufhörlich	unaufhörlich	ADJ	ADJD	_	6	xcomp	_	_
 4	von	von	ADP	APPR	_	5	case	_	_
 5	ihnen	ihnen	PRON	PPER	Case=Dat	6	obl	_	_
@@ -33925,7 +33925,7 @@
 # sent_id = athenaeum-f242-s1
 # text = Kann man etwas andres charakterisieren als Individuen?
 1	Kann	können	AUX	VMFIN	_	5	aux	_	_
-2	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 3	etwas	etwas	PRON	PIS	Case=Acc	5	obj	_	_
 4	andres	andr	PRON	PIS	_	3	nmod	_	_
 5	charakterisieren	charakterisieren	VERB	VVINF	_	0	root	_	_
@@ -34529,7 +34529,7 @@
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	einzige	einzig	PRON	PIS	Case=Nom	20	nsubj	_	_
 10	den	der	DET	ART	Case=Acc|Definite=Def|PronType=Art	20	obj	_	_
-11	man	man	PRON	PIS	Case=Nom	20	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	20	nsubj	_	_
 12	ohne	ohne	ADP	APPR	_	13	case	_	_
 13	Übertreibung	Übertreibung	NOUN	NN	Case=Acc	20	obl	_	_
 14	absolut	absolut	ADV	ADV	_	20	advmod	_	_
@@ -35183,7 +35183,7 @@
 8	erschien	erscheinen	VERB	VVFIN	_	10	advcl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	8	punct	_	_
 10	verglich	vergleichen	VERB	VVFIN	_	0	root	_	_
-11	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 12	es	es	PRON	PPER	Case=Acc	10	obj	_	_
 13	mit	mit	ADP	APPR	_	16	case	_	_
 14	Vossens	Vossen	PROPN	NE	_	16	nmod:poss	_	_
@@ -35785,7 +35785,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f264-s1
 # text = Man soll nicht mit allen symphilosophieren wollen, sondern nur mit denen die à la hauteur sind.
-1	Man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 2	soll	sollen	AUX	VMFIN	_	6	aux	_	_
 3	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 4	mit	mit	ADP	APPR	_	5	case	_	_
@@ -35915,14 +35915,14 @@
 # text = Je mehr man schon weiß, je mehr hat man noch zu lernen.
 1	Je	je	ADV	ADV	_	5	advmod	_	_
 2	mehr	mehr	ADV	ADV	_	5	advmod	_	_
-3	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 4	schon	schon	ADV	ADV	_	5	advmod	_	_
 5	weiß	weiß	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	9	punct	_	_
 7	je	je	ADV	ADV	_	9	advmod	_	_
 8	mehr	mehr	ADV	ADV	_	9	advmod	_	_
 9	hat	haben	VERB	VVFIN	_	5	conj	_	_
-10	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 11	noch	noch	ADV	ADV	_	9	advmod	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	lernen	lernen	VERB	VVINF	_	9	xcomp	_	SpaceAfter=No
@@ -35959,7 +35959,7 @@
 # sent_id = athenaeum-f268-s1
 # text = Was man eine glückliche Ehe nennt, verhält sich zur Liebe, wie ein korrektes Gedicht zu improvisiertem Gesang.
 1	Was	was	PRON	PWS	Case=Acc	6	obj	_	_
-2	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 3	eine	ein	DET	ART	PronType=Art	5	det	_	_
 4	glückliche	glücklich	ADJ	ADJA	_	5	amod	_	_
 5	Ehe	Ehe	NOUN	NN	_	6	xcomp	_	_
@@ -36116,7 +36116,7 @@
 # text = Vielleicht muß man um einen transzendentalen Gesichtspunkt für das Antike zu haben, Erzadern sein.
 1	Vielleicht	vielleicht	ADV	ADV	_	14	advmod	_	_
 2	muß	müssen	AUX	VMFIN	_	14	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 4	um	um	SCONJ	KOUI	_	12	mark	_	_
 5	einen	ein	DET	ART	PronType=Art	7	det	_	_
 6	transzendentalen	transzendental	ADJ	ADJA	_	7	amod	_	_
@@ -36558,7 +36558,7 @@
 11	ist	sein	AUX	VAFIN	_	10	cop	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	15	punct	_	_
 13	als	als	CCONJ	KOKOM	_	15	mark	_	_
-14	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 15	denkt	denken	VERB	VVFIN	_	10	advcl	_	SpaceAfter=No
 16	.	--	PUNCT	$.	_	7	punct	_	_
 
@@ -36672,7 +36672,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f280-s1
 # text = Man hält es für ein Unglück, daß es kein bestimmtes Gefühl der physischen Gesundheit gibt, wohl aber der Krankheit.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	hält	halten	VERB	VVFIN	_	0	root	_	_
 3	es	es	PRON	PPER	_	2	expl	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
@@ -36709,7 +36709,7 @@
 7	sei	sein	AUX	VAFIN	_	2	cop	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	2	punct	_	_
 9	sieht	sehen	VERB	VVFIN	_	0	root	_	_
-10	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 11	aus	aus	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Zustande	Zustande	NOUN	NN	Case=Dat	9	obl	_	_
@@ -36919,7 +36919,7 @@
 2	bei	bei	ADP	APPR	_	3	case	_	_
 3	Fichte	Fichte	NOUN	NN	Case=Dat	18	obl	_	_
 4	muß	müssen	AUX	VMFIN	_	18	aux	_	_
-5	man	man	PRON	PIS	Case=Nom	18	nsubj	_	SpaceAfter=No
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	18	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	8	punct	_	_
 7	wie	wie	CCONJ	KOKOM	_	8	cc	_	_
 8	er	er	PRON	PPER	_	5	conj	_	_
@@ -36947,7 +36947,7 @@
 30	nur	nur	ADV	ADV	_	41	advmod	_	_
 31	so	so	ADV	ADV	_	41	advmod	_	_
 32	kann	können	AUX	VMFIN	_	41	aux	_	_
-33	man	man	PRON	PIS	Case=Nom	41	nsubj	_	_
+33	man	man	PRON	PIS	Case=Nom|PronType=Ind	41	nsubj	_	_
 34	die	der	DET	ART	Definite=Def|PronType=Art	35	det	_	_
 35	Identität	Identität	NOUN	NN	_	41	obl	_	_
 36	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	37	det:poss	_	_
@@ -36972,7 +36972,7 @@
 5	etwas	etwas	PRON	PIS	Case=Nom	3	nsubj	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	10	punct	_	_
 7	was	was	PRON	PRELS	_	10	nmod	_	_
-8	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 9	nie	nie	ADV	ADV	_	10	advmod	_	_
 10	genug	genug	ADV	ADV	_	5	acl	_	_
 11	sein	sein	AUX	VAINF	_	10	cop	_	_
@@ -37139,7 +37139,7 @@
 # sent_id = athenaeum-f283-s6
 # text = Was man aber gewöhnlich Genie nennt, ist Genie des Genies.
 1	Was	was	PRON	PWS	Case=Acc	6	obj	_	_
-2	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 3	aber	aber	ADV	ADV	_	6	advmod	_	_
 4	gewöhnlich	gewöhnlich	ADJ	ADJD	_	6	advmod	_	_
 5	Genie	Genie	NOUN	NN	_	6	xcomp	_	_
@@ -38083,7 +38083,7 @@
 2	Ein	ein	DET	ART	PronType=Art	3	det	_	_
 3	Kaiserwort	Kaiserwort	NOUN	NN	Case=Acc	7	obj	_	_
 4	soll	sollen	AUX	VMFIN	_	7	aux	_	_
-5	man	man	PRON	PIS	Case=Nom	7	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 6	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 7	drehn	drehn	VERB	VVINF	_	0	root	_	_
 8	noch	noch	CCONJ	KON	_	9	cc	_	_
@@ -38144,7 +38144,7 @@
 # text = Das nennt man Polemik.
 1	Das	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	2	obj	_	_
 2	nennt	nennen	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	Polemik	Polemik	NOUN	NN	_	2	xcomp	_	SpaceAfter=No
 5	.	--	PUNCT	$.	_	2	punct	_	_
 
@@ -38196,7 +38196,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f302-s2
 # text = Man weiß, was diese den Kennern der Malerei gelten.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	weiß	weiß	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	2	punct	_	_
 4	was	was	PRON	PWS	Case=Acc	10	obj	_	_
@@ -38316,7 +38316,7 @@
 3	es	es	PRON	PPER	Case=Nom	2	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	2	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
-6	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 7	ihnen	ihnen	PRON	PPER	Case=Dat	10	obl:arg	_	_
 8	aufs	auf	ADP	APPRART	_	9	case	_	_
 9	Wort	Wort	NOUN	NN	_	10	obl	_	_
@@ -38997,7 +38997,7 @@
 4	,	--	PUNCT	$,	_	13	punct	_	_
 5	als	als	CCONJ	KOKOM	_	13	mark	_	_
 6	wollte	wollen	AUX	VMFIN	_	13	aux	_	_
-7	man	man	PRON	PIS	Case=Nom	13	nsubj	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
 8	es	es	PRON	PPER	_	13	expl	_	_
 9	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
 10	für	für	ADP	APPR	_	11	case	_	_
@@ -39185,7 +39185,7 @@
 # sent_id = athenaeum-f310-s5
 # text = Wenn man aber den Geist einer Sache in Einem Zuge fassen will, so nennt man nicht das, was sich von selbst versteht, und was sie mit andern gemein hat, sondern was wesentlich ihre Eigentümlichkeit bezeichnet.
 1	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 3	aber	aber	ADV	ADV	_	11	advmod	_	_
 4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Geist	Geist	NOUN	NN	Case=Acc	11	obj	_	_
@@ -39199,7 +39199,7 @@
 13	,	--	PUNCT	$,	_	11	punct	_	_
 14	so	so	ADV	ADV	_	15	advmod	_	_
 15	nennt	nennen	VERB	VVFIN	_	0	root	_	_
-16	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+16	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 17	nicht	nicht	PART	PTKNEG	_	15	advmod	_	_
 18	das	der	PRON	PDS	PronType=Dem,Rel	15	expl	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	15	punct	_	_
@@ -39431,7 +39431,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f310-s12
 # text = Man vergleiche die gröbste Ausgelassenheit antiker Satyren und Bacchantinnen mit ähnlichen Vorstellungen aus der flamändischen Schule, und man müßte selbst ganz unhellenisch sein, wenn man nicht dort noch das Hellenische fühlte.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	vergleiche	vergleichen	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	gröbste	gröbst	ADJ	ADJA	_	5	amod	_	_
@@ -39449,7 +39449,7 @@
 16	Schule	Schule	NOUN	NN	Case=Dat	12	nmod	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	23	punct	_	_
 18	und	und	CCONJ	KON	_	23	cc	_	_
-19	man	man	PRON	PIS	Case=Nom	23	nsubj	_	_
+19	man	man	PRON	PIS	Case=Nom|PronType=Ind	23	nsubj	_	_
 20	müßte	müssen	AUX	VMFIN	_	23	aux	_	_
 21	selbst	selbst	ADV	ADV	_	23	advmod	_	_
 22	ganz	ganz	ADV	ADV	_	23	advmod	_	_
@@ -39457,7 +39457,7 @@
 24	sein	sein	AUX	VAINF	_	23	cop	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	23	punct	_	_
 26	wenn	wenn	SCONJ	KOUS	_	33	mark	_	_
-27	man	man	PRON	PIS	Case=Nom	33	nsubj	_	_
+27	man	man	PRON	PIS	Case=Nom|PronType=Ind	33	nsubj	_	_
 28	nicht	nicht	PART	PTKNEG	_	33	advmod	_	_
 29	dort	dort	ADV	ADV	_	33	advmod	_	_
 30	noch	noch	ADV	ADV	_	33	advmod	_	_
@@ -39586,7 +39586,7 @@
 # text = Oder wird man in den Tragödien des Sophokles, deswegen weil sie höchst tragisch sind, die stille Größe und edle Einfalt wegleugnen?
 1	Oder	oder	CCONJ	KON	_	23	cc	_	_
 2	wird	werden	AUX	VAFIN	_	23	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	23	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	23	nsubj	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
 5	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Tragödien	Tragödie	NOUN	NN	_	23	obl	_	_
@@ -39749,7 +39749,7 @@
 28	,	--	PUNCT	$,	_	26	punct	_	_
 29	so	so	ADV	ADV	_	33	advmod	_	_
 30	möchte	mögen	AUX	VMFIN	_	33	aux	_	_
-31	man	man	PRON	PIS	Case=Nom	33	nsubj	_	_
+31	man	man	PRON	PIS	Case=Nom|PronType=Ind	33	nsubj	_	_
 32	darauf	darauf	ADV	PROAV	PronType=Dem	33	advmod	_	_
 33	antragen	antragen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 34	,	--	PUNCT	$,	_	38	punct	_	_
@@ -39829,7 +39829,7 @@
 # text = So sieht man bei plötzlichem Lärm auf der Gasse manchmal ein halb rasiertes Gesicht zum Fenster herausgucken; und mit französischer Lebhaftigkeit und Ungeduld betrieben, mag das Säuberungsgeschäft überhaupt viel von der Barbierkunst an sich haben.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	sieht	sehen	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	bei	bei	ADP	APPR	_	6	case	_	_
 5	plötzlichem	plötzlich	ADJ	ADJA	_	6	amod	_	_
 6	Lärm	Lärm	NOUN	NN	Case=Dat	2	obl	_	_
@@ -39981,7 +39981,7 @@
 # sent_id = athenaeum-f314-s1
 # text = Da man jetzt überall moralische Nutzanwendungen verlangt, so wird man auch die Nützlichkeit der Porträtmalerei durch eine Beziehung auf häusliches Glück dartun müssen.
 1	Da	da	SCONJ	KOUS	_	7	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	7	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 3	jetzt	jetzt	ADV	ADV	_	7	advmod	_	_
 4	überall	überall	ADV	ADV	_	7	advmod	_	_
 5	moralische	moralisch	ADJ	ADJA	_	6	amod	_	_
@@ -39990,7 +39990,7 @@
 8	,	--	PUNCT	$,	_	7	punct	_	_
 9	so	so	ADV	ADV	_	23	advmod	_	_
 10	wird	werden	AUX	VAFIN	_	23	aux	_	_
-11	man	man	PRON	PIS	Case=Nom	23	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	23	nsubj	_	_
 12	auch	auch	ADV	ADV	_	23	advmod	_	_
 13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Nützlichkeit	Nützlichkeit	NOUN	NN	Case=Acc	23	obj	_	_
@@ -40049,7 +40049,7 @@
 5	Elegie	Elegie	NOUN	NN	_	2	nmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	7	punct	_	_
 7	sagt	sagen	VERB	VVFIN	_	10	parataxis	_	_
-8	man	man	PRON	PIS	Case=Nom	7	nsubj	_	SpaceAfter=No
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	7	punct	_	_
 10	liege	liegen	VERB	VVFIN	_	0	root	_	_
 11	in	in	ADP	APPR	_	14	case	_	_
@@ -40163,7 +40163,7 @@
 1	Heraklit	Heraklit	PROPN	NE	Case=Nom	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	5	punct	_	_
-4	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 5	lerne	lerne	VERB	VVFIN	_	2	ccomp	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Vernunft	Vernunft	NOUN	NN	Case=Acc	5	obj	_	_
@@ -40185,7 +40185,7 @@
 6	erinnern	erinnern	VERB	VVINF	_	2	csubj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	16	punct	_	_
 8	daß	daß	SCONJ	KOUS	_	16	mark	_	_
-9	man	man	PRON	PIS	Case=Nom	16	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
 10	durch	durch	ADP	APPR	_	12	case	_	_
 11	reine	rein	ADJ	ADJA	_	12	amod	_	_
 12	Vernunft	Vernunft	NOUN	NN	Case=Acc	16	obl	_	_
@@ -40209,7 +40209,7 @@
 5	können	können	AUX	VMINF	_	2	aux	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	12	punct	_	_
 7	muß	müssen	AUX	VMFIN	_	12	aux	_	_
-8	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 9	wenigstens	wenigstens	ADV	ADV	_	12	advmod	_	_
 10	eine	ein	DET	ART	PronType=Art	11	det	_	_
 11	Seite	Seite	NOUN	NN	Case=Acc	12	obj	_	_
@@ -40478,7 +40478,7 @@
 36	Vernunft	Vernunft	NOUN	NN	_	34	nmod	_	SpaceAfter=No
 37	,	--	PUNCT	$,	_	38	punct	_	_
 38	sagt	sagen	VERB	VVFIN	_	41	parataxis	_	_
-39	man	man	PRON	PIS	Case=Nom	38	nsubj	_	SpaceAfter=No
+39	man	man	PRON	PIS	Case=Nom|PronType=Ind	38	nsubj	_	SpaceAfter=No
 40	,	--	PUNCT	$,	_	38	punct	_	_
 41	ziehen	ziehen	VERB	VVINF	_	16	conj	_	_
 42	den	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
@@ -40492,7 +40492,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f321-s4
 # text = Man könnte diese Gattung des Naiven das philologische Naive nennen.
-1	Man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 2	könnte	können	AUX	VMFIN	_	10	aux	_	_
 3	diese	dieser	DET	PDAT	PronType=Dem	4	det	_	_
 4	Gattung	Gattung	NOUN	NN	Case=Acc	10	obj	_	_
@@ -40776,7 +40776,7 @@
 15	,	--	PUNCT	$,	_	19	punct	_	_
 16	so	so	ADV	ADV	_	19	advmod	_	_
 17	könnte	können	AUX	VMFIN	_	19	aux	_	_
-18	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+18	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 19	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	26	punct	_	_
 21	die	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
@@ -41067,7 +41067,7 @@
 # text = So findet man nicht selten, daß edle und gebildete Menschen, die alle göttlich dichten, denken oder leben, deren jeder aber sich der Gottheit auf einem andern Wege nähert, einander die Religion absprechen, gar nicht um der Partei oder des Systems willen, sondern aus Mangel an Sinn für religiöse Individualität.
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	findet	finden	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
 5	selten	selten	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	18	punct	_	_
@@ -41948,7 +41948,7 @@
 6	sein	sein	AUX	VAINF	_	5	cop	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	11	punct	_	_
 8	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	11	obj	_	_
-9	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 10	nur	nur	ADV	ADV	_	11	advmod	_	_
 11	suchen	suchen	VERB	VVINF	_	5	acl	_	_
 12	soll	sollen	AUX	VMFIN	_	11	aux	_	SpaceAfter=No
@@ -42796,7 +42796,7 @@
 # text = So wie man ein nicht verstandnes Buch lieber verleugnet, so sind viele nur deswegen verschlossen, weil sie den Fragen über sich selbst ausweichen wollen; und wie manche nicht für sich lesen können, ohne zugleich die Worte hören zu lassen, so können manche sich nicht anschaun, ohne immer zu sagen, was sie sehn.
 1	So	so	ADV	ADV	_	9	advmod	_	_
 2	wie	wie	ADV	PWAV	_	9	advmod	_	_
-3	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 4	ein	ein	DET	ART	PronType=Art	7	det	_	_
 5	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 6	verstandnes	verstandn	VERB	VVPP	_	7	xcomp	_	_
@@ -43116,7 +43116,7 @@
 # text = Ihnen muß man erlauben, auch mit dem was andren nur lose anzuhängen pflegt zurückhaltender zu sein, bis vollendete Kenntnis ihrer selbst und der andern ihnen den sichern Takt gibt, die Sache, worauf es den Leuten allein ankommt von ihrer individuellen Ansicht durchaus zu trennen und zu jedem Stoff, die ihnen fremde, jenen aber so erwünschte gemeine Form zu finden.
 1	Ihnen	ihnen	PRON	PPER	Case=Dat	4	obl:arg	_	_
 2	muß	müssen	AUX	VMFIN	_	4	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	4	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 4	erlauben	erlauben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
 6	auch	auch	ADV	ADV	_	10	advmod	_	_
@@ -43535,7 +43535,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f339-s3
 # text = Man kann etwas Geist haben ohne Seele, und viel Seele bei weniger Gemüt.
-1	Man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	5	aux	_	_
 3	etwas	etwas	ADV	ADV	_	4	advmod	_	_
 4	Geist	Geist	NOUN	NN	Case=Acc	5	obj	_	_
@@ -43924,7 +43924,7 @@
 # sent_id = athenaeum-f343-s1
 # text = Wenn man ein interessantes philosophisches Phänomen, und dabei ein ausgezeichneter Schriftsteller ist, so kann man sicher auf den Ruhm eines großen Philosophen rechnen.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 3	ein	ein	DET	ART	PronType=Art	6	det	_	_
 4	interessantes	interessant	ADJ	ADJA	_	6	amod	_	_
 5	philosophisches	philosophisch	ADJ	ADJA	_	6	amod	_	_
@@ -43939,7 +43939,7 @@
 14	,	--	PUNCT	$,	_	12	punct	_	_
 15	so	so	ADV	ADV	_	25	advmod	_	_
 16	kann	können	AUX	VMFIN	_	25	aux	_	_
-17	man	man	PRON	PIS	Case=Nom	25	nsubj	_	_
+17	man	man	PRON	PIS	Case=Nom|PronType=Ind	25	nsubj	_	_
 18	sicher	sicher	ADV	ADV	_	25	advmod	_	_
 19	auf	auf	ADP	APPR	_	21	case	_	_
 20	den	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
@@ -43957,7 +43957,7 @@
 # text = Oft erhält man ihn auch ohne die letzte Bedingung.
 1	Oft	oft	ADV	ADV	_	2	advmod	_	_
 2	erhält	erhalten	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	ihn	ihn	PRON	PPER	Case=Acc	2	obj	_	_
 5	auch	auch	ADV	ADV	_	2	advmod	_	_
 6	ohne	ohne	ADP	APPR	_	9	case	_	_
@@ -44069,7 +44069,7 @@
 15	Gefahr	Gefahr	NOUN	NN	Case=Dat	9	obl	_	SpaceAfter=No
 16	;	--	PUNCT	$.	_	17	punct	_	_
 17	sieht	sehen	VERB	VVFIN	_	2	parataxis	_	_
-18	man	man	PRON	PIS	Case=Nom	17	nsubj	_	_
+18	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 19	aber	aber	ADV	ADV	_	17	advmod	_	_
 20	nur	nur	ADV	ADV	_	17	advmod	_	_
 21	etwas	etwas	PRON	PIS	Case=Acc	17	obj	_	_
@@ -44222,7 +44222,7 @@
 8	Art	Art	NOUN	NN	Case=Dat	3	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	13	punct	_	_
 10	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	13	obj	_	_
-11	man	man	PRON	PIS	Case=Nom	13	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
 13	erklären	erklären	VERB	VVINF	_	3	acl	_	_
 14	könnte	können	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
@@ -44320,7 +44320,7 @@
 # text = Denn wenn man nicht intolerant sein dürfte, wäre die Toleranz nichts.
 1	Denn	denn	ADV	ADV	_	5	advmod	_	_
 2	wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
-3	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
 5	intolerant	intolerant	ADJ	ADJD	_	12	advcl	_	_
 6	sein	sein	AUX	VAINF	_	5	cop	_	_
@@ -44833,7 +44833,7 @@
 11	,	--	PUNCT	$,	_	15	punct	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
 13	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	15	obl	_	_
-14	man	man	PRON	PIS	Case=Nom	15	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 15	meint	meinen	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	15	punct	_	_
 17	sie	sie	PRON	PPER	Case=Nom	18	nsubj	_	_
@@ -45000,7 +45000,7 @@
 8	soll	sollen	AUX	VMFIN	_	5	aux	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	5	punct	_	_
 10	muß	müssen	AUX	VMFIN	_	12	aux	_	_
-11	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 12	einer	ein	DET	PIS	PronType=Art	0	root	_	_
 13	sein	sein	AUX	VAINF	_	12	cop	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	19	punct	_	_
@@ -45025,7 +45025,7 @@
 6	wissen	wissen	VERB	VVINF	_	5	xcomp	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	14	punct	_	_
 8	daß	daß	SCONJ	KOUS	_	14	mark	_	_
-9	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 10	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 11	viel	viel	ADV	ADV	_	14	advmod	_	_
 12	auf	auf	ADP	APPR	_	13	case	_	_
@@ -45187,7 +45187,7 @@
 # text = Dies möchte man auf ihn selbst anwenden.
 1	Dies	dieser	DET	PDS	Case=Acc|PronType=Dem	7	obj	_	_
 2	möchte	mögen	AUX	VMFIN	_	7	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	7	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 4	auf	auf	ADP	APPR	_	5	case	_	_
 5	ihn	ihn	PRON	PPER	_	7	obl	_	_
 6	selbst	selbst	ADV	ADV	_	7	advmod	_	_
@@ -45489,7 +45489,7 @@
 8	Hofcharge	Hofcharge	NOUN	NN	_	2	nmod	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	14	punct	_	_
 10	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	14	obj	_	_
-11	man	man	PRON	PIS	Case=Nom	14	nsubj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	Lehn	Lehn	NOUN	NN	Case=Dat	14	obl	_	_
 14	haben	haben	VERB	VVFIN	_	8	acl	_	_
@@ -45647,7 +45647,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f362-s2
 # text = Man sollte es nicht an jeden verschwenden, der sich nur in den gemeinsten Fällen des Schicklichen zu bemächtigen weiß, oder der sich durch kleinliche Selbstbeobachtung eine gewisse Menschenkenntnis erworben hat, die weder etwas Schweres noch etwas Rühmliches ist.
-1	Man	man	PRON	PIS	Case=Nom	7	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 2	sollte	sollen	AUX	VMFIN	_	7	aux	_	_
 3	es	es	PRON	PPER	_	7	expl	_	_
 4	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
@@ -45695,7 +45695,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f362-s3
 # text = Man denkt sich unter Klugheit doch etwas Bedeutendes und Wichtiges, und das Talent aus einer Musterkarte von Mitteln die zweckmäßigsten auszuwählen ist etwas so Geringfügiges, daß auch der gemeinste Verstand dazu hinreicht, und daß kaum etwas anders als leidenschaftliche Verblendung jemanden darin kann fehl gehen lassen.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	denkt	denken	VERB	VVFIN	_	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	2	obl:arg	_	_
 4	unter	unter	ADP	APPR	_	5	case	_	_
@@ -45791,7 +45791,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f362-s6
 # text = Man schreibt der Natur oder dem höchsten Wesen nie Klugheit zu, ungeachtet man in allen ihren Veranstaltungen dies Talent in einem hohen Grade preist.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	schreibt	schreiben	VERB	VVFIN	_	0	root	_	_
 3	der	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	4	det	_	_
 4	Natur	Natur	NOUN	NN	Case=Dat	2	obl:arg	_	_
@@ -45804,7 +45804,7 @@
 11	zu	zu	PART	PTKZU	_	2	compound:prt	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	13	punct	_	_
 13	ungeachtet	ungeachtet	VERB	VVFIN	_	2	parataxis	_	_
-14	man	man	PRON	PIS	Case=Nom	13	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
 15	in	in	ADP	APPR	_	18	case	_	_
 16	allen	aller	ADJ	ADJA	_	18	amod	_	_
 17	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
@@ -45883,7 +45883,7 @@
 38	,	--	PUNCT	$,	_	46	punct	_	_
 39	und	und	CCONJ	KON	_	46	cc	_	_
 40	was	was	PRON	PWS	Case=Acc	46	obj	_	_
-41	man	man	PRON	PIS	Case=Nom	46	nsubj	_	_
+41	man	man	PRON	PIS	Case=Nom|PronType=Ind	46	nsubj	_	_
 42	nur	nur	ADV	ADV	_	46	advmod	_	_
 43	von	von	ADP	APPR	_	44	case	_	_
 44	wenigen	weniger	DET	PIAT	Case=Dat	46	advmod	_	_
@@ -45898,7 +45898,7 @@
 # sent_id = athenaeum-f362-s9
 # text = Daß man im gemeinen Sprachgebrauch wirklich so etwas unter Klugheit versteht, geht auch aus dem Gefühl hervor, welches erregt wird, wenn man jemand mit einem gewissen Akzent als klug preist.
 1	Daß	daß	SCONJ	KOUS	_	11	mark	_	_
-2	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 3	im	in	ADP	APPRART	_	5	case	_	_
 4	gemeinen	gemein	ADJ	ADJA	_	5	amod	_	_
 5	Sprachgebrauch	Sprachgebrauch	NOUN	NN	_	11	nmod	_	_
@@ -45921,7 +45921,7 @@
 22	wird	werden	AUX	VAFIN	_	21	aux:pass	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	33	punct	_	_
 24	wenn	wenn	SCONJ	KOUS	_	33	mark	_	_
-25	man	man	PRON	PIS	Case=Nom	33	nsubj	_	_
+25	man	man	PRON	PIS	Case=Nom|PronType=Ind	33	nsubj	_	_
 26	jemand	jemand	PRON	PIS	Case=Acc	33	obj	_	_
 27	mit	mit	ADP	APPR	_	30	case	_	_
 28	einem	ein	DET	ART	PronType=Art	30	det	_	_
@@ -46000,7 +46000,7 @@
 16	auch	auch	ADV	ADV	_	11	advmod	_	SpaceAfter=No
 17	,	--	PUNCT	$,	_	24	punct	_	_
 18	sobald	sobald	SCONJ	KOUS	_	24	mark	_	_
-19	man	man	PRON	PIS	Case=Nom	24	nsubj	_	_
+19	man	man	PRON	PIS	Case=Nom|PronType=Ind	24	nsubj	_	_
 20	Klugheit	Klugheit	NOUN	NN	Case=Acc	24	obj	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
 22	dieser	dieser	DET	PDAT	PronType=Dem	23	det	_	_
@@ -46790,7 +46790,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f367-s1
 # text = Man glaubt Autoren oft durch Vergleichungen mit dem Fabrikwesen zu schmähen.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	glaubt	glauben	VERB	VVFIN	_	0	root	_	_
 3	Autoren	Autor	NOUN	NN	Case=Acc	11	obj	_	_
 4	oft	oft	ADV	ADV	_	11	advmod	_	_
@@ -47515,7 +47515,7 @@
 # sent_id = athenaeum-f374-s1
 # text = Sieht man nicht auf Voltaires Behandlung, sondern bloß auf die Meinung des Buchs, das Weltall persiflieren sei Philosophie und eigentlich das Rechte: so kann man sagen, die französischen Philosophen machen es mit dem »Candide«, wie die Weiber mit der Weiblichkeit; sie bringen ihn überall an.
 1	Sieht	sehen	VERB	VVFIN	_	0	root	_	_
-2	man	man	PRON	PIS	Case=Nom	1	nsubj	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	1	nsubj	_	_
 3	nicht	nicht	PART	PTKNEG	_	1	advmod	_	_
 4	auf	auf	ADP	APPR	_	6	case	_	_
 5	Voltaires	Voltaire	NOUN	NN	_	6	nmod:poss	_	_
@@ -47541,7 +47541,7 @@
 25	:	--	PUNCT	$.	_	29	punct	_	_
 26	so	so	ADV	ADV	_	29	advmod	_	_
 27	kann	können	AUX	VMFIN	_	29	aux	_	_
-28	man	man	PRON	PIS	Case=Nom	29	nsubj	_	_
+28	man	man	PRON	PIS	Case=Nom|PronType=Ind	29	nsubj	_	_
 29	sagen	sagen	VERB	VVINF	_	1	parataxis	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	34	punct	_	_
 31	die	der	DET	ART	Definite=Def|PronType=Art	33	det	_	_
@@ -47917,7 +47917,7 @@
 19	und	und	CCONJ	KON	_	23	cc	_	_
 20	insofern	insofern	ADV	ADV	_	23	advmod	_	_
 21	könnte	können	AUX	VMFIN	_	23	aux	_	_
-22	man	man	PRON	PIS	Case=Nom	23	nsubj	_	_
+22	man	man	PRON	PIS	Case=Nom|PronType=Ind	23	nsubj	_	_
 23	sagen	sagen	VERB	VVINF	_	9	parataxis	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	30	punct	_	_
 25	der	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
@@ -47983,7 +47983,7 @@
 32	,	--	PUNCT	$,	_	31	punct	_	_
 33	so	so	ADV	ADV	_	34	advmod	_	_
 34	findet	finden	VERB	VVFIN	_	8	parataxis	_	_
-35	man	man	PRON	PIS	Case=Nom	34	nsubj	_	_
+35	man	man	PRON	PIS	Case=Nom|PronType=Ind	34	nsubj	_	_
 36	ihn	ihn	PRON	PPER	Case=Acc	34	obj	_	_
 37	unstreitig	unstreitig	ADV	ADV	_	34	advmod	_	_
 38	nicht	nicht	PART	PTKNEG	_	34	advmod	_	_
@@ -48001,7 +48001,7 @@
 # text = Aber sollte man sich bisher nicht in den Dimensionen vergriffen haben?
 1	Aber	aber	CCONJ	KON	_	10	cc	_	_
 2	sollte	sollen	AUX	VMFIN	_	10	aux	_	_
-3	man	man	PRON	PIS	Case=Nom	10	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	_
 5	bisher	bisher	ADV	ADV	_	10	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
@@ -48309,7 +48309,7 @@
 36	Verstehen	verstehen	NOUN	NN	Case=Nom	41	nsubj:pass	_	_
 37	dessen	der	PRON	PRELS	Case=Gen|Number=Sing|PronType=Dem,Rel	40	obl	_	_
 38	was	was	PRON	PRELS	Case=Acc	40	obj	_	_
-39	man	man	PRON	PIS	Case=Nom	40	nsubj	_	_
+39	man	man	PRON	PIS	Case=Nom|PronType=Ind	40	nsubj	_	_
 40	liest	lesen	VERB	VVFIN	_	36	acl	_	_
 41	angedeutet	andeuten	VERB	VVPP	_	25	advcl	_	_
 42	wird	werden	AUX	VAFIN	_	41	aux:pass	_	SpaceAfter=No
@@ -48522,7 +48522,7 @@
 6	Witz	Witz	NOUN	NN	Case=Dat	4	nmod	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	19	punct	_	_
 8	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	19	obj	_	_
-9	man	man	PRON	PIS	Case=Nom	19	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
 10	wegen	wegen	ADP	APPR	_	12	case	_	_
 11	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 12	Gediegenheit	Gediegenheit	NOUN	NN	Case=Gen	19	obl	_	SpaceAfter=No
@@ -48694,7 +48694,7 @@
 10	erwecken	erwecken	VERB	VVINF	_	5	csubj	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	25	punct	_	_
 12	da	da	SCONJ	KOUS	_	25	mark	_	_
-13	man	man	PRON	PIS	Case=Nom	25	nsubj:pass	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	25	nsubj:pass	_	_
 14	unter	unter	ADP	APPR	_	15	case	_	_
 15	andern	anderer	PRON	PIS	_	25	obl	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
@@ -48962,7 +48962,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f387-s1
 # text = Man betrachtet die kritische Philosophie immer so als ob sie vom Himmel gefallen wäre.
-1	Man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	betrachtet	betrachten	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	kritische	kritisch	ADJ	ADJA	_	5	amod	_	_
@@ -49160,7 +49160,7 @@
 12	,	--	PUNCT	$,	_	18	punct	_	_
 13	aus	aus	ADP	APPR	_	14	case	_	_
 14	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	18	obl	_	_
-15	man	man	PRON	PIS	Case=Nom	18	nsubj	_	_
+15	man	man	PRON	PIS	Case=Nom|PronType=Ind	18	nsubj	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Desorganisation	Desorganisation	NOUN	NN	Case=Acc	18	obj	_	_
 18	lernen	lernen	VERB	VVINF	_	7	conj	_	_
@@ -49208,7 +49208,7 @@
 2	unserem	unser	ADJ	ADJA	_	3	amod	_	_
 3	Jahrhundert	Jahrhundert	NOUN	NN	_	11	obl	_	_
 4	hat	haben	AUX	VAFIN	_	11	aux	_	_
-5	man	man	PRON	PIS	Case=Nom	11	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 6	auch	auch	ADV	ADV	_	11	advmod	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	den	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
@@ -49591,7 +49591,7 @@
 6	ohne	ohne	ADP	APPR	_	7	case	_	_
 7	Philologie	Philologie	NOUN	NN	Case=Acc	5	nmod	_	_
 8	kann	können	AUX	VMFIN	_	12	aux	_	_
-9	man	man	PRON	PIS	Case=Nom	12	nsubj	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
 10	wohl	wohl	ADV	ADV	_	12	advmod	_	_
 11	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 12	lesen	lesen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -49729,7 +49729,7 @@
 1	Eigentlichen	eigentlich	ADJ	ADJA	_	2	amod	_	_
 2	Witz	Witz	NOUN	NN	Case=Acc	9	obj	_	_
 3	kann	können	AUX	VMFIN	_	9	aux	_	_
-4	man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 5	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	9	expl	_	_
 6	doch	doch	ADV	ADV	_	9	advmod	_	_
 7	nur	nur	ADV	ADV	_	8	advmod	_	_
@@ -49739,7 +49739,7 @@
 11	wie	wie	CCONJ	KOKOM	_	12	cc	_	_
 12	Gesetze	Gesetz	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 13	;	--	PUNCT	$.	_	21	punct	_	_
-14	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 15	muß	müssen	AUX	VMFIN	_	21	aux	_	_
 16	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 17	Produkte	Produkt	NOUN	NN	Case=Acc	21	obj	_	_
@@ -49801,7 +49801,7 @@
 32	haben	haben	AUX	VAFIN	_	11	acl	_	SpaceAfter=No
 33	,	--	PUNCT	$,	_	41	punct	_	_
 34	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	41	obj	_	_
-35	man	man	PRON	PIS	Case=Nom	41	nsubj	_	_
+35	man	man	PRON	PIS	Case=Nom|PronType=Ind	41	nsubj	_	_
 36	mit	mit	ADP	APPR	_	38	case	_	_
 37	dem	der	DET	ART	Definite=Def|PronType=Art	38	det	_	_
 38	Wasser	Wasser	NOUN	NN	Case=Dat	41	obl	_	_
@@ -49923,7 +49923,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f398-s2
 # text = Man darf ihm nur einen einzigen absoluten Widerspruch kreditieren, er weiß alle Bedürfnisse damit zu bestreiten und kann noch großen Luxus treiben.
-1	Man	man	PRON	PIS	Case=Nom	9	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 2	darf	dürfen	AUX	VMFIN	_	9	aux	_	_
 3	ihm	ihm	PRON	PPER	_	9	obl	_	_
 4	nur	nur	ADV	ADV	_	9	advmod	_	_
@@ -50167,7 +50167,7 @@
 11	versteht	verstehen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	11	punct	_	_
 13	muß	müssen	AUX	VMFIN	_	36	aux	_	_
-14	man	man	PRON	PIS	Case=Nom	36	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	36	nsubj	_	_
 15	ihn	ihn	PRON	PPER	Case=Acc	36	obj	_	_
 16	erst	erst	ADV	ADV	_	36	advmod	_	_
 17	ganz	ganz	ADV	ADV	_	36	advmod	_	_
@@ -50257,7 +50257,7 @@
 17	urteilen	urteilen	VERB	VVINF	_	14	xcomp	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	14	punct	_	_
 19	sollte	sollen	AUX	VMFIN	_	22	aux	_	_
-20	man	man	PRON	PIS	Case=Nom	22	nsubj	_	_
+20	man	man	PRON	PIS	Case=Nom|PronType=Ind	22	nsubj	_	_
 21	das	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	22	obj	_	_
 22	vermuten	vermuten	VERB	VVINF	_	0	root	_	SpaceAfter=No
 23	.	--	PUNCT	$.	_	22	punct	_	_
@@ -50302,7 +50302,7 @@
 1	Zur	zu	ADP	APPRART	_	2	case	_	_
 2	Philologie	Philologie	NOUN	NN	_	5	nmod	_	_
 3	muß	müssen	AUX	VMFIN	_	5	aux	_	_
-4	man	man	PRON	PIS	Case=Nom	5	nsubj	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 5	geboren	gebären	VERB	VVPP	_	0	root	_	_
 6	sein	sein	AUX	VAINF	_	5	aux	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	10	punct	_	_
@@ -50415,7 +50415,7 @@
 34	an	an	ADP	APPR	_	36	case	_	_
 35	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	36	nmod	_	_
 36	meisten	meister	ADV	ADV	_	46	advmod	_	_
-37	man	man	PRON	PIS	Case=Nom	46	nsubj	_	_
+37	man	man	PRON	PIS	Case=Nom|PronType=Ind	46	nsubj	_	_
 38	die	der	DET	ART	Definite=Def|PronType=Art	42	det	_	_
 39	gewöhnlichsten	gewöhnlich	ADJ	ADJA	_	42	amod	_	_
 40	und	und	CCONJ	KON	_	41	cc	_	_
@@ -50563,7 +50563,7 @@
 25	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	30	punct	_	_
 27	wenn	wenn	SCONJ	KOUS	_	30	mark	_	_
-28	man	man	PRON	PIS	Case=Nom	30	nsubj	_	_
+28	man	man	PRON	PIS	Case=Nom|PronType=Ind	30	nsubj	_	_
 29	zugleich	zugleich	ADV	ADV	_	30	advmod	_	_
 30	Philolog	Philolog	NOUN	NN	Case=Nom	25	ccomp	_	_
 31	und	und	CCONJ	KON	_	32	cc	_	_
@@ -50683,7 +50683,7 @@
 # text = Warum benutzt man nicht die wohltätige Stimmung des Augenblicks, und läßt den Klingelbeutel im Schauspielhause umhergehn?
 1	Warum	warum	ADV	PWAV	_	2	advmod	_	_
 2	benutzt	benutzen	VERB	VVFIN	_	0	root	_	_
-3	man	man	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 6	wohltätige	wohltätig	ADJ	ADJA	_	7	amod	_	_
@@ -50801,7 +50801,7 @@
 17	,	--	PUNCT	$,	_	21	punct	_	_
 18	von	von	ADP	APPR	_	19	case	_	_
 19	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	21	obl	_	_
-20	man	man	PRON	PIS	Case=Nom	21	nsubj	_	_
+20	man	man	PRON	PIS	Case=Nom|PronType=Ind	21	nsubj	_	_
 21	weiß	weiß	VERB	VVFIN	_	12	acl	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	27	punct	_	_
 23	daß	daß	SCONJ	KOUS	_	27	mark	_	_
@@ -51299,7 +51299,7 @@
 5	je	je	ADV	ADV	_	8	case	_	_
 6	nach	nach	ADP	APPR	_	5	fixed	_	_
 7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-8	man	man	PRON	PIS	_	10	obl	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	obl	_	_
 9	es	es	PRON	PPER	Case=Nom	10	nsubj	_	_
 10	nimmt	nehmen	VERB	VVFIN	_	3	parataxis	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
@@ -51317,7 +51317,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f417-s1
 # text = Man soll niemanden zur Philosophie verführen oder bereden wollen.
-1	Man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 2	soll	sollen	AUX	VMFIN	_	6	aux	_	_
 3	niemanden	niemand	PRON	PIS	Case=Acc	6	obj	_	_
 4	zur	zu	ADP	APPRART	_	5	case	_	_
@@ -52093,7 +52093,7 @@
 2	dieser	dieser	DET	PDAT	PronType=Dem	3	det	_	_
 3	Rücksicht	Rücksicht	NOUN	NN	_	6	obl	_	_
 4	kann	können	AUX	VMFIN	_	6	aux	_	_
-5	man	man	PRON	PIS	Case=Nom	6	nsubj	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 6	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	13	punct	_	_
 8	alle	alle	DET	PIAT	PronType=Tot	9	det	_	_
@@ -52327,7 +52327,7 @@
 34	nur	nur	ADV	ADV	_	41	advmod	_	_
 35	so	so	ADV	ADV	_	41	advmod	_	_
 36	was	was	PRON	PWS	Case=Acc	41	obj	_	_
-37	man	man	PRON	PIS	Case=Nom	41	nsubj	_	_
+37	man	man	PRON	PIS	Case=Nom|PronType=Ind	41	nsubj	_	_
 38	gewöhnlich	gewöhnlich	ADV	ADV	_	41	advmod	_	_
 39	gut	gut	ADV	ADV	_	41	advmod	_	_
 40	erzählen	erzählen	VERB	VVINF	_	41	xcomp	_	_
@@ -52335,7 +52335,7 @@
 42	,	--	PUNCT	$,	_	76	punct	_	_
 43	und	und	CCONJ	KON	_	76	cc	_	_
 44	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	76	obl:arg	_	_
-45	man	man	PRON	PIS	Case=Nom	76	nsubj	_	_
+45	man	man	PRON	PIS	Case=Nom|PronType=Ind	76	nsubj	_	_
 46	doch	doch	ADV	ADV	_	76	advmod	_	_
 47	schon	schon	ADV	ADV	_	76	advmod	_	_
 48	um	um	ADP	APPR	_	52	case	_	_
@@ -52628,7 +52628,7 @@
 38	,	--	PUNCT	$,	_	47	punct	_	_
 39	als	als	CCONJ	KOKOM	_	47	cc	_	_
 40	daß	daß	SCONJ	KOUS	_	47	mark	_	_
-41	man	man	PRON	PIS	Case=Nom	47	nsubj	_	_
+41	man	man	PRON	PIS	Case=Nom|PronType=Ind	47	nsubj	_	_
 42	ihnen	ihnen	PRON	PPER	Case=Acc	47	obj	_	_
 43	dies	dieser	DET	PDS	Case=Acc|PronType=Dem	47	obj	_	_
 44	für	für	ADP	APPR	_	46	case	_	_
