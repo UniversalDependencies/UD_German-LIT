@@ -49,19 +49,19 @@
     <feat name="Mood" value="Sub" upos="VERB">2</feat><!-- leben, wohlgehe -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,VERB">31</feat><!-- denen, den, Kinder, i, ihnen, leben, primi, sie -->
     <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">119</feat><!-- jeder, jedem, jedes, jede, dessen, jeden, die, Ausdrucks, Dantes, Ehre -->
-    <feat name="Number[psor]" value="Sing" upos="DET">199</feat><!-- seine, seiner, sein, seinem, seinen, seines, mein, meine, deine, deiner -->
+    <feat name="Number[psor]" value="Sing" upos="DET">200</feat><!-- seine, seiner, sein, seinem, seinen, seines, meine, mein, deine, deiner -->
     <feat name="NumType" value="Card" upos="DET,NUM">31</feat><!-- eins, beiden, beide, beides -->
-    <feat name="Person" value="1" upos="DET">24</feat><!-- unsere, unser, unsers, mein, meine, unsrer, meinem, meinen, meiner, meines -->
+    <feat name="Person" value="1" upos="DET">25</feat><!-- unsere, unser, meine, unsers, mein, unsrer, meinem, meinen, meiner, meines -->
     <feat name="Person" value="2" upos="DET,VERB">3</feat><!-- Ehre, deine, deiner -->
     <feat name="Person" value="3" upos="DET,PRON,VERB">386</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
-    <feat name="Poss" value="Yes" upos="DET">408</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
+    <feat name="Poss" value="Yes" upos="DET">409</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">4280</feat><!-- der, die, ein, das, den, eine, des, dem, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">405</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">472</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET">63</feat><!-- viele, viel, vielen, vieles, bißchen, vielem, vieler -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">744</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">745</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- che -->
     <feat name="PronType" value="Tot" upos="DET">330</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, beiden, jeden -->
     <feat name="Reflex" value="Yes" upos="PRON">334</feat><!-- sich -->

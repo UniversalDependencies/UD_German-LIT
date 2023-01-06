@@ -23775,7 +23775,7 @@
 5	Seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 6	Philosophie	Philosophie	NOUN	NN	_	3	appos	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
-8	Meine	Mein	DET	PPOSAT	_	9	det:poss	_	_
+8	Meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
 9	Philosophie	Philosophie	NOUN	NN	_	6	conj	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	3	punct	_	_
 11	erinnert	erinnern	VERB	VVFIN	_	0	root	_	_
