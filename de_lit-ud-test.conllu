@@ -5180,8 +5180,8 @@
 9	ist	sein	AUX	VAFIN	_	8	aux:pass	_	SpaceAfter=No
 10	:	--	PUNCT	$.	_	12	punct	_	_
 11	auch	auch	ADV	ADV	_	12	advmod	_	_
-12	ist	es	VERB	VVFIN	_	2	parataxis	_	_
-13	's	es	PRON	PPER	Case=Nom	12	nsubj	_	_
+12	ist	sein	VERB	VVFIN	_	2	parataxis	_	_
+13	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=PrsCase=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 15	ohne	ohne	ADP	APPR	_	16	case	_	_
 16	Reiz	Reiz	NOUN	NN	Case=Acc	12	nmod	_	SpaceAfter=No
@@ -5707,7 +5707,7 @@
 14	:	--	PUNCT	$.	_	21	punct	_	_
 15	so	so	ADV	ADV	_	21	advmod	_	_
 16	ist	sein	AUX	VAFIN	_	21	cop	_	SpaceAfter=No
-17	's	's	PRON	PPER	Case=Nom	21	nsubj	_	_
+17	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 18	eigentlich	eigentlich	ADV	ADV	_	21	advmod	_	_
 19	um	um	ADP	APPR	_	21	case	_	_
 20	desto	desto	CCONJ	KON	_	21	cc	_	_
@@ -6277,7 +6277,7 @@
 1	bei	bei	ADP	APPR	_	2	case	_	_
 2	Hemsterhuys	Hemsterhuy	PROPN	NE	Case=Dat	6	nmod	_	_
 3	ist	sein	AUX	VAFIN	_	6	cop	_	SpaceAfter=No
-4	's	es	PRON	PPER	Case=Nom	6	nsubj	_	_
+4	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	klassisches	klassisch	ADJ	ADJA	_	6	amod	_	_
 6	Studium	Studium	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 7	;	--	PUNCT	$.	_	6	punct	_	_
@@ -7044,7 +7044,7 @@
 23	,	--	PUNCT	$,	_	27	punct	_	_
 24	daß	daß	SCONJ	KOUS	_	27	mark	_	_
 25	sie	sie	PRON	PPER	Case=Nom	27	nsubj	_	_
-26	's	es	PRON	PPER	Case=Acc	27	obj	_	_
+26	's	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 27	angaffen	angaffen	VERB	VVINF	_	19	advcl	_	SpaceAfter=No
 28	,	--	PUNCT	$,	_	29	punct	_	_
 29	roh	roh	ADV	PWAV	_	27	xcomp	_	_
@@ -7526,7 +7526,7 @@
 # text = Manche fangen's so an, als ob sie hofften hier etwas Neues zu erfahren;
 1	Manche	mancher	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	fangen	fangen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
-3	's	es	PRON	PPER	Case=Acc	2	obj	_	_
+3	's	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	so	so	ADV	ADV	_	2	advmod	_	_
 5	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	10	punct	_	_
@@ -10076,7 +10076,7 @@
 2	merkwürdige	merkwürdig	ADJ	ADJA	_	3	amod	_	_
 3	Eigenheit	Eigenheit	NOUN	NN	Case=Acc	6	obj	_	_
 4	Goethe	Goethe	PROPN	NE	_	3	nmod:poss	_	SpaceAfter=No
-5	's	es	PRON	PPER	_	4	nmod:poss	_	_
+5	's	's	PART	APPO	_	4	case	_	_
 6	bemerkt	bemerken	VERB	VVFIN	_	0	root	_	_
 7	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
@@ -10273,7 +10273,7 @@
 16	Ich	ich	PRON	PPER	Case=Dat	13	parataxis	_	_
 17	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Ich	ich	PRON	PPER	_	16	nmod	_	SpaceAfter=No
-19	's	es	PRON	PPER	Case=Nom	16	nsubj	_	_
+19	's	's	PART	APPO	_	18	case	_	_
 20	zugleich	zugleich	ADV	ADV	_	16	advmod	_	_
 21	zu	zu	PART	PTKZU	_	16	mark	_	_
 22	seyn	sein	AUX	VVFIN	_	16	cop	_	SpaceAfter=No
@@ -15186,7 +15186,7 @@
 # text = Sie können's nicht mehr lassen.
 1	Sie	sie	PRON	PPER	Case=Nom	6	nsubj	_	_
 2	können	können	AUX	VMFIN	_	6	aux	_	SpaceAfter=No
-3	's	's	PRON	PPER	Case=Acc	6	obj	_	_
+3	's	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 4	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 5	mehr	mehr	ADV	ADV	_	6	advmod	_	_
 6	lassen	lassen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -40914,7 +40914,7 @@
 19	,	--	PUNCT	$,	_	20	punct	_	_
 20	treiben	treiben	VERB	VVFIN	_	0	root	_	_
 21	sie	sie	PRON	PPER	Case=Nom	20	nsubj	_	SpaceAfter=No
-22	's	es	PRON	PPER	Case=Acc	20	obj	_	_
+22	's	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 23	auch	auch	ADV	ADV	_	20	advmod	_	_
 24	recht	recht	ADV	ADV	_	25	advmod	_	_
 25	buchstäblich	buchstäblich	ADV	ADV	_	20	advmod	_	SpaceAfter=No
