@@ -5181,7 +5181,7 @@
 10	:	--	PUNCT	$.	_	12	punct	_	_
 11	auch	auch	ADV	ADV	_	12	advmod	_	_
 12	ist	sein	VERB	VVFIN	_	2	parataxis	_	_
-13	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=PrsCase=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+13	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 15	ohne	ohne	ADP	APPR	_	16	case	_	_
 16	Reiz	Reiz	NOUN	NN	Case=Acc	12	nmod	_	SpaceAfter=No
