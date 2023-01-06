@@ -3847,7 +3847,7 @@
 19	oder	oder	CCONJ	KON	_	27	cc	_	_
 20	wenn	wenn	SCONJ	KOUS	_	24	mark	_	SpaceAfter=No
 21	'	--	PUNCT	$(	_	22	punct	_	SpaceAfter=No
-22	s	--	PRON	PPER	Case=Nom	24	nsubj	_	_
+22	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 23	hoch	hoch	ADJ	ADJD	_	24	advmod	_	_
 24	kömmt	kommen	VERB	VVFIN	_	27	advcl	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	24	punct	_	_
@@ -4008,7 +4008,7 @@
 2	haben	haben	AUX	VAFIN	_	0	root	_	_
 3	sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	SpaceAfter=No
 4	'	--	PUNCT	$(	_	5	punct	_	SpaceAfter=No
-5	s	--	PRON	PPER	Case=Acc	2	obj	_	_
+5	s	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 6	recht	recht	ADV	ADV	_	7	advmod	_	_
 7	gern	gern	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 8	,	--	PUNCT	$,	_	2	punct	_	_
@@ -4091,7 +4091,7 @@
 11	wenn	wenn	SCONJ	KOUS	_	16	mark	_	_
 12	er	er	PRON	PPER	Case=Nom	16	nsubj	_	SpaceAfter=No
 13	'	--	PUNCT	$(	_	14	punct	_	SpaceAfter=No
-14	s	--	PRON	PPER	Case=Acc	16	obj	_	_
+14	s	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 15	nicht	nicht	PART	PTKNEG	_	16	advmod	_	_
 16	nehmen	nehmen	VERB	VVINF	_	9	advcl	_	_
 17	will	wollen	AUX	VMFIN	_	16	aux	_	SpaceAfter=No
@@ -11038,9 +11038,9 @@
 2	heitern	heitern	ADJ	ADJA	_	3	amod	_	_
 3	Seelen	Seele	NOUN	NN	_	4	obl	_	_
 4	giebt	geben	ADV	ADV	_	0	root	_	SpaceAfter=No
-5	s	es	PRON	PPER	_	4	expl	_	_
+5	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 6	keinen	kein	DET	PIAT	PronType=Neg	7	advmod	_	_
-7	Witz	Witz	NOUN	NN	Case=Nom	4	nsubj	_	SpaceAfter=No
+7	Witz	Witz	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
 8	.	--	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -20881,7 +20881,7 @@
 5	,	--	PUNCT	$,	_	9	punct	_	_
 6	so	so	ADV	ADV	_	9	advmod	_	_
 7	ist	sein	AUX	VAFIN	_	9	cop	_	SpaceAfter=No
-8	s	es	PRON	PPER	Case=Nom	9	nsubj	_	_
+8	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	kindlich	kindlich	ADJ	ADJD	_	4	parataxis	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	11	punct	_	_
 11	kindisch	kindisch	ADJ	ADJD	_	9	conj	_	SpaceAfter=No
@@ -20896,7 +20896,7 @@
 # sent_id = athenaeum-f51-s3
 # text = ists bloße Absicht, so entsteht Affektation.
 1	ist	sein	AUX	VAFIN	_	4	cop	_	SpaceAfter=No
-2	s	es	PRON	PPER	Case=Nom	4	nsubj	_	_
+2	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	bloße	bloß	ADJ	ADJA	_	4	amod	_	_
 4	Absicht	Absicht	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	4	punct	_	_
@@ -22566,7 +22566,7 @@
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	so	so	ADV	ADV	_	11	advmod	_	_
 8	ist	sein	AUX	VAFIN	_	11	cop	_	SpaceAfter=No
-9	s	es	PRON	PPER	_	11	expl	_	_
+9	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
 10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
 11	ungerecht	ungerecht	ADJ	ADJD	_	0	root	_	_
 12	einige	einiger	DET	PIAT	_	13	det	_	_
@@ -34902,7 +34902,7 @@
 # author = Friedrich Schlegel
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f252-s6
-# text = Ihr Anfang gäbe die Prinzipien der reinen Poetik, ihre Mitte die Theorie der besondern eigentümlich modernen Dichtarten, der didaktischen, der musikalischen, der rhetorischen im höhern Sinn u.
+# text = Ihr Anfang gäbe die Prinzipien der reinen Poetik, ihre Mitte die Theorie der besondern eigentümlich modernen Dichtarten, der didaktischen, der musikalischen, der rhetorischen im höhern Sinn u. s. w.
 1	Ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	Anfang	Anfang	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	gäbe	geben	VERB	VVFIN	_	0	root	_	_
@@ -34926,31 +34926,19 @@
 21	didaktischen	didaktisch	ADJ	ADJA	_	18	conj	_	SpaceAfter=No
 22	,	--	PUNCT	$,	_	21	punct	_	_
 23	der	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
-24	musikalischen	musikalisch	ADJ	ADJA	_	18	amod	_	SpaceAfter=No
+24	musikalischen	musikalisch	ADJ	ADJA	_	18	conj	_	SpaceAfter=No
 25	,	--	PUNCT	$,	_	27	punct	_	_
 26	der	der	DET	ART	Definite=Def|PronType=Art	27	det	_	_
-27	rhetorischen	rhetorisch	ADJ	ADJA	_	18	amod	_	_
+27	rhetorischen	rhetorisch	ADJ	ADJA	_	18	conj	_	_
 28	im	in	ADP	APPRART	_	30	case	_	_
 29	höhern	höhern	ADJ	ADJA	_	30	amod	_	_
-30	Sinn	Sinn	NOUN	NN	_	11	orphan	_	_
-31	u	u	CCONJ	KON	_	30	cc	_	SpaceAfter=No
-32	.	--	PUNCT	$.	_	3	punct	_	_
-
-# genre = fragments
-# author = Friedrich Schlegel
-# work = Athenäums Fragmente
-# sent_id = athenaeum-f252-s7
-# text = s.
-1	s	--	X	XY	_	0	root	_	SpaceAfter=No
-2	.	--	PUNCT	$.	_	1	punct	_	_
-
-# genre = fragments
-# author = Friedrich Schlegel
-# work = Athenäums Fragmente
-# sent_id = athenaeum-f252-s8
-# text = w.
-1	w	--	X	XY	_	0	root	_	SpaceAfter=No
-2	.	--	PUNCT	$.	_	1	punct	_	_
+30	Sinn	Sinn	NOUN	NN	_	27	obl	_	_
+31	u	und	CCONJ	KON	Abbr=Yes	35	cc	_	SpaceAfter=No
+32	.	--	PUNCT	$.	_	31	punct	_	_
+33	s	so	ADV	ADV	Abbr=Yes|PronType=Dem	35	advmod	_	SpaceAfter=No
+34	.	--	PUNCT	$.	_	33	punct	_	_
+35	w	weiter	ADV	ADV	Abbr=Yes|Degree=Cmp	18	conj	_	SpaceAfter=No
+36	.	--	PUNCT	$.	_	35	punct	_	_
 
 # genre = fragments
 # author = Friedrich Schlegel
@@ -41352,7 +41340,7 @@
 2	der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Ausführung	Ausführung	NOUN	NN	_	8	nmod	_	_
 4	ist	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
-5	s	es	PRON	PPER	Case=Nom	8	nsubj	_	_
+5	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 6	damit	damit	ADV	ADV	PronType=Dem	8	advmod	_	_
 7	aber	aber	ADV	ADV	_	8	advmod	_	_
 8	ungefähr	ungefähr	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -49008,7 +48996,7 @@
 # text = Doch ists so besser.
 1	Doch	doch	ADV	ADV	_	5	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	5	cop	_	SpaceAfter=No
-3	s	es	PRON	PPER	Case=Nom	5	nsubj	_	_
+3	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
 5	besser	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 6	.	--	PUNCT	$.	_	5	punct	_	_
