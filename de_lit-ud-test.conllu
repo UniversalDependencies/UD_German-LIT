@@ -52035,7 +52035,7 @@
 26	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Eins	Eins	NOUN	NN	_	24	conj	_	_
 28	und	und	CCONJ	KON	_	29	cc	_	_
-29	Alles	Alle	PRON	PIS	_	27	conj	_	SpaceAfter=No
+29	Alles	alle	DET	PIS	PronType=Tot	27	conj	_	SpaceAfter=No
 30	,	--	PUNCT	$,	_	27	punct	_	_
 31	so	so	ADV	ADV	_	34	advmod	_	_
 32	ist	sein	AUX	VAFIN	_	34	aux	_	_
