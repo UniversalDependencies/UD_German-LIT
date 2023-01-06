@@ -5143,7 +5143,7 @@
 6	,	--	PUNCT	$,	_	5	punct	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
 8	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
-9	mehre	mehren	NOUN	NN	Case=Nom	13	nsubj	_	_
+9	mehre	mehre	DET	NN	Case=Nom|PronType=Ind	13	nsubj	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Art	Art	NOUN	NN	_	9	nmod	_	_
 12	fest	fest	ADJ	ADJD	_	13	advmod	_	_
@@ -5579,7 +5579,7 @@
 27	,	--	PUNCT	$,	_	28	punct	_	_
 28	eins	eins	NUM	CARD	NumType=Card	26	conj	_	_
 29	oder	oder	CCONJ	KON	_	30	cc	_	_
-30	mehre	mehren	VERB	VVFIN	_	28	conj	_	SpaceAfter=No
+30	mehre	mehre	DET	VVFIN	PronType=Ind	28	conj	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	32	punct	_	_
 32	Masse	Masse	NOUN	NN	_	26	conj	_	SpaceAfter=No
 33	,	--	PUNCT	$,	_	34	punct	_	_
@@ -10188,7 +10188,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f27-s6
 # text = Mehre Sagen des gemeinen Lebens beruhn auf einer Bemerkung dieses verkehrten Zusammenhangs.
-1	Mehre	mehre	ADJ	ADJA	_	2	amod	_	_
+1	Mehre	mehre	DET	ADJA	PronType=Ind	2	amod	_	_
 2	Sagen	sagen	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	des	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	gemeinen	gemein	ADJ	ADJA	_	5	amod	_	_
@@ -10458,7 +10458,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f29-s7
 # text = Mehre Nahmen sind einer Idee vortheilhaft.
-1	Mehre	Mehre	DET	PIAT	_	2	det	_	_
+1	Mehre	mehre	DET	PIAT	PronType=Ind	2	det	_	_
 2	Nahmen	Nahme	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	6	cop	_	_
 4	einer	ein	DET	ART	Case=Dat|PronType=Art	5	det	_	_
@@ -13666,7 +13666,7 @@
 8	Worten	Wort	NOUN	NN	_	6	obl	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	3	punct	_	_
 10	um	um	ADP	APPR	_	17	mark	_	_
-11	mehre	mehren	DET	PIAT	_	12	det	_	_
+11	mehre	mehre	DET	PIAT	PronType=Ind	12	det	_	_
 12	Ideen	Idee	NOUN	NN	Case=Acc	17	obj	_	_
 13	mit	mit	ADP	APPR	_	15	case	_	_
 14	Einem	ein	DET	ART	PronType=Art	15	det	_	_
@@ -20072,7 +20072,7 @@
 48	besteht	bestehen	VERB	VVFIN	_	25	acl	_	SpaceAfter=No
 49	,	--	PUNCT	$,	_	48	punct	_	_
 50	daß	daß	SCONJ	KOUS	_	54	mark	_	_
-51	mehre	mehre	DET	PIAT	_	52	advmod	_	_
+51	mehre	mehre	DET	PIAT	PronType=Ind	52	advmod	_	_
 52	Personen	Person	NOUN	NN	Case=Nom	54	nsubj	_	_
 53	nur	nur	ADV	ADV	_	54	advmod	_	_
 54	eine	ein	DET	PIS	PronType=Art	48	advcl	_	_
@@ -24862,7 +24862,7 @@
 10	vom	von	ADP	APPRART	_	14	case	_	_
 11	größten	groß	ADJ	ADJA	_	14	amod	_	_
 12	wieder	wieder	ADV	ADV	_	13	cc	_	_
-13	mehre	mehr	ADJ	ADJA	_	11	conj	_	_
+13	mehre	mehre	DET	ADJA	PronType=Ind	11	conj	_	_
 14	Systeme	System	NOUN	NN	_	2	obl	_	_
 15	in	in	ADP	APPR	_	16	case	_	_
 16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obl	_	_
@@ -26148,7 +26148,7 @@
 30	wäre	sein	AUX	VAFIN	_	28	cop	_	SpaceAfter=No
 31	,	--	PUNCT	$,	_	40	punct	_	_
 32	wenn	wenn	SCONJ	KOUS	_	40	mark	_	_
-33	mehre	mehren	DET	PIAT	_	37	det	_	_
+33	mehre	mehre	DET	PIAT	PronType=Ind	37	det	_	_
 34	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	35	obj	_	_
 35	gegenseitig	gegenseitig	ADJ	ADJD	_	36	advmod	_	_
 36	ergänzende	ergänzend	ADJ	ADJA	_	37	amod	_	_
@@ -28136,7 +28136,7 @@
 21	spaltet	spalten	VERB	VVFIN	_	7	parataxis	_	_
 22	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	21	obj	_	_
 23	in	in	ADP	APPR	_	26	case	_	_
-24	mehre	mehren	DET	PIAT	_	26	det	_	_
+24	mehre	mehre	DET	PIAT	PronType=Ind	26	det	_	_
 25	entgegengesetzte	entgegengesetzt	ADJ	ADJA	_	26	amod	_	_
 26	Göttergeschlechter	Göttergeschlechter	NOUN	NN	_	21	obl	_	SpaceAfter=No
 27	.	--	PUNCT	$.	_	7	punct	_	_
@@ -37245,7 +37245,7 @@
 8	ließen	lassen	VERB	VVFIN	_	4	conj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
-11	mehre	mehre	VERB	VVFIN	_	14	parataxis	_	_
+11	mehre	mehre	DET	VVFIN	PronType=Ind	14	parataxis	_	_
 12	höchst	höchst	ADV	ADV	_	13	advmod	_	_
 13	merkwürdige	merkwürdig	ADJ	ADJA	_	14	amod	_	_
 14	Folgerungen	Folgerung	NOUN	NN	Case=Acc	8	obj	_	_
