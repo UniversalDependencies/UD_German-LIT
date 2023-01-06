@@ -15,16 +15,16 @@
   <fusions unique="6" /><!-- im, zur, zum, am, vom, ins -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">3497</tag><!-- groß, gut, hoch, alt, neu, erster, rein, schön, poetisch, ganz -->
+    <tag name="ADJ">3496</tag><!-- groß, gut, hoch, alt, neu, erster, rein, schön, poetisch, ganz -->
     <tag name="ADP">2639</tag><!-- in, von, mit, zu, für, an, auf, durch, aus, nach -->
     <tag name="ADV">3585</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2492</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen, essere -->
     <tag name="CCONJ">1946</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5707</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, viel -->
+    <tag name="DET">5725</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, viel -->
     <tag name="NOUN">7378</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">40</tag><!-- eins, zwei, drei, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">854</tag><!-- nicht, zu, an -->
-    <tag name="PRON">2862</tag><!-- der, es, sich, sie, man, er, was, nichts, wir, etwas -->
+    <tag name="PRON">2845</tag><!-- der, es, sich, sie, man, er, was, nichts, wir, etwas -->
     <tag name="PROPN">339</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- –, «, », –, ,, _ -->
     <tag name="SCONJ">522</tag><!-- wenn, daß, weil, um, ob, als, ohne, da, dass, indem -->
@@ -58,7 +58,7 @@
     <feat name="PronType" value="Art" upos="DET">4280</feat><!-- der, die, ein, das, den, eine, des, dem, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">405</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">472</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">346</feat><!-- man, viele, viel, vielen, vieles, bißchen, mans, vielem, vieler -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">391</feat><!-- man, viele, viel, manche, mancher, manches, vielen, manchem, vieles, manchen -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">745</feat><!-- sich, ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen -->

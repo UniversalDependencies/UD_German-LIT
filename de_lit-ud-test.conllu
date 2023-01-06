@@ -152,7 +152,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f5-s1
 # text = Manches kritische Journal hat den Fehler, welcher Mozarts Musik so häufig vorgeworfen wird: einen zuweilen unmäßigen Gebrauch der Blasinstrumente.
-1	Manches	mancher	DET	PIAT	_	3	det	_	_
+1	Manches	mancher	DET	PIAT	PronType=Ind	3	det	_	_
 2	kritische	kritisch	ADJ	ADJA	_	3	amod	_	_
 3	Journal	Journal	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	hat	haben	AUX	VAFIN	_	0	root	_	_
@@ -670,7 +670,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f19-s1
 # text = Manches Gedicht wird so geliebt, wie der Heiland von den Nonnen.
-1	Manches	mancher	DET	PIAT	_	2	det	_	_
+1	Manches	mancher	DET	PIAT	PronType=Ind	2	det	_	_
 2	Gedicht	Gedicht	NOUN	NN	Case=Nom	5	nsubj:pass	_	_
 3	wird	werden	AUX	VAFIN	_	5	aux:pass	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
@@ -1243,7 +1243,7 @@
 10	Schriftstellers	Schriftsteller	NOUN	NN	_	8	nmod	_	SpaceAfter=No
 11	:	--	PUNCT	$.	_	8	punct	_	_
 12	entweder	entweder	CCONJ	KON	_	16	cc	_	_
-13	manches	mancher	PRON	PIS	Case=Acc	16	obj	_	_
+13	manches	mancher	DET	PIS	Case=Acc|PronType=Ind	16	obj	_	_
 14	nicht	nicht	PART	PTKNEG	_	16	advmod	_	_
 15	zu	zu	PART	PTKZU	_	16	mark	_	_
 16	sagen	sagen	VERB	VVINF	_	8	advcl	_	SpaceAfter=No
@@ -1359,7 +1359,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f35-s1
 # text = Mancher redet so vom Publikum, als ob es jemand wäre, mit dem er auf der Leipziger Messe im Hotel de Saxe zu Mittage gespeist hätte.
-1	Mancher	mancher	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Mancher	mancher	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	redet	reden	VERB	VVFIN	_	0	root	_	_
 3	so	so	ADV	ADV	_	2	advmod	_	_
 4	vom	von	ADP	APPRART	_	5	case	_	_
@@ -2505,7 +2505,7 @@
 # sent_id = lyceum-f45-s2
 # text = – Manche solcher Benennungen der Feudalpoesie können bei den Literatoren künftiger Zeitalter ähnliche Untersuchungen veranlassen, wie die, warum Dante sein großes Werk eine göttliche Komödie nannte.
 1	–	–	PUNCT	XY	_	15	punct	_	_
-2	Manche	Mancher	PRON	PIS	Case=Nom	15	nsubj	_	_
+2	Manche	mancher	DET	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 3	solcher	solcher	DET	PIAT	_	4	det	_	_
 4	Benennungen	Benennung	NOUN	NN	_	2	nmod	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -2874,7 +2874,7 @@
 # sent_id = lyceum-f52-s1
 # text = In manchem Gedicht erhält man stellenweise statt der Darstellung nur eine Überschrift, welche anzeigt, daß hier eigentlich dies oder das dargestellt sein sollte, daß der Künstler aber Verhinderung gehabt habe, und ergebenst um gewogene Entschuldigung bittet.
 1	In	in	ADP	APPR	_	3	case	_	_
-2	manchem	mancher	DET	PIAT	_	3	det	_	_
+2	manchem	mancher	DET	PIAT	PronType=Ind	3	det	_	_
 3	Gedicht	Gedicht	NOUN	NN	_	4	obl	_	_
 4	erhält	erhalten	VERB	VVFIN	_	0	root	_	_
 5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
@@ -3444,7 +3444,7 @@
 1	Zur	zu	ADP	APPRART	_	3	case	_	_
 2	richtigen	richtig	ADJ	ADJA	_	3	amod	_	_
 3	Ansicht	Ansicht	NOUN	NN	_	6	obl	_	_
-4	mancher	mancher	DET	PIAT	_	5	det	_	_
+4	mancher	mancher	DET	PIAT	PronType=Ind	5	det	_	_
 5	Schriften	Schrift	NOUN	NN	_	3	nmod	_	_
 6	fehlt	fehlen	VERB	VVFIN	_	0	root	_	_
 7	es	es	PRON	PPER	Case=Nom	6	nsubj	_	_
@@ -4103,7 +4103,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f75-s1
 # text = manche Kommentare, wo der Text nur Anstoß oder Nicht-Ich ist, philologische Idyllen.
-1	manche	mancher	DET	PIAT	_	2	det	_	_
+1	manche	mancher	DET	PIAT	PronType=Ind	2	det	_	_
 2	Kommentare	Kommentar	NOUN	NN	_	0	root	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	8	punct	_	_
 4	wo	wo	ADV	PWAV	_	8	advmod	_	_
@@ -4205,7 +4205,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f78-s1
 # text = Mancher der vortrefflichsten Romane ist ein Kompendium, eine Enzyclopädie des ganzen geistigen Lebens eines genialischen Individuums;
-1	Mancher	mancher	PRON	PIS	Case=Nom	7	nsubj	_	_
+1	Mancher	mancher	DET	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 2	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 3	vortrefflichsten	vortrefflich	ADJ	ADJA	_	4	amod	_	_
 4	Romane	Roman	NOUN	NN	_	1	nmod	_	_
@@ -5550,7 +5550,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f103-s4
 # text = Manches Erzeugnis hingegen, an dessen Zusammenhang niemand zweifelt, ist, wie der Künstler selbst sehr wohl weiß, kein Werk, sondern nur Bruchstück, eins oder mehre, Masse, Anlage.
-1	Manches	mancher	DET	PIAT	_	2	det	_	_
+1	Manches	mancher	DET	PIAT	PronType=Ind	2	det	_	_
 2	Erzeugnis	Erzeugnis	NOUN	NN	_	0	root	_	_
 3	hingegen	hingegen	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	9	punct	_	_
@@ -5940,7 +5940,7 @@
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Weiber	Weiber	NOUN	NN	_	4	nmod	_	_
 7	und	und	CCONJ	KON	_	10	cc	_	_
-8	mancher	mancher	DET	PIAT	_	10	det	_	_
+8	mancher	mancher	DET	PIAT	PronType=Ind	10	det	_	_
 9	andre	andr	ADJ	ADJA	_	10	amod	_	_
 10	Krebsschaden	Krebsschaden	NOUN	NN	_	4	conj	_	_
 11	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
@@ -7524,7 +7524,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f123-s2
 # text = Manche fangen's so an, als ob sie hofften hier etwas Neues zu erfahren;
-1	Manche	mancher	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Manche	mancher	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	fangen	fangen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	's	es	PRON	PPER	Case=Acc	2	obj	_	_
 4	so	so	ADV	ADV	_	2	advmod	_	_
@@ -9550,7 +9550,7 @@
 5	besonders	besonders	ADV	ADV	_	1	advmod	_	_
 6	beym	beym	ADP	APPRART	_	7	case	_	_
 7	Anblick	Anblick	NOUN	NN	_	1	nmod	_	_
-8	mancher	mancher	DET	PIAT	_	10	det	_	_
+8	mancher	mancher	DET	PIAT	PronType=Ind	10	det	_	_
 9	menschlichen	menschlich	ADJ	ADJA	_	10	amod	_	_
 10	Gestalten	Gestalt	NOUN	NN	_	7	nmod	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
@@ -9560,13 +9560,13 @@
 15	bey	bey	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Erblickung	Erblickung	NOUN	NN	_	7	conj	_	_
-18	mancher	mancher	DET	PIAT	_	19	det	_	_
+18	mancher	mancher	DET	PIAT	PronType=Ind	19	det	_	_
 19	Augen	Auge	NOUN	NN	_	17	nmod	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	22	punct	_	_
-21	mancher	mancher	DET	PIAT	_	22	det	_	_
+21	mancher	mancher	DET	PIAT	PronType=Ind	22	det	_	_
 22	Minen	Mine	NOUN	NN	_	19	conj	_	SpaceAfter=No
 23	,	--	PUNCT	$,	_	25	punct	_	_
-24	mancher	mancher	DET	PIAT	_	25	det	_	_
+24	mancher	mancher	DET	PIAT	PronType=Ind	25	det	_	_
 25	Bewegungen	Bewegung	NOUN	NN	_	19	conj	_	SpaceAfter=No
 26	,	--	PUNCT	$,	_	28	punct	_	_
 27	beym	beym	ADP	APPRART	_	28	case	_	_
@@ -9599,7 +9599,7 @@
 2	viele	viel	DET	PIAT	PronType=Ind	3	det	_	_
 3	Zufälle	Zufall	NOUN	NN	Case=Nom	13	nsubj	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	6	punct	_	_
-5	manche	mancher	DET	PIAT	_	6	det	_	_
+5	manche	mancher	DET	PIAT	PronType=Ind	6	det	_	_
 6	Naturereignisse	Naturereignis	NOUN	NN	_	3	conj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	besonders	besonders	ADV	ADV	_	9	advmod	_	_
@@ -12595,7 +12595,7 @@
 # sent_id = bluethenstaub-f58-s3
 # text = Bey manchen Menschenist es als ob dieser Geist der sichtbaren Erscheinung ein Gesicht schnitte.
 1	Bey	bey	ADP	APPR	_	3	case	_	_
-2	manchen	mancher	ADJ	ADJA	_	3	amod	_	_
+2	manchen	mancher	DET	ADJA	PronType=Ind	3	amod	_	_
 3	Menschenist	Menschenist	NOUN	NN	_	4	nmod	_	_
 4	es	es	PRON	PPER	_	0	root	_	_
 5	als	als	SCONJ	KOKOM	_	14	mark	_	_
@@ -13257,7 +13257,7 @@
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dem	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Geist	Geist	NOUN	NN	Case=Dat	10	obl	_	_
-4	mancher	mancher	DET	PIAT	_	5	det	_	_
+4	mancher	mancher	DET	PIAT	PronType=Ind	5	det	_	_
 5	Kritiken	Kritik	NOUN	NN	_	3	nmod	_	_
 6	und	und	CCONJ	KON	_	7	cc	_	_
 7	Beschreibungen	Beschreibung	NOUN	NN	_	5	conj	_	_
@@ -14012,7 +14012,7 @@
 12	,	--	PUNCT	$,	_	10	punct	_	_
 13	so	so	ADV	ADV	_	18	advmod	_	_
 14	werden	werden	AUX	VAFIN	_	18	aux:pass	_	_
-15	manche	mancher	DET	PIAT	_	16	det	_	_
+15	manche	mancher	DET	PIAT	PronType=Ind	16	det	_	_
 16	Mittelglieder	Mittelglied	NOUN	NN	Case=Nom	18	nsubj	_	_
 17	allgemeiner	allgemein	ADJ	ADJD	_	18	xcomp	_	_
 18	werden	werden	VERB	VVFIN	_	0	root	_	SpaceAfter=No
@@ -17461,7 +17461,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f103-s1
 # text = Manche Bücher sind länger als sie scheinen.
-1	Manche	mancher	DET	PIAT	_	2	det	_	_
+1	Manche	mancher	DET	PIAT	PronType=Ind	2	det	_	_
 2	Bücher	Buch	NOUN	NN	Case=Nom	4	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	4	cop	_	_
 4	länger	lang	ADJ	ADJD	_	0	root	_	_
@@ -17638,7 +17638,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f105-s3
 # text = Manche haben es für ein bloß lokales Übel gehalten.
-1	Manche	mancher	PRON	PIS	Case=Nom	9	nsubj	_	_
+1	Manche	mancher	DET	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
 2	haben	haben	AUX	VAFIN	_	9	aux	_	_
 3	es	es	PRON	PPER	Case=Acc	9	obj	_	_
 4	für	für	ADP	APPR	_	8	case	_	_
@@ -18529,7 +18529,7 @@
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	mag	mögen	VERB	VVFIN	_	0	root	_	_
 3	freylich	freylich	ADV	ADV	_	2	advmod	_	_
-4	manches	mancher	PRON	PIS	Case=Dat	2	obl:arg	_	_
+4	manches	mancher	DET	PIS	Case=Dat|PronType=Ind	2	obl:arg	_	_
 5	taube	taub	ADJ	ADJA	_	6	amod	_	_
 6	Körnchen	Körnchen	NOUN	NN	Case=Nom	2	csubj	_	_
 7	darunter	darunter	ADV	PROAV	_	6	advmod	_	_
@@ -18740,7 +18740,7 @@
 1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	6	aux	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
-4	manchem	mancher	DET	PIAT	_	5	det	_	_
+4	manchem	mancher	DET	PIAT	PronType=Ind	5	det	_	_
 5	Monarchen	Monarch	NOUN	NN	Case=Dat	6	nmod	_	_
 6	gesagt	sagen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 7	:	--	PUNCT	$.	_	13	punct	_	_
@@ -19377,7 +19377,7 @@
 # text = Es wird manches gedruckt, was besser nur gesagt würde, und zuweilen etwas gesagt, was schicklicher gedruckt wäre.
 1	Es	es	PRON	PPER	_	4	expl	_	_
 2	wird	werden	AUX	VAFIN	_	4	aux:pass	_	_
-3	manches	mancher	PRON	PIS	Case=Nom	4	nsubj:pass	_	_
+3	manches	mancher	DET	PIS	Case=Nom|PronType=Ind	4	nsubj:pass	_	_
 4	gedruckt	drucken	VERB	VVPP	_	0	root	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	9	punct	_	_
 6	was	was	PRON	PRELS	Case=Nom	9	nsubj:pass	_	_
@@ -20367,7 +20367,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f37-s1
 # text = Manche witzige Einfälle sind wie das überraschende Wiedersehen zwei befreundeter Gedanken nach einer langen Trennung.
-1	Manche	mancher	DET	PIAT	_	3	det	_	_
+1	Manche	mancher	DET	PIAT	PronType=Ind	3	det	_	_
 2	witzige	witzig	ADJ	ADJA	_	3	amod	_	_
 3	Einfälle	Einfall	NOUN	NN	Case=Nom	11	nsubj	_	_
 4	sind	sein	AUX	VAFIN	_	11	cop	_	_
@@ -20665,7 +20665,7 @@
 7	nach	nach	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Denkart	Denkart	NOUN	NN	Case=Dat	13	nmod	_	_
-10	mancher	mancher	DET	PIAT	_	11	det	_	_
+10	mancher	mancher	DET	PIAT	PronType=Ind	11	det	_	_
 11	Philosophen	Philosoph	NOUN	NN	_	9	nmod	_	_
 12	ein	ein	DET	ART	PronType=Art	13	det	_	_
 13	System	System	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
@@ -21400,7 +21400,7 @@
 9	ist	sein	AUX	VAFIN	_	11	cop	_	_
 10	das	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Resultat	Resultat	NOUN	NN	Case=Nom	0	root	_	_
-12	mancher	mancher	DET	PIAT	_	14	det	_	_
+12	mancher	mancher	DET	PIAT	PronType=Ind	14	det	_	_
 13	literarischen	literarisch	ADJ	ADJA	_	14	amod	_	_
 14	Phänomene	Phänomen	NOUN	NN	_	11	nmod	_	_
 15	nicht	nicht	PART	PTKNEG	_	16	advmod	_	_
@@ -21693,7 +21693,7 @@
 11	auf	auf	ADP	APPR	_	13	case	_	_
 12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Schönheiten	Schönheit	NOUN	NN	_	10	nmod	_	_
-14	mancher	mancher	DET	PIAT	_	15	det	_	_
+14	mancher	mancher	DET	PIAT	PronType=Ind	15	det	_	_
 15	Gedichte	Gedicht	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	21	punct	_	_
 17	weil	weil	SCONJ	KOUS	_	21	mark	_	_
@@ -23427,7 +23427,7 @@
 7	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 8	von	von	ADP	APPR	_	11	case	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
-10	manchen	mancher	DET	PIAT	_	11	det	_	_
+10	manchen	mancher	DET	PIAT	PronType=Ind	11	det	_	_
 11	Philosophen	Philosoph	NOUN	NN	Case=Dat	13	nmod	_	_
 12	vergeblich	vergeblich	ADJ	ADJD	_	13	advmod	_	_
 13	gesuchten	gesucht	ADJ	ADJA	_	18	amod	_	_
@@ -24944,7 +24944,7 @@
 48	:	--	PUNCT	$.	_	66	punct	_	_
 49	so	so	ADV	ADV	_	66	advmod	_	_
 50	daß	dass	SCONJ	KOUS	_	66	mark	_	_
-51	manche	mancher	DET	PIAT	_	52	det	_	_
+51	manche	mancher	DET	PIAT	PronType=Ind	52	det	_	_
 52	Künstler	Künstler	NOUN	NN	Case=Nom	66	nsubj	_	SpaceAfter=No
 53	,	--	PUNCT	$,	_	59	punct	_	_
 54	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	59	nsubj	_	_
@@ -26350,7 +26350,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f129-s1
 # text = Manche Theoristen vergessen bei Fragen, wie die über den Gebrauch des Sylbenmaßes im Drama allzusehr, daß die Poesie überhaupt nur eine schöne Lüge ist, von der es aber dafür auch heißen kann:
-1	Manche	mancher	DET	PIAT	_	2	det	_	_
+1	Manche	mancher	DET	PIAT	PronType=Ind	2	det	_	_
 2	Theoristen	Theorist	NOUN	NN	Case=Acc	3	obj	_	_
 3	vergessen	vergessen	VERB	VVPP	_	0	root	_	_
 4	bei	bei	ADP	APPR	_	5	case	_	_
@@ -27977,7 +27977,7 @@
 # sent_id = athenaeum-f159-s1
 # text = In manchem Gedicht der spätern Alten, wie zum Beispiel in der »Mosella« des Ausonius, ist schon nichts mehr antik, als das Antiquarische.
 1	In	in	ADP	APPR	_	3	case	_	_
-2	manchem	mancher	DET	PIAT	_	3	det	_	_
+2	manchem	mancher	DET	PIAT	PronType=Ind	3	det	_	_
 3	Gedicht	Gedicht	NOUN	NN	_	23	nmod	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 5	spätern	spätern	ADJ	ADJA	_	6	amod	_	_
@@ -29176,7 +29176,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f175-s1
 # text = Mancher betrachtet Gemälde am liebsten mit verschloßnen Augen, damit die Fantasie nicht gestört werde.
-1	Mancher	mancher	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Mancher	mancher	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	betrachtet	betrachten	VERB	VVFIN	_	0	root	_	_
 3	Gemälde	Gemälde	NOUN	NN	Case=Acc	2	obj	_	_
 4	am	an	PART	PTKA	_	5	case	_	_
@@ -34295,7 +34295,7 @@
 15	auch	auch	ADV	ADV	_	27	advmod	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	27	punct	_	_
 17	wie	wie	ADV	ADV	_	18	case	_	_
-18	manche	mancher	PRON	PIS	_	27	obl	_	_
+18	manche	mancher	DET	PIS	PronType=Ind	27	obl	_	_
 19	darum	darum	ADV	PROAV	PronType=Dem	27	advmod	_	_
 20	immer	immer	ADV	ADV	_	27	advmod	_	_
 21	zu	zu	ADP	APPR	_	23	case	_	_
@@ -35701,7 +35701,7 @@
 18	auch	auch	ADV	ADV	_	25	advmod	_	_
 19	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 20	Charakter	Charakter	NOUN	NN	Case=Nom	25	nsubj	_	_
-21	manches	mancher	PRON	PIS	_	22	amod	_	_
+21	manches	mancher	DET	PIS	PronType=Ind	22	amod	_	_
 22	Werks	Werk	NOUN	NN	_	20	nmod	_	_
 23	des	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
 24	Genies	Genie	NOUN	NN	Case=Gen	22	nmod	_	_
@@ -40011,7 +40011,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f314-s2
 # text = Mancher, der sich an seiner Frau ein wenig müde gesehen, findet seine ersten Regungen vor den reineren Zügen ihres Bildnisses wieder.
-1	Mancher	mancher	PRON	PIS	Case=Nom	13	nsubj	_	SpaceAfter=No
+1	Mancher	mancher	DET	PIS	Case=Nom|PronType=Ind	13	nsubj	_	SpaceAfter=No
 2	,	--	PUNCT	$,	_	11	punct	_	_
 3	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	_
@@ -41795,7 +41795,7 @@
 10	,	--	PUNCT	$,	_	9	punct	_	_
 11	gibt	geben	VERB	VVFIN	_	0	root	_	_
 12	es	es	PRON	PPER	_	11	expl	_	_
-13	manche	mancher	PRON	PIS	Case=Nom	11	nsubj	_	SpaceAfter=No
+13	manche	mancher	DET	PIS	Case=Nom|PronType=Ind	11	nsubj	_	SpaceAfter=No
 14	,	--	PUNCT	$,	_	28	punct	_	_
 15	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	28	nsubj	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	20	punct	_	_
@@ -42823,7 +42823,7 @@
 27	;	--	PUNCT	$.	_	16	punct	_	_
 28	und	und	CCONJ	KON	_	34	cc	_	_
 29	wie	wie	ADV	PWAV	_	34	advmod	_	_
-30	manche	mancher	PRON	PIS	Case=Nom	34	nsubj	_	_
+30	manche	mancher	DET	PIS	Case=Nom|PronType=Ind	34	nsubj	_	_
 31	nicht	nicht	PART	PTKNEG	_	34	advmod	_	_
 32	für	für	ADP	APPR	_	33	case	_	_
 33	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	34	obl	_	_
@@ -42840,7 +42840,7 @@
 44	,	--	PUNCT	$,	_	43	punct	_	_
 45	so	so	ADV	ADV	_	50	advmod	_	_
 46	können	können	AUX	VMFIN	_	50	aux	_	_
-47	manche	mancher	PRON	PIS	Case=Nom	50	nsubj	_	_
+47	manche	mancher	DET	PIS	Case=Nom|PronType=Ind	50	nsubj	_	_
 48	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	50	obj	_	_
 49	nicht	nicht	PART	PTKNEG	_	50	advmod	_	_
 50	anschaun	anschaun	VERB	VVINF	_	16	parataxis	_	SpaceAfter=No
@@ -46860,7 +46860,7 @@
 1	Wie	wie	ADV	ADV	_	3	advmod	_	_
 2	sehr	sehr	ADV	ADV	_	3	advmod	_	_
 3	wäre	sein	AUX	VAFIN	_	0	root	_	_
-4	manchem	mancher	DET	PIAT	Case=Dat	5	det	_	_
+4	manchem	mancher	DET	PIAT	Case=Dat|PronType=Ind	5	det	_	_
 5	Pfuscher	Pfuscher	NOUN	NN	Case=Dat	17	obl:arg	_	_
 6	nur	nur	ADV	ADV	_	9	advmod	_	_
 7	ein	ein	DET	ART	PronType=Art	9	det	_	_
@@ -48773,7 +48773,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f384-s3
 # text = Manche verwickelte Streitfragen der modernen Philosophie sind wie die Sagen und Götter der alten Poesie.
-1	Manche	mancher	PRON	PIS	_	3	amod	_	_
+1	Manche	mancher	DET	PIS	PronType=Ind	3	amod	_	_
 2	verwickelte	verwickelt	ADJ	ADJA	_	3	amod	_	_
 3	Streitfragen	Streitfrage	VERB	VVFIN	_	10	nsubj	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -49182,7 +49182,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f389-s3
 # text = Manches philosophische Kunstchaos der Art hat Festigkeit genug gehabt, eine gotische Kirche zu überleben.
-1	Manches	mancher	DET	PIAT	_	3	det	_	_
+1	Manches	mancher	DET	PIAT	PronType=Ind	3	det	_	_
 2	philosophische	philosophisch	ADJ	ADJA	_	3	amod	_	_
 3	Kunstchaos	Kunstchaos	NOUN	NN	Case=Nom	9	nsubj	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
@@ -49777,7 +49777,7 @@
 8	unverhältnismäßig	unverhältnismäßig	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 9	;	--	PUNCT	$.	_	44	punct	_	_
 10	und	und	CCONJ	KON	_	44	cc	_	_
-11	manche	mancher	PRON	PIS	Case=Nom	44	nsubj	_	SpaceAfter=No
+11	manche	mancher	DET	PIS	Case=Nom|PronType=Ind	44	nsubj	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	32	punct	_	_
 13	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	32	nsubj	_	_
 14	bei	bei	ADP	APPR	_	17	case	_	_
@@ -51511,7 +51511,7 @@
 3	es	es	PRON	PPER	Case=Nom	2	nsubj	_	_
 4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Fehler	Fehler	NOUN	NN	Case=Acc	2	obj	_	_
-6	mancher	mancher	DET	PIAT	_	8	det	_	_
+6	mancher	mancher	DET	PIAT	PronType=Ind	8	det	_	_
 7	ersten	erster	ADJ	ADJA	_	8	amod	_	_
 8	Produkte	Produkt	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 9	:	--	PUNCT	$.	_	2	punct	_	_
