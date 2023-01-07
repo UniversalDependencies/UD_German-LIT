@@ -28301,7 +28301,7 @@
 6	etwas	etwas	PRON	PIS	Case=Acc	10	obj	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	9	punct	_	_
 8	oder	oder	CCONJ	KON	_	9	cc	_	_
-9	allerlei	allerlei	PRON	PIS	_	6	conj	_	_
+9	allerlei	allerlei	DET	PIS	PronType=Tot	6	conj	_	_
 10	lernen	lernen	VERB	VVINF	_	16	advcl	_	_
 11	soll	sollen	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	,	--	PUNCT	$,	_	10	punct	_	_
@@ -33860,7 +33860,7 @@
 6	daß	daß	SCONJ	KOUS	_	10	mark	_	_
 7	mythologische	mythologisch	ADJ	ADJA	_	8	amod	_	_
 8	Wesen	Wesen	NOUN	NN	_	10	obl	_	_
-9	allerlei	allerlei	PRON	PIS	Case=Acc	10	obj	_	_
+9	allerlei	allerlei	DET	PIS	PronType=Tot	10	obj	_	_
 10	bedeuten	bedeuten	VERB	VVINF	_	2	csubj	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	10	punct	_	_
 12	was	was	ADV	PWAV	_	15	obj	_	_
