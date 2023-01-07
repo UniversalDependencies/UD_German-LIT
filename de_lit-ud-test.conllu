@@ -41389,7 +41389,7 @@
 29	mißlichsten	mißlich	ADJ	ADJA	Case=Gen|Degree=Sup|Number=Plur	30	amod	_	_
 30	Professionen	Profession	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
 31	ist	sein	AUX	VAFIN	_	27	cop	_	SpaceAfter=No
-32	,	--	PUNCT	$,	_	27	punct	_	_
+32	,	--	PUNCT	$,	_	37	punct	_	_
 33	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	37	obj	_	_
 34	ein	ein	DET	ART	PronType=Art	36	det	_	_
 35	ehrlicher	ehrlich	ADJ	ADJA	_	36	amod	_	_
