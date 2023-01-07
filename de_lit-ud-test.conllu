@@ -31872,7 +31872,7 @@
 18	bestraft	bestrafen	VERB	VVPP	_	3	acl:relcl	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	21	punct	_	_
 20	als	als	SCONJ	KOUS	_	21	case	_	_
-21	die	der	PRON	PDS	Case=Acc|Definite=Def|Number=Plur|PronType=Dem,Rel	17	obl	_	_
+21	die	der	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem,Rel	17	obl	_	_
 22	auf	auf	ADP	APPR	_	24	case	_	_
 23	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
@@ -40124,14 +40124,14 @@
 # text = Wenn Nichts zuviel so viel bedeutet als Alles ein wenig: so ist Garve der größte deutsche Philosoph.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 2	Nichts	nichts	PRON	PIS	Case=Nom	6	nsubj	_	_
-3	zuviel	zuviel	PROPN	NE	Case=Nom	6	nsubj	_	_
+3	zuviel	zuviel	ADV	ADV	_	2	parataxis	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
 5	viel	viel	ADV	ADV	_	6	advmod	_	_
 6	bedeutet	bedeuten	VERB	VVFIN	_	18	advcl	_	_
-7	als	als	CCONJ	KOKOM	_	8	case	_	_
+7	als	als	SCONJ	KOUS	_	8	case	_	_
 8	Alles	alle	DET	PIS	PronType=Tot	6	obl	_	_
 9	ein	ein	DET	ART	PronType=Art	10	det	_	_
-10	wenig	wenig	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+10	wenig	wenig	ADV	ADV	_	8	parataxis	_	SpaceAfter=No
 11	:	--	PUNCT	$.	_	18	punct	_	_
 12	so	so	ADV	ADV	_	18	advmod	_	_
 13	ist	sein	AUX	VAFIN	_	18	cop	_	_
@@ -40304,11 +40304,11 @@
 10	aber	aber	ADV	ADV	_	17	advmod	_	_
 11	doch	doch	ADV	ADV	_	17	advmod	_	_
 12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
-13	Ähnlichkeit	Ähnlichkeit	NOUN	NN	Case=Nom	17	nsubj	_	_
+13	Ähnlichkeit	Ähnlichkeit	NOUN	NN	Case=Acc	17	obj	_	_
 14	mit	mit	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 16	Golde	Golde	NOUN	NN	Case=Dat	13	nmod	_	_
-17	hat	haben	AUX	VAFIN	_	7	acl	_	SpaceAfter=No
+17	hat	haben	AUX	VAFIN	_	7	acl:relcl	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	17	punct	_	_
 19	daß	daß	SCONJ	KOUS	_	30	mark	_	_
 20	er	er	PRON	PPER	Case=Nom	30	nsubj	_	_
@@ -41383,18 +41383,18 @@
 23	zu	zu	PART	PTKZU	_	24	mark	_	_
 24	treiben	treiben	VERB	VVINF	_	16	xcomp	_	SpaceAfter=No
 25	;	--	PUNCT	$.	_	16	punct	_	_
-26	welches	welcher	DET	PWAT	Case=Nom|PronType=Int,Rel	30	nsubj	_	_
-27	eine	einer	PRON	PIS	Case=Nom	30	nsubj	_	_
-28	der	der	DET	ART	Definite=Def|PronType=Art	30	det	_	_
-29	mißlichsten	mißlich	ADJ	ADJA	_	30	amod	_	_
-30	Professionen	Profession	NOUN	NN	Case=Nom	16	advcl	_	_
-31	ist	sein	AUX	VAFIN	_	30	cop	_	SpaceAfter=No
-32	,	--	PUNCT	$,	_	30	punct	_	_
+26	welches	welcher	DET	PWAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	27	nsubj	_	_
+27	eine	einer	PRON	PIS	Case=Nom	16	advcl	_	_
+28	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+29	mißlichsten	mißlich	ADJ	ADJA	Case=Gen|Degree=Sup|Number=Plur	30	amod	_	_
+30	Professionen	Profession	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+31	ist	sein	AUX	VAFIN	_	27	cop	_	SpaceAfter=No
+32	,	--	PUNCT	$,	_	27	punct	_	_
 33	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	37	obj	_	_
 34	ein	ein	DET	ART	PronType=Art	36	det	_	_
 35	ehrlicher	ehrlich	ADJ	ADJA	_	36	amod	_	_
 36	Mann	Mann	NOUN	NN	Case=Nom	37	nsubj	_	_
-37	treiben	treiben	VERB	VVINF	_	30	parataxis	_	_
+37	treiben	treiben	VERB	VVINF	_	30	acl:relcl	_	_
 38	kann	können	AUX	VMFIN	_	37	aux	_	SpaceAfter=No
 39	.	--	PUNCT	$.	_	16	punct	_	_
 
@@ -42060,7 +42060,7 @@
 # sent_id = athenaeum-f336-s2
 # text = Für die, welche auch in die Gesellschaft ihre Trägheit mitbringen und beiläufig gern was sie um sich sehn mustern und klassifizieren möchten, ist dies freilich eine bequeme Eigenschaft.
 1	Für	für	ADP	APPR	_	2	case	_	_
-2	die	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	30	nmod	_	SpaceAfter=No
+2	die	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	30	obl	_	SpaceAfter=No
 3	,	--	PUNCT	$,	_	11	punct	_	_
 4	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	11	nsubj	_	_
 5	auch	auch	ADV	ADV	_	11	advmod	_	_
@@ -42069,19 +42069,19 @@
 8	Gesellschaft	Gesellschaft	NOUN	NN	_	11	obl	_	_
 9	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Trägheit	Trägheit	NOUN	NN	Case=Acc	11	obj	_	_
-11	mitbringen	mitbringen	VERB	VVINF	_	2	acl	_	_
+11	mitbringen	mitbringen	VERB	VVINF	_	2	acl:relcl	_	_
 12	und	und	CCONJ	KON	_	20	cc	_	_
 13	beiläufig	beiläufig	ADV	ADV	_	20	advmod	_	_
 14	gern	gern	ADV	ADV	_	20	advmod	_	_
-15	was	was	PRON	PWS	Case=Acc	20	obj	_	_
-16	sie	sie	PRON	PPER	Case=Nom	20	nsubj	_	_
+15	was	was	PRON	PWS	Case=Acc	19	obj	_	_
+16	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 17	um	um	ADP	APPR	_	18	case	_	_
-18	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	20	obl	_	_
-19	sehn	sehn	VERB	VVINF	_	20	xcomp	_	_
-20	mustern	mustern	VERB	VVINF	_	11	csubj	_	_
+18	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	19	obl	_	_
+19	sehn	sehen	VERB	VVINF	_	20	ccomp	_	_
+20	mustern	mustern	VERB	VVINF	_	11	conj	_	_
 21	und	und	CCONJ	KON	_	22	cc	_	_
 22	klassifizieren	klassifizieren	VERB	VVINF	_	20	conj	_	_
-23	möchten	mögen	AUX	VMFIN	_	22	aux	_	SpaceAfter=No
+23	möchten	mögen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 24	,	--	PUNCT	$,	_	20	punct	_	_
 25	ist	sein	AUX	VAFIN	_	30	cop	_	_
 26	dies	dieser	DET	PDS	Case=Nom|PronType=Dem	30	nsubj	_	_
@@ -42684,7 +42684,7 @@
 25	,	--	PUNCT	$,	_	24	punct	_	_
 26	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	31	nsubj	_	_
 27	das	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
-28	Vortreffliche	vortreffliche	NOUN	NN	Case=Nom	31	nsubj	_	_
+28	Vortreffliche	vortreffliche	NOUN	NN	Case=Acc	31	obj	_	_
 29	zu	zu	PART	PTKZU	_	30	mark	_	_
 30	ahnden	ahnden	VERB	VVINF	_	31	xcomp	_	_
 31	weiß	weiß	VERB	VVFIN	_	24	acl	_	SpaceAfter=No
@@ -42718,11 +42718,11 @@
 59	Herzlichkeit	Herzlichkeit	NOUN	NN	Case=Dat	67	obl	_	SpaceAfter=No
 60	,	--	PUNCT	$,	_	59	punct	_	_
 61	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	67	nsubj	_	SpaceAfter=No
-62	,	--	PUNCT	$,	_	67	punct	_	_
-63	wie	wie	ADV	PWAV	_	67	advmod	_	_
-64	die	der	DET	ART	Definite=Def|PronType=Art	65	det	_	_
-65	Freimaurer	Freimaurer	NOUN	NN	Case=Nom	67	nsubj	_	SpaceAfter=No
-66	,	--	PUNCT	$,	_	67	punct	_	_
+62	,	--	PUNCT	$,	_	65	punct	_	_
+63	wie	wie	SCONJ	KOUS	_	65	case	_	_
+64	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	65	det	_	_
+65	Freimaurer	Freimaurer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	67	obl	_	SpaceAfter=No
+66	,	--	PUNCT	$,	_	65	punct	_	_
 67	meint	meinen	VERB	VVFIN	_	35	parataxis	_	SpaceAfter=No
 68	,	--	PUNCT	$,	_	67	punct	_	_
 69	daß	daß	SCONJ	KOUS	_	77	mark	_	_
@@ -42996,7 +42996,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f336-s25
 # text = Erfahrungen und Erkenntnisse deren Erwerbung von lokalen und temporellen Verhältnissen abhängt, darf keiner nur für sich haben wollen; sie müssen für jeden rechtlichen Mann immer bereit liegen.
-1	Erfahrungen	Erfahrung	NOUN	NN	Case=Nom	18	nsubj	_	_
+1	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc	18	obj	_	_
 2	und	und	CCONJ	KON	_	3	cc	_	_
 3	Erkenntnisse	Erkenntnis	NOUN	NN	_	1	conj	_	_
 4	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	5	nmod	_	_
@@ -43139,8 +43139,8 @@
 35	,	--	PUNCT	$,	_	34	punct	_	_
 36	worauf	worauf	ADV	PWAV	_	41	advmod	_	_
 37	es	es	PRON	PPER	Case=Nom	41	nsubj	_	_
-38	den	der	DET	ART	Definite=Def|PronType=Art	39	det	_	_
-39	Leuten	Leute	NOUN	NN	Case=Nom	41	nsubj	_	_
+38	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+39	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	41	obl:arg	_	_
 40	allein	allein	ADV	ADV	_	41	advmod	_	_
 41	ankommt	ankommen	VERB	VVFIN	_	34	acl	_	_
 42	von	von	ADP	APPR	_	45	case	_	_
@@ -43454,7 +43454,7 @@
 4	kannst	können	AUX	VAFIN	_	3	aux	_	SpaceAfter=No
 5	,	--	PUNCT	$,	_	10	punct	_	_
 6	hat	haben	AUX	VAFIN	_	10	aux	_	_
-7	dir	dir	PRON	PPER	Case=Nom	10	nsubj	_	_
+7	dir	dir	PRON	PPER	Case=Dat	10	obl:arg	_	_
 8	noch	noch	ADV	ADV	_	10	advmod	_	_
 9	nie	nie	ADV	ADV	_	10	advmod	_	_
 10	angehört	angehören	VERB	VVFIN	_	0	root	_	SpaceAfter=No
@@ -45756,8 +45756,8 @@
 15	,	--	PUNCT	$,	_	14	punct	_	_
 16	lohnt	lohnen	VERB	VVFIN	_	0	root	_	_
 17	wahrlich	wahrlich	ADV	ADV	_	16	advmod	_	_
-18	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
-19	Mühe	Mühe	NOUN	NN	Case=Nom	16	nsubj	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Mühe	Mühe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl:arg	_	_
 20	nicht	nicht	PART	PTKNEG	_	16	advmod	_	SpaceAfter=No
 21	.	--	PUNCT	$.	_	16	punct	_	_
 
@@ -46280,7 +46280,7 @@
 1	2)	2)	X	XY	_	7	dep	_	_
 2	Du	du	PRON	PPER	Case=Nom	7	nsubj	_	_
 3	sollst	sollen	AUX	VMFIN	_	7	aux	_	_
-4	dir	dir	PRON	PPER	Case=Nom	7	nsubj	_	_
+4	dir	du	PRON	PPER	Case=Dat	7	obl:arg	_	_
 5	kein	kein	DET	PIAT	PronType=Neg	6	advmod	_	_
 6	Ideal	Ideal	NOUN	NN	Case=Acc	7	obj	_	_
 7	machen	machen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -46338,10 +46338,10 @@
 13	,	--	PUNCT	$,	_	19	punct	_	_
 14	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	19	nsubj	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
-16	Schwärmerei	Schwärmerei	NOUN	NN	Case=Nom	19	nsubj	_	_
+16	Schwärmerei	Schwärmerei	NOUN	NN	Case=Acc	19	obj	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Mädchen	Mädchen	NOUN	NN	_	16	nmod	_	_
-19	heimsucht	heimsuchen	VERB	VVFIN	_	12	acl	_	_
+19	heimsucht	heimsuchen	VERB	VVFIN	_	12	acl:relcl	_	_
 20	an	an	ADP	APPR	_	22	case	_	_
 21	den	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
 22	Frauen	Frau	NOUN	NN	_	19	obl	_	_
@@ -46863,7 +46863,7 @@
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	wünschen	wünschen	VERB	VVINF	_	3	ccomp	_	SpaceAfter=No
 18	,	--	PUNCT	$,	_	27	punct	_	_
-19	die	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	27	nsubj	_	_
+19	die	der	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem,Rel	27	obj	_	_
 20	wir	wir	PRON	PPER	Case=Nom	27	nsubj	_	_
 21	an	an	ADP	APPR	_	24	case	_	_
 22	den	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
@@ -46871,7 +46871,7 @@
 24	Werkzeugen	Werkzeug	NOUN	NN	_	27	obl	_	_
 25	kaum	kaum	ADV	ADV	_	26	advmod	_	_
 26	noch	noch	ADV	ADV	_	27	advmod	_	_
-27	achten	achten	VERB	VVFIN	_	12	acl	_	SpaceAfter=No
+27	achten	achten	VERB	VVFIN	_	12	acl:relcl	_	SpaceAfter=No
 28	!	--	PUNCT	$.	_	3	punct	_	_
 
 # newpar id = athenaeum-f368
@@ -47202,7 +47202,7 @@
 23	,	--	PUNCT	$,	_	25	punct	_	_
 24	als	als	CCONJ	KOKOM	_	25	cc	_	_
 25	die	der	PRON	PDS	PronType=Dem,Rel	22	conj	_	_
-26	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	37	nsubj	_	_
+26	welche	welcher	DET	PRELS	Case=Acc|PronType=Int,Rel	37	obj	_	_
 27	jener	jener	DET	PDAT	PronType=Dem	29	det	_	_
 28	einfältige	einfältig	ADJ	ADJA	_	29	amod	_	_
 29	Mensch	Mensch	NOUN	NN	Case=Nom	37	nsubj	_	_
@@ -47213,7 +47213,7 @@
 34	und	und	CCONJ	KON	_	36	cc	_	_
 35	der	der	DET	ART	Definite=Def|PronType=Art	36	det	_	_
 36	Komödie	Komödie	NOUN	NN	_	33	conj	_	_
-37	angab	angeben	VERB	VVFIN	_	25	advcl	_	SpaceAfter=No
+37	angab	angeben	VERB	VVFIN	_	25	acl:relcl	_	SpaceAfter=No
 38	.	--	PUNCT	$.	_	22	punct	_	_
 
 # genre = fragments
@@ -47536,7 +47536,7 @@
 32	französischen	französisch	ADJ	ADJA	_	33	amod	_	_
 33	Philosophen	Philosoph	NOUN	NN	Case=Nom	34	nsubj	_	_
 34	machen	machen	VERB	VVINF	_	29	ccomp	_	_
-35	es	es	PRON	PPER	Case=Nom	34	nsubj	_	_
+35	es	es	PRON	PPER	Case=Acc	34	obj	_	_
 36	mit	mit	ADP	APPR	_	39	case	_	_
 37	dem	der	DET	ART	Definite=Def|PronType=Art	39	det	_	_
 38	»	»	PUNCT	XY	_	39	punct	_	SpaceAfter=No
@@ -49084,7 +49084,7 @@
 # sent_id = athenaeum-f389-s1
 # text = Wenn jede rein willkürliche oder rein zufällige Verknüpfung von Form und Materie grotesk ist: so hat auch die Philosophie Grotesken wie die Poesie; nur weiß sie weniger darum, und hat den Schlüssel zu ihrer eignen esoterischen Geschichte noch nicht finden können.
 1	Wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
-2	jede	jeder	DET	NN	Case=Nom|Number=Sing|PronType=Tot	13	nsubj	_	_
+2	jede	jeder	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	8	det	_	_
 3	rein	rein	ADV	ADV	_	4	advmod	_	_
 4	willkürliche	willkürlich	ADJ	ADJA	_	8	amod	_	_
 5	oder	oder	CCONJ	KON	_	7	cc	_	_
@@ -50813,7 +50813,7 @@
 41	eigentümliche	eigentümlich	ADJ	ADJA	_	42	amod	_	_
 42	Gemeinheit	Gemeinheit	NOUN	NN	Case=Acc	44	obj	_	_
 43	zu	zu	ADP	APPR	_	44	case	_	_
-44	ahnden	ahnden	VERB	VVFIN	_	9	csubj	_	_
+44	ahnden	ahnden	VERB	VVFIN	_	9	acl	_	_
 45	und	und	CCONJ	KON	_	47	cc	_	_
 46	zu	zu	PART	PTKZU	_	47	mark	_	_
 47	erraten	erraten	VERB	VVINF	_	44	conj	_	SpaceAfter=No
@@ -51328,8 +51328,8 @@
 4	gewöhnlichsten	gewöhnlich	ADJ	ADJA	_	5	amod	_	_
 5	Ansichten	Ansicht	NOUN	NN	Case=Dat	8	nmod	_	_
 6	ist	sein	AUX	VAFIN	_	8	aux	_	_
-7	es	es	PRON	PPER	Case=Nom	8	nsubj	_	_
-8	Verdienst	Verdienst	NOUN	NN	_	0	root	_	_
+7	es	es	PRON	PPER	Case=Nom	8	expl	_	_
+8	Verdienst	Verdienst	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 9	genug	genug	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 10	,	--	PUNCT	$,	_	16	punct	_	_
 11	um	um	SCONJ	KOUI	_	16	mark	_	_
@@ -52288,16 +52288,16 @@
 7	ein	ein	DET	ART	PronType=Art	8	det	_	_
 8	Autor	Autor	NOUN	NN	_	3	parataxis	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	19	punct	_	_
-10	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	19	nsubj	_	_
-11	die	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-12	Anfangsgründe	Anfangsgrund	NOUN	NN	Case=Nom	19	nsubj	_	_
-13	der	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
-14	Kunst	Kunst	NOUN	NN	_	12	nmod	_	_
+10	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	19	nsubj	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	Anfangsgründe	Anfangsgrund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Kunst	Kunst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15	nicht	nicht	PART	PTKNEG	_	19	advmod	_	_
 16	in	in	ADP	APPR	_	18	case	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Gewalt	Gewalt	NOUN	NN	_	19	obl	_	_
-19	hat	haben	AUX	VAFIN	_	8	acl	_	SpaceAfter=No
+19	hat	haben	AUX	VAFIN	_	8	acl:relcl	_	SpaceAfter=No
 20	,	--	PUNCT	$,	_	25	punct	_	_
 21	nicht	nicht	PART	PTKNEG	_	25	advmod	_	_
 22	ein	ein	DET	ART	PronType=Art	23	det	_	_
