@@ -27305,9 +27305,9 @@
 28	,	--	PUNCT	$,	_	30	punct	_	_
 29	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	Gesellschaftspoesie	Gesellschaftspoesie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	conj	_	_
-31	aus	aus	ADP	PTKVZ	_	10	compound:prt	_	_
-32	und	und	CCONJ	KON	_	39	cc	_	_
-33	für	für	ADP	APPR	_	35	case	_	_
+31	aus	aus	ADP	APPR	_	35	case	_	_
+32	und	und	CCONJ	KON	_	33	cc	_	_
+33	für	für	ADP	APPR	_	31	conj	_	_
 34	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	Mittelpunkt	Mittelpunkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	39	obl	_	_
 36	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	38	det	_	_
@@ -31579,7 +31579,7 @@
 15	folgt	folgen	VERB	VVFIN	_	9	parataxis	_	_
 16	daraus	daraus	ADV	PAV	PronType=Dem	15	advmod	_	_
 17	ebenso	ebenso	ADV	ADV	_	15	advmod	_	_
-18	wenig	wenig	ADV	ADV	_	15	nsubj	_	SpaceAfter=No
+18	wenig	wenig	ADV	ADV	_	15	advmod	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	15	punct	_	_
 20	als	als	CCONJ	KOKOM	_	32	mark	_	_
 21	man	man	PRON	PIS	Case=Nom|PronType=Ind	32	nsubj	_	_
@@ -31869,13 +31869,13 @@
 15	Bürger	Bürger	NOUN	NN	_	13	nmod	_	_
 16	weniger	weniger	ADV	ADV	_	17	advmod	_	_
 17	hart	hart	ADV	ADV	_	18	advmod	_	_
-18	bestraft	bestrafen	VERB	VVPP	_	3	acl	_	SpaceAfter=No
-19	,	--	PUNCT	$,	_	18	punct	_	_
-20	als	als	SCONJ	KOUS	_	21	cc	_	_
-21	die	der	DET	ART	Case=Nom|Definite=Def|PronType=Art	18	nsubj	_	_
+18	bestraft	bestrafen	VERB	VVPP	_	3	acl:relcl	_	SpaceAfter=No
+19	,	--	PUNCT	$,	_	21	punct	_	_
+20	als	als	SCONJ	KOUS	_	21	case	_	_
+21	die	der	PRON	PDS	Case=Acc|Definite=Def|Number=Plur|PronType=Dem,Rel	17	obl	_	_
 22	auf	auf	ADP	APPR	_	24	case	_	_
-23	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
-24	Leben	Leben	NOUN	NN	_	21	nmod	_	SpaceAfter=No
+23	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
 25	?	--	PUNCT	$.	_	6	punct	_	_
 
 # newpar id = athenaeum-f216
@@ -31912,7 +31912,7 @@
 3	dieser	dieser	DET	PDAT	PronType=Dem	4	det	_	_
 4	Zusammenstellung	Zusammenstellung	NOUN	NN	_	6	obl	_	_
 5	Anstoß	Anstoß	NOUN	NN	Case=Acc	6	obj	_	_
-6	nimmt	nehmen	VERB	VVFIN	_	36	csubj	_	SpaceAfter=No
+6	nimmt	nehmen	VERB	VVFIN	_	22	acl:relcl	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	wem	wem	PRON	PWS	Case=Dat	12	obl:arg	_	_
 9	keine	kein	DET	PIAT	PronType=Neg	10	advmod	_	_
@@ -31951,7 +31951,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f217-s1
 # text = Altertümlichkeit der Worte, und Neuheit der Wortstellungen, gedrungne Kürze und nebenausbildende Fülle, die auch die unerklärlichern Züge der charakterisierten Individuen wiedergibt; das sind die wesentlichen Eigenschaften des historischen Styls.
-1	Altertümlichkeit	Altertümlichkeit	NOUN	NN	Case=Nom	30	nsubj	_	_
+1	Altertümlichkeit	Altertümlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Worte	Wort	NOUN	NN	_	1	nmod	_	SpaceAfter=No
 4	,	--	PUNCT	$,	_	6	punct	_	_
@@ -31975,16 +31975,16 @@
 22	charakterisierten	charakterisiert	ADJ	ADJA	_	23	amod	_	_
 23	Individuen	Individuum	NOUN	NN	_	20	nmod	_	_
 24	wiedergibt	wiedergeben	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
-25	;	--	PUNCT	$.	_	1	punct	_	_
-26	das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	30	nsubj	_	_
-27	sind	sein	AUX	VAFIN	_	30	cop	_	_
-28	die	der	DET	ART	Definite=Def|PronType=Art	30	det	_	_
-29	wesentlichen	wesentlich	ADJ	ADJA	_	30	amod	_	_
-30	Eigenschaften	Eigenschaft	NOUN	NN	Case=Nom	0	root	_	_
-31	des	der	DET	ART	Definite=Def|PronType=Art	33	det	_	_
-32	historischen	historisch	ADJ	ADJA	_	33	amod	_	_
-33	Styls	Styl	NOUN	NN	Case=Gen	30	nmod	_	SpaceAfter=No
-34	.	--	PUNCT	$.	_	30	punct	_	_
+25	;	--	PUNCT	$.	_	26	punct	_	_
+26	das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	1	appos	_	_
+27	sind	sein	AUX	VAFIN	_	1	cop	_	_
+28	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+29	wesentlichen	wesentlich	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+30	Eigenschaften	Eigenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+31	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	historischen	historisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	Styls	Stil	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	--	PUNCT	$.	_	1	punct	_	_
 
 # genre = fragments
 # author = Friedrich Schlegel
@@ -32424,7 +32424,7 @@
 2	wie	wie	ADV	PWAV	_	6	advmod	_	_
 3	kann	können	AUX	VMFIN	_	6	aux	_	_
 4	es	es	PRON	PPER	Case=Nom	6	nsubj	_	_
-5	diese	dieser	DET	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
+5	diese	dieser	DET	PDS	Case=Acc|Number=Plur|PronType=Dem	6	obj	_	_
 6	geben	geben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 7	,	--	PUNCT	$,	_	6	punct	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
@@ -32714,7 +32714,7 @@
 5	sophistisch	sophistisch	ADJ	ADJD	_	4	xcomp	_	SpaceAfter=No
 6	,	--	PUNCT	$,	_	18	punct	_	_
 7	sobald	sobald	SCONJ	KOUS	_	18	mark	_	_
-8	sie	sie	PRON	PPER	Case=Nom	18	nsubj	_	_
+8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	10	det	_	_
 10	Geiste	Geist	NOUN	NN	Case=Dat	18	obl:arg	_	_
 11	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
@@ -32723,7 +32723,7 @@
 14	der	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 15	ganzen	ganz	ADJ	ADJA	_	16	amod	_	_
 16	Menschheit	Menschheit	NOUN	NN	_	13	nmod	_	_
-17	irgendetwas	irgendetwas	PRON	PIS	Case=Nom	18	nsubj	_	_
+17	irgendetwas	irgendetwas	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	18	obj	_	_
 18	vorzieht	vorziehen	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
 19	,	--	PUNCT	$,	_	18	punct	_	_
 20	wäre	sein	AUX	VAFIN	_	24	parataxis	_	_
@@ -34525,9 +34525,9 @@
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
 5	ein	ein	DET	ART	PronType=Art	6	det	_	_
 6	Genius	Genius	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
-7	,	--	PUNCT	$,	_	6	punct	_	_
-8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
-9	einzige	einzig	PRON	PIS	Case=Nom	20	nsubj	_	_
+7	,	--	PUNCT	$,	_	9	punct	_	_
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	einzige	einzig	PRON	PIS	Case=Nom	6	appos	_	_
 10	den	der	DET	ART	Case=Acc|Definite=Def|PronType=Art	20	obj	_	_
 11	man	man	PRON	PIS	Case=Nom|PronType=Ind	20	nsubj	_	_
 12	ohne	ohne	ADP	APPR	_	13	case	_	_
@@ -34538,7 +34538,7 @@
 17	einzig	einzig	ADJ	ADJD	_	15	conj	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
 19	unerreichbar	unerreichbar	ADJ	ADJD	_	15	conj	_	_
-20	nennen	nennen	VERB	VVINF	_	6	advcl	_	_
+20	nennen	nennen	VERB	VVINF	_	9	acl:relcl	_	_
 21	darf	dürfen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 22	.	--	PUNCT	$.	_	6	punct	_	_
 
@@ -35075,7 +35075,7 @@
 # sent_id = athenaeum-f252-s14
 # text = Wer es schon gewußt hat, der erfährt freilich nichts Neues von ihr; doch wird es ihm erst durch sie ein Wissen und dadurch neu von Gestalt.
 1	Wer	wer	PRON	PWS	Case=Nom	4	nsubj	_	_
-2	es	es	PRON	PPER	Case=Nom	4	nsubj:pass	_	_
+2	es	es	PRON	PPER	Case=Acc	4	obj	_	_
 3	schon	schon	ADV	ADV	_	4	advmod	_	_
 4	gewußt	wissen	VERB	VVPP	_	8	parataxis	_	_
 5	hat	haben	AUX	VAFIN	_	4	aux	_	SpaceAfter=No
@@ -36689,7 +36689,7 @@
 # sent_id = athenaeum-f280-s2
 # text = Wie weise diese Veranstaltung der Natur sei, sieht man aus dem Zustande der Wissenschaften, wo der Fall umgekehrt ist, und wo ein Wassersüchtiger, Hektischer und Gelbsüchtiger, wenn er sich mit einem Gesunden vergleicht, glaubt, es gäbe zwischen ihnen keinen andern Unterschied als den zwischen Fett und Mager oder Brünett und Blondin.
 1	Wie	wie	ADV	PWAV	_	2	advmod	_	_
-2	weise	weisen	ADV	ADV	_	9	csubj	_	_
+2	weise	weisen	ADV	ADV	_	9	ccomp	_	_
 3	diese	dieser	DET	PDAT	PronType=Dem	4	det	_	_
 4	Veranstaltung	Veranstaltung	NOUN	NN	Case=Nom	2	nsubj	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -37733,7 +37733,7 @@
 18	diese	dieser	DET	PDAT	PronType=Dem	21	det	_	_
 19	ruhige	ruhig	ADJ	ADJA	_	21	amod	_	_
 20	hohe	hoch	ADJ	ADJA	_	21	amod	_	_
-21	Besonnenheit	Besonnenheit	NOUN	NN	Case=Nom	31	nsubj	_	_
+21	Besonnenheit	Besonnenheit	NOUN	NN	Case=Nom	31	dislocated	_	_
 22	bei	bei	ADP	APPR	_	25	case	_	_
 23	dem	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
 24	weltumfassenden	weltumfassend	ADJ	ADJA	_	25	amod	_	_
@@ -38999,7 +38999,7 @@
 18	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 19	wirkliche	wirklich	ADJ	ADJA	_	20	amod	_	_
 20	Geliebte	Geliebte	NOUN	NN	Case=Acc	21	obj	_	_
-21	besingt	besingen	VERB	VVFIN	_	13	csubj	_	SpaceAfter=No
+21	besingt	besingen	VERB	VVFIN	_	13	ccomp	_	SpaceAfter=No
 22	.	--	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -39615,7 +39615,7 @@
 11	und	und	CCONJ	KON	_	13	cc	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Anstrengung	Anstrengung	NOUN	NN	_	10	conj	_	_
-14	ausgedrückt	ausdrücken	VERB	VVPP	_	21	csubj	_	_
+14	ausgedrückt	ausdrücken	VERB	VVPP	_	21	ccomp	_	_
 15	sei	sein	AUX	VAFIN	_	14	aux	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	14	punct	_	_
 17	hat	haben	AUX	VAFIN	_	21	aux	_	_
