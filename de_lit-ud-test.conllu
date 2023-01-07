@@ -1219,7 +1219,7 @@
 1	Einige	einiger	PRON	PIS	Case=Nom	2	nsubj	_	_
 2	verdampfen	verdampfen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
-4	andre	andre	PRON	PIS	Case=Nom	5	nsubj	_	_
+4	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 5	werden	werden	AUX	VAFIN	_	2	parataxis	_	_
 6	zu	zu	ADP	APPR	_	7	case	_	_
 7	Wasser	Wasser	NOUN	NN	Case=Dat	5	obl	_	SpaceAfter=No
@@ -22027,7 +22027,7 @@
 18	,	,	PUNCT	$,	_	16	punct	_	_
 19	wo	wo	ADV	PWAV	_	24	advmod	_	_
 20	er	er	PRON	PPER	Case=Nom	24	nsubj	_	_
-21	andre	andre	ADJ	ADJA	Case=Acc	24	obj	_	_
+21	andre	anderer	DET	ADJA	Case=Acc|PronType=Ind	24	obj	_	_
 22	ganz	ganz	ADV	ADV	_	23	advmod	_	_
 23	befriedigt	befriedigt	VERB	VVPP	_	24	xcomp	_	_
 24	findet	finden	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
@@ -25136,7 +25136,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f116-s10
 # text = Andre Dichtarten sind fertig, und können nun vollständig zergliedert werden.
-1	Andre	Andre	ADJ	ADJA	_	2	amod	_	_
+1	Andre	anderer	DET	ADJA	PronType=Ind	2	amod	_	_
 2	Dichtarten	Dichtarten	NOUN	NN	Case=Nom	4	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	4	cop	_	_
 4	fertig	fertig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -25410,7 +25410,7 @@
 13	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	7	obl	_	_
 14	und	und	CCONJ	KON	_	16	cc	_	_
 15	für	für	ADP	APPR	_	16	case	_	_
-16	andre	andre	ADJ	ADJA	Case=Acc	13	amod	_	SpaceAfter=No
+16	andre	anderer	DET	ADJA	Case=Acc|PronType=Ind	13	amod	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	26	punct	_	_
 18	so	so	ADV	ADV	_	26	advmod	_	_
 19	sollten	sollen	AUX	VMFIN	_	26	aux	_	_
@@ -30801,7 +30801,7 @@
 1	Schwerlich	schwerlich	ADV	ADV	_	2	advmod	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
 3	irgendeine	irgendein	DET	PIAT	_	5	det	_	_
-4	andre	andre	ADJ	ADJA	_	5	amod	_	_
+4	andre	anderer	DET	ADJA	PronType=Ind	5	amod	_	_
 5	Literatur	Literatur	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
 7	viele	viel	DET	PIAT	PronType=Ind	8	det	_	_
@@ -33902,7 +33902,7 @@
 1	Einer	einer	PRON	PIS	Case=Nom	11	nsubj	_	_
 2	oder	oder	CCONJ	KON	_	4	cc	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-4	andre	andre	ADJ	ADJA	_	1	conj	_	_
+4	andre	anderer	DET	ADJA	PronType=Ind	1	conj	_	_
 5	von	von	ADP	APPR	_	7	case	_	_
 6	unsern	unsern	DET	PPOSAT	_	7	det:poss	_	_
 7	Dichtern	Dichter	NOUN	NN	Case=Dat	1	nmod	_	_
@@ -34269,7 +34269,7 @@
 7	kann	können	AUX	VMFIN	_	11	aux	_	_
 8	vielleicht	vielleicht	ADV	ADV	_	11	advmod	_	_
 9	das	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
-10	andre	andre	PRON	PIS	Case=Nom	11	nsubj	_	_
+10	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
 11	helfen	helfen	VERB	VVINF	_	1	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -41432,7 +41432,7 @@
 7	setzt	setzen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	kann	können	AUX	VMFIN	_	11	aux	_	_
-10	andre	andre	PRON	PIS	Case=Acc	11	obj	_	_
+10	andre	anderer	DET	PIS	Case=Acc|PronType=Ind	11	obj	_	_
 11	setzen	setzen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -42896,7 +42896,7 @@
 # sent_id = athenaeum-f336-s22
 # text = Eine andre langweilige Offenheit, der mehr mit Hörern gedient ist, ist die der Enthusiasten die aus reinem Eifer für das Reich Gottes sich selbst vortragen, erläutern und übersetzen, weil sie glauben Normal-Seelen zu sein, an denen alles lehrreich und erbaulich ist.
 1	Eine	ein	DET	ART	PronType=Art	4	det	_	_
-2	andre	andre	ADJ	ADJA	_	4	amod	_	_
+2	andre	anderer	DET	ADJA	PronType=Ind	4	amod	_	_
 3	langweilige	langweilig	ADJ	ADJA	_	4	amod	_	_
 4	Offenheit	Offenheit	NOUN	NN	Case=Nom	14	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	10	punct	_	_
@@ -44510,7 +44510,7 @@
 35	,	,	PUNCT	$,	_	39	punct	_	_
 36	noch	noch	ADV	ADV	_	39	advmod	_	_
 37	viele	viel	DET	ADJA	PronType=Ind	39	det	_	_
-38	andre	andre	PRON	PIS	Case=Nom	39	nsubj:pass	_	_
+38	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	39	nsubj:pass	_	_
 39	erzeugt	erzeugen	VERB	VVPP	_	18	conj	_	_
 40	worden	werden	AUX	VAPP	_	39	aux:pass	_	_
 41	wären	sein	AUX	VAFIN	_	39	aux	_	SpaceAfter=No
@@ -47189,7 +47189,7 @@
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Pflichten	Pflicht	NOUN	NN	_	3	conj	_	_
 12	gegen	gegen	ADP	APPR	_	13	case	_	_
-13	andre	andre	ADJ	ADJA	Case=Acc	11	nmod	_	_
+13	andre	anderer	DET	ADJA	Case=Acc|PronType=Ind	11	nmod	_	_
 14	zu	zu	PART	PTKZU	_	15	mark	_	_
 15	bestimmen	bestimmen	VERB	VVINF	_	22	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
@@ -49392,11 +49392,11 @@
 3	bauen	bauen	VERB	VVFIN	_	0	root	_	_
 4	gern	gern	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
-6	andre	andre	PRON	PIS	Case=Nom	7	nsubj	_	_
+6	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 7	flicken	flicken	VERB	VVINF	_	3	parataxis	_	_
 8	lieber	lieber	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	14	punct	_	_
-10	andre	andre	PRON	PIS	Case=Nom	14	nsubj	_	_
+10	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 11	müssen	müssen	AUX	VMFIN	_	14	aux	_	_
 12	immer	immer	ADV	ADV	_	14	advmod	_	_
 13	etwas	etwas	PRON	PIS	Case=Acc	14	obj	_	_
@@ -49415,7 +49415,7 @@
 26	überall	überall	ADV	ADV	_	24	advmod	_	_
 27	an	an	ADP	PTKVZ	_	24	compound:prt	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	30	punct	_	_
-29	andre	andre	PRON	PIS	Case=Nom	30	nsubj	_	_
+29	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	30	nsubj	_	_
 30	legen	legen	VERB	VVFIN	_	3	parataxis	_	_
 31	immer	immer	ADV	ADV	_	30	advmod	_	_
 32	zurecht	zurecht	ADV	ADV	_	30	advmod	_	_
