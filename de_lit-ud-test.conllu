@@ -10366,7 +10366,7 @@
 4	das	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 5	eigenthümlich	eigenthümlich	ADV	ADV	_	8	advmod	_	_
 6	Bedingte	bedingter	NOUN	NN	Case=Nom	8	nsubj	_	_
-7	allgemein	allgemein	ADV	ADV	_	8	advmod	_	_
+7	allgemein	allgemein	ADJ	ADV	_	8	advmod	_	_
 8	interessant	interessant	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 9	,	--	PUNCT	$,	_	11	punct	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
@@ -16065,7 +16065,7 @@
 7	Wissenschaft	Wissenschaft	NOUN	NN	_	4	nmod	_	_
 8	von	von	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
-10	allgemeinen	allgemein	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+10	allgemeinen	allgemein	ADJ	ADV	_	7	advmod	_	SpaceAfter=No
 11	,	--	PUNCT	$,	_	15	punct	_	_
 12	und	und	CCONJ	KON	_	15	cc	_	_
 13	so	so	ADV	ADV	_	15	advmod	_	_
@@ -29238,7 +29238,7 @@
 14	läßt	lassen	VERB	VVFIN	_	0	root	_	_
 15	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	14	obj	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
-17	allgemeinen	allgemein	PRON	PDS	_	14	obl	_	_
+17	allgemeinen	allgemein	ADJ	PDS	_	14	obl	_	_
 18	wohl	wohl	ADV	ADV	_	14	advmod	_	_
 19	keine	kein	DET	PIAT	PronType=Neg	21	advmod	_	_
 20	andre	andr	ADJ	ADJA	_	21	amod	_	_
@@ -48364,7 +48364,7 @@
 10	,	--	PUNCT	$,	_	14	punct	_	_
 11	damit	damit	SCONJ	KOUS	_	14	mark	_	_
 12	es	es	PRON	PPER	Case=Nom	14	nsubj:pass	_	_
-13	allgemeiner	allgemein	ADV	ADV	_	14	advmod	_	_
+13	allgemeiner	allgemein	ADJ	ADV	_	14	advmod	_	_
 14	eingeführt	einführen	VERB	VVPP	_	9	advcl	_	_
 15	würde	werden	AUX	VAFIN	_	14	aux:pass	_	SpaceAfter=No
 16	,	--	PUNCT	$,	_	19	punct	_	_
