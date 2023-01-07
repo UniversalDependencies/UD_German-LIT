@@ -8367,7 +8367,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f8-s6
 # text = Beyde Disposizionen können nur durch chronische, streng befolgte Kuren verändert werden.
-1	Beyde	Beyd	ADJ	ADJA	_	2	amod	_	_
+1	Beyde	beide	DET	ADJA	NumType=Card|PronType=Tot	2	amod	_	_
 2	Disposizionen	Disposizion	NOUN	NN	Case=Nom	11	nsubj:pass	_	_
 3	können	können	AUX	VMFIN	_	11	aux	_	_
 4	nur	nur	ADV	ADV	_	11	advmod	_	_
@@ -14218,7 +14218,7 @@
 30	nennen	nennen	VERB	VVINF	_	23	acl	_	_
 31	kann	können	AUX	VMFIN	_	30	aux	_	SpaceAfter=No
 32	,	,	PUNCT	$,	_	34	punct	_	_
-33	beydes	beyd	DET	ART	_	34	det	_	_
+33	beydes	beide	DET	ART	NumType=Card|PronType=Tot	34	det	_	_
 34	Irreligion	Irreligion	NOUN	FM	_	30	parataxis	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -14474,7 +14474,7 @@
 1	So	so	ADV	ADV	_	7	advmod	_	_
 2	unverträglich	unverträglich	ADJ	ADJD	_	7	xcomp	_	_
 3	auch	auch	ADV	ADV	_	7	advmod	_	_
-4	beyde	beyde	PRON	PIS	Case=Nom	7	nsubj	_	_
+4	beyde	beide	DET	PIS	Case=Nom|NumType=Card|PronType=Tot	7	nsubj	_	_
 5	zu	zu	PART	PTKZU	_	7	mark	_	_
 6	seyn	sein	AUX	VAINF	_	7	aux	_	_
 7	scheinen	scheinen	VERB	VVFIN	_	10	advcl	_	SpaceAfter=No
@@ -14511,7 +14511,7 @@
 37	,	,	PUNCT	$,	_	36	punct	_	_
 38	so	so	ADV	ADV	_	39	advmod	_	_
 39	daß	daß	SCONJ	KOUS	_	47	mark	_	_
-40	beyde	beyde	VERB	VVFIN	_	47	nsubj	_	_
+40	beyde	beide	DET	VVFIN	NumType=Card|PronType=Tot	47	nsubj	_	_
 41	einander	einander	PRON	PRF	_	40	nmod	_	_
 42	jedoch	jedoch	ADV	ADV	_	47	advmod	_	_
 43	auf	auf	ADP	APPR	_	45	case	_	_
@@ -17092,7 +17092,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f96-s2
 # text = Beyde geschehen uno actu. Keine Präzipitazion ohne Sublimazion.
-1	Beyde	Beyde	NOUN	NN	Case=Nom	2	nsubj	_	_
+1	Beyde	beide	DET	NN	Case=Nom|NumType=Card|PronType=Tot	2	nsubj	_	_
 2	geschehen	geschehen	VERB	VVFIN	_	0	root	_	_
 3	uno	uno	ADJ	ADJD	_	2	advmod	_	_
 4	actu	actu	ADP	PTKVZ	_	3	flat	_	SpaceAfter=No
@@ -17188,10 +17188,10 @@
 1	Beide	beide	DET	PIS	Case=Nom|NumType=Card|PronType=Tot	2	nsubj	_	_
 2	retardiren	retardiren	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
-4	beyde	beyde	ADJ	ADJD	_	5	advmod	_	_
+4	beyde	beide	DET	ADJD	NumType=Card|PronType=Tot	5	advmod	_	_
 5	beschleunigen	beschleunigen	ADJ	ADJD	_	2	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
-7	beyde	beyde	ADJ	ADJD	_	8	advmod	_	_
+7	beyde	beide	DET	ADJD	NumType=Card|PronType=Tot	8	advmod	_	_
 8	führen	führen	VERB	VVINF	_	2	parataxis	_	_
 9-10	zum	_	_	_	_	_	_	_	_
 9	zu	zu	ADP	APPR	_	11	case	_	_
@@ -18113,7 +18113,7 @@
 6	Gegenwart	Gegenwart	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	12	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	12	nsubj	_	_
-9	beyde	beyde	PRON	PDS	Case=Acc	12	obj	_	_
+9	beyde	beide	DET	PDS	Case=Acc|NumType=Card|PronType=Tot	12	obj	_	_
 10	durch	durch	ADP	APPR	_	11	case	_	_
 11	Auflösung	Auflösung	NOUN	NN	Case=Acc	12	obl	_	_
 12	identifizirt	identifiziren	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
@@ -28810,7 +28810,7 @@
 # text = Hängen diese beiden Künste untereinander zusammen, oder steht diese mit jener in umgekehrtem Verhältnisse?
 1	Hängen	Hang	NOUN	NN	_	0	root	_	_
 2	diese	dieser	DET	PDAT	PronType=Dem	4	det	_	_
-3	beiden	beide	ADJ	ADJA	_	4	amod	_	_
+3	beiden	beide	DET	ADJA	NumType=Card|PronType=Tot	4	amod	_	_
 4	Künste	Kunst	NOUN	NN	Case=Nom	1	nsubj	_	_
 5	untereinander	untereinander	ADV	ADV	_	1	advmod	_	_
 6	zusammen	zusammen	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
@@ -40880,7 +40880,7 @@
 52	hatte	haben	VERB	VVFIN	_	36	advcl	_	SpaceAfter=No
 53	,	,	PUNCT	$,	_	57	punct	_	_
 54	daß	daß	SCONJ	KOUS	_	57	mark	_	_
-55	beide	beide	ADJ	ADJA	_	56	amod	_	_
+55	beide	beide	DET	ADJA	NumType=Card|PronType=Tot	56	amod	_	_
 56	Künste	Kunst	NOUN	NN	Case=Nom	57	nsubj:pass	_	_
 57	getrennt	trennen	VERB	VVPP	_	52	advcl	_	_
 58	sein	sein	AUX	VAINF	_	57	aux:pass	_	_
@@ -42646,7 +42646,7 @@
 12	durch	durch	ADP	APPR	_	13	case	_	_
 13	Mißverstand	Mißverstand	NOUN	NN	Case=Acc	18	obj	_	_
 14	zu	zu	PART	PTKZU	_	16	mark	_	_
-15	beiden	beide	ADJ	ADJA	_	16	amod	_	_
+15	beiden	beide	DET	ADJA	NumType=Card|PronType=Tot	16	amod	_	_
 16	Seiten	Seite	NOUN	NN	Case=Dat	18	obl	_	_
 17	etwas	etwas	ADV	ADV	_	18	advmod	_	_
 18	hinausgeführt	hinausgeführen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
