@@ -5813,7 +5813,7 @@
 8	nur	nur	ADV	ADV	_	10	advmod	_	_
 9	eine	ein	DET	ART	PronType=Art	10	det	_	_
 10	Gattung	Gattung	NOUN	NN	Case=Nom	0	root	_	_
-11	derselben	derselbe	DET	PDAT	_	10	advmod	_	SpaceAfter=No
+11	derselben	derselbe	DET	PDAT	PronType=Dem	10	advmod	_	SpaceAfter=No
 12	;	;	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
@@ -6605,7 +6605,7 @@
 1	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
 2	denkt	denken	VERB	VVFIN	_	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
-4	denselben	derselbe	PRON	PDS	Case=Nom	6	nsubj	_	_
+4	denselben	derselbe	DET	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
 5	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 6	ruhend	ruhend	ADV	ADV	_	2	advmod	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
@@ -9688,7 +9688,7 @@
 8	mehr	mehr	DET	PIAT	_	9	advmod	_	_
 9	Verstand	Verstand	NOUN	NN	_	7	orphan	_	_
 10	für	für	ADP	APPR	_	11	case	_	_
-11	dieselbe	derselbe	DET	PDAT	Case=Acc	7	orphan	_	SpaceAfter=No
+11	dieselbe	derselbe	DET	PDAT	Case=Acc|PronType=Dem	7	orphan	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -12001,7 +12001,7 @@
 32	zu	zu	ADP	APPR	_	34	case	_	_
 33	der	der	DET	ART	Definite=Def|PronType=Art	34	det	_	_
 34	Hervorbringung	Hervorbringung	NOUN	NN	Case=Dat	39	obl	_	_
-35	desselben	derselbe	PRON	PDS	_	34	nmod	_	_
+35	desselben	derselbe	DET	PDS	PronType=Dem	34	nmod	_	_
 36	für	für	ADP	APPR	_	37	case	_	_
 37	mich	mich	PRON	PPER	Case=Acc	39	obl	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	39	punct	_	_
@@ -13228,7 +13228,7 @@
 9	sondern	sondern	CCONJ	KON	_	11	cc	_	_
 10	das	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Ideal	Ideal	NOUN	NN	_	7	conj	_	_
-12	desselben	derselbe	PRON	PDS	_	11	nmod	_	SpaceAfter=No
+12	desselben	derselbe	DET	PDS	PronType=Dem	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -13921,7 +13921,7 @@
 5	schlechterdings	schlechterdings	ADV	ADV	_	11	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 7	mit	mit	ADP	APPR	_	8	case	_	_
-8	derselben	derselbe	PRON	PDS	Case=Dat	11	obl	_	_
+8	derselben	derselbe	DET	PDS	Case=Dat|PronType=Dem	11	obl	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Verhältniß	Verhältniß	NOUN	NN	_	11	obl	_	_
 11	stehn	stehn	VERB	VVFIN	_	0	root	_	SpaceAfter=No
@@ -14079,7 +14079,7 @@
 22	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Verhältnisse	Verhältnis	NOUN	NN	Case=Nom	26	nsubj	_	_
 24	zu	zu	ADP	APPR	_	25	case	_	_
-25	demselben	derselbe	DET	PDAT	Case=Dat	26	obl	_	_
+25	demselben	derselbe	DET	PDAT	Case=Dat|PronType=Dem	26	obl	_	_
 26	werden	werden	VERB	VVFIN	_	18	conj	_	_
 27	mannichfaltiger	mannichfaltig	ADJ	ADJD	_	26	xcomp	_	_
 28	und	und	CCONJ	KON	_	29	cc	_	_
@@ -14143,7 +14143,7 @@
 35	in	in	ADP	APPR	_	37	case	_	_
 36	der	der	DET	ART	Definite=Def|PronType=Art	37	det	_	_
 37	Ansicht	Ansicht	NOUN	NN	_	45	obl	_	_
-38	desselben	derselbe	PRON	PDS	Case=Nom	45	nsubj	_	SpaceAfter=No
+38	desselben	derselbe	DET	PDS	Case=Nom|PronType=Dem	45	nsubj	_	SpaceAfter=No
 39	,	,	PUNCT	$,	_	38	punct	_	_
 40	in	in	ADP	APPR	_	42	case	_	_
 41	den	der	DET	ART	Definite=Def|PronType=Art	42	det	_	_
@@ -15783,7 +15783,7 @@
 2	ist	sein	AUX	VAFIN	_	4	cop	_	_
 3	unvollkommener	unvollkommen	ADJ	ADJA	_	4	amod	_	_
 4	Zustand	Zustand	NOUN	NN	Case=Nom	0	root	_	_
-5	desselben	derselbe	PRON	PDS	_	4	parataxis	_	SpaceAfter=No
+5	desselben	derselbe	DET	PDS	PronType=Dem	4	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	16	mark	_	_
 8	ihn	ihn	PRON	PPER	Case=Acc	16	obj	_	_
@@ -16689,7 +16689,7 @@
 8	und	und	CCONJ	KON	_	18	cc	_	_
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Möglichkeit	Möglichkeit	NOUN	NN	Case=Nom	18	nsubj	_	_
-11	dieselben	derselbe	DET	PDAT	_	10	advmod	_	_
+11	dieselben	derselbe	DET	PDAT	PronType=Dem	10	advmod	_	_
 12	durch	durch	ADP	APPR	_	14	case	_	_
 13	genialische	genialisch	ADJ	ADJA	_	14	amod	_	_
 14	Selbstbeobachtung	Selbstbeobachtung	NOUN	NN	Case=Acc	16	obl	_	_
@@ -17084,7 +17084,7 @@
 15	Götterwelt	Götterwelt	NOUN	NN	Case=Nom	17	nsubj	_	_
 16	eine	ein	DET	ART	PronType=Art	17	det	_	_
 17	Sublimazion	Sublimazion	NOUN	NN	Case=Nom	0	root	_	_
-18	derselben	derselbe	PRON	PIS	_	17	nmod	_	SpaceAfter=No
+18	derselben	derselbe	DET	PIS	PronType=Dem	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	17	punct	_	_
 
 # genre = fragments
@@ -20323,7 +20323,7 @@
 19	philosophische	philosophisch	ADJ	ADJA	_	20	amod	_	_
 20	Abhandlung	Abhandlung	NOUN	NN	_	4	conj	_	_
 21	nach	nach	ADP	APPR	_	23	case	_	_
-22	demselben	derselbe	ADJ	ADJA	_	23	amod	_	_
+22	demselben	derselbe	DET	ADJA	PronType=Dem	23	amod	_	_
 23	Maßstabe	Maßstabe	NOUN	NN	Case=Dat	2	obl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -21051,7 +21051,7 @@
 14	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 15	eigentliche	eigentlich	ADJ	ADJA	_	16	amod	_	_
 16	Verfasserin	Verfasserin	NOUN	NN	_	12	conj	_	_
-17	derselben	derselbe	PRON	PDS	_	16	nmod	_	SpaceAfter=No
+17	derselben	derselbe	DET	PDS	PronType=Dem	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	20	punct	_	_
 19	die	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 20	Natur	Natur	NOUN	NN	_	16	appos	_	SpaceAfter=No
@@ -26699,7 +26699,7 @@
 32	welche	welcher	DET	PRELS	Case=Acc|PronType=Int,Rel	39	obj	_	_
 33	man	man	PRON	PIS	Case=Nom|PronType=Ind	39	nsubj	_	_
 34	mit	mit	ADP	APPR	_	36	case	_	_
-35	demselben	derselbe	DET	PDAT	_	36	det	_	_
+35	demselben	derselbe	DET	PDAT	PronType=Dem	36	det	_	_
 36	Namen	Name	NOUN	NN	Case=Dat	38	obl	_	_
 37	zu	zu	PART	PTKZU	_	38	mark	_	_
 38	bezeichnen	bezeichnen	VERB	VVINF	_	39	xcomp	_	_
@@ -27930,11 +27930,11 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f157-s2
 # text = Dieselbe rührende Kraft, derselbe rhetorische Glanz und oft unzeitige Scharfsinn, dieselbe tändelnde Fülle, Eitelkeit und Dünnheit.
-1	Dieselbe	derselbe	DET	PDAT	_	3	det	_	_
+1	Dieselbe	derselbe	DET	PDAT	PronType=Dem	3	det	_	_
 2	rührende	rührend	ADJ	ADJA	_	3	amod	_	_
 3	Kraft	Kraft	NOUN	NN	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	7	punct	_	_
-5	derselbe	derselbe	DET	PDAT	_	7	det	_	_
+5	derselbe	derselbe	DET	PDAT	PronType=Dem	7	det	_	_
 6	rhetorische	rhetorisch	ADJ	ADJA	_	7	amod	_	_
 7	Glanz	Glanz	NOUN	NN	_	3	conj	_	_
 8	und	und	CCONJ	KON	_	11	cc	_	_
@@ -27942,7 +27942,7 @@
 10	unzeitige	unzeitig	ADJ	ADJA	_	11	amod	_	_
 11	Scharfsinn	Scharfsinn	NOUN	NN	_	3	conj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	15	punct	_	_
-13	dieselbe	derselbe	DET	PDAT	_	15	det	_	_
+13	dieselbe	derselbe	DET	PDAT	PronType=Dem	15	det	_	_
 14	tändelnde	tändelnd	ADJ	ADJA	_	15	amod	_	_
 15	Fülle	Fülle	NOUN	NN	_	3	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	17	punct	_	_
@@ -36783,7 +36783,7 @@
 9	weil	weil	SCONJ	KOUS	_	11	mark	_	_
 10	er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
 11	Meister	Meister	NOUN	NN	Case=Nom	4	advcl	_	_
-12	derselben	derselbe	DET	PDAT	_	11	nmod	_	_
+12	derselben	derselbe	DET	PDAT	PronType=Dem	11	nmod	_	_
 13	ist	sein	AUX	VAFIN	_	11	cop	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -37327,7 +37327,7 @@
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	eine	ein	DET	ART	PronType=Art	4	det	_	_
 4	Art	Art	NOUN	NN	Case=Nom	2	nsubj	_	_
-5	desselben	derselbe	PRON	PDS	_	4	nmod	_	SpaceAfter=No
+5	desselben	derselbe	DET	PDS	PronType=Dem	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	10	punct	_	_
 7	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
 8	nur	nur	ADV	ADV	_	10	advmod	_	_
@@ -38531,7 +38531,7 @@
 12	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 13	dynamischen	dynamisch	ADJ	ADJA	_	14	amod	_	_
 14	Gesetze	Gesetz	NOUN	NN	Case=Acc	20	obj	_	_
-15	desselben	derselbe	PRON	PDS	_	14	nmod	_	_
+15	desselben	derselbe	DET	PDS	PronType=Dem	14	nmod	_	_
 16	ganz	ganz	ADV	ADV	_	20	advmod	_	_
 17	ins	in	ADP	APPRART	_	18	case	_	_
 18	reine	rein	NOUN	NN	_	20	obl	_	_
@@ -39782,7 +39782,7 @@
 17	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	21	obj	_	_
 18	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	Säuberer	Säuberer	NOUN	NN	Case=Nom	21	nsubj	_	_
-20	derselben	derselbe	DET	PDAT	_	19	advmod	_	_
+20	derselben	derselbe	DET	PDAT	PronType=Dem	19	advmod	_	_
 21	erboten	erboten	VERB	VVINF	_	0	root	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	21	punct	_	_
 23	ein	ein	DET	ART	PronType=Art	24	det	_	_
@@ -41147,7 +41147,7 @@
 3	unendlich	unendlich	ADV	ADV	_	4	advmod	_	_
 4	viel	viel	DET	ADJA	PronType=Ind	5	det	_	_
 5	Arten	Art	NOUN	NN	Case=Nom	2	nsubj	_	_
-6	derselben	derselbe	PRON	PDAT	_	5	nmod	_	SpaceAfter=No
+6	derselben	derselbe	DET	PDAT	PronType=Dem	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	18	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	18	nsubj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	18	obj	_	_
@@ -43992,7 +43992,7 @@
 16	recht	recht	ADV	ADV	_	17	advmod	_	_
 17	genaue	genau	ADJ	ADJA	_	18	amod	_	_
 18	Beschreibung	Beschreibung	NOUN	NN	Case=Acc	24	obj	_	_
-19	derselben	derselbe	PRON	PDS	_	18	nmod	_	_
+19	derselben	derselbe	DET	PDS	PronType=Dem	18	nmod	_	_
 20	allenfalls	allenfalls	ADV	ADV	_	24	advmod	_	_
 21	mit	mit	ADP	APPR	_	23	case	_	_
 22	illuminierten	illuminiert	ADJ	ADJA	_	23	amod	_	_
@@ -45017,7 +45017,7 @@
 10	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 11	viel	viel	ADV	ADV	_	14	advmod	_	_
 12	auf	auf	ADP	APPR	_	13	case	_	_
-13	derselben	derselbe	PRON	PDS	_	14	obl	_	_
+13	derselben	derselbe	DET	PDS	PronType=Dem	14	obl	_	_
 14	bedeutet	bedeuten	VERB	VVFIN	_	6	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	16	punct	_	_
 16	glauben	glauben	VERB	VVINF	_	6	conj	_	SpaceAfter=No
@@ -49626,7 +49626,7 @@
 12	müßte	müssen	AUX	VMFIN	_	17	aux	_	_
 13	der	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Übersetzer	Übersetzer	NOUN	NN	Case=Nom	17	nsubj	_	_
-15	desselben	derselbe	DET	PDAT	_	14	nmod	_	_
+15	desselben	derselbe	DET	PDAT	PronType=Dem	14	nmod	_	_
 16	so	so	ADV	ADV	_	17	advmod	_	_
 17	mächtig	mächtig	ADJ	ADJD	_	0	root	_	_
 18	sein	sein	AUX	VAINF	_	17	cop	_	SpaceAfter=No
@@ -52012,7 +52012,7 @@
 15	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 16	äußre	äußr	ADJ	ADJA	_	17	amod	_	_
 17	Erscheinung	Erscheinung	NOUN	NN	_	8	parataxis	_	_
-18	derselben	derselbe	DET	PDAT	_	17	nmod	_	_
+18	derselben	derselbe	DET	PDAT	PronType=Dem	17	nmod	_	_
 19	und	und	CCONJ	KON	_	24	cc	_	_
 20	was	was	PRON	PWS	Case=Nom	24	nsubj	_	_
 21	eben	eben	ADV	ADV	_	24	advmod	_	_
