@@ -7583,7 +7583,7 @@
 34	erweitern	erweitern	VERB	VVINF	_	26	parataxis	_	SpaceAfter=No
 35	,	,	PUNCT	$,	_	45	punct	_	_
 36	und	und	CCONJ	KON	_	45	cc	_	_
-37	diejenige	derjenige	ADJ	ADJA	_	39	amod	_	_
+37	diejenige	derjenige	DET	ADJA	PronType=Dem	39	amod	_	_
 38	logische	logisch	ADJ	ADJA	_	39	amod	_	_
 39	Stimmung	Stimmung	NOUN	NN	Case=Acc	45	obj	_	_
 40	auch	auch	ADV	ADV	_	45	advmod	_	_
@@ -9892,7 +9892,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f25-s1
 # text = Derjenige wird nie als Darsteller etwas vorzügliches leisten, der nichts weiter darstellen mag, als seine Erfahrungen, seine Lieblingsgegenstände, der es nicht über sich gewinnen kann, auch einen ganz fremden, ihm ganz uninteressanten Gegenstand, mit Fleiß zu studiren und mit Muße darzustellen.
-1	Derjenige	derjenige	PRON	PDS	Case=Nom	8	nsubj	_	_
+1	Derjenige	derjenige	DET	PDS	Case=Nom|PronType=Dem	8	nsubj	_	_
 2	wird	werden	AUX	VAFIN	_	8	aux	_	_
 3	nie	nie	ADV	ADV	_	8	advmod	_	_
 4	als	als	ADP	APPR	_	5	case	_	_
@@ -9923,7 +9923,7 @@
 29	kann	können	AUX	VMFIN	_	28	aux	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	28	punct	_	_
 31	auch	auch	ADV	ADV	_	44	advmod	_	_
-32	einen	ein	DET	PIS	PronType=Art	39	nmod	_	_
+32	einen	ein	DET	PIS	PronType=Art	39	det	_	_
 33	ganz	ganz	ADV	ADV	_	34	advmod	_	_
 34	fremden	fremden	ADJ	ADJA	_	39	amod	_	SpaceAfter=No
 35	,	,	PUNCT	$,	_	38	punct	_	_
@@ -20125,7 +20125,7 @@
 17	ankommt	ankommen	VERB	VVFIN	_	11	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	22	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	22	mark	_	_
-20	einer	ein	DET	PIS	PronType=Art	22	nmod	_	_
+20	einer	ein	DET	PIS	PronType=Art	22	det	_	_
 21	ein	ein	DET	ART	PronType=Art	22	det	_	_
 22	Individuum	Individuum	NOUN	NN	_	17	ccomp	_	_
 23	für	für	ADP	APPR	_	24	ccomp	_	_
@@ -23584,7 +23584,7 @@
 7	Buchstaben	Buchstabe	NOUN	NN	_	5	conj	_	_
 8	ist	sein	AUX	VAFIN	_	14	cop	_	_
 9	unter	unter	ADP	APPR	_	10	case	_	_
-10	andern	anderer	DET	PIS	PronType=Ind	14	nmod	_	_
+10	andern	anderer	DET	PIS	PronType=Ind	14	det	_	_
 11	auch	auch	ADV	ADV	_	14	advmod	_	_
 12	darum	darum	ADV	PROAV	PronType=Dem	14	advmod	_	_
 13	so	so	ADV	ADV	_	14	advmod	_	_
@@ -26002,7 +26002,7 @@
 9	vorkam	vorkommen	VERB	VVFIN	_	20	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	14	nsubj	_	_
-12	einen	ein	DET	PIS	PronType=Art	14	nmod	_	_
+12	einen	ein	DET	PIS	PronType=Art	14	det	_	_
 13	weder	weder	CCONJ	KON	_	14	cc	_	_
 14	kalt	kalt	ADJ	ADJD	_	5	acl	_	_
 15	noch	noch	CCONJ	KON	_	16	cc	_	_
@@ -26039,7 +26039,7 @@
 3	Poesie	Poesie	NOUN	NN	Case=Nom	10	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
 5	unter	unter	ADP	APPR	_	6	case	_	_
-6	andern	anderer	DET	PIS	PronType=Ind	10	nmod	_	_
+6	andern	anderer	DET	PIS	PronType=Ind	10	det	_	_
 7	auch	auch	ADV	ADV	_	10	advmod	_	_
 8	deswegen	deswegen	ADV	PROAV	_	10	advmod	_	_
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
@@ -31772,7 +31772,7 @@
 # sent_id = athenaeum-f213-s1
 # text = Nur derjenige Staat verdient Aristokratie genannt zu werden, in welchem wenigstens die kleinere Masse, welche die größere despotisiert, eine republikanische Verfassung hat.
 1	Nur	nur	ADV	ADV	_	3	advmod	_	_
-2	derjenige	derjenige	ADJ	ADJA	_	3	amod	_	_
+2	derjenige	derjenige	DET	ADJA	PronType=Dem	3	amod	_	_
 3	Staat	Staat	NOUN	NN	Case=Acc	4	obj	_	_
 4	verdient	verdienen	VERB	VVFIN	_	0	root	_	_
 5	Aristokratie	Aristokratie	NOUN	NN	_	6	xcomp	_	_
@@ -41697,7 +41697,7 @@
 8	auch	auch	ADV	ADV	_	11	advmod	_	_
 9	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 10	an	an	ADP	APPR	_	11	case	_	_
-11	andern	anderer	DET	PIS	PronType=Ind	13	nmod	_	SpaceAfter=No
+11	andern	anderer	DET	PIS	PronType=Ind	13	det	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	fähig	fähig	ADJ	ADJD	_	1	advcl	_	_
 14	sind	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
@@ -42559,7 +42559,7 @@
 14	zuvorkommendern	zuvorkommendern	ADJ	ADJA	_	15	amod	_	_
 15	Mitteilung	Mitteilung	NOUN	NN	_	9	obl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	22	punct	_	_
-17	einer	ein	DET	PIS	PronType=Art	22	nmod	_	_
+17	einer	ein	DET	PIS	PronType=Art	22	det	_	_
 18	schamhaften	schamhaft	VERB	VVFIN	_	22	amod	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	20	punct	_	_
 20	schüchtern	schüchtern	VERB	VVINF	_	18	amod	_	_
@@ -43079,7 +43079,7 @@
 # text = Dagegen sind diejenigen sehr übel daran, bei denen Eigentümlichkeit des Sinnes und Charakters überall ins Spiel kommt.
 1	Dagegen	dagegen	ADV	ADV	PronType=Dem	5	advmod	_	_
 2	sind	sein	AUX	VAFIN	_	5	cop	_	_
-3	diejenigen	derjenige	PRON	PDS	Case=Nom	5	nsubj	_	_
+3	diejenigen	derjenige	DET	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
 5	übel	übel	ADJ	ADJD	_	0	root	_	_
 6	daran	daran	ADV	PROAV	PronType=Dem	5	advmod	_	SpaceAfter=No
@@ -43777,7 +43777,7 @@
 # text = So werden diejenigen, die sich selbst noch nicht gefunden haben, nur auf einzelne Momente wie durch einen Zauber in die Welt hineingerückt, ob sie sich etwa finden möchten.
 1	So	so	ADV	ADV	_	24	advmod	_	_
 2	werden	werden	AUX	VAFIN	_	24	aux:pass	_	_
-3	diejenigen	derjenige	PRON	PDS	Case=Nom	24	nsubj:pass	_	SpaceAfter=No
+3	diejenigen	derjenige	DET	PDS	Case=Nom|PronType=Dem	24	nsubj:pass	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
 5	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	_
@@ -45589,7 +45589,7 @@
 44	Zweck	Zweck	NOUN	NN	_	49	obl	_	_
 45	noch	noch	ADV	ADV	_	49	advmod	_	_
 46	etwas	etwas	PRON	PIS	_	49	nmod	_	_
-47	anders	anderer	DET	PIS	PronType=Ind	48	nmod	_	_
+47	anders	anderer	DET	PIS	PronType=Ind	48	det	_	_
 48	daraus	daraus	ADV	PAV	PronType=Dem	49	advmod	_	_
 49	erfolge	erfolge	PRON	PIS	_	34	advcl	_	SpaceAfter=No
 50	,	,	PUNCT	$,	_	58	punct	_	_
@@ -47388,7 +47388,7 @@
 9	selten	selten	ADV	ADV	_	7	advmod	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Geist	Geist	NOUN	NN	Case=Nom	7	nsubj	_	_
-12	einer	ein	DET	PIS	PronType=Art	14	nmod	_	_
+12	einer	ein	DET	PIS	PronType=Art	14	det	_	_
 13	andern	anderer	DET	ADJA	PronType=Ind	14	amod	_	_
 14	Kunst	Kunst	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	_
