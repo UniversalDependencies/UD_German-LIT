@@ -21883,7 +21883,7 @@
 16	ihm	ihm	PRON	PPER	Case=Dat	14	obl:arg	_	_
 17	gern	gern	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 18	:	:	PUNCT	$.	_	14	punct	_	_
-19	Du	du	PRON	PPER	_	20	expl	_	_
+19	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	expl	_	_
 20	kannst	kannen	VERB	VVFIN	_	14	parataxis	_	_
 21	es	es	PRON	PPER	Case=Acc	25	obj	_	_
 22	doch	doch	ADV	ADV	_	25	advmod	_	_
@@ -43449,7 +43449,7 @@
 # sent_id = athenaeum-f338-s6
 # text = Was du verlieren kannst, hat dir noch nie angehört.
 1	Was	was	PRON	PWS	Case=Acc	3	obj	_	_
-2	du	du	PRON	PPER	Case=Nom	3	nsubj	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	verlieren	verlieren	VERB	VVINF	_	10	csubj	_	_
 4	kannst	können	AUX	VAFIN	_	3	aux	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	10	punct	_	_
@@ -44425,7 +44425,7 @@
 # sent_id = athenaeum-f351-s1
 # text = Hast du je den ganzen Umfang eines andern mit allen seinen Unebenheiten berühren können, ohne ihm Schmerzen zu machen?
 1	Hast	haben	AUX	VAFIN	_	13	aux	_	_
-2	du	du	PRON	PPER	Case=Nom	13	nsubj	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 3	je	je	ADV	ADV	_	13	advmod	_	_
 4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 5	ganzen	ganz	ADJ	ADJA	_	6	amod	_	_
@@ -46242,7 +46242,7 @@
 # sent_id = athenaeum-f364-s3
 # text = 1) Du sollst keinen Geliebten haben neben ihm: aber du sollst Freundin sein können, ohne in das Kolorit der Liebe zu spielen und zu kokettieren oder anzubeten.
 1	1)	1)	X	XY	_	6	dep	_	_
-2	Du	du	PRON	PPER	Case=Nom	6	nsubj	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 3	sollst	sollen	AUX	VMFIN	_	6	aux	_	_
 4	keinen	kein	DET	PIAT	PronType=Neg	5	advmod	_	_
 5	Geliebten	geliebter	NOUN	NN	Case=Acc	6	obj	_	_
@@ -46251,7 +46251,7 @@
 8	ihm	ihm	PRON	PPER	Case=Dat	6	obl:arg	_	SpaceAfter=No
 9	:	:	PUNCT	$.	_	13	punct	_	_
 10	aber	aber	ADV	ADV	_	13	advmod	_	_
-11	du	du	PRON	PPER	Case=Nom	13	nsubj	_	_
+11	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 12	sollst	sollen	ADV	ADV	_	13	advmod	_	_
 13	Freundin	Freundin	NOUN	NN	Case=Nom	6	parataxis	_	_
 14	sein	sein	AUX	VAINF	_	13	cop	_	_
@@ -46278,7 +46278,7 @@
 # sent_id = athenaeum-f364-s4
 # text = 2) Du sollst dir kein Ideal machen, weder eines Engels im Himmel, noch eines Helden aus einem Gedicht oder Roman, noch eines selbstgeträumten oder fantasierten; sondern du sollst einen Mann lieben, wie er ist.
 1	2)	2)	X	XY	_	7	dep	_	_
-2	Du	du	PRON	PPER	Case=Nom	7	nsubj	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 3	sollst	sollen	AUX	VMFIN	_	7	aux	_	_
 4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|PronType=Prs	7	obl:arg	_	_
 5	kein	kein	DET	PIAT	PronType=Neg	6	advmod	_	_
@@ -46307,7 +46307,7 @@
 28	fantasierten	fantasieren	ADJ	ADJA	_	26	conj	_	SpaceAfter=No
 29	;	;	PUNCT	$.	_	7	punct	_	_
 30	sondern	sondern	CCONJ	KON	_	35	cc	_	_
-31	du	du	PRON	PPER	Case=Nom	35	nsubj	_	_
+31	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	35	nsubj	_	_
 32	sollst	sollen	AUX	VMFIN	_	35	aux	_	_
 33	einen	ein	DET	ART	PronType=Art	34	det	_	_
 34	Mann	Mann	NOUN	NN	Case=Acc	35	obj	_	_
@@ -46361,7 +46361,7 @@
 # sent_id = athenaeum-f364-s6
 # text = 3) Du sollst von den Heiligtümern der Liebe auch nicht das kleinste mißbrauchen: denn die wird ihr zartes Gefühl verlieren, die ihre Gunst entweiht und sich hingibt für Geschenke und Gaben, oder um nur in Ruhe und Frieden Mutter zu werden.
 1	3)	3)	X	XY	_	13	dep	_	_
-2	Du	du	PRON	PPER	Case=Nom	13	nsubj	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 3	sollst	sollen	AUX	VAFIN	_	13	aux	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
 5	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -46420,7 +46420,7 @@
 7	Herzens	Herz	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	daß	daß	SCONJ	KOUS	_	12	mark	_	_
-10	du	du	PRON	PPER	Case=Nom	12	nsubj	_	_
+10	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
 11	ihn	ihn	PRON	PPER	Case=Acc	12	obj	_	_
 12	feierst	feierst	VERB	VVFIN	_	2	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	21	punct	_	_
@@ -46475,7 +46475,7 @@
 # sent_id = athenaeum-f364-s9
 # text = 6) Du sollst nicht absichtlich lebendig machen.
 1	6)	6)	X	XY	_	7	dep	_	_
-2	Du	du	PRON	PPER	Case=Nom	7	nsubj	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 3	sollst	sollen	AUX	VMFIN	_	7	aux	_	_
 4	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 5	absichtlich	absichtlich	ADV	ADV	_	7	advmod	_	_
@@ -46489,7 +46489,7 @@
 # sent_id = athenaeum-f364-s10
 # text = 7) Du sollst keine Ehe schließen, die gebrochen werden müßte.
 1	7)	7)	X	XY	_	6	dep	_	_
-2	Du	du	PRON	PPER	Case=Nom	6	nsubj	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 3	sollst	sollen	AUX	VMFIN	_	6	aux	_	_
 4	keine	kein	DET	PIAT	PronType=Neg	5	advmod	_	_
 5	Ehe	Ehe	NOUN	NN	Case=Acc	6	obj	_	_
@@ -46507,7 +46507,7 @@
 # sent_id = athenaeum-f364-s11
 # text = 8) Du sollst nicht geliebt sein wollen, wo du nicht liebst.
 1	8)	8)	X	XY	_	5	dep	_	_
-2	Du	du	PRON	PPER	Case=Nom	5	nsubj:pass	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj:pass	_	_
 3	sollst	sollen	AUX	VMFIN	_	5	aux	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
 5	geliebt	lieben	VERB	VVPP	_	0	root	_	_
@@ -46515,7 +46515,7 @@
 7	wollen	wollen	AUX	VMFIN	_	5	aux	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	wo	wo	ADV	PWAV	_	12	mark	_	_
-10	du	du	PRON	PPER	Case=Nom	12	nsubj	_	_
+10	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
 11	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
 12	liebst	liebst	VERB	VVFIN	_	5	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
@@ -46526,7 +46526,7 @@
 # sent_id = athenaeum-f364-s12
 # text = 9) Du sollst nicht falsch Zeugnis ablegen für die Männer; du sollst ihre Barbarei nicht beschönigen mit Worten und Werken.
 1	9)	9)	ADV	ADV	_	7	advmod	_	_
-2	Du	du	PRON	PPER	Case=Nom	7	nsubj	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 3	sollst	sollen	ADV	ADV	_	7	advmod	_	_
 4	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 5	falsch	falsch	ADV	ADV	_	7	advmod	_	_
@@ -46536,7 +46536,7 @@
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Männer	Mann	NOUN	NN	Case=Acc	7	obl	_	SpaceAfter=No
 11	;	;	PUNCT	$.	_	17	punct	_	_
-12	du	du	PRON	PPER	Case=Nom	17	nsubj	_	_
+12	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
 13	sollst	sollen	AUX	VMFIN	_	17	aux	_	_
 14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Barbarei	Barbarei	NOUN	NN	Case=Acc	17	obj	_	_
@@ -47222,7 +47222,7 @@
 # sent_id = athenaeum-f371-s2
 # text = Lachst du dabei und bekommst du am Ende etwas, so nimms für eine Pflicht gegen dich selbst; ist dir das Weinen näher und bekommts ein andrer, so nimms für eine Pflicht gegen den Nächsten.
 1	Lachst	lachst	VERB	VVFIN	_	0	root	_	_
-2	du	du	PRON	PPER	Case=Nom	1	nsubj	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	_
 3	dabei	dabei	ADV	PROAV	_	1	advmod	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
 5	bekommst	bekommst	ADV	ADV	_	1	conj	_	_
