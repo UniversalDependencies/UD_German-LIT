@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1920</sentences><tokens>40335</tokens><words>40440</words><fused>105</fused></test>
   </size>
-  <lemmas unique="5248" /><!-- der, ,, ., sein, und, ein, zu, in, nicht, es, sich, haben, sie, so, werden -->
+  <lemmas unique="5247" /><!-- der, ,, ., sein, und, ein, zu, in, nicht, es, sich, haben, sie, so, werden -->
   <forms unique="6979" /><!-- ,, ., der, und, die, ist, zu, in, nicht, das, es, ein, sich, den, sie -->
   <fusions unique="6" /><!-- im, zur, zum, am, vom, ins -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -38,7 +38,7 @@
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,PRON,PROPN">1261</feat><!-- dem, ihm, sich, der, uns, ihnen, denen, ihr, Sinn, Geist -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">380</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3870</feat><!-- man, sie, er, es, die, der, was, wir, das, Philosophie -->
-    <feat name="Definite" value="Def" upos="DET">3331</feat><!-- der, die, das, den, des, dem, la, the, le -->
+    <feat name="Definite" value="Def" upos="DET">3333</feat><!-- der, die, das, den, des, dem, la, the, le -->
     <feat name="Definite" value="Ind" upos="DET">4</feat><!-- eine, Einen, ein -->
     <feat name="Degree" value="Cmp" upos="ADV">1</feat><!-- w -->
     <feat name="Degree" value="Pos" upos="ADJ">19</feat><!-- ganze, gebildeten, römische, Rembrandtschen, gesamte, historischen, klassische, logische, merkwürdigen, mimische -->
@@ -60,7 +60,7 @@
     <feat name="Person" value="2" upos="DET,PRON,VERB">26</feat><!-- du, dich, dir, Ehre, deine, deiner -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">410</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="Poss" value="Yes" upos="DET">409</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
-    <feat name="PronType" value="Art" upos="DET">4286</feat><!-- der, die, ein, das, den, eine, des, dem, einer, einen -->
+    <feat name="PronType" value="Art" upos="DET">4288</feat><!-- der, die, ein, das, den, eine, des, dem, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">438</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">473</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">485</feat><!-- man, andre, viele, andern, viel, manche, mancher, mehre, manches, vielen -->

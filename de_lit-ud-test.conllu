@@ -41122,7 +41122,7 @@
 4	schlechthin	schlechthin	ADV	ADV	_	5	advmod	_	_
 5	groß	groß	ADJ	ADJD	_	0	root	_	_
 6	wie	wie	CCONJ	KOKOM	_	8	case	_	_
-7	die	die	DET	ART	_	8	det	_	_
+7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Natur	Natur	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	13	punct	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
@@ -52533,7 +52533,7 @@
 16	Weiblichkeit	Weiblichkeit	NOUN	NN	_	13	nmod	_	_
 17	oder	oder	CCONJ	KON	_	20	cc	_	_
 18	über	über	ADP	APPR	_	20	case	_	_
-19	die	die	DET	ART	_	20	det	_	_
+19	die	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 20	Schwärmerei	Schwärmerei	NOUN	NN	_	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	3	punct	_	_
 
