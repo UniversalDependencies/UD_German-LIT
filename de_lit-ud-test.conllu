@@ -46427,12 +46427,12 @@
 14	und	und	CCONJ	KON	_	21	cc	_	_
 15	wenn	wenn	SCONJ	KOUS	_	18	mark	_	_
 16	sie	sie	PRON	PPER	Case=Nom	18	nsubj	_	_
-17	dich	dich	PRON	PRF	Case=Acc	18	obj	_	_
+17	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	obj	_	_
 18	halten	halten	VERB	VVINF	_	21	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	18	punct	_	_
 20	so	so	ADV	ADV	_	21	advmod	_	_
 21	mache	machen	VERB	VVFIN	_	2	parataxis	_	_
-22	dich	dich	PRON	PRF	Case=Acc	21	obj	_	_
+22	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=2|PronType=Prs	21	obj	_	_
 23	frei	frei	ADJ	ADJD	_	21	xcomp	_	_
 24	oder	oder	CCONJ	KON	_	27	cc	_	_
 25	gehe	gehen	ADJ	ADJD	_	21	conj	_	_
@@ -46555,7 +46555,7 @@
 # text = 10) Laß dich gelüsten nach der Männer Bildung, Kunst, Weisheit und Ehre.
 1	10)	10)	X	XY	_	2	dep	_	_
 2	Laß	Lassen	NOUN	NN	_	0	root	_	_
-3	dich	dich	PRON	PRF	_	2	nmod	_	_
+3	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
 4	gelüsten	gelü	VERB	VVFIN	_	2	xcomp	_	_
 5	nach	nach	ADP	APPR	_	7	case	_	_
 6	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -47237,7 +47237,7 @@
 14	eine	ein	DET	ART	PronType=Art	15	det	_	_
 15	Pflicht	Pflicht	NOUN	NN	Case=Acc	12	nmod	_	_
 16	gegen	gegen	ADP	APPR	_	17	case	_	_
-17	dich	dich	PRON	PPER	Case=Acc	15	nmod	_	_
+17	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	nmod	_	_
 18	selbst	selbst	ADV	ADV	_	17	advmod	_	SpaceAfter=No
 19	;	;	PUNCT	$.	_	24	punct	_	_
 20	ist	sein	AUX	VAFIN	_	24	cop	_	_
