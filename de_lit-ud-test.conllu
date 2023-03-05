@@ -79,7 +79,7 @@
 12	,	,	PUNCT	$,	_	14	punct	_	_
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	kömmt	kömmen	VERB	VVFIN	_	0	root	_	_
-15	er	er	PRON	PPER	Case=Nom	14	nsubj	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 16	gewöhnlich	gewöhnlich	ADV	ADV	_	14	advmod	_	_
 17	gleich	gleich	ADV	ADV	_	14	advmod	_	_
 18	selbst	selbst	ADV	ADV	_	14	advmod	_	_
@@ -526,7 +526,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f15-s2
 # text = Er ist freilich nur beinah genialisch dumm.
-1	Er	er	PRON	PPER	Case=Nom	7	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	7	cop	_	_
 3	freilich	freilich	ADV	ADV	_	7	advmod	_	_
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
@@ -868,7 +868,7 @@
 32	siehe	sehen	VERB	VVIMP	_	4	parataxis	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	36	punct	_	_
 34	was	was	PRON	PRELS	Case=Acc	36	obj	_	_
-35	er	er	PRON	PPER	Case=Nom	36	nsubj	_	_
+35	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	gemacht	machen	VERB	VVPP	_	40	csubj	_	_
 37	hatte	haben	AUX	VAFIN	_	36	aux	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	36	punct	_	_
@@ -1023,7 +1023,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f27-s2
 # text = Er sollte also mehr als einen Magen haben.
-1	Er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	sollte	sollen	AUX	VMFIN	_	8	aux	_	_
 3	also	also	ADV	ADV	_	8	advmod	_	_
 4	mehr	mehr	ADV	PIS	_	7	advmod	_	_
@@ -1373,7 +1373,7 @@
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	mit	mit	ADP	APPR	_	14	case	_	_
 14	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	26	obl	_	_
-15	er	er	PRON	PPER	Case=Nom	26	nsubj	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 16	auf	auf	ADP	APPR	_	19	case	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 18	Leipziger	Leipziger	ADJ	ADJA	_	19	amod	_	_
@@ -1573,7 +1573,7 @@
 8	ist	sein	AUX	VAFIN	_	7	cop	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	10	punct	_	_
 10	befindet	befinden	VERB	VVFIN	_	0	root	_	_
-11	er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	_
 13	für	für	ADP	APPR	_	15	case	_	_
 14	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
@@ -1590,7 +1590,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f37-s4
 # text = Er wird dann alles sagen wollen; welches eine falsche Tendenz junger Genies, oder ein richtiges Vorurteil alter Stümper ist.
-1	Er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	wird	werden	AUX	VAFIN	_	5	aux	_	_
 3	dann	dann	ADV	ADV	_	5	advmod	_	_
 4	alles	alle	DET	PIS	Case=Acc|PronType=Tot	5	obj	_	_
@@ -1620,7 +1620,7 @@
 # text = Dadurch verkennt er den Wert und die Würde der Selbstbeschränkung, die doch für den Künstler wie für den Menschen das Erste und das Letzte, das Notwendigste und das Höchste ist.
 1	Dadurch	dadurch	ADV	PROAV	PronType=Dem	2	advmod	_	_
 2	verkennt	verkennen	VERB	VVFIN	_	0	root	_	_
-3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Wert	Wert	NOUN	NN	Case=Acc	2	obj	_	_
 6	und	und	CCONJ	KON	_	8	cc	_	_
@@ -1779,7 +1779,7 @@
 22	mag	mögen	AUX	VMFIN	_	21	aux	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	26	punct	_	_
 24	was	was	PRON	PWS	Case=Acc	26	obj	_	_
-25	er	er	PRON	PPER	Case=Nom	26	nsubj	_	_
+25	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 26	weiß	weiß	VERB	VVFIN	_	20	acl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	26	punct	_	_
 28	ist	sein	VERB	VVFIN	_	0	root	_	_
@@ -2080,7 +2080,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f41-s2
 # text = Er ist der Champagner seiner Gattung.
-1	Er	er	PRON	PPER	Case=Nom	4	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	4	cop	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Champagner	Champagner	NOUN	NN	Case=Nom	0	root	_	_
@@ -2712,7 +2712,7 @@
 7	weiß	weiß	VERB	VVFIN	_	4	parataxis	_	_
 8	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 9	was	was	PRON	PWS	Case=Acc	11	obj	_	_
-10	er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	will	wollen	AUX	VMFIN	_	7	ccomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -3237,7 +3237,7 @@
 28	,	,	PUNCT	$,	_	27	punct	_	_
 29	so	so	ADV	ADV	_	30	advmod	_	_
 30	suchte	suchen	VERB	VVFIN	_	4	conj	_	_
-31	er	er	PRON	PPER	Case=Nom	30	nsubj	_	_
+31	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 32	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	Höchstes	Hoch	NOUN	NN	Case=Acc	30	obj	_	_
 34	instinktmäßig	instinktmäßig	ADV	ADV	_	30	advmod	_	_
@@ -3777,7 +3777,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f69-s5
 # text = Er entsteht, wenn einer bloß den Geist hat, ohne den Buchstaben;
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	entsteht	entstehen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	9	punct	_	_
 4	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
@@ -3801,7 +3801,7 @@
 2	umgekehrt	umgekehrt	ADV	ADV	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	11	punct	_	_
 4	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
-5	er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 6	bloß	bloß	ADV	ADV	_	11	advmod	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Materialien	Material	NOUN	NN	Case=Acc	11	obj	_	_
@@ -4089,7 +4089,7 @@
 9	geben	geben	VERB	VVINF	_	3	csubj	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	wenn	wenn	SCONJ	KOUS	_	16	mark	_	_
-12	er	er	PRON	PPER	Case=Nom	16	nsubj	_	SpaceAfter=No
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
 13	'	'	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 14	s	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 15	nicht	nicht	PART	PTKNEG	_	16	advmod	_	_
@@ -4284,7 +4284,7 @@
 # sent_id = lyceum-f78-s4
 # text = Daß er ihn aber äußre und schreibe, ist nicht nötig.
 1	Daß	daß	SCONJ	KOUS	_	5	mark	_	_
-2	er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	ihn	ihn	PRON	PPER	Case=Acc	5	obj	_	_
 4	aber	aber	ADV	ADV	_	5	advmod	_	_
 5	äußre	äußren	VERB	VVFIN	_	11	csubj	_	_
@@ -4444,7 +4444,7 @@
 # sent_id = lyceum-f81-s2
 # text = Will er die Polemik nicht en gros treiben, so muß der Künstler wenigstens solche Individuen wählen, die klassisch sind, und von ewig dauerndem Wert.
 1	Will	wollen	AUX	VMFIN	_	8	aux	_	_
-2	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Polemik	Polemik	NOUN	NN	Case=Acc	8	obj	_	_
 5	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
@@ -4598,7 +4598,7 @@
 12	verdient	verdienen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	17	punct	_	_
 14	daß	daß	SCONJ	KOUS	_	17	mark	_	_
-15	er	er	PRON	PPER	Case=Nom	17	nsubj:pass	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
 16	nicht	nicht	PART	PTKNEG	_	17	advmod	_	_
 17	gelesen	lesen	VERB	VVPP	_	12	ccomp	_	_
 18	werde	werden	AUX	VAFIN	_	17	aux:pass	_	SpaceAfter=No
@@ -4769,7 +4769,7 @@
 # text = nämlich wenn er sie hat: aber gar nicht, wenn sie ihn haben;
 1	nämlich	nämlich	ADV	ADV	_	0	root	_	_
 2	wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
-3	er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	sie	sie	PRON	PPER	Case=Acc	5	obj	_	_
 5	hat	haben	AUX	VAFIN	_	1	advcl	_	SpaceAfter=No
 6	:	:	PUNCT	$.	_	9	punct	_	_
@@ -5112,7 +5112,7 @@
 # sent_id = lyceum-f95-s2
 # text = – Er wird den Menschen, das Buch vermeiden, die ein harmonisch Platter bewundert und liebt;
 1	–	–	X	XY	_	17	dep	_	_
-2	Er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
+2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 3	wird	werden	AUX	VAFIN	_	9	aux	_	_
 4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Menschen	Mensch	NOUN	NN	Case=Dat	9	obl:arg	_	SpaceAfter=No
@@ -5195,7 +5195,7 @@
 24	ist	sein	AUX	VAFIN	_	23	cop	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	28	punct	_	_
 26	daß	daß	SCONJ	KOUS	_	28	mark	_	_
-27	er	er	PRON	PPER	Case=Nom	28	nsubj:pass	_	_
+27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	_
 28	erraten	erraten	VERB	VVFIN	_	23	advcl	_	_
 29	sein	sein	AUX	VAINF	_	28	aux:pass	_	_
 30	will	wollen	AUX	VMFIN	_	28	aux	_	SpaceAfter=No
@@ -5210,7 +5210,7 @@
 39	werden	werden	AUX	VAINF	_	2	parataxis	_	SpaceAfter=No
 40	,	,	PUNCT	$,	_	43	punct	_	_
 41	sobald	sobald	SCONJ	KOUS	_	43	mark	_	_
-42	er	er	PRON	PPER	Case=Nom	43	nsubj:pass	_	_
+42	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	nsubj:pass	_	_
 43	getroffen	treffen	VERB	VVPP	_	39	advcl	_	_
 44	ist	sein	AUX	VAFIN	_	43	cop	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	2	punct	_	_
@@ -5610,7 +5610,7 @@
 16	selbst	selbst	ADV	ADV	_	15	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	22	punct	_	_
 18	was	was	PRON	PWS	Case=Acc	22	obj	_	_
-19	er	er	PRON	PPER	Case=Nom	22	nsubj	_	_
+19	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 20	durchaus	durchaus	ADV	ADV	_	22	advmod	_	_
 21	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
 22	vollenden	vollenden	VERB	VVINF	_	2	advcl	_	_
@@ -5759,7 +5759,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f103-s10
 # text = Er muß nun erst durch Urteil zur richtigen Empfindung gelangen!
-1	Er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	_	11	aux	_	_
 3	nun	nun	ADV	ADV	_	11	advmod	_	_
 4	erst	erst	ADV	ADV	_	11	advmod	_	_
@@ -6418,7 +6418,7 @@
 # sent_id = lyceum-f111-s2
 # text = Obgleich er sich anfänglich mit den Vornehmen gemein gemacht hatte, lebte er dennoch frei, wie er auch frei und würdig starb, und verachtete den kleinen Ruhm eines großen Schriftstellers.
 1	Obgleich	obgleich	SCONJ	KOUS	_	9	mark	_	_
-2	er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	_
 4	anfänglich	anfänglich	ADJ	ADJD	_	9	xcomp	_	_
 5	mit	mit	ADP	APPR	_	7	case	_	_
@@ -6429,12 +6429,12 @@
 10	hatte	haben	AUX	VAFIN	_	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	9	punct	_	_
 12	lebte	leben	VERB	VVFIN	_	0	root	_	_
-13	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	dennoch	dennoch	ADV	ADV	_	12	advmod	_	_
 15	frei	frei	ADP	PTKVZ	_	12	compound:prt	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	12	punct	_	_
 17	wie	wie	ADV	PWAV	_	23	advmod	_	_
-18	er	er	PRON	PPER	Case=Nom	23	nsubj	_	_
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 19	auch	auch	ADV	ADV	_	20	advmod	_	_
 20	frei	frei	ADJ	ADJD	_	23	advmod	_	_
 21	und	und	CCONJ	KON	_	22	cc	_	_
@@ -6456,7 +6456,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f111-s3
 # text = Er war Mirabeaus Freund.
-1	Er	er	PRON	PPER	Case=Nom	3	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	war	sein	AUX	VAFIN	_	3	cop	_	_
 3	Mirabeaus	Mirabeau	PROPN	NE	Case=Nom	0	root	_	_
 4	Freund	Freund	NOUN	NN	_	3	flat	_	SpaceAfter=No
@@ -6546,7 +6546,7 @@
 6	Leser	Leser	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	4	punct	_	_
 8	wie	wie	ADV	PWAV	_	10	advmod	_	_
-9	er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	ist	sein	AUX	VAFIN	_	4	advcl	_	SpaceAfter=No
 11	;	;	PUNCT	$.	_	4	punct	_	_
 
@@ -6557,7 +6557,7 @@
 # text = danach macht er seinen Kalkül, legt seine Maschinen an, um den gehörigen Effekt auf ihn zu machen.
 1	danach	danach	ADV	PROAV	_	2	advmod	_	_
 2	macht	machen	VERB	VVFIN	_	0	root	_	_
-3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	Kalkül	Kalkül	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	7	punct	_	_
@@ -6592,7 +6592,7 @@
 9	Leser	Leser	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	4	punct	_	_
 11	wie	wie	ADV	PWAV	_	13	mark	_	_
-12	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	sein	sein	AUX	VAINF	_	4	advcl	_	_
 14	soll	sollen	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
 15	;	;	PUNCT	$.	_	4	punct	_	_
@@ -6602,7 +6602,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f112-s4
 # text = er denkt sich denselben nicht ruhend und tot, sondern lebendig und entgegenwirkend.
-1	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	denkt	denken	VERB	VVFIN	_	0	root	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	denselben	derselbe	DET	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
@@ -6622,12 +6622,12 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f112-s5
 # text = Er läßt das, was er erfunden hat, vor seinen Augen stufenweise werden, oder er lockt ihn es selbst zu erfinden.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	läßt	lassen	VERB	VVFIN	_	0	root	_	_
 3	das	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	was	was	PRON	PRELS	Case=Acc	7	obj	_	_
-6	er	er	PRON	PPER	Case=Nom	7	nsubj	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	erfunden	erfinden	VERB	VVPP	_	3	acl	_	_
 8	hat	haben	AUX	VAFIN	_	7	aux	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	7	punct	_	_
@@ -6638,7 +6638,7 @@
 14	werden	werden	AUX	VAFIN	_	13	aux:pass	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	18	punct	_	_
 16	oder	oder	CCONJ	KON	_	18	cc	_	_
-17	er	er	PRON	PPER	Case=Nom	18	nsubj	_	_
+17	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	lockt	locken	VERB	VVFIN	_	2	parataxis	_	_
 19	ihn	ihn	PRON	PPER	Case=Acc	18	obj	_	_
 20	es	es	PRON	PPER	Case=Acc	23	obj	_	_
@@ -6652,7 +6652,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f112-s6
 # text = Er will keine bestimmte Wirkung auf ihn machen, sondern er tritt mit ihm in das heilige Verhältnis der innigsten Symphilosophie oder Sympoesie.
-1	Er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	will	wollen	AUX	VMFIN	_	8	aux	_	_
 3	keine	kein	DET	PIAT	PronType=Neg	5	advmod	_	_
 4	bestimmte	bestimmt	ADJ	ADJA	_	5	amod	_	_
@@ -6662,7 +6662,7 @@
 8	machen	machen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	sondern	sondern	CCONJ	KON	_	12	cc	_	_
-11	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	tritt	treten	VERB	VVFIN	_	8	conj	_	_
 13	mit	mit	ADP	APPR	_	14	case	_	_
 14	ihm	ihm	PRON	PPER	Case=Dat	12	obl	_	_
@@ -7023,7 +7023,7 @@
 2	Stolz	Stolz	NOUN	NN	_	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	$.	_	2	punct	_	_
 4	indem	indem	SCONJ	KOUS	_	8	mark	_	_
-5	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 6	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	Innerstes	Innerst	NOUN	NN	Case=Acc	8	obj	_	_
 8	herausreißt	herausreißen	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
@@ -7147,7 +7147,7 @@
 # text = auch ist er romantisch, nicht lyrisch.
 1	auch	auch	ADV	ADV	_	4	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	4	cop	_	_
-3	er	er	PRON	PPER	Case=Nom	4	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	romantisch	romantisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
@@ -7315,7 +7315,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f120-s2
 # text = Er dürfte sich, was poetische Kritik betrifft, immer zur Ruhe setzen.
-1	Er	er	PRON	PPER	Case=Nom	14	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 2	dürfte	dürfen	AUX	VMFIN	_	14	aux	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	14	obj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	14	punct	_	_
@@ -7731,7 +7731,7 @@
 # text = Wo hat er einen Sokrates dargestellt, einen Solon, Aristides, so unzählig viele andre?
 1	Wo	wo	ADV	PWAV	_	6	advmod	_	_
 2	hat	haben	AUX	VAFIN	_	6	aux	_	_
-3	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
 5	Sokrates	Sokrat	NOUN	NN	Case=Acc	6	obj	_	_
 6	dargestellt	darstellen	VERB	VVPP	_	0	root	_	SpaceAfter=No
@@ -7819,7 +7819,7 @@
 # text = Dichtern mag er auch wohl heilsam sein können, wie jede konsequente Beschränkung, um die Kraft zu kondensieren und zu konzentrieren.
 1	Dichtern	Dichter	NOUN	NN	Case=Dat	6	obl:arg	_	_
 2	mag	mögen	AUX	VMFIN	_	6	aux	_	_
-3	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	auch	auch	ADV	ADV	_	6	advmod	_	_
 5	wohl	wohl	ADV	ADV	_	6	advmod	_	_
 6	heilsam	heilsam	ADJ	ADJD	_	0	root	_	_
@@ -8081,7 +8081,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f3-s2
 # text = Er ist ihr nothwendiges Organ.
-1	Er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	5	cop	_	_
 3	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 4	nothwendiges	nothwendig	ADJ	ADJA	_	5	amod	_	_
@@ -9080,7 +9080,7 @@
 8	haben	haben	AUX	VAINF	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	18	punct	_	_
 10	wenn	wenn	SCONJ	KOUS	_	18	mark	_	_
-11	er	er	PRON	PPER	Case=Nom	18	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 12	nicht	nicht	PART	PTKNEG	_	18	advmod	_	_
 13	den	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Keim	Keim	NOUN	NN	Case=Acc	18	obj	_	_
@@ -9155,7 +9155,7 @@
 4	durchdringen	durchdringen	VERB	VVFIN	_	6	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	ist	sein	VERB	VAFIN	_	0	root	_	_
-7	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 8	in	in	ADP	APPR	_	10	case	_	_
 9	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	10	det	_	_
 10	Punkte	Punkt	NOUN	NN	_	6	obl	_	_
@@ -9390,11 +9390,11 @@
 1	Ohne	ohne	ADP	APPR	_	2	case	_	_
 2	dies	dieser	DET	PDS	Case=Acc|PronType=Dem	6	det	_	_
 3	wäre	sein	AUX	VAFIN	_	6	cop	_	_
-4	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
 6	Weltbürger	Weltbürger	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
-8	er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 9	wäre	sein	AUX	VAFIN	_	11	cop	_	_
 10	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
 11	Thier	Thier	NOUN	NN	Case=Nom	6	parataxis	_	SpaceAfter=No
@@ -9419,7 +9419,7 @@
 12	schwer	schwer	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	12	punct	_	_
 14	da	da	SCONJ	KOUS	_	27	mark	_	_
-15	er	er	PRON	PPER	Case=Nom	27	nsubj	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 16	so	so	ADV	ADV	_	17	advmod	_	_
 17	unaufhörlich	unaufhörlich	ADV	ADV	_	27	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	17	punct	_	_
@@ -10096,7 +10096,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f27-s2
 # text = Er scheint keine andre Absicht dabey zu hegen, als die Einbildungskraft auf eine poetische Weise mit einem mysteriösen Spiel zu beschäftigen.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
 3	keine	kein	DET	PIAT	PronType=Neg	5	advmod	_	_
 4	andre	anderer	DET	ADJA	PronType=Ind	5	amod	_	_
@@ -10975,14 +10975,14 @@
 # sent_id = bluethenstaub-f39-s2
 # text = Giebt er die Wahrheit preis, so giebt er sich selbst preis.
 1	Giebt	gieben	VERB	VVFIN	_	0	root	_	_
-2	er	er	PRON	PPER	Case=Nom	1	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Wahrheit	Wahrheit	NOUN	NN	Case=Acc	1	obj	_	_
 5	preis	preis	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	1	punct	_	_
 7	so	so	ADV	ADV	_	8	advmod	_	_
 8	giebt	gieben	VERB	VVFIN	_	1	parataxis	_	_
-9	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 10	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	_
 11	selbst	selbst	ADV	ADV	_	10	advmod	_	_
 12	preis	preis	ADP	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
@@ -11055,7 +11055,7 @@
 5	Gleichgewicht	Gleichgewicht	NOUN	NN	Case=Acc	2	obj	_	_
 6	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 7	:	:	PUNCT	$.	_	2	punct	_	_
-8	er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 9	ist	sein	AUX	VAFIN	_	11	cop	_	_
 10	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Folge	Folge	NOUN	NN	Case=Nom	2	parataxis	_	_
@@ -11159,7 +11159,7 @@
 5	uns	uns	PRON	PPER	_	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	13	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	13	mark	_	_
-8	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 9	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
 10	Gegenstand	Gegenstand	NOUN	NN	_	13	xcomp	_	_
 11	aller	alle	DET	PIAT	PronType=Tot	12	det	_	_
@@ -11200,7 +11200,7 @@
 6	in	in	ADP	APPR	_	14	case	_	_
 7	so	so	ADV	ADV	_	8	advmod	_	_
 8	fern	fern	ADJ	ADJD	_	14	advmod	_	_
-9	er	er	PRON	PPER	Case=Nom	14	nsubj	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 10	zu	zu	ADP	APPR	_	13	case	_	_
 11	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	13	det	_	_
 12	geliebten	geliebt	ADJ	ADJA	_	13	amod	_	_
@@ -11241,7 +11241,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f43-s2
 # text = Er hat einen Zweck, wie das Institut;
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
 3	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	4	det	_	_
 4	Zweck	Zweck	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
@@ -11500,7 +11500,7 @@
 25	diesem	dieser	DET	PDAT	PronType=Dem	26	det	_	_
 26	Moment	Moment	NOUN	NN	_	27	obl	_	_
 27	sagt	sagen	VERB	VVFIN	_	3	conj	_	_
-28	er	er	PRON	PPER	Case=Nom	27	nsubj	_	_
+28	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 29-30	zum	_	_	_	_	_	_	_	_
 29	zu	zu	ADP	APPR	_	31	case	_	_
 30	dem	der	DET	ART	Definite=Def|PronType=Art	31	det	_	_
@@ -11719,7 +11719,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f47-s6
 # text = Er wächst und nimmt ab, sehr oft mit den Jahren, oft mit dem Fund eines Systems, das sie nur suchten, um der Mühe des Nachdenkens ferner überhoben zu seyn.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	wächst	wachsen	VERB	VVFIN	_	0	root	_	_
 3	und	und	CCONJ	KON	_	4	cc	_	_
 4	nimmt	nehmen	VERB	VVFIN	_	2	conj	_	_
@@ -12241,7 +12241,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f54-s5
 # text = Er erreicht bald die zweyte Stufe: aber da bleibt er auch gewöhnlich stehn.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	erreicht	erreichen	VERB	VVFIN	_	0	root	_	_
 3	bald	bald	ADV	ADV	_	2	advmod	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -12251,7 +12251,7 @@
 8	aber	aber	CCONJ	KON	_	10	cc	_	_
 9	da	da	ADV	ADV	_	10	advmod	_	_
 10	bleibt	bleiben	VERB	VVFIN	_	2	parataxis	_	_
-11	er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	auch	auch	ADV	ADV	_	10	advmod	_	_
 13	gewöhnlich	gewöhnlich	ADJ	ADJD	_	14	advmod	_	_
 14	stehn	stehn	VERB	VVFIN	_	10	xcomp	_	SpaceAfter=No
@@ -12272,7 +12272,7 @@
 8	und	und	CCONJ	KON	_	15	cc	_	_
 9	selten	selten	ADJ	ADJD	_	15	advmod	_	_
 10	kann	können	AUX	VMFIN	_	15	aux	_	_
-11	er	er	PRON	PPER	Case=Nom	15	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 12	es	es	PRON	PPER	Case=Acc	15	obj	_	_
 13	über	über	ADP	APPR	_	14	case	_	_
 14	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	15	obl	_	_
@@ -12707,7 +12707,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f61-s2
 # text = Er dürfte aber wohl bald der Hans aller Hänse werden.
-1	Er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 2	dürfte	dürfen	AUX	VMFIN	_	10	aux	_	_
 3	aber	aber	ADV	ADV	_	10	advmod	_	_
 4	wohl	wohl	ADV	ADV	_	10	advmod	_	_
@@ -12736,7 +12736,7 @@
 10	gehn	gehen	VERB	VVINF	_	2	advcl	_	_
 11	soll	sollen	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	:	:	PUNCT	$.	_	2	punct	_	_
-13	er	er	PRON	PPER	Case=Nom	15	nsubj	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 14	wird	werden	AUX	VAFIN	_	18	aux	_	_
 15	leben	leben	VERB	VVINF	_	2	parataxis	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
@@ -12752,7 +12752,7 @@
 26	sind	sein	AUX	VAFIN	_	25	aux	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	25	punct	_	_
 28	und	und	CCONJ	KON	_	32	cc	_	_
-29	er	er	PRON	PPER	Case=Nom	32	nsubj	_	_
+29	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 30	nun	nun	ADV	ADV	_	32	advmod	_	_
 31	allein	allein	ADV	ADV	_	32	advmod	_	_
 32	Herr	Herr	NOUN	NN	Case=Nom	25	advcl	_	_
@@ -13455,7 +13455,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f68-s15
 # text = Er muß der Dichter des Dichters seyn und ihn also nach seiner und des Dichters eigner Idee zugleich reden lassen können.In einem ähnlichen Verhältnisse steht der Genius der Menschheit mit jedem einzelnen Menschen.
-1	Er	er	PRON	PPER	Case=Nom	4	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	_	4	aux	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Dichter	Dichter	NOUN	NN	Case=Nom	0	root	_	_
@@ -13602,7 +13602,7 @@
 4	übrigen	übrig	ADJ	ADJA	_	5	amod	_	_
 5	Welt	Welt	NOUN	NN	Case=Dat	1	obl	_	_
 6	verzehrt	verzehren	VERB	VVFIN	_	0	root	_	_
-7	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 8	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	_
 9	allmählig	allmählig	ADJ	ADJD	_	6	advmod	_	_
 10	selbst	selbst	ADV	ADV	_	8	advmod	_	SpaceAfter=No
@@ -14786,7 +14786,7 @@
 15	Zuthun	Zuthun	NOUN	NN	Case=Acc	11	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	27	punct	_	_
 17	oder	oder	CCONJ	KON	_	27	cc	_	_
-18	er	er	PRON	PPER	Case=Nom	27	nsubj	_	_
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 19	wird	werden	AUX	VAFIN	_	27	aux:pass	_	_
 20	einstimmig	einstimmig	ADJ	ADJD	_	27	advmod	_	_
 21	durch	durch	ADP	APPR	_	26	case	_	_
@@ -15323,7 +15323,7 @@
 1	Über	über	ADP	APPR	_	2	case	_	_
 2	diese	dieser	DET	PDS	PronType=Dem	3	obl	_	_
 3	kennt	kennen	VERB	VVFIN	_	0	root	_	_
-4	er	er	PRON	PPER	Case=Nom	3	nsubj	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 5	nichts	nichts	PRON	PIS	Case=Acc	3	obj	_	_
 6	höheres	hoch	ADJ	ADJD	_	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	3	punct	_	_
@@ -16234,7 +16234,7 @@
 25	vermag	vermögen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	38	punct	_	_
 27	indem	indem	SCONJ	KOUS	_	38	mark	_	_
-28	er	er	PRON	PPER	Case=Nom	38	nsubj	_	_
+28	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
 29	durch	durch	ADP	APPR	_	30	case	_	_
 30	alles	alle	DET	PIS	Case=Acc|PronType=Tot	38	obl	_	_
 31	dieses	dieser	DET	PDAT	Case=Acc|PronType=Dem	38	obj	_	_
@@ -17814,7 +17814,7 @@
 24	angesehn	angesehn	VERB	VVPP	_	0	root	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	24	punct	_	_
 26	wenn	wenn	SCONJ	KOUS	_	34	mark	_	_
-27	er	er	PRON	PPER	Case=Nom	34	nsubj	_	_
+27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 28	die	der	DET	ART	Definite=Def|PronType=Art	29	det	_	_
 29	Erwartungen	Erwartung	NOUN	NN	Case=Acc	34	obj	_	_
 30	des	der	DET	ART	Definite=Def|PronType=Art	32	det	_	_
@@ -18744,7 +18744,7 @@
 5	Monarchen	Monarch	NOUN	NN	Case=Dat	6	nmod	_	_
 6	gesagt	sagen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 7	:	:	PUNCT	$.	_	13	punct	_	_
-8	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 9	würde	werden	AUX	VAFIN	_	13	aux	_	_
 10	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	13	det	_	_
 11	sehr	sehr	ADV	ADV	_	12	advmod	_	_
@@ -18757,7 +18757,7 @@
 18	zum	zu	ADP	APPRART	_	19	case	_	_
 19	Könige	König	NOUN	NN	_	23	nmod	_	_
 20	habe	haben	AUX	VAFIN	_	23	aux	_	_
-21	er	er	PRON	PPER	Case=Nom	23	nsubj	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 22	nicht	nicht	PART	PTKNEG	_	23	advmod	_	_
 23	getaugt	taugen	VERB	VVPP	_	13	conj	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	6	punct	_	_
@@ -20189,7 +20189,7 @@
 13	,	,	PUNCT	$,	_	11	punct	_	_
 14	so	so	ADV	ADV	_	15	advmod	_	_
 15	hindert	hindern	VERB	VVFIN	_	0	root	_	_
-16	er	er	PRON	PPER	Case=Nom	15	nsubj	_	_
+16	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 17	dadurch	dadurch	ADV	PROAV	PronType=Dem	15	advmod	_	_
 18	die	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc	15	obj	_	_
@@ -20555,7 +20555,7 @@
 62	verworrener	verworren	ADV	ADV	_	63	advmod	_	_
 63	ausdrückten	ausdrücken	VERB	VVFIN	_	57	acl	_	_
 64	als	als	CCONJ	KOKOM	_	65	cc	_	_
-65	er	er	PRON	PPER	_	63	obl	_	SpaceAfter=No
+65	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	63	obl	_	SpaceAfter=No
 66	.	.	PUNCT	$.	_	14	punct	_	_
 
 # newpar id = athenaeum-f42
@@ -20721,7 +20721,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f48-s2
 # text = Er liebte und achtete sie unendlich, aber er klagt immer, daß sie überall auf halbem Wege stehn geblieben wären.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	liebte	lieben	VERB	VVFIN	_	0	root	_	_
 3	und	und	CCONJ	KON	_	4	cc	_	_
 4	achtete	achtete	VERB	VVFIN	_	2	conj	_	_
@@ -20729,7 +20729,7 @@
 6	unendlich	unendlich	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	10	punct	_	_
 8	aber	aber	CCONJ	KON	_	10	cc	_	_
-9	er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	klagt	klagen	VERB	VVFIN	_	2	conj	_	_
 11	immer	immer	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	10	punct	_	_
@@ -21036,7 +21036,7 @@
 # sent_id = athenaeum-f51-s10
 # text = Wenn Er auch keine Absichten hatte, so hat doch seine Poesie und die eigentliche Verfasserin derselben, die Natur, Absicht.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
-2	Er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 3	auch	auch	ADV	ADV	_	6	advmod	_	_
 4	keine	kein	DET	PIAT	PronType=Neg	5	advmod	_	_
 5	Absichten	Absicht	NOUN	NN	Case=Acc	6	obj	_	_
@@ -21117,7 +21117,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f53-s2
 # text = Er wird sich also wohl entschließen müssen, beides zu verbinden.
-1	Er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	wird	werden	AUX	VAFIN	_	6	aux	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	_
 4	also	also	ADV	ADV	_	6	advmod	_	_
@@ -21879,7 +21879,7 @@
 12	,	,	PUNCT	$,	_	14	punct	_	_
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	sagt	sagen	VERB	VVFIN	_	0	root	_	_
-15	er	er	PRON	PPER	Case=Nom	14	nsubj	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 16	ihm	ihm	PRON	PPER	Case=Dat	14	obl:arg	_	_
 17	gern	gern	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 18	:	:	PUNCT	$.	_	14	punct	_	_
@@ -21912,7 +21912,7 @@
 13	wollte	wollen	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	daß	daß	SCONJ	KOUS	_	19	mark	_	_
-16	er	er	PRON	PPER	Case=Nom	19	nsubj	_	_
+16	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 17	kein	kein	DET	PIAT	PronType=Neg	18	advmod	_	_
 18	System	System	NOUN	NN	Case=Acc	19	obj	_	_
 19	erfinden	erfinden	VERB	VVINF	_	12	ccomp	_	_
@@ -22026,7 +22026,7 @@
 17	kann	können	AUX	VMFIN	_	16	aux	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	16	punct	_	_
 19	wo	wo	ADV	PWAV	_	24	advmod	_	_
-20	er	er	PRON	PPER	Case=Nom	24	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 21	andre	anderer	DET	ADJA	Case=Acc|PronType=Ind	24	obj	_	_
 22	ganz	ganz	ADV	ADV	_	23	advmod	_	_
 23	befriedigt	befriedigt	VERB	VVPP	_	24	xcomp	_	_
@@ -23717,7 +23717,7 @@
 1	als	als	ADP	APPR	_	2	case	_	_
 2	System	System	NOUN	NN	_	5	nmod	_	_
 3	ist	sein	AUX	VAFIN	_	5	cop	_	_
-4	er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	Anarchie	Anarchie	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -24442,7 +24442,7 @@
 1	Uns	uns	ADP	APPR	Case=Dat	6	obl:arg	_	_
 2	Deutschen	deutsche	NOUN	NN	_	1	appos	_	_
 3	ist	sein	AUX	VAFIN	_	6	aux	_	_
-4	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	vorzüglich	vorzüglich	ADJ	ADJD	_	6	advmod	_	_
 6	eigen	eigen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	12	punct	_	_
@@ -25858,7 +25858,7 @@
 30	betrachtet	betrachten	VERB	VVPP	_	17	acl	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	41	punct	_	_
 32	was	was	PRON	PRELS	Case=Acc	41	obj	_	_
-33	er	er	PRON	PPER	Case=Nom	41	nsubj	_	_
+33	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 34	aus	aus	ADP	APPR	_	36	case	_	_
 35	andern	anderer	DET	ADJA	PronType=Ind	36	amod	_	_
 36	Gesichtspunkten	Gesichtspunkt	NOUN	NN	Case=Dat	41	obl	_	_
@@ -26011,7 +26011,7 @@
 18	,	,	PUNCT	$,	_	14	punct	_	_
 19	so	so	ADV	ADV	_	20	advmod	_	_
 20	pflegte	pflegen	VERB	VVFIN	_	0	root	_	_
-21	er	er	PRON	PPER	Case=Nom	20	nsubj	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 22	zu	zu	PART	PTKZU	_	23	mark	_	_
 23	sagen	sagen	VERB	VVINF	_	20	xcomp	_	SpaceAfter=No
 24	:	:	PUNCT	$.	_	26	punct	_	_
@@ -27094,7 +27094,7 @@
 5	vollendeten	vollendet	ADJ	ADJA	_	6	amod	_	_
 6	Antiken	Antiken	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	2	punct	_	_
-8	er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	gab	geben	VERB	VVFIN	_	2	parataxis	_	_
 10	Bruchstücke	Bruchstück	NOUN	NN	Case=Acc	9	obj	_	_
 11	voll	voll	ADP	APPR	_	12	case	_	_
@@ -27226,7 +27226,7 @@
 8	sittlich	sittlich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	13	punct	_	_
 10	weil	weil	SCONJ	KOUS	_	13	mark	_	_
-11	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
 13	natürlich	natürlich	ADJ	ADJD	_	8	advcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	18	punct	_	_
@@ -27262,7 +27262,7 @@
 18	betrachteten	betrachten	VERB	VVFIN	_	25	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	18	punct	_	_
 20	ist	sein	AUX	VAFIN	_	25	cop	_	_
-21	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 22	eben	eben	ADV	ADV	_	25	advmod	_	_
 23	darum	darum	ADV	PAV	PronType=Dem	25	advmod	_	_
 24	sehr	sehr	ADV	ADV	_	25	advmod	_	_
@@ -27649,7 +27649,7 @@
 7	gefunden	finden	VERB	VVPP	_	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	was	was	PRON	PRELS	Case=Acc	11	obj	_	_
-10	er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	brauchte	brauchen	VERB	VVFIN	_	7	ccomp	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	14	punct	_	_
 13	oder	oder	CCONJ	KON	_	14	cc	_	_
@@ -27721,7 +27721,7 @@
 8	je	je	ADV	ADV	_	9	advmod	_	_
 9	romantischer	romantisch	ADJ	ADJD	_	2	conj	_	_
 10	ist	sein	AUX	VAFIN	_	9	cop	_	_
-11	er	er	PRON	PPER	Case=Nom	9	nsubj	_	SpaceAfter=No
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -28019,7 +28019,7 @@
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	wie	wie	ADV	PWAV	_	8	advmod	_	_
 8	unfähig	unfähig	ADJ	ADJD	_	5	ccomp	_	_
-9	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 10	war	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	17	punct	_	_
 12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
@@ -28044,7 +28044,7 @@
 31	,	,	PUNCT	$,	_	33	punct	_	_
 32	wie	wie	ADV	PWAV	_	33	advmod	_	_
 33	klein	klein	ADJ	ADJD	_	22	orphan	_	_
-34	er	er	PRON	PPER	Case=Nom	33	nsubj	_	_
+34	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 35	selbst	selbst	ADV	ADV	_	34	advmod	_	_
 36	war	sein	AUX	VAFIN	_	33	cop	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	5	punct	_	_
@@ -28385,7 +28385,7 @@
 # text = Dann hat er noch eine ihm besonders eigne Art, worin er am meisten Plato ist, die dithyrambische.
 1	Dann	dann	ADV	ADV	_	2	advmod	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	noch	noch	ADV	ADV	_	2	advmod	_	_
 5	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
 6	ihm	ihm	PRON	PPER	Case=Dat	7	obl:arg	_	_
@@ -28394,7 +28394,7 @@
 9	Art	Art	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	15	punct	_	_
 11	worin	worin	ADV	PWAV	_	15	mark	_	_
-12	er	er	PRON	PPER	Case=Nom	15	nsubj	_	_
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	am	an	ADP	APPR	_	14	case	_	_
 14	meisten	meister	PRON	PIS	_	15	nmod	_	_
 15	Plato	Plato	NOUN	NN	Case=Nom	2	nmod	_	_
@@ -28696,7 +28696,7 @@
 17	oder	oder	CCONJ	KON	_	18	cc	_	_
 18	hineinwärts	hineinwärts	ADV	ADV	_	15	advmod	_	_
 19	ließ	lassen	VERB	VVFIN	_	2	parataxis	_	_
-20	er	er	PRON	PPER	Case=Nom	19	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 21	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	19	obl:arg	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -28705,7 +28705,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f169-s3
 # text = Er zog deswegen auch die Kometen in die Atmosphäre der Erde, und fertigte die wahren Sonnensysteme der Pythagoräer kurz ab.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	zog	ziehen	VERB	VVFIN	_	0	root	_	_
 3	deswegen	deswegen	ADV	PROAV	_	2	advmod	_	_
 4	auch	auch	ADV	ADV	_	2	advmod	_	_
@@ -29335,7 +29335,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f177-s6
 # text = Er musiziert viele Gemälde wie der Abt Vogler.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	musiziert	musizieren	VERB	VVFIN	_	0	root	_	_
 3	viele	viel	DET	PIAT	PronType=Ind	4	det	_	_
 4	Gemälde	Gemälde	NOUN	NN	Case=Acc	2	obj	_	_
@@ -29657,7 +29657,7 @@
 9	sollte	sollen	AUX	VMFIN	_	8	aux	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	8	punct	_	_
 11	mußte	müssen	AUX	VMFIN	_	15	aux	_	_
-12	er	er	PRON	PPER	Case=Nom	15	nsubj	_	_
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	weniger	weniger	ADV	ADV	_	15	advmod	_	_
 14	Schwungkraft	Schwungkraft	NOUN	NN	Case=Acc	15	obj	_	_
 15	haben	haben	AUX	VAINF	_	0	root	_	SpaceAfter=No
@@ -29779,7 +29779,7 @@
 21	durfte	dürfen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	27	punct	_	_
 23	weil	weil	SCONJ	KOUS	_	27	mark	_	_
-24	er	er	PRON	PPER	Case=Nom	27	nsubj	_	_
+24	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 25	das	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
 26	Dach	Dach	NOUN	NN	Case=Acc	27	obj	_	_
 27	eingestoßen	einstoßen	VERB	VVPP	_	20	advcl	_	_
@@ -30068,7 +30068,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f189-s2
 # text = Er hat aber den Leser, den es irre führen könnte, durch seine unvergleichliche Frechheit selbst zurecht gewiesen.
-1	Er	er	PRON	PPER	Case=Nom	19	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	19	aux	_	_
 3	aber	aber	ADV	ADV	_	19	advmod	_	_
 4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
@@ -30460,7 +30460,7 @@
 10	,	,	PUNCT	$,	_	12	punct	_	_
 11	doch	doch	CCONJ	KON	_	12	cc	_	_
 12	hat	haben	VERB	VVFIN	_	2	conj	_	_
-13	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	mehr	mehr	ADV	ADV	_	12	advmod	_	_
 15	Bestimmtheit	Bestimmtheit	NOUN	NN	Case=Acc	12	obj	_	_
 16	der	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
@@ -30538,7 +30538,7 @@
 7	Spuren	Spur	NOUN	NN	_	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	3	punct	_	_
 9	daß	daß	SCONJ	KOUS	_	16	mark	_	_
-10	er	er	PRON	PPER	Case=Nom	16	nsubj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 11	im	in	ADP	APPRART	_	13	case	_	_
 12	blühendsten	blühend	ADJ	ADJA	_	13	amod	_	_
 13	Zeitalter	Zeitalter	NOUN	NN	_	16	obl	_	_
@@ -30583,7 +30583,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f193-s9
 # text = Er macht die bildenden Künste manchmal zum Gegenstande seiner Dichtungen, außerdem ist ihre Erwähnung darin niemals angebracht, oder herbeigezogen.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	macht	machen	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	bildenden	bildend	ADJ	ADJA	_	5	amod	_	_
@@ -30755,7 +30755,7 @@
 # text = Wie konnte er besser an die Nachwelt appellieren, als durch das Vergessen seiner selbst im Umgange mit ihr?
 1	Wie	wie	ADV	PWAV	_	8	advmod	_	_
 2	konnte	können	AUX	VMFIN	_	8	aux	_	_
-3	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 4	besser	gut	ADJ	ADJD	_	8	advmod	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -30848,7 +30848,7 @@
 12	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	14	nmod:poss	_	_
 13	wunderlichen	wunderlich	ADJ	ADJA	_	14	amod	_	_
 14	Sprüngen	Sprung	NOUN	NN	_	17	obl	_	_
-15	er	er	PRON	PPER	Case=Nom	17	nsubj	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	_
 17	ergötzte	ergötzen	VERB	VVFIN	_	9	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	9	punct	_	_
@@ -31039,7 +31039,7 @@
 17	und	und	CCONJ	KON	_	22	cc	_	_
 18	überall	überall	ADV	ADV	_	22	advmod	_	_
 19	wo	wo	ADV	PWAV	_	22	advmod	_	_
-20	er	er	PRON	PPER	Case=Nom	22	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 21	recht	recht	ADV	ADV	_	22	advmod	_	_
 22	Diderot	Diderot	NOUN	NN	Case=Nom	5	conj	_	_
 23	ist	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
@@ -31055,7 +31055,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f201-s2
 # text = Er hat die Natur nicht selten im reizenden Nachtkleide überrascht, er hat sie mitunter auch ihre Notdurft verrichten sehen.
-1	Er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	10	aux	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Natur	Natur	NOUN	NN	Case=Acc	10	obj	_	_
@@ -31066,7 +31066,7 @@
 9	Nachtkleide	Nachtkleide	NOUN	NN	_	10	obl	_	_
 10	überrascht	überraschen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
-12	er	er	PRON	PPER	Case=Nom	20	nsubj	_	_
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 13	hat	haben	AUX	VAFIN	_	20	aux	_	_
 14	sie	sie	PRON	PPER	Case=Acc	20	obj	_	_
 15	mitunter	mitunter	ADV	ADV	_	20	advmod	_	_
@@ -31625,7 +31625,7 @@
 20	begrüßt	begrüßen	VERB	VVPP	_	2	ccomp	_	SpaceAfter=No
 21	:	:	PUNCT	$.	_	25	punct	_	_
 22	wie	wie	ADV	PWAV	_	25	advmod	_	_
-23	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
+23	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	es	es	PRON	PPER	Case=Acc	25	obj	_	_
 25	wage	wagen	VERB	VVFIN	_	2	parataxis	_	_
 26	in	in	ADP	APPR	_	27	case	_	_
@@ -32155,7 +32155,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f219-s2
 # text = Er zeigt verschiedentlich für die Griechen gar keinen Sinn gehabt zu haben.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	zeigt	zeigen	VERB	VVFIN	_	0	root	_	_
 3	verschiedentlich	verschiedentlich	ADV	ADV	_	2	advmod	_	_
 4	für	für	ADP	APPR	_	6	case	_	_
@@ -32179,7 +32179,7 @@
 3	den	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Römern	Römer	NOUN	NN	_	5	obl	_	_
 5	liebt	lieben	VERB	VVFIN	_	0	root	_	_
-6	er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	doch	doch	ADV	ADV	_	5	advmod	_	_
 8	eigentlich	eigentlich	ADV	ADV	_	5	advmod	_	_
 9	nur	nur	ADV	ADV	_	12	advmod	_	_
@@ -32785,7 +32785,7 @@
 16	seltner	seltner	ADV	ADV	_	18	advmod	_	_
 17	aber	aber	ADV	ADV	_	18	advmod	_	_
 18	betrachtet	betrachten	VERB	VVFIN	_	3	parataxis	_	_
-19	er	er	PRON	PPER	Case=Nom	18	nsubj	_	_
+19	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Schweiz	Schweiz	PROPN	NE	Case=Acc	18	obj	_	_
 22	mit	mit	ADP	APPR	_	24	case	_	_
@@ -33647,7 +33647,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f237-s2
 # text = Er darf sich daher mit Bewußtsein äußern: aber er ist nicht echt, sobald man Vorsatz dabei wahrnimmt.
-1	Er	er	PRON	PPER	Case=Nom	7	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	darf	dürfen	AUX	VMFIN	_	7	aux	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	7	obj	_	_
 4	daher	daher	ADV	PROAV	PronType=Dem	7	advmod	_	_
@@ -33656,7 +33656,7 @@
 7	äußern	äußern	VERB	VVINF	_	0	root	_	SpaceAfter=No
 8	:	:	PUNCT	$.	_	7	punct	_	_
 9	aber	aber	ADV	ADV	_	13	advmod	_	_
-10	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	ist	sein	AUX	VAFIN	_	13	cop	_	_
 12	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
 13	echt	echt	ADJ	ADJD	_	7	parataxis	_	SpaceAfter=No
@@ -35301,7 +35301,7 @@
 # sent_id = athenaeum-f255-s3
 # text = Soll er nicht bloß Erfinder und Arbeiter sondern auch Kenner in seinem Fache sein, und seine Mitbürger im Reiche der Kunst verstehn können, so muß er auch Philolog werden.
 1	Soll	sollen	AUX	VMFIN	_	5	aux	_	_
-2	er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
 4	bloß	bloß	ADV	ADV	_	5	advmod	_	_
 5	Erfinder	Erfinder	NOUN	NN	Case=Nom	0	root	_	_
@@ -35327,7 +35327,7 @@
 25	,	,	PUNCT	$,	_	31	punct	_	_
 26	so	so	ADV	ADV	_	31	advmod	_	_
 27	muß	müssen	AUX	VMFIN	_	31	aux	_	_
-28	er	er	PRON	PPER	Case=Nom	31	nsubj	_	_
+28	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 29	auch	auch	ADV	ADV	_	31	advmod	_	_
 30	Philolog	Philolog	NOUN	NN	_	31	xcomp	_	_
 31	werden	werden	VERB	VVINF	_	23	advcl	_	SpaceAfter=No
@@ -35980,7 +35980,7 @@
 5	jungen	jung	ADJ	ADJA	_	6	amod	_	_
 6	Philosophen	Philosoph	NOUN	NN	Case=Dat	2	obl	_	SpaceAfter=No
 7	:	:	PUNCT	$.	_	9	punct	_	_
-8	Er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
+8	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	trage	tragen	VERB	VVFIN	_	2	parataxis	_	_
 10	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
 11	Theorien-Eierstock	Theorien-Eierstock	NOUN	NN	Case=Acc	9	obj	_	_
@@ -36045,7 +36045,7 @@
 15	Verkehr	Verkehr	NOUN	NN	_	2	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	25	obj	_	_
-18	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 19	mit	mit	ADP	APPR	_	20	case	_	_
 20	ihm	ihm	PRON	PPER	Case=Dat	25	obl	_	_
 21	oder	oder	CCONJ	KON	_	24	cc	_	_
@@ -36062,7 +36062,7 @@
 # sent_id = athenaeum-f270-s2
 # text = Hatte er sich doch auch Augen von ihm machen lassen um in die ihm unbekannte Weltgegend der Philosophie, wo Spinosa seine Heimat hat, wenigstens aus der Ferne hinüber schauen zu können!
 1	Hatte	haben	AUX	VAFIN	_	10	aux	_	_
-2	er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	_
 4	doch	doch	ADV	ADV	_	10	advmod	_	_
 5	auch	auch	ADV	ADV	_	9	advmod	_	_
@@ -36254,7 +36254,7 @@
 8	,	,	PUNCT	$,	_	16	punct	_	_
 9	nur	nur	ADV	ADV	_	16	advmod	_	_
 10	muß	müssen	AUX	VMFIN	_	16	aux	_	_
-11	er	er	PRON	PPER	Case=Nom	16	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 12	sie	sie	PRON	PPER	Case=Acc	16	obj	_	_
 13	auch	auch	ADV	ADV	_	16	advmod	_	_
 14	für	für	ADP	APPR	_	15	case	_	_
@@ -36422,7 +36422,7 @@
 5	Moderantist	Moderantist	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	20	mark	_	_
-8	er	er	PRON	PPER	Case=Nom	20	nsubj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 9	auch	auch	ADV	ADV	_	20	advmod	_	_
 10	das	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Ich	ich	NOUN	NN	Case=Acc	20	obj	_	SpaceAfter=No
@@ -36595,7 +36595,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f279-s2
 # text = Er hatte es auf alles angelegt: Praktiker, Kanzellist, Professor, Hofmeister.
-1	Er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	hatte	haben	AUX	VAFIN	_	6	aux	_	_
 3	es	es	PRON	PPER	Case=Acc	6	obj	_	_
 4	auf	auf	ADP	APPR	_	5	case	_	_
@@ -36720,7 +36720,7 @@
 30	Gelbsüchtiger	Gelbsüchtiger	NOUN	NN	_	26	conj	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	38	punct	_	_
 32	wenn	wenn	SCONJ	KOUS	_	38	mark	_	_
-33	er	er	PRON	PPER	Case=Nom	38	nsubj	_	_
+33	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
 34	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	38	obj	_	_
 35	mit	mit	ADP	APPR	_	37	case	_	_
 36	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	37	det	_	_
@@ -36776,12 +36776,12 @@
 2	der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Form	Form	NOUN	NN	Case=Dat	4	obl	_	_
 4	redet	reden	VERB	VVFIN	_	0	root	_	_
-5	er	er	PRON	PPER	Case=Nom	4	nsubj	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 7	viel	viel	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	4	punct	_	_
 9	weil	weil	SCONJ	KOUS	_	11	mark	_	_
-10	er	er	PRON	PPER	Case=Nom	11	nsubj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	Meister	Meister	NOUN	NN	Case=Nom	4	advcl	_	_
 12	derselben	derselbe	DET	PDAT	PronType=Dem	11	nmod	_	_
 13	ist	sein	AUX	VAFIN	_	11	cop	_	SpaceAfter=No
@@ -36828,7 +36828,7 @@
 34	:	:	PUNCT	$.	_	53	punct	_	_
 35	so	so	ADV	ADV	_	53	advmod	_	_
 36	dürfte	dürfen	AUX	VMFIN	_	53	aux	_	_
-37	er	er	PRON	PPER	Case=Nom	53	nsubj	_	_
+37	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	53	nsubj	_	_
 38	wohl	wohl	ADV	ADV	_	53	advmod	_	_
 39	auch	auch	ADV	ADV	_	42	advmod	_	_
 40	in	in	ADP	APPR	_	42	case	_	_
@@ -36910,7 +36910,7 @@
 5	man	man	PRON	PIS	Case=Nom|PronType=Ind	18	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	wie	wie	CCONJ	KOKOM	_	8	cc	_	_
-8	er	er	PRON	PPER	_	5	conj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	conj	_	_
 9	selbst	selbst	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	8	punct	_	_
 11	ohne	ohne	ADP	APPR	_	13	case	_	_
@@ -36983,7 +36983,7 @@
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
 10	hilft	helfen	VERB	VVFIN	_	0	root	_	_
-11	er	er	PRON	PPER	Case=Nom	10	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	_
 13	mit	mit	ADP	APPR	_	15	case	_	_
 14	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	15	det	_	_
@@ -37581,7 +37581,7 @@
 3	Enthusiasmus	Enthusiasmus	NOUN	NN	Case=Nom	17	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
-6	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	auch	auch	ADV	ADV	_	8	advmod	_	_
 8	roh	roh	ADJ	ADJD	_	3	advcl	_	_
 9	sein	sein	AUX	VAINF	_	8	cop	_	_
@@ -37723,7 +37723,7 @@
 8	völlig	völlig	ADJ	ADJD	_	9	advmod	_	_
 9	Meister	Meister	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	12	punct	_	_
-11	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	geht	gehen	VERB	VVFIN	_	9	parataxis	_	_
 13	sicher	sicher	ADV	ADV	_	12	advmod	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
@@ -37791,7 +37791,7 @@
 # sent_id = athenaeum-f296-s1
 # text = Ungeachtet er so eine idyllische Natur ist, hat Fontenelle doch eine starke Antipathie gegen den Instinkt, und vergleicht das reine Talent, welches er für unmöglich hält, mit dem ganz absichtslosen Kunstfleiße der Biber.
 1	Ungeachtet	ungeachtet	ADV	ADV	_	6	advmod	_	_
-2	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 3	so	so	ADV	ADV	_	6	advmod	_	_
 4	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	6	det	_	_
 5	idyllische	idyllisch	ADJ	ADJA	_	6	amod	_	_
@@ -37815,7 +37815,7 @@
 23	Talent	Talent	NOUN	NN	Case=Acc	20	obj	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	29	punct	_	_
 25	welches	welcher	DET	PRELS	Case=Acc|PronType=Int,Rel	29	obj	_	_
-26	er	er	PRON	PPER	Case=Nom	29	nsubj	_	_
+26	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 27	für	für	ADP	APPR	_	28	case	_	_
 28	unmöglich	unmöglich	ADJ	ADJD	Case=Acc	29	advmod	_	_
 29	hält	halten	VERB	VVFIN	_	23	acl	_	SpaceAfter=No
@@ -38780,7 +38780,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f305-s6
 # text = Er schwebt am liebsten über leicht und klar strömenden Rhapsodien der Philosophie oder der Poesie und flieht schwerfällige Massen, und abgerißne Bruchstücke.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	schwebt	schweben	VERB	VVFIN	_	0	root	_	_
 3	am	an	PART	PTKA	_	4	case	_	_
 4	liebsten	lieb	ADJ	ADJD	_	2	obl	_	_
@@ -38873,7 +38873,7 @@
 # text = Krallen hat er, und wer davon geritzt worden ist, schreit, wie billig, über ihn; andre aber kann es belustigen, wie er gleichsam auf dem Dache der dramatischen Kunst herumspaziert.
 1	Krallen	kralle	NOUN	NN	Case=Acc	2	obj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	SpaceAfter=No
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	12	punct	_	_
 5	und	und	CCONJ	KON	_	12	cc	_	_
 6	wer	wer	PRON	PWS	Case=Nom	8	nsubj:pass	_	_
@@ -38897,7 +38897,7 @@
 24	belustigen	belustigen	VERB	VVINF	_	2	conj	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	35	punct	_	_
 26	wie	wie	ADV	PWAV	_	35	advmod	_	_
-27	er	er	PRON	PPER	Case=Nom	35	nsubj	_	_
+27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
 28	gleichsam	gleichsam	ADV	ADV	_	35	advmod	_	_
 29	auf	auf	ADP	APPR	_	31	case	_	_
 30	dem	der	DET	ART	Definite=Def|PronType=Art	31	det	_	_
@@ -39395,13 +39395,13 @@
 17	,	,	PUNCT	$,	_	19	punct	_	_
 18	so	so	ADV	ADV	_	19	advmod	_	_
 19	läge	liegen	VERB	VVFIN	_	0	root	_	_
-20	er	er	PRON	PPER	Case=Nom	19	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 21	zu	zu	ADV	ADV	_	22	advmod	_	_
 22	nahe	nahe	ADV	ADV	_	19	advmod	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	35	punct	_	_
 24	als	als	CCONJ	KOKOM	_	35	mark	_	_
 25	daß	daß	SCONJ	KOUS	_	35	mark	_	_
-26	er	er	PRON	PPER	Case=Nom	35	nsubj	_	_
+26	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
 27	Kennern	Kenner	NOUN	NN	Case=Dat	35	obl:arg	_	_
 28	des	der	DET	ART	Definite=Def|PronType=Art	29	det	_	_
 29	Altertums	Altertums	NOUN	NN	Case=Gen	27	nmod	_	_
@@ -39629,7 +39629,7 @@
 25	Gesichte	Gesicht	NOUN	NN	_	30	obl	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	27	punct	_	_
 27	behauptet	behaupten	VERB	VVFIN	_	30	parataxis	_	_
-28	er	er	PRON	PPER	Case=Nom	27	nsubj	_	SpaceAfter=No
+28	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	27	punct	_	_
 30	erscheine	erscheinen	VERB	VVFIN	_	21	parataxis	_	_
 31	die	der	DET	ART	Definite=Def|PronType=Art	34	det	_	_
@@ -39653,7 +39653,7 @@
 8	schreit	schreien	VERB	VVINF	_	2	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	weil	weil	SCONJ	KOUS	_	14	mark	_	_
-11	er	er	PRON	PPER	Case=Nom	14	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 12	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 13	mehr	mehr	ADV	ADV	_	14	advmod	_	_
 14	schreien	schreien	VERB	VVINF	_	8	advcl	_	_
@@ -39679,13 +39679,13 @@
 # text = Freilich kann er nicht schreien, sonst würde er gegen eine so entstellende Beschreibung und Verkennung seiner heroischen Größe die Stimme erheben.
 1	Freilich	freilich	ADV	ADV	_	5	advmod	_	_
 2	kann	können	AUX	VMFIN	_	5	aux	_	_
-3	er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
 5	schreien	schreien	VERB	VVINF	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	sonst	sonst	ADV	ADV	_	22	advmod	_	_
 8	würde	werden	AUX	VAFIN	_	22	aux	_	_
-9	er	er	PRON	PPER	Case=Nom	22	nsubj	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 10	gegen	gegen	ADP	APPR	_	14	case	_	_
 11	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	14	det	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
@@ -39948,7 +39948,7 @@
 7	nennt	nennen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	führt	führen	VERB	VVFIN	_	0	root	_	_
-10	er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Timarete	Timarete	NOUN	NN	Case=Dat	9	obl	_	SpaceAfter=No
@@ -40052,7 +40052,7 @@
 # sent_id = athenaeum-f315-s2
 # text = Sollte er nicht nächstdem auch in der menschlichen Natur zu suchen sein?
 1	Sollte	sollen	AUX	VMFIN	_	12	aux	_	_
-2	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 3	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 4	nächstdem	nächstdem	ADV	ADV	_	11	advmod	_	_
 5	auch	auch	ADV	ADV	_	9	advmod	_	_
@@ -40268,7 +40268,7 @@
 9	Grenzen	Grenze	NOUN	NN	_	10	obl	_	_
 10	eingeschlossen	einschließen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 11	;	;	PUNCT	$.	_	10	punct	_	_
-12	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	hört	hören	VERB	VVFIN	_	10	parataxis	_	_
 14	vielmehr	vielmehr	ADV	ADV	_	13	advmod	_	_
 15	gleich	gleich	ADV	ADV	_	13	advmod	_	_
@@ -40276,7 +40276,7 @@
 17	,	,	PUNCT	$,	_	21	punct	_	_
 18	und	und	CCONJ	KON	_	21	cc	_	_
 19	wo	wo	ADV	PWAV	_	21	advmod	_	_
-20	er	er	PRON	PPER	Case=Nom	21	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	aufhört	aufhören	VERB	VVFIN	_	23	advcl	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	21	punct	_	_
 23	geht	gehen	VERB	VVFIN	_	13	conj	_	_
@@ -40311,7 +40311,7 @@
 17	hat	haben	AUX	VAFIN	_	7	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	17	punct	_	_
 19	daß	daß	SCONJ	KOUS	_	30	mark	_	_
-20	er	er	PRON	PPER	Case=Nom	30	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 21	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	30	obj	_	_
 22	zu	zu	ADP	APPR	_	26	case	_	_
 23	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	26	det	_	_
@@ -40525,7 +40525,7 @@
 5	etwas	etwas	PRON	PIS	Case=Acc	6	obj	_	_
 6	entdeckt	entdecken	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
-8	er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	weiß	weiß	VERB	VVFIN	_	6	parataxis	_	_
 10	aber	aber	ADV	ADV	_	9	advmod	_	_
 11	selbst	selbst	ADV	ADV	_	9	advmod	_	_
@@ -40551,7 +40551,7 @@
 # sent_id = athenaeum-f322-s3
 # text = Oder er hat etwas Neues gehört, ohne es gehörig zu vernehmen, und in diesem Sinne sind die Kantianer die größten Tonkünstler der Literatur.
 1	Oder	oder	CCONJ	KON	_	6	cc	_	_
-2	er	er	PRON	PPER	Case=Nom	6	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 3	hat	haben	AUX	VAFIN	_	6	aux	_	_
 4	etwas	etwas	PRON	PIS	_	6	nmod	_	_
 5	Neues	neue	NOUN	NN	_	4	nmod	_	_
@@ -40873,7 +40873,7 @@
 45	sei	sein	AUX	VAFIN	_	44	cop	_	SpaceAfter=No
 46	,	,	PUNCT	$,	_	52	punct	_	_
 47	da	da	SCONJ	KOUS	_	52	mark	_	_
-48	er	er	PRON	PPER	Case=Nom	52	nsubj	_	_
+48	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
 49	keine	kein	DET	PIAT	PronType=Neg	50	advmod	_	_
 50	Vorstellung	Vorstellung	NOUN	NN	Case=Acc	52	obj	_	_
 51	davon	davon	ADV	PROAV	PronType=Dem	52	advmod	_	_
@@ -42137,7 +42137,7 @@
 39	Voraussetzung	Voraussetzung	NOUN	NN	_	34	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	$,	_	47	punct	_	_
 41	daß	daß	SCONJ	KOUS	_	47	mark	_	_
-42	er	er	PRON	PPER	Case=Nom	47	nsubj	_	_
+42	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
 43	nicht	nicht	PART	PTKNEG	_	44	advmod	_	_
 44	mehr	mehr	ADV	ADV	_	47	advmod	_	_
 45	zu	zu	PART	PTKZU	_	46	mark	_	_
@@ -42424,7 +42424,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f336-s12
 # text = Er stehe frei und bewege sich seiner Natur gemäß, ohne zu fragen, wer ihn ansieht und wie.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	stehe	stehen	VERB	VVFIN	_	0	root	_	_
 3	frei	frei	ADJ	ADJD	_	2	xcomp	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
@@ -42482,7 +42482,7 @@
 30	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	29	obj	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	29	punct	_	_
 32	daß	daß	SCONJ	KOUS	_	46	mark	_	_
-33	er	er	PRON	PPER	Case=Nom	46	nsubj	_	_
+33	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	_
 34	auch	auch	ADV	ADV	_	46	advmod	_	_
 35	das	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	46	obj	_	SpaceAfter=No
 36	,	,	PUNCT	$,	_	39	punct	_	_
@@ -42961,7 +42961,7 @@
 11	und	und	CCONJ	KON	_	17	cc	_	_
 12	wie	wie	ADV	PWAV	_	17	advmod	_	_
 13	ist	sein	AUX	VAFIN	_	17	cop	_	_
-14	er	er	PRON	PPER	Case=Nom	17	nsubj	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 15	nun	nun	ADV	ADV	_	17	advmod	_	_
 16	ganz	ganz	ADV	ADV	_	17	advmod	_	_
 17	herunter	herunter	ADV	ADV	_	6	conj	_	SpaceAfter=No
@@ -43266,7 +43266,7 @@
 20	,	,	PUNCT	$,	_	25	punct	_	_
 21	oder	oder	CCONJ	KON	_	25	cc	_	_
 22	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	25	obl:arg	_	_
-23	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
+23	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	es	es	PRON	PPER	_	25	expl	_	_
 25	gäbe	geben	VERB	VVFIN	_	18	conj	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	25	punct	_	_
@@ -43563,7 +43563,7 @@
 17	,	,	PUNCT	$,	_	19	punct	_	_
 18	so	so	ADV	ADV	_	19	advmod	_	_
 19	hat	haben	AUX	VAFIN	_	16	parataxis	_	_
-20	er	er	PRON	PPER	Case=Nom	19	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 21	Geist	Geist	NOUN	NN	Case=Acc	19	obj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	16	punct	_	_
 
@@ -43572,7 +43572,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f339-s5
 # text = Er darf sich nur regen und lieben, so ist er ganz Seele; und wann er reif ist, hat er Sinn für alles.
-1	Er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	darf	dürfen	AUX	VMFIN	_	5	aux	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	5	obj	_	_
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
@@ -43582,18 +43582,18 @@
 8	,	,	PUNCT	$,	_	13	punct	_	_
 9	so	so	ADV	ADV	_	13	advmod	_	_
 10	ist	sein	AUX	VAFIN	_	13	cop	_	_
-11	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	ganz	ganz	ADV	ADV	_	13	advmod	_	_
 13	Seele	Seele	NOUN	NN	Case=Nom	5	parataxis	_	SpaceAfter=No
 14	;	;	PUNCT	$.	_	21	punct	_	_
 15	und	und	CCONJ	KON	_	18	cc	_	_
 16	wann	wann	ADV	PWAV	_	18	mark	_	_
-17	er	er	PRON	PPER	Case=Nom	18	nsubj	_	_
+17	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	reif	reif	ADJ	ADJD	_	21	advcl	_	_
 19	ist	sein	AUX	VAFIN	_	18	cop	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	18	punct	_	_
 21	hat	haben	AUX	VAFIN	_	5	advcl	_	_
-22	er	er	PRON	PPER	Case=Nom	21	nsubj	_	_
+22	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 23	Sinn	Sinn	NOUN	NN	Case=Acc	21	obj	_	_
 24	für	für	ADP	APPR	_	25	case	_	_
 25	alles	alle	DET	PIS	Case=Acc|PronType=Tot	21	obl	_	SpaceAfter=No
@@ -44114,7 +44114,7 @@
 17	bleiben	bleiben	VERB	VVINF	_	8	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	21	punct	_	_
 19	wo	wo	ADV	PWAV	_	21	advmod	_	_
-20	er	er	PRON	PPER	Case=Nom	21	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	ist	sein	VERB	VVFIN	_	17	advcl	_	SpaceAfter=No
 22	:	:	PUNCT	$.	_	25	punct	_	_
 23	in	in	ADP	APPR	_	25	case	_	_
@@ -44665,7 +44665,7 @@
 22	fodern	fodern	VERB	VVINF	_	16	advcl	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	31	punct	_	_
 24	wenn	wenn	SCONJ	KOUS	_	31	mark	_	_
-25	er	er	PRON	PPER	Case=Nom	31	nsubj	_	_
+25	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 26	durch	durch	ADP	APPR	_	28	case	_	_
 27	den	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
 28	Handel	Handel	NOUN	NN	Case=Acc	31	obl	_	_
@@ -44712,7 +44712,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f353-s3
 # text = Er gebe ihn der gemeinen Meinung ad depositum und erwerbe sich dadurch ein Recht ihn wieder zu fodern, daß er mit Glück und Fleiß einen Speditionshandel treibt mit fremden Verdiensten, Talenten und Einfällen, feinem und Mittelgut, wie es jeder verlangt.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gebe	geben	VERB	VVFIN	_	0	root	_	_
 3	ihn	ihn	PRON	PPER	Case=Acc	2	obj	_	_
 4	der	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	6	det	_	_
@@ -44732,7 +44732,7 @@
 18	fodern	fodern	VERB	VVINF	_	10	xcomp	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	28	punct	_	_
 20	daß	daß	SCONJ	KOUS	_	28	mark	_	_
-21	er	er	PRON	PPER	Case=Nom	28	nsubj	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 22	mit	mit	ADP	APPR	_	23	case	_	_
 23	Glück	Glück	NOUN	NN	Case=Dat	28	obl	_	_
 24	und	und	CCONJ	KON	_	25	cc	_	_
@@ -44841,7 +44841,7 @@
 31	spekulierten	spekulieren	VERB	VVINF	_	27	xcomp	_	SpaceAfter=No
 32	,	,	PUNCT	$,	_	31	punct	_	_
 33	was	was	PRON	PWS	_	31	ccomp	_	_
-34	er	er	PRON	PPER	Case=Nom	33	nsubj	_	_
+34	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 35	sein	sein	AUX	VAINF	_	33	cop	_	_
 36	solle	sollen	AUX	VMFIN	_	33	aux	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	1	punct	_	_
@@ -45065,7 +45065,7 @@
 10	,	,	PUNCT	$,	_	11	punct	_	_
 11	Vorübungen	Vorübung	NOUN	NN	_	7	conj	_	SpaceAfter=No
 12	;	;	PUNCT	$.	_	5	punct	_	_
-13	er	er	PRON	PPER	Case=Nom	14	nsubj	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	billigt	billigen	VERB	VVFIN	_	5	parataxis	_	_
 15	auch	auch	ADV	ADV	_	14	advmod	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
@@ -45087,7 +45087,7 @@
 32	lehrreich	lehrreich	ADV	ADV	_	33	advmod	_	_
 33	einkleiden	einkleiden	VERB	VVPP	_	25	acl	_	_
 34	und	und	CCONJ	KON	_	36	cc	_	_
-35	er	er	PRON	PPER	Case=Nom	36	nsubj	_	_
+35	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	hat	haben	VERB	VVFIN	_	14	conj	_	_
 37	das	der	DET	ART	Definite=Def|PronType=Art	38	det	_	_
 38	Zutrauen	zutrauen	NOUN	NN	Case=Acc	36	obj	_	SpaceAfter=No
@@ -45148,7 +45148,7 @@
 4	einmal	einmal	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	14	punct	_	_
 6	indem	indem	SCONJ	KOUS	_	14	mark	_	_
-7	er	er	PRON	PPER	Case=Nom	14	nsubj	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 8	das	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Wesen	Wesen	NOUN	NN	Case=Acc	14	obj	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
@@ -45210,7 +45210,7 @@
 21	dann	dann	ADV	ADV	_	22	advmod	_	_
 22	sieht	sehen	VERB	VVFIN	_	18	conj	_	_
 23	daß	daß	SCONJ	KOUS	_	28	mark	_	_
-24	er	er	PRON	PPER	Case=Nom	28	nsubj	_	_
+24	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 25	die	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
 26	Theologie	Theologie	NOUN	NN	Case=Acc	28	obj	_	_
 27	dazu	dazu	ADV	ADV	PronType=Dem	28	advmod	_	_
@@ -45239,7 +45239,7 @@
 50	philosophie	philosophie	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	46	obl	_	Lang=fr|SpaceAfter=No
 51	,	,	PUNCT	$,	_	58	punct	_	_
 52	wenn	wenn	SCONJ	KOUS	_	58	mark	_	_
-53	er	er	PRON	PPER	Case=Nom	58	nsubj	_	_
+53	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	58	nsubj	_	_
 54	noch	noch	ADV	ADV	_	58	advmod	_	_
 55	so	so	ADV	ADV	_	56	advmod	_	_
 56	viel	viel	DET	ADJA	PronType=Ind	57	det	_	_
@@ -45499,7 +45499,7 @@
 8	Existenz	Existenz	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	sondern	sondern	CCONJ	KON	_	12	cc	_	_
-11	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	besitzt	besitzen	VERB	VVFIN	_	6	conj	_	_
 13	auch	auch	ADV	ADV	_	12	advmod	_	_
 14	als	als	ADP	APPR	_	15	case	_	_
@@ -45930,7 +45930,7 @@
 3	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	8	mark	_	_
-6	er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	uns	uns	PRON	PPER	Case=Acc	8	obj	_	_
 8	imponiert	imponieren	VERB	VVFIN	_	3	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
@@ -45953,7 +45953,7 @@
 26	,	,	PUNCT	$,	_	32	punct	_	_
 27	und	und	CCONJ	KON	_	32	cc	_	_
 28	daß	daß	SCONJ	KOUS	_	32	mark	_	_
-29	er	er	PRON	PPER	Case=Nom	32	nsubj:pass	_	_
+29	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
 30	uns	uns	PRON	PPER	Case=Dat	32	obl:arg	_	_
 31	verhaßt	verhassen	ADJ	ADJD	_	32	xcomp	_	_
 32	wird	werden	AUX	VAFIN	_	25	conj	_	SpaceAfter=No
@@ -46030,7 +46030,7 @@
 24	wir	wir	PRON	PPER	Case=Nom	23	nsubj	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	58	punct	_	_
 26	daß	daß	SCONJ	KOUS	_	58	mark	_	_
-27	er	er	PRON	PPER	Case=Nom	58	nsubj	_	_
+27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	58	nsubj	_	_
 28	uns	uns	PRON	PPER	Case=Dat	58	obl:arg	_	_
 29	durch	durch	ADP	APPR	_	32	case	_	_
 30	das	der	DET	ART	Definite=Def|PronType=Art	32	det	_	_
@@ -46314,7 +46314,7 @@
 35	lieben	lieben	VERB	VVINF	_	7	conj	_	SpaceAfter=No
 36	,	,	PUNCT	$,	_	39	punct	_	_
 37	wie	wie	ADV	PWAV	_	39	mark	_	_
-38	er	er	PRON	PPER	Case=Nom	39	nsubj	_	_
+38	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
 39	ist	sein	AUX	VAFIN	_	35	advcl	_	SpaceAfter=No
 40	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -46813,7 +46813,7 @@
 # sent_id = athenaeum-f367-s3
 # text = Soll er nicht sein ganzes Leben dem Geschäft widmen, literarische Materie in Formen zu bilden, die auf eine große Art zweckmäßig und nützlich sind?
 1	Soll	sollen	AUX	VMFIN	_	9	aux	_	_
-2	er	er	PRON	PPER	Case=Nom	9	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 3	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
 4	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 5	ganzes	ganz	ADJ	ADJA	_	6	amod	_	_
@@ -46957,7 +46957,7 @@
 17	,	,	PUNCT	$,	_	14	punct	_	_
 18	darstellt	darstellen	VERB	VVFIN	_	1	csubj	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	23	punct	_	_
-20	er	er	PRON	PPER	Case=Nom	23	nsubj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 21	mag	mögen	AUX	VMFIN	_	23	aux	_	_
 22	nun	nun	ADV	ADV	_	23	advmod	_	_
 23	gewählt	wählen	VERB	VVPP	_	1	parataxis	_	_
@@ -46965,7 +46965,7 @@
 25	oder	oder	CCONJ	KON	_	26	cc	_	_
 26	nicht	nicht	PART	PTKNEG	_	23	advmod	_	SpaceAfter=No
 27	;	;	PUNCT	$.	_	33	punct	_	_
-28	er	er	PRON	PPER	Case=Nom	33	nsubj	_	_
+28	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 29	ist	sein	AUX	VAFIN	_	33	cop	_	_
 30	wie	wie	CCONJ	KOKOM	_	33	case	_	_
 31	die	der	DET	ART	Definite=Def|PronType=Art	33	det	_	_
@@ -47098,7 +47098,7 @@
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Repräsentation	Repräsentation	NOUN	NN	_	4	nmod	_	_
 7	kann	können	AUX	VMFIN	_	9	aux	_	_
-8	er	er	PRON	PPER	Case=Nom	9	nsubj:pass	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
 9	gemildert	mildern	VERB	VVPP	_	0	root	_	_
 10	und	und	CCONJ	KON	_	11	cc	_	_
 11	legitimiert	legitimieren	VERB	VVPP	_	9	conj	_	_
@@ -47673,7 +47673,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f375-s6
 # text = Er hat unermeßlich viel Projekte oder gar keins: denn Energie ist zwar mehr als bloße Agilität, es ist wirkende, bestimmt nach außen wirkende Kraft, aber universelle Kraft, durch die der ganze Mensch sich bildet und handelt.
-1	Er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
 3	unermeßlich	unermeßlich	ADV	ADV	_	2	advmod	_	_
 4	viel	viel	DET	PIAT	PronType=Ind	5	det	_	_
@@ -47923,7 +47923,7 @@
 # text = Gewiß ist er ein Favorit deutscher Dichter und Philosophen.
 1	Gewiß	gewiß	ADV	ADV	_	5	advmod	_	_
 2	ist	sein	AUX	VAFIN	_	5	cop	_	_
-3	er	er	PRON	PPER	Case=Nom	5	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
 5	Favorit	Favorit	NOUN	NN	Case=Nom	0	root	_	_
 6	deutscher	deutsch	ADJ	ADJA	_	7	amod	_	_
@@ -47937,7 +47937,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f379-s3
 # text = Er muß also wohl auch sein Gutes haben, und wenn sein Charakter in der unbedingten Willkürlichkeit und Absichtlichkeit, und in der Liebhaberei am Vernichten, Verwirren und Verführen besteht, so findet man ihn unstreitig nicht selten in der schönsten Gesellschaft.
-1	Er	er	PRON	PPER	Case=Nom	8	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	_	8	aux	_	_
 3	also	also	ADV	ADV	_	8	advmod	_	_
 4	wohl	wohl	ADV	ADV	_	8	advmod	_	_
@@ -48016,7 +48016,7 @@
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	Vierschrötiges	vierschrötige	PROPN	NE	_	7	conj	_	SpaceAfter=No
 11	;	;	PUNCT	$.	_	13	punct	_	_
-12	er	er	PRON	PPER	Case=Nom	13	nsubj	_	_
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	paßt	passen	VERB	VVFIN	_	4	parataxis	_	_
 14	höchstens	höchstens	ADV	ADV	_	13	advmod	_	_
 15	nur	nur	ADV	ADV	_	13	advmod	_	_
@@ -48470,7 +48470,7 @@
 # sent_id = athenaeum-f382-s2
 # text = Wird er mißverstanden, so entsteht eine falsche Tendenz.
 1	Wird	werden	AUX	VAFIN	_	3	aux:pass	_	_
-2	er	er	PRON	PPER	Case=Nom	3	nsubj:pass	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 3	mißverstanden	mißverstehen	VERB	VVPP	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	so	so	ADV	ADV	_	6	advmod	_	_
@@ -48530,7 +48530,7 @@
 # sent_id = athenaeum-f383-s2
 # text = Äußert er sich satirisch, so gibt das die eigentlichen Sarkasmen.
 1	Äußert	äußern	VERB	VVFIN	_	0	root	_	_
-2	er	er	PRON	PPER	Case=Nom	1	nsubj	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	1	obj	_	_
 4	satirisch	satirisch	ADV	ADV	_	1	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
@@ -48547,7 +48547,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f383-s3
 # text = Er muß ordentlich systematisch sein, und doch auch wieder nicht; bei aller Vollständigkeit muß dennoch etwas zu fehlen scheinen, wie abgerissen.
-1	Er	er	PRON	PPER	Case=Nom	4	nsubj	_	_
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	_	4	aux	_	_
 3	ordentlich	ordentlich	ADV	ADV	_	4	advmod	_	_
 4	systematisch	systematisch	ADJ	ADJD	_	0	root	_	_
@@ -48720,7 +48720,7 @@
 14	,	,	PUNCT	$,	_	19	punct	_	_
 15	an	an	ADP	APPR	_	16	case	_	_
 16	die	der	PRON	PRELS	PronType=Dem,Rel	19	obl	_	_
-17	er	er	PRON	PPER	Case=Nom	19	nsubj	_	_
+17	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 18	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	19	obj	_	_
 19	akkomodiert	akkomodieren	VERB	VVFIN	_	13	conj	_	_
 20	usw	usw	X	XY	_	19	dep	_	SpaceAfter=No
@@ -48941,7 +48941,7 @@
 26	Menschen	Mensch	NOUN	NN	Case=Nom	18	advcl	_	_
 27	sind	sein	AUX	VAFIN	_	26	cop	_	_
 28	als	als	CCONJ	KOKOM	_	29	case	_	_
-29	er	er	PRON	PPER	_	26	nmod	_	SpaceAfter=No
+29	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	4	punct	_	_
 
 # newpar id = athenaeum-f387
@@ -49632,7 +49632,7 @@
 18	sein	sein	AUX	VAINF	_	17	cop	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	25	punct	_	_
 20	daß	daß	SCONJ	KOUS	_	25	mark	_	_
-21	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 22	allenfalls	allenfalls	ADV	ADV	_	25	advmod	_	_
 23	alles	alle	DET	PIAT	PronType=Tot	24	det	_	_
 24	Moderne	Moderne	NOUN	NN	Case=Acc	25	obj	_	_
@@ -49923,7 +49923,7 @@
 8	Widerspruch	Widerspruch	NOUN	NN	Case=Acc	9	obj	_	_
 9	kreditieren	kreditieren	VERB	VVINF	_	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	12	punct	_	_
-11	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	weiß	weiß	VERB	VVFIN	_	9	parataxis	_	_
 13	alle	alle	DET	PIAT	PronType=Tot	14	det	_	_
 14	Bedürfnisse	Bedürfnis	NOUN	NN	Case=Acc	17	obj	_	_
@@ -50164,7 +50164,7 @@
 18	und	und	CCONJ	KON	_	19	cc	_	_
 19	besser	gut	ADV	ADV	_	17	conj	_	_
 20	als	als	CCONJ	KOKOM	_	21	case	_	_
-21	er	er	PRON	PPER	_	19	nmod	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
 22	selbst	selbst	ADV	ADV	_	21	advmod	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	28	punct	_	_
 24	dann	dann	ADV	ADV	_	28	advmod	_	_
@@ -50177,7 +50177,7 @@
 31	so	so	ADV	ADV	_	32	advmod	_	_
 32	gut	gut	ADV	ADV	_	17	conj	_	_
 33	wie	wie	CCONJ	KOKOM	_	35	case	_	_
-34	er	er	PRON	PPER	Case=Nom	35	nsubj	_	_
+34	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
 35	selbst	selbst	ADV	ADV	_	32	nmod	_	_
 36	verstehn	verstehn	VERB	VVINF	_	0	root	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	36	punct	_	_
@@ -50980,7 +50980,7 @@
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	weiß	weiß	VERB	VVFIN	_	5	conj	_	_
 9	was	was	PRON	PWS	Case=Acc	12	obj	_	_
-10	er	er	PRON	PPER	Case=Nom	12	nsubj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	damit	damit	ADV	ADV	PronType=Dem	12	advmod	_	_
 12	will	wollen	AUX	VMFIN	_	8	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	8	punct	_	_
@@ -51007,7 +51007,7 @@
 34	sagt	sagen	VERB	VVFIN	_	26	conj	_	SpaceAfter=No
 35	,	,	PUNCT	$,	_	40	punct	_	_
 36	wenn	wenn	SCONJ	KOUS	_	40	mark	_	_
-37	er	er	PRON	PPER	Case=Nom	40	nsubj	_	_
+37	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
 38	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	40	obj	_	_
 39	entschieden	entscheiden	ADV	ADV	_	40	advmod	_	_
 40	ausdrückt	ausdrücken	VERB	VVFIN	_	34	acl	_	SpaceAfter=No
@@ -51656,7 +51656,7 @@
 30	Arabesken	Arabesk	NOUN	NN	_	43	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	37	punct	_	_
 32	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	37	obj	_	_
-33	er	er	PRON	PPER	Case=Nom	37	nsubj	_	_
+33	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
 34	aus	aus	ADP	APPR	_	36	case	_	_
 35	alten	alt	ADJ	ADJA	_	36	amod	_	_
 36	Märchen	Märchen	NOUN	NN	Case=Dat	37	obl	_	_
@@ -51770,7 +51770,7 @@
 11	allen	alle	DET	PIAT	PronType=Tot	12	det	_	_
 12	möglichen	möglich	ADJ	ADJA	_	9	amod	_	SpaceAfter=No
 13	;	;	PUNCT	$.	_	17	punct	_	_
-14	er	er	PRON	PPER	Case=Nom	17	nsubj	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 15	kann	können	AUX	VMFIN	_	17	aux	_	_
 16	nicht	nicht	PART	PTKNEG	_	17	advmod	_	_
 17	tändeln	tändeln	VERB	VVINF	_	3	parataxis	_	_
@@ -51780,13 +51780,13 @@
 21	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
 22	täuschen	täuschen	VERB	VVINF	_	17	conj	_	SpaceAfter=No
 23	;	;	PUNCT	$.	_	25	punct	_	_
-24	er	er	PRON	PPER	Case=Nom	25	nsubj	_	_
+24	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 25	verfolgt	verfolgen	VERB	VVFIN	_	3	parataxis	_	_
 26	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 27	Ziel	Ziel	NOUN	NN	Case=Acc	25	obj	_	_
 28	unermüdet	unermüdet	ADJ	ADJD	_	25	xcomp	_	_
 29	bis	bis	SCONJ	KOUS	_	33	mark	_	_
-30	er	er	PRON	PPER	Case=Nom	33	nsubj	_	_
+30	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 31	es	es	PRON	PPER	Case=Acc	33	obj	_	_
 32	ganz	ganz	ADV	ADV	_	33	advmod	_	_
 33	erreicht	erreichen	VERB	VVPP	_	25	advcl	_	_
@@ -52201,7 +52201,7 @@
 # text = Überhaupt interessiert er wohl auf die verschiedenste Art und aus ganz entgegengesetzten Ursachen.
 1	Überhaupt	überhaupt	ADV	ADV	_	2	advmod	_	_
 2	interessiert	interessieren	VERB	VVFIN	_	0	root	_	_
-3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	wohl	wohl	ADV	ADV	_	2	advmod	_	_
 5	auf	auf	ADP	APPR	_	8	case	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -52392,7 +52392,7 @@
 25	;	;	PUNCT	$.	_	30	punct	_	_
 26	kurz	kurz	ADV	ADV	_	30	advmod	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	30	punct	_	_
-28	er	er	PRON	PPER	Case=Nom	30	nsubj	_	_
+28	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 29	ist	sein	AUX	VAFIN	_	30	cop	_	_
 30	fertig	fertig	ADJ	ADJD	_	15	parataxis	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	15	punct	_	_
@@ -52477,7 +52477,7 @@
 35	Tendenzen	Tendenz	NOUN	NN	Case=Dat	30	obl	_	SpaceAfter=No
 36	,	,	PUNCT	$,	_	41	punct	_	_
 37	deren	der	PRON	PRELS	Case=Gen|PronType=Dem,Rel	41	obl	_	_
-38	er	er	PRON	PPER	Case=Nom	41	nsubj	_	_
+38	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 39	so	so	ADV	ADV	_	40	advmod	_	_
 40	viele	viel	DET	PIS	Case=Acc|PronType=Ind	41	obj	_	_
 41	hat	haben	VERB	VVFIN	_	35	acl	_	SpaceAfter=No
@@ -52546,7 +52546,7 @@
 # text = Überhaupt läßt er sich fast nie herab, die Personen darzustellen; genug daß er sie sich denkt, und zuweilen eine treffende Bemerkung über sie sagt.
 1	Überhaupt	überhaupt	ADV	ADV	_	2	advmod	_	_
 2	läßt	lassen	VERB	VVFIN	_	0	root	_	_
-3	er	er	PRON	PPER	Case=Nom	2	nsubj	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
 5	fast	fast	ADV	ADV	_	6	advmod	_	_
 6	nie	nie	ADV	ADV	_	2	advmod	_	_
@@ -52558,7 +52558,7 @@
 12	;	;	PUNCT	$.	_	13	punct	_	_
 13	genug	genug	ADV	ADV	_	2	parataxis	_	_
 14	daß	daß	SCONJ	KOUS	_	18	mark	_	_
-15	er	er	PRON	PPER	Case=Nom	18	nsubj	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 16	sie	sie	PRON	PPER	_	18	xcomp	_	_
 17	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	18	obj	_	_
 18	denkt	denken	VERB	VVFIN	_	13	advcl	_	SpaceAfter=No
@@ -52690,7 +52690,7 @@
 37	ist	sein	AUX	VAFIN	_	29	acl	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	46	punct	_	_
 39	daß	daß	SCONJ	KOUS	_	46	mark	_	_
-40	er	er	PRON	PPER	Case=Nom	46	nsubj	_	_
+40	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	_
 41	nicht	nicht	PART	PTKNEG	_	46	advmod	_	_
 42	um	um	ADP	APPR	_	43	case	_	_
 43	sie	sie	PRON	PPER	Case=Acc	45	obl	_	_
