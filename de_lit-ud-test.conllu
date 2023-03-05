@@ -43761,8 +43761,8 @@
 15	,	,	PUNCT	$,	_	14	punct	_	_
 16	kann	können	AUX	VMFIN	_	24	aux	_	_
 17	auf	auf	ADP	APPR	_	19	case	_	_
-18	einzelne	einzeln	ADJ	ART	Degree=Pos	19	det	_	_
-19	Momente	Moment	NOUN	NN	_	24	obl	_	_
+18	einzelne	einzeln	ADJ	ART	Degree=Pos	19	amod	_	_
+19	Momente	Moment	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Welt	Welt	NOUN	NN	Case=Acc	24	obj	_	_
 22	aus	aus	ADP	APPR	_	23	case	_	_
@@ -43789,8 +43789,8 @@
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	nur	nur	ADV	ADV	_	24	advmod	_	_
 14	auf	auf	ADP	APPR	_	16	case	_	_
-15	einzelne	einzeln	ADJ	ART	Degree=Pos	16	det	_	_
-16	Momente	Moment	NOUN	NN	_	24	obl	_	_
+15	einzelne	einzeln	ADJ	ART	Degree=Pos	16	amod	_	_
+16	Momente	Moment	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
 17	wie	wie	CCONJ	KOKOM	_	20	case	_	_
 18	durch	durch	ADP	APPR	_	20	case	_	_
 19	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	20	det	_	_
