@@ -1216,7 +1216,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f32-s1
 # text = Einige verdampfen, andre werden zu Wasser.
-1	Einige	einiger	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Einige	einige	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	verdampfen	verdampfen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
 4	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
@@ -1921,7 +1921,7 @@
 5	Deutschheit	Deutschheit	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	12	punct	_	_
 7	welches	welcher	DET	PRELS	Case=Acc|PronType=Int,Rel	12	obj	_	_
-8	einige	einiger	DET	PIAT	_	11	det	_	_
+8	einige	einige	DET	PIAT	PronType=Ind	11	det	_	_
 9	große	groß	ADJ	ADJA	_	11	amod	_	_
 10	vaterländische	vaterländisch	ADJ	ADJA	_	11	amod	_	_
 11	Erfinder	Erfind	NOUN	NN	Case=Nom	12	nsubj	_	_
@@ -18539,7 +18539,7 @@
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	wenn	wenn	SCONJ	KOUS	_	15	mark	_	_
 13	nur	nur	ADV	ADV	_	15	advmod	_	_
-14	einiges	einige	PRON	PIS	Case=Nom	15	nsubj	_	_
+14	einiges	einige	DET	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
 15	aufgeht	aufgehen	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 16	!	!	PUNCT	$.	_	2	punct	_	_
 
@@ -20524,7 +20524,7 @@
 31	geschrieben	schreiben	VERB	VVPP	_	27	acl	_	_
 32	hat	haben	AUX	VAFIN	_	31	aux	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	31	punct	_	_
-34	einige	einig	DET	PIAT	_	35	det	_	_
+34	einige	einige	DET	PIAT	PronType=Ind	35	det	_	_
 35	Notiz	Notiz	NOUN	NN	Case=Acc	37	obj	_	_
 36	zu	zu	PART	PTKZU	_	37	mark	_	_
 37	verschaffen	verschaffen	VERB	VVINF	_	21	xcomp	_	SpaceAfter=No
@@ -21656,7 +21656,7 @@
 1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Untertanen	Untertane	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
-4	einigen	einiger	DET	PIAT	_	5	det	_	_
+4	einigen	einige	DET	PIAT	PronType=Ind	5	det	_	_
 5	Ländern	Land	NOUN	NN	_	6	nmod	_	_
 6	rühmen	rühmen	VERB	VVFIN	_	0	root	_	_
 7	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	_
@@ -22017,7 +22017,7 @@
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	16	nsubj	_	_
 10	auf	auf	ADP	APPR	_	11	case	_	_
-11	einige	einige	PRON	PIS	_	16	obl	_	_
+11	einige	einige	DET	PIS	PronType=Ind	16	obl	_	_
 12	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	Wünsche	Wunsch	NOUN	NN	_	11	nmod	_	_
 14	völlig	völlig	ADJ	ADJD	_	16	advmod	_	_
@@ -22338,7 +22338,7 @@
 # sent_id = athenaeum-f74-s5
 # text = Was einige Logiker so genannt und zu berechnen versucht haben, ist Möglichkeit.
 1	Was	was	PRON	PWS	Case=Acc	5	obj	_	_
-2	einige	einiger	DET	PIAT	_	3	det	_	_
+2	einige	einige	DET	PIAT	PronType=Ind	3	det	_	_
 3	Logiker	Logiker	NOUN	NN	Case=Nom	5	nsubj	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
 5	genannt	nennen	VERB	VVPP	_	13	csubj	_	_
@@ -22569,7 +22569,7 @@
 9	s	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
 10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
 11	ungerecht	ungerecht	ADJ	ADJD	_	0	root	_	_
-12	einige	einiger	DET	PIAT	_	13	det	_	_
+12	einige	einige	DET	PIAT	PronType=Ind	13	det	_	_
 13	Narren	Narr	NOUN	NN	Case=Acc	14	obj	_	_
 14	einzusperren	einzperren	VERB	VVIZU	_	11	xcomp	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	22	punct	_	_
@@ -23647,7 +23647,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f95-s1
 # text = Einiges muß die Philosophie einstweilen auf ewig voraussetzen, und sie darf es, weil sie es muß.
-1	Einiges	einig	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+1	Einiges	einige	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	_
 2	muß	müssen	AUX	VMFIN	_	8	aux	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Philosophie	Philosophie	NOUN	NN	Case=Nom	8	nsubj	_	_
@@ -24081,7 +24081,7 @@
 26	verunglückte	verunglücken	ADJ	ADJA	_	33	advcl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	26	punct	_	_
 28	leicht	leicht	ADV	ADV	_	33	advmod	_	_
-29	einige	einiger	DET	PIAT	_	30	det	_	_
+29	einige	einige	DET	PIAT	PronType=Ind	30	det	_	_
 30	Wochen	Woche	NOUN	NN	_	33	obl	_	_
 31	ohne	ohne	ADP	APPR	_	32	case	_	_
 32	Wahrheit	Wahrheit	NOUN	NN	Case=Acc	33	obl	_	_
@@ -25442,7 +25442,7 @@
 9	bleibt	bleiben	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	daß	dass	SCONJ	KOUS	_	14	mark	_	_
-12	einige	einiger	DET	PIAT	_	13	det	_	_
+12	einige	einige	DET	PIAT	PronType=Ind	13	det	_	_
 13	Teile	Teil	NOUN	NN	Case=Nom	14	nsubj	_	_
 14	aktiv	aktiv	ADJ	ADJD	_	9	advcl	_	_
 15	andre	andre	X	FM	_	16	cc	_	_
@@ -35798,7 +35798,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f265-s1
 # text = Einige haben Genie zur Wahrheit; viele haben Talent zum Irren.
-1	Einige	einiger	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Einige	einige	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	haben	haben	VERB	VVFIN	_	0	root	_	_
 3	Genie	Genie	NOUN	NN	Case=Acc	2	obj	_	_
 4	zur	zu	ADP	APPRART	_	5	case	_	_
@@ -36274,7 +36274,7 @@
 28	gewiß	gewiß	ADV	ADV	_	31	advmod	_	_
 29	aber	aber	CCONJ	KOKON	_	31	cc	_	_
 30	auch	auch	ADV	ADV	_	31	advmod	_	_
-31	einige	einige	PRON	PIS	_	26	conj	_	_
+31	einige	einige	DET	PIS	PronType=Ind	26	conj	_	_
 32	die	der	PRON	PIS	Case=Nom|PronType=Dem,Rel	34	nsubj	_	_
 33	es	es	PRON	PPER	Case=Acc	34	obj	_	_
 34	mystifizieren	mystifizieren	VERB	VVFIN	_	31	acl	_	SpaceAfter=No
@@ -38479,7 +38479,7 @@
 3	Philosophie	Philosophie	NOUN	NN	Case=Nom	11	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	5	punct	_	_
 5	vermuten	vermuten	VERB	VVFIN	_	11	parataxis	_	_
-6	einige	einige	PRON	PIS	Case=Nom	5	nsubj	_	SpaceAfter=No
+6	einige	einige	DET	PIS	Case=Nom|PronType=Ind	5	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	5	punct	_	_
 8	dürfte	dürfen	AUX	VMFIN	_	11	aux	_	_
 9	wieder	wieder	ADV	ADV	_	11	advmod	_	_
@@ -41155,7 +41155,7 @@
 11	von	von	ADP	APPR	_	12	case	_	_
 12	selbst	selbst	PRON	PDS	Case=Dat	18	obl	_	_
 13	unter	unter	ADP	APPR	_	15	case	_	_
-14	einige	einiger	DET	PIAT	_	15	det	_	_
+14	einige	einige	DET	PIAT	PronType=Ind	15	det	_	_
 15	Hauptrubriken	Hauptrubrik	NOUN	NN	_	18	obl	_	_
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	ordnen	ordnen	VERB	VVINF	_	18	xcomp	_	_
@@ -41167,7 +41167,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f327-s5
 # text = Einige haben am meisten Talent für die Anbetung des Mittlers, für Wunder und Gesichte.
-1	Einige	einiger	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Einige	einige	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	haben	haben	VERB	VVFIN	_	0	root	_	_
 3	am	an	PART	PTKA	_	4	case	_	_
 4	meisten	meister	PRON	PIS	_	2	obl	_	_
@@ -41687,7 +41687,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f331-s2
 # text = Einige, weil sie überhaupt keines, auch nicht an andern, fähig sind.
-1	Einige	einiger	PRON	PIS	_	0	root	_	SpaceAfter=No
+1	Einige	einige	DET	PIS	PronType=Ind	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	13	punct	_	_
 3	weil	weil	SCONJ	KOUS	_	13	mark	_	_
 4	sie	sie	PRON	PPER	Case=Nom	13	nsubj	_	_
@@ -49387,7 +49387,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f390-s3
 # text = Einige Ökonomen bauen gern, andre flicken lieber, andre müssen immer etwas bringen, andre treiben, andre versuchen alles, und halten sich überall an, andre legen immer zurecht und machen Fächer, andre sehen zu und machen nach.
-1	Einige	einiger	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Einige	einige	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	Ökonomen	Ökonom	VERB	VVFIN	_	3	nsubj	_	_
 3	bauen	bauen	VERB	VVFIN	_	0	root	_	_
 4	gern	gern	ADV	ADV	_	3	advmod	_	SpaceAfter=No
