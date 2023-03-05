@@ -3827,7 +3827,7 @@
 # sent_id = lyceum-f69-s7
 # text = Im ersten Falle gibts reine Tendenzen, Projekte die so weit sind, wie der blaue Himmel, oder wenn's hoch kömmt, skizzierte Fantasien: im letzten zeigt sich jene harmonisch ausgebildete Kunst-Plattheit, in welcher die größten engländischen Kritiker so klassisch sind.
 1	Im	in	ADP	APPRART	_	3	case	_	_
-2	ersten	erster	ADJ	ADJA	_	3	amod	_	_
+2	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	3	amod	_	_
 3	Falle	Fall	NOUN	NN	_	4	obl	_	_
 4	gibts	gibt	ADV	ADV	_	0	root	_	_
 5	reine	rein	ADJ	ADJA	_	6	amod	_	_
@@ -3884,7 +3884,7 @@
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Kennzeichen	Kennzeichen	NOUN	NN	Case=Nom	0	root	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-4	ersten	erster	ADJ	ADJA	_	5	amod	_	_
+4	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	5	amod	_	_
 5	Gattung	Gattung	NOUN	NN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	des	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
@@ -5790,7 +5790,7 @@
 10	ist	sein	AUX	VAFIN	_	17	cop	_	_
 11	doch	doch	ADV	ADV	_	17	advmod	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
-13	erste	erster	ADJ	ADJA	_	15	amod	_	_
+13	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	15	amod	_	_
 14	frische	frisch	ADJ	ADJA	_	15	amod	_	_
 15	Eindruck	Eindruck	NOUN	NN	Case=Nom	17	nsubj	_	_
 16	einmal	einmal	ADV	ADV	_	17	advmod	_	_
@@ -6527,7 +6527,7 @@
 3	das	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	höchste	hoch	ADJ	ADJA	_	0	root	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
-6	erste	erster	ADJ	ADJA	_	4	conj	_	_
+6	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	4	conj	_	_
 7	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	Art	Art	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	4	punct	_	_
@@ -6835,7 +6835,7 @@
 17	betrifft	betreffen	VERB	VVFIN	_	21	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	17	punct	_	_
 19	das	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
-20	erste	erster	ADJ	ADJA	_	21	amod	_	_
+20	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	21	amod	_	_
 21	Volk	Volk	NOUN	NN	Case=Nom	0	root	_	_
 22	in	in	ADP	APPR	_	24	case	_	_
 23	der	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
@@ -9708,7 +9708,7 @@
 10	,	,	PUNCT	$,	_	22	punct	_	_
 11	wenn	wenn	SCONJ	KOUS	_	22	mark	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
-13	erste	erster	ADJ	ADJA	Case=Nom	22	nsubj	_	_
+13	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|NumType=Ord	22	nsubj	_	_
 14	nur	nur	ADV	ADV	_	15	advmod	_	_
 15	abwechselnde	abwechselnd	ADJ	ADJA	_	16	amod	_	_
 16	Erleuchtungen	Erleuchtung	NOUN	NN	Case=Acc	22	obj	_	SpaceAfter=No
@@ -9835,7 +9835,7 @@
 # sent_id = bluethenstaub-f24-s2
 # text = Der erste Schritt wird Blick nach Innen, absondernde Beschauung unsers Selbst.
 1	Der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	erste	erster	ADJ	ADJA	_	3	amod	_	_
+2	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	3	amod	_	_
 3	Schritt	Schritt	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	wird	werden	VERB	VVFIN	_	0	root	_	_
 5	Blick	Blick	NOUN	NN	_	4	xcomp	_	_
@@ -12429,7 +12429,7 @@
 10	Fülle	Fülle	NOUN	NN	_	4	conj	_	_
 11	mit	mit	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
-13	ersten	erster	ADJ	ADJA	Case=Dat	10	nmod	_	SpaceAfter=No
+13	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	10	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
 # newpar id = bluethenstaub-f55
@@ -12544,7 +12544,7 @@
 7	,	,	PUNCT	$,	_	3	punct	_	_
 8	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
 9	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
-10	erster	erster	ADJ	ADJA	_	11	amod	_	_
+10	erster	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	11	amod	_	_
 11	Eindruck	Eindruck	NOUN	NN	Case=Nom	13	nsubj	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Eindruck	Eindruck	NOUN	NN	Case=Nom	3	nmod	_	_
@@ -13073,7 +13073,7 @@
 9	den	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 10	durchaus	durchaus	ADV	ADV	_	11	advmod	_	_
 11	Geistigen	geistige	NOUN	NN	_	12	nmod	_	_
-12	erstes	erster	ADJ	ADJA	_	13	amod	_	_
+12	erstes	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	13	amod	_	_
 13	Glied	Glied	NOUN	NN	Case=Acc	16	nmod	_	_
 14	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	16	det	_	_
 15	unendlichen	unendlich	ADJ	ADJA	_	16	amod	_	_
@@ -14699,7 +14699,7 @@
 6	Anführer	Anführer	NOUN	NN	Case=Acc	21	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	den	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
-9	ersten	erster	ADJ	ADJA	_	10	amod	_	_
+9	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	10	amod	_	_
 10	Beamten	Beamter	NOUN	NN	_	6	appos	_	_
 11	des	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Staats	Staat	NOUN	NN	Case=Gen	10	nmod	_	SpaceAfter=No
@@ -15374,7 +15374,7 @@
 # text = In den ersten Zeiten der Entdeckung der Urtheilskraft war jedes neue Urtheil ein Fund.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-3	ersten	erster	ADJ	ADJA	_	4	amod	_	_
+3	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Zeiten	Zeit	NOUN	NN	_	14	nmod	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Entdeckung	Entdeckung	NOUN	NN	_	4	nmod	_	_
@@ -15995,7 +15995,7 @@
 1	So	so	ADV	ADV	_	2	advmod	_	_
 2	erregte	erregen	VERB	VVFIN	_	0	root	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-4	erste	erster	ADJ	ADJA	_	5	amod	_	_
+4	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	5	amod	_	_
 5	Gedanke	Gedanke	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	an	an	ADP	APPR	_	7	case	_	_
 7	Gott	Gott	NOUN	NN	_	5	nmod	_	_
@@ -16016,7 +16016,7 @@
 # text = so die erste Idee von Philosophie, von Menschheit, Weltall, u.s.w.
 1	so	so	ADV	ADV	_	4	advmod	_	_
 2	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-3	erste	erster	ADJ	ADJA	_	4	amod	_	_
+3	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Idee	Idee	NOUN	NN	_	0	root	_	_
 5	von	von	ADP	APPR	_	6	case	_	_
 6	Philosophie	Philosophie	NOUN	NN	Case=Dat	4	nmod	_	SpaceAfter=No
@@ -16425,7 +16425,7 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	eine	ein	DET	PIS	Definite=Ind|NumType=Card|PronType=Art	0	root	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-5	ersten	erster	ADJ	ADJA	_	6	amod	_	_
+5	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	_
 6	Unwissenheit	Unwissenheit	NOUN	NN	_	3	nmod	_	_
 7	entgegengesetzte	entgegengesetzt	ADJ	ADJA	_	8	amod	_	_
 8	Unwissenheit	Unwissenheit	NOUN	NN	_	6	appos	_	SpaceAfter=No
@@ -16892,7 +16892,7 @@
 # sent_id = bluethenstaub-f94-s5
 # text = Das erste Genie, das sich selbst durchdrang, fand hier den typischen Keim einer unermeßlichen Welt;
 1	Das	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	erste	erster	ADJ	ADJA	_	3	amod	_	_
+2	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	3	amod	_	_
 3	Genie	Genie	NOUN	NN	Case=Nom	10	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
@@ -18877,7 +18877,7 @@
 1	Ist	sein	AUX	VAFIN	_	4	cop	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	das	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-4	erste	erster	PRON	PIS	_	0	root	_	SpaceAfter=No
+4	erste	erst	ADJ	PIS	Degree=Pos|NumType=Ord	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
 7	hat	haben	AUX	VAFIN	_	4	parataxis	_	_
@@ -19827,7 +19827,7 @@
 11	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 12	immer	immer	ADV	ADV	_	15	advmod	_	_
 13	das	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
-14	erste	erster	PRON	PIS	_	15	xcomp	_	_
+14	erste	erst	ADJ	PIS	Degree=Pos|NumType=Ord	15	xcomp	_	_
 15	bleibt	bleiben	VERB	VVFIN	_	9	acl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	die	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
@@ -21080,7 +21080,7 @@
 13	Langenweile	Langenweile	NOUN	NN	Case=Nom	11	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	17	punct	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
-16	erste	erster	ADJ	ADJA	_	17	amod	_	_
+16	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	17	amod	_	_
 17	Regung	Regung	NOUN	NN	Case=Nom	5	acl	_	_
 18	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	Philosophie	Philosophie	NOUN	NN	_	17	nmod	_	_
@@ -21801,7 +21801,7 @@
 12-13	zum	_	_	_	_	_	_	_	_
 12	zu	zu	ADP	APPR	_	15	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	15	det	_	_
-14	ersten	erster	ADJ	ADJA	Case=Dat	15	amod	_	_
+14	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	15	amod	_	_
 15	Kuß	Kuß	NOUN	NN	Case=Dat	11	orphan	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -24305,7 +24305,7 @@
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	und	und	CCONJ	KON	_	7	cc	_	_
 6	wirklich	wirklich	ADV	ADV	_	7	advmod	_	_
-7	erste	erster	ADJ	ADJA	_	3	conj	_	_
+7	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	3	conj	_	_
 8	Postulat	Postulat	NOUN	NN	Case=Nom	15	nsubj	_	_
 9	aller	alle	DET	PIAT	PronType=Tot	11	det	_	_
 10	Kantianischen	kantianisch	ADJ	ADJA	_	11	amod	_	_
@@ -25230,7 +25230,7 @@
 13	das	der	PRON	PDS	Case=Acc|PronType=Dem,Rel	18	obj	_	_
 14	als	als	ADP	APPR	_	17	case	_	_
 15	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
-16	erstes	erster	ADJ	ADJA	_	17	amod	_	_
+16	erstes	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	17	amod	_	_
 17	Gesetz	Gesetz	NOUN	NN	_	18	obl	_	_
 18	anerkennt	anerkennen	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	29	punct	_	_
@@ -27520,7 +27520,7 @@
 39	Modernen	modern	NOUN	NN	Case=Gen	36	conj	_	SpaceAfter=No
 40	,	,	PUNCT	$,	_	43	punct	_	_
 41	den	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
-42	ersten	erster	ADJ	ADJA	_	43	amod	_	_
+42	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	43	amod	_	_
 43	Grund	Grund	NOUN	NN	Case=Acc	28	obj	_	_
 44	zu	zu	ADP	APPR	_	47	case	_	_
 45	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	47	det	_	_
@@ -28192,7 +28192,7 @@
 1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Geschichte	Geschichte	NOUN	NN	Case=Nom	10	nsubj	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-4	ersten	erster	ADJ	ADJA	_	6	amod	_	_
+4	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	6	amod	_	_
 5	römischen	römisch	ADJ	ADJA	_	6	amod	_	_
 6	Caesaren	Caesaren	NOUN	NN	_	2	nmod	_	_
 7	ist	sein	AUX	VAFIN	_	10	cop	_	_
@@ -29405,7 +29405,7 @@
 # sent_id = athenaeum-f179-s2
 # text = Fürs erste wissen sie ganz bestimmt was sie wollen.
 1	Fürs	für	ADP	APPRART	_	2	case	_	_
-2	erste	erster	ADJ	ADJA	_	3	obl	_	_
+2	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	3	obl	_	_
 3	wissen	wissen	VERB	VVFIN	_	0	root	_	_
 4	sie	sie	PRON	PPER	Case=Nom	3	nsubj	_	_
 5	ganz	ganz	ADV	ADV	_	6	advmod	_	_
@@ -34951,7 +34951,7 @@
 4	Romans	Roman	NOUN	NN	Case=Gen	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	12	punct	_	_
 6	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	8	nmod:poss	_	_
-7	erste	erster	ADJ	ADJA	_	8	amod	_	_
+7	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	8	amod	_	_
 8	Grundlinien	Grundlinie	NOUN	NN	Case=Nom	12	nsubj	_	_
 9	Platos	Plato	PROPN	NE	_	11	nmod:poss	_	_
 10	politische	politisch	ADJ	ADJA	_	11	amod	_	_
@@ -37695,7 +37695,7 @@
 60	und	und	CCONJ	KON	_	64	cc	_	_
 61	das	der	DET	ART	Definite=Def|PronType=Art	64	det	_	_
 62	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	64	det	_	_
-63	erste	erster	ADJ	ADJA	_	64	amod	_	_
+63	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	64	amod	_	_
 64	Schrift	Schrift	NOUN	NN	_	56	conj	_	SpaceAfter=No
 65	,	,	PUNCT	$,	_	68	punct	_	_
 66	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	68	nsubj	_	_
@@ -40013,7 +40013,7 @@
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	findet	finden	VERB	VVFIN	_	0	root	_	_
 14	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
-15	ersten	erster	ADJ	ADJA	_	16	amod	_	_
+15	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	16	amod	_	_
 16	Regungen	Regung	NOUN	NN	Case=Acc	13	obj	_	_
 17	vor	vor	ADP	APPR	_	20	case	_	_
 18	den	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
@@ -42008,7 +42008,7 @@
 26	oder	oder	CCONJ	KON	_	30	cc	_	_
 27	auf	auf	ADP	APPR	_	30	case	_	_
 28	den	der	DET	ART	Definite=Def|PronType=Art	30	det	_	_
-29	ersten	erster	ADJ	ADJA	_	30	amod	_	_
+29	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	30	amod	_	_
 30	Wink	Wink	NOUN	NN	_	31	obl	_	_
 31	fertig	fertig	ADJ	ADJD	_	23	conj	_	_
 32	ist	sein	AUX	VAFIN	_	31	cop	_	SpaceAfter=No
@@ -42728,7 +42728,7 @@
 69	daß	daß	SCONJ	KOUS	_	77	mark	_	_
 70	wenigstens	wenigstens	ADV	ADV	_	77	advmod	_	_
 71	der	der	DET	ART	Definite=Def|PronType=Art	73	det	_	_
-72	erste	erster	ADJ	ADJA	_	73	amod	_	_
+72	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	73	amod	_	_
 73	Grad	Grad	NOUN	NN	Case=Nom	77	nsubj	_	_
 74	niemals	niemals	ADV	ADV	_	76	advmod	_	_
 75	zu	zu	PART	PTKZU	_	76	mark	_	_
@@ -44188,7 +44188,7 @@
 32	so	so	ADV	ADV	_	38	advmod	_	_
 33	kann	können	AUX	VMFIN	_	38	aux	_	_
 34	das	der	DET	ART	Definite=Def|PronType=Art	35	det	_	_
-35	erste	erster	ADJ	ADJA	Case=Nom	38	nsubj	_	_
+35	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|NumType=Ord	38	nsubj	_	_
 36	noch	noch	ADV	ADV	_	38	advmod	_	_
 37	weniger	weniger	ADV	ADV	_	38	advmod	_	_
 38	gelten	gelten	VERB	VVFIN	_	29	parataxis	_	SpaceAfter=No
@@ -45926,7 +45926,7 @@
 # sent_id = athenaeum-f362-s10
 # text = Das erste ist, daß er uns imponiert, und das zweite, daß wir uns nach Wohlwollen und Ironie bei dem gerühmten Manne umsehn, und daß er uns verhaßt wird, wenn wir nicht beides antreffen.
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
-2	erste	erster	PRON	PIS	Case=Nom	3	nsubj	_	_
+2	erste	erst	ADJ	PIS	Case=Nom|Degree=Pos|NumType=Ord	3	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	8	mark	_	_
@@ -45980,7 +45980,7 @@
 8	,	,	PUNCT	$,	_	11	punct	_	_
 9	als	als	SCONJ	KOUS	_	11	mark	_	_
 10	das	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
-11	erste	erster	ADJ	ADJA	_	6	obl	_	_
+11	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	6	obl	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	gewiß	gewiß	ADV	ADV	_	11	advmod	_	_
 14	ist	sein	AUX	VAFIN	_	11	cop	_	_
@@ -47017,7 +47017,7 @@
 4	waren	sein	AUX	VAFIN	_	8	cop	_	_
 5	zugleich	zugleich	ADV	ADV	_	8	advmod	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-7	ersten	erster	ADJ	ADJA	_	8	amod	_	_
+7	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	8	amod	_	_
 8	Priester	Priester	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	10	punct	_	_
 10	Feldherren	Feldherr	NOUN	NN	_	8	conj	_	_
@@ -47826,7 +47826,7 @@
 8	bei	bei	ADP	APPR	_	9	case	_	_
 9	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	14	obl	_	_
 10	die	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-11	ersten	erster	ADJ	ADJA	_	12	amod	_	_
+11	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	12	amod	_	_
 12	Eindrücke	Eindruck	NOUN	NN	Case=Nom	14	nsubj	_	_
 13	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
 14	stark	stark	ADJ	ADJD	_	6	acl	_	_
@@ -48432,7 +48432,7 @@
 # text = Viele der ersten Stifter der modernen Physik müssen gar nicht als Philosophen, sondern als Künstler betrachtet werden.
 1	Viele	viel	DET	PIS	Case=Nom|PronType=Ind	17	nsubj:pass	_	_
 2	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-3	ersten	erster	ADJ	ADJA	_	4	amod	_	_
+3	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	4	amod	_	_
 4	Stifter	Stifter	NOUN	NN	_	1	nmod	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 6	modernen	modern	ADJ	ADJA	_	7	amod	_	_
@@ -51502,7 +51502,7 @@
 4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Fehler	Fehler	NOUN	NN	Case=Acc	2	obj	_	_
 6	mancher	mancher	DET	PIAT	PronType=Ind	8	det	_	_
-7	ersten	erster	ADJ	ADJA	_	8	amod	_	_
+7	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	8	amod	_	_
 8	Produkte	Produkt	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 9	:	:	PUNCT	$.	_	2	punct	_	_
 10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
