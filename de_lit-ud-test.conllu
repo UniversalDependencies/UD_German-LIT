@@ -71,7 +71,7 @@
 4	»	»	PUNCT	XY	_	5	punct	_	SpaceAfter=No
 5	Jakob	Jakob	PROPN	NE	_	10	obl	_	SpaceAfter=No
 6	«	«	PUNCT	XY	_	5	punct	_	_
-7	etwas	etwas	DET	PIAT	Case=Acc	10	obj	_	_
+7	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	_
 8	recht	recht	ADV	ADV	_	9	advmod	_	_
 9	Genialisches	genialisch	NOUN	NN	_	7	nmod	_	_
 10	gemacht	machen	VERB	VVPP	_	14	advcl	_	_
@@ -1746,7 +1746,7 @@
 17	Willkür	Willkür	NOUN	NN	Case=Dat	19	obl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	19	punct	_	_
 19	hat	haben	AUX	VAFIN	_	0	root	_	_
-20	etwas	etwas	DET	PIAT	Case=Acc	19	obj	_	_
+20	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	19	obj	_	_
 21	Illiberales	illiberal	NOUN	NN	_	20	appos	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	19	punct	_	_
 
@@ -2549,7 +2549,7 @@
 8	,	,	PUNCT	$,	_	11	punct	_	_
 9	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
 10	einmal	einmal	ADV	ADV	_	11	advmod	_	_
-11	etwas	etwas	PRON	PIS	_	22	advcl	_	_
+11	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	22	advcl	_	_
 12	Griechisches	griechisch	ADJ	ADJA	_	11	appos	_	_
 13	im	in	ADP	APPRART	_	14	case	_	_
 14	Namen	Namen	NOUN	NN	_	11	nmod	_	_
@@ -2704,7 +2704,7 @@
 # sent_id = lyceum-f47-s1
 # text = Wer etwas Unendliches will, der weiß nicht was er will.
 1	Wer	wer	PRON	PWS	Case=Nom	4	nsubj	_	_
-2	etwas	etwas	DET	PIAT	Case=Acc	4	obj	_	_
+2	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	_
 3	Unendliches	unendlich	NOUN	NN	_	2	appos	_	_
 4	will	wollen	AUX	VMFIN	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -3515,7 +3515,7 @@
 6	philosophischen	philosophisch	ADJ	ADJA	_	7	amod	_	_
 7	Musikalien	Musikalie	NOUN	NN	_	3	nmod	_	_
 8	hat	haben	AUX	VAFIN	_	0	root	_	_
-9	etwas	etwas	PRON	PIS	Case=Acc	8	obj	_	_
+9	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	_
 10	weniges	wenig	X	ADJ	_	9	xcomp	_	_
 11	von	von	ADP	APPR	_	13	case	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
@@ -3693,7 +3693,7 @@
 # text = Man kann etwas innig lieben, eben weil mans nicht hat: das gibt wenigstens ein Vorgefühl ohne Nachsatz.
 1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	5	aux	_	_
-3	etwas	etwas	PRON	PIS	Case=Acc	5	obj	_	_
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	_
 4	innig	innig	ADV	ADV	_	5	advmod	_	_
 5	lieben	lieben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
@@ -4423,7 +4423,7 @@
 # text = Es hat etwas Kleinliches, gegen Individuen zu polemisieren, wie der Handel en detail.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	etwas	etwas	DET	PIAT	Case=Acc	2	obj	_	_
+3	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	_
 4	Kleinliches	kleinlich	NOUN	NN	_	3	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	9	punct	_	_
 6	gegen	gegen	ADP	APPR	_	7	case	_	_
@@ -5269,7 +5269,7 @@
 # text = Man muß etwas haben, was mitgeteilt werden soll; 2) man muß jemand haben, dem man's mitteilen wollen darf; 3) man muß es wirklich mitteilen, mit ihm teilen können, nicht bloß sich äußern, allein;
 1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
 2	muß	müssen	AUX	VMFIN	_	4	aux	_	_
-3	etwas	etwas	PRON	PIS	Case=Acc	4	obj	_	_
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	_
 4	haben	haben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	was	was	PRON	PRELS	Case=Nom	7	nsubj:pass	_	_
@@ -7408,7 +7408,7 @@
 # text = Wenn irgend etwas die hohe Idee von Deutschheit rechtfertigen kann, die man hie und da findet: so ist's die entschiedne Vernachlässigung und Verachtung solcher gewöhnlich guten Schriftsteller, die jede andre Nation mit Pomp in ihren Johnson aufnehmen würde, und der ziemlich allgemeine Hang, auch an dem, was sie als das beste erkennen, und was besser ist, als daß die Ausländer es schon gut finden könnten, frei zu tadeln, und es überall recht genau zu nehmen.
 1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
 2	irgend	irgend	ADV	ADV	_	3	advmod	_	_
-3	etwas	etwas	PRON	PIS	Case=Nom	9	nsubj	_	_
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	9	nsubj	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 5	hohe	hoch	ADJ	ADJA	_	6	amod	_	_
 6	Idee	Idee	NOUN	NN	Case=Acc	9	obj	_	_
@@ -7510,7 +7510,7 @@
 9	aus	aus	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Philosophie	Philosophie	NOUN	NN	Case=Dat	16	obl	_	_
-12	etwas	etwas	PRON	PIS	Case=Acc	16	obj	_	_
+12	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	16	obj	_	_
 13	über	über	ADP	APPR	_	15	case	_	_
 14	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 15	Kunst	Kunst	NOUN	NN	_	16	obl	_	_
@@ -7535,7 +7535,7 @@
 9	sie	sie	PRON	PPER	Case=Nom	10	nsubj	_	_
 10	hofften	hoffen	VERB	VVFIN	_	2	conj	_	_
 11	hier	hier	ADV	ADV	_	15	advmod	_	_
-12	etwas	etwas	PRON	PIS	Case=Acc	15	obj	_	_
+12	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	15	obj	_	_
 13	Neues	neue	NOUN	NN	_	12	nmod	_	_
 14	zu	zu	PART	PTKZU	_	15	mark	_	_
 15	erfahren	erfahren	VERB	VVINF	_	10	xcomp	_	SpaceAfter=No
@@ -7941,7 +7941,7 @@
 8	wundern	wundern	VERB	VVINF	_	3	csubj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
-11	etwas	etwas	PRON	PIS	Case=Nom	12	nsubj	_	_
+11	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	12	nsubj	_	_
 12	schön	schön	ADJ	ADJD	_	3	advcl	_	_
 13	ist	sein	AUX	VAFIN	_	12	cop	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	16	punct	_	_
@@ -9076,7 +9076,7 @@
 4	Mensch	Mensch	NOUN	NN	Case=Nom	8	nsubj	_	_
 5	Sinn	Sinn	NOUN	NN	Case=Acc	8	obj	_	_
 6	für	für	ADP	APPR	_	7	case	_	_
-7	etwas	etwas	PRON	PIS	Case=Acc	8	obl	_	_
+7	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	_
 8	haben	haben	AUX	VAINF	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	18	punct	_	_
 10	wenn	wenn	SCONJ	KOUS	_	18	mark	_	_
@@ -9224,7 +9224,7 @@
 6	denkenden	denkend	ADJ	ADJA	_	7	amod	_	_
 7	Menschen	Mensch	NOUN	NN	Case=Gen	4	nmod	_	_
 8	wohl	wohl	ADV	ADV	_	10	advmod	_	_
-9	etwas	etwas	DET	PIAT	_	10	det	_	_
+9	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_
 10	andres	anderer	DET	ADJD	PronType=Ind	0	root	_	_
 11	als	als	CCONJ	KOKOM	_	15	case	_	_
 12	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	15	det	_	_
@@ -9897,7 +9897,7 @@
 3	nie	nie	ADV	ADV	_	8	advmod	_	_
 4	als	als	ADP	APPR	_	5	case	_	_
 5	Darsteller	Darsteller	NOUN	NN	_	8	obl	_	_
-6	etwas	etwas	DET	PIAT	Case=Acc	8	obj	_	_
+6	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	_
 7	vorzügliches	vorzüglich	ADJ	ADJA	_	6	xcomp	_	_
 8	leisten	leisten	VERB	VVINF	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	13	punct	_	_
@@ -10777,7 +10777,7 @@
 # text = Mich interessirt etwas, wenn es mich zur Theilnahme zu erregen weiß.
 1	Mich	mich	PRON	PPER	Case=Acc	2	obj	_	_
 2	interessirt	interessirt	VERB	VVFIN	_	0	root	_	_
-3	etwas	etwas	PRON	PIS	Case=Nom	2	nsubj	_	SpaceAfter=No
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
 6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -11556,7 +11556,7 @@
 1	Ob	ob	SCONJ	KOUS	_	13	mark	_	_
 2	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	_
 3	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
-4	etwas	etwas	PRON	PIS	Case=Nom	13	nsubj	_	_
+4	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	13	nsubj	_	_
 5	für	für	ADP	APPR	_	11	case	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 7	neuerdings	neuerdings	ADV	ADV	_	10	advmod	_	_
@@ -15034,7 +15034,7 @@
 17	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	16	obj	_	_
 18	mit	mit	ADP	APPR	_	22	case	_	_
 19	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	22	det	_	_
-20	etwas	etwas	ADV	ADV	_	21	advmod	_	_
+20	etwas	etwas	ADV	ADV	PronType=Ind	21	advmod	_	_
 21	tiefern	tiefern	ADJ	ADJA	_	22	amod	_	_
 22	Schlafe	Schlafe	NOUN	NN	Case=Dat	16	obl	_	_
 23	als	als	ADP	APPR	_	24	case	_	_
@@ -19388,7 +19388,7 @@
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	und	und	CCONJ	KON	_	15	cc	_	_
 13	zuweilen	zuweilen	ADV	ADV	_	15	advmod	_	_
-14	etwas	etwas	PRON	PIS	Case=Nom	15	nsubj:pass	_	_
+14	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	15	nsubj:pass	_	_
 15	gesagt	sagen	VERB	VVPP	_	4	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	was	was	PRON	PRELS	Case=Nom	19	nsubj	_	_
@@ -22236,7 +22236,7 @@
 12	wahr	wahr	ADJ	ADJD	_	11	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	oder	oder	CCONJ	KON	_	15	cc	_	_
-15	Etwas	etwas	PROPN	NE	_	5	conj	_	_
+15	Etwas	etwas	PRON	NE	Gender=Neut|Number=Sing|PronType=Ind	5	conj	_	_
 16	wahr	wahr	ADJ	ADJD	_	15	xcomp	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	24	punct	_	_
 18	oder	oder	CCONJ	KON	_	24	cc	_	_
@@ -22327,7 +22327,7 @@
 20	erraten	erraten	VERB	VVINF	_	10	acl	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	23	punct	_	_
 22	und	und	CCONJ	KON	_	23	cc	_	_
-23	etwas	etwas	PRON	PIS	_	5	conj	_	_
+23	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	5	conj	_	_
 24	durchaus	durchaus	ADV	ADV	_	25	advmod	_	_
 25	Subjektives	subjektive	NOUN	NN	_	23	xcomp	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	5	punct	_	_
@@ -22954,7 +22954,7 @@
 7	,	,	PUNCT	$,	_	4	punct	_	_
 8	daß	daß	SCONJ	KOUS	_	11	mark	_	_
 9	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
-10	etwas	etwas	PRON	PIS	Case=Acc	11	obj	_	_
+10	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	_
 11	weiß	weiß	VERB	VVFIN	_	4	ccomp	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	17	punct	_	_
 13	und	und	CCONJ	KON	_	17	cc	_	_
@@ -26212,7 +26212,7 @@
 12	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 13	wünschende	wünschend	ADJ	ADJA	_	14	amod	_	_
 14	Kritik	Kritik	NOUN	NN	Case=Nom	18	nsubj	_	_
-15	etwas	etwas	ADV	ADV	_	16	advmod	_	_
+15	etwas	etwas	ADV	ADV	PronType=Ind	16	advmod	_	_
 16	mehr	mehr	ADV	ADV	_	18	advmod	_	_
 17	als	als	CCONJ	KOKOM	_	18	mark	_	_
 18	wünschen	wünschen	VERB	VVINF	_	1	conj	_	SpaceAfter=No
@@ -28258,7 +28258,7 @@
 22	vorgaben	vorgeben	VERB	VVFIN	_	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	20	punct	_	_
 24	liegt	liegen	VERB	VVFIN	_	0	root	_	_
-25	etwas	etwas	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	24	nsubj	_	_
+25	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	24	nsubj	_	_
 26	sehr	sehr	ADV	ADV	_	27	advmod	_	_
 27	Philosophisches	Philosophisch	NOUN	NN	_	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	31	punct	_	_
@@ -28298,7 +28298,7 @@
 3	woraus	woraus	ADV	PWAV	_	10	advmod	_	_
 4	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
-6	etwas	etwas	PRON	PIS	Case=Acc	10	obj	_	SpaceAfter=No
+6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	oder	oder	CCONJ	KON	_	9	cc	_	_
 9	allerlei	allerlei	DET	PIS	PronType=Tot	6	conj	_	_
@@ -28425,7 +28425,7 @@
 14	sie	sie	PRON	PPER	Case=Nom	26	nsubj	_	_
 15	nicht	nicht	PART	PTKNEG	_	26	advmod	_	_
 16	auch	auch	ADV	ADV	_	17	advmod	_	_
-17	etwas	etwas	PRON	PIS	Case=Acc	26	obj	_	_
+17	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	26	obj	_	_
 18	von	von	ADP	APPR	_	23	case	_	_
 19	dem	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
 20	gedrängten	gedrängt	ADJ	ADJA	_	23	amod	_	_
@@ -28665,7 +28665,7 @@
 14	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 15	Beobachtung	Beobachtung	NOUN	NN	Case=Nom	21	nsubj	_	_
 16	immer	immer	ADV	ADV	_	21	advmod	_	_
-17	etwas	etwas	DET	PIAT	Case=Acc	21	obj	_	_
+17	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	21	obj	_	_
 18	Halbes	Halbe	NOUN	NN	_	17	nmod	_	_
 19	und	und	CCONJ	KON	_	20	cc	_	_
 20	Unvollendetes	Unvollendet	NOUN	NN	_	18	conj	_	_
@@ -29353,7 +29353,7 @@
 # text = Darf irgend etwas von deutscher Malerei im Vorhofe zu Raffaels Tempel aufgestellt werden, so kommen Albrecht Dürer und Holbein gewiß näher am Heiligtume zu stehn, als der gelehrte Mengs.
 1	Darf	dürfen	AUX	VMFIN	_	12	aux	_	_
 2	irgend	irgend	ADV	ADV	_	12	advmod	_	_
-3	etwas	etwas	PRON	PIS	Case=Nom	12	nsubj:pass	_	_
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	12	nsubj:pass	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
 5	deutscher	deutsch	ADJ	ADJA	_	6	amod	_	_
 6	Malerei	Malerei	NOUN	NN	Case=Dat	3	nmod	_	_
@@ -30278,7 +30278,7 @@
 8	fehlt	fehlen	VERB	VVFIN	_	2	conj	_	_
 9	immer	immer	ADV	ADV	_	10	advmod	_	_
 10	noch	noch	ADV	ADV	_	8	advmod	_	_
-11	etwas	etwas	PRON	PIS	Case=Acc	8	obj	_	SpaceAfter=No
+11	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	15	punct	_	_
 13	nämlich	nämlich	ADV	ADV	_	15	advmod	_	_
 14	grade	grade	ADV	ADV	_	15	advmod	_	_
@@ -31148,7 +31148,7 @@
 11	,	,	PUNCT	$,	_	13	punct	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	suchte	suchen	VERB	VVFIN	_	2	conj	_	_
-14	etwas	etwas	PRON	PIS	Case=Acc	13	obj	_	_
+14	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	13	obj	_	_
 15	Geheimnisvolles	Geheimnisvolle	NOUN	NN	_	14	nmod	_	_
 16	darin	darin	ADV	PROAV	PronType=Dem	13	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
@@ -31506,7 +31506,7 @@
 23	,	,	PUNCT	$,	_	22	punct	_	_
 24	als	als	CCONJ	KOKOM	_	27	mark	_	_
 25	wirklich	wirklich	ADV	ADV	_	27	advmod	_	_
-26	etwas	etwas	PRON	PIS	Case=Acc	27	obj	_	_
+26	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	27	obj	_	_
 27	hervorbringen	hervorbringen	VERB	VVINF	_	22	advcl	_	_
 28	kann	können	AUX	VMFIN	_	27	aux	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	2	punct	_	_
@@ -32884,7 +32884,7 @@
 4	sagen	sagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	8	mark	_	_
-7	etwas	etwas	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	nsubj	_	_
 8	ist	sein	AUX	VAFIN	_	4	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	ohne	ohne	SCONJ	KOUI	_	12	case	_	_
@@ -33926,7 +33926,7 @@
 # text = Kann man etwas andres charakterisieren als Individuen?
 1	Kann	können	AUX	VMFIN	_	5	aux	_	_
 2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
-3	etwas	etwas	PRON	PIS	Case=Acc	5	obj	_	_
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	_
 4	andres	anderer	DET	PIS	PronType=Ind	3	nmod	_	_
 5	charakterisieren	charakterisieren	VERB	VVINF	_	0	root	_	_
 6	als	als	ADP	APPR	_	7	case	_	_
@@ -34211,11 +34211,11 @@
 6	wenig	wenig	DET	PIAT	_	7	det	_	_
 7	Glück	Glück	NOUN	NN	_	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
-9	etwas	etwas	DET	PIAT	_	10	det	_	_
+9	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_
 10	Kunst	Kunst	NOUN	NN	_	3	conj	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12	und	und	CCONJ	KON	_	14	cc	_	_
-13	etwas	etwas	DET	PIAT	_	14	det	_	_
+13	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	14	det	_	_
 14	Natur	Natur	NOUN	NN	_	3	conj	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	18	punct	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
@@ -35377,7 +35377,7 @@
 7	leere	leer	ADJ	ADJA	_	8	amod	_	_
 8	Gedanke	Gedanke	NOUN	NN	_	0	root	_	_
 9	von	von	ADP	APPR	_	10	case	_	_
-10	etwas	etwas	PRON	PIS	Case=Dat	8	nmod	_	_
+10	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	nmod	_	_
 11	was	was	PRON	PWS	Case=Nom	12	nsubj:pass	_	_
 12	hervorgebracht	hervorbringen	VERB	VVPP	_	10	acl	_	_
 13	werden	werden	AUX	VAINF	_	12	aux:pass	_	_
@@ -36957,7 +36957,7 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	kritisch	kritisch	ADJ	ADJD	_	0	root	_	_
 4	wohl	wohl	ADV	ADV	_	3	advmod	_	_
-5	etwas	etwas	PRON	PIS	Case=Nom	3	nsubj	_	SpaceAfter=No
+5	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	10	punct	_	_
 7	was	was	PRON	PRELS	_	10	nmod	_	_
 8	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
@@ -39462,7 +39462,7 @@
 1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 2	ist	sein	AUX	VAFIN	_	4	aux	_	_
 3	ganz	ganz	ADV	ADV	_	4	advmod	_	_
-4	etwas	etwas	PRON	PIS	_	0	root	_	_
+4	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
 5	anders	anders	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	4	punct	_	_
 7	im	in	ADP	APPRART	_	8	case	_	_
@@ -40522,7 +40522,7 @@
 2	der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Autor	Autor	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	hat	haben	AUX	VAFIN	_	6	aux	_	_
-5	etwas	etwas	PRON	PIS	Case=Acc	6	obj	_	_
+5	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	6	obj	_	_
 6	entdeckt	entdecken	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
@@ -40553,7 +40553,7 @@
 1	Oder	oder	CCONJ	KON	_	6	cc	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 3	hat	haben	AUX	VAFIN	_	6	aux	_	_
-4	etwas	etwas	PRON	PIS	_	6	nmod	_	_
+4	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	6	nmod	_	_
 5	Neues	neue	NOUN	NN	_	4	nmod	_	_
 6	gehört	gehören	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
@@ -41957,7 +41957,7 @@
 4	an	an	ADP	APPR	_	5	case	_	_
 5	sie	sie	PRON	PPER	_	3	nmod	_	_
 6	ist	sein	AUX	VAFIN	_	7	cop	_	_
-7	etwas	etwas	PRON	PIS	_	0	root	_	_
+7	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
 9	Heiliges	heilige	NOUN	NN	_	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	7	punct	_	_
@@ -42171,7 +42171,7 @@
 3	Mensch	Mensch	NOUN	NN	Case=Nom	22	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
 5	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
-6	etwas	etwas	PRON	PIS	Case=Acc	10	obj	_	_
+6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	_
 7	mehr	mehr	ADV	ADV	_	10	advmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
 9	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	10	obl	_	_
@@ -42473,7 +42473,7 @@
 21	,	,	PUNCT	$,	_	26	punct	_	_
 22	ohne	ohne	SCONJ	KOUI	_	26	mark	_	_
 23	daß	daß	SCONJ	KOUS	_	26	mark	_	_
-24	etwas	etwas	PRON	PIS	Case=Nom	26	nsubj	_	_
+24	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	26	nsubj	_	_
 25	Gewalttätiges	gewalttätige	NOUN	NN	_	24	nmod	_	_
 26	nötig	nötig	ADJ	ADJD	Case=Acc	19	acl	_	_
 27	wäre	sein	AUX	VAFIN	_	26	cop	_	SpaceAfter=No
@@ -42555,7 +42555,7 @@
 10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 11	freilich	freilich	ADV	ADV	_	9	advmod	_	_
 12	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	15	det	_	_
-13	etwas	etwas	ADV	ADV	_	14	advmod	_	_
+13	etwas	etwas	ADV	ADV	PronType=Ind	14	advmod	_	_
 14	zuvorkommendern	zuvorkommendern	ADJ	ADJA	_	15	amod	_	_
 15	Mitteilung	Mitteilung	NOUN	NN	_	9	obl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	22	punct	_	_
@@ -42648,7 +42648,7 @@
 14	zu	zu	PART	PTKZU	_	16	mark	_	_
 15	beiden	beide	DET	ADJA	NumType=Card|PronType=Tot	16	amod	_	_
 16	Seiten	Seite	NOUN	NN	Case=Dat	18	obl	_	_
-17	etwas	etwas	ADV	ADV	_	18	advmod	_	_
+17	etwas	etwas	ADV	ADV	PronType=Ind	18	advmod	_	_
 18	hinausgeführt	hinausgeführen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	18	punct	_	_
 
@@ -43525,7 +43525,7 @@
 # text = Man kann etwas Geist haben ohne Seele, und viel Seele bei weniger Gemüt.
 1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	5	aux	_	_
-3	etwas	etwas	ADV	ADV	_	4	advmod	_	_
+3	etwas	etwas	ADV	ADV	PronType=Ind	4	advmod	_	_
 4	Geist	Geist	NOUN	NN	Case=Acc	5	obj	_	_
 5	haben	haben	AUX	VAFIN	_	0	root	_	_
 6	ohne	ohne	ADP	APPR	_	7	case	_	_
@@ -44060,7 +44060,7 @@
 18	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
 19	aber	aber	ADV	ADV	_	17	advmod	_	_
 20	nur	nur	ADV	ADV	_	17	advmod	_	_
-21	etwas	etwas	PRON	PIS	Case=Acc	17	obj	_	_
+21	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	17	obj	_	_
 22	genau	genau	ADV	ADV	_	17	advmod	_	_
 23	zu	zu	PART	PTKZU	_	17	compound:prt	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	26	punct	_	_
@@ -44142,7 +44142,7 @@
 45	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	47	det:poss	_	_
 46	zarter	zart	ADJ	ADJA	_	47	amod	_	_
 47	Geist	Geist	NOUN	NN	Case=Nom	50	nsubj	_	_
-48	etwas	etwas	ADV	ADV	_	49	advmod	_	_
+48	etwas	etwas	ADV	ADV	PronType=Ind	49	advmod	_	_
 49	wund	wund	NOUN	NN	Case=Acc	50	obj	_	_
 50	gedrückt	drücken	VERB	VVPP	_	25	advcl	_	_
 51	hat	haben	AUX	VAFIN	_	50	aux	_	SpaceAfter=No
@@ -44775,7 +44775,7 @@
 9	dem	der	PRON	PDS	Case=Dat|PronType=Dem,Rel	12	obl	_	_
 10	müßte	müssen	AUX	VMFIN	_	12	aux	_	_
 11	jene	jener	DET	PDS	Case=Nom|PronType=Dem	12	nsubj	_	_
-12	etwas	etwas	PRON	PIS	_	0	root	_	_
+12	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
 13	mehr	mehr	ADV	ADV	_	12	advmod	_	_
 14	sein	sein	AUX	VAFIN	_	12	cop	_	_
 15	als	als	CCONJ	KOKOM	_	16	cc	_	_
@@ -44783,7 +44783,7 @@
 17	,	,	PUNCT	$,	_	20	punct	_	_
 18	und	und	CCONJ	KON	_	20	cc	_	_
 19	dieser	dieser	DET	PDS	Case=Nom|PronType=Dem	20	nsubj	_	_
-20	etwas	etwas	ADV	ADV	_	12	conj	_	_
+20	etwas	etwas	ADV	ADV	PronType=Ind	12	conj	_	_
 21	mehr	mehr	ADV	ADV	_	20	advmod	_	_
 22	als	als	CCONJ	KOKOM	_	23	cc	_	_
 23	Einseitigkeit	Einseitigkeit	NOUN	NN	_	20	nmod	_	SpaceAfter=No
@@ -45043,7 +45043,7 @@
 36	,	,	PUNCT	$,	_	39	punct	_	_
 37	höchstens	höchstens	ADV	ADV	_	39	advmod	_	_
 38	nur	nur	ADV	ADV	_	39	advmod	_	_
-39	etwas	etwas	PRON	PIS	_	34	conj	_	_
+39	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	34	conj	_	_
 40	dünner	dünner	NOUN	NN	_	39	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -45561,7 +45561,7 @@
 16	ohne	ohne	ADP	APPR	_	17	case	_	_
 17	Rücksicht	Rücksicht	NOUN	NN	Case=Acc	22	obl	_	_
 18	auf	auf	ADP	APPR	_	19	case	_	_
-19	etwas	etwas	PRON	PIS	_	22	obl	_	_
+19	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	22	obl	_	_
 20	anders	anders	ADV	ADV	_	19	nmod	_	_
 21	zu	zu	PART	PTKZU	_	22	mark	_	_
 22	nehmen	nehmen	VERB	VVINF	_	26	xcomp	_	SpaceAfter=No
@@ -45588,7 +45588,7 @@
 43	gegebnen	gegebn	ADJ	ADJA	_	44	amod	_	_
 44	Zweck	Zweck	NOUN	NN	_	49	obl	_	_
 45	noch	noch	ADV	ADV	_	49	advmod	_	_
-46	etwas	etwas	PRON	PIS	_	49	nmod	_	_
+46	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	49	nmod	_	_
 47	anders	anderer	DET	PIS	PronType=Ind	48	det	_	_
 48	daraus	daraus	ADV	PAV	PronType=Dem	49	advmod	_	_
 49	erfolge	erfolgen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	SpaceAfter=No
@@ -45670,10 +45670,10 @@
 33	,	,	PUNCT	$,	_	36	punct	_	_
 34	die	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	36	nsubj	_	_
 35	weder	weder	CCONJ	KON	_	36	cc	_	_
-36	etwas	etwas	PRON	PIS	_	30	acl	_	_
+36	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	30	acl	_	_
 37	Schweres	schwere	NOUN	NN	_	36	nmod	_	_
 38	noch	noch	CCONJ	KON	_	39	cc	_	_
-39	etwas	etwas	PRON	PIS	_	36	conj	_	_
+39	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	36	conj	_	_
 40	Rühmliches	rühmliche	NOUN	NN	_	39	nmod	_	_
 41	ist	sein	AUX	VAFIN	_	36	cop	_	SpaceAfter=No
 42	.	.	PUNCT	$.	_	7	punct	_	_
@@ -45689,7 +45689,7 @@
 4	unter	unter	ADP	APPR	_	5	case	_	_
 5	Klugheit	Klugheit	NOUN	NN	_	2	obl	_	_
 6	doch	doch	ADV	ADV	_	2	advmod	_	_
-7	etwas	etwas	PRON	PIS	Case=Acc	2	obj	_	_
+7	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	_
 8	Bedeutendes	bedeutende	NOUN	NN	_	7	nmod	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	Wichtiges	wichtige	NOUN	NN	_	8	conj	_	SpaceAfter=No
@@ -45706,7 +45706,7 @@
 21	zweckmäßigsten	zweckmäßigster	ADJ	ADJA	Case=Acc	22	obj	_	_
 22	auszuwählen	auswählen	VERB	VVIZU	_	24	csubj	_	_
 23	ist	sein	AUX	VAFIN	_	24	cop	_	_
-24	etwas	etwas	PRON	PIS	_	2	conj	_	_
+24	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	2	conj	_	_
 25	so	so	ADV	ADV	_	26	advmod	_	_
 26	Geringfügiges	geringfügige	NOUN	NN	_	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	34	punct	_	_
@@ -45721,7 +45721,7 @@
 36	und	und	CCONJ	KON	_	49	cc	_	_
 37	daß	daß	SCONJ	KOUS	_	49	mark	_	_
 38	kaum	kaum	ADV	ADV	_	49	advmod	_	_
-39	etwas	etwas	PRON	PIS	Case=Acc	49	obj	_	_
+39	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	49	obj	_	_
 40	anders	anderer	DET	PIS	PronType=Ind	39	nmod	_	_
 41	als	als	CCONJ	KOKOM	_	43	case	_	_
 42	leidenschaftliche	leidenschaftlich	ADJ	ADJA	_	43	amod	_	_
@@ -45866,7 +45866,7 @@
 33	in	in	ADP	APPR	_	35	case	_	_
 34	der	der	DET	ART	Definite=Def|PronType=Art	35	det	_	_
 35	Tat	Tat	NOUN	NN	_	36	obl	_	_
-36	etwas	etwas	DET	PIAT	_	0	root	_	_
+36	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
 37	Großes	Groß	NOUN	NN	_	36	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	46	punct	_	_
 39	und	und	CCONJ	KON	_	46	cc	_	_
@@ -45892,7 +45892,7 @@
 5	Sprachgebrauch	Sprachgebrauch	NOUN	NN	_	11	nmod	_	_
 6	wirklich	wirklich	ADJ	ADJD	_	11	advmod	_	_
 7	so	so	ADV	ADV	_	11	advmod	_	_
-8	etwas	etwas	PRON	PIS	Case=Acc	11	obj	_	_
+8	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	_
 9	unter	unter	ADP	APPR	_	10	case	_	_
 10	Klugheit	Klugheit	NOUN	NN	_	11	obl	_	_
 11	versteht	verstehen	VERB	VVFIN	_	13	csubj	_	SpaceAfter=No
@@ -46196,10 +46196,10 @@
 14	so	so	ADV	ADV	_	15	advmod	_	_
 15	einseitiger	einseitig	ADJ	ADJA	_	16	amod	_	_
 16	Schwärmer	Schwärmer	NOUN	NN	Case=Acc	25	obj	_	_
-17	etwas	etwas	PRON	PIS	Case=Acc	25	obj	_	_
+17	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	25	obj	_	_
 18	weniger	weniger	ADJ	ADJA	_	17	amod	_	_
 19	und	und	CCONJ	KON	_	20	cc	_	_
-20	etwas	etwas	PRON	PIS	_	17	conj	_	_
+20	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	17	conj	_	_
 21	mehr	mehr	ADV	ADV	_	20	advmod	_	_
 22	als	als	CCONJ	KOKOM	_	24	case	_	_
 23	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	24	det	_	_
@@ -46925,7 +46925,7 @@
 1	Der	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Deputierte	deputierter	NOUN	NN	Case=Nom	4	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	4	cop	_	_
-4	etwas	etwas	PRON	PIS	_	0	root	_	_
+4	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
 5	ganz	ganz	ADV	ADV	_	6	advmod	_	_
 6	anders	anders	ADV	ADV	_	4	nmod	_	_
 7	als	als	CCONJ	KOKOM	_	9	case	_	_
@@ -47229,7 +47229,7 @@
 6	du	du	ADP	APPR	_	5	case	_	_
 7	am	an	ADP	APPRART	_	8	case	_	_
 8	Ende	Ende	NOUN	NN	_	5	nmod	_	_
-9	etwas	etwas	PRON	PIS	_	5	xcomp	_	SpaceAfter=No
+9	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	5	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	12	punct	_	_
 11	so	so	ADV	ADV	_	12	advmod	_	_
 12	nimms	nimm	VERB	VVFIN	_	1	parataxis	_	_
@@ -48010,7 +48010,7 @@
 3	Satan	Satan	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	hat	haben	VERB	VVFIN	_	0	root	_	_
 5	immer	immer	ADV	ADV	_	4	advmod	_	_
-6	etwas	etwas	DET	PIAT	Case=Acc	4	obj	_	_
+6	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	_
 7	Ungeschlachtes	ungeschlachte	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
@@ -48564,7 +48564,7 @@
 15	Vollständigkeit	Vollständigkeit	NOUN	NN	Case=Dat	21	obl	_	_
 16	muß	müssen	AUX	VMFIN	_	21	aux	_	_
 17	dennoch	dennoch	ADV	ADV	_	21	advmod	_	_
-18	etwas	etwas	PRON	PIS	Case=Nom	21	nsubj	_	_
+18	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	21	nsubj	_	_
 19	zu	zu	PART	PTKZU	_	20	mark	_	_
 20	fehlen	fehlen	VERB	VVINF	_	21	xcomp	_	_
 21	scheinen	scheinen	VERB	VVINF	_	4	conj	_	SpaceAfter=No
@@ -48824,7 +48824,7 @@
 21	,	,	PUNCT	$,	_	19	punct	_	_
 22	kommt	kommen	VERB	VVFIN	_	0	root	_	_
 23	oft	oft	ADV	ADV	_	22	advmod	_	_
-24	etwas	etwas	PRON	PIS	Case=Nom	22	nsubj	_	_
+24	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	22	nsubj	_	_
 25	absolut	absolut	ADV	ADV	_	22	advmod	_	_
 26	Willkürliches	Willkürliche	NOUN	NN	_	24	nmod	_	_
 27	vor	vor	ADP	PTKVZ	_	22	compound:prt	_	SpaceAfter=No
@@ -49066,7 +49066,7 @@
 22	Philosophie	Philosophie	NOUN	NN	Case=Nom	23	nsubj	_	_
 23	dürfe	dürfen	VERB	VMFIN	_	14	conj	_	_
 24	irgend	irgend	ADV	ADV	_	23	advmod	_	_
-25	etwas	etwas	ADV	ADV	_	24	fixed	_	_
+25	etwas	etwas	ADV	ADV	PronType=Ind	24	fixed	_	_
 26	nicht	nicht	PART	PTKNEG	_	23	advmod	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	30	punct	_	_
 28	was	was	PRON	PWS	Case=Acc	30	obj	_	_
@@ -49399,7 +49399,7 @@
 10	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
 11	müssen	müssen	AUX	VMFIN	_	14	aux	_	_
 12	immer	immer	ADV	ADV	_	14	advmod	_	_
-13	etwas	etwas	PRON	PIS	Case=Acc	14	obj	_	_
+13	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	14	obj	_	_
 14	bringen	bringen	VERB	VVINF	_	3	parataxis	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	17	punct	_	_
 16	andre	anderer	DET	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
@@ -51234,11 +51234,11 @@
 15	Sinn	Sinn	NOUN	NN	Case=Dat	11	conj	_	_
 16	verbunden	verbinden	VERB	VVFIN	_	18	xcomp	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	18	punct	_	_
-18	etwas	etwas	PRON	PIS	_	3	conj	_	_
+18	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	3	conj	_	_
 19	sehr	sehr	ADV	ADV	_	20	advmod	_	_
 20	Reizendes	reizend	NOUN	NN	_	18	nmod	_	_
 21	und	und	CCONJ	KON	_	22	cc	_	_
-22	etwas	etwas	X	PRON	_	18	conj	_	_
+22	etwas	etwas	PRON	PRON	Gender=Neut|Number=Sing|PronType=Ind	18	conj	_	_
 23	sehr	sehr	ADV	ADV	_	24	advmod	_	_
 24	Gutes	gute	NOUN	NN	_	22	nmod	_	_
 25	sein	sein	AUX	VAINF	_	18	cop	_	_
@@ -51427,7 +51427,7 @@
 3	wie	wie	CCONJ	KOKOM	_	10	case	_	_
 4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
-6	etwas	etwas	PRON	PIS	_	8	nmod	_	_
+6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	nmod	_	_
 7	zu	zu	PART	PTKA	_	8	case	_	_
 8	wenig	wenig	DET	PIAT	Case=Dat	9	det	_	_
 9	unterschiedene	unterschieden	ADJ	ADJA	_	10	amod	_	_
@@ -52040,7 +52040,7 @@
 # text = Kennt sie etwas Größeres als die Größe, kann sie über ihre natürliche Neigung zur Energie lächeln, ist sie mit einem Worte des Enthusiasmus fähig, so ist sie unschuldig im sittlichen Sinne.
 1	Kennt	kennt	VERB	VVFIN	_	0	root	_	_
 2	sie	sie	PRON	PPER	Case=Nom	1	nsubj	_	_
-3	etwas	etwas	PRON	PIS	Case=Acc	1	obj	_	_
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	1	obj	_	_
 4	Größeres	größere	NOUN	NN	_	3	nmod	_	_
 5	als	als	CCONJ	KOKOM	_	7	cc	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
