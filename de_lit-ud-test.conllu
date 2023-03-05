@@ -35,7 +35,7 @@
 9	mittlern	mittlere	ADJ	ADJA	_	10	amod	_	_
 10	Durchschnitt	Durchschnitt	NOUN	NN	Case=Acc	14	obj	_	_
 11	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
-12	eignen	eignen	ADJ	ADJA	_	13	amod	_	_
+12	eignen	eigen	ADJ	ADJA	Degree=Pos	13	amod	_	_
 13	Oberfläche	Oberfläche	NOUN	NN	_	10	nmod	_	_
 14	schauen	schauen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 15	;	;	PUNCT	$.	_	14	punct	_	_
@@ -767,7 +767,7 @@
 # sent_id = lyceum-f22-s1
 # text = Ein einziges analytisches Wort, auch zum Lobe, kann den vortrefflichsten witzigen Einfall, dessen Flamme nun erst wärmen sollte, nachdem sie geglänzt hat, unmittelbar löschen.
 1	Ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	4	det	_	_
-2	einziges	einzig	ADJ	ADJA	_	4	amod	_	_
+2	einziges	einzig	ADJ	ADJA	Degree=Pos	4	amod	_	_
 3	analytisches	analytisch	ADJ	ADJA	_	4	amod	_	_
 4	Wort	Wort	NOUN	NN	Case=Nom	29	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	8	punct	_	_
@@ -1490,7 +1490,7 @@
 23	ist	sein	AUX	VAFIN	_	38	cop	_	_
 24	in	in	ADP	APPR	_	27	case	_	_
 25	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
-26	eignen	eign	ADJ	ADJA	_	27	amod	_	_
+26	eignen	eigen	ADJ	ADJA	Degree=Pos	27	amod	_	_
 27	Sphäre	Sphäre	NOUN	NN	_	38	nmod	_	_
 28	entweder	entweder	CCONJ	KON	_	30	cc	_	_
 29	ohne	ohne	ADP	APPR	_	30	case	_	_
@@ -2276,7 +2276,7 @@
 18	,	,	PUNCT	$,	_	22	punct	_	_
 19	auch	auch	ADV	ADV	_	22	advmod	_	_
 20	über	über	ADP	APPR	_	22	case	_	_
-21	eigne	eign	ADJ	ADJA	_	22	amod	_	_
+21	eigne	eigen	ADJ	ADJA	Degree=Pos	22	amod	_	_
 22	Kunst	Kunst	NOUN	NN	_	17	parataxis	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	24	punct	_	_
 24	Tugend	Tugend	NOUN	NN	_	22	conj	_	SpaceAfter=No
@@ -2670,7 +2670,7 @@
 4	Nationen	Nation	NOUN	NN	Case=Acc	5	obl	_	_
 5	gibts	gibts	ADV	ADV	_	0	root	_	_
 6	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
-7	eignen	eignen	ADJ	ADJA	_	8	amod	_	_
+7	eignen	eigen	ADJ	ADJA	Degree=Pos	8	amod	_	_
 8	Sinn	Sinn	NOUN	NN	Case=Nom	5	nsubj	_	SpaceAfter=No
 9	;	;	PUNCT	$.	_	5	punct	_	_
 
@@ -3375,7 +3375,7 @@
 5	dann	dann	ADV	ADV	_	12	advmod	_	_
 6	mit	mit	ADP	APPR	_	9	case	_	_
 7	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
-8	einzigen	einzig	ADJ	ADJA	_	9	amod	_	_
+8	einzigen	einzig	ADJ	ADJA	Degree=Pos	9	amod	_	_
 9	Theorie	Theorie	NOUN	NN	Case=Dat	12	obl	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Dichtarten	Dichtart	NOUN	NN	_	9	nmod	_	_
@@ -3481,11 +3481,11 @@
 3	,	,	PUNCT	$,	_	7	punct	_	_
 4	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	7	nsubj	_	_
 5	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
-6	eignes	eign	ADJ	ADJA	_	7	amod	_	_
+6	eignes	eigen	ADJ	ADJA	Degree=Pos	7	amod	_	_
 7	Gesetz	Gesetz	NOUN	NN	Case=Nom	2	acl	_	_
 8	und	und	CCONJ	KON	_	11	cc	_	_
 9	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
-10	eigner	eign	ADJ	ADJA	_	11	amod	_	_
+10	eigner	eigen	ADJ	ADJA	Degree=Pos	11	amod	_	_
 11	Zweck	Zweck	NOUN	NN	_	7	conj	_	_
 12	ist	sein	AUX	VAFIN	_	7	cop	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	7	punct	_	_
@@ -5980,7 +5980,7 @@
 3	Ironie	Ironie	NOUN	NN	Case=Nom	14	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	14	cop	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-6	einzige	einzig	ADJ	ADJA	_	14	amod	_	_
+6	einzige	einzig	ADJ	ADJA	Degree=Pos	14	amod	_	_
 7	durchaus	durchaus	ADV	ADV	_	8	advmod	_	_
 8	unwillkürliche	unwillkürlich	ADJ	ADJA	_	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	13	punct	_	_
@@ -6343,7 +6343,7 @@
 31	Punkt	Punkt	NOUN	NN	_	28	nmod	_	_
 32	kann	können	AUX	VMFIN	_	40	aux	_	_
 33	der	der	DET	ART	Definite=Def|PronType=Art	35	det	_	_
-34	einzelne	einzeln	ADJ	ADJA	_	35	amod	_	_
+34	einzelne	einzeln	ADJ	ADJA	Degree=Pos	35	amod	_	_
 35	Einfall	Einfall	NOUN	NN	Case=Nom	40	nsubj	_	_
 36	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	37	det	_	_
 37	Art	Art	NOUN	NN	Case=Acc	40	obj	_	_
@@ -10720,7 +10720,7 @@
 1	Es	es	PRON	PPER	Case=Nom	5	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	5	cop	_	_
 3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-4	einzige	einzig	ADJ	ADJA	_	5	amod	_	_
+4	einzige	einzig	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Weg	Weg	NOUN	NN	Case=Nom	0	root	_	_
 6	in	in	ADP	APPR	_	7	case	_	_
 7	Gemeinschaft	Gemeinschaft	NOUN	NN	_	11	obl	_	_
@@ -13470,7 +13470,7 @@
 13	und	und	CCONJ	KON	_	15	cc	_	_
 14	des	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 15	Dichters	Dichter	NOUN	NN	Case=Gen	12	conj	_	_
-16	eigner	eign	ADJ	ADJA	_	17	amod	_	_
+16	eigner	eigen	ADJ	ADJA	Degree=Pos	17	amod	_	_
 17	Idee	Idee	NOUN	NN	Case=Dat	20	obl	_	_
 18	zugleich	zugleich	ADV	ADV	_	20	advmod	_	_
 19	reden	reden	VERB	VVINF	_	20	xcomp	_	_
@@ -13486,7 +13486,7 @@
 29	Menschheit	Menschheit	NOUN	NN	_	27	nmod	_	_
 30	mit	mit	ADP	APPR	_	33	case	_	_
 31	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	33	det	_	_
-32	einzelnen	einzeln	ADJ	ADJA	_	33	amod	_	_
+32	einzelnen	einzeln	ADJ	ADJA	Degree=Pos	33	amod	_	_
 33	Menschen	Mensch	NOUN	NN	Case=Dat	29	obl	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -13867,7 +13867,7 @@
 4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Spiel	Spiel	NOUN	NN	Case=Dat	2	nmod	_	_
 6	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
-7	eignen	eignen	ADJ	ADJA	_	8	amod	_	_
+7	eignen	eigen	ADJ	ADJA	Degree=Pos	8	amod	_	_
 8	Rolle	Rolle	NOUN	NN	_	5	nmod	_	_
 9	verdankt	verdanken	VERB	VVFIN	_	0	root	_	_
 10	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
@@ -14917,7 +14917,7 @@
 2	Hauptmittel	Hauptmittel	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	scheint	scheinen	VERB	VVFIN	_	0	root	_	_
 4	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
-5	einziger	einzig	ADJ	ADJA	_	6	amod	_	_
+5	einziger	einzig	ADJ	ADJA	Degree=Pos	6	amod	_	_
 6	Zweck	Zweck	NOUN	NN	Case=Acc	3	obj	_	_
 7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	seyn	seyn	VERB	VVINF	_	3	xcomp	_	SpaceAfter=No
@@ -14951,7 +14951,7 @@
 4	und	und	CCONJ	KON	_	9	cc	_	_
 5	nach	nach	ADP	APPR	_	8	case	_	_
 6	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
-7	eignen	eignen	ADJ	ADJA	_	8	amod	_	_
+7	eignen	eigen	ADJ	ADJA	Degree=Pos	8	amod	_	_
 8	Äußerungen	Äußerung	NOUN	NN	Case=Dat	9	obl	_	_
 9	scheinen	scheinen	VERB	VVINF	_	3	conj	_	_
 10	muß	müssen	AUX	VMFIN	_	9	aux	_	SpaceAfter=No
@@ -15909,7 +15909,7 @@
 35	sondern	sondern	CCONJ	KON	_	40	cc	_	_
 36	nur	nur	ADV	ADV	_	40	advmod	_	_
 37	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	39	det:poss	_	_
-38	eignen	eignen	ADJ	ADJA	_	39	amod	_	_
+38	eignen	eigen	ADJ	ADJA	Degree=Pos	39	amod	_	_
 39	Gang	Gang	NOUN	NN	Case=Acc	40	obj	_	_
 40	gehn	gehn	VERB	VVPP	_	33	conj	_	_
 41	und	und	CCONJ	KON	_	44	cc	_	_
@@ -16964,7 +16964,7 @@
 47	macht	machen	VERB	VVFIN	_	2	parataxis	_	_
 48	nun	nun	ADV	ADV	_	47	advmod	_	_
 49	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	54	det	_	_
-50	eignes	eign	ADJ	ADJA	_	54	amod	_	SpaceAfter=No
+50	eignes	eigen	ADJ	ADJA	Degree=Pos	54	amod	_	SpaceAfter=No
 51	,	,	PUNCT	$,	_	53	punct	_	_
 52	durchaus	durchaus	ADV	ADV	_	53	advmod	_	_
 53	erklärbares	erklärbar	ADJ	ADJA	_	50	conj	_	_
@@ -19530,7 +19530,7 @@
 1	Aber	aber	CCONJ	KON	_	2	cc	_	_
 2	Gedanken	Gedanke	NOUN	NN	Case=Nom	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
-4	einzelne	einzeln	ADJ	ADJA	_	5	amod	_	_
+4	einzelne	einzeln	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Gedanken	Gedanke	NOUN	NN	_	2	appos	_	_
 6	sind	sein	AUX	VAFIN	_	7	cop	_	_
 7	gezwungen	zwingen	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -19562,7 +19562,7 @@
 # sent_id = athenaeum-f23-s6
 # text = Das einzige, was eine Art von Trost dagegen gibt, ist, daß nichts anmaßender sein kann, als überhaupt zu existieren, oder gar auf eine bestimmte selbständige Art zu existieren.
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
-2	einzige	einziger	PRON	PIS	_	0	root	_	SpaceAfter=No
+2	einzige	einzig	ADJ	PIS	Degree=Pos	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom	10	nsubj	_	_
 5	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	6	det	_	_
@@ -19955,7 +19955,7 @@
 2	Unschuld	Unschuld	NOUN	NN	Case=Nom	5	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	5	cop	_	_
 4	das	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-5	einzige	einziger	PRON	PIS	_	0	root	_	SpaceAfter=No
+5	einzige	einzig	ADJ	PIS	Degree=Pos	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	was	was	PRON	PRELS	Case=Nom	9	nsubj	_	_
 8	Bildungslosigkeit	Bildungslosigkeit	NOUN	NN	Case=Acc	9	obj	_	_
@@ -20968,7 +20968,7 @@
 4	gewisses	gewiß	ADJ	ADJA	_	6	amod	_	_
 5	verliebtes	verliebt	ADJ	ADJA	_	6	amod	_	_
 6	Anschauen	Anschauen	NOUN	NN	Case=Nom	2	nsubj	_	_
-7	eigner	eign	ADJ	ADJA	_	8	amod	_	_
+7	eigner	eigen	ADJ	ADJA	Degree=Pos	8	amod	_	_
 8	Natürlichkeit	Natürlichkeit	NOUN	NN	_	6	nmod	_	_
 9	oder	oder	CCONJ	KON	_	10	cc	_	_
 10	Albernheit	Albernheit	NOUN	NN	_	8	conj	_	SpaceAfter=No
@@ -21068,7 +21068,7 @@
 1	Es	es	PRON	PPER	_	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
-4	eigne	eign	ADJ	ADJA	_	5	amod	_	_
+4	eigne	eigen	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Gattung	Gattung	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	Menschen	Mensch	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	17	punct	_	_
@@ -21713,7 +21713,7 @@
 3-4	im	_	_	_	_	_	_	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-5	einzelnen	einzeln	ADJ	ADJA	Case=Dat	6	nmod	_	_
+5	einzelnen	einzeln	ADJ	ADJA	Case=Dat|Degree=Pos	6	nmod	_	_
 6	kunstvoll	kunstvoll	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	13	punct	_	_
 8	aber	aber	CCONJ	KON	_	13	cc	_	_
@@ -21855,7 +21855,7 @@
 11	die	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Darlegung	Darlegung	NOUN	NN	Case=Acc	3	obl	_	_
 13	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
-14	eignen	eignen	ADJ	ADJA	_	15	amod	_	_
+14	eignen	eigen	ADJ	ADJA	Degree=Pos	15	amod	_	_
 15	Kleinheit	Kleinheit	NOUN	NN	_	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -22174,7 +22174,7 @@
 13	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
 14	einer	ein	DET	PIS	Case=Nom|Definite=Ind|NumType=Card|PronType=Art	17	nsubj	_	_
 15	alles	alle	DET	PIS	PronType=Tot	16	det	_	_
-16	einzelne	einzeln	PRON	PIS	Case=Acc	17	obj	_	_
+16	einzelne	einzeln	ADJ	PIS	Case=Acc|Degree=Pos	17	obj	_	_
 17	übersieht	übersehen	VERB	VVFIN	_	11	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	21	punct	_	_
 19	und	und	CCONJ	KON	_	21	cc	_	_
@@ -23422,7 +23422,7 @@
 2	Kritik	Kritik	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	6	cop	_	_
 4	das	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-5	einzige	einzig	ADJ	ADJA	_	6	amod	_	_
+5	einzige	einzig	ADJ	ADJA	Degree=Pos	6	amod	_	_
 6	Surrogat	Surrogat	NOUN	NN	Case=Nom	0	root	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 8	von	von	ADP	APPR	_	11	case	_	_
@@ -24015,7 +24015,7 @@
 12	Phönix	Phönix	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
 13	aus	aus	ADP	APPR	_	16	case	_	_
 14	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
-15	eignen	eignen	ADJ	ADJA	_	16	amod	_	_
+15	eignen	eigen	ADJ	ADJA	Degree=Pos	16	amod	_	_
 16	Asche	Asche	NOUN	NN	Case=Dat	19	nmod	_	_
 17	immer	immer	ADV	ADV	_	18	advmod	_	_
 18	wieder	wieder	ADV	ADV	_	19	advmod	_	_
@@ -24526,7 +24526,7 @@
 18	mitteilen	mitteilen	VERB	VVFIN	_	10	acl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	22	punct	_	_
 20	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
-21	einzeln	einzeln	ADJ	ADJD	_	22	advmod	_	_
+21	einzeln	einzeln	ADJ	ADJD	Degree=Pos	22	advmod	_	_
 22	beweisen	beweisen	VERB	VVINF	_	18	conj	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	28	punct	_	_
 24	und	und	CCONJ	KON	_	28	cc	_	_
@@ -25256,7 +25256,7 @@
 3	Dichtart	Dichtart	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	6	cop	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-6	einzige	einzig	PRON	PIS	_	0	root	_	SpaceAfter=No
+6	einzige	einzig	ADJ	PIS	Degree=Pos	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 9	mehr	mehr	ADV	ADV	_	11	advmod	_	_
@@ -25799,7 +25799,7 @@
 45	hinbrütendes	hinbrütend	ADJ	ADJA	_	46	amod	_	_
 46	Anschauen	Anschauen	NOUN	NN	_	26	conj	_	_
 47	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	49	det:poss	_	_
-48	eignen	eignen	ADJ	ADJA	_	49	amod	_	_
+48	eignen	eigen	ADJ	ADJA	Degree=Pos	49	amod	_	_
 49	Nase	Nase	NOUN	NN	_	46	nmod	_	SpaceAfter=No
 50	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -26490,7 +26490,7 @@
 6	Weiber	Weiber	NOUN	NN	Case=Nom	11	nsubj	_	_
 7	alles	alle	DET	PIS	Case=Acc|PronType=Tot	11	obj	_	_
 8	mit	mit	ADP	APPR	_	10	case	_	_
-9	eignen	eignen	ADJ	ADJA	_	10	amod	_	_
+9	eignen	eigen	ADJ	ADJA	Degree=Pos	10	amod	_	_
 10	Händen	Hand	NOUN	NN	Case=Dat	11	obl	_	_
 11	machten	machen	VERB	VVFIN	_	2	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	15	punct	_	_
@@ -26990,7 +26990,7 @@
 3	sind	sein	AUX	VAFIN	_	8	cop	_	_
 4	nur	nur	ADV	ADV	_	8	advmod	_	_
 5	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
-6	einziger	einzig	ADJ	ADJA	_	8	amod	_	_
+6	einziger	einzig	ADJ	ADJA	Degree=Pos	8	amod	_	_
 7	großer	groß	ADJ	ADJA	_	8	amod	_	_
 8	Verstoß	Verstoß	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
@@ -28390,7 +28390,7 @@
 5	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
 6	ihm	ihm	PRON	PPER	Case=Dat	7	obl:arg	_	_
 7	besonders	besonders	ADV	ADV	_	9	acl	_	_
-8	eigne	eign	ADJ	ADJA	_	9	amod	_	_
+8	eigne	eigen	ADJ	ADJA	Degree=Pos	9	amod	_	_
 9	Art	Art	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	15	punct	_	_
 11	worin	worin	ADV	PWAV	_	15	mark	_	_
@@ -28507,7 +28507,7 @@
 1	Hier	hier	ADV	ADV	_	12	advmod	_	_
 2	in	in	ADP	APPR	_	5	case	_	_
 3	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
-4	eignen	eign	ADJ	ADJA	_	5	amod	_	_
+4	eignen	eigen	ADJ	ADJA	Degree=Pos	5	amod	_	_
 5	Produkten	Produkt	NOUN	NN	_	12	obl	_	_
 6	sollten	sollen	AUX	VMFIN	_	12	aux	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -29596,7 +29596,7 @@
 11	so	so	ADV	ADV	_	12	advmod	_	_
 12	dichtete	dichten	VERB	VVFIN	_	0	root	_	_
 13	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
-14	eigne	eignen	ADJ	ADJA	_	18	amod	_	_
+14	eigne	eigen	ADJ	ADJA	Degree=Pos	18	amod	_	_
 15	ursprünglich	ursprünglich	ADV	ADV	_	17	advmod	_	_
 16	dazu	dazu	ADV	PAV	PronType=Dem	17	advmod	_	_
 17	bestimmte	bestimmt	ADJ	ADJA	_	18	amod	_	_
@@ -32393,7 +32393,7 @@
 2	sollen	sollen	AUX	VMFIN	_	14	aux	_	_
 3	wir	wir	PRON	PPER	Case=Nom	14	nsubj	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-5	einzigen	einzig	ADJ	ADJA	_	8	amod	_	_
+5	einzigen	einzig	ADJ	ADJA	Degree=Pos	8	amod	_	_
 6	noch	noch	ADV	ADV	_	7	advmod	_	_
 7	vorhandenen	vorhanden	ADJ	ADJA	_	8	amod	_	_
 8	Produkte	Produkt	NOUN	NN	Case=Acc	14	obj	_	_
@@ -33531,7 +33531,7 @@
 9	dieser	dieser	DET	PDAT	PronType=Dem	10	det	_	_
 10	Rücksicht	Rücksicht	NOUN	NN	_	16	obl	_	_
 11	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
-12	einzige	einzig	ADJ	ADJA	_	13	amod	_	_
+12	einzige	einzig	ADJ	ADJA	Degree=Pos	13	amod	_	_
 13	Spinosa	Spinosa	PROPN	NE	_	10	nmod	_	_
 14	am	an	ADP	APPR	_	15	case	_	_
 15	meisten	meister	PRON	PIS	_	16	obl	_	_
@@ -34387,7 +34387,7 @@
 3	Gedicht	Gedicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 4	ist	sein	AUX	VAFIN	_	7	cop	_	_
 5	das	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
-6	einzige	einzig	ADJ	ADJA	_	7	amod	_	_
+6	einzige	einzig	ADJ	ADJA	Degree=Pos	7	amod	_	_
 7	System	System	NOUN	NN	Case=Nom	0	root	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 9	transzendentalen	transzendental	ADJ	ADJA	_	10	amod	_	_
@@ -34476,7 +34476,7 @@
 # sent_id = athenaeum-f248-s1
 # text = Die einzelnen Großen stehen weniger isoliert unter den Griechen und Römern.
 1	Die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	einzelnen	einzeln	ADJ	ADJA	_	3	amod	_	_
+2	einzelnen	einzeln	ADJ	ADJA	Degree=Pos	3	amod	_	_
 3	Großen	groß	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	stehen	stehen	VERB	VVFIN	_	0	root	_	_
 5	weniger	weniger	ADV	ADV	_	4	advmod	_	_
@@ -34527,7 +34527,7 @@
 6	Genius	Genius	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	einzige	einzig	PRON	PIS	Case=Nom	6	appos	_	_
+9	einzige	einzig	ADJ	PIS	Case=Nom|Degree=Pos	6	appos	_	_
 10	den	der	DET	ART	Case=Acc|Definite=Def|PronType=Art	20	obj	_	_
 11	man	man	PRON	PIS	Case=Nom|PronType=Ind	20	nsubj	_	_
 12	ohne	ohne	ADP	APPR	_	13	case	_	_
@@ -34535,7 +34535,7 @@
 14	absolut	absolut	ADV	ADV	_	20	advmod	_	_
 15	groß	groß	ADJ	ADJD	_	20	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	17	punct	_	_
-17	einzig	einzig	ADJ	ADJD	_	15	conj	_	_
+17	einzig	einzig	ADJ	ADJD	Degree=Pos	15	conj	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
 19	unerreichbar	unerreichbar	ADJ	ADJD	_	15	conj	_	_
 20	nennen	nennen	VERB	VVINF	_	9	acl:relcl	_	_
@@ -35842,7 +35842,7 @@
 6	oft	oft	ADV	ADV	_	22	advmod	_	_
 7	zu	zu	ADP	APPR	_	10	case	_	_
 8	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	10	det	_	_
-9	einzigen	einzig	ADJ	ADJA	_	10	amod	_	_
+9	einzigen	einzig	ADJ	ADJA	Degree=Pos	10	amod	_	_
 10	Irrtum	Irrtum	NOUN	NN	Case=Dat	22	obl	_	_
 11	die	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Bestandteile	Bestandteil	NOUN	NN	Case=Nom	22	nsubj	_	_
@@ -36041,7 +36041,7 @@
 11	das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 12	ist	sein	AUX	VAFIN	_	15	aux	_	_
 13	der	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
-14	einzige	einzig	ADJ	ADJA	_	15	amod	_	_
+14	einzige	einzig	ADJ	ADJA	Degree=Pos	15	amod	_	_
 15	Verkehr	Verkehr	NOUN	NN	_	2	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	25	obj	_	_
@@ -40243,7 +40243,7 @@
 32	weil	weil	SCONJ	KOUS	_	35	mark	_	_
 33	es	es	PRON	PPER	Case=Nom	35	nsubj	_	_
 34	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	35	obl:arg	_	_
-35	einziges	einzig	ADJ	ADJD	_	29	conj	_	_
+35	einziges	einzig	ADJ	ADJD	Degree=Pos	29	conj	_	_
 36	ist	sein	AUX	VAFIN	_	35	cop	_	SpaceAfter=No
 37	,	,	PUNCT	$,	_	41	punct	_	_
 38	und	und	CCONJ	KON	_	41	cc	_	_
@@ -41262,7 +41262,7 @@
 23	wenigsten	wenigster	DET	PIAT	_	20	advmod	_	_
 24	von	von	ADP	APPR	_	26	case	_	_
 25	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
-26	eignen	eignen	PRON	PPOSS	Case=Dat	20	parataxis	_	SpaceAfter=No
+26	eignen	eigen	ADJ	PPOSS	Case=Dat|Degree=Pos	20	parataxis	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -42323,7 +42323,7 @@
 12	Vorlesung	Vorlesung	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	das	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
-15	einzelne	einzeln	PRON	PIS	_	9	conj	_	_
+15	einzelne	einzeln	ADJ	PIS	Degree=Pos	9	conj	_	_
 16	aus	aus	ADP	APPR	_	18	case	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Verbindung	Verbindung	NOUN	NN	Case=Dat	15	nmod	_	SpaceAfter=No
@@ -43469,7 +43469,7 @@
 2	gilt	gelten	VERB	VVFIN	_	0	root	_	_
 3	bis	bis	ADP	APPR	_	6	case	_	_
 4	auf	auf	ADP	APPR	_	6	case	_	_
-5	einzelne	einzeln	ADJ	ADJA	_	6	amod	_	_
+5	einzelne	einzeln	ADJ	ADJA	Degree=Pos	6	amod	_	_
 6	Gedanken	Gedanke	NOUN	NN	_	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -43688,7 +43688,7 @@
 7	ist	sein	AUX	VAFIN	_	11	cop	_	_
 8	nur	nur	ADV	ADV	_	11	advmod	_	_
 9	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
-10	eigne	eign	ADJ	ADJA	_	11	amod	_	_
+10	eigne	eigen	ADJ	ADJA	Degree=Pos	11	amod	_	_
 11	Art	Art	NOUN	NN	Case=Nom	0	root	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
 13	Magnetismus	Magnetismus	NOUN	NN	Case=Dat	11	nmod	_	SpaceAfter=No
@@ -43761,7 +43761,7 @@
 15	,	,	PUNCT	$,	_	14	punct	_	_
 16	kann	können	AUX	VMFIN	_	24	aux	_	_
 17	auf	auf	ADP	APPR	_	19	case	_	_
-18	einzelne	einzeln	DET	ART	_	19	det	_	_
+18	einzelne	einzeln	ADJ	ART	Degree=Pos	19	det	_	_
 19	Momente	Moment	NOUN	NN	_	24	obl	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Welt	Welt	NOUN	NN	Case=Acc	24	obj	_	_
@@ -43789,7 +43789,7 @@
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	nur	nur	ADV	ADV	_	24	advmod	_	_
 14	auf	auf	ADP	APPR	_	16	case	_	_
-15	einzelne	einzeln	DET	ART	_	16	det	_	_
+15	einzelne	einzeln	ADJ	ART	Degree=Pos	16	det	_	_
 16	Momente	Moment	NOUN	NN	_	24	obl	_	_
 17	wie	wie	CCONJ	KOKOM	_	20	case	_	_
 18	durch	durch	ADP	APPR	_	20	case	_	_
@@ -44934,7 +44934,7 @@
 7	sittliche	sittlich	ADJ	ADJA	_	8	amod	_	_
 8	Mensch	Mensch	NOUN	NN	Case=Nom	17	nsubj	_	_
 9	aus	aus	ADP	APPR	_	11	case	_	_
-10	eigner	eign	ADJ	ADJA	_	11	amod	_	_
+10	eigner	eigen	ADJ	ADJA	Degree=Pos	11	amod	_	_
 11	Kraft	Kraft	NOUN	NN	Case=Dat	17	obl	_	_
 12	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	_
 13	um	um	ADP	APPR	_	15	case	_	_
@@ -45279,7 +45279,7 @@
 90	Form	Form	NOUN	NN	Case=Acc	97	obj	_	_
 91	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	92	det:poss	_	_
 92	Innern	innere	NOUN	NN	_	90	nmod	_	_
-93	einzelnen	einzeln	ADJ	ADJA	Case=Dat	94	amod	_	_
+93	einzelnen	einzeln	ADJ	ADJA	Case=Dat|Degree=Pos	94	amod	_	_
 94	Gegenständen	Gegenstand	NOUN	NN	Case=Dat	97	obl:arg	_	_
 95	der	der	DET	ART	Definite=Def|PronType=Art	96	det	_	_
 96	Außenwelt	Außenwelt	NOUN	NN	_	94	nmod	_	_
@@ -47846,7 +47846,7 @@
 28	Stillen	Stille	NOUN	NN	_	33	obl	_	_
 29	durch	durch	ADP	APPR	_	32	case	_	_
 30	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
-31	eigne	eign	ADJ	ADJA	_	32	amod	_	_
+31	eigne	eigen	ADJ	ADJA	Degree=Pos	32	amod	_	_
 32	Kraft	Kraft	NOUN	NN	Case=Acc	33	obl	_	_
 33	wachsen	wachsen	VERB	VVINF	_	14	conj	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	6	punct	_	_
@@ -49120,7 +49120,7 @@
 35	Schlüssel	Schlüssel	NOUN	NN	Case=Acc	43	obj	_	_
 36	zu	zu	ADP	APPR	_	40	case	_	_
 37	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	40	det:poss	_	_
-38	eignen	eignen	ADJ	ADJA	_	40	amod	_	_
+38	eignen	eigen	ADJ	ADJA	Degree=Pos	40	amod	_	_
 39	esoterischen	esoterisch	ADJ	ADJA	_	40	amod	_	_
 40	Geschichte	Geschichte	NOUN	NN	Case=Dat	43	obl	_	_
 41	noch	noch	ADV	ADV	_	42	advmod	_	_
@@ -49916,7 +49916,7 @@
 3	ihm	ihm	PRON	PPER	_	9	obl	_	_
 4	nur	nur	ADV	ADV	_	9	advmod	_	_
 5	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
-6	einzigen	einzig	ADJ	ADJA	_	8	amod	_	_
+6	einzigen	einzig	ADJ	ADJA	Degree=Pos	8	amod	_	_
 7	absoluten	absolut	ADJ	ADJA	_	8	amod	_	_
 8	Widerspruch	Widerspruch	NOUN	NN	Case=Acc	9	obj	_	_
 9	kreditieren	kreditieren	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -50525,7 +50525,7 @@
 # sent_id = athenaeum-f404-s7
 # text = Die einzige Art, die Philosophie auf die Philologie oder, welches noch weit nötiger ist, die Philologie auf die Philosophie anzuwenden, ist, wenn man zugleich Philolog und Philosoph ist.
 1	Die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	einzige	einzig	ADJ	ADJA	_	3	amod	_	_
+2	einzige	einzig	ADJ	ADJA	Degree=Pos	3	amod	_	_
 3	Art	Art	NOUN	NN	Case=Nom	25	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -52280,7 +52280,7 @@
 # sent_id = athenaeum-f421-s4
 # text = Ein eignes Phänomen ist es; ein Autor, der die Anfangsgründe der Kunst nicht in der Gewalt hat, nicht ein Bonmot rein ausdrücken, nicht eine Geschichte gut erzählen kann, nur so was man gewöhnlich gut erzählen nennt, und dem man doch schon um eines solchen humoristischen Dithyrambus willen, wie der Adamsbrief des trotzigen, kernigen, prallen, herrlichen Leibgeber, den Namen eines großen Dichters nicht ohne Ungerechtigkeit absprechen dürfte.
 1	Ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	3	det	_	_
-2	eignes	eign	ADJ	ADJA	_	3	amod	_	_
+2	eignes	eigen	ADJ	ADJA	Degree=Pos	3	amod	_	_
 3	Phänomen	Phänomen	NOUN	NN	Case=Nom	0	root	_	_
 4	ist	sein	AUX	VAFIN	_	3	cop	_	_
 5	es	es	PRON	PPER	Case=Nom	3	nsubj	_	SpaceAfter=No
