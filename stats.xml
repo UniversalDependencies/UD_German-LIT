@@ -64,7 +64,7 @@
     <feat name="PronType" value="Art" upos="DET">4300</feat><!-- der, die, ein, das, den, eine, des, dem, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">438</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
     <feat name="PronType" value="Dem,Rel" upos="PRON">473</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">575</feat><!-- man, etwas, andre, viele, andern, viel, manche, einige, mancher, mehre -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">598</feat><!-- man, etwas, andre, viele, andern, genug, viel, manche, einige, mancher -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET">89</feat><!-- keine, kein, keinen, keiner, keins, keinem, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">1383</feat><!-- es, sich, er, ihre, seine, ihr, seiner, ihrer, sein, ihren -->
@@ -83,8 +83,8 @@
     <dep name="acl">474</dep>
     <dep name="acl:relcl">17</dep>
     <dep name="advcl">505</dep>
-    <dep name="advmod">4124</dep>
-    <dep name="amod">2339</dep>
+    <dep name="advmod">4136</dep>
+    <dep name="amod">2333</dep>
     <dep name="appos">88</dep>
     <dep name="aux">986</dep>
     <dep name="aux:pass">166</dep>
@@ -104,7 +104,7 @@
     <dep name="fixed">65</dep>
     <dep name="flat">58</dep>
     <dep name="mark">956</dep>
-    <dep name="nmod">2043</dep>
+    <dep name="nmod">2037</dep>
     <dep name="nmod:poss">69</dep>
     <dep name="nsubj">3196</dep>
     <dep name="nsubj:outer">1</dep>
