@@ -42874,21 +42874,23 @@
 24	wer	wer	PRON	PWS	_	21	conj	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	27	punct	_	_
 26	sondern	sondern	CCONJ	KON	_	27	cc	_	_
-27	strömt	strömt	VERB	VVFIN	_	8	conj	_	_
-28	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
-29	Stoff	Stoff	NOUN	NN	Case=Acc	27	obj	_	_
-30	aus	aus	ADP	APPR	_	32	case	_	_
-31	ins	in	DET	ART	_	32	det	_	_
-32	Weite	weite	NOUN	NN	Case=Dat	27	obl	_	_
-33	und	und	CCONJ	KON	_	36	cc	_	_
-34	nach	nach	ADP	APPR	_	36	case	_	_
-35	allen	alle	DET	PIAT	PronType=Tot	36	det	_	_
-36	Richtungen	Richtung	NOUN	NN	Case=Dat	32	conj	_	_
-37	wie	wie	CCONJ	KOKOM	_	40	cc	_	_
-38	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	40	det	_	_
-39	elektrische	elektrisch	ADJ	ADJA	_	40	amod	_	_
-40	Spitze	Spitze	NOUN	NN	_	27	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	$.	_	8	punct	_	_
+27	strömt	strömen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+28	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	Stoff	Stoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+30	aus	aus	ADP	APPR	_	27	compound:prt	_	_
+31-32	ins	_	_	_	_	_	_	_	_
+31	in	in	ADP	APPR	_	33	case	_	_
+32	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
+33	Weite	Weite	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
+34	und	und	CCONJ	KON	_	37	cc	_	_
+35	nach	nach	ADP	APPR	_	37	case	_	_
+36	allen	alle	DET	PIAT	Case=Dat|Number=Plur|PronType=Tot	37	det	_	_
+37	Richtungen	Richtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	33	conj	_	_
+38	wie	wie	SCONJ	KOUS	_	41	cc	_	_
+39	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	41	det	_	_
+40	elektrische	elektrisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	Spitze	Spitze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	$.	_	8	punct	_	_
 
 # genre = fragments
 # author = Friedrich Schlegel
