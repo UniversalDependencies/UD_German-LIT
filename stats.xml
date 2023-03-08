@@ -20,11 +20,11 @@
     <tag name="ADV">3581</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2492</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">1941</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
-    <tag name="DET">5853</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, anderer -->
+    <tag name="DET">5851</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, anderer -->
     <tag name="NOUN">7377</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">41</tag><!-- eins, zwei, drei, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">856</tag><!-- nicht, zu, an, 's -->
-    <tag name="PRON">2766</tag><!-- der, es, sie, sich, er, man, was, nichts, etwas, wir -->
+    <tag name="PRON">2768</tag><!-- der, es, sie, sich, er, man, was, nichts, etwas, wir -->
     <tag name="PROPN">333</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Spinosa, Caesar, Christus, England, Goethe -->
     <tag name="PUNCT">5406</tag><!-- ,, ., ;, :, ?, «, », !, –, ) -->
     <tag name="SCONJ">528</tag><!-- wenn, daß, weil, um, als, ob, ohne, da, dass, indem -->
@@ -53,7 +53,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">4</feat><!-- era, fait, is, strömt -->
     <feat name="Mood" value="Sub" upos="VERB">3</feat><!-- erfolge, leben, wohlgehe -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">91</feat><!-- ihnen, denen, die, den, sie, Momente, der, Alten, Anfangsgründe, Eigenschaften -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1084</feat><!-- es, er, etwas, ich, ihm, ihn, jeder, jedem, du, jedes -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1086</feat><!-- es, er, etwas, ich, ihm, ihn, jeder, jedem, du, jedes -->
     <feat name="Number[psor]" value="Plur" upos="DET">1</feat><!-- ihr -->
     <feat name="Number[psor]" value="Sing" upos="DET">201</feat><!-- seine, seiner, sein, seinem, seinen, seines, meine, mein, deine, deiner -->
     <feat name="NumType" value="Card" upos="DET,NUM">1008</feat><!-- ein, eine, einer, einen, einem, eines, eins, beiden, beide, beyde -->
@@ -71,7 +71,7 @@
     <feat name="PronType" value="Prs" upos="DET,PRON">1542</feat><!-- es, sich, er, ihre, seine, ihr, ich, seiner, ihm, ihn -->
     <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- che -->
-    <feat name="PronType" value="Tot" upos="DET">343</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, beiden, beide -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">345</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, beiden, beide -->
     <feat name="Reflex" value="Yes" upos="PRON">335</feat><!-- sich, himself -->
     <feat name="Tense" value="Past" upos="AUX">1</feat><!-- era -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">6</feat><!-- erfolge, fait, is, leben, strömt, wohlgehe -->
