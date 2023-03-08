@@ -1368,7 +1368,7 @@
 7	als	als	CCONJ	KOKOM	_	10	case	_	_
 8	ob	ob	SCONJ	KOUS	_	7	fixed	_	_
 9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	jemand	jemand	PRON	PIS	_	5	acl	_	_
+10	jemand	jemand	PRON	PIS	Number=Sing|PronType=Ind	5	acl	_	_
 11	wäre	sein	AUX	VAFIN	_	10	acl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	mit	mit	ADP	APPR	_	14	case	_	_
@@ -4082,7 +4082,7 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	unmöglich	unmöglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
-5	jemanden	jemand	PRON	PIS	Case=Dat	9	obl:arg	_	_
+5	jemanden	jemand	PRON	PIS	Case=Dat|Number=Sing|PronType=Ind	9	obl:arg	_	_
 6	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	7	det	_	_
 7	Ärgernis	Ärgernis	NOUN	NN	Case=Acc	9	obj	_	_
 8	zu	zu	PART	PTKZU	_	9	mark	_	_
@@ -5281,7 +5281,7 @@
 12	)	)	PUNCT	$(	_	11	punct	_	_
 13	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
 14	muß	müssen	AUX	VMFIN	_	16	aux	_	_
-15	jemand	jemand	PRON	PIS	Case=Acc	16	obj	_	_
+15	jemand	jemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Ind	16	obj	_	_
 16	haben	haben	VERB	VVINF	_	4	parataxis	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	20	punct	_	_
 18	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	20	obl:arg	_	_
@@ -31217,7 +31217,7 @@
 6	sein	sein	AUX	VAINF	_	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	5	punct	_	_
 8	was	was	PRON	PWS	Case=Acc	13	obj	_	_
-9	jemand	jemand	PRON	PIS	Case=Nom	13	nsubj	_	_
+9	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	_
 10	vom	von	ADP	APPRART	_	11	case	_	_
 11	Katheder	Katheder	PROPN	NE	_	13	obl	_	_
 12	herab	herab	ADV	ADV	_	13	advmod	_	_
@@ -39073,7 +39073,7 @@
 14	müßte	müssen	AUX	VMFIN	_	18	aux	_	_
 15	uns	uns	PRON	PPER	Case=Dat	18	obl:arg	_	_
 16	denn	denn	CCONJ	KON	_	18	advmod	_	_
-17	jemand	jemand	PRON	PIS	Case=Nom	18	nsubj	_	_
+17	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	_
 18	belehren	belehren	VERB	VVINF	_	2	parataxis	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	24	punct	_	_
 20	Laokoon	Laokoon	PROPN	NE	Case=Nom	24	nsubj	_	_
@@ -42867,7 +42867,7 @@
 17	nicht	nicht	PART	PTKNEG	_	15	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	15	punct	_	_
 19	ob	ob	SCONJ	KOUS	_	21	mark	_	_
-20	jemand	jemand	PRON	PIS	Case=Nom	21	nsubj	_	_
+20	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	_
 21	da	da	ADV	ADV	_	15	advcl	_	_
 22	ist	sein	AUX	VAFIN	_	21	cop	_	_
 23	und	und	CCONJ	KON	_	24	cc	_	_
@@ -44165,7 +44165,7 @@
 7	anzunehmen	annehmen	VERB	VVINF	_	5	csubj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	daß	daß	SCONJ	KOUS	_	12	mark	_	_
-10	jemand	jemand	PRON	PIS	Case=Nom	12	nsubj	_	_
+10	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	_
 11	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	12	det	_	_
 12	Philosoph	Philosoph	NOUN	NN	Case=Nom	7	ccomp	_	_
 13	sei	sein	AUX	VAFIN	_	12	cop	_	SpaceAfter=No
@@ -44175,7 +44175,7 @@
 17	behaupten	behaupten	VERB	VVINF	_	7	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	22	punct	_	_
 19	daß	daß	SCONJ	KOUS	_	22	mark	_	_
-20	jemand	jemand	PRON	PIS	Case=Nom	22	nsubj	_	_
+20	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	22	nsubj	_	_
 21	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	22	det	_	_
 22	Sophist	Sophist	NOUN	NN	Case=Nom	17	ccomp	_	_
 23	sei	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
@@ -45190,7 +45190,7 @@
 # sent_id = athenaeum-f358-s3
 # text = Wenn jemand die Physik universeller macht, sie als ein Stück Mathematik und diese als ein Charadenspiel behandelt, und dann sieht daß er die Theologie dazu nehmen muß, deren Geheimnisse seinen diplomatischen und deren verwickelte Streitfragen seinen chirurgischen Sinn anlocken: cela peut aller jusqu' à la philosophie, wenn er noch so viel Instinkt hat als Leibniz Aber eine solche Philosophie wird doch immer nur ein konfuses, unvollständiges Etwas bleiben, wie der Urstoff nach Leibniz sein soll, der nach Art der Genies die Form seines Innern einzelnen Gegenständen der Außenwelt anzudichten pflegt.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
-2	jemand	jemand	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Physik	Physik	NOUN	NN	Case=Acc	6	obj	_	_
 5	universeller	universell	ADJ	ADJD	_	6	xcomp	_	_
@@ -45728,7 +45728,7 @@
 41	als	als	CCONJ	KOKOM	_	43	case	_	_
 42	leidenschaftliche	leidenschaftlich	ADJ	ADJA	_	43	amod	_	_
 43	Verblendung	Verblendung	NOUN	NN	_	49	obl	_	_
-44	jemanden	jemand	PRON	PIS	Case=Dat	49	obl:arg	_	_
+44	jemanden	jemand	PRON	PIS	Case=Dat|Number=Sing|PronType=Ind	49	obl:arg	_	_
 45	darin	darin	ADV	PROAV	PronType=Dem	49	advmod	_	_
 46	kann	können	AUX	VMFIN	_	49	aux	_	_
 47	fehl	fehl	ADV	ADV	_	49	advmod	_	_
@@ -45912,7 +45912,7 @@
 23	,	,	PUNCT	$,	_	33	punct	_	_
 24	wenn	wenn	SCONJ	KOUS	_	33	mark	_	_
 25	man	man	PRON	PIS	Case=Nom|PronType=Ind	33	nsubj	_	_
-26	jemand	jemand	PRON	PIS	Case=Acc	33	obj	_	_
+26	jemand	jemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Ind	33	obj	_	_
 27	mit	mit	ADP	APPR	_	30	case	_	_
 28	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	30	det	_	_
 29	gewissen	gewiß	ADJ	ADJA	_	30	amod	_	_
@@ -47789,7 +47789,7 @@
 4	selten	selten	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	10	mark	_	_
-7	jemand	jemand	PRON	PIS	Case=Nom	10	nsubj	_	_
+7	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
 8	lange	lange	ADV	ADV	_	10	advmod	_	_
 9	kalt	kalt	ADJ	ADJD	_	10	xcomp	_	_
 10	scheint	scheinen	VERB	VVFIN	_	4	csubj	_	_
@@ -50147,7 +50147,7 @@
 # sent_id = athenaeum-f401-s1
 # text = Um jemand zu verstehn, der sich selbst nur halb versteht, muß man ihn erst ganz und besser als er selbst, dann aber auch nur halb und grade so gut wie er selbst verstehn.
 1	Um	um	SCONJ	KOUI	_	4	mark	_	_
-2	jemand	jemand	PRON	PIS	Case=Acc	4	obj	_	_
+2	jemand	jemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Ind	4	obj	_	_
 3	zu	zu	PART	PTKZU	_	4	mark	_	_
 4	verstehn	verstehn	VERB	VVINF	_	36	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	11	punct	_	_
