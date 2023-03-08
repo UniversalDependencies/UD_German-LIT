@@ -4391,7 +4391,7 @@
 29	verdorben	verderben	VERB	VVFIN	_	17	conj	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	29	punct	_	_
 31	als	als	CCONJ	KOKOM	_	34	case	_	_
-32	irgendeine	irgendein	DET	PIAT	_	34	det	_	_
+32	irgendeine	irgendein	DET	PIAT	Number=Sing|PronType=Ind	34	det	_	_
 33	andre	anderer	DET	ADJA	PronType=Ind	34	amod	_	_
 34	Kategorie	Kategorie	NOUN	NN	_	29	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	2	punct	_	_
@@ -22674,7 +22674,7 @@
 12	zu	zu	ADP	APPR	_	14	case	_	_
 13	der	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Charakteristik	Charakteristik	NOUN	NN	Case=Dat	11	nmod	_	_
-15	irgendeiner	irgendein	DET	PIAT	_	16	det	_	_
+15	irgendeiner	irgendein	DET	PIAT	Number=Sing|PronType=Ind	16	det	_	_
 16	Gattung	Gattung	NOUN	NN	_	14	nmod	_	_
 17	sein	sein	AUX	VAINF	_	11	cop	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	25	punct	_	_
@@ -24635,11 +24635,11 @@
 35	was	was	PRON	PWS	Case=Acc	45	obj	_	_
 36	man	man	PRON	PIS	Case=Nom|PronType=Ind	45	nsubj	_	_
 37	zu	zu	ADP	APPR	_	39	case	_	_
-38	irgendeiner	irgendein	DET	PIAT	_	39	det	_	_
+38	irgendeiner	irgendein	DET	PIAT	Number=Sing|PronType=Ind	39	det	_	_
 39	Zeit	Zeit	NOUN	NN	Case=Dat	45	obl	_	SpaceAfter=No
 40	,	,	PUNCT	$,	_	43	punct	_	_
 41	an	an	ADP	APPR	_	43	case	_	_
-42	irgendeinem	irgendein	DET	PIAT	_	43	det	_	_
+42	irgendeinem	irgendein	DET	PIAT	Number=Sing|PronType=Ind	43	det	_	_
 43	Orte	Ort	NOUN	NN	Case=Dat	45	obl	_	_
 44	so	so	ADV	ADV	_	45	advmod	_	_
 45	genannt	nennen	VERB	VVPP	_	30	ccomp	_	_
@@ -30800,7 +30800,7 @@
 # text = Schwerlich hat irgendeine andre Literatur so viele Ausgeburten der Originalitätssucht aufzuweisen als unsre.
 1	Schwerlich	schwerlich	ADV	ADV	_	2	advmod	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	irgendeine	irgendein	DET	PIAT	_	5	det	_	_
+3	irgendeine	irgendein	DET	PIAT	Number=Sing|PronType=Ind	5	det	_	_
 4	andre	anderer	DET	ADJA	PronType=Ind	5	amod	_	_
 5	Literatur	Literatur	NOUN	NN	Case=Nom	2	nsubj	_	_
 6	so	so	ADV	ADV	_	7	advmod	_	_
@@ -41571,7 +41571,7 @@
 20	,	,	PUNCT	$,	_	29	punct	_	_
 21	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
 22	durch	durch	ADP	APPR	_	26	case	_	_
-23	irgendeinen	irgendein	DET	PIAT	_	26	det	_	_
+23	irgendeinen	irgendein	DET	PIAT	Number=Sing|PronType=Ind	26	det	_	_
 24	gemeinen	gemein	ADJ	ADJA	_	26	amod	_	_
 25	erdigen	erdig	ADJ	ADJA	_	26	amod	_	_
 26	Stoff	Stoff	NOUN	NN	Case=Acc	29	obl	_	_
@@ -43203,7 +43203,7 @@
 25	werden	werden	AUX	VAINF	_	24	aux:pass	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	24	punct	_	_
 27	ohne	ohne	SCONJ	KOUI	_	30	mark	_	_
-28	irgendeinem	irgendein	ADV	ADV	_	30	advmod	_	_
+28	irgendeinem	irgendein	DET	ADV	Number=Sing|PronType=Ind	30	advmod	_	_
 29	zu	zu	PART	PTKZU	_	30	mark	_	_
 30	versagen	versagen	VERB	VVINF	_	24	advcl	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	37	punct	_	_
@@ -45605,7 +45605,7 @@
 58	hintertreibt	hintertreiben	VERB	VVFIN	_	49	advcl	_	SpaceAfter=No
 59	,	,	PUNCT	$,	_	69	punct	_	_
 60	oder	oder	CCONJ	KON	_	69	cc	_	_
-61	irgendeinen	irgendein	DET	PIAT	_	62	det	_	_
+61	irgendeinen	irgendein	DET	PIAT	Number=Sing|PronType=Ind	62	det	_	_
 62	Gegenstand	Gegenstand	NOUN	NN	Case=Acc	69	obj	_	_
 63	für	für	ADP	APPR	_	65	case	_	_
 64	die	der	DET	ART	Definite=Def|PronType=Art	65	det	_	_
@@ -52120,7 +52120,7 @@
 17	Männer	Mann	NOUN	NN	_	12	obl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	27	punct	_	_
 19	daß	daß	SCONJ	KOUS	_	27	case	_	_
-20	irgendeine	irgendein	DET	PIAT	_	24	det	_	_
+20	irgendeine	irgendein	DET	PIAT	Number=Sing|PronType=Ind	24	det	_	_
 21	gute	gut	ADJ	ADJA	_	24	amod	_	_
 22	und	und	CCONJ	KON	_	23	cc	_	_
 23	schöne	schön	ADJ	ADJA	_	21	conj	_	_
