@@ -32627,7 +32627,7 @@
 1	Was	was	PRON	PWS	Case=Nom	9	nsubj	_	_
 2	in	in	ADP	APPR	_	5	case	_	_
 3	gar	gar	ADV	ADV	_	4	advmod	_	_
-4	keiner	kein	ADJ	ADJA	_	5	amod	_	_
+4	keiner	kein	DET	ADJA	PronType=Neg	5	det	_	_
 5	Beziehung	Beziehung	NOUN	NN	_	9	obl	_	_
 6	aufs	auf	ADP	APPRART	_	7	case	_	_
 7	Reich	Reich	NOUN	NN	_	5	obl	_	_
@@ -40377,7 +40377,7 @@
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Alten	alte	NOUN	NN	_	4	nmod	_	_
 7	wird	werden	AUX	VAFIN	_	11	aux	_	_
-8	keiner	keiner	PRON	PIS	Case=Acc	11	obj	_	_
+8	keiner	kein	DET	PIS	Case=Acc|PronType=Neg	11	obj	_	_
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	urteilen	urteilen	VERB	VVINF	_	11	xcomp	_	_
 11	wagen	wagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -43011,7 +43011,7 @@
 11	abhängt	abhängen	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	darf	dürfen	AUX	VMFIN	_	18	aux	_	_
-14	keiner	keiner	PRON	PIS	Case=Nom	18	nsubj	_	_
+14	keiner	kein	DET	PIS	Case=Nom|PronType=Neg	18	nsubj	_	_
 15	nur	nur	ADV	ADV	_	18	advmod	_	_
 16	für	für	ADP	APPR	_	17	case	_	_
 17	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	18	obl	_	_
@@ -47682,7 +47682,7 @@
 5	Projekte	Projekt	NOUN	NN	Case=Acc	2	obj	_	_
 6	oder	oder	CCONJ	KON	_	8	cc	_	_
 7	gar	gar	ADV	ADV	_	8	advmod	_	_
-8	keins	keiner	PRON	PIS	_	5	conj	_	SpaceAfter=No
+8	keins	kein	DET	PIS	PronType=Neg	5	conj	_	SpaceAfter=No
 9	:	:	PUNCT	$.	_	17	punct	_	_
 10	denn	denn	CCONJ	KON	_	17	advmod	_	_
 11	Energie	Energie	NOUN	NN	Case=Nom	17	nsubj	_	_
