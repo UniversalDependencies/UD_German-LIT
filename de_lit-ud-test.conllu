@@ -3855,7 +3855,7 @@
 27	Fantasien	Fantasien	PROPN	NE	_	17	conj	_	SpaceAfter=No
 28	:	:	PUNCT	$.	_	4	punct	_	_
 29	im	in	ADP	APPRART	_	30	case	_	_
-30	letzten	letzt	PRON	PIS	_	31	obl	_	_
+30	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	31	obl	_	_
 31	zeigt	zeigen	VERB	VVFIN	_	4	parataxis	_	_
 32	sich	sich	PRON	PRF	Case=Dat|PronType=Prs|Reflex=Yes	31	obl:arg	_	_
 33	jene	jener	DET	PDS	PronType=Dem	38	det	_	_
@@ -14857,12 +14857,12 @@
 2	Alltagsleben	Alltagsleben	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	besteht	bestehen	VERB	VVFIN	_	0	root	_	_
 4	aus	aus	ADP	APPR	_	10	case	_	_
-5	lauter	lauter	DET	PIAT	_	10	det	_	_
-6	erhaltenden	erhaltend	ADJ	ADJA	_	10	amod	_	SpaceAfter=No
+5	lauter	lauter	ADJ	ADJD	_	6	advmod	_	_
+6	erhaltenden	erhaltend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	immer	immer	ADV	ADV	_	9	advmod	_	_
-9	wiederkehrenden	wiederkehrend	ADJ	ADJA	_	6	conj	_	_
-10	Verrichtungen	Verrichtung	NOUN	NN	Case=Dat	3	obl	_	SpaceAfter=No
+9	wiederkehrenden	wiederkehrend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	6	conj	_	_
+10	Verrichtungen	Verrichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -16454,7 +16454,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f90-s7
 # text = Letztere pflegt die Symptome des Skeptizismus zu haben.
-1	Letztere	letzter	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Letztere	letzt	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	pflegt	pflegen	VERB	VVFIN	_	0	root	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Symptome	Symptom	NOUN	NN	Case=Acc	8	obj	_	_
@@ -37972,9 +37972,9 @@
 12	jungen	jung	ADJ	ADJA	_	13	amod	_	_
 13	Engländers	Engländer	NOUN	NN	Case=Gen	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	2	punct	_	_
-15	le	le	DET	ART	Case=Nom	2	nsubj	_	_
-16	grand	grand	X	N	_	15	flat	_	_
-17	tour	tour	NOUN	NN	_	15	flat	_	SpaceAfter=No
+15	le	le	DET	ART	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Lang=fr
+16	grand	grand	ADJ	FM	Foreign=Yes	17	amod	_	Lang=fr
+17	tour	tour	NOUN	NN	Foreign=Yes|Gender=Masc|Number=Sing	2	nsubj	_	Lang=fr|SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -45973,7 +45973,7 @@
 # sent_id = athenaeum-f362-s11
 # text = Das letzte dürfte eben so allgemein sein, als das erste und gewiß ist es auch, sobald man Klugheit in dieser Bedeutung nimmt, ebenso natürlich.
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
-2	letzte	letzter	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	letzte	letzt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	nsubj	_	_
 3	dürfte	dürfen	AUX	VMFIN	_	6	aux	_	_
 4	eben	eben	ADV	ADV	_	6	advmod	_	_
 5	so	so	ADV	ADV	_	6	advmod	_	_
