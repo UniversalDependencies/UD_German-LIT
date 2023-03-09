@@ -37972,7 +37972,7 @@
 12	jungen	jung	ADJ	ADJA	_	13	amod	_	_
 13	Engländers	Engländer	NOUN	NN	Case=Gen	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	2	punct	_	_
-15	le	le	DET	ART	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Lang=fr
+15	le	le	DET	ART	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Lang=fr
 16	grand	grand	ADJ	FM	Foreign=Yes	17	amod	_	Lang=fr
 17	tour	tour	NOUN	NN	Foreign=Yes|Gender=Masc|Number=Sing	2	nsubj	_	Lang=fr|SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
