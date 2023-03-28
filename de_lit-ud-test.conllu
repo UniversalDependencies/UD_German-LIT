@@ -20715,7 +20715,7 @@
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Plato	Plato	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	advcl	_	_
 12	mit	mit	ADP	APPR	_	14	case	_	_
-13	den	der	DET	ART	Case=Dat|Definite=Def|Number=PlurPronType=Art	14	det	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Spartanern	Spartaner	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	orphan	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	5	punct	_	_
 
