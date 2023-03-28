@@ -53,7 +53,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">4</feat><!-- era, fait, is, strömt -->
     <feat name="Mood" value="Sub" upos="VERB">3</feat><!-- erfolge, leben, wohlgehe -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">99</feat><!-- ihnen, denen, den, die, sie, Momente, der, Alten, Anfangsgründe, Eigenschaften -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1478</feat><!-- es, man, er, nichts, etwas, ich, ihm, ihn, jeder, mich -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1490</feat><!-- es, man, er, nichts, etwas, ich, ihm, ihn, jeder, mich -->
     <feat name="Number[psor]" value="Plur" upos="DET">1</feat><!-- ihr -->
     <feat name="Number[psor]" value="Sing" upos="DET">201</feat><!-- seine, seiner, sein, seinem, seinen, seines, meine, mein, deine, deiner -->
     <feat name="NumType" value="Card" upos="DET,NUM">1008</feat><!-- ein, eine, einer, einen, einem, eines, eins, beiden, beide, beyde -->
@@ -67,7 +67,7 @@
     <feat name="PronType" value="Dem,Rel" upos="PRON">473</feat><!-- die, der, das, dem, den, deren, denen, dessen, derer -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">662</feat><!-- man, etwas, andre, viele, andern, genug, meisten, viel, manche, einige -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
-    <feat name="PronType" value="Neg" upos="DET,PRON">166</feat><!-- nichts, keine, kein, keinen, keiner, keins, keinem, keines -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">178</feat><!-- nichts, keine, kein, keinen, niemand, keiner, keins, niemanden, keinem, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">1568</feat><!-- es, sich, er, ihre, seine, ihr, ich, seiner, ihm, ihn -->
     <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- che -->

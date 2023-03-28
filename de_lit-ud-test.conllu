@@ -4572,7 +4572,7 @@
 3	Autor	Autor	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	schreibt	schreiben	VERB	VVFIN	_	0	root	_	_
 5	für	für	ADP	APPR	_	6	case	_	_
-6	niemand	niemand	PRON	PIS	Case=Acc	4	obl	_	SpaceAfter=No
+6	niemand	niemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	10	punct	_	_
 8	oder	oder	CCONJ	KON	_	10	cc	_	_
 9	für	für	ADP	APPR	_	10	case	_	_
@@ -5558,7 +5558,7 @@
 5	an	an	ADP	APPR	_	7	case	_	_
 6	dessen	der	PRON	PRELAT	Case=Gen|Number=Sing|PronType=Dem,Rel	7	nmod	_	_
 7	Zusammenhang	Zusammenhang	NOUN	NN	_	9	obl	_	_
-8	niemand	niemand	PRON	PIS	Case=Nom	9	nsubj	_	_
+8	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	9	nsubj	_	_
 9	zweifelt	zweifeln	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	ist	sein	AUX	VAFIN	_	9	cop	_	SpaceAfter=No
@@ -6040,7 +6040,7 @@
 # text = Sie soll niemanden täuschen, als die, welche sie für Täuschung halten, und entweder ihre Freude haben an der herrlichen Schalkheit, alle Welt zum besten zu haben, oder böse werden, wenn sie ahnden, sie wären wohl auch mit gemeint.
 1	Sie	sie	PRON	PPER	Case=Nom	4	nsubj	_	_
 2	soll	sollen	AUX	VMFIN	_	4	aux	_	_
-3	niemanden	niemand	PRON	PIS	Case=Acc	4	obj	_	_
+3	niemanden	niemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	4	obj	_	_
 4	täuschen	täuschen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	als	als	CCONJ	KOKOM	_	7	cc	_	_
@@ -20303,7 +20303,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f36-s1
 # text = Niemand beurteilt eine Dekorationsmalerei und ein Altarblatt, eine Operette und eine Kirchenmusik, eine Predigt und eine philosophische Abhandlung nach demselben Maßstabe.
-1	Niemand	niemand	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	2	nsubj	_	_
 2	beurteilt	beurteilen	VERB	VVFIN	_	0	root	_	_
 3	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	4	det	_	_
 4	Dekorationsmalerei	Dekorationsmalerei	NOUN	NN	Case=Acc	2	obj	_	_
@@ -20540,7 +20540,7 @@
 46	Unglück	Unglück	NOUN	NN	Case=Acc	47	obj	_	_
 47	hatten	haben	AUX	VAFIN	_	40	acl	_	SpaceAfter=No
 48	,	,	PUNCT	$,	_	51	punct	_	_
-49	niemand	niemand	PRON	PIS	Case=Acc	51	obj	_	_
+49	niemand	niemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	51	obj	_	_
 50	zu	zu	PART	PTKZU	_	51	mark	_	_
 51	verstehen	verstehen	VERB	VVINF	_	47	xcomp	_	_
 52	als	als	CCONJ	KOKOM	_	53	cc	_	_
@@ -22689,7 +22689,7 @@
 24	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	25	nsubj	_	_
 25	sagen	sagen	VERB	VVINF	_	11	conj	_	SpaceAfter=No
 26	:	:	PUNCT	$.	_	29	punct	_	_
-27	Niemand	niemand	PRON	PIS	Case=Nom	29	nsubj	_	_
+27	Niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	29	nsubj	_	_
 28	sei	sein	AUX	VAFIN	_	29	cop	_	_
 29	uninteressant	uninteressant	ADJ	ADJD	_	25	parataxis	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	11	punct	_	_
@@ -27162,7 +27162,7 @@
 # text = Man kann niemand zwingen, die Alten für klassisch zu halten, oder für alt; das hängt zuletzt von Maximen ab.
 1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	_
 2	kann	können	AUX	VMFIN	_	4	aux	_	_
-3	niemand	niemand	PRON	PIS	Case=Acc	4	obj	_	_
+3	niemand	niemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	4	obj	_	_
 4	zwingen	zwingen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -32100,7 +32100,7 @@
 18	so	so	ADV	ADV	_	7	parataxis	_	SpaceAfter=No
 19	;	;	PUNCT	$.	_	18	punct	_	_
 20	was	was	PRON	PWS	Case=Nom	22	nsubj	_	_
-21	niemanden	niemand	PRON	PIS	Case=Acc	22	obj	_	_
+21	niemanden	niemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	22	obj	_	_
 22	auffällt	auffallen	VERB	VVFIN	_	18	parataxis	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	22	punct	_	_
 24	weil	weil	SCONJ	KOUS	_	27	mark	_	_
@@ -36525,7 +36525,7 @@
 10	;	;	PUNCT	$.	_	8	punct	_	_
 11	so	so	ADV	ADV	_	15	advmod	_	_
 12	ist	sein	AUX	VAFIN	_	15	cop	_	_
-13	niemand	niemand	PRON	PIS	Case=Nom	15	nsubj	_	_
+13	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	15	nsubj	_	_
 14	zu	zu	ADP	APPR	_	15	case	_	_
 15	Hause	Haus	NOUN	NN	Case=Dat	8	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	1	punct	_	_
@@ -41296,7 +41296,7 @@
 19	an	an	ADP	APPR	_	20	case	_	_
 20	sonst	sonst	ADV	ADV	_	22	orphan	_	_
 21	aber	aber	CCONJ	KON	_	22	cc	_	_
-22	niemand	niemand	PRON	PIS	_	2	conj	_	SpaceAfter=No
+22	niemand	niemand	PRON	PIS	Number=Sing|PronType=Neg	2	conj	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -48658,7 +48658,7 @@
 1	Wunder	Wunder	NOUN	NN	Case=Acc	2	obj	_	_
 2	nimmts	nimmts	VERB	VVFIN	_	0	root	_	_
 3	gewiß	gewiß	ADV	ADV	_	2	advmod	_	_
-4	niemand	niemand	PRON	PIS	Case=Nom	2	nsubj	_	SpaceAfter=No
+4	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	15	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	15	mark	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -51316,7 +51316,7 @@
 # text = Man soll niemanden zur Philosophie verführen oder bereden wollen.
 1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	_
 2	soll	sollen	AUX	VMFIN	_	6	aux	_	_
-3	niemanden	niemand	PRON	PIS	Case=Acc	6	obj	_	_
+3	niemanden	niemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	6	obj	_	_
 4	zur	zu	ADP	APPRART	_	5	case	_	_
 5	Philosophie	Philosophie	NOUN	NN	_	6	obl	_	_
 6	verführen	verführen	VERB	VVINF	_	0	root	_	_
