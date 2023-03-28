@@ -512,7 +512,7 @@
 10	dem	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	11	det	_	_
 11	Künstler	Künstler	NOUN	NN	Case=Dat	9	obl:arg	_	_
 12	vielleicht	vielleicht	ADV	ADV	_	13	advmod	_	_
-13	mehr	mehr	DET	PIAT	_	9	advmod	_	_
+13	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	9	advmod	_	_
 14	Ehre	Ehre	NOUN	NN	Case=Acc	9	obj	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	19	punct	_	_
 16	als	als	CCONJ	KOKOM	_	19	cc	_	_
@@ -2342,7 +2342,7 @@
 2	will	wollen	AUX	VMFIN	_	10	aux	_	_
 3	Hippel	Hippel	PROPN	NE	Case=Nom	10	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
-5	mehr	mehr	DET	PIAT	_	10	advmod	_	_
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	10	advmod	_	_
 6	Nachfolger	Nachfolger	NOUN	NN	Case=Acc	10	obj	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	dieser	dieser	DET	PDAT	PronType=Dem	9	det	_	_
@@ -5143,7 +5143,7 @@
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	an	an	ADP	APPR	_	9	case	_	_
 8	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
-9	mehre	mehre	DET	NN	Case=Nom|PronType=Ind	13	nsubj	_	_
+9	mehre	mehr	DET	NN	Case=Nom|Degree=Cmp|PronType=Ind	13	nsubj	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Art	Art	NOUN	NN	_	9	nmod	_	_
 12	fest	fest	ADJ	ADJD	_	13	advmod	_	_
@@ -5580,7 +5580,7 @@
 27	,	,	PUNCT	$,	_	28	punct	_	_
 28	eins	eins	NUM	CARD	NumType=Card	26	conj	_	_
 29	oder	oder	CCONJ	KON	_	30	cc	_	_
-30	mehre	mehre	DET	VVFIN	PronType=Ind	28	conj	_	SpaceAfter=No
+30	mehre	mehr	DET	VVFIN	Degree=Cmp|PronType=Ind	28	conj	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	32	punct	_	_
 32	Masse	Masse	NOUN	NN	_	26	conj	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	34	punct	_	_
@@ -5965,7 +5965,7 @@
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Modernen	modern	NOUN	NN	Case=Nom	11	nsubj	_	_
 11	haben	haben	AUX	VAFIN	_	4	parataxis	_	_
-12	mehr	mehr	DET	PIAT	_	14	det	_	_
+12	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	14	det	_	_
 13	poetische	poetisch	ADJ	ADJA	_	14	amod	_	_
 14	Spekulation	Spekulation	NOUN	NN	Case=Acc	11	obj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	4	punct	_	_
@@ -6402,7 +6402,7 @@
 16	Sinne	Sinn	NOUN	NN	Case=Dat	20	nmod	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Alten	alte	NOUN	NN	_	16	nmod	_	_
-19	mehr	mehr	DET	PIAT	_	20	det	_	_
+19	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	20	det	_	_
 20	Philosoph	Philosoph	NOUN	NN	_	12	appos	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	25	punct	_	_
 22	als	als	ADP	APPR	_	25	case	_	_
@@ -9666,7 +9666,7 @@
 # text = Einer hat mehr Offenbarungsfähigkeit, als der andere.
 1	Einer	ein	DET	PIS	Case=Nom|Definite=Ind|NumType=Card|PronType=Art	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	mehr	mehr	DET	PIAT	_	2	advmod	_	_
+3	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	2	advmod	_	_
 4	Offenbarungsfähigkeit	Offenbarungsfähigkeit	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	als	als	CCONJ	KOKOM	_	8	case	_	_
@@ -9681,12 +9681,12 @@
 # text = Einer hat mehr Sinn, der andere mehr Verstand für dieselbe.
 1	Einer	ein	DET	PIS	Case=Nom|Definite=Ind|NumType=Card|PronType=Art	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	_	0	root	_	_
-3	mehr	mehr	DET	PIAT	_	4	det	_	_
+3	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	4	det	_	_
 4	Sinn	Sinn	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	7	nsubj	_	_
 7	andere	anderer	DET	PIS	PronType=Ind	2	parataxis	_	_
-8	mehr	mehr	DET	PIAT	_	9	advmod	_	_
+8	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	9	advmod	_	_
 9	Verstand	Verstand	NOUN	NN	_	7	orphan	_	_
 10	für	für	ADP	APPR	_	11	case	_	_
 11	dieselbe	derselbe	DET	PDAT	Case=Acc|PronType=Dem	7	orphan	_	SpaceAfter=No
@@ -10189,7 +10189,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f27-s6
 # text = Mehre Sagen des gemeinen Lebens beruhn auf einer Bemerkung dieses verkehrten Zusammenhangs.
-1	Mehre	mehre	DET	ADJA	PronType=Ind	2	det	_	_
+1	Mehre	mehr	DET	ADJA	Degree=Cmp|PronType=Ind	2	det	_	_
 2	Sagen	sagen	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	des	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 4	gemeinen	gemein	ADJ	ADJA	_	5	amod	_	_
@@ -10459,7 +10459,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f29-s7
 # text = Mehre Nahmen sind einer Idee vortheilhaft.
-1	Mehre	mehre	DET	PIAT	PronType=Ind	2	det	_	_
+1	Mehre	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	2	det	_	_
 2	Nahmen	Nahme	NOUN	NN	Case=Nom	6	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	6	cop	_	_
 4	einer	ein	DET	ART	Case=Dat|Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
@@ -13667,7 +13667,7 @@
 8	Worten	Wort	NOUN	NN	_	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	3	punct	_	_
 10	um	um	ADP	APPR	_	17	mark	_	_
-11	mehre	mehre	DET	PIAT	PronType=Ind	12	det	_	_
+11	mehre	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	12	det	_	_
 12	Ideen	Idee	NOUN	NN	Case=Acc	17	obj	_	_
 13	mit	mit	ADP	APPR	_	15	case	_	_
 14	Einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	15	det	_	_
@@ -16127,7 +16127,7 @@
 # text = Es gehört mehr Geist zum Einfachen, als zum Complizirten, aber weniger Talent.
 1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gehört	gehören	VERB	VVFIN	_	0	root	_	_
-3	mehr	mehr	DET	PIAT	_	4	det	_	_
+3	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	4	det	_	_
 4	Geist	Geist	NOUN	NN	Case=Nom	2	nsubj	_	_
 5-6	zum	_	_	_	_	_	_	_	_
 5	zu	zu	ADP	APPR	_	7	case	_	_
@@ -18469,7 +18469,7 @@
 4	jetzt	jetzt	ADV	ADV	_	5	advmod	_	_
 5	noch	noch	ADV	ADV	_	11	advmod	_	_
 6	immer	immer	ADV	ADV	_	7	advmod	_	_
-7	mehr	mehr	DET	PIAT	_	8	det	_	_
+7	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	8	det	_	_
 8	Anhänger	Anhänger	NOUN	NN	Case=Acc	11	obj	_	_
 9	als	als	CCONJ	KOKOM	_	10	case	_	_
 10	Fichte	Fichte	NOUN	NN	_	8	nmod	_	_
@@ -20073,7 +20073,7 @@
 48	besteht	bestehen	VERB	VVFIN	_	25	acl	_	SpaceAfter=No
 49	,	,	PUNCT	$,	_	48	punct	_	_
 50	daß	daß	SCONJ	KOUS	_	54	mark	_	_
-51	mehre	mehre	DET	PIAT	PronType=Ind	52	advmod	_	_
+51	mehre	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	52	advmod	_	_
 52	Personen	Person	NOUN	NN	Case=Nom	54	nsubj	_	_
 53	nur	nur	ADV	ADV	_	54	advmod	_	_
 54	eine	ein	DET	PIS	Definite=Ind|NumType=Card|PronType=Art	48	advcl	_	_
@@ -21270,7 +21270,7 @@
 13	als	als	CCONJ	KOKOM	_	20	mark	_	_
 14	ob	ob	SCONJ	KOUS	_	20	mark	_	_
 15	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
-16	mehr	mehr	PRON	PIS	Case=Acc	20	obj	_	_
+16	mehr	mehr	DET	PIS	Case=Acc|Degree=Cmp|PronType=Ind	20	obj	_	_
 17	als	als	CCONJ	KOKOM	_	19	case	_	_
 18	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
 19	Welt	Welt	NOUN	NN	Case=Nom	20	nsubj	_	_
@@ -24863,7 +24863,7 @@
 10	vom	von	ADP	APPRART	_	14	case	_	_
 11	größten	groß	ADJ	ADJA	_	14	amod	_	_
 12	wieder	wieder	ADV	ADV	_	13	cc	_	_
-13	mehre	mehre	DET	ADJA	PronType=Ind	11	conj	_	_
+13	mehre	mehr	DET	ADJA	Degree=Cmp|PronType=Ind	11	conj	_	_
 14	Systeme	System	NOUN	NN	_	2	obl	_	_
 15	in	in	ADP	APPR	_	16	case	_	_
 16	sich	sich	PRON	PRF	PronType=Prs|Reflex=Yes	17	obl	_	_
@@ -26149,7 +26149,7 @@
 30	wäre	sein	AUX	VAFIN	_	28	cop	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	40	punct	_	_
 32	wenn	wenn	SCONJ	KOUS	_	40	mark	_	_
-33	mehre	mehre	DET	PIAT	PronType=Ind	37	det	_	_
+33	mehre	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	37	det	_	_
 34	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	35	obj	_	_
 35	gegenseitig	gegenseitig	ADJ	ADJD	_	36	advmod	_	_
 36	ergänzende	ergänzend	ADJ	ADJA	_	37	amod	_	_
@@ -26856,7 +26856,7 @@
 17	ertragen	ertragen	VERB	VVINF	_	5	acl	_	_
 18	sollte	sollen	AUX	VMFIN	_	17	aux	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	17	punct	_	_
-20	mehr	mehr	PRON	PIS	_	24	advmod	_	_
+20	mehr	mehr	DET	PIS	Degree=Cmp|PronType=Ind	24	advmod	_	_
 21	als	als	CCONJ	KOKOM	_	20	fixed	_	_
 22	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	24	det	_	_
 23	republikanische	republikanisch	ADJ	ADJA	_	24	amod	_	_
@@ -28137,7 +28137,7 @@
 21	spaltet	spalten	VERB	VVFIN	_	7	parataxis	_	_
 22	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	21	obj	_	_
 23	in	in	ADP	APPR	_	26	case	_	_
-24	mehre	mehre	DET	PIAT	PronType=Ind	26	det	_	_
+24	mehre	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	26	det	_	_
 25	entgegengesetzte	entgegengesetzt	ADJ	ADJA	_	26	amod	_	_
 26	Göttergeschlechter	Göttergeschlechter	NOUN	NN	_	21	obl	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	7	punct	_	_
@@ -28221,7 +28221,7 @@
 4	griechischen	griechisch	ADJ	ADJA	_	5	amod	_	_
 5	Sophisten	Sophist	NOUN	NN	_	2	nmod	_	_
 6	waren	sein	AUX	VAFIN	_	8	cop	_	_
-7	mehr	mehr	DET	PIAT	_	8	det	_	_
+7	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	8	det	_	_
 8	Fehler	Fehler	NOUN	NN	Case=Nom	0	root	_	_
 9	aus	aus	ADP	APPR	_	10	case	_	_
 10	Überfluß	Überfluß	NOUN	NN	Case=Dat	8	nmod	_	_
@@ -29651,7 +29651,7 @@
 2	in	in	ADP	APPR	_	4	case	_	_
 3	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	Gemälden	Gemälde	NOUN	NN	_	8	obl	_	_
-5	mehr	mehr	DET	PIAT	_	7	det	_	_
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	7	det	_	_
 6	innre	innr	ADJ	ADJA	_	7	amod	_	_
 7	Harmonie	Harmonie	NOUN	NN	Case=Nom	8	nsubj	_	_
 8	sein	sein	AUX	VAINF	_	15	advcl	_	_
@@ -34500,7 +34500,7 @@
 4	Genies	Genies	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	aber	aber	CCONJ	KON	_	8	cc	_	_
-7	mehr	mehr	DET	PIAT	_	8	advmod	_	_
+7	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	8	advmod	_	_
 8	Genialität	Genialität	NOUN	NN	_	2	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -37234,7 +37234,7 @@
 8	ließen	lassen	VERB	VVFIN	_	4	conj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
-11	mehre	mehre	DET	VVFIN	PronType=Ind	14	parataxis	_	_
+11	mehre	mehr	DET	VVFIN	Degree=Cmp|PronType=Ind	14	parataxis	_	_
 12	höchst	höchst	ADV	ADV	_	13	advmod	_	_
 13	merkwürdige	merkwürdig	ADJ	ADJA	_	14	amod	_	_
 14	Folgerungen	Folgerung	NOUN	NN	Case=Acc	8	obj	_	_
@@ -38013,7 +38013,7 @@
 28	und	und	CCONJ	KON	_	43	cc	_	_
 29	seinem	sein	DET	PPOSAT	Case=Dat|Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 30	Geist	Geist	NOUN	NN	Case=Dat	43	obl:arg	_	_
-31	mehr	mehr	DET	PIAT	_	32	det	_	_
+31	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	32	det	_	_
 32	Freiheit	Freiheit	NOUN	NN	Case=Acc	43	obj	_	_
 33	und	und	CCONJ	KON	_	35	cc	_	_
 34	innre	innr	ADJ	ADJA	_	35	amod	_	_
