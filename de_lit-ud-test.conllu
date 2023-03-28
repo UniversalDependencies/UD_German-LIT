@@ -114,7 +114,7 @@
 7	und	und	CCONJ	KON	_	11	cc	_	_
 8	doch	doch	ADV	ADV	_	11	advmod	_	_
 9	ist	sein	AUX	VAFIN	_	11	cop	_	_
-10	nichts	nichts	PRON	PIS	Case=Nom	11	nsubj	_	_
+10	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	11	nsubj	_	_
 11	seltner	selten	ADJ	ADJD	_	2	conj	_	_
 12	als	als	CCONJ	KOKOM	_	14	case	_	_
 13	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	14	det	_	_
@@ -355,7 +355,7 @@
 2	ist	sein	AUX	VAFIN	_	20	aux	_	_
 3	noch	noch	ADV	ADV	_	20	advmod	_	_
 4	gar	gar	ADV	ADV	_	5	advmod	_	_
-5	nichts	nichts	PRON	PIS	Case=Nom	20	nsubj:pass	_	_
+5	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	20	nsubj:pass	_	_
 6	recht	recht	ADV	ADV	_	7	advmod	_	_
 7	Tüchtiges	Tüchtig	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	15	punct	_	_
@@ -457,7 +457,7 @@
 9	,	,	PUNCT	$,	_	13	punct	_	_
 10	an	an	ADP	APPR	_	11	case	_	_
 11	dem	der	PRON	PRELS	PronType=Dem,Rel	13	nmod	_	_
-12	nichts	nichts	PRON	PIS	Case=Nom	13	nsubj	_	_
+12	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	13	nsubj	_	_
 13	klassisch	klassisch	ADJ	ADJD	_	6	acl	_	_
 14	ist	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	13	punct	_	_
@@ -632,7 +632,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f17-s1
 # text = Nichts ist verächtlicher als trauriger Witz.
-1	Nichts	nichts	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	3	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	verächtlicher	verächtlich	ADJ	ADJD	_	0	root	_	_
 4	als	als	CCONJ	KOKOM	_	6	case	_	_
@@ -1152,7 +1152,7 @@
 4	Kunsturteile	Kunsturteil	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	8	obl:arg	_	_
-7	nichts	nichts	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	8	nsubj	_	_
 8	fehlt	fehlen	VERB	VVFIN	_	4	acl	_	_
 9	als	als	CCONJ	KOKOM	_	11	case	_	_
 10	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
@@ -1768,7 +1768,7 @@
 11	kann	können	AUX	VMFIN	_	8	conj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	17	punct	_	_
 13	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	17	nsubj	_	_
-14	nichts	nichts	PRON	PIS	Case=Acc	17	obj	_	_
+14	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	17	obj	_	_
 15	für	für	ADP	APPR	_	16	case	_	_
 16	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	17	nmod	_	_
 17	behält	behalten	VERB	VVFIN	_	8	parataxis	_	SpaceAfter=No
@@ -1930,7 +1930,7 @@
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	läßt	lassen	VERB	VVFIN	_	0	root	_	_
 16	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	18	obj	_	_
-17	nichts	nichts	PRON	PIS	Case=Nom	18	nsubj	_	_
+17	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	18	nsubj	_	_
 18	tadeln	tadeln	VERB	VVINF	_	15	xcomp	_	_
 19	als	als	CCONJ	KOKOM	_	22	case	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
@@ -3073,7 +3073,7 @@
 3	Kritiken	Kritik	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
-6	nichts	nichts	PRON	PIS	Case=Acc	8	obj	_	_
+6	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	8	obj	_	_
 7	mehr	mehr	ADV	ADV	_	8	advmod	_	_
 8	sagen	sagen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
@@ -3973,7 +3973,7 @@
 1	welches	welcher	DET	PWAT	Case=Nom|PronType=Int,Rel	5	nsubj	_	_
 2	zu	zu	ADP	APPR	_	4	case	_	_
 3	gar	gar	ADV	ADV	_	4	advmod	_	_
-4	nichts	nichts	PRON	PIS	Case=Dat	5	nmod	_	_
+4	nichts	nichts	PRON	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Neg	5	nmod	_	_
 5	führen	führen	VERB	VVINF	_	0	root	_	_
 6	kann	können	AUX	VMFIN	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	5	punct	_	_
@@ -4749,7 +4749,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f88-s1
 # text = Nichts ist pikanter, als wenn ein genialischer Mann Manieren hat;
-1	Nichts	nichts	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	3	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	pikanter	pikant	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
@@ -5171,7 +5171,7 @@
 # text = sonst bleibt nichts, sobald das Wort gefunden ist: auch ist 's nicht ohne Reiz, wenn ein witziger Einfall insoweit rätselhaft ist, daß er erraten sein will: nur muß sein Sinn gleich völlig klar werden, sobald er getroffen ist.
 1	sonst	sonst	ADV	ADV	_	2	advmod	_	_
 2	bleibt	bleiben	VERB	VVFIN	_	0	root	_	_
-3	nichts	nichts	PRON	PIS	Case=Nom	2	nsubj	_	SpaceAfter=No
+3	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	sobald	sobald	SCONJ	KOUS	_	8	mark	_	_
 6	das	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -5908,7 +5908,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f106-s1
 # text = Nichts ist in seinem Ursprung jämmerlicher und in seinen Folgen gräßlicher, als die Furcht, lächerlich zu sein.
-1	Nichts	nichts	PRON	PIS	Case=Nom	6	nsubj	_	_
+1	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	6	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	6	cop	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -7113,7 +7113,7 @@
 13	so	so	ADV	ADV	_	14	advmod	_	_
 14	taugen	taugen	VERB	VVFIN	_	7	parataxis	_	_
 15	sie	sie	PRON	PPER	Case=Nom	14	nsubj	_	_
-16	nichts	nichts	PRON	PIS	Case=Acc	14	obj	_	SpaceAfter=No
+16	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	19	punct	_	_
 18	als	als	SCONJ	KOUS	_	19	case	_	_
 19	solche	solcher	PRON	PIS	_	16	nmod	_	SpaceAfter=No
@@ -7134,7 +7134,7 @@
 8	Liebhaber	Liebhaber	NOUN	NN	Case=Nom	9	nsubj	_	_
 9	sagt	sagen	VERB	VVFIN	_	2	parataxis	_	_
 10	ja	ja	ADV	ADV	_	9	advmod	_	_
-11	nichts	nichts	PRON	PIS	Case=Acc	9	obj	_	SpaceAfter=No
+11	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	15	punct	_	_
 13	als	als	CCONJ	KOKOM	_	15	case	_	_
 14	zierliche	zierlich	ADJ	ADJA	_	15	amod	_	_
@@ -7552,7 +7552,7 @@
 3	Philosophie	Philosophie	NOUN	NN	Case=Nom	7	nsubj	_	_
 4	doch	doch	ADV	ADV	_	7	advmod	_	_
 5	weiter	weiter	ADV	ADV	_	7	advmod	_	_
-6	nichts	nichts	PRON	PIS	Case=Acc	7	obj	_	_
+6	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	7	obj	_	_
 7	kann	können	VERB	VMFIN	_	22	advcl	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	können	können	VERB	VMINF	_	7	conj	_	_
@@ -7897,7 +7897,7 @@
 19	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	24	obj	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Poesie	Poesie	NOUN	NN	Case=Nom	24	nsubj	_	_
-22	nichts	nichts	PRON	PIS	Case=Acc	23	obj	_	_
+22	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	23	obj	_	_
 23	träumen	träumen	VERB	VVINF	_	24	xcomp	_	_
 24	läßt	lassen	VERB	VVFIN	_	13	acl	_	SpaceAfter=No
 25	?	?	PUNCT	$.	_	2	punct	_	_
@@ -8290,7 +8290,7 @@
 13	Wahn	Wahn	NOUN	NN	Case=Nom	16	nsubj	_	_
 14	ist	sein	AUX	VAFIN	_	16	cop	_	_
 15	also	also	ADV	ADV	_	16	advmod	_	_
-16	nichts	nichts	PRON	PIS	_	2	conj	_	SpaceAfter=No
+16	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	2	conj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	16	punct	_	_
 18	als	als	ADP	APPR	_	20	case	_	_
 19	logische	logisch	ADJ	ADJA	_	20	amod	_	_
@@ -8319,7 +8319,7 @@
 9	,	,	PUNCT	$,	_	15	punct	_	_
 10	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 11	durch	durch	ADP	APPR	_	12	case	_	_
-12	nichts	nichts	PRON	PIS	Case=Acc	15	obl	_	_
+12	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	15	obl	_	_
 13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	heben	heben	VERB	VVINF	_	15	xcomp	_	_
 15	ist	sein	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
@@ -8733,7 +8733,7 @@
 # text = Ich verliere nichts, als die Stelle in dieser Fürstenschule, und trete in eine höhere Korporazion, wohin mir meine geliebten Mitschüler nachfolgen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	verliere	verlieren	VERB	VVFIN	_	0	root	_	_
-3	nichts	nichts	PRON	PIS	Case=Acc	2	obj	_	SpaceAfter=No
+3	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	als	als	CCONJ	KOKOM	_	7	cc	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
@@ -9903,7 +9903,7 @@
 8	leisten	leisten	VERB	VVINF	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	13	punct	_	_
 10	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	13	nsubj	_	_
-11	nichts	nichts	PRON	PIS	Case=Acc	13	obj	_	_
+11	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	13	obj	_	_
 12	weiter	weiter	ADV	ADV	_	13	advmod	_	_
 13	darstellen	darstellen	VERB	VVINF	_	6	acl	_	_
 14	mag	mögen	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
@@ -10421,7 +10421,7 @@
 9	meinem	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Bedünken	Bedünk	NOUN	NN	Case=Dat	12	nmod	_	_
 11	nach	nach	ADP	APPR	_	10	case	_	_
-12	nichts	nichts	PRON	PIS	_	0	root	_	_
+12	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	_
 13	anders	anders	ADV	ADV	_	12	advmod	_	_
 14	als	als	CCONJ	KOKOM	_	16	case	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
@@ -10547,7 +10547,7 @@
 27	,	,	PUNCT	$,	_	26	punct	_	_
 28	muß	müssen	AUX	VMFIN	_	32	aux	_	_
 29	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	32	nsubj	_	_
-30	nichts	nichts	PRON	PIS	Case=Acc	32	obj	_	_
+30	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	32	obj	_	_
 31	sonderbarer	sonderbar	ADJ	ADJD	_	32	xcomp	_	_
 32	finden	finden	VERB	VVINF	_	0	root	_	_
 33	als	als	CCONJ	KOKOM	_	35	case	_	_
@@ -11305,7 +11305,7 @@
 4	gesellschaftlichen	gesellschaftlich	ADJ	ADJA	_	5	amod	_	_
 5	Unterhaltung	Unterhaltung	NOUN	NN	_	2	nmod	_	_
 6	sind	sein	AUX	VAFIN	_	7	cop	_	_
-7	nichts	nichts	PRON	PIS	_	0	root	_	SpaceAfter=No
+7	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	als	als	ADP	APPR	_	10	case	_	_
 10	Mittel	Mittel	NOUN	NN	_	7	nmod	_	_
@@ -11338,7 +11338,7 @@
 1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Gesellschaft	Gesellschaft	NOUN	NN	Case=Nom	4	nsubj	_	_
 3	ist	sein	AUX	VAFIN	_	4	cop	_	_
-4	nichts	nichts	PRON	PIS	_	0	root	_	SpaceAfter=No
+4	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	als	als	ADP	APPR	_	8	case	_	_
 7	gemeinschaftliches	gemeinschaftlich	ADJ	ADJA	_	8	amod	_	_
@@ -13155,7 +13155,7 @@
 10	ausgenommen	ausnehmen	VERB	VVPP	_	13	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	sind	sein	AUX	VAFIN	_	13	cop	_	_
-13	nichts	nichts	PRON	PIS	_	0	root	_	_
+13	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	_
 14	als	als	CCONJ	KOKOM	_	15	case	_	_
 15	Krämer	Krämer	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	13	punct	_	_
@@ -13890,7 +13890,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f74-s1
 # text = Nichts ist zur wahren Religiosität unentbehrlicher als ein Mittelglied, das uns mit der Gottheit verbindet.
-1	Nichts	nichts	PRON	PIS	Case=Nom	7	nsubj	_	_
+1	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	7	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	7	cop	_	_
 3-4	zur	_	_	_	_	_	_	_	_
 3	zu	zu	ADP	APPR	_	6	case	_	_
@@ -14241,7 +14241,7 @@
 11	hat	haben	AUX	VAFIN	_	5	conj	_	_
 12	also	also	ADV	ADV	_	11	advmod	_	_
 13	gar	gar	ADV	ADV	_	14	advmod	_	_
-14	nichts	nichts	PRON	PIS	Case=Acc	11	obj	_	_
+14	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	11	obj	_	_
 15	mit	mit	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Religion	Religion	NOUN	NN	Case=Dat	11	obl	_	_
@@ -15325,7 +15325,7 @@
 2	diese	dieser	DET	PDS	PronType=Dem	3	obl	_	_
 3	kennt	kennen	VERB	VVFIN	_	0	root	_	_
 4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-5	nichts	nichts	PRON	PIS	Case=Acc	3	obj	_	_
+5	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	3	obj	_	_
 6	höheres	hoch	ADJ	ADJD	_	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -16649,7 +16649,7 @@
 4	dieses	dieser	DET	PDAT	PronType=Dem	5	det	_	_
 5	Verfahrens	Verfahren	NOUN	NN	_	3	nmod	_	_
 6	dürfte	dürfen	AUX	VMFIN	_	7	aux	_	_
-7	nichts	nichts	PRON	PIS	_	0	root	_	_
+7	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	_
 8	weniger	weniger	ADV	ADV	_	7	xcomp	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	13	punct	_	_
 10	als	als	CCONJ	KOKOM	_	13	cc	_	_
@@ -16772,7 +16772,7 @@
 29	Kunstgebilde	Kunstgebilde	NOUN	NN	Case=Acc	23	obj	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	37	punct	_	_
 31	sondern	sondern	CCONJ	KON	_	37	cc	_	_
-32	nichts	nichts	PRON	PIS	_	37	amod	_	_
+32	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	37	amod	_	_
 33	als	als	CCONJ	KOKOM	_	37	case	_	_
 34	hie	hie	ADV	ADV	_	37	advmod	_	_
 35	und	und	CCONJ	KON	_	36	cc	_	_
@@ -17676,7 +17676,7 @@
 6	diese	dieser	DET	PDAT	PronType=Dem	8	det	_	_
 7	angebliche	angeblich	ADJ	ADJA	_	8	amod	_	_
 8	Krankheit	Krankheit	NOUN	NN	Case=Nom	9	nsubj	_	_
-9	nichts	nichts	PRON	PIS	Case=Acc	2	obj	_	_
+9	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	2	obj	_	_
 10	als	als	ADP	APPR	_	11	case	_	_
 11	Krise	Krise	NOUN	NN	_	9	nmod	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
@@ -17971,7 +17971,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f109-s1
 # text = Nichts ist poetischer, als Erinnerung und Ahndung oder Vorstellung der Zukunft.
-1	Nichts	nichts	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	3	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	poetischer	poetisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
@@ -19576,7 +19576,7 @@
 12	ist	sein	AUX	VAFIN	_	2	cop	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	2	punct	_	_
 14	daß	daß	SCONJ	KOUS	_	16	mark	_	_
-15	nichts	nichts	PRON	PIS	Case=Nom	16	nsubj	_	_
+15	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	16	nsubj	_	_
 16	anmaßender	anmaßend	ADJ	ADJD	_	2	csubj	_	_
 17	sein	sein	AUX	VAINF	_	16	cop	_	_
 18	kann	können	AUX	VMFIN	_	16	aux	_	SpaceAfter=No
@@ -21327,7 +21327,7 @@
 15	Kritik	Kritik	NOUN	NN	Case=Nom	18	nsubj	_	_
 16	der	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Philosophie	Philosophie	NOUN	NN	_	15	nmod	_	_
-18	nichts	nichts	PRON	PIS	_	0	root	_	_
+18	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	_
 19	als	als	CCONJ	KOKOM	_	22	case	_	_
 20	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	22	det	_	_
 21	gerechte	gerecht	ADJ	ADJA	_	22	amod	_	_
@@ -21570,7 +21570,7 @@
 8	finden	finden	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	was	was	PRON	PWS	Case=Nom	11	nsubj	_	_
-11	nichts	nichts	PRON	PIS	_	8	ccomp	_	_
+11	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	8	ccomp	_	_
 12	von	von	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	allen	alle	DET	PIS	Case=Dat|PronType=Tot	11	nmod	_	_
@@ -21874,7 +21874,7 @@
 4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Kritiker	Kritiker	NOUN	NN	Case=Dat	10	nmod	_	_
 6	gar	gar	ADV	ADV	_	11	advmod	_	_
-7	nichts	nichts	PRON	PIS	Case=Acc	11	obj	_	_
+7	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	11	obj	_	_
 8	mehr	mehr	ADV	ADV	_	11	advmod	_	_
 9	zu	zu	PART	PTKZU	_	10	mark	_	_
 10	antworten	antworten	VERB	VVINF	_	11	xcomp	_	_
@@ -22667,7 +22667,7 @@
 3	für	für	ADP	APPR	_	4	case	_	_
 4	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	6	obl	_	_
 5	gar	gar	ADV	ADV	_	6	advmod	_	_
-6	nichts	nichts	PRON	PIS	_	11	csubj	_	_
+6	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	11	csubj	_	_
 7	ist	sein	AUX	VAFIN	_	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	wird	werden	AUX	VAFIN	_	11	aux	_	_
@@ -22822,7 +22822,7 @@
 1	Erklärungen	Erklärung	NOUN	NN	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	5	punct	_	_
 3	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	5	nsubj	_	_
-4	nichts	nichts	PRON	PIS	Case=Acc	5	obj	_	_
+4	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	_
 5	erklären	erklären	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
 6	;	;	PUNCT	$.	_	1	punct	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
@@ -22865,7 +22865,7 @@
 25	ist	sein	AUX	VAFIN	_	24	cop	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	24	punct	_	_
 27	taugt	taugen	VERB	VVFIN	_	18	parataxis	_	_
-28	nichts	nichts	PRON	PIS	Case=Acc	27	obj	_	SpaceAfter=No
+28	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	27	obj	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	34	punct	_	_
 30	und	und	CCONJ	KON	_	34	cc	_	_
 31	von	von	ADP	APPR	_	33	case	_	_
@@ -23334,7 +23334,7 @@
 # text = Es wäre nichts Kleines, immer recht Nein sagen zu können, aber wer weiter nichts kann, kann es gewiß nicht recht.
 1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	wäre	sein	VERB	VVFIN	_	0	root	_	_
-3	nichts	nichts	PRON	PIS	Case=Nom	2	nsubj	_	_
+3	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	2	nsubj	_	_
 4	Kleines	Kleine	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	immer	immer	ADV	ADV	_	9	advmod	_	_
@@ -23347,7 +23347,7 @@
 13	aber	aber	CCONJ	KON	_	17	cc	_	_
 14	wer	wer	PRON	PWS	Case=Nom	17	nsubj	_	_
 15	weiter	weiter	ADV	ADV	_	17	advmod	_	_
-16	nichts	nichts	PRON	PIS	Case=Acc	17	obj	_	_
+16	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	17	obj	_	_
 17	kann	können	VERB	VVFIN	_	19	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	17	punct	_	_
 19	kann	können	VERB	VMFIN	_	2	parataxis	_	_
@@ -24204,7 +24204,7 @@
 7	,	,	PUNCT	$,	_	2	punct	_	_
 8	hier	hier	ADV	ADV	_	10	advmod	_	_
 9	gar	gar	ADV	ADV	_	10	advmod	_	_
-10	nichts	nichts	PRON	PIS	_	2	nmod	_	SpaceAfter=No
+10	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	2	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -25780,7 +25780,7 @@
 23	Beschäftigung	Beschäftigung	NOUN	NN	Case=Nom	26	nsubj	_	_
 24	mit	mit	ADP	APPR	_	25	case	_	_
 25	Ideen	Idee	NOUN	NN	Case=Dat	23	nmod	_	_
-26	nichts	nichts	PRON	PIS	_	1	parataxis	_	_
+26	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	1	parataxis	_	_
 27	als	als	CCONJ	KOKOM	_	32	case	_	_
 28	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	32	det	_	_
 29	langweiliges	langweilig	ADJ	ADJA	_	32	amod	_	_
@@ -25811,7 +25811,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f121-s4
 # text = Nichts ist kläglicher und verächtlicher als diese sentimentale Spekulation ohne Objekt.
-1	Nichts	nichts	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	3	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	kläglicher	kläglich	ADJ	ADJD	_	0	root	_	_
 4	und	und	CCONJ	KON	_	5	cc	_	_
@@ -26145,7 +26145,7 @@
 24	,	,	PUNCT	$,	_	28	punct	_	_
 25	daß	daß	SCONJ	KOUS	_	28	mark	_	_
 26	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
-27	nichts	nichts	PRON	PIS	_	28	nmod	_	_
+27	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	28	nmod	_	_
 28	Seltnes	Seltnes	NOUN	NN	Case=Acc	19	obj	_	_
 29	mehr	mehr	ADV	ADV	_	28	advmod	_	_
 30	wäre	sein	AUX	VAFIN	_	28	cop	_	SpaceAfter=No
@@ -26323,7 +26323,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f128-s1
 # text = Nichts ist kläglicher, als sich dem Teufel umsonst ergeben; zum Beispiel schlüpfrige Gedichte machen, die nicht einmal vortrefflich sind.
-1	Nichts	nichts	PRON	PIS	Case=Nom	3	nsubj	_	_
+1	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	3	nsubj	_	_
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	kläglicher	kläglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
@@ -27999,7 +27999,7 @@
 18	,	,	PUNCT	$,	_	23	punct	_	_
 19	ist	sein	AUX	VAFIN	_	23	cop	_	_
 20	schon	schon	ADV	ADV	_	23	advmod	_	_
-21	nichts	nichts	PRON	PIS	Case=Nom	23	nsubj	_	_
+21	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	23	nsubj	_	_
 22	mehr	mehr	ADV	ADV	_	23	advmod	_	_
 23	antik	antik	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	27	punct	_	_
@@ -28285,7 +28285,7 @@
 46	,	,	PUNCT	$,	_	50	punct	_	_
 47	alles	alle	DET	PIS	Case=Acc|PronType=Tot	50	obj	_	_
 48	oder	oder	CCONJ	KON	_	49	cc	_	_
-49	nichts	nichts	PRON	PIS	_	47	conj	_	_
+49	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	47	conj	_	_
 50	wissen	wissen	VERB	VVINF	_	45	xcomp	_	_
 51	zu	zu	PART	PTKZU	_	50	mark	_	_
 52	wollen	wollen	AUX	VMINF	_	50	aux	_	SpaceAfter=No
@@ -29134,7 +29134,7 @@
 4	echten	echt	ADJ	ADJA	_	5	amod	_	_
 5	Dichters	Dichter	NOUN	NN	Case=Gen	2	nmod	_	_
 6	ist	sein	AUX	VAFIN	_	8	cop	_	_
-7	nichts	nichts	PRON	PIS	Case=Nom	8	nsubj	_	_
+7	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	8	nsubj	_	_
 8	Schmuck	Schmuck	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	alles	alle	DET	PIS	Case=Nom|PronType=Tot	12	nsubj	_	_
@@ -29503,7 +29503,7 @@
 1	Freilich	freilich	ADV	ADV	_	2	advmod	_	_
 2	weiß	weiß	VERB	VVFIN	_	0	root	_	_
 3	sie	sie	PRON	PPER	Case=Nom	2	nsubj	_	_
-4	nichts	nichts	PRON	PIS	Case=Acc	2	obj	_	_
+4	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	2	obj	_	_
 5	von	von	ADP	APPR	_	9	case	_	_
 6	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
 7	gewissen	gewiß	ADJ	ADJA	_	9	amod	_	_
@@ -32467,7 +32467,7 @@
 42	,	,	PUNCT	$,	_	48	punct	_	_
 43	und	und	CCONJ	KON	_	48	cc	_	_
 44	noch	noch	ADV	ADV	_	48	advmod	_	_
-45	nichts	nichts	PRON	PIS	Case=Acc	48	obj	_	_
+45	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	48	obj	_	_
 46	von	von	ADP	APPR	_	47	case	_	_
 47	Syntax	Syntax	PROPN	NE	Case=Dat	45	obl	_	_
 48	ahnden	ahnden	VERB	VVFIN	_	38	conj	_	SpaceAfter=No
@@ -32654,7 +32654,7 @@
 3	Staatenhistorie	Staatenhistorie	NOUN	NN	Case=Nom	29	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	6	nsubj	_	_
-6	nichts	nichts	PRON	PIS	_	3	acl	_	_
+6	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	3	acl	_	_
 7	ist	sein	AUX	VAFIN	_	6	cop	_	_
 8	als	als	CCONJ	KOKOM	_	11	case	_	_
 9	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
@@ -32750,7 +32750,7 @@
 38	nimmt	nehmen	VERB	VVFIN	_	27	advcl	_	SpaceAfter=No
 39	;	;	PUNCT	$.	_	42	punct	_	_
 40	und	und	CCONJ	KON	_	42	cc	_	_
-41	nichts	nichts	PRON	PIS	Case=Nom	42	nsubj	_	_
+41	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	42	nsubj	_	_
 42	stört	stören	VERB	VVFIN	_	4	conj	_	_
 43	mehr	mehr	ADV	ADV	_	42	advmod	_	_
 44	in	in	ADP	APPR	_	47	case	_	_
@@ -33453,7 +33453,7 @@
 13	Bildung	Bildung	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	18	punct	_	_
 15	und	und	CCONJ	KON	_	18	cc	_	_
-16	nichts	nichts	PRON	PIS	Case=Nom	18	nsubj	_	_
+16	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	18	nsubj	_	_
 17	ist	sein	AUX	VAFIN	_	18	cop	_	_
 18	religiös	religiös	ADJ	ADJD	_	7	conj	_	_
 19	in	in	ADP	APPR	_	21	case	_	_
@@ -34774,7 +34774,7 @@
 10	sie	sie	PRON	PPER	Case=Nom	13	nsubj	_	_
 11	selbst	selbst	ADV	ADV	_	10	advmod	_	_
 12	würde	werden	AUX	VAFIN	_	13	aux	_	_
-13	nichts	nichts	PRON	PIS	_	2	conj	_	_
+13	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	2	conj	_	_
 14	anders	anders	ADV	ADV	_	13	advmod	_	_
 15	sein	sein	AUX	VAINF	_	13	cop	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	20	punct	_	_
@@ -35086,7 +35086,7 @@
 7	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
 8	erfährt	erfahren	VERB	VVFIN	_	0	root	_	_
 9	freilich	freilich	ADV	ADV	_	8	advmod	_	_
-10	nichts	nichts	DET	PIAT	Case=Acc	8	obj	_	_
+10	nichts	nichts	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	8	obj	_	_
 11	Neues	neue	NOUN	NN	_	10	nmod	_	_
 12	von	von	ADP	APPR	_	13	case	_	_
 13	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No
@@ -35542,7 +35542,7 @@
 2	der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Form	Form	NOUN	NN	_	4	obl	_	_
 4	liegt	liegen	VERB	VVFIN	_	0	root	_	_
-5	nichts	nichts	PRON	PIS	Case=Acc	4	obj	_	SpaceAfter=No
+5	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -35580,7 +35580,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f259-s4
 # text = Nichts als ein Lessingsches Salz gegen die geistige Fäulnis, vielleicht eine zynische lanx satura im Styl des alten Lucilius oder Horaz, oder gar fermenta cognitionis zur kritischen Philosophie, Randglossen zu dem Text des Zeitalters.
-1	Nichts	nichts	PRON	PIS	_	0	root	_	_
+1	Nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	_
 2	als	als	CCONJ	KOKOM	_	5	case	_	_
 3	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
 4	Lessingsches	Lessingsch	ADJ	ADJA	_	5	amod	_	_
@@ -37499,9 +37499,9 @@
 17	den	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 18	eigentlichen	eigentlich	ADJ	ADJA	_	19	amod	_	_
 19	Menschen	Mensch	NOUN	NN	Case=Acc	21	nmod	_	_
-20	nichts	nichts	PRON	PIS	Case=Nom	21	nsubj	_	_
+20	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	21	nsubj	_	_
 21	ungewöhnlicher	ungewöhnlich	ADJ	ADJA	_	11	amod	_	_
-22	nichts	nichts	PRON	PIS	Case=Nom	23	nsubj	_	_
+22	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	23	nsubj	_	_
 23	ungemeiner	ungemein	ADJ	ADJD	_	21	conj	_	_
 24	ist	sein	AUX	VAFIN	_	21	cop	_	_
 25	als	als	CCONJ	KOKOM	_	27	case	_	_
@@ -40126,7 +40126,7 @@
 # sent_id = athenaeum-f317-s1
 # text = Wenn Nichts zuviel so viel bedeutet als Alles ein wenig: so ist Garve der größte deutsche Philosoph.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
-2	Nichts	nichts	PRON	PIS	Case=Nom	6	nsubj	_	_
+2	Nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	6	nsubj	_	_
 3	zuviel	zuviel	ADV	ADV	_	2	parataxis	_	_
 4	so	so	ADV	ADV	_	5	advmod	_	_
 5	viel	viel	ADV	ADV	_	6	advmod	_	_
@@ -41820,7 +41820,7 @@
 5	wirklich	wirklich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	weil	weil	SCONJ	KOUS	_	11	mark	_	_
-8	nichts	nichts	PRON	PIS	Case=Nom	11	nsubj	_	_
+8	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	11	nsubj	_	_
 9	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 10	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc	11	obj	_	_
 11	verhindert	verhindern	VERB	VVFIN	_	5	advcl	_	SpaceAfter=No
@@ -43381,13 +43381,13 @@
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
-4	nichts	nichts	PRON	PIS	Case=Acc	3	obj	_	SpaceAfter=No
+4	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	9	punct	_	_
 6	und	und	CCONJ	KON	_	9	cc	_	_
 7	in	in	ADP	APPR	_	8	case	_	_
 8	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 9	geht	gehen	VERB	VVFIN	_	3	conj	_	_
-10	nichts	nichts	PRON	PIS	Case=Nom	9	nsubj	_	_
+10	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	9	nsubj	_	_
 11	unter	unter	ADP	APPR	_	9	case	_	SpaceAfter=No
 12	;	;	PUNCT	$.	_	3	punct	_	_
 13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -44265,7 +44265,7 @@
 # sent_id = athenaeum-f349-s2
 # text = Wer nichts vernichten will, bedarf gar nicht geduldet zu werden; wer alles vernichten will, soll nicht geduldet werden.
 1	Wer	wer	PRON	PWS	Case=Nom	3	nsubj	_	_
-2	nichts	nichts	PRON	PIS	Case=Acc	3	obj	_	_
+2	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	3	obj	_	_
 3	vernichten	vernichten	VERB	VVINF	_	6	advcl	_	_
 4	will	wollen	AUX	VMFIN	_	3	aux	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	3	punct	_	_
@@ -44324,7 +44324,7 @@
 9	wäre	sein	AUX	VAFIN	_	12	cop	_	_
 10	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Toleranz	Toleranz	NOUN	NN	Case=Nom	12	nsubj	_	_
-12	nichts	nichts	PRON	PIS	_	0	root	_	SpaceAfter=No
+12	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
 # newpar id = athenaeum-f350
@@ -47053,7 +47053,7 @@
 11	sie	sie	PRON	PPER	Case=Nom	14	nsubj	_	_
 12	waren	sein	AUX	VAFIN	_	14	cop	_	_
 13	eben	eben	ADV	ADV	_	14	advmod	_	_
-14	nichts	nichts	PRON	PIS	_	5	conj	_	_
+14	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	5	conj	_	_
 15	als	als	CCONJ	KOKOM	_	16	cc	_	_
 16	Könige	König	NOUN	NN	_	14	nmod	_	_
 17	im	in	ADP	APPRART	_	18	case	_	_
@@ -48036,7 +48036,7 @@
 22	Karikaturen	Karikatur	NOUN	NN	_	20	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	32	punct	_	_
 24	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	32	nsubj	_	_
-25	nichts	nichts	PRON	PIS	Case=Acc	32	obj	_	_
+25	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	32	obj	_	_
 26	können	können	AUX	VMFIN	_	32	aux	_	_
 27	und	und	CCONJ	KON	_	28	cc	_	_
 28	mögen	mögen	AUX	VMFIN	_	26	conj	_	SpaceAfter=No
@@ -49246,7 +49246,7 @@
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 9	doch	doch	ADV	ADV	_	11	advmod	_	_
-10	nichts	nichts	PRON	PIS	Case=Acc	11	obj	_	_
+10	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	11	obj	_	_
 11	enthält	enthalten	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	als	als	CCONJ	KOKOM	_	15	cc	_	_
@@ -49502,7 +49502,7 @@
 7	Pantheisten	Pantheist	NOUN	NN	_	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	11	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
-10	nichts	nichts	PRON	PIS	Case=Acc	11	obj	_	_
+10	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	11	obj	_	_
 11	achten	achten	VERB	VVFIN	_	5	acl	_	_
 12	als	als	CCONJ	KOKOM	_	14	case	_	_
 13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
@@ -49510,7 +49510,7 @@
 15	und	und	CCONJ	KON	_	19	cc	_	_
 16	sich	sich	PRON	PRF	Case=Acc|PronType=Prs|Reflex=Yes	19	obj	_	_
 17	über	über	ADP	APPR	_	18	case	_	_
-18	nichts	nichts	PRON	PIS	_	19	obl	_	_
+18	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	19	obl	_	_
 19	freuen	freuen	VERB	VVINF	_	11	conj	_	_
 20	als	als	CCONJ	KOKOM	_	23	case	_	_
 21	über	über	ADP	APPR	_	23	case	_	_
@@ -49547,7 +49547,7 @@
 22	auf	auf	ADP	APPR	_	24	case	_	_
 23	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Drechselbank	Drechselbank	NOUN	NN	_	26	obl	_	_
-25	nichts	nichts	PRON	PIS	_	26	nmod	_	_
+25	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	26	nmod	_	_
 26	edler	edler	ADJ	ADJD	_	13	acl	_	_
 27	ist	sein	AUX	VAFIN	_	26	cop	_	_
 28	als	als	CCONJ	KOKOM	_	29	case	_	_
@@ -50099,7 +50099,7 @@
 10	würde	werden	AUX	VAFIN	_	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	9	punct	_	_
 12	ist	sein	AUX	VAFIN	_	13	cop	_	_
-13	nichts	nichts	PRON	PIS	_	0	root	_	_
+13	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	0	root	_	_
 14	Charakteristisches	Charakteristische	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	13	punct	_	_
 
