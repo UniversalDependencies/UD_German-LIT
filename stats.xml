@@ -53,7 +53,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">4</feat><!-- era, fait, is, strömt -->
     <feat name="Mood" value="Sub" upos="VERB">3</feat><!-- erfolge, leben, wohlgehe -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">94</feat><!-- ihnen, denen, die, den, sie, Momente, der, Alten, Anfangsgründe, Eigenschaften -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1091</feat><!-- es, er, etwas, ich, ihm, ihn, jeder, jedem, du, jedes -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1374</feat><!-- es, man, er, etwas, ich, ihm, ihn, jeder, jedem, du -->
     <feat name="Number[psor]" value="Plur" upos="DET">1</feat><!-- ihr -->
     <feat name="Number[psor]" value="Sing" upos="DET">201</feat><!-- seine, seiner, sein, seinem, seinen, seines, meine, mein, deine, deiner -->
     <feat name="NumType" value="Card" upos="DET,NUM">1008</feat><!-- ein, eine, einer, einen, einem, eines, eins, beiden, beide, beyde -->
