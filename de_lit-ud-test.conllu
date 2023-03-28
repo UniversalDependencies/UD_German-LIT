@@ -2487,16 +2487,16 @@
 26	neuen	neu	ADJ	ADJA	_	28	amod	_	_
 27	altrepublikanischen	altrepublikanisch	ADJ	ADJA	_	28	amod	_	_
 28	Feste	Fest	NOUN	NN	_	24	nmod	_	SpaceAfter=No
-29	:	:	PUNCT	$.	_	15	punct	_	_
-30	que	que	PRON	XY	Case=Nom	31	nsubj	_	_
-31	pourtant	pourtant	VERB	FM	_	15	parataxis	_	_
-32	nous	nous	PRON	XY	Case=Dat	31	obl:arg	_	_
-33	sommes	somm	ADJ	XY	_	34	amod	_	_
-34	menacés	menacé	NOUN	XY	Case=Acc	31	obj	_	_
-35	de	de	SCONJ	XY	_	36	mark	_	_
-36	rester	rest	VERB	XY	_	31	xcomp	_	_
-37	toujours	toujours	ADV	FM	_	36	advmod	_	_
-38	François	François	NOUN	FM	_	36	xcomp	_	SpaceAfter=No
+29	:	:	PUNCT	$.	_	34	punct	_	_
+30	que	que	SCONJ	FM	Foreign=Yes	34	mark	_	Lang=fr
+31	pourtant	pourtant	ADV	FM	Foreign=Yes	34	advmod	_	Lang=fr
+32	nous	nous	PRON	FM	Case=Nom|Foreign=Yes|Number=Plur|Person=1|PronType=Prs	34	nsubj	_	Lang=fr
+33	sommes	être	AUX	FM	Foreign=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	Lang=fr
+34	menacés	menacé	ADJ	FM	Foreign=Yes|Gender=Masc|Number=Plur	20	appos	_	Lang=fr
+35	de	de	ADP	FM	Foreign=Yes	36	mark	_	Lang=fr
+36	rester	rester	VERB	FM	Foreign=Yes|VerbForm=Inf	34	advcl	_	Lang=fr
+37	toujours	toujours	ADV	FM	Foreign=Yes	36	advmod	_	Lang=fr
+38	François	François	PROPN	FM	Foreign=Yes	36	xcomp	_	Lang=fr|SpaceAfter=No
 39	.	.	PUNCT	$.	_	15	punct	_	_
 
 # genre = fragments
