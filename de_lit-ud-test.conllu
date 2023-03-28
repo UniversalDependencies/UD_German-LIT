@@ -8721,7 +8721,7 @@
 25	dieses	dieser	DET	PDAT	PronType=Dem	26	det	_	_
 26	Eigenthums	Eigenthum	NOUN	NN	_	24	nmod	_	_
 27	nicht	nicht	PART	PTKNEG	_	30	advmod	_	_
-28	mich	mich	PRON	PPER	Case=Acc	30	obj	_	_
+28	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	30	obj	_	_
 29	selbst	selbst	ADV	ADV	_	28	advmod	_	_
 30	einbüßen	einbüßen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	30	punct	_	_
@@ -10776,13 +10776,13 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f35-s2
 # text = Mich interessirt etwas, wenn es mich zur Theilnahme zu erregen weiß.
-1	Mich	mich	PRON	PPER	Case=Acc	2	obj	_	_
+1	Mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 2	interessirt	interessirt	VERB	VVFIN	_	0	root	_	_
 3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
 6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-7	mich	mich	PRON	PPER	Case=Acc	12	obj	_	_
+7	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
 8-9	zur	_	_	_	_	_	_	_	_
 8	zu	zu	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
@@ -10830,7 +10830,7 @@
 12	,	,	PUNCT	$,	_	7	punct	_	_
 13	zu	zu	ADP	APPR	_	14	case	_	_
 14	der	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	18	obl	_	_
-15	mich	mich	PRON	PPER	Case=Acc	18	obj	_	_
+15	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
 16	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	17	det	_	_
 17	Mensch	Mensch	NOUN	NN	Case=Acc	18	obj	_	_
 18	reizt	reizen	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
@@ -10843,7 +10843,7 @@
 25	ist	sein	AUX	VAFIN	_	24	aux	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	24	punct	_	_
 27	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	33	nsubj	_	_
-28	mich	mich	PRON	PPER	Case=Acc	33	obj	_	_
+28	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obj	_	_
 29	durch	durch	ADP	APPR	_	31	case	_	_
 30	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 31	Mittheilung	Mittheilung	NOUN	NN	Case=Acc	33	obl	_	_
@@ -11913,7 +11913,7 @@
 3	ist	sein	AUX	VAFIN	_	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	24	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom	24	nsubj	_	_
-6	mich	mich	PRON	PPER	Case=Acc	24	obj	_	SpaceAfter=No
+6	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 9	um	um	ADP	APPR	_	11	case	_	_
@@ -11942,7 +11942,7 @@
 1	Das	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
 2	Klassische	klassische	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	stört	stören	VERB	VVFIN	_	0	root	_	_
-4	mich	mich	PRON	PPER	Case=Acc	3	obj	_	_
+4	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 5	gar	gar	ADV	ADV	_	6	advmod	_	_
 6	nicht	nicht	PART	PTKNEG	_	3	advmod	_	SpaceAfter=No
 7	;	;	PUNCT	$.	_	3	punct	_	_
@@ -11954,11 +11954,11 @@
 # text = es afficirt mich nur indirect durch mich selbst.
 1	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	afficirt	afficiren	VERB	VVFIN	_	0	root	_	_
-3	mich	mich	PRON	PRF	Case=Acc	2	obj	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
 5	indirect	indirect	ADJ	ADJD	_	2	advmod	_	_
 6	durch	durch	ADP	APPR	_	7	case	_	_
-7	mich	mich	PRON	PPER	Case=Acc	2	obl	_	_
+7	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 8	selbst	selbst	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -11971,7 +11971,7 @@
 2	ist	sein	VERB	VVFIN	_	0	root	_	_
 3	nicht	nicht	PART	PTKNEG	_	2	advmod	_	_
 4	für	für	ADP	APPR	_	5	case	_	_
-5	mich	mich	PRON	PPER	Case=Acc	2	nmod	_	_
+5	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 6	da	da	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	als	als	SCONJ	KOUS	_	9	case	_	_
@@ -11988,14 +11988,14 @@
 19	solches	solcher	PRON	PIS	_	15	obl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	19	punct	_	_
 21	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	24	nsubj	_	_
-22	mich	mich	PRON	PPER	Case=Acc	24	obj	_	_
+22	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
 23	nicht	nicht	PART	PTKNEG	_	24	advmod	_	_
 24	afficiren	afficiren	VERB	VVINF	_	9	csubj	_	_
 25	würde	werden	AUX	VAFIN	_	24	aux	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	24	punct	_	_
 27	wenn	wenn	SCONJ	KOUS	_	39	mark	_	_
 28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
-29	mich	mich	PRON	PRF	Case=Acc	39	obj	_	_
+29	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	39	obj	_	_
 30	nicht	nicht	ADV	PTKNEG	_	39	advmod	_	_
 31	selbst	selbst	ADV	ADV	_	30	advmod	_	_
 32-33	zur	_	_	_	_	_	_	_	_
@@ -12004,7 +12004,7 @@
 34	Hervorbringung	Hervorbringung	NOUN	NN	Case=Dat	39	obl	_	_
 35	desselben	derselbe	DET	PDS	PronType=Dem	34	nmod	_	_
 36	für	für	ADP	APPR	_	37	case	_	_
-37	mich	mich	PRON	PPER	Case=Acc	39	obl	_	SpaceAfter=No
+37	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	39	obl	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	39	punct	_	_
 39	bestimmte	bestimmen	VERB	VVFIN	_	24	advcl	_	SpaceAfter=No
 40	,	,	PUNCT	$,	_	41	punct	_	_
@@ -12843,7 +12843,7 @@
 5	war	sein	AUX	VAFIN	_	12	cop	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	wie	wie	ADV	PWAV	_	9	mark	_	_
-8	mich	mich	PRON	PPER	Case=Acc	9	obj	_	_
+8	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
 9	dünkt	dünken	VERB	VVFIN	_	12	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	ächt	ächen	ADV	ADV	_	12	advmod	_	_
@@ -14368,7 +14368,7 @@
 # text = Ich bediene mich hier einer Licenz, indem ich Pantheism nicht im gewöhnlichen Sinn nehme, sondern darunter die Idee verstehe, daß alles Organ der Gottheit, Mittler seyn könne, indem ich es dazu erhebe:so wie Monotheism im Gegentheil den Glauben bezeichnet, daß es nur Ein solches Organ in der Welt für uns gebe, das allein der Idee eines Mittlers angemessen sey, und wodurch Gott allein sich vernehmen lasse, welches ich also zu wählen durch mich selbst genöthigt werde: denn ohnedem würde der Monotheism nicht wahre Religion seyn.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	bediene	bedienen	VERB	VVFIN	_	0	root	_	_
-3	mich	mich	PRON	PRF	Case=Acc	2	obj	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 4	hier	hier	ADV	ADV	_	2	advmod	_	_
 5	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	6	det	_	_
 6	Licenz	Licenz	NOUN	NN	_	2	obl	_	SpaceAfter=No
@@ -14451,7 +14451,7 @@
 81	zu	zu	PART	PTKZU	_	82	mark	_	_
 82	wählen	wählen	VERB	VVINF	_	86	xcomp	_	_
 83	durch	durch	ADP	APPR	_	84	case	_	_
-84	mich	mich	PRON	PPER	Case=Acc	86	obl	_	_
+84	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	86	obl	_	_
 85	selbst	selbst	ADV	ADV	_	86	advmod	_	_
 86	genöthigt	nöthigen	VERB	VVPP	_	76	advcl	_	_
 87	werde	werden	AUX	VAFIN	_	86	aux:pass	_	SpaceAfter=No
@@ -21643,7 +21643,7 @@
 16	anzeigen	anzeigen	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
 17	:	:	PUNCT	$.	_	2	punct	_	_
 18	Führt	Führt	VERB	VVFIN	_	2	xcomp	_	_
-19	mich	mich	PRON	PPER	Case=Nom	18	nsubj	_	_
+19	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 20	wieder	wieder	ADV	ADV	_	18	advmod	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
 22	die	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
@@ -38096,7 +38096,7 @@
 6	Philosophen	Philosoph	NOUN	NN	Case=Nom	17	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	dünkt	dünken	VERB	VVFIN	_	17	parataxis	_	_
-9	mich	mich	PRON	PPER	Case=Dat	8	obl:arg	_	_
+9	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl:arg	_	_
 10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Dichtern	Dichter	NOUN	NN	Case=Dat	17	obl:arg	_	_
 12	den	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
@@ -46634,7 +46634,7 @@
 12	gehorchen	gehorchen	VERB	VVINF	_	8	xcomp	_	_
 13	oder	oder	CCONJ	KON	_	17	cc	_	_
 14	um	um	ADP	APPR	_	17	mark	_	_
-15	mich	mich	PRON	PPER	Case=Acc	17	obj	_	_
+15	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	zerstreuen	zerstreuen	VERB	VVINF	_	12	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	22	punct	_	_
@@ -46658,14 +46658,14 @@
 36	der	der	DET	ART	Definite=Def|PronType=Art	37	det	_	_
 37	Bildung	Bildung	NOUN	NN	_	34	conj	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	44	punct	_	_
-39	mich	mich	PRON	PPER	Case=Acc	44	obj	_	_
+39	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	44	obj	_	_
 40	dem	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	41	det	_	_
 41	Unendlichen	unendlichen	NOUN	NN	Case=Dat	44	obl:arg	_	_
 42	wieder	wieder	ADV	ADV	_	44	advmod	_	_
 43	zu	zu	PART	PTKZU	_	44	mark	_	_
 44	nähern	nähern	VERB	VVINF	_	29	conj	_	SpaceAfter=No
 45	,	,	PUNCT	$,	_	53	punct	_	_
-46	mich	mich	PRON	PPER	Case=Acc	53	obj	_	_
+46	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	53	obj	_	_
 47	aus	aus	ADP	APPR	_	49	case	_	_
 48	den	der	DET	ART	Definite=Def|PronType=Art	49	det	_	_
 49	Fesseln	Fessel	NOUN	NN	Case=Dat	53	obl	_	_
@@ -46675,7 +46675,7 @@
 53	erlösen	erlösen	VERB	VVINF	_	44	conj	_	SpaceAfter=No
 54	,	,	PUNCT	$,	_	64	punct	_	_
 55	und	und	CCONJ	KON	_	64	cc	_	_
-56	mich	mich	PRON	PPER	Case=Acc	64	obj	_	_
+56	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	64	obj	_	_
 57	von	von	ADP	APPR	_	59	case	_	_
 58	den	der	DET	ART	Definite=Def|PronType=Art	59	det	_	_
 59	Schranken	Schranke	NOUN	NN	Case=Dat	64	obl	_	_
