@@ -16923,10 +16923,10 @@
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-8	merkwürdigste	merkwürdig	PRON	PIAS	_	4	acl	_	_
+8	merkwürdigste	merkwürdig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	acl:relcl	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
-11	Weltgeschichte	Weltgeschichte	NOUN	NN	_	8	nmod	_	_
+11	Weltgeschichte	Weltgeschichte	NOUN	NN	_	8	obl	_	_
 12	seyn	sein	AUX	VAINF	_	8	cop	_	_
 13	mußte	müssen	AUX	VMFIN	_	8	aux	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	17	punct	_	_
@@ -20703,19 +20703,21 @@
 # sent_id = athenaeum-f48-s1
 # text = Mit den größten Philosophen geht mirs, wie dem Plato mit den Spartanern.
 1	Mit	mit	ADP	APPR	_	4	case	_	_
-2	den	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-3	größten	groß	ADJ	ADJA	_	4	amod	_	_
-4	Philosophen	Philosoph	NOUN	NN	Case=Dat	5	obl	_	_
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	größten	groß	ADJ	ADJA	Case=Dat|Degree=Sup|Number=Plur	4	amod	_	_
+4	Philosophen	Philosoph	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
 5	geht	gehen	VERB	VVFIN	_	0	root	_	_
-6	mirs	mirs	PRON	PRF	Case=Dat	5	obl:arg	_	SpaceAfter=No
-7	,	,	PUNCT	$,	_	5	punct	_	_
-8	wie	wie	CCONJ	KOKOM	_	10	case	_	_
-9	dem	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
-10	Plato	Plato	NOUN	NN	Case=Dat	5	obl	_	_
-11	mit	mit	ADP	APPR	_	13	case	_	_
-12	den	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
-13	Spartanern	Spartaner	NOUN	NN	Case=Dat	10	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	5	punct	_	_
+6-7	mirs	_	_	_	_	_	_	_	SpaceAfter=No
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl:arg	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	wie	wie	CCONJ	KOKOM	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Plato	Plato	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	advcl	_	_
+12	mit	mit	ADP	APPR	_	14	case	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=PlurPronType=Art	14	det	_	_
+14	Spartanern	Spartaner	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	orphan	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
 # author = Friedrich Schlegel
