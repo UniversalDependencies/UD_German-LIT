@@ -6720,7 +6720,7 @@
 8	verschiedener	verschieden	ADJ	ADJA	_	9	amod	_	_
 9	Natur	Natur	NOUN	NN	Case=Dat	6	nmod	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
-11	mancherlei	mancherlei	DET	PIAT	_	12	det	_	_
+11	mancherlei	mancherlei	DET	PIAT	PronType=Ind	12	det	_	_
 12	Absichten	Absicht	NOUN	NN	_	9	conj	_	SpaceAfter=No
 13	!	!	PUNCT	$.	_	2	punct	_	_
 
