@@ -2928,7 +2928,7 @@
 5	Einheit	Einheit	NOUN	NN	_	2	nmod	_	_
 6	sind	sein	AUX	VAFIN	_	11	cop	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
-8	meisten	meister	DET	PIAT	_	10	det	_	_
+8	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	10	det	_	_
 9	modernen	modern	ADJ	ADJA	_	10	amod	_	_
 10	Gedichte	Gedicht	NOUN	NN	Case=Nom	11	nsubj	_	_
 11	Allegorien	Allegorie	NOUN	NN	Case=Nom	0	root	_	_
@@ -9634,7 +9634,7 @@
 # sent_id = bluethenstaub-f22-s12
 # text = Die meisten sind augenblicklich, wenige verweilend, diewenigsten bleibend.
 1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
-2	meisten	meist	PRON	PIS	Case=Nom	4	nsubj	_	_
+2	meisten	meist	DET	PIS	Case=Nom|Degree=Sup|PronType=Ind	4	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	4	cop	_	_
 4	augenblicklich	augenblicklich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
@@ -11582,7 +11582,7 @@
 5	beharrlichen	beharrlich	ADJ	ADJA	_	6	amod	_	_
 6	Mittelmäßigkeit	Mittelmäßigkeit	NOUN	NN	Case=Dat	1	obl	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
-8	meiste	meist	ADJ	ADJA	_	9	amod	_	_
+8	meiste	meist	DET	ADJA	Degree=Sup|PronType=Ind	9	det	_	_
 9	Kraft	Kraft	NOUN	NN	Case=Nom	1	nsubj	_	SpaceAfter=No
 10	?	?	PUNCT	$.	_	21	punct	_	_
 11	und	und	CCONJ	KON	_	21	cc	_	_
@@ -11875,7 +11875,7 @@
 4-5	am	_	_	_	_	_	_	_	_
 4	an	an	ADP	APPR	_	10	case	_	_
 5	dem	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
-6	meisten	meister	DET	PIAT	_	10	det	_	_
+6	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	10	det	_	_
 7	gebildete	gebildet	ADJ	ADJA	_	10	amod	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	irdische	irdisch	ADJ	ADJA	_	10	amod	_	_
@@ -14812,7 +14812,7 @@
 6	,	,	PUNCT	$,	_	13	punct	_	_
 7	daß	daß	SCONJ	KOUS	_	13	mark	_	_
 8	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
-9	meisten	meister	ADJ	ADJA	_	10	amod	_	_
+9	meisten	meist	DET	ADJA	Degree=Sup|PronType=Ind	10	det	_	_
 10	Fürsten	Fürst	NOUN	NN	Case=Nom	13	nsubj	_	_
 11	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
 12	eigentlich	eigentlich	ADV	ADV	_	13	advmod	_	_
@@ -15875,7 +15875,7 @@
 # text = In den meisten Religionssystemen werden wir als Glieder der Gottheit betrachtet, die, wenn sie nicht den Impulsionen des Ganzen gehorchen wenn sie auch nicht absichtlich gegen die Gesetze des Ganzen agiren, sondern nur ihren eignen Gang gehn und nicht Glieder seyn wollen, von der Gottheit ärztlich behandelt, und entweder schmerzhaft geheilt, oder gar abgeschnitten werden.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
-3	meisten	meister	DET	PIAT	_	4	det	_	_
+3	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	4	det	_	_
 4	Religionssystemen	Religionssystem	NOUN	NN	_	11	obl	_	_
 5	werden	werden	AUX	VAFIN	_	11	aux:pass	_	_
 6	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
@@ -17385,7 +17385,7 @@
 21	so	so	ADV	ADV	_	26	advmod	_	_
 22	sind	sein	AUX	VAFIN	_	26	cop	_	_
 23	die	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
-24	meisten	meister	DET	PIAT	_	25	det	_	_
+24	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	25	det	_	_
 25	Bücher	Buch	NOUN	NN	Case=Nom	26	nsubj	_	_
 26	Ephraimiten	Ephraimit	NOUN	NN	Case=Nom	18	parataxis	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	11	punct	_	_
@@ -17586,7 +17586,7 @@
 # sent_id = bluethenstaub-f105-s1
 # text = Die meisten Beobachter der Revoluzion, besonders die Klugen und Vornehmen, haben sie für eine lebensgefährliche und ansteckende Krankheit erklärt.
 1	Die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	meisten	meister	DET	PIAT	_	3	det	_	_
+2	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	3	det	_	_
 3	Beobachter	Beobachter	NOUN	NN	Case=Nom	21	nsubj	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Revoluzion	Revoluzion	NOUN	NN	_	3	nmod	_	SpaceAfter=No
@@ -18450,7 +18450,7 @@
 13	auch	auch	ADV	ADV	_	14	advmod	_	_
 14	Locke	Locke	NOUN	NN	_	4	conj	_	_
 15	den	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
-16	meisten	meister	DET	PIAT	_	17	det	_	_
+16	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	17	det	_	_
 17	Beyfall	Beyfall	NOUN	NN	_	14	nmod	_	_
 18	unter	unter	ADP	APPR	_	20	case	_	_
 19	dieser	dieser	DET	PDAT	PronType=Dem	20	det	_	_
@@ -19782,7 +19782,7 @@
 # sent_id = athenaeum-f27-s1
 # text = Die meisten Menschen sind, wie Leibnizens mögliche Welten, nur gleichberechtigte Prätendenten der Existenz.
 1	Die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	meisten	meist	ADJ	ADJA	_	3	amod	_	_
+2	meisten	meist	DET	ADJA	Degree=Sup|PronType=Ind	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom	13	nsubj	_	_
 4	sind	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	9	punct	_	_
@@ -20417,7 +20417,7 @@
 # sent_id = athenaeum-f39-s1
 # text = Die meisten Gedanken sind nur Profile von Gedanken.
 1	Die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	meisten	meister	ADJ	ADJA	_	3	amod	_	_
+2	meisten	meist	DET	ADJA	Degree=Sup|PronType=Ind	3	det	_	_
 3	Gedanken	Gedanke	NOUN	NN	Case=Nom	6	nsubj	_	_
 4	sind	sein	AUX	VAFIN	_	6	cop	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
@@ -21289,7 +21289,7 @@
 5	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	10	obl	_	_
 6	auch	auch	ADV	ADV	_	10	advmod	_	_
 7	das	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-8	meiste	meiste	PRON	PIS	Case=Nom	10	nsubj	_	_
+8	meiste	meist	DET	PIS	Case=Nom|Degree=Sup|PronType=Ind	10	nsubj	_	_
 9	so	so	ADV	ADV	_	10	advmod	_	_
 10	isoliert	isolieren	VERB	VVPP	_	0	root	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
@@ -21408,7 +21408,7 @@
 16	minder	minder	ADV	ADV	_	11	advmod	_	_
 17	als	als	ADP	APPR	_	20	case	_	_
 18	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
-19	meisten	meister	ADJ	ADJA	_	20	amod	_	_
+19	meisten	meist	DET	ADJA	Degree=Sup|PronType=Ind	20	det	_	_
 20	politischen	politisch	VERB	VVINF	_	11	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -22624,7 +22624,7 @@
 # sent_id = athenaeum-f81-s1
 # text = Die meisten Menschen wissen von keiner andern Würde, als von repräsentativer;
 1	Die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	meisten	meister	DET	PIAT	_	3	det	_	_
+2	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	wissen	wissen	VERB	VVFIN	_	0	root	_	_
 5	von	von	ADP	APPR	_	8	case	_	_
@@ -22980,7 +22980,7 @@
 8	ist	sein	AUX	VAFIN	_	14	cop	_	_
 9	in	in	ADP	APPR	_	12	case	_	_
 10	den	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
-11	meisten	meister	DET	PIAT	_	12	det	_	_
+11	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	12	det	_	_
 12	Fällen	Fall	NOUN	NN	_	14	nmod	_	_
 13	herzlich	herzlich	ADV	ADV	_	14	advmod	_	_
 14	überflüssig	überflüssig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
@@ -25000,7 +25000,7 @@
 4	auch	auch	ADV	ADV	_	5	advmod	_	_
 5	sie	sie	PRON	PPER	Case=Nom	31	nsubj	_	_
 6	am	an	PART	PTKA	_	7	case	_	_
-7	meisten	meister	PRON	PIS	_	31	nmod	_	_
+7	meisten	meist	DET	PIS	Degree=Sup|PronType=Ind	31	det	_	_
 8	zwischen	zwischen	ADP	APPR	_	10	case	_	_
 9	dem	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Dargestellten	Dargestellter	NOUN	NN	Case=Dat	31	obl	_	_
@@ -28397,7 +28397,7 @@
 11	worin	worin	ADV	PWAV	_	15	mark	_	_
 12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	am	an	ADP	APPR	_	14	case	_	_
-14	meisten	meister	PRON	PIS	_	15	nmod	_	_
+14	meisten	meist	DET	PIS	Degree=Sup|PronType=Ind	15	det	_	_
 15	Plato	Plato	NOUN	NN	Case=Nom	2	nmod	_	_
 16	ist	sein	AUX	VAFIN	_	15	cop	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	19	punct	_	_
@@ -32432,7 +32432,7 @@
 9	lange	lange	ADV	ADV	_	16	advmod	_	_
 10	wir	wir	PRON	PPER	Case=Nom	16	nsubj	_	_
 11	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
-12	meisten	meister	DET	PIAT	_	13	det	_	_
+12	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	13	det	_	_
 13	Wissenschaften	Wissenschaft	NOUN	NN	Case=Acc	16	obj	_	_
 14	nur	nur	ADV	ADV	_	15	advmod	_	_
 15	noch	noch	ADV	ADV	_	16	advmod	_	_
@@ -33535,7 +33535,7 @@
 12	einzige	einzig	ADJ	ADJA	Degree=Pos	13	amod	_	_
 13	Spinosa	Spinosa	PROPN	NE	_	10	nmod	_	_
 14	am	an	ADP	APPR	_	15	case	_	_
-15	meisten	meister	PRON	PIS	_	16	obl	_	_
+15	meisten	meist	DET	PIS	Degree=Sup|PronType=Ind	16	obl	_	_
 16	nähern	nähern	VERB	VVINF	_	4	acl	_	_
 17	dürfte	dürfen	AUX	VMFIN	_	16	aux	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	16	punct	_	_
@@ -41173,7 +41173,7 @@
 1	Einige	einige	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	haben	haben	VERB	VVFIN	_	0	root	_	_
 3	am	an	PART	PTKA	_	4	case	_	_
-4	meisten	meister	PRON	PIS	_	2	obl	_	_
+4	meisten	meist	DET	PIS	Degree=Sup|PronType=Ind	2	obl	_	_
 5	Talent	Talent	NOUN	NN	Case=Acc	2	obj	_	_
 6	für	für	ADP	APPR	_	8	case	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -44568,7 +44568,7 @@
 3	,	,	PUNCT	$,	_	9	punct	_	_
 4	und	und	CCONJ	KON	_	9	cc	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
-6	meisten	meister	PRON	PIS	Case=Nom	9	nsubj	_	_
+6	meisten	meist	DET	PIS	Case=Nom|Degree=Sup|PronType=Ind	9	nsubj	_	_
 7	unter	unter	ADP	APPR	_	8	case	_	_
 8	diesen	dieser	DET	PDAT	PronType=Dem	6	nmod	_	_
 9	haben	haben	VERB	VVFIN	_	2	conj	_	_
@@ -50242,7 +50242,7 @@
 7	,	,	PUNCT	$,	_	14	punct	_	_
 8	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	14	nsubj	_	_
 9	am	an	ADP	APPR	_	10	case	_	_
-10	meisten	meister	DET	PIAT	_	14	advmod	_	_
+10	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	14	advmod	_	_
 11	Sinn	Sinn	NOUN	NN	Case=Acc	14	obj	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	Geist	Geist	NOUN	NN	_	11	conj	_	_
