@@ -39145,8 +39145,8 @@
 38	griechischen	griechisch	ADJ	ADJA	_	39	amod	_	_
 39	Kunst	Kunst	NOUN	NN	_	36	nmod	_	_
 40	gewesen	sein	AUX	VAPP	_	36	cop	_	SpaceAfter=No
-41	,	,	PUNCT	$,	_	42	punct	_	_
-42	sondern	sondern	CCONJ	KON	_	42	cc	_	_
+41	,	,	PUNCT	$,	_	43	punct	_	_
+42	sondern	sondern	CCONJ	KON	_	43	cc	_	_
 43	Wahrheit	Wahrheit	NOUN	NN	_	36	conj	_	_
 44	der	der	DET	ART	Definite=Def|PronType=Art	45	det	_	_
 45	Charakteristik	Charakteristik	NOUN	NN	_	43	nmod	_	SpaceAfter=No
