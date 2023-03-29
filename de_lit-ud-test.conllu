@@ -13054,9 +13054,10 @@
 5	,	,	PUNCT	$,	_	4	punct	_	_
 6	macht	machen	VERB	VVFIN	_	0	root	_	_
 7	viel	viel	DET	PIS	Case=Acc|PronType=Ind	6	obj	_	_
-8	aus	aus	ADP	APPR	_	9	case	_	_
-9	seinemLeben	seinemleben	DET	PPOSAT	Case=Dat	6	obl	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	6	punct	_	_
+8	aus	aus	ADP	APPR	_	10	case	_	_
+9	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Neut|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	CorrectSpaceAfter=Yes|SpaceAfter=No
+10	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	_
 
 # genre = fragments
 # author = Novalis
