@@ -7970,7 +7970,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f1-s1
 # text = Wir suchen überall das Unbedingte, und finden immer nur Dinge.
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	suchen	suchen	VERB	VVFIN	_	0	root	_	_
 3	überall	überall	ADV	ADV	_	2	advmod	_	_
 4	das	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
@@ -8173,12 +8173,12 @@
 1	Ganz	ganz	ADV	ADV	_	2	advmod	_	_
 2	begreifen	begreifen	VERB	VVINF	_	0	root	_	_
 3	werden	werden	AUX	VAFIN	_	2	aux:pass	_	_
-4	wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 5	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
 6	nie	nie	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	18	punct	_	_
 8	aber	aber	CCONJ	KON	_	18	cc	_	_
-9	wir	wir	PRON	PPER	Case=Nom	18	nsubj	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 10	werden	werden	AUX	VAFIN	_	18	aux:pass	_	_
 11	und	und	CCONJ	KON	_	18	cc	_	_
 12	können	können	AUX	VMFIN	_	18	aux	_	_
@@ -8895,7 +8895,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f16-s2
 # text = Wir träumen von Reisendurch das Weltall: ist denn das Weltall nicht in uns?
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	träumen	träumen	VERB	VVFIN	_	0	root	_	_
 3	von	von	ADP	APPR	_	4	case	_	_
 4	Reisendurch	Reisendurch	NOUN	NN	Case=Dat	2	obl	_	_
@@ -8921,7 +8921,7 @@
 3	unsers	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	Geistes	Geist	NOUN	NN	Case=Gen	2	nmod	_	_
 5	kennen	kennen	VERB	VVFIN	_	0	root	_	_
-6	wir	wir	PRON	PPER	Case=Nom	5	nsubj	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	5	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -8988,7 +8988,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f16-s7
 # text = Wir werden mehr genießen als je, denn unser Geist hat entbehrt.
-1	Wir	wir	PRON	PPER	Case=Nom	4	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	werden	werden	AUX	VAFIN	_	4	aux:pass	_	_
 3	mehr	mehr	ADV	ADV	_	4	advmod	_	_
 4	genießen	genießen	VERB	VVINF	_	0	root	_	_
@@ -9014,7 +9014,7 @@
 4	Bemerkung	Bemerkung	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	13	punct	_	_
 6	daß	daß	SCONJ	KOUS	_	13	mark	_	_
-7	wir	wir	PRON	PPER	Case=Nom	13	nsubj	_	_
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 8	weniger	weniger	ADV	ADV	_	13	advmod	_	_
 9	vom	von	ADP	APPRART	_	10	case	_	_
 10	Lichte	Lichte	NOUN	NN	_	13	obl	_	_
@@ -9024,7 +9024,7 @@
 14	werden	werden	AUX	VAINF	_	13	aux:pass	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
-17	wir	wir	PRON	PPER	Case=Nom	21	nsubj	_	_
+17	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 18	von	von	ADP	APPR	_	20	case	_	_
 19	sichtbaren	sichtbar	ADJ	ADJA	_	20	amod	_	_
 20	Gegenständen	Gegenstand	NOUN	NN	Case=Dat	21	obl	_	_
@@ -9443,7 +9443,7 @@
 # text = Je mehr wir uns aber dieses Zustandes bewußt zu seyn vermögen, desto lebendiger, mächtiger, genügender ist die Überzeugung, die daraus entsteht; der Glaube an ächte Offenbarungen des Geistes.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
 2	mehr	mehr	ADV	ADV	_	11	advmod	_	_
-3	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 4	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
 5	aber	aber	ADV	ADV	_	11	advmod	_	_
 6	dieses	dieser	DET	PDAT	PronType=Dem	7	det	_	_
@@ -10573,7 +10573,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f32-s1
 # text = Wir sind auf einer Mißion: zur Bildung der Erde sind wir berufen.
-1	Wir	wir	PRON	PPER	Case=Nom	5	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 2	sind	sein	AUX	VAFIN	_	5	aux	_	_
 3	auf	auf	ADP	APPR	_	5	case	_	_
 4	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
@@ -10586,7 +10586,7 @@
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Erde	Erde	NOUN	NN	_	9	nmod	_	_
 12	sind	sein	AUX	VAFIN	_	14	aux	_	_
-13	wir	wir	PRON	PPER	Case=Nom	14	nsubj	_	_
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 14	berufen	berufen	VERB	VVPP	_	5	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	_
 
@@ -10604,7 +10604,7 @@
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	so	so	ADV	ADV	_	15	advmod	_	_
 8	würden	werden	AUX	VAFIN	_	15	aux	_	_
-9	wir	wir	PRON	PPER	Case=Nom	15	nsubj	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 10	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obj	_	_
 11	sogleich	sogleich	ADV	ADV	_	15	advmod	_	_
 12	unsrer	unsrer	ADJ	ADJD	_	14	advmod	_	_
@@ -10612,7 +10612,7 @@
 14	Geistigkeit	Geistigkeit	NOUN	NN	Case=Acc	15	obj	_	_
 15	bemächtigen	bemächtigen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 16	:	:	PUNCT	$.	_	15	punct	_	_
-17	wir	wir	PRON	PPER	Case=Nom	19	nsubj	_	_
+17	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 18	würden	werden	AUX	VAFIN	_	19	aux:pass	_	_
 19	inspirirt	inspirirt	VERB	VVPP	_	15	parataxis	_	_
 20	seyn	sein	AUX	VAINF	_	19	aux	_	_
@@ -11120,7 +11120,7 @@
 3	liebenswerthen	liebenswerth	ADJ	ADJA	_	4	amod	_	_
 4	Gegenstande	Gegenstand	NOUN	NN	Case=Dat	9	obl	_	_
 5	können	können	AUX	VMFIN	_	9	aux	_	_
-6	wir	wir	PRON	PPER	Case=Nom	9	nsubj	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
 8	genug	genug	ADV	ADV	PronType=Ind	9	advmod	_	_
 9	hören	hören	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -11135,7 +11135,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f41-s2
 # text = Wir freuen uns über jedes neue, treffende, verherrlichende Wort.
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	freuen	freuen	VERB	VVFIN	_	0	root	_	_
 3	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
 4	über	über	ADP	APPR	_	11	case	_	_
@@ -11174,7 +11174,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f42-s1
 # text = Wir halten einen leblosen Stoff wegen seiner Beziehungen, seiner Formen fest.
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	halten	halten	VERB	VVFIN	_	0	root	_	_
 3	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
 4	leblosen	leblos	ADJ	ADJA	_	5	amod	_	_
@@ -11193,7 +11193,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f42-s2
 # text = Wir lieben den Stoff, in so fern er zu einem geliebten Wesen gehört, seine Spur trägt, oder Ähnlichkeit mit ihm hat.
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	lieben	lieben	VERB	VVFIN	_	0	root	_	_
 3	den	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Stoff	Stoff	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
@@ -11533,7 +11533,7 @@
 # sent_id = bluethenstaub-f45-s7
 # text = Was wir Hineingehn nennen, ist eigentlich Herausgehn, eine Wiederannahme der anfänglichen Gestalt.
 1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	4	obj	_	_
-2	wir	wir	PRON	PPER	Case=Nom	4	nsubj	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	Hineingehn	Hineingehn	PROPN	NE	_	4	xcomp	_	_
 4	nennen	nennen	VERB	VVFIN	_	8	csubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -11812,7 +11812,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f49-s2
 # text = Wir sollen ein Volk werden.
-1	Wir	wir	PRON	PPER	Case=Nom	5	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 2	sollen	sollen	AUX	VMFIN	_	5	aux	_	_
 3	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	4	det	_	_
 4	Volk	Volk	NOUN	NN	_	5	xcomp	_	_
@@ -12858,7 +12858,7 @@
 1	Natürlich	natürlich	ADV	ADV	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	12	punct	_	_
 3	weil	weil	SCONJ	KOUS	_	12	mark	_	_
-4	wir	wir	PRON	PPER	Case=Nom	12	nsubj	_	_
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 5	auf	auf	ADP	APPR	_	8	case	_	_
 6	eben	eben	ADV	ADV	_	12	advmod	_	_
 7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
@@ -13033,12 +13033,12 @@
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	aus	aus	ADP	APPR	_	9	case	_	_
 9	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	11	obl	_	_
-10	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 11	machen	machen	VERB	VVINF	_	6	acl	_	_
 12	können	können	AUX	VMFIN	_	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	11	punct	_	_
 14	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	16	obj	_	_
-15	wir	wir	PRON	PPER	Case=Nom	16	nsubj	_	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 16	wollen	wollen	AUX	VMFIN	_	11	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -15879,7 +15879,7 @@
 3	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	4	det	_	_
 4	Religionssystemen	Religionssystem	NOUN	NN	_	11	obl	_	_
 5	werden	werden	AUX	VAFIN	_	11	aux:pass	_	_
-6	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 7	als	als	ADP	APPR	_	8	case	_	_
 8	Glieder	Glied	NOUN	NN	_	11	obl	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
@@ -16585,7 +16585,7 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f92-s1
 # text = Wir stehen in Verhältnissen mit allen Theilen des Universums, so wie mit Zukunft und Vorzeit.
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	stehen	stehen	VERB	VVFIN	_	0	root	_	_
 3	in	in	ADP	APPR	_	4	case	_	_
 4	Verhältnissen	Verhältnis	NOUN	NN	_	2	obl	_	_
@@ -16622,7 +16622,7 @@
 12	,	,	PUNCT	$,	_	17	punct	_	_
 13	welches	welcher	DET	ART	PronType=Int,Rel	14	det	_	_
 14	Verhältniß	Verhältniß	NOUN	NN	Case=Acc	17	obj	_	_
-15	wir	wir	PRON	PPER	Case=Nom	17	nsubj	_	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
 16	vorzüglich	vorzüglich	ADJ	ADJD	_	17	advmod	_	_
 17	ausbilden	ausbilden	VERB	VVINF	_	2	ccomp	_	_
 18	wollen	wollen	AUX	VMFIN	_	17	aux	_	SpaceAfter=No
@@ -18303,13 +18303,13 @@
 # sent_id = bluethenstaub-f112-s3
 # text = Indem wir uns selbst betrachten, beleben wir uns selbst.
 1	Indem	indem	SCONJ	KOUS	_	5	mark	_	_
-2	wir	wir	PRON	PPER	Case=Nom	5	nsubj	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
 4	selbst	selbst	ADV	ADV	_	3	advmod	_	_
 5	betrachten	betrachten	VERB	VVFIN	_	7	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	beleben	beleben	VERB	VVFIN	_	0	root	_	_
-8	wir	wir	PRON	PPER	Case=Nom	7	nsubj	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 9	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
 10	selbst	selbst	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	7	punct	_	_
@@ -18326,7 +18326,7 @@
 5	fühlbare	fühlbar	ADJ	ADJA	_	3	conj	_	_
 6	Unsterblichkeit	Unsterblichkeit	NOUN	NN	Case=Acc	11	obl	_	_
 7	würden	werden	AUX	VAFIN	_	11	aux	_	_
-8	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 9	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 10	wahrhaft	wahrhaft	ADV	ADV	_	11	advmod	_	_
 11	denken	denken	VERB	VVINF	_	0	root	_	_
@@ -22074,7 +22074,7 @@
 3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	Alten	alte	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 5	haben	haben	AUX	VAFIN	_	0	root	_	_
-6	wir	wir	PRON	PPER	Case=Nom	5	nsubj	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 7	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
 8	mehr	mehr	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	5	punct	_	_
@@ -29839,7 +29839,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f186-s1
 # text = Wir lachen mit Recht über die Chinesen, die beim Anblick europäischer Porträte mit Licht und Schatten, fragten, ob die Personen denn wirklich so fleckig wären?
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	lachen	lachen	VERB	VVFIN	_	0	root	_	_
 3	mit	mit	ADP	APPR	_	4	case	_	_
 4	Recht	Recht	NOUN	NN	Case=Dat	2	obl	_	_
@@ -29876,7 +29876,7 @@
 # text = Aber würden wir es wagen, über einen alten Griechen zu lächeln, dem man ein Stück mit Rembrandtschen Helldunkel gezeigt, und der in seiner Unschuld gemeint hätte: so malte man wohl im Lande der Cimmerier?
 1	Aber	aber	CCONJ	KON	_	5	cc	_	_
 2	würden	werden	AUX	VAFIN	_	5	aux	_	_
-3	wir	wir	PRON	PPER	Case=Nom	5	nsubj	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 5	wagen	wagen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
@@ -30829,7 +30829,7 @@
 4	auch	auch	ADV	ADV	_	2	advmod	_	_
 5	hierin	hierin	ADV	ADV	_	2	advmod	_	_
 6	daß	dass	SCONJ	KOUS	_	8	mark	_	_
-7	wir	wir	PRON	PPER	Case=Nom	8	nsubj	_	_
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 8	Hyperboreer	Hyperboreer	NOUN	NN	Case=Nom	2	ccomp	_	_
 9	sind	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
@@ -32091,7 +32091,7 @@
 7	wunderbar	wunderbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	daß	daß	SCONJ	KOUS	_	11	mark	_	_
-10	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 11	wissen	wissen	VERB	VVINF	_	7	csubj	_	_
 12	können	können	AUX	VMFIN	_	11	aux	_	SpaceAfter=No
 13	:	:	PUNCT	$.	_	7	punct	_	_
@@ -32396,7 +32396,7 @@
 # text = Aber sollen wir die einzigen noch vorhandenen Produkte des synthesierenden Genies darum nicht achten, weil es noch keine kombinatorische Kunst und Wissenschaft gibt?
 1	Aber	aber	CCONJ	KON	_	14	cc	_	_
 2	sollen	sollen	AUX	VMFIN	_	14	aux	_	_
-3	wir	wir	PRON	PPER	Case=Nom	14	nsubj	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 5	einzigen	einzig	ADJ	ADJA	Degree=Pos	8	amod	_	_
 6	noch	noch	ADV	ADV	_	7	advmod	_	_
@@ -32434,7 +32434,7 @@
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
 9	lange	lange	ADV	ADV	_	16	advmod	_	_
-10	wir	wir	PRON	PPER	Case=Nom	16	nsubj	_	_
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 11	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 12	meisten	meist	DET	PIAT	Degree=Sup|PronType=Ind	13	det	_	_
 13	Wissenschaften	Wissenschaft	NOUN	NN	Case=Acc	16	obj	_	_
@@ -32448,13 +32448,13 @@
 21	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	22	obl:arg	_	_
 22	einbilden	einbilden	VERB	VVINF	_	16	conj	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	22	punct	_	_
-24	wir	wir	PRON	PPER	Case=Nom	27	nsubj	_	_
+24	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 25	wären	sein	AUX	VAFIN	_	27	aux	_	_
 26	am	an	ADP	APPRART	_	27	case	_	_
 27	Ziel	Ziel	NOUN	NN	_	22	ccomp	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	38	punct	_	_
 29	wenn	wenn	SCONJ	KOUS	_	38	mark	_	_
-30	wir	wir	PRON	PPER	Case=Nom	38	nsubj	_	_
+30	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	_	_
 31	in	in	ADP	APPR	_	32	case	_	_
 32	einem	ein	DET	PIS	Definite=Ind|NumType=Card|PronType=Art	38	obl	_	_
 33	der	der	DET	ART	Definite=Def|PronType=Art	35	det	_	_
@@ -37080,21 +37080,21 @@
 # sent_id = athenaeum-f283-s3
 # text = Wenn wir von der Außenwelt sprechen, wenn wir wirkliche Gegenstände schildern, so verfahren wir wie das Genie.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
-2	wir	wir	PRON	PPER	Case=Nom	6	nsubj	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 3	von	von	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Außenwelt	Außenwelt	NOUN	NN	Case=Dat	6	obl	_	_
 6	sprechen	sprechen	VERB	VVINF	_	15	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	12	punct	_	_
 8	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
-9	wir	wir	PRON	PPER	Case=Nom	12	nsubj	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 10	wirkliche	wirklich	ADJ	ADJA	_	11	amod	_	_
 11	Gegenstände	Gegenstand	NOUN	NN	Case=Acc	12	obj	_	_
 12	schildern	schildern	VERB	VVINF	_	6	conj	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	12	punct	_	_
 14	so	so	ADV	ADV	_	15	advmod	_	_
 15	verfahren	verfahren	VERB	VVINF	_	0	root	_	_
-16	wir	wir	PRON	PPER	Case=Nom	15	nsubj	_	_
+16	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 17	wie	wie	CCONJ	KOKOM	_	19	case	_	_
 18	das	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	Genie	Genie	NOUN	NN	_	15	obl	_	SpaceAfter=No
@@ -37108,7 +37108,7 @@
 1	Ohne	ohne	ADP	APPR	_	2	case	_	_
 2	Genialität	Genialität	NOUN	NN	Case=Acc	3	obl	_	_
 3	existierten	existieren	VERB	VVFIN	_	0	root	_	_
-4	wir	wir	PRON	PPER	Case=Nom	3	nsubj	_	_
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 5	alle	alle	DET	PIAT	PronType=Tot	4	appos	_	_
 6	überhaupt	überhaupt	ADV	ADV	_	3	advmod	_	_
 7	nicht	nicht	PART	PTKNEG	_	3	advmod	_	SpaceAfter=No
@@ -37295,17 +37295,17 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f288-s1
 # text = Wir sind dem Aufwachen nah, wenn wir träumen daß wir träumen.
-1	Wir	wir	PRON	PPER	Case=Nom	4	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	sind	sein	AUX	VAFIN	_	4	cop	_	_
 3	dem	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Aufwachen	aufwachen	NOUN	NN	Case=Dat	0	root	_	_
 5	nah	nah	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
-8	wir	wir	PRON	PPER	Case=Nom	9	nsubj	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 9	träumen	träumen	VERB	VVFIN	_	4	advcl	_	_
 10	daß	daß	SCONJ	KOUS	_	12	mark	_	_
-11	wir	wir	PRON	PPER	Case=Nom	12	nsubj	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 12	träumen	träumen	VERB	VVINF	_	9	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -37483,7 +37483,7 @@
 # sent_id = athenaeum-f293-s1
 # text = Brauchen wir zum Gewöhnlichen und Gemeinen vielleicht deswegen so viel Kraft und Anstrengung, weil für den eigentlichen Menschen nichts ungewöhnlicher nichts ungemeiner ist als armselige Gewöhnlichkeit?
 1	Brauchen	brauchen	VERB	VVINF	_	0	root	_	_
-2	wir	wir	PRON	PPER	Case=Nom	1	nsubj	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
 3	zum	zu	ADP	APPRART	_	4	case	_	_
 4	Gewöhnlichen	gewöhnlichen	NOUN	NN	_	1	obl	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
@@ -39652,7 +39652,7 @@
 # text = Jetzt erfahren wir, daß Laokoon nicht schreit, weil er nicht mehr schreien kann.
 1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
 2	erfahren	erfahren	VERB	VVFIN	_	0	root	_	_
-3	wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	SpaceAfter=No
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	daß	daß	SCONJ	KOUS	_	8	mark	_	_
 6	Laokoon	Laokoon	NOUN	NN	Case=Acc	8	obj	_	_
@@ -42986,12 +42986,12 @@
 1	Mit	mit	ADP	APPR	_	2	case	_	_
 2	dem	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	17	obl	_	_
 3	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	6	obj	_	_
-4	wir	wir	PRON	PPER	Case=Nom	6	nsubj	_	_
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
 6	haben	haben	AUX	VAFIN	_	2	acl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	können	können	AUX	VMFIN	_	17	aux	_	_
-9	wir	wir	PRON	PPER	Case=Nom	17	nsubj	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
 10	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
 11	ohne	ohne	ADP	APPR	_	14	case	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
@@ -43563,7 +43563,7 @@
 6	aber	aber	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	11	punct	_	_
 8	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	11	obj	_	_
-9	wir	wir	PRON	PPER	Case=Nom	11	nsubj	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 10	Gemüt	Gemüt	NOUN	NN	_	11	xcomp	_	_
 11	nennen	nennen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
@@ -45950,7 +45950,7 @@
 12	zweite	zweiter	NOUN	NN	_	3	conj	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	25	punct	_	_
 14	daß	daß	SCONJ	KOUS	_	25	mark	_	_
-15	wir	wir	PRON	PPER	Case=Nom	25	nsubj	_	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
 16	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	25	obj	_	_
 17	nach	nach	ADP	APPR	_	18	case	_	_
 18	Wohlwollen	Wohlwollen	NOUN	NN	Case=Dat	25	obl	_	_
@@ -45970,7 +45970,7 @@
 32	wird	werden	AUX	VAFIN	_	25	conj	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	38	punct	_	_
 34	wenn	wenn	SCONJ	KOUS	_	38	mark	_	_
-35	wir	wir	PRON	PPER	Case=Nom	38	nsubj	_	_
+35	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	_	_
 36	nicht	nicht	PART	PTKNEG	_	38	advmod	_	_
 37	beides	beide	DET	PIS	Case=Acc|NumType=Card|PronType=Tot	38	obj	_	_
 38	antreffen	antreffen	VERB	VVINF	_	32	advcl	_	SpaceAfter=No
@@ -46015,7 +46015,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f362-s12
 # text = Wir hoffen nämlich von jedem Menschen, daß wir ihn mehr oder weniger zu unsern Absichten werden gebrauchen können, und zugleich wünschen wir, daß er uns durch das freie Naturspiel seines Gemüts und durch absichtslose und unverwahrte Äußerungen ein Gegenstand des Wohlwollens und nach Gelegenheit auch ein Gegenstand für den Scherz oder den arglosen Spott werden möge.
-1	Wir	wir	PRON	PPER	Case=Nom	2	nsubj	_	_
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	hoffen	hoffen	VERB	VVFIN	_	0	root	_	_
 3	nämlich	nämlich	ADV	ADV	_	2	advmod	_	_
 4	von	von	ADP	APPR	_	6	case	_	_
@@ -46023,7 +46023,7 @@
 6	Menschen	Mensch	NOUN	NN	Case=Dat	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	2	punct	_	_
 8	daß	daß	SCONJ	KOUS	_	18	mark	_	_
-9	wir	wir	PRON	PPER	Case=Nom	18	nsubj	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 10	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 11	mehr	mehr	ADV	ADV	_	18	advmod	_	_
 12	oder	oder	CCONJ	KON	_	13	cc	_	_
@@ -46038,7 +46038,7 @@
 21	und	und	CCONJ	KON	_	23	cc	_	_
 22	zugleich	zugleich	ADV	ADV	_	23	advmod	_	_
 23	wünschen	wünschen	VERB	VVINF	_	2	conj	_	_
-24	wir	wir	PRON	PPER	Case=Nom	23	nsubj	_	SpaceAfter=No
+24	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	58	punct	_	_
 26	daß	daß	SCONJ	KOUS	_	58	mark	_	_
 27	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	58	nsubj	_	_
@@ -46085,7 +46085,7 @@
 2	andern	anderer	DET	ADJA	PronType=Ind	3	det	_	_
 3	Menschen	Mensch	NOUN	NN	Case=Dat	7	obl	_	_
 4	sind	sein	AUX	VAFIN	_	7	cop	_	_
-5	wir	wir	PRON	PPER	Case=Nom	7	nsubj	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 6	ziemlich	ziemlich	ADV	ADV	_	7	advmod	_	_
 7	sicher	sicher	ADV	ADV	_	0	root	_	_
 8	beides	beide	DET	PIS	Case=Acc|NumType=Card|PronType=Tot	15	obj	_	_
@@ -46148,7 +46148,7 @@
 26	erscheint	erscheinen	VERB	VVFIN	_	17	acl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	32	punct	_	_
 28	weil	weil	SCONJ	KOUS	_	32	mark	_	_
-29	wir	wir	PRON	PPER	Case=Nom	32	nsubj	_	_
+29	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
 30	noch	noch	ADV	ADV	_	31	advmod	_	_
 31	nicht	nicht	PART	PTKNEG	_	32	advmod	_	_
 32	gebildet	bilden	VERB	VVPP	_	26	advcl	_	_
@@ -46875,7 +46875,7 @@
 17	wünschen	wünschen	VERB	VVINF	_	3	ccomp	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	27	punct	_	_
 19	die	der	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem,Rel	27	obj	_	_
-20	wir	wir	PRON	PPER	Case=Nom	27	nsubj	_	_
+20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 21	an	an	ADP	APPR	_	24	case	_	_
 22	den	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
 23	gemeinsten	gemeinst	ADJ	ADJA	_	24	amod	_	_
