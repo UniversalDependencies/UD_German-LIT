@@ -2063,7 +2063,7 @@
 5	geselliger	gesellig	ADJ	ADJA	_	6	amod	_	_
 6	Fröhlichkeit	Fröhlichkeit	NOUN	NN	_	3	conj	_	_
 7	sind	sein	AUX	VAFIN	_	0	root	_	_
-8	wenige	weniger	DET	PIAT	_	9	det	_	_
+8	wenige	wenig	DET	PIAT	PronType=Ind	9	det	_	_
 9	Bücher	Buch	NOUN	NN	Case=Nom	7	nsubj	_	_
 10	mit	mit	ADP	APPR	_	12	case	_	_
 11	dem	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
@@ -5448,7 +5448,7 @@
 8	preist	preisen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	haben	haben	AUX	VAFIN	_	0	root	_	_
-11	weniger	weniger	DET	PIAT	_	12	det	_	_
+11	weniger	wenig	DET	PIAT	PronType=Ind	12	det	_	_
 12	Einheit	Einheit	NOUN	NN	Case=Acc	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	17	punct	_	_
 14	als	als	CCONJ	KOKOM	_	17	case	_	_
@@ -6860,7 +6860,7 @@
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
 3	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
-5	wenige	weniger	DET	PIAT	_	6	det	_	_
+5	wenige	wenig	DET	PIAT	PronType=Ind	6	det	_	_
 6	Deutsche	deutsche	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -9638,7 +9638,7 @@
 3	sind	sein	AUX	VAFIN	_	4	cop	_	_
 4	augenblicklich	augenblicklich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
-6	wenige	weniger	PRON	PIS	Case=Nom	7	nsubj	_	_
+6	wenige	wenig	DET	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
 7	verweilend	verweilend	ADJ	ADJD	_	4	conj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	diewenigsten	diewenig	ADJ	ADJD	Case=Nom	10	nsubj	_	_
@@ -14003,7 +14003,7 @@
 1	Da	da	SCONJ	KOUS	_	10	mark	_	_
 2	aber	aber	ADV	ADV	_	10	advmod	_	_
 3	so	so	ADV	ADV	_	4	advmod	_	_
-4	wenig	wenig	DET	PIAT	_	5	det	_	_
+4	wenig	wenig	DET	PIAT	PronType=Ind	5	det	_	_
 5	Menschen	Mensch	NOUN	NN	Case=Nom	10	nsubj	_	_
 6	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
 7	freyen	frey	ADJ	ADJA	_	8	amod	_	_
@@ -16093,7 +16093,7 @@
 # sent_id = bluethenstaub-f86-s2
 # text = Je weniger Grundsätze, desto höher die Wissenschaft.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
-2	weniger	weniger	DET	PIAT	_	3	det	_	_
+2	weniger	wenig	DET	PIAT	PronType=Ind	3	det	_	_
 3	Grundsätze	Grundsatz	NOUN	NN	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
 5	desto	desto	CCONJ	KON	_	6	cc	_	_
@@ -16142,7 +16142,7 @@
 12	Complizirten	Complizirt	NOUN	NN	Case=Dat	7	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	aber	aber	CCONJ	KON	_	15	cc	_	_
-15	weniger	weniger	DET	PIAT	_	16	det	_	_
+15	weniger	wenig	DET	PIAT	PronType=Ind	16	det	_	_
 16	Talent	Talent	NOUN	NN	_	2	obl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -18845,7 +18845,7 @@
 2	haben	haben	AUX	VAFIN	_	0	root	_	_
 3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
 4	Leute	Leute	NOUN	NN	Case=Nom	2	nsubj	_	_
-5	weniger	weniger	DET	PIAT	_	6	det	_	_
+5	weniger	wenig	DET	PIAT	PronType=Ind	6	det	_	_
 6	Respekt	Respekt	NOUN	NN	Case=Acc	2	obj	_	_
 7	vor	vor	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
@@ -19806,7 +19806,7 @@
 # text = Es gibt wenig Existenten.
 1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	_	0	root	_	_
-3	wenig	wenig	DET	PIAT	_	4	det	_	_
+3	wenig	wenig	DET	PIAT	PronType=Ind	4	det	_	_
 4	Existenten	Existent	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -21736,7 +21736,7 @@
 # sent_id = athenaeum-f61-s1
 # text = Die wenigen Schriften, welche gegen die Kantische Philosophie existieren, sind die wichtigsten Dokumente zur Krankheitsgeschichte des gesunden Menschenverstandes.
 1	Die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-2	wenigen	weniger	DET	PIAT	_	3	det	_	_
+2	wenigen	wenig	DET	PIAT	PronType=Ind	3	det	_	_
 3	Schriften	Schrift	NOUN	NN	Case=Nom	15	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
 5	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	10	nsubj	_	_
@@ -22651,7 +22651,7 @@
 4	nur	nur	ADV	ADV	_	5	advmod	_	_
 5	so	so	ADV	ADV	_	6	advmod	_	_
 6	äußerst	äußerst	ADV	ADV	_	3	advmod	_	_
-7	wenige	weniger	DET	PIAT	_	8	det	_	_
+7	wenige	wenig	DET	PIAT	PronType=Ind	8	det	_	_
 8	Sinn	Sinn	NOUN	NN	Case=Acc	3	obj	_	_
 9	für	für	ADP	APPR	_	11	case	_	_
 10	repräsentativen	repräsentativ	ADJ	ADJA	_	11	amod	_	_
@@ -23996,7 +23996,7 @@
 28	,	,	PUNCT	$,	_	25	punct	_	_
 29	kann	können	AUX	VMFIN	_	32	aux	_	_
 30	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	32	obl:arg	_	_
-31	wenig	wenig	PRON	PIS	Case=Acc	32	obj	_	_
+31	wenig	wenig	DET	PIS	Case=Acc|PronType=Ind	32	obj	_	_
 32	schaden	schaden	VERB	VVINF	_	25	xcomp	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	25	punct	_	_
 
@@ -24138,7 +24138,7 @@
 38	dürfte	dürfen	AUX	VMFIN	_	43	aux	_	_
 39	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	expl	_	_
 40	nur	nur	ADV	ADV	_	43	advmod	_	_
-41	wenige	weniger	DET	PIAT	_	42	det	_	_
+41	wenige	wenig	DET	PIAT	PronType=Ind	42	det	_	_
 42	Kantianer	Kantianer	NOUN	NN	Case=Nom	43	nsubj	_	_
 43	geben	geben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 44	.	.	PUNCT	$.	_	43	punct	_	_
@@ -26623,7 +26623,7 @@
 3	entdecken	entdecken	VERB	VVINF	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	aber	aber	CCONJ	KON	_	6	cc	_	_
-6	weniges	wenig	PRON	PIS	_	3	parataxis	_	SpaceAfter=No
+6	weniges	wenig	DET	PIS	PronType=Ind	3	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	und	und	CCONJ	KON	_	16	cc	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
@@ -28852,7 +28852,7 @@
 16	englischen	englisch	ADJ	ADJD	Case=Dat	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	23	punct	_	_
 18	so	so	ADV	ADV	_	19	advmod	_	_
-19	wenige	weniger	PRON	PIS	Case=Acc	23	obj	_	_
+19	wenige	wenig	DET	PIS	Case=Acc|PronType=Ind	23	obj	_	_
 20	von	von	ADP	APPR	_	22	case	_	_
 21	französischen	französisch	ADJ	ADJA	_	22	amod	_	_
 22	Frauen	Frau	NOUN	NN	Case=Dat	19	nmod	_	_
@@ -30048,7 +30048,7 @@
 # sent_id = athenaeum-f189-s1
 # text = Das wenige, was in Diderots »Essai sur la peinture« nicht taugt, ist das Sentimentale.
 1	Das	der	DET	ART	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	wenige	weniger	PRON	PIS	Case=Nom	18	nsubj	_	SpaceAfter=No
+2	wenige	wenig	DET	PIS	Case=Nom|PronType=Ind	18	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	14	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
 5	in	in	ADP	APPR	_	8	case	_	_
@@ -32326,7 +32326,7 @@
 3	Philosophie	Philosophie	NOUN	NN	Case=Nom	4	nsubj	_	_
 4	besteht	bestehen	VERB	VVFIN	_	0	root	_	_
 5	aus	aus	ADP	APPR	_	11	case	_	_
-6	wenigen	weniger	DET	PIAT	_	11	det	_	_
+6	wenigen	wenig	DET	PIAT	PronType=Ind	11	det	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	diesem	dieser	DET	PDAT	PronType=Dem	9	det	_	_
 9	Sinne	Sinn	NOUN	NN	_	10	nmod	_	_
@@ -33492,7 +33492,7 @@
 15	Bildung	Bildung	NOUN	NN	_	7	conj	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	je	je	CCONJ	KON	_	19	cc	_	_
-18	weniger	weniger	DET	PIAT	_	19	det	_	_
+18	weniger	wenig	DET	PIAT	PronType=Ind	19	det	_	_
 19	Religion	Religion	NOUN	NN	_	15	conj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -34191,7 +34191,7 @@
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	muß	müssen	AUX	VMFIN	_	18	aux	_	_
 14	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	15	det	_	_
-15	wenig	wenig	PRON	PIS	Case=Acc	18	obj	_	_
+15	wenig	wenig	DET	PIS	Case=Acc|PronType=Ind	18	obj	_	_
 16	von	von	ADP	APPR	_	17	case	_	_
 17	allem	alle	DET	PIS	Case=Dat|PronType=Tot	15	det	_	_
 18	haben	haben	VERB	VVINF	_	0	root	_	SpaceAfter=No
@@ -34208,11 +34208,11 @@
 # sent_id = athenaeum-f245-s2
 # text = Ein wenig Unglück und ein wenig Glück, etwas Kunst, und etwas Natur, die gehörige Quantität Tugend und eine gewisse Dosis Laster.
 1	Ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	3	det	_	_
-2	wenig	wenig	DET	PIAT	_	3	det	_	_
+2	wenig	wenig	DET	PIAT	PronType=Ind	3	det	_	_
 3	Unglück	Unglück	NOUN	NN	_	0	root	_	_
 4	und	und	CCONJ	KON	_	7	cc	_	_
 5	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	7	det	_	_
-6	wenig	wenig	DET	PIAT	_	7	det	_	_
+6	wenig	wenig	DET	PIAT	PronType=Ind	7	det	_	_
 7	Glück	Glück	NOUN	NN	_	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_
@@ -37581,7 +37581,7 @@
 # sent_id = athenaeum-f295-s2
 # text = Ein wenig Enthusiasmus, wenn er auch roh sein sollte, ein gewisser Schein von Universalität verfehlen ihre Wirkung nicht leicht, und verschaffen auch wohl dem Paradoxen ein Publikum.
 1	Ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	3	det	_	_
-2	wenig	wenig	DET	PIAT	_	3	det	_	_
+2	wenig	wenig	DET	PIAT	PronType=Ind	3	det	_	_
 3	Enthusiasmus	Enthusiasmus	NOUN	NN	Case=Nom	17	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	8	punct	_	_
 5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
@@ -37644,7 +37644,7 @@
 5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
 6	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
 7	nur	nur	ADV	ADV	_	9	advmod	_	_
-8	wenige	weniger	PRON	PIS	Case=Acc	9	obj	_	_
+8	wenige	wenig	DET	PIS	Case=Acc|PronType=Ind	9	obj	_	_
 9	wissen	wissen	VERB	VVINF	_	2	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	daß	daß	SCONJ	KOUS	_	14	mark	_	_
@@ -37881,7 +37881,7 @@
 24	französische	französisch	ADJ	ADJA	_	25	amod	_	_
 25	Poesie	Poesie	NOUN	NN	Case=Acc	31	obj	_	_
 26	mit	mit	ADP	APPR	_	28	case	_	_
-27	wenigen	weniger	DET	PIAT	_	28	det	_	_
+27	wenigen	wenig	DET	PIAT	PronType=Ind	28	det	_	_
 28	Worten	Wort	NOUN	NN	Case=Dat	31	obl	_	_
 29	besser	gut	ADV	ADV	_	31	advmod	_	_
 30	zu	zu	PART	PTKZU	_	31	mark	_	_
@@ -39947,7 +39947,7 @@
 # text = Unter den wenigen, die Plinius nennt, führt er von der Timarete, Irene und Lala nur weibliche Figuren an.
 1	Unter	unter	ADP	APPR	_	3	case	_	_
 2	den	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
-3	wenigen	weniger	DET	PIAT	_	9	obl	_	SpaceAfter=No
+3	wenigen	wenig	DET	PIAT	PronType=Ind	9	obl	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	7	obj	_	_
 6	Plinius	Plinius	PROPN	NE	Case=Nom	7	nsubj	_	_
@@ -41267,7 +41267,7 @@
 20	reden	reden	VERB	VVINF	_	7	conj	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	20	punct	_	_
 22	am	an	ADP	APPRART	_	23	case	_	_
-23	wenigsten	wenigster	DET	PIAT	_	20	advmod	_	_
+23	wenigsten	wenig	DET	PIAT	PronType=Ind	20	advmod	_	_
 24	von	von	ADP	APPR	_	26	case	_	_
 25	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
 26	eignen	eigen	ADJ	PPOSS	Case=Dat|Degree=Pos	20	parataxis	_	SpaceAfter=No
@@ -43545,7 +43545,7 @@
 10	viel	viel	DET	PIAT	PronType=Ind	11	det	_	_
 11	Seele	Seele	NOUN	NN	_	5	conj	_	_
 12	bei	bei	ADP	APPR	_	14	case	_	_
-13	weniger	weniger	DET	PIAT	_	14	det	_	_
+13	weniger	wenig	DET	PIAT	PronType=Ind	14	det	_	_
 14	Gemüt	Gemüt	NOUN	NN	Case=Dat	11	orphan	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -44568,7 +44568,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f352-s3
 # text = Wenige leben, und die meisten unter diesen haben nur ein vergängliches Dasein.
-1	Wenige	weniger	PRON	PIS	Case=Nom	2	nsubj	_	_
+1	Wenige	wenig	DET	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
 2	leben	leben	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	9	punct	_	_
 4	und	und	CCONJ	KON	_	9	cc	_	_
@@ -45884,7 +45884,7 @@
 41	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	46	nsubj	_	_
 42	nur	nur	ADV	ADV	_	46	advmod	_	_
 43	von	von	ADP	APPR	_	44	case	_	_
-44	wenigen	weniger	DET	PIAT	Case=Dat	46	advmod	_	_
+44	wenigen	wenig	DET	PIAT	Case=Dat|PronType=Ind	46	advmod	_	_
 45	wird	werden	AUX	VAFIN	_	46	aux	_	_
 46	rühmen	rühmen	VERB	VVINF	_	36	advcl	_	_
 47	können	können	AUX	VMINF	_	46	aux	_	SpaceAfter=No
@@ -51439,7 +51439,7 @@
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
 6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	nmod	_	_
 7	zu	zu	PART	PTKA	_	8	case	_	_
-8	wenig	wenig	DET	PIAT	Case=Dat	9	det	_	_
+8	wenig	wenig	DET	PIAT	Case=Dat|PronType=Ind	9	det	_	_
 9	unterschiedene	unterschieden	ADJ	ADJA	_	10	amod	_	_
 10	Variation	Variation	NOUN	NN	_	1	nmod	_	_
 11	Balder	Balder	PROPN	NE	_	10	appos	_	_
