@@ -1681,7 +1681,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f37-s7
 # text = wodurch man ein Knecht wird.
-1	wodurch	wodurch	ADV	ADV	_	5	advmod	_	_
+1	wodurch	wodurch	ADV	ADV	PronType=Int	5	advmod	_	_
 2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	_
 3	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	4	det	_	_
 4	Knecht	Knecht	NOUN	NN	_	5	xcomp	_	_
@@ -2602,7 +2602,7 @@
 31	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	32	det	_	_
 32	Drama	Drama	NOUN	NN	Case=Nom	2	parataxis	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	32	punct	_	_
-34	worin	worin	ADV	PWAV	_	38	mark	_	_
+34	worin	worin	ADV	PWAV	PronType=Int	38	mark	_	_
 35	Pyramus	Pyramus	PROPN	NE	Case=Nom	38	nsubj	_	_
 36	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	38	obj	_	_
 37	selbst	selbst	ADV	ADV	_	36	advmod	_	_
@@ -3132,7 +3132,7 @@
 15	kleines	klein	ADJ	ADJA	_	16	amod	_	_
 16	Prozent	Prozent	NOUN	NN	_	8	parataxis	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	16	punct	_	_
-18	womit	womit	ADV	PWAV	_	31	dep	_	_
+18	womit	womit	ADV	PWAV	PronType=Int	31	advmod	_	_
 19	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 20	bankerotte	bankerott	ADJ	ADJA	_	21	amod	_	_
 21	Natur	Natur	NOUN	NN	Case=Nom	31	nsubj	_	_
@@ -3643,7 +3643,7 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f68-s1
 # text = Wieviel Autoren gibts wohl unter den Schriftstellern?
-1	Wieviel	wieviel	DET	PWAT	_	2	det	_	_
+1	Wieviel	wieviel	DET	PWAT	PronType=Int	2	det	_	_
 2	Autoren	Autor	NOUN	NN	Case=Nom	3	nsubj	_	_
 3	gibts	gibt	ADV	ADV	_	0	root	_	_
 4	wohl	wohl	ADV	ADV	_	3	advmod	_	_
@@ -5488,7 +5488,7 @@
 7	gleiche	gleich	ADJ	ADJA	_	5	conj	_	_
 8	Beisammensein	Beisammensein	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	2	punct	_	_
-10	worin	worin	ADV	PWAV	_	26	mark	_	_
+10	worin	worin	ADV	PWAV	PronType=Int	26	mark	_	_
 11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	26	obj	_	_
 12	auch	auch	ADV	ADV	_	26	advmod	_	_
 13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
@@ -7893,7 +7893,7 @@
 15	auf	auf	ADP	APPR	_	16	case	_	_
 16	Erden	Erde	NOUN	NN	_	13	conj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	24	punct	_	_
-18	wovon	wovon	ADV	PWAV	_	24	advmod	_	_
+18	wovon	wovon	ADV	PWAV	PronType=Int	24	advmod	_	_
 19	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Poesie	Poesie	NOUN	NN	Case=Nom	24	nsubj	_	_
@@ -8702,7 +8702,7 @@
 6	Eigenthum	Eigenthum	NOUN	NN	Case=Nom	30	advcl	_	_
 7	ist	sein	AUX	VAFIN	_	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	17	punct	_	_
-9	wodurch	wodurch	ADV	PWAV	_	17	dep	_	_
+9	wodurch	wodurch	ADV	PWAV	PronType=Int	17	advmod	_	_
 10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 11	nur	nur	ADV	ADV	_	17	advmod	_	_
 12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
@@ -14439,7 +14439,7 @@
 68	sey	sein	AUX	VAFIN	_	67	cop	_	SpaceAfter=No
 69	,	,	PUNCT	$,	_	76	punct	_	_
 70	und	und	CCONJ	KON	_	76	cc	_	_
-71	wodurch	wodurch	ADV	PROAV	_	76	advmod	_	_
+71	wodurch	wodurch	ADV	PROAV	PronType=Int	76	advmod	_	_
 72	Gott	Gott	NOUN	NN	Case=Nom	76	nsubj	_	_
 73	allein	allein	ADV	ADV	_	76	advmod	_	_
 74	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	76	obj	_	_
@@ -15270,7 +15270,7 @@
 7	revoluzionairen	revoluzionair	ADJ	ADJA	_	8	amod	_	_
 8	Philister	Philister	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
-10	wozu	wozu	ADV	PWAV	_	21	mark	_	_
+10	wozu	wozu	ADV	PWAV	PronType=Int	21	mark	_	_
 11	auch	auch	ADV	ADV	_	21	advmod	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Hefen	Hefen	NOUN	NN	Case=Nom	21	nsubj	_	_
@@ -22917,7 +22917,7 @@
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	Wert	Wert	NOUN	NN	_	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	7	punct	_	_
-14	wie	wie	ADV	PWAV	_	16	dep	_	_
+14	wie	wie	ADV	PWAV	_	16	advmod	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 16	Bravourarien	Bravourarie	NOUN	NN	_	7	nmod	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
@@ -23972,7 +23972,7 @@
 4	Philosophie	Philosophie	NOUN	NN	Case=Acc	5	obj	_	_
 5	annihiliert	annihilieren	VERB	VVFIN	_	25	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
-7	wobei	wobei	ADV	PWAV	_	15	advmod	_	_
+7	wobei	wobei	ADV	PWAV	PronType=Int	15	advmod	_	_
 8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Unvorsichtige	unvorsichtige	NOUN	NN	Case=Nom	12	nsubj	_	_
@@ -25090,7 +25090,7 @@
 38	ähnlich	ähnlich	ADJ	ADJD	_	39	advmod	_	_
 39	organisiert	organisieren	VERB	VVPP	_	9	advcl	_	SpaceAfter=No
 40	,	,	PUNCT	$,	_	39	punct	_	_
-41	wodurch	wodurch	ADV	PAV	_	50	advmod	_	_
+41	wodurch	wodurch	ADV	PAV	PronType=Int	50	advmod	_	_
 42	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	50	obl:arg	_	_
 43	die	der	DET	ART	Definite=Def|PronType=Art	44	det	_	_
 44	Aussicht	Aussicht	NOUN	NN	Case=Nom	50	nsubj:pass	_	_
@@ -25414,7 +25414,7 @@
 13	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	_
 14	und	und	CCONJ	KON	_	16	cc	_	_
 15	für	für	ADP	APPR	_	16	case	_	_
-16	andre	anderer	DET	ADJA	Case=Acc|PronType=Ind	13	amod	_	SpaceAfter=No
+16	andre	anderer	DET	ADJA	Case=Acc|PronType=Ind	13	det	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	26	punct	_	_
 18	so	so	ADV	ADV	_	26	advmod	_	_
 19	sollten	sollen	AUX	VMFIN	_	26	aux	_	_
@@ -25440,7 +25440,7 @@
 3	sei	sein	AUX	VAFIN	_	4	cop	_	_
 4	republikanisch	republikanisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
-6	wobei	wobei	ADV	PWAV	_	9	advmod	_	_
+6	wobei	wobei	ADV	PWAV	PronType=Int	9	advmod	_	_
 7	immer	immer	ADV	ADV	_	8	advmod	_	_
 8	erlaubt	erlauben	VERB	VVPP	_	9	xcomp	_	_
 9	bleibt	bleiben	VERB	VVFIN	_	4	advcl	_	SpaceAfter=No
@@ -26221,7 +26221,7 @@
 17	als	als	CCONJ	KOKOM	_	18	mark	_	_
 18	wünschen	wünschen	VERB	VVINF	_	1	conj	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	18	punct	_	_
-20	wozu	wozu	ADV	PAV	_	26	advmod	_	_
+20	wozu	wozu	ADV	PAV	PronType=Int	26	advmod	_	_
 21	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	26	nsubj	_	_
 22	überall	überall	ADV	ADV	_	26	advmod	_	_
 23	so	so	ADV	ADV	_	26	advmod	_	_
@@ -26819,7 +26819,7 @@
 20	zu	zu	PART	PTKZU	_	21	mark	_	_
 21	setzen	setzen	VERB	VVINF	_	3	acl	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	21	punct	_	_
-23	wodurch	wodurch	ADV	PAV	_	35	advmod	_	_
+23	wodurch	wodurch	ADV	PAV	PronType=Int	35	advmod	_	_
 24	die	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
 25	Fantasie	Fantasie	NOUN	NN	Case=Nom	35	nsubj:pass	_	_
 26	mit	mit	ADP	APPR	_	28	case	_	_
@@ -27620,7 +27620,7 @@
 2	der	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Denkart	Denkart	PROPN	NE	Case=Dat	8	nmod	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|PronType=Art	6	nsubj	_	_
-5	darin	darin	ADV	PROAV	PronType=Dem	6	dep	_	_
+5	darin	darin	ADV	PROAV	PronType=Dem	6	advmod	_	_
 6	herrscht	herrschen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	ist	sein	AUX	VAFIN	_	0	root	_	_
@@ -28299,7 +28299,7 @@
 # text = Das, woraus man nur etwas, oder allerlei lernen soll, ist sicher keine Philosophie.
 1	Das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	16	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	10	punct	_	_
-3	woraus	woraus	ADV	PWAV	_	10	advmod	_	_
+3	woraus	woraus	ADV	PWAV	PronType=Int	10	advmod	_	_
 4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
 6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	SpaceAfter=No
@@ -28397,7 +28397,7 @@
 8	eigne	eigen	ADJ	ADJA	Degree=Pos	9	amod	_	_
 9	Art	Art	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	15	punct	_	_
-11	worin	worin	ADV	PWAV	_	15	mark	_	_
+11	worin	worin	ADV	PWAV	PronType=Int	15	mark	_	_
 12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	am	an	ADP	APPR	_	14	case	_	_
 14	meisten	meist	DET	PIS	Degree=Sup|PronType=Ind	15	det	_	_
@@ -28936,7 +28936,7 @@
 13	zurückgezogenen	zurückgezogen	ADJ	ADJA	_	14	amod	_	_
 14	Leben	Leben	NOUN	NN	Case=Dat	4	conj	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	26	punct	_	_
-16	wozu	wozu	ADV	PAV	_	26	advmod	_	_
+16	wozu	wozu	ADV	PAV	PronType=Int	26	advmod	_	_
 17	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Ungeschliffenheit	Ungeschliffenheit	NOUN	NN	Case=Nom	26	nsubj	_	_
 19	des	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
@@ -36311,7 +36311,7 @@
 13	von	von	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 15	Wege	Weg	NOUN	NN	Case=Dat	2	obl	_	_
-16	worauf	worauf	PRON	PRELS	_	18	obl	_	_
+16	worauf	worauf	ADV	PRELS	PronType=Int	18	advmod	_	_
 17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
 18	zurückgebracht	zurückbringen	VERB	VVPP	_	15	acl	_	_
 19	werden	werden	AUX	VAINF	_	18	aux:pass	_	_
@@ -36930,7 +36930,7 @@
 21	das	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
 22	Eine	ein	DET	NN	Definite=Ind|NumType=Card|PronType=Art	28	obl	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	28	punct	_	_
-24	worauf	worauf	ADV	PWAV	_	28	advmod	_	_
+24	worauf	worauf	ADV	PWAV	PronType=Int	28	advmod	_	_
 25	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 26	eigentlich	eigentlich	ADV	ADV	_	28	advmod	_	_
 27	an	an	ADP	APPR	_	28	case	_	_
@@ -37353,7 +37353,7 @@
 2	ist	sein	AUX	VAFIN	_	1	cop	_	_
 3	das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	1	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
-5	worin	worin	ADV	PWAV	_	10	advmod	_	_
+5	worin	worin	ADV	PWAV	PronType=Int	10	advmod	_	_
 6	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	10	obl:arg	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Geist	Geist	NOUN	NN	Case=Nom	10	nsubj	_	_
@@ -43147,7 +43147,7 @@
 33	die	der	DET	ART	Definite=Def|PronType=Art	34	det	_	_
 34	Sache	Sache	NOUN	NN	Case=Nom	13	nsubj	_	SpaceAfter=No
 35	,	,	PUNCT	$,	_	34	punct	_	_
-36	worauf	worauf	ADV	PWAV	_	41	advmod	_	_
+36	worauf	worauf	ADV	PWAV	PronType=Int	41	advmod	_	_
 37	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 38	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	39	det	_	_
 39	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	41	obl:arg	_	_
@@ -44899,7 +44899,7 @@
 8	naturhistorischen	naturhistorisch	ADJ	ADJA	_	9	amod	_	_
 9	Beschreibungen	Beschreibung	NOUN	NN	_	6	nmod	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
-11	wonach	wonach	ADV	PWAV	_	12	advmod	_	_
+11	wonach	wonach	ADV	PWAV	PronType=Int	12	advmod	_	_
 12	messen	messen	VERB	VMFIN	_	2	conj	_	_
 13	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	12	nsubj	_	_
 14	den	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
@@ -48854,7 +48854,7 @@
 41	ableiten	ableiten	VERB	VVINF	_	42	xcomp	_	_
 42	läßt	lassen	VERB	VVFIN	_	30	conj	_	SpaceAfter=No
 43	,	,	PUNCT	$,	_	51	punct	_	_
-44	wozu	wozu	ADV	PAV	_	51	advmod	_	_
+44	wozu	wozu	ADV	PAV	PronType=Int	51	advmod	_	_
 45	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	51	nsubj	_	_
 46	also	also	ADV	ADV	_	51	advmod	_	_
 47	für	für	ADP	APPR	_	48	case	_	_
@@ -51540,7 +51540,7 @@
 2	die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Wiederholungen	Wiederholung	NOUN	NN	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	14	punct	_	_
-5	wodurch	wodurch	ADV	PWAV	_	14	advmod	_	_
+5	wodurch	wodurch	ADV	PWAV	PronType=Int	14	advmod	_	_
 6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Darstellung	Darstellung	NOUN	NN	_	14	obl	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
