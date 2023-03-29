@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1920</sentences><tokens>40337</tokens><words>40447</words><fused>110</fused></test>
   </size>
-  <lemmas unique="5227" /><!-- der, ,, ., sein, und, ein, zu, in, nicht, es, sie, sich, haben, so, werden -->
+  <lemmas unique="5227" /><!-- der, ,, ., sein, und, ein, zu, in, nicht, es, sie, haben, sich, so, werden -->
   <forms unique="6975" /><!-- ,, ., der, und, die, ist, zu, in, nicht, das, es, ein, sich, den, sie -->
   <fusions unique="9" /><!-- im, zur, zum, am, vom, ins, ers, mans, mirs -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -24,7 +24,7 @@
     <tag name="NOUN">7375</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">41</tag><!-- eins, zwei, drei, vier, «, 1, 2, 3, acht, achtzehn -->
     <tag name="PART">856</tag><!-- nicht, zu, an, 's -->
-    <tag name="PRON">2750</tag><!-- der, es, sie, sich, er, man, was, nichts, ich, etwas -->
+    <tag name="PRON">2750</tag><!-- der, es, sie, sich, er, man, was, ich, nichts, etwas -->
     <tag name="PROPN">335</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Plato, Spinosa, Caesar, Christus, England -->
     <tag name="PUNCT">5406</tag><!-- ,, ., ;, :, ?, «, », !, –, ) -->
     <tag name="SCONJ">528</tag><!-- wenn, daß, weil, um, als, ob, ohne, da, dass, indem -->
@@ -35,7 +35,7 @@
   <feats unique="46">
     <feat name="Abbr" value="Yes" upos="ADV,CCONJ">3</feat><!-- s, u, w -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2042</feat><!-- sich, es, was, ihn, sie, die, nichts, Sinn, alles, mich -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">1282</feat><!-- dem, ihm, sich, ihnen, der, uns, denen, ihr, Sinn, den -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">1284</feat><!-- dem, ihm, sich, ihnen, der, uns, denen, ihr, Sinn, mir -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">380</feat><!-- deren, Geistes, Dichters, dessen, Menschen, Altertums, Ganzen, Genies, Zeitalters, Individuums -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3875</feat><!-- man, sie, er, es, die, der, was, wir, das, ich -->
     <feat name="Definite" value="Def" upos="DET">3335</feat><!-- der, die, das, den, des, dem, la, le, the -->
@@ -54,14 +54,14 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">5</feat><!-- era, fait, is, sommes, strömt -->
     <feat name="Mood" value="Sub" upos="VERB">3</feat><!-- erfolge, leben, wohlgehe -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">102</feat><!-- ihnen, denen, den, die, sie, Momente, der, Alten, Anfangsgründe, Eigenschaften -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1492</feat><!-- es, man, er, nichts, etwas, ich, ihm, ihn, jeder, mich -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1501</feat><!-- es, man, er, nichts, etwas, ich, ihm, ihn, jeder, mich -->
     <feat name="Number[psor]" value="Plur" upos="DET">1</feat><!-- ihr -->
     <feat name="Number[psor]" value="Sing" upos="DET">202</feat><!-- seine, seiner, sein, seinem, seinen, seines, meine, mein, deine, deiner -->
     <feat name="NumType" value="Card" upos="DET,NUM">1008</feat><!-- ein, eine, einer, einen, einem, eines, eins, beiden, beide, beyde -->
     <feat name="NumType" value="Ord" upos="ADJ">37</feat><!-- erste, ersten, erstes, erster -->
-    <feat name="Person" value="1" upos="AUX,DET,PRON">96</feat><!-- ich, mich, unsere, unser, meine, unsers, mein, unsrer, meinem, meinen -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON">105</feat><!-- ich, mich, mir, unsere, unser, meine, unsers, mein, unsrer, meinem -->
     <feat name="Person" value="2" upos="DET,PRON,VERB">26</feat><!-- du, dich, dir, Ehre, deine, deiner -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1122</feat><!-- es, er, ihre, seine, ihr, seiner, ihm, ihn, ihrer, sein -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1456</feat><!-- es, sich, er, ihre, seine, ihr, seiner, ihm, ihn, ihrer -->
     <feat name="Poss" value="Yes" upos="DET">410</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">4302</feat><!-- der, die, ein, das, den, eine, des, dem, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">438</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
@@ -69,11 +69,11 @@
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">662</feat><!-- man, etwas, andre, viele, andern, genug, meisten, viel, manche, einige -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET,PRON">178</feat><!-- nichts, keine, kein, keinen, niemand, keiner, keins, niemanden, keinem, keines -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">1570</feat><!-- es, sich, er, ihre, seine, ihr, ich, seiner, ihm, ihn -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">1579</feat><!-- es, sich, er, ihre, seine, ihr, ich, seiner, ihm, ihn -->
     <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- che -->
     <feat name="PronType" value="Tot" upos="DET,PRON">345</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, beiden, beide -->
-    <feat name="Reflex" value="Yes" upos="PRON">335</feat><!-- sich, himself -->
+    <feat name="Reflex" value="Yes" upos="PRON">344</feat><!-- sich, mir, himself -->
     <feat name="Tense" value="Past" upos="AUX">1</feat><!-- era -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">7</feat><!-- erfolge, fait, is, leben, sommes, strömt, wohlgehe -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">11</feat><!-- peut, Ehre, era, erfolge, fait, is, leben, sommes, strömt, wohlgehe -->
