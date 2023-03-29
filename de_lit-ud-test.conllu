@@ -2506,7 +2506,7 @@
 # text = – Manche solcher Benennungen der Feudalpoesie können bei den Literatoren künftiger Zeitalter ähnliche Untersuchungen veranlassen, wie die, warum Dante sein großes Werk eine göttliche Komödie nannte.
 1	–	–	PUNCT	XY	_	15	punct	_	_
 2	Manche	mancher	DET	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
-3	solcher	solcher	DET	PIAT	_	4	det	_	_
+3	solcher	solcher	DET	PIAT	PronType=Dem	4	det	_	_
 4	Benennungen	Benennung	NOUN	NN	_	2	nmod	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Feudalpoesie	Feudalpoesie	NOUN	NN	_	4	nmod	_	_
@@ -4457,7 +4457,7 @@
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Künstler	Künstler	NOUN	NN	Case=Nom	17	nsubj	_	_
 14	wenigstens	wenigstens	ADV	ADV	_	17	advmod	_	_
-15	solche	solcher	DET	PIAT	_	16	det	_	_
+15	solche	solcher	DET	PIAT	PronType=Dem	16	det	_	_
 16	Individuen	Individuum	NOUN	NN	Case=Acc	17	obj	_	_
 17	wählen	wählen	VERB	VVINF	_	8	parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	20	punct	_	_
@@ -7116,7 +7116,7 @@
 16	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	19	punct	_	_
 18	als	als	SCONJ	KOUS	_	19	case	_	_
-19	solche	solcher	PRON	PIS	_	16	nmod	_	SpaceAfter=No
+19	solche	solcher	DET	PIS	PronType=Dem	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	7	punct	_	_
 
 # genre = fragments
@@ -7195,7 +7195,7 @@
 33	mehr	mehr	ADV	ADV	_	28	advmod	_	_
 34	für	für	ADP	APPR	_	37	case	_	_
 35	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	37	det	_	_
-36	solches	solcher	DET	PIAT	_	37	det	_	_
+36	solches	solcher	DET	PIAT	PronType=Dem	37	det	_	_
 37	Schauspiel	Schauspiel	NOUN	NN	Case=Acc	28	obl	_	SpaceAfter=No
 38	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -7432,7 +7432,7 @@
 23	Vernachlässigung	Vernachlässigung	NOUN	NN	Case=Nom	20	nsubj	_	_
 24	und	und	CCONJ	KON	_	25	cc	_	_
 25	Verachtung	Verachtung	NOUN	NN	_	23	conj	_	_
-26	solcher	solcher	DET	PIAT	_	29	det	_	_
+26	solcher	solcher	DET	PIAT	PronType=Dem	29	det	_	_
 27	gewöhnlich	gewöhnlich	ADV	ADV	_	28	advmod	_	_
 28	guten	gut	ADJ	ADJA	_	29	amod	_	_
 29	Schriftsteller	Schriftsteller	NOUN	NN	_	25	nmod	_	SpaceAfter=No
@@ -9610,7 +9610,7 @@
 12	,	,	PUNCT	$,	_	6	punct	_	_
 13	liefern	liefern	VERB	VVFIN	_	0	root	_	_
 14	uns	uns	PRON	PPER	Case=Dat	13	obl:arg	_	_
-15	solche	solcher	DET	PIAT	_	16	det	_	_
+15	solche	solcher	DET	PIAT	PronType=Dem	16	det	_	_
 16	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc	13	obj	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	13	punct	_	_
 
@@ -9623,7 +9623,7 @@
 2	Stimmungen	Stimmung	NOUN	NN	Case=Nom	7	nsubj	_	_
 3	sind	sein	AUX	VAFIN	_	7	cop	_	_
 4	vorzüglich	vorzüglich	ADJ	ADJD	_	7	amod	_	_
-5	solchen	solcher	DET	PIAT	_	6	det	_	_
+5	solchen	solcher	DET	PIAT	PronType=Dem	6	det	_	_
 6	Offenbarungen	Offenbarung	NOUN	NN	_	7	nmod	_	_
 7	günstig	günstig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
@@ -11985,7 +11985,7 @@
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	als	als	ADP	KOKOM	_	19	case	_	_
 18	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
-19	solches	solcher	PRON	PIS	_	15	obl	_	SpaceAfter=No
+19	solches	solcher	DET	PIS	PronType=Dem	15	obl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	19	punct	_	_
 21	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	24	nsubj	_	_
 22	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
@@ -13314,7 +13314,7 @@
 6	dem	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
 7	Theil	Theil	NOUN	NN	Case=Dat	10	nmod	_	_
 8	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	10	det	_	_
-9	solche	solcher	DET	PIAT	_	10	det	_	_
+9	solche	solcher	DET	PIAT	PronType=Dem	10	det	_	_
 10	Übersetzung	Übersetzung	NOUN	NN	Case=Nom	0	root	_	_
 11	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	12	det	_	_
 12	Nazionalreligion	Nazionalreligion	NOUN	NN	_	10	nmod	_	SpaceAfter=No
@@ -13331,7 +13331,7 @@
 4	Madonna	Madonna	PROPN	NE	Case=Nom	8	nsubj	_	_
 5	ist	sein	AUX	VAFIN	_	8	cop	_	_
 6	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
-7	solcher	solcher	DET	PIAT	_	8	det	_	_
+7	solcher	solcher	DET	PIAT	PronType=Dem	8	det	_	_
 8	Mythus	Mythus	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -14420,7 +14420,7 @@
 49	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	59	expl	_	_
 50	nur	nur	ADV	ADV	_	53	advmod	_	_
 51	Ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	53	det	_	_
-52	solches	solcher	DET	PIAT	_	53	det	_	_
+52	solches	solcher	DET	PIAT	PronType=Dem	53	det	_	_
 53	Organ	Organ	NOUN	NN	Case=Nom	59	nsubj	_	_
 54	in	in	ADP	APPR	_	56	case	_	_
 55	der	der	DET	ART	Definite=Def|PronType=Art	56	det	_	_
@@ -15353,7 +15353,7 @@
 16	listige	listig	ADJ	ADJA	_	17	amod	_	_
 17	Sklav	Sklav	NOUN	NN	Case=Nom	2	advcl	_	_
 18	eines	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	21	det	_	_
-19	solchen	solcher	DET	PIAT	_	21	det	_	_
+19	solchen	solcher	DET	PIAT	PronType=Dem	21	det	_	_
 20	stumpfen	stumpfen	ADJ	ADJA	_	21	amod	_	_
 21	Herrn	Herr	NOUN	NN	Case=Gen	17	nmod	_	_
 22	ist	sein	AUX	VAFIN	_	17	cop	_	SpaceAfter=No
@@ -15644,7 +15644,7 @@
 7	Gesetzes	Gesetz	NOUN	NN	Case=Gen	12	obl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	als	als	ADP	APPR	_	10	case	_	_
-10	solchen	solcher	PRON	PIS	_	7	acl	_	SpaceAfter=No
+10	solchen	solcher	DET	PIS	PronType=Dem	7	acl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	7	punct	_	_
 12	bewußt	bewußt	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
@@ -20506,7 +20506,7 @@
 11	erklären	erklären	VERB	VVINF	_	5	xcomp	_	_
 12	waren	sein	AUX	VAFIN	_	14	cop	_	_
 13	entweder	entweder	ADV	ADV	_	14	advmod	_	_
-14	solche	solcher	PRON	PIS	_	0	root	_	SpaceAfter=No
+14	solche	solcher	DET	PIS	PronType=Dem	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	21	obl:arg	_	_
 17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
@@ -20532,7 +20532,7 @@
 37	verschaffen	verschaffen	VERB	VVINF	_	21	xcomp	_	SpaceAfter=No
 38	;	;	PUNCT	$.	_	40	punct	_	_
 39	oder	oder	CCONJ	KON	_	40	cc	_	_
-40	solche	solch	PRON	PIS	_	14	conj	_	SpaceAfter=No
+40	solche	solcher	DET	PIS	PronType=Dem	14	conj	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	47	punct	_	_
 42	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	47	nsubj	_	_
 43	nur	nur	ADV	ADV	_	47	advmod	_	_
@@ -20549,7 +20549,7 @@
 54	selbst	selbst	ADV	ADV	_	53	advmod	_	SpaceAfter=No
 55	;	;	PUNCT	$.	_	57	punct	_	_
 56	oder	oder	CCONJ	KON	_	57	cc	_	_
-57	solche	solcher	PRON	PIS	_	14	conj	_	SpaceAfter=No
+57	solche	solcher	DET	PIS	PronType=Dem	14	conj	_	SpaceAfter=No
 58	,	,	PUNCT	$,	_	57	punct	_	_
 59	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	63	nsubj	_	_
 60	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	63	obj	_	_
@@ -21203,7 +21203,7 @@
 24	wie	wie	CCONJ	KOKOM	_	25	case	_	_
 25	Zentralmonaden	Zentralmonaden	NOUN	NN	_	22	conj	_	_
 26	eines	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	29	det	_	_
-27	solchen	solcher	DET	PIAT	_	29	det	_	_
+27	solchen	solcher	DET	PIAT	PronType=Dem	29	det	_	_
 28	historischen	historisch	ADJ	ADJA	_	29	amod	_	_
 29	Individuums	Individuum	NOUN	NN	Case=Gen	25	nmod	_	_
 30	sind	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
@@ -24519,7 +24519,7 @@
 7	will	wollen	AUX	VMFIN	_	6	aux	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	müssen	müssen	AUX	VMFIN	_	10	aux	_	_
-10	solche	solcher	PRON	PIS	_	0	root	_	_
+10	solche	solcher	DET	PIS	PronType=Dem	0	root	_	_
 11	sein	sein	AUX	VAINF	_	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	18	punct	_	_
 13	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	18	nsubj	_	_
@@ -25461,7 +25461,7 @@
 # sent_id = athenaeum-f119-s1
 # text = Auch solche Bilder der Sprache, die bloß Eigensinn scheinen, haben oft tiefe Bedeutung.
 1	Auch	auch	ADV	ADV	_	12	advmod	_	_
-2	solche	solcher	DET	PIAT	_	3	det	_	_
+2	solche	solcher	DET	PIAT	PronType=Dem	3	det	_	_
 3	Bilder	Bild	NOUN	NN	Case=Nom	12	nsubj	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Sprache	Sprache	NOUN	NN	_	3	nmod	_	SpaceAfter=No
@@ -28906,7 +28906,7 @@
 2	wann	wann	ADV	PWAV	_	3	advmod	_	_
 3	glaubt	glauben	VERB	VVFIN	_	0	root	_	_
 4	wohl	wohl	ADV	ADV	_	3	advmod	_	_
-5	solch	solcher	DET	PIAT	_	8	det	_	_
+5	solch	solcher	DET	PIAT	PronType=Dem	8	det	_	_
 6	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
 7	weiblicher	weiblich	ADJ	ADJA	_	8	amod	_	_
 8	Geschäftsmann	Geschäftsmann	NOUN	NN	Case=Nom	3	nsubj	_	_
@@ -29038,7 +29038,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f171-s2
 # text = Solche überschwengliche Dummheiten sollten in den Jahrbüchern des menschlichen Geistes aufbewahrt werden, man kann sie mit allem Verstande nicht so erfinden.
-1	Solche	solcher	DET	PIAT	_	3	det	_	_
+1	Solche	solcher	DET	PIAT	PronType=Dem	3	det	_	_
 2	überschwengliche	überschwenglich	ADJ	ADJA	_	3	amod	_	_
 3	Dummheiten	Dummheit	NOUN	NN	Case=Nom	11	nsubj:pass	_	_
 4	sollten	sollen	AUX	VMFIN	_	11	aux	_	_
@@ -30640,7 +30640,7 @@
 # sent_id = athenaeum-f193-s11
 # text = Alle solche Stellen hinweggenommen, würde doch die Kunstliebe und Einsicht des Dichters, in der Gruppierung seiner Figuren, in der einfachen Großheit seiner Umrisse unverkennbar sein.
 1	Alle	alle	DET	PIAT	PronType=Tot	3	det	_	_
-2	solche	solcher	DET	PIAT	_	3	det	_	_
+2	solche	solcher	DET	PIAT	PronType=Dem	3	det	_	_
 3	Stellen	Stelle	NOUN	NN	Case=Acc	4	obj	_	_
 4	hinweggenommen	hinweggenommen	VERB	VVPP	_	27	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	4	punct	_	_
@@ -30719,7 +30719,7 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f194-s3
 # text = Solch einen edlen Rost gibt es auch an Menschen, Helden, Weisen, Dichtern.
-1	Solch	solch	DET	PIAT	_	4	det	_	_
+1	Solch	solcher	DET	PIAT	PronType=Dem	4	det	_	_
 2	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	4	det	_	_
 3	edlen	edl	ADJ	ADJA	_	4	amod	_	_
 4	Rost	Rost	NOUN	NN	Case=Nom	5	nsubj	_	_
@@ -34989,7 +34989,7 @@
 15	freilich	freilich	ADV	ADV	_	20	advmod	_	_
 16	müßte	müssen	AUX	VMFIN	_	20	aux	_	_
 17	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
-18	solche	solcher	DET	PIAT	_	19	det	_	_
+18	solche	solcher	DET	PIAT	PronType=Dem	19	det	_	_
 19	Poetik	Poetik	NOUN	NN	Case=Nom	20	nsubj	_	_
 20	vorkommen	vorkommen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	20	punct	_	_
@@ -35554,7 +35554,7 @@
 1	Was	was	PRON	PWS	Case=Acc	21	obj	_	_
 2	können	können	AUX	VMFIN	_	21	aux	_	_
 3	aber	aber	ADV	ADV	_	21	advmod	_	_
-4	solche	solcher	DET	PIAT	_	5	det	_	_
+4	solche	solcher	DET	PIAT	PronType=Dem	5	det	_	_
 5	Fragmente	Fragment	NOUN	NN	Case=Nom	21	nsubj	_	_
 6	für	für	ADP	APPR	_	11	case	_	_
 7	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
@@ -38923,7 +38923,7 @@
 3	braucht	brauchen	VERB	VVFIN	_	0	root	_	_
 4	grade	grade	ADV	ADV	_	3	advmod	_	_
 5	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	7	det	_	_
-6	solches	solcher	DET	PIAT	_	7	det	_	_
+6	solches	solcher	DET	PIAT	PronType=Dem	7	det	_	_
 7	Licht	Licht	NOUN	NN	Case=Acc	3	obj	_	_
 8	wie	wie	CCONJ	KOKOM	_	10	case	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
@@ -39914,7 +39914,7 @@
 48	wo	wo	ADV	PWAV	_	49	advmod	_	_
 49	möglich	möglich	ADJ	ADJD	_	52	advcl	_	_
 50	auch	auch	ADV	ADV	_	52	advmod	_	_
-51	solche	solcher	DET	PIAT	_	52	det	_	_
+51	solche	solcher	DET	PIAT	PronType=Dem	52	det	_	_
 52	Hüften	Hüften	NOUN	NN	_	44	conj	_	SpaceAfter=No
 53	.	.	PUNCT	$.	_	28	punct	_	_
 
@@ -45257,7 +45257,7 @@
 60	Leibniz	Leibniz	PROPN	NE	_	58	obl	_	_
 61	Aber	Aber	CCONJ	KON	_	74	cc	_	_
 62	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	64	det	_	_
-63	solche	solcher	DET	PIAT	_	64	det	_	_
+63	solche	solcher	DET	PIAT	PronType=Dem	64	det	_	_
 64	Philosophie	Philosophie	NOUN	NN	Case=Nom	74	nsubj	_	_
 65	wird	werden	AUX	VAFIN	_	74	aux	_	_
 66	doch	doch	ADV	ADV	_	74	advmod	_	_
@@ -46141,7 +46141,7 @@
 22	nur	nur	ADV	ADV	_	26	advmod	_	_
 23	darum	darum	ADV	PROAV	PronType=Dem	26	advmod	_	_
 24	als	als	CCONJ	KOKOM	_	26	case	_	_
-25	solche	solcher	DET	PIAT	Case=Acc	26	obj	_	_
+25	solche	solcher	DET	PIAT	Case=Acc|PronType=Dem	26	obj	_	_
 26	erscheint	erscheinen	VERB	VVFIN	_	17	acl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	32	punct	_	_
 28	weil	weil	SCONJ	KOUS	_	32	mark	_	_
@@ -48033,7 +48033,7 @@
 18	Prätensionen	Prätension	NOUN	NN	Case=Acc	13	obl	_	_
 19	auf	auf	ADP	APPR	_	20	case	_	_
 20	Ruchlosigkeit	Ruchlosigkeit	NOUN	NN	_	13	obl	_	_
-21	solcher	solcher	DET	PIAT	_	22	det	_	_
+21	solcher	solcher	DET	PIAT	PronType=Dem	22	det	_	_
 22	Karikaturen	Karikatur	NOUN	NN	_	20	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	32	punct	_	_
 24	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	32	nsubj	_	_
@@ -48248,7 +48248,7 @@
 5	sie	sie	PRON	PPER	Case=Acc|Person=3|PronType=Prs	10	obj	_	_
 6	nur	nur	ADV	ADV	_	10	advmod	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
-8	solcher	solcher	DET	PIAT	_	9	det	_	_
+8	solcher	solcher	DET	PIAT	PronType=Dem	9	det	_	_
 9	Entfernung	Entfernung	NOUN	NN	_	10	nmod	_	_
 10	ertragen	ertragen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	19	punct	_	_
@@ -48621,7 +48621,7 @@
 15	nur	nur	ADV	ADV	_	24	advmod	_	_
 16	durch	durch	ADP	APPR	_	21	case	_	_
 17	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	21	det	_	_
-18	solche	solcher	DET	PIAT	_	21	det	_	_
+18	solche	solcher	DET	PIAT	PronType=Dem	21	det	_	_
 19	einzig	einzig	ADV	ADV	_	20	advmod	_	_
 20	schöne	schön	ADJ	ADJA	_	21	amod	_	_
 21	Seltsamkeit	Seltsamkeit	NOUN	NN	Case=Acc	24	obl	_	_
@@ -50068,7 +50068,7 @@
 # sent_id = athenaeum-f400-s2
 # text = Ein solcher müßte mit der Behauptung und Foderung unendlich vieler Widersprüche anfangen und endigen.
 1	Ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	2	det	_	_
-2	solcher	solcher	PRON	PDS	Case=Nom	12	nsubj	_	_
+2	solcher	solcher	DET	PDS	Case=Nom|PronType=Dem	12	nsubj	_	_
 3	müßte	müssen	AUX	VMFIN	_	12	aux	_	_
 4	mit	mit	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -52338,7 +52338,7 @@
 47	schon	schon	ADV	ADV	_	76	advmod	_	_
 48	um	um	ADP	APPR	_	52	case	_	_
 49	eines	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	52	det	_	_
-50	solchen	solcher	DET	PIAT	_	52	det	_	_
+50	solchen	solcher	DET	PIAT	PronType=Dem	52	det	_	_
 51	humoristischen	humoristisch	ADJ	ADJA	_	52	amod	_	_
 52	Dithyrambus	Dithyrambus	NOUN	NN	Case=Gen	76	obl	_	_
 53	willen	willen	ADP	APZR	_	52	case	_	SpaceAfter=No
