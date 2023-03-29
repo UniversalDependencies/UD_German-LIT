@@ -39106,15 +39106,15 @@
 # sent_id = athenaeum-f310-s3
 # text = Bei Gelegenheit werden Lessing und Winckelmann zurechtgewiesen: nicht Schönheit, wie jener behauptet, (eigentlich beide und mit ihnen Mengs) noch stille Größe und edle Einfalt, wie dieser, sei das Grundgesetz der griechischen Kunst gewesen, sondern Wahrheit der Charakteristik.
 1	Bei	bei	ADP	APPR	_	2	case	_	_
-2	Gelegenheit	Gelegenheit	NOUN	NN	Case=Dat	7	obl	_	_
+2	Gelegenheit	Gelegenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
 3	werden	werden	AUX	VAFIN	_	7	aux:pass	_	_
-4	Lessing	Lessing	PROPN	NE	Case=Nom	7	nsubj:pass	_	_
+4	Lessing	Lessing	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	obl:arg	_	_
 5	und	und	CCONJ	KON	_	6	cc	_	_
-6	Winckelmann	Winckelmann	NOUN	NN	_	4	conj	_	_
-7	zurechtgewiesen	zurechtweisen	VERB	VMFIN	_	0	root	_	SpaceAfter=No
-8	:	:	PUNCT	$.	_	34	punct	_	_
+6	Winckelmann	Winckelmann	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	_
+7	zurechtgewiesen	zurechtweisen	VERB	VMPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	10	punct	_	_
 9	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
-10	Schönheit	Schönheit	NOUN	NN	Case=Nom	34	nsubj	_	SpaceAfter=No
+10	Schönheit	Schönheit	NOUN	NN	Case=Nom	7	nsubj:pass	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12	wie	wie	SCONJ	KOUS	_	14	mark	_	_
 13	jener	jener	DET	PDS	Case=Nom|PronType=Dem	14	nsubj	_	_
@@ -39122,7 +39122,7 @@
 15	,	,	PUNCT	$,	_	18	punct	_	_
 16	(	(	PUNCT	$(	_	18	punct	_	SpaceAfter=No
 17	eigentlich	eigentlich	ADV	ADV	_	18	advmod	_	_
-18	beide	beide	DET	PIS	NumType=Card|PronType=Tot	14	parataxis	_	_
+18	beide	beide	DET	PIS	NumType=Card|PronType=Tot	13	parataxis	_	_
 19	und	und	CCONJ	KON	_	22	cc	_	_
 20	mit	mit	ADP	APPR	_	21	case	_	_
 21	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
@@ -39136,20 +39136,20 @@
 29	Einfalt	Einfalt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	32	punct	_	_
 31	wie	wie	CCONJ	KOKOM	_	32	case	_	_
-32	dieser	dieser	DET	PDS	PronType=Dem	36	parataxis	_	SpaceAfter=No
+32	dieser	dieser	DET	PDS	PronType=Dem	26	advcl	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	32	punct	_	_
-34	sei	sein	AUX	VAFIN	_	36	aux	_	_
-35	das	der	DET	ART	Definite=Def|PronType=Art	36	det	_	_
-36	Grundgesetz	Grundgesetz	NOUN	NN	Case=Nom	7	conj	_	_
-37	der	der	DET	ART	Definite=Def|PronType=Art	39	det	_	_
-38	griechischen	griechisch	ADJ	ADJA	_	39	amod	_	_
-39	Kunst	Kunst	NOUN	NN	_	36	nmod	_	_
-40	gewesen	sein	AUX	VAPP	_	36	cop	_	SpaceAfter=No
+34	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	36	nsubj	_	_
+36	Grundgesetz	Grundgesetz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	acl	_	_
+37	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	griechischen	griechisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	Kunst	Kunst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+40	gewesen	sein	AUX	VAPP	VerbForm=Part	36	cop	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	43	punct	_	_
 42	sondern	sondern	CCONJ	KON	_	43	cc	_	_
-43	Wahrheit	Wahrheit	NOUN	NN	_	36	conj	_	_
-44	der	der	DET	ART	Definite=Def|PronType=Art	45	det	_	_
-45	Charakteristik	Charakteristik	NOUN	NN	_	43	nmod	_	SpaceAfter=No
+43	Wahrheit	Wahrheit	NOUN	NN	_	10	conj	_	_
+44	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	Charakteristik	Charakteristik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	$.	_	7	punct	_	_
 
 # genre = fragments
