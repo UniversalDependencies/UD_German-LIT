@@ -61,7 +61,7 @@
     <feat name="NumType" value="Ord" upos="ADJ">37</feat><!-- erste, ersten, erstes, erster -->
     <feat name="Person" value="1" upos="AUX,DET,PRON">105</feat><!-- ich, mich, mir, unsere, unser, meine, unsers, mein, unsrer, meinem -->
     <feat name="Person" value="2" upos="DET,PRON,VERB">26</feat><!-- du, dich, dir, Ehre, deine, deiner -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1456</feat><!-- es, sich, er, ihre, seine, ihr, seiner, ihm, ihn, ihrer -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1775</feat><!-- es, sich, sie, er, ihre, seine, ihr, seiner, ihm, ihn -->
     <feat name="Poss" value="Yes" upos="DET">410</feat><!-- ihre, seine, ihr, seiner, ihrer, sein, ihren, seinem, seinen, seines -->
     <feat name="PronType" value="Art" upos="DET">4302</feat><!-- der, die, ein, das, den, eine, des, dem, einer, einen -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">438</feat><!-- diese, dieser, dies, dieses, daher, darin, diesem, darum, dadurch, jene -->
@@ -69,7 +69,7 @@
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">662</feat><!-- man, etwas, andre, viele, andern, genug, meisten, viel, manche, einige -->
     <feat name="PronType" value="Int,Rel" upos="DET">98</feat><!-- welche, welches, welcher, welchem, welchen -->
     <feat name="PronType" value="Neg" upos="DET,PRON">178</feat><!-- nichts, keine, kein, keinen, niemand, keiner, keins, niemanden, keinem, keines -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">1579</feat><!-- es, sich, er, ihre, seine, ihr, ich, seiner, ihm, ihn -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">1898</feat><!-- es, sich, sie, er, ihre, seine, ihr, ich, seiner, ihm -->
     <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- che -->
     <feat name="PronType" value="Tot" upos="DET,PRON">345</feat><!-- alles, alle, aller, jeder, allen, jedem, jedes, jede, beiden, beide -->
