@@ -38221,7 +38221,7 @@
 15	hat	haben	VERB	VVFIN	_	11	acl	_	_
 16	mit	mit	ADP	APPR	_	19	case	_	_
 17	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
-18	paar	paar	ADJ	ADJA	_	19	amod	_	_
+18	paar	paar	ADJ	ADJA	Degree=Pos	19	amod	_	_
 19	Federstrichen	Federstriche	NOUN	NN	Case=Dat	20	obl	_	_
 20	charakterisieren	charakterisieren	VERB	VVINF	_	8	advcl	_	_
 21	kann	können	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
