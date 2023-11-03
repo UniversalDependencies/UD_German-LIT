@@ -14323,7 +14323,7 @@
 34	Weise	Weise	NOUN	NN	Case=Dat	38	obl	_	_
 35	von	von	ADP	APPR	_	36	case	_	_
 36	Grund	Grund	NOUN	NN	Case=Dat	34	nmod	_	_
-37	aus	aus	ADP	APZR	_	34	fixed	_	_
+37	aus	aus	ADP	APZR	_	36	case	_	_
 38	umwandelte	umwandeln	ADJ	ADJA	_	27	acl	_	SpaceAfter=No
 39	,	,	PUNCT	$,	_	50	punct	_	_
 40	und	und	CCONJ	KON	_	50	cc	_	_
@@ -23683,7 +23683,7 @@
 3	um	um	ADP	APPR	_	5	case	_	_
 4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Philosophie	Philosophie	NOUN	NN	Case=Acc	7	obl	_	_
-6	willen	willen	ADP	APZR	_	3	fixed	_	_
+6	willen	willen	ADP	APZR	_	5	case	_	_
 7	philosophiert	philosophieren	VERB	VVPP	_	18	csubj	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	sondern	sondern	CCONJ	KON	_	14	cc	_	_
@@ -40079,7 +40079,7 @@
 # sent_id = athenaeum-f316-s1
 # text = Für Empiriker, die sich auch bis zum Streben nach Gründlichkeit und bis zum Glauben an einen großen Mann erheben können, wird die Fichtische Wissenschaftslehre doch nie mehr sein als das dritte Heft von dem »Philosophischen Journal«, die Konstitution.
 1	Für	für	ADP	APPR	_	2	case	_	_
-2	Empiriker	Empiriker	NOUN	NN	Case=Acc	34	obl	_	SpaceAfter=No
+2	Empiriker	Empiriker	NOUN	NN	Case=Acc	29	obl	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	20	punct	_	_
 4	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	20	nsubj	_	_
 5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
@@ -40097,21 +40097,21 @@
 17	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
 18	großen	groß	ADJ	ADJA	_	19	amod	_	_
 19	Mann	Mann	NOUN	NN	_	15	nmod	_	_
-20	erheben	erheben	VERB	VVINF	_	2	acl	_	_
+20	erheben	erheben	VERB	VVINF	_	2	acl:relcl	_	_
 21	können	können	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	20	punct	_	_
-23	wird	werden	AUX	VAFIN	_	34	aux	_	_
+23	wird	werden	AUX	VAFIN	_	29	aux	_	_
 24	die	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
 25	Fichtische	fichtisch	ADJ	ADJA	_	26	amod	_	_
-26	Wissenschaftslehre	Wissenschaftslehre	NOUN	NN	Case=Nom	34	nsubj	_	_
-27	doch	doch	ADV	ADV	_	34	advmod	_	_
-28	nie	nie	ADV	ADV	_	29	advmod	_	_
-29	mehr	mehr	ADV	ADV	_	34	advmod	_	_
-30	sein	sein	AUX	VAINF	_	34	cop	_	_
-31	als	als	CCONJ	KOKOM	_	29	fixed	_	_
+26	Wissenschaftslehre	Wissenschaftslehre	NOUN	NN	Case=Nom	29	nsubj	_	_
+27	doch	doch	ADV	ADV	_	29	advmod	_	_
+28	nie	nie	ADV	ADV	PronType=Neg	29	advmod	_	_
+29	mehr	mehr	ADV	ADV	_	0	root	_	_
+30	sein	sein	AUX	VAINF	_	29	cop	_	_
+31	als	als	CCONJ	KOKOM	_	34	case	_	_
 32	das	der	DET	ART	Definite=Def|PronType=Art	34	det	_	_
 33	dritte	dritter	ADJ	ADJA	_	34	amod	_	_
-34	Heft	Heft	NOUN	NN	Case=Nom	0	root	_	_
+34	Heft	Heft	NOUN	NN	Case=Nom	29	obl	_	_
 35	von	von	ADP	APPR	_	39	case	_	_
 36	dem	der	DET	ART	Definite=Def|PronType=Art	39	det	_	_
 37	»	»	PUNCT	punct	_	39	punct	_	SpaceAfter=No
@@ -40121,7 +40121,7 @@
 41	,	,	PUNCT	$,	_	43	punct	_	_
 42	die	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
 43	Konstitution	Konstitution	NOUN	NN	_	39	appos	_	SpaceAfter=No
-44	.	.	PUNCT	$.	_	34	punct	_	_
+44	.	.	PUNCT	$.	_	29	punct	_	_
 
 # newpar id = athenaeum-f317
 # genre = fragments
