@@ -86,7 +86,7 @@
     <dep name="acl">474</dep>
     <dep name="acl:relcl">18</dep>
     <dep name="advcl">509</dep>
-    <dep name="advmod">4170</dep>
+    <dep name="advmod">4103</dep>
     <dep name="amod">2282</dep>
     <dep name="appos">89</dep>
     <dep name="aux">987</dep>
@@ -100,7 +100,7 @@
     <dep name="cop">1057</dep>
     <dep name="csubj">127</dep>
     <dep name="dep">28</dep>
-    <dep name="det">4900</dep>
+    <dep name="det">4967</dep>
     <dep name="det:poss">391</dep>
     <dep name="dislocated">1</dep>
     <dep name="expl">163</dep>
