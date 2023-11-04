@@ -69,7 +69,7 @@
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">692</feat><!-- man, etwas, andre, viele, andern, genug, meisten, viel, manche, einige -->
     <feat name="PronType" value="Int" upos="ADV,DET">24</feat><!-- wodurch, worin, wozu, worauf, wobei, Wieviel, womit, wonach, woraus, wovon -->
     <feat name="PronType" value="Int,Rel" upos="DET,PRON">304</feat><!-- was, welche, wer, welches, welcher, welchem, wem, welchen -->
-    <feat name="PronType" value="Neg" upos="DET,PRON">178</feat><!-- nichts, keine, kein, keinen, niemand, keiner, keins, niemanden, keinem, keines -->
+    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">179</feat><!-- nichts, keine, kein, keinen, niemand, keiner, keins, niemanden, keinem, keines -->
     <feat name="PronType" value="Prs" upos="DET,PRON">2011</feat><!-- es, sich, sie, er, ihre, wir, seine, ihr, uns, ich -->
     <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- einander -->
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- che -->
@@ -83,15 +83,15 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="39">
-    <dep name="acl">474</dep>
-    <dep name="acl:relcl">18</dep>
+    <dep name="acl">473</dep>
+    <dep name="acl:relcl">19</dep>
     <dep name="advcl">509</dep>
-    <dep name="advmod">4103</dep>
+    <dep name="advmod">4102</dep>
     <dep name="amod">2282</dep>
     <dep name="appos">89</dep>
     <dep name="aux">987</dep>
     <dep name="aux:pass">166</dep>
-    <dep name="case">2756</dep>
+    <dep name="case">2759</dep>
     <dep name="cc">1735</dep>
     <dep name="ccomp">162</dep>
     <dep name="compound">4</dep>
@@ -104,7 +104,7 @@
     <dep name="det:poss">391</dep>
     <dep name="dislocated">1</dep>
     <dep name="expl">163</dep>
-    <dep name="fixed">44</dep>
+    <dep name="fixed">41</dep>
     <dep name="flat">56</dep>
     <dep name="mark">957</dep>
     <dep name="nmod">2028</dep>
@@ -114,7 +114,7 @@
     <dep name="nsubj:pass">119</dep>
     <dep name="nummod">22</dep>
     <dep name="obj">1628</dep>
-    <dep name="obl">1607</dep>
+    <dep name="obl">1608</dep>
     <dep name="obl:agent">2</dep>
     <dep name="obl:arg">202</dep>
     <dep name="orphan">65</dep>
