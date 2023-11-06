@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_German-LIT:
-commit c0e07fcbafaa194fb20d501b5b0187dd0b6f1509
-Merge: 48baa4e 6e8514d
+commit 17e56bd144e7d939383145915086d196e4df45c1
+Merge: 1642e48 708bfb1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 40450 of 40450 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.400133287009.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 13676 out of 40450 total words have one or more features.
+Features: 13677 out of 40450 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3238
-Udapi: found 3238 bugs.
+               TOTAL       3237
+Udapi: found 3237 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 40450 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-LIT/de_lit-ud-test.conllu
@@ -33,8 +33,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.53563950864943) = 0.137343463756264
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
-(weight=0.307692307692308) * (score{udapi}=0.199505562422744) = 0.0613863268993059
+(weight=0.307692307692308) * (score{udapi}=0.199752781211372) = 0.0614623942188837
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.397992764036191) * (availability=1) * (validity=1) = 0.397992764036191
+(TOTAL score=0.398068831355768) * (availability=1) * (validity=1) = 0.398068831355768
 STARS = 2
-UD_German-LIT	0.397992764036191	2
+UD_German-LIT	0.398068831355768	2
