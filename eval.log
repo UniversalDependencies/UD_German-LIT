@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_German-LIT:
-commit 17e56bd144e7d939383145915086d196e4df45c1
-Merge: 1642e48 708bfb1
+commit 165dd3138804fb3832d31a0eda4ef40363433d42
+Merge: db58262 4e7e046
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 40450 of 40450 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.400133287009.
