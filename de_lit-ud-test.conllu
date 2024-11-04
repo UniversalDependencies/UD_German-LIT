@@ -35012,8 +35012,8 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f252-s11
 # text = Die Philosophie über einen Gegenstand kann nur der brauchen, der den Gegenstand kennt, oder hat; nur der wird begreifen können, was sie will und meint.
-1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
-2	Philosophie	Philosophie	NOUN	NN	Case=Nom	9	nsubj	_	_
+1	Die	der	DET	ART	Case=Acc|Definite=Def|PronType=Art	2	det	_	_
+2	Philosophie	Philosophie	NOUN	NN	Case=Acc	9	obj	_	_
 3	über	über	ADP	APPR	_	5	case	_	_
 4	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
 5	Gegenstand	Gegenstand	NOUN	NN	_	2	nmod	_	_
