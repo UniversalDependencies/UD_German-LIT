@@ -10607,8 +10607,8 @@
 9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 10	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obj	_	_
 11	sogleich	sogleich	ADV	ADV	_	15	advmod	_	_
-12	unsrer	unsrer	ADJ	ADJD	_	14	advmod	_	_
-13	eignen	eignen	VERB	VVFIN	_	14	amod	_	_
+12	unsrer	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
+13	eignen	eigen	ADJ	ADJA	_	14	amod	_	_
 14	Geistigkeit	Geistigkeit	NOUN	NN	Case=Acc	15	obj	_	_
 15	bemächtigen	bemächtigen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 16	:	:	PUNCT	$.	_	15	punct	_	_
@@ -20915,7 +20915,7 @@
 # sent_id = athenaeum-f51-s4
 # text = Das schöne, poetische, idealische Naive muß zugleich Absicht, und Instinkt sein.
 1	Das	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
-2	schöne	schön	VERB	VVFIN	_	7	amod	_	SpaceAfter=No
+2	schöne	schön	ADJ	ADJA	_	7	amod	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	4	punct	_	_
 4	poetische	poetisch	ADJ	ADJA	_	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	6	punct	_	_
@@ -21300,8 +21300,8 @@
 13	wie	wie	CCONJ	KOKOM	_	18	case	_	_
 14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 15	Diese	dieser	DET	PDS	PronType=Dem	18	det	_	_
-16	und	und	CCONJ	KON	_	15	cc	_	_
-17	Jene	jener	DET	NE	PronType=Dem	15	nmod	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	Jene	jener	DET	NE	PronType=Dem	15	conj	_	_
 18	Welt	Welt	NOUN	NN	_	12	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	10	punct	_	_
 
@@ -32331,7 +32331,7 @@
 7	in	in	ADP	APPR	_	9	case	_	_
 8	diesem	dieser	DET	PDAT	PronType=Dem	9	det	_	_
 9	Sinne	Sinn	NOUN	NN	_	10	nmod	_	_
-10	witzigen	witzig	VERB	VVFIN	_	11	amod	_	_
+10	witzigen	witzig	ADJ	ADJA	_	11	amod	_	_
 11	Fragmenten	Fragment	NOUN	NN	Case=Dat	4	obl	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	Projekten	Projekt	NOUN	NN	_	11	conj	_	SpaceAfter=No
@@ -34460,9 +34460,9 @@
 14	Kreis	Kreis	NOUN	NN	_	5	conj	_	_
 15	unter	unter	ADP	APPR	_	20	case	_	_
 16	allen	alle	DET	PIS	PronType=Tot	14	nmod	_	_
-17	engern	engern	VERB	VVINF	_	20	amod	_	_
+17	engern	eng	ADJ	ADJA	_	20	amod	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
-19	weitern	weitern	VERB	VVINF	_	17	conj	_	_
+19	weitern	weit	ADJ	ADJA	_	17	conj	_	_
 20	Sphären	Sphäre	NOUN	NN	_	14	obl	_	_
 21	der	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
 22	kritischen	kritisch	ADJ	ADJA	_	23	amod	_	_
@@ -35012,20 +35012,20 @@
 # work = Athenäums Fragmente
 # sent_id = athenaeum-f252-s11
 # text = Die Philosophie über einen Gegenstand kann nur der brauchen, der den Gegenstand kennt, oder hat; nur der wird begreifen können, was sie will und meint.
-1	Die	der	DET	ART	Definite=Def|PronType=Art	2	det	_	_
-2	Philosophie	Philosophie	NOUN	NN	Case=Nom	9	nsubj	_	_
+1	Die	der	DET	ART	Case=Acc|Definite=Def|PronType=Art	2	det	_	_
+2	Philosophie	Philosophie	NOUN	NN	Case=Acc	9	obj	_	_
 3	über	über	ADP	APPR	_	5	case	_	_
 4	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
 5	Gegenstand	Gegenstand	NOUN	NN	_	2	nmod	_	_
 6	kann	können	AUX	VMFIN	_	9	aux	_	_
 7	nur	nur	ADV	ADV	_	9	advmod	_	_
-8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+8	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	9	nsubj	_	_
 9	brauchen	brauchen	VERB	VVINF	_	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	14	nsubj	_	_
 12	den	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Gegenstand	Gegenstand	NOUN	NN	Case=Acc	14	obj	_	_
-14	kennt	kennen	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+14	kennt	kennen	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	17	punct	_	_
 16	oder	oder	CCONJ	KON	_	17	cc	_	_
 17	hat	haben	AUX	VAFIN	_	14	conj	_	SpaceAfter=No
@@ -38970,7 +38970,7 @@
 13	Gebiet	Gebiet	NOUN	NN	_	22	obl	_	_
 14	der	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 15	eigentlich	eigentlich	ADV	ADV	_	16	advmod	_	_
-16	schönen	schön	VERB	VVFIN	_	21	amod	_	SpaceAfter=No
+16	schönen	schön	ADJ	ADJA	_	21	amod	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	18	punct	_	_
 18	freien	frei	ADJ	ADJA	_	16	conj	_	_
 19	und	und	CCONJ	KON	_	20	cc	_	_
@@ -42569,10 +42569,10 @@
 15	Mitteilung	Mitteilung	NOUN	NN	_	9	obl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	22	punct	_	_
 17	einer	ein	DET	PIS	Definite=Ind|NumType=Card|PronType=Art	22	det	_	_
-18	schamhaften	schamhaft	VERB	VVFIN	_	22	amod	_	SpaceAfter=No
-19	,	,	PUNCT	$,	_	20	punct	_	_
-20	schüchtern	schüchtern	VERB	VVINF	_	18	amod	_	_
-21	versuchenden	versuchend	ADJ	ADJA	_	22	amod	_	_
+18	schamhaften	schamhaft	ADJ	ADJA	_	22	amod	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	21	punct	_	_
+20	schüchtern	schüchtern	ADJ	ADJD	_	21	advmod	_	_
+21	versuchenden	versuchend	ADJ	ADJA	_	18	conj	_	_
 22	Offenheit	Offenheit	NOUN	NN	_	15	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	22	punct	_	_
 24	die	der	DET	ART	Definite=Def|PronType=Art	39	det	_	_
@@ -44466,7 +44466,7 @@
 2	braucht	brauchen	VERB	VVFIN	_	0	root	_	_
 3	beide	beide	DET	PIS	Case=Dat|NumType=Card|PronType=Tot	8	obl:arg	_	_
 4	keinen	kein	DET	PIS	PronType=Neg	6	det	_	_
-5	weitern	weitern	VERB	VVINF	_	6	amod	_	_
+5	weitern	weit	ADJ	ADJA	_	6	amod	_	_
 6	Beweis	Beweis	NOUN	NN	Case=Acc	8	obj	_	_
 7	zu	zu	PART	PTKZU	_	8	mark	_	_
 8	führen	führen	VERB	VVINF	_	2	xcomp	_	SpaceAfter=No
@@ -51438,7 +51438,7 @@
 3	wie	wie	CCONJ	KOKOM	_	10	case	_	_
 4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
-6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	nmod	_	_
+6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	9	nmod	_	_
 7	zu	zu	PART	PTKA	_	8	case	_	_
 8	wenig	wenig	DET	PIAT	Case=Dat|PronType=Ind	9	det	_	_
 9	unterschiedene	unterschieden	ADJ	ADJA	_	10	amod	_	_
