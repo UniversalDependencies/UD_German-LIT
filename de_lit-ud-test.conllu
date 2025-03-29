@@ -279,8 +279,8 @@
 26	wert	wert	ADJ	ADJD	_	19	orphan	_	_
 27	sei	sein	AUX	VAFIN	_	26	cop	_	SpaceAfter=No
 28	;	;	PUNCT	$.	_	34	punct	_	_
-29	als	als	CCONJ	KOKOM	_	34	mark	_	_
-30	ob	ob	SCONJ	KOUS	_	29	fixed	_	_
+29	als	als	SCONJ	KOKOM	_	34	mark	_	_
+30	ob	ob	SCONJ	KOUS	_	34	mark	_	_
 31	dies	dieser	DET	PDS	Case=Nom|PronType=Dem	34	nsubj	_	_
 32	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	34	det	_	_
 33	ausgemachte	ausgemacht	ADJ	ADJA	_	34	amod	_	_
@@ -1365,8 +1365,8 @@
 4	vom	von	ADP	APPRART	_	5	case	_	_
 5	Publikum	Publikum	NOUN	NN	_	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	10	punct	_	_
-7	als	als	CCONJ	KOKOM	_	10	case	_	_
-8	ob	ob	SCONJ	KOUS	_	7	fixed	_	_
+7	als	als	SCONJ	KOKOM	_	10	mark	_	_
+8	ob	ob	SCONJ	KOUS	_	10	mark	_	_
 9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	jemand	jemand	PRON	PIS	Number=Sing|PronType=Ind	5	acl	_	_
 11	wäre	sein	AUX	VAFIN	_	10	acl	_	SpaceAfter=No
@@ -5032,8 +5032,8 @@
 8	so	so	ADV	ADV	_	9	advmod	_	_
 9	ankündigen	ankündigen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
-11	als	als	CCONJ	KOKOM	_	19	mark	_	_
-12	ob	ob	SCONJ	KOUS	_	11	fixed	_	_
+11	als	als	SCONJ	KOKOM	_	19	mark	_	_
+12	ob	ob	SCONJ	KOUS	_	19	mark	_	_
 13	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	19	nsubj	_	_
 14	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	16	det	_	_
 15	großen	groß	ADJ	ADJA	_	16	amod	_	_
@@ -7955,8 +7955,8 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f127-s2
 # text = als ob es anders sein dürfte.
-1	als	als	CCONJ	KOKOM	_	4	case	_	_
-2	ob	ob	SCONJ	KOUS	_	1	fixed	_	_
+1	als	als	SCONJ	KOKOM	_	4	mark	_	_
+2	ob	ob	SCONJ	KOUS	_	4	mark	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	anders	anders	ADV	ADV	_	0	root	_	_
 5	sein	sein	AUX	VAINF	_	4	cop	_	_
@@ -41498,8 +41498,8 @@
 # sent_id = athenaeum-f329-s2
 # text = Tut als ob sie nicht da wären, und macht ihnen vor, was sie sehen lernen sollen.
 1	Tut	tut	VERB	VVFIN	_	0	root	_	_
-2	als	als	CCONJ	KOKOM	_	7	mark	_	_
-3	ob	ob	SCONJ	KOUS	_	2	fixed	_	_
+2	als	als	SCONJ	KOKOM	_	7	mark	_	_
+3	ob	ob	SCONJ	KOUS	_	7	mark	_	_
 4	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	7	nsubj	_	_
 5	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 6	da	da	ADV	ADV	_	7	advmod	_	_
@@ -47309,8 +47309,8 @@
 3	daraus	daraus	ADV	PROAV	PronType=Dem	2	advmod	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Ansicht	Ansicht	NOUN	NN	Case=Nom	2	nsubj	_	_
-6	als	als	CCONJ	KOKOM	_	16	mark	_	_
-7	ob	ob	SCONJ	KOUS	_	6	fixed	_	_
+6	als	als	SCONJ	KOKOM	_	16	mark	_	_
+7	ob	ob	SCONJ	KOUS	_	16	mark	_	_
 8	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	_
 9	zwei	zwei	NUM	CARD	_	15	nummod	_	_
 10	ganz	ganz	ADV	ADV	_	11	advmod	_	_
@@ -48968,8 +48968,8 @@
 5	Philosophie	Philosophie	NOUN	NN	Case=Acc	2	obj	_	_
 6	immer	immer	ADV	ADV	_	7	advmod	_	_
 7	so	so	ADV	ADV	_	2	advmod	_	_
-8	als	als	CCONJ	KOKOM	_	13	mark	_	_
-9	ob	ob	SCONJ	KOUS	_	8	fixed	_	_
+8	als	als	SCONJ	KOKOM	_	13	mark	_	_
+9	ob	ob	SCONJ	KOUS	_	13	mark	_	_
 10	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	13	nsubj:pass	_	_
 11	vom	von	ADP	APPRART	_	12	case	_	_
 12	Himmel	Himmel	NOUN	NN	_	13	obl	_	_
@@ -49339,8 +49339,8 @@
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	besprechen	besprechen	VERB	VVFIN	_	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	33	punct	_	_
-19	als	als	CCONJ	KOKOM	_	33	mark	_	_
-20	ob	ob	SCONJ	KOUS	_	19	fixed	_	_
+19	als	als	SCONJ	KOKOM	_	33	mark	_	_
+20	ob	ob	SCONJ	KOUS	_	33	mark	_	_
 21	von	von	ADP	APPR	_	24	case	_	_
 22	der	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
 23	besten	gut	ADJ	ADJA	_	24	amod	_	_
