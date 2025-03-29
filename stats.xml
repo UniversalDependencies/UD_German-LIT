@@ -32,7 +32,7 @@
     <tag name="X">57</tag><!-- –, usw, z.b., –, 3), d, d.h., «, 1), 10) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="47">
+  <feats unique="48">
     <feat name="Abbr" value="Yes" upos="ADV,CCONJ">3</feat><!-- s, u, w -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2044</feat><!-- sich, es, was, ihn, sie, die, nichts, Sinn, alles, mich -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">1286</feat><!-- dem, ihm, sich, ihnen, der, uns, denen, ihr, Sinn, mir -->
@@ -43,6 +43,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">27</feat><!-- mehr, mehre, Letztere, w -->
     <feat name="Degree" value="Pos" upos="ADJ">126</feat><!-- erste, ersten, eignen, einzige, einzelne, eigne, eigner, einzelnen, einzigen, eignes -->
     <feat name="Degree" value="Sup" upos="ADJ,DET">27</feat><!-- meisten, meiste, angemessenste, greatest, größten, merkwürdigste, mißlichsten -->
+    <feat name="ExtPos" value="ADV" upos="ADP">1</feat><!-- durch -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,PROPN,PUNCT,SCONJ,VERB">60</feat><!-- la, aller, cela, de, le, peut, the, à, ,, Essai -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON">93</feat><!-- die, der, la, eine, poesie, Größe, Kunst, ganze, römische, sie -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">344</feat><!-- er, ihm, ihn, der, des, Momente, le, Abgottes, Alten, Anfangsgründe -->
