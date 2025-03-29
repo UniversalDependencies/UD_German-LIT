@@ -26860,8 +26860,8 @@
 17	ertragen	ertragen	VERB	VVINF	_	5	acl	_	_
 18	sollte	sollen	AUX	VMFIN	_	17	aux	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	17	punct	_	_
-20	mehr	mehr	DET	PIS	Degree=Cmp|PronType=Ind	24	advmod	_	_
-21	als	als	CCONJ	KOKOM	_	20	fixed	_	_
+20	mehr	mehr	DET	PIS	Degree=Cmp|ExtPos=ADV|PronType=Ind	24	advmod	_	_
+21	als	als	SCONJ	KOKOM	_	20	fixed	_	_
 22	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	24	det	_	_
 23	republikanische	republikanisch	ADJ	ADJA	_	24	amod	_	_
 24	Verfassung	Verfassung	NOUN	NN	Case=Acc	3	obj	_	SpaceAfter=No
@@ -33112,8 +33112,8 @@
 17	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Herzen	Herzen	NOUN	NN	_	23	orphan	_	_
 19	der	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
-20	mehr	mehr	ADV	ADV	_	22	advmod	_	_
-21	als	als	CCONJ	KOKOM	_	20	fixed	_	_
+20	mehr	mehr	ADV	ADV	ExtPos=ADV	22	advmod	_	_
+21	als	als	SCONJ	KOKOM	_	20	fixed	_	_
 22	französische	französisch	ADJ	ADJA	_	23	amod	_	_
 23	Enthusiasmus	Enthusiasmus	NOUN	NN	_	7	conj	_	_
 24	für	für	ADP	APPR	_	29	case	_	_
