@@ -279,8 +279,8 @@
 26	wert	wert	ADJ	ADJD	_	19	orphan	_	_
 27	sei	sein	AUX	VAFIN	_	26	cop	_	SpaceAfter=No
 28	;	;	PUNCT	$.	_	34	punct	_	_
-29	als	als	CCONJ	KOKOM	_	34	mark	_	_
-30	ob	ob	SCONJ	KOUS	_	29	fixed	_	_
+29	als	als	SCONJ	KOKOM	_	34	mark	_	_
+30	ob	ob	SCONJ	KOUS	_	34	mark	_	_
 31	dies	dieser	DET	PDS	Case=Nom|PronType=Dem	34	nsubj	_	_
 32	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	34	det	_	_
 33	ausgemachte	ausgemacht	ADJ	ADJA	_	34	amod	_	_
@@ -1365,8 +1365,8 @@
 4	vom	von	ADP	APPRART	_	5	case	_	_
 5	Publikum	Publikum	NOUN	NN	_	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	10	punct	_	_
-7	als	als	CCONJ	KOKOM	_	10	case	_	_
-8	ob	ob	SCONJ	KOUS	_	7	fixed	_	_
+7	als	als	SCONJ	KOKOM	_	10	mark	_	_
+8	ob	ob	SCONJ	KOUS	_	10	mark	_	_
 9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	jemand	jemand	PRON	PIS	Number=Sing|PronType=Ind	5	acl	_	_
 11	wäre	sein	AUX	VAFIN	_	10	acl	_	SpaceAfter=No
@@ -4753,8 +4753,8 @@
 2	ist	sein	AUX	VAFIN	_	3	cop	_	_
 3	pikanter	pikant	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	3	punct	_	_
-5	als	als	CCONJ	KOKOM	_	11	mark	_	_
-6	wenn	wenn	SCONJ	KOUS	_	5	fixed	_	_
+5	als	als	SCONJ	KOKOM	_	11	mark	_	_
+6	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
 7	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
 8	genialischer	genialisch	ADJ	ADJA	_	9	amod	_	_
 9	Mann	Mann	NOUN	NN	Case=Nom	11	nsubj	_	_
@@ -5032,8 +5032,8 @@
 8	so	so	ADV	ADV	_	9	advmod	_	_
 9	ankündigen	ankündigen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
-11	als	als	CCONJ	KOKOM	_	19	mark	_	_
-12	ob	ob	SCONJ	KOUS	_	11	fixed	_	_
+11	als	als	SCONJ	KOKOM	_	19	mark	_	_
+12	ob	ob	SCONJ	KOUS	_	19	mark	_	_
 13	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	19	nsubj	_	_
 14	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	16	det	_	_
 15	großen	groß	ADJ	ADJA	_	16	amod	_	_
@@ -7753,9 +7753,9 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f125-s3
 # text = – Wie oft läßt sich nicht diese Frage auch für andre Dichter wiederholen?
-1	–	–	X	XY	_	4	dep	_	_
-2	Wie	wie	ADV	PWAV	_	4	advmod	_	_
-3	oft	oft	ADV	ADV	_	2	fixed	_	_
+1	–	–	PUNCT	XY	_	4	punct	_	_
+2	Wie	wie	ADV	PWAV	PronType=Int	3	advmod	_	_
+3	oft	oft	ADV	ADV	_	4	advmod	_	_
 4	läßt	lassen	VERB	VVFIN	_	0	root	_	_
 5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
 6	nicht	nicht	PART	PTKNEG	_	4	advmod	_	_
@@ -7955,8 +7955,8 @@
 # work = Lyceum Fragmente
 # sent_id = lyceum-f127-s2
 # text = als ob es anders sein dürfte.
-1	als	als	CCONJ	KOKOM	_	4	case	_	_
-2	ob	ob	SCONJ	KOUS	_	1	fixed	_	_
+1	als	als	SCONJ	KOKOM	_	4	mark	_	_
+2	ob	ob	SCONJ	KOUS	_	4	mark	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	anders	anders	ADV	ADV	_	0	root	_	_
 5	sein	sein	AUX	VAINF	_	4	cop	_	_
@@ -13658,8 +13658,8 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f70-s3
 # text = Wie oft fühlt man die Armuth an Worten, um mehre Ideen mit Einem Schlage zu treffen.
-1	Wie	wie	ADV	PWAV	_	3	advmod	_	_
-2	oft	oft	ADV	ADV	_	1	fixed	_	_
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	_
+2	oft	oft	ADV	ADV	_	3	advmod	_	_
 3	fühlt	fühlen	VERB	VVFIN	_	0	root	_	_
 4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
@@ -15654,13 +15654,13 @@
 # work = Blüthenstaub
 # sent_id = bluethenstaub-f79-s5
 # text = In so fern man an ein Gesetz denkt, ist es nur ein Satz, d.h. ein Gedanke mit einem Vermögen verbunden.
-1	In	in	ADP	APPR	_	8	advmod	_	_
+1	In	in	ADP	APPR	ExtPos=ADV	8	advmod	_	_
 2	so	so	ADV	ADV	_	1	fixed	_	_
-3	fern	fern	VERB	VVFIN	_	1	fixed	_	_
+3	fern	fern	ADJ	ADJD	_	1	fixed	_	_
 4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	_
 5	an	an	ADP	APPR	_	7	case	_	_
-6	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	7	det	_	_
-7	Gesetz	Gesetz	NOUN	NN	_	8	obl	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	_
+7	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
 8	denkt	denken	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	14	punct	_	_
 10	ist	sein	AUX	VAFIN	_	14	cop	_	_
@@ -17372,7 +17372,7 @@
 7	um	um	ADP	APPR	_	9	case	_	_
 8	des	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Buchs	Buch	NOUN	NN	Case=Gen	11	obl	_	_
-10	willen	willen	ADP	APPO	_	9	fixed	_	_
+10	willen	willen	ADP	APPO	_	9	case	_	_
 11	geschrieben	schreiben	VERB	VVPP	_	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	18	punct	_	_
 13	und	und	CCONJ	KON	_	18	cc	_	_
@@ -19408,7 +19408,7 @@
 2	die	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
 3	Gedanken	Gedanke	NOUN	NN	Case=Nom	5	nsubj	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
-5	besten	gut	ADJ	ADJD	_	20	advcl	_	_
+5	besten	gut	ADJ	ADJD	_	21	advcl	_	_
 6	sind	sein	AUX	VAFIN	_	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	14	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	14	nsubj	_	_
@@ -19419,15 +19419,15 @@
 13	schreiben	schreiben	VERB	VVINF	_	11	conj	_	_
 14	lassen	lassen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	14	punct	_	_
-16	so	so	ADV	ADV	_	20	advmod	_	_
-17	ists	sein	AUX	VAFIN	_	20	cop	_	_
-18	wohl	wohl	ADV	ADV	_	20	advmod	_	_
-19	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
-20	Mühe	Mühe	NOUN	NN	Case=Nom	0	root	_	_
-21	wert	wert	ADJ	ADJA	_	20	fixed	_	SpaceAfter=No
+16	so	so	ADV	ADV	_	21	advmod	_	_
+17	ists	sein	AUX	VAFIN	_	21	cop	_	_
+18	wohl	wohl	ADV	ADV	_	21	advmod	_	_
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Mühe	Mühe	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+21	wert	wert	ADJ	ADJA	_	0	root	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	24	punct	_	_
 23	zuweilen	zuweilen	ADV	ADV	_	24	advmod	_	_
-24	nachzusehen	nachsehen	VERB	VVIZU	_	20	csubj	_	SpaceAfter=No
+24	nachzusehen	nachsehen	VERB	VVIZU	_	21	csubj	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	26	punct	_	_
 26	was	was	PRON	PWS	Gender=Neut|Number=Sing|PronType=Int,Rel	24	ccomp	_	_
 27	sich	sich	PRON	PRF	Person=3|PronType=Prs|Reflex=Yes	26	orphan	_	_
@@ -19444,7 +19444,7 @@
 38	Geschriebnen	schreiben	NOUN	NN	Case=Dat	39	obl	_	_
 39	drucken	drucken	VERB	VVINF	_	40	xcomp	_	_
 40	läßt	lassen	VERB	VVFIN	_	26	conj	_	SpaceAfter=No
-41	.	.	PUNCT	$.	_	20	punct	_	_
+41	.	.	PUNCT	$.	_	21	punct	_	_
 
 # genre = fragments
 # author = Friedrich Schlegel
@@ -21906,8 +21906,8 @@
 2	ist	sein	AUX	VAFIN	_	0	root	_	_
 3	eben	eben	ADV	ADV	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	2	punct	_	_
-5	als	als	CCONJ	KOKOM	_	12	mark	_	_
-6	wenn	wenn	SCONJ	KOUS	_	5	fixed	_	_
+5	als	als	SCONJ	KOKOM	_	12	mark	_	_
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
 7	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
 8	dogmatischer	dogmatisch	ADJ	ADJA	_	9	amod	_	_
 9	Philosoph	Philosoph	NOUN	NN	Case=Nom	12	nsubj	_	_
@@ -21992,9 +21992,9 @@
 2	müßte	müssen	AUX	VMFIN	_	8	aux	_	_
 3	denn	denn	ADV	ADV	_	8	advmod	_	_
 4	einer	ein	DET	PIS	Case=Nom|Definite=Ind|NumType=Card|PronType=Art	8	nsubj	_	_
-5	durch	durch	ADP	APPR	_	8	advmod	_	_
+5	durch	durch	ADP	ADV	ExtPos=ADV	8	advmod	_	_
 6	und	und	CCONJ	KON	_	5	fixed	_	_
-7	durch	durch	ADP	APPR	_	5	fixed	_	_
+7	durch	durch	ADP	ADV	_	5	fixed	_	_
 8	Poesie	Poesie	NOUN	NN	Case=Acc	0	root	_	_
 9	und	und	CCONJ	KON	_	15	cc	_	_
 10	gleichsam	gleichsam	ADJ	ADJD	_	15	advmod	_	_
@@ -25068,7 +25068,7 @@
 15	heraus	heraus	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	21	punct	_	_
 17	sondern	sondern	CCONJ	KON	_	21	cc	_	_
-18	auch	auch	ADV	ADV	_	17	fixed	_	_
+18	auch	auch	ADV	ADV	_	21	advmod	_	_
 19	von	von	ADP	APPR	_	21	case	_	_
 20	außen	außen	ADV	ADV	_	21	advmod	_	_
 21	hinein	hinein	ADV	ADV	_	14	advmod	_	SpaceAfter=No
@@ -26489,8 +26489,8 @@
 # text = Es ist als wenn die Weiber alles mit eignen Händen machten, und die Männer mit dem Handwerksgerät.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ist	sein	VERB	VVFIN	_	0	root	_	_
-3	als	als	SCONJ	KOUS	_	11	case	_	_
-4	wenn	wenn	SCONJ	KOUS	_	3	fixed	_	_
+3	als	als	SCONJ	KOKOM	_	11	mark	_	_
+4	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Weiber	Weiber	NOUN	NN	Case=Nom	11	nsubj	_	_
 7	alles	alle	DET	PIS	Case=Acc|PronType=Tot	11	obj	_	_
@@ -26526,7 +26526,7 @@
 11	werden	werden	AUX	VAINF	_	10	aux:pass	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	22	punct	_	_
 13	als	als	SCONJ	KOUS	_	22	mark	_	_
-14	bis	bis	SCONJ	KOUS	_	13	fixed	_	_
+14	bis	bis	SCONJ	KOUS	_	22	mark	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 16	Geschlechtsfolge	Geschlechtsfolge	NOUN	NN	Case=Nom	22	nsubj:pass	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
@@ -26860,8 +26860,8 @@
 17	ertragen	ertragen	VERB	VVINF	_	5	acl	_	_
 18	sollte	sollen	AUX	VMFIN	_	17	aux	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	17	punct	_	_
-20	mehr	mehr	DET	PIS	Degree=Cmp|PronType=Ind	24	advmod	_	_
-21	als	als	CCONJ	KOKOM	_	20	fixed	_	_
+20	mehr	mehr	DET	PIS	Degree=Cmp|ExtPos=ADV|PronType=Ind	24	advmod	_	_
+21	als	als	SCONJ	KOKOM	_	20	fixed	_	_
 22	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	24	det	_	_
 23	republikanische	republikanisch	ADJ	ADJA	_	24	amod	_	_
 24	Verfassung	Verfassung	NOUN	NN	Case=Acc	3	obj	_	SpaceAfter=No
@@ -28888,8 +28888,8 @@
 21	zu	zu	PART	PTKZU	_	22	mark	_	_
 22	schreiben	schreiben	VERB	VVINF	_	18	xcomp	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	30	punct	_	_
-24	als	als	SCONJ	KOUS	_	30	mark	_	_
-25	wenn	wenn	SCONJ	KOUS	_	24	fixed	_	_
+24	als	als	SCONJ	KOKOM	_	30	mark	_	_
+25	wenn	wenn	SCONJ	KOUS	_	30	mark	_	_
 26	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	30	nsubj:pass	_	_
 27	etwa	etwa	ADV	ADV	_	30	advmod	_	_
 28	des	der	DET	ART	Definite=Def|PronType=Art	29	det	_	_
@@ -33112,8 +33112,8 @@
 17	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Herzen	Herzen	NOUN	NN	_	23	orphan	_	_
 19	der	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
-20	mehr	mehr	ADV	ADV	_	22	advmod	_	_
-21	als	als	CCONJ	KOKOM	_	20	fixed	_	_
+20	mehr	mehr	ADV	ADV	ExtPos=ADV	22	advmod	_	_
+21	als	als	SCONJ	KOKOM	_	20	fixed	_	_
 22	französische	französisch	ADJ	ADJA	_	23	amod	_	_
 23	Enthusiasmus	Enthusiasmus	NOUN	NN	_	7	conj	_	_
 24	für	für	ADP	APPR	_	29	case	_	_
@@ -41498,8 +41498,8 @@
 # sent_id = athenaeum-f329-s2
 # text = Tut als ob sie nicht da wären, und macht ihnen vor, was sie sehen lernen sollen.
 1	Tut	tut	VERB	VVFIN	_	0	root	_	_
-2	als	als	CCONJ	KOKOM	_	7	mark	_	_
-3	ob	ob	SCONJ	KOUS	_	2	fixed	_	_
+2	als	als	SCONJ	KOKOM	_	7	mark	_	_
+3	ob	ob	SCONJ	KOUS	_	7	mark	_	_
 4	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	7	nsubj	_	_
 5	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 6	da	da	ADV	ADV	_	7	advmod	_	_
@@ -47309,8 +47309,8 @@
 3	daraus	daraus	ADV	PROAV	PronType=Dem	2	advmod	_	_
 4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
 5	Ansicht	Ansicht	NOUN	NN	Case=Nom	2	nsubj	_	_
-6	als	als	CCONJ	KOKOM	_	16	mark	_	_
-7	ob	ob	SCONJ	KOUS	_	6	fixed	_	_
+6	als	als	SCONJ	KOKOM	_	16	mark	_	_
+7	ob	ob	SCONJ	KOUS	_	16	mark	_	_
 8	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	_
 9	zwei	zwei	NUM	CARD	_	15	nummod	_	_
 10	ganz	ganz	ADV	ADV	_	11	advmod	_	_
@@ -48968,8 +48968,8 @@
 5	Philosophie	Philosophie	NOUN	NN	Case=Acc	2	obj	_	_
 6	immer	immer	ADV	ADV	_	7	advmod	_	_
 7	so	so	ADV	ADV	_	2	advmod	_	_
-8	als	als	CCONJ	KOKOM	_	13	mark	_	_
-9	ob	ob	SCONJ	KOUS	_	8	fixed	_	_
+8	als	als	SCONJ	KOKOM	_	13	mark	_	_
+9	ob	ob	SCONJ	KOUS	_	13	mark	_	_
 10	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	13	nsubj:pass	_	_
 11	vom	von	ADP	APPRART	_	12	case	_	_
 12	Himmel	Himmel	NOUN	NN	_	13	obl	_	_
@@ -49339,8 +49339,8 @@
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	besprechen	besprechen	VERB	VVFIN	_	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	33	punct	_	_
-19	als	als	CCONJ	KOKOM	_	33	mark	_	_
-20	ob	ob	SCONJ	KOUS	_	19	fixed	_	_
+19	als	als	SCONJ	KOKOM	_	33	mark	_	_
+20	ob	ob	SCONJ	KOUS	_	33	mark	_	_
 21	von	von	ADP	APPR	_	24	case	_	_
 22	der	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
 23	besten	gut	ADJ	ADJA	_	24	amod	_	_
@@ -49477,9 +49477,9 @@
 10	werden	werden	AUX	VAINF	_	9	aux:pass	_	_
 11	muß	müssen	AUX	VMFIN	_	9	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	25	punct	_	_
-13	so	so	ADV	ADV	_	25	cc	_	_
-14	gut	gut	ADV	ADV	_	13	fixed	_	_
-15	wie	wie	CCONJ	KOKOM	_	13	fixed	_	_
+13	so	so	ADV	ADV	ExtPos=ADV	25	cc	_	_
+14	gut	gut	ADJ	ADJD	_	13	fixed	_	_
+15	wie	wie	SCONJ	KOKOM	_	13	fixed	_	_
 16	auch	auch	ADV	ADV	_	25	advmod	_	_
 17	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Orthographie	Orthographie	NOUN	NN	Case=Nom	25	nsubj	_	_
@@ -50871,7 +50871,7 @@
 10	schön	schön	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12	sondern	sondern	CCONJ	KON	_	14	cc	_	_
-13	auch	auch	ADV	ADV	_	12	fixed	_	_
+13	auch	auch	ADV	ADV	_	14	advmod	_	_
 14	weise	weise	ADJ	ADJD	_	10	conj	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	20	punct	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
@@ -51297,11 +51297,11 @@
 2	Philosophie	Philosophie	NOUN	NN	_	3	obl	_	_
 3	gehören	gehören	VERB	VVFIN	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	10	punct	_	_
-5	je	je	ADV	ADV	_	8	case	_	_
-6	nach	nach	ADP	APPR	_	5	fixed	_	_
-7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
-8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	obl	_	_
-9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+5	je	je	ADV	ADV	_	7	advmod	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	obl	_	_
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 10	nimmt	nehmen	VERB	VVFIN	_	3	parataxis	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	entweder	entweder	CCONJ	KON	_	14	cc	_	_
@@ -51673,9 +51673,9 @@
 36	Märchen	Märchen	NOUN	NN	Case=Dat	37	obl	_	_
 37	gebildet	bilden	VERB	VVPP	_	30	acl	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	37	punct	_	_
-39	im	in	ADP	APPRART	_	43	nmod	_	_
-40	ganzen	ganz	ADJ	ADJA	_	39	fixed	_	_
-41	genommen	nehmen	VERB	VVPP	_	39	fixed	_	_
+39	im	in	ADP	APPRART	_	40	case	_	_
+40	ganzen	ganz	ADJ	ADJA	_	41	obl	_	_
+41	genommen	nehmen	VERB	VVPP	_	43	parataxis	_	_
 42	das	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
 43	Schönste	schöne	NOUN	NN	Case=Nom	25	acl	_	_
 44	ist	sein	AUX	VAFIN	_	43	cop	_	SpaceAfter=No
