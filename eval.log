@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_German-LIT:
-commit 7ad73fb998b18f2bf5266a0a4e03c6dff9922482
-Merge: 9618481 a4be400
+commit 4457104b5497f1a69812b340394b213e3410c525
+Merge: ef1d5e7 ecd5774
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 40450 of 40450 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.400133287009.
@@ -15,26 +15,38 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 13678 out of 40450 total words have one or more features.
+Features: 13685 out of 40450 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3228
-Udapi: found 3228 bugs.
+               TOTAL       3157
+Udapi: found 3157 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 40450 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-LIT/de_lit-ud-test.conllu
+[Line 4437 Sent lyceum-f81-s1 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'en detail' does not have the 'ExtPos' feature
+[Line 4451 Sent lyceum-f81-s2 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'en gros' does not have the 'ExtPos' feature
+[Line 19928 Sent athenaeum-f31-s2 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'so lange' does not have the 'ExtPos' feature
+[Line 20167 Sent athenaeum-f34-s3 Node 57]: [L3 Warning fixed-without-extpos] Fixed expression 'à quatre' does not have the 'ExtPos' feature
+[Line 25890 Sent athenaeum-f121-s6 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'en detail' does not have the 'ExtPos' feature
+[Line 25897 Sent athenaeum-f121-s6 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'en gros' does not have the 'ExtPos' feature
+[Line 28659 Sent athenaeum-f169-s1 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'a priori' does not have the 'ExtPos' feature
+[Line 32999 Sent athenaeum-f226-s5 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'a posteriori' does not have the 'ExtPos' feature
+[Line 33015 Sent athenaeum-f226-s5 Node 45]: [L3 Warning fixed-without-extpos] Fixed expression 'a priori' does not have the 'ExtPos' feature
+[Line 35598 Sent athenaeum-f259-s4 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'lanx satura' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.2) = 0.0153846153846154
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
 (weight=0.256410256410256) * (score{size}=0.53563950864943) = 0.137343463756264
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
-(weight=0.307692307692308) * (score{udapi}=0.201977750309024) = 0.0621470000950842
+(weight=0.307692307692308) * (score{udapi}=0.219530284301607) = 0.0675477797851098
 (weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.398753437231969) * (availability=1) * (validity=1) = 0.398753437231969
+(TOTAL score=0.403902834317671) * (availability=1) * (validity=1) = 0.403902834317671
 STARS = 2
-UD_German-LIT	0.398753437231969	2
+UD_German-LIT	0.403902834317671	2
