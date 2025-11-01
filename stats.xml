@@ -16,14 +16,14 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
     <tag name="ADJ">3477</tag><!-- groß, gut, hoch, erst, alt, schön, neu, rein, poetisch, ganz -->
-    <tag name="ADP">2642</tag><!-- in, von, mit, zu, für, an, auf, durch, aus, nach -->
+    <tag name="ADP">2644</tag><!-- in, von, mit, zu, für, an, auf, durch, aus, nach -->
     <tag name="ADV">3587</tag><!-- so, nur, auch, selbst, wie, noch, doch, aber, immer, wohl -->
     <tag name="AUX">2492</tag><!-- sein, haben, können, werden, müssen, sollen, wollen, dürfen, mögen, be -->
     <tag name="CCONJ">1928</tag><!-- und, oder, als, wie, aber, sondern, denn, noch, entweder, desto -->
     <tag name="DET">5881</tag><!-- der, ein, alle, dieser, ihr, sein, welcher, kein, jeder, anderer -->
     <tag name="NOUN">7375</tag><!-- philosophie, Geist, Mensch, poesie, Sinn, Kunst, Natur, Art, Witz, welt -->
     <tag name="NUM">41</tag><!-- eins, zwei, drei, vier, «, 1, 2, 3, acht, achtzehn -->
-    <tag name="PART">856</tag><!-- nicht, zu, an, 's -->
+    <tag name="PART">854</tag><!-- nicht, zu, an, 's -->
     <tag name="PRON">2735</tag><!-- der, es, sie, sich, er, man, was, wir, ich, nichts -->
     <tag name="PROPN">335</tag><!-- Kant, Leibniz, shakespeare, Deutschland, Diderot, Plato, Spinosa, Caesar, Christus, England -->
     <tag name="PUNCT">5411</tag><!-- ,, ., ;, :, ?, «, », !, –, ) -->

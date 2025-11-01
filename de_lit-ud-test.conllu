@@ -44073,7 +44073,7 @@
 20	nur	nur	ADV	ADV	_	17	advmod	_	_
 21	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	17	obj	_	_
 22	genau	genau	ADV	ADV	_	17	advmod	_	_
-23	zu	zu	PART	PTKZU	_	17	compound:prt	_	SpaceAfter=No
+23	zu	zu	ADP	PTKVZ	_	17	compound:prt	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	26	punct	_	_
 25	so	so	ADV	ADV	_	26	advmod	_	_
 26	sitzen	sitzen	VERB	VVFIN	_	17	parataxis	_	_
@@ -45800,7 +45800,7 @@
 8	Wesen	Wesen	NOUN	NN	Case=Dat	4	conj	_	_
 9	nie	nie	ADV	ADV	_	2	advmod	_	_
 10	Klugheit	Klugheit	NOUN	NN	Case=Acc	2	obj	_	_
-11	zu	zu	PART	PTKZU	_	2	compound:prt	_	SpaceAfter=No
+11	zu	zu	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	13	punct	_	_
 13	ungeachtet	ungeachtet	VERB	VVFIN	_	2	parataxis	_	_
 14	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	_
