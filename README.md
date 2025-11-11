@@ -64,6 +64,7 @@ Many thanks to Daniel Zeman, who has promptly solved some fundamental problems c
 Data available since: UD v2.4
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction
 Lemmas: automatic with corrections
 UPOS: converted with corrections
