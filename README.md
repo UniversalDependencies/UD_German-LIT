@@ -46,6 +46,8 @@ Many thanks to Daniel Zeman, who has promptly solved some fundamental problems c
 
 # Changelog
 
+* 2026-05-15 v2.18
+  * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
 * 2023-11-15 v2.13
   * Fixed: negative determiner "kein" should be det, not advmod.
 * 2023-05-15 v2.12
