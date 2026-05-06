@@ -12,7 +12,7 @@
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
 7	eigentlich	eigentlich	ADV	ADV	_	8	advmod	_	_
-8	Kunstwerke	Kunstwerk	NOUN	NN	Case=Nom	3	acl	_	_
+8	Kunstwerke	Kunstwerk	NOUN	NN	Case=Nom	3	acl:relcl	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Natur	Natur	NOUN	NN	_	8	nmod	_	_
 11	sind	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
@@ -164,7 +164,7 @@
 10	Musik	Musik	NOUN	NN	Case=Dat	13	obl:arg	_	_
 11	so	so	ADV	ADV	_	12	advmod	_	_
 12	häufig	häufig	ADV	ADV	_	13	advmod	_	_
-13	vorgeworfen	vorwerfen	VERB	VVPP	_	6	acl	_	_
+13	vorgeworfen	vorwerfen	VERB	VVPP	_	6	acl:relcl	_	_
 14	wird	werden	AUX	VAFIN	_	13	aux:pass	_	SpaceAfter=No
 15	:	:	PUNCT	$.	_	4	punct	_	_
 16	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
@@ -365,7 +365,7 @@
 12	Kraft	Kraft	NOUN	NN	_	10	conj	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
 14	Geschick	Geschick	NOUN	NN	_	10	conj	_	_
-15	hätte	haben	AUX	VAFIN	_	5	acl	_	SpaceAfter=No
+15	hätte	haben	AUX	VAFIN	_	5	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	wider	wider	ADV	PWAV	_	19	advmod	_	_
 18	die	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
@@ -399,7 +399,7 @@
 6	Philosophie	Philosophie	NOUN	NN	_	9	xcomp	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Kunst	Kunst	NOUN	NN	_	6	nmod	_	_
-9	nennt	nennen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+9	nennt	nennen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	fehlt	fehlen	VERB	VVFIN	_	0	root	_	_
 12	gewöhnlich	gewöhnlich	ADJ	ADJD	_	11	advmod	_	_
@@ -432,7 +432,7 @@
 3	,	,	PUNCT	$,	_	6	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
-6	lang	lang	ADJ	ADJD	_	2	acl	_	_
+6	lang	lang	ADJ	ADJD	_	2	acl:relcl	_	_
 7	ist	sein	AUX	VAFIN	_	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	nennt	nennen	VERB	VVFIN	_	0	root	_	_
@@ -458,7 +458,7 @@
 10	an	an	ADP	APPR	_	11	case	_	_
 11	dem	der	PRON	PRELS	PronType=Dem,Rel	13	nmod	_	_
 12	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	13	nsubj	_	_
-13	klassisch	klassisch	ADJ	ADJD	_	6	acl	_	_
+13	klassisch	klassisch	ADJ	ADJD	_	6	acl:relcl	_	_
 14	ist	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	13	punct	_	_
 16	als	als	CCONJ	KOKOM	_	18	case	_	_
@@ -586,7 +586,7 @@
 22	Künste	Kunst	NOUN	NN	_	25	xcomp	_	_
 23	und	und	CCONJ	KON	_	24	cc	_	_
 24	Wissenschaften	Wissenschaft	NOUN	NN	_	22	conj	_	_
-25	werden	werden	VERB	VVINF	_	14	acl	_	_
+25	werden	werden	VERB	VVINF	_	14	acl:relcl	_	_
 26	müssen	müssen	AUX	VMFIN	_	25	aux	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -710,7 +710,7 @@
 2	die	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
 4	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	5	nsubj:pass	_	_
-5	gebildet	bilden	VERB	VVPP	_	2	acl	_	_
+5	gebildet	bilden	VERB	VVPP	_	2	acl:relcl	_	_
 6	sind	sein	AUX	VAFIN	_	5	aux:pass	_	_
 7	und	und	CCONJ	KON	_	6	conj	_	_
 8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
@@ -741,7 +741,7 @@
 9	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	12	nsubj	_	_
 10	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
 11	Mensch	Mensch	NOUN	NN	_	12	xcomp	_	_
-12	werden	werden	VERB	VVINF	_	6	acl	_	_
+12	werden	werden	VERB	VVINF	_	6	acl:relcl	_	_
 13	will	wollen	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 14	:	:	PUNCT	$.	_	22	punct	_	_
 15	so	so	ADV	ADV	_	22	advmod	_	_
@@ -756,7 +756,7 @@
 24	welches	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	27	nsubj	_	_
 25	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	26	det	_	_
 26	Kunstwerk	Kunstwerk	NOUN	NN	_	27	xcomp	_	_
-27	werden	werden	VERB	VVINF	_	22	acl	_	_
+27	werden	werden	VERB	VVINF	_	22	acl:relcl	_	_
 28	will	wollen	AUX	VMFIN	_	27	aux	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	22	punct	_	_
 
@@ -785,7 +785,7 @@
 17	Flamme	Flamme	NOUN	NN	Case=Nom	20	nsubj	_	_
 18	nun	nun	ADV	ADV	_	20	advmod	_	_
 19	erst	erst	ADV	ADV	_	20	advmod	_	_
-20	wärmen	wärmen	VERB	VVINF	_	14	acl	_	_
+20	wärmen	wärmen	VERB	VVINF	_	14	acl:relcl	_	_
 21	sollte	sollen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	20	punct	_	_
 23	nachdem	nachdem	SCONJ	KOUS	_	25	mark	_	_
@@ -1015,7 +1015,7 @@
 5	Leser	Leser	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	der	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
-8	wiederkäut	wiederkäut	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+8	wiederkäut	wiederkäut	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -1153,7 +1153,7 @@
 5	,	,	PUNCT	$,	_	8	punct	_	_
 6	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	8	obl:arg	_	_
 7	nichts	nichts	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	8	nsubj	_	_
-8	fehlt	fehlen	VERB	VVFIN	_	4	acl	_	_
+8	fehlt	fehlen	VERB	VVFIN	_	4	acl:relcl	_	_
 9	als	als	CCONJ	KOKOM	_	11	case	_	_
 10	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
 11	Vignette	Vignette	NOUN	NN	_	7	nmod	_	_
@@ -1250,7 +1250,7 @@
 17	,	,	PUNCT	$,	_	20	punct	_	_
 18	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	20	nsubj:pass	_	_
 19	durchaus	durchaus	ADV	ADV	_	20	advmod	_	_
-20	gesagt	sagen	VERB	VVPP	_	13	acl	_	_
+20	gesagt	sagen	VERB	VVPP	_	13	acl:relcl	_	_
 21	werden	werden	AUX	VAINF	_	20	aux:pass	_	_
 22	müßte	müssen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	20	punct	_	_
@@ -1265,7 +1265,7 @@
 32	gesagt	sagen	VERB	VVPP	_	35	xcomp	_	_
 33	zu	zu	PART	PTKZU	_	32	mark	_	_
 34	werden	werden	AUX	VAINF	_	32	aux:pass	_	_
-35	brauchte	brauchen	VERB	VVFIN	_	25	acl	_	SpaceAfter=No
+35	brauchte	brauchen	VERB	VVFIN	_	25	acl:relcl	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	8	punct	_	_
 
 # newpar id = lyceum-f34
@@ -1290,7 +1290,7 @@
 14	plötzlichen	plötzlich	ADJ	ADJA	_	15	amod	_	_
 15	Scheidung	Scheidung	NOUN	NN	_	17	obl	_	_
 16	innigst	innigst	ADV	ADV	_	17	advmod	_	_
-17	vermischt	vermischen	VERB	VVPP	_	6	acl	_	_
+17	vermischt	vermischen	VERB	VVPP	_	6	acl:relcl	_	_
 18	sein	sein	AUX	VAINF	_	17	cop	_	_
 19	mußten	müssen	AUX	VMFIN	_	17	aux	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	6	punct	_	_
@@ -1384,7 +1384,7 @@
 23	Saxe	Saxe	PROPN	NE	_	21	flat	_	_
 24	zu	zu	ADP	APPR	_	25	case	_	_
 25	Mittage	Mittag	NOUN	NN	Case=Dat	26	obl	_	_
-26	gespeist	speisen	VERB	VVPP	_	10	acl	_	_
+26	gespeist	speisen	VERB	VVPP	_	10	acl:relcl	_	_
 27	hätte	haben	AUX	VAFIN	_	26	aux	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -1457,7 +1457,7 @@
 27	der	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
 28	Sinn	Sinn	NOUN	NN	Case=Nom	30	nsubj	_	_
 29	durchaus	durchaus	ADV	ADV	_	30	advmod	_	_
-30	fehle	fehlen	VERB	VVFIN	_	20	acl	_	SpaceAfter=No
+30	fehle	fehlen	VERB	VVFIN	_	20	acl:relcl	_	SpaceAfter=No
 31	;	;	PUNCT	$.	_	8	punct	_	_
 
 # genre = fragments
@@ -1542,7 +1542,7 @@
 5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	_
 6	mit	mit	ADP	APPR	_	7	case	_	_
 7	Besonnenheit	Besonnenheit	NOUN	NN	Case=Dat	8	obl	_	_
-8	ausdrücken	ausdrücken	VERB	VVINF	_	2	acl	_	_
+8	ausdrücken	ausdrücken	VERB	VVINF	_	2	acl:relcl	_	_
 9	soll	sollen	AUX	VMFIN	_	8	aux	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	8	punct	_	_
 11	muß	müssen	AUX	VMFIN	_	14	aux	_	_
@@ -1639,7 +1639,7 @@
 19	den	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 20	Menschen	Mensch	NOUN	NN	Case=Acc	16	conj	_	_
 21	das	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
-22	Erste	erst	NOUN	NN	Case=Nom	5	acl	_	_
+22	Erste	erst	NOUN	NN	Case=Nom	5	acl:relcl	_	_
 23	und	und	CCONJ	KON	_	25	cc	_	_
 24	das	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
 25	Letzte	letzt	NOUN	NN	_	22	conj	_	SpaceAfter=No
@@ -1738,7 +1738,7 @@
 9	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	10	det	_	_
 10	Augenblick	Augenblick	NOUN	NN	_	12	obl	_	_
 11	frei	frei	ADV	ADV	_	12	advmod	_	_
-12	abbrechen	abbrechen	VERB	VVINF	_	4	acl	_	_
+12	abbrechen	abbrechen	VERB	VVINF	_	4	acl:relcl	_	_
 13	kann	können	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	aus	aus	ADP	APPR	_	17	case	_	_
@@ -1762,7 +1762,7 @@
 5	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 7	rein	rein	ADJ	ADJD	_	8	advmod	_	_
-8	ausreden	ausreden	VERB	VVINF	_	2	acl	_	_
+8	ausreden	ausreden	VERB	VVINF	_	2	acl:relcl	_	_
 9	will	wollen	AUX	VMFIN	_	8	aux	_	_
 10	und	und	CCONJ	KON	_	9	cc	_	_
 11	kann	können	AUX	VMFIN	_	8	conj	_	SpaceAfter=No
@@ -1780,7 +1780,7 @@
 23	,	,	PUNCT	$,	_	26	punct	_	_
 24	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	26	obj	_	_
 25	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
-26	weiß	weiß	VERB	VVFIN	_	20	acl	_	SpaceAfter=No
+26	weiß	weiß	VERB	VVFIN	_	20	acl:relcl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	26	punct	_	_
 28	ist	sein	VERB	VVFIN	_	0	root	_	_
 29	sehr	sehr	ADV	ADV	_	28	advmod	_	_
@@ -1925,7 +1925,7 @@
 9	große	groß	ADJ	ADJA	_	11	amod	_	_
 10	vaterländische	vaterländisch	ADJ	ADJA	_	11	amod	_	_
 11	Erfinder	Erfind	NOUN	NN	Case=Nom	12	nsubj	_	_
-12	aufgestellt	aufstellen	VERB	VVPP	_	3	acl	_	_
+12	aufgestellt	aufstellen	VERB	VVPP	_	3	acl:relcl	_	_
 13	haben	haben	AUX	VAFIN	_	12	aux	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	läßt	lassen	VERB	VVFIN	_	0	root	_	_
@@ -2035,7 +2035,7 @@
 27	der	der	DET	ART	Definite=Def|PronType=Art	29	det	_	_
 28	bezeichnenden	bezeichnend	ADJ	ADJA	_	29	amod	_	_
 29	Sprache	Sprache	NOUN	NN	_	25	conj	_	_
-30	verrät	verraten	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
+30	verrät	verraten	VERB	VVFIN	_	14	acl:relcl	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	14	punct	_	_
 
 # genre = fragments
@@ -2108,7 +2108,7 @@
 12	logische	logisch	ADJ	ADJA	_	13	amod	_	_
 13	Schönheit	Schönheit	NOUN	NN	_	14	xcomp	_	_
 14	definieren	definieren	VERB	VVINF	_	15	xcomp	_	_
-15	möchte	möchten	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+15	möchte	möchten	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 16	:	:	PUNCT	$.	_	37	punct	_	_
 17	denn	denn	CCONJ	KON	_	37	advmod	_	_
 18	überall	überall	ADV	ADV	_	37	advmod	_	_
@@ -2169,7 +2169,7 @@
 10	gebraucht	brauchen	VERB	VVPP	_	13	xcomp	_	_
 11	vortreffliche	vortrefflich	ADJ	ADJA	_	12	amod	_	_
 12	Wirkung	Wirkung	NOUN	NN	Case=Acc	13	obj	_	_
-13	tut	tun	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+13	tut	tun	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	13	punct	_	_
 15	besonders	besonders	ADV	ADV	_	13	advmod	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
@@ -2233,7 +2233,7 @@
 16	Hauch	Hauch	NOUN	NN	_	11	conj	_	_
 17	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Ironie	Ironie	NOUN	NN	_	16	nmod	_	_
-19	atmen	atmen	VERB	VVINF	_	6	acl	_	SpaceAfter=No
+19	atmen	atmen	VERB	VVINF	_	6	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -2264,7 +2264,7 @@
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	9	nsubj	_	_
 8	alles	alle	DET	PIS	Case=Acc|PronType=Tot	9	obj	_	_
-9	übersieht	übersehen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+9	übersieht	übersehen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	17	punct	_	_
 11	und	und	CCONJ	KON	_	17	cc	_	_
 12	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
@@ -2560,7 +2560,7 @@
 19	besten	gut	ADJ	ADJD	_	22	advmod	_	_
 20	traurige	traurig	ADJ	ADJA	_	21	amod	_	_
 21	Mimen	Mimen	NOUN	NN	_	22	xcomp	_	_
-22	nennen	nennen	VERB	VVINF	_	4	acl	_	_
+22	nennen	nennen	VERB	VVINF	_	4	acl:relcl	_	_
 23	könnte	können	AUX	VMFIN	_	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -2584,7 +2584,7 @@
 13	einmal	einmal	ADV	ADV	_	16	advmod	_	_
 14	beim	bei	ADP	APPRART	_	15	amod	_	_
 15	Shakespeare	Shakespeare	PROPN	NE	_	16	obl	_	_
-16	vorkommt	vorkommen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+16	vorkommt	vorkommen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	16	punct	_	_
 18	aber	aber	CCONJ	KON	_	26	cc	_	_
 19	von	von	ADP	APPR	_	21	case	_	_
@@ -2755,7 +2755,7 @@
 4	,	,	PUNCT	$,	_	3	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	_
 6	zugleich	zugleich	ADV	ADV	_	7	advmod	_	_
-7	gut	gut	ADJ	ADJD	_	3	acl	_	_
+7	gut	gut	ADJ	ADJD	_	3	acl:relcl	_	_
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	groß	groß	ADJ	ADJD	_	7	conj	_	_
 10	ist	sein	AUX	VAFIN	_	7	cop	_	SpaceAfter=No
@@ -2887,7 +2887,7 @@
 12	Überschrift	Überschrift	NOUN	NN	Case=Acc	4	obj	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	15	nsubj	_	_
-15	anzeigt	anzeigen	VERB	VVFIN	_	12	acl	_	SpaceAfter=No
+15	anzeigt	anzeigen	VERB	VVFIN	_	12	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	daß	daß	SCONJ	KOUS	_	23	mark	_	_
 18	hier	hier	ADV	ADV	_	23	advmod	_	_
@@ -3075,7 +3075,7 @@
 5	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
 6	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	8	obj	_	_
 7	mehr	mehr	ADV	ADV	_	8	advmod	_	_
-8	sagen	sagen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+8	sagen	sagen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	nur	nur	ADV	ADV	_	12	advmod	_	_
 11	viel	viel	ADV	ADV	_	12	advmod	_	_
@@ -3248,7 +3248,7 @@
 39	nach	nach	ADP	APPR	_	40	case	_	_
 40	dieser	dieser	DET	PDS	Case=Dat|PronType=Dem	42	det	_	_
 41	das	der	DET	ART	Definite=Def|PronType=Art	42	det	_	_
-42	Erste	erster	NOUN	NN	Case=Nom	36	acl	_	_
+42	Erste	erster	NOUN	NN	Case=Nom	36	acl:relcl	_	_
 43	und	und	CCONJ	KON	_	44	cc	_	_
 44	Höchste	hoch	NOUN	NN	_	42	conj	_	_
 45	ist	sein	AUX	VAFIN	_	42	cop	_	SpaceAfter=No
@@ -3482,7 +3482,7 @@
 4	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	7	nsubj	_	_
 5	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 6	eignes	eigen	ADJ	ADJA	Degree=Pos	7	amod	_	_
-7	Gesetz	Gesetz	NOUN	NN	Case=Nom	2	acl	_	_
+7	Gesetz	Gesetz	NOUN	NN	Case=Nom	2	acl:relcl	_	_
 8	und	und	CCONJ	KON	_	11	cc	_	_
 9	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 10	eigner	eigen	ADJ	ADJA	Degree=Pos	11	amod	_	_
@@ -3532,7 +3532,7 @@
 23	gewaltig	gewaltig	ADJ	ADJD	_	26	advmod	_	_
 24	um	um	ADP	APPR	_	25	case	_	_
 25	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	26	nmod	_	_
-26	griff	greifen	VERB	VVFIN	_	13	acl	_	SpaceAfter=No
+26	griff	greifen	VERB	VVFIN	_	13	acl:relcl	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	8	punct	_	_
 
 # newpar id = lyceum-f67
@@ -3599,12 +3599,12 @@
 16	Romantische	romantisch	NOUN	NN	Case=Acc	19	obj	_	_
 17	und	und	CCONJ	KON	_	18	cc	_	_
 18	Pikante	pikant	NOUN	NN	_	16	conj	_	_
-19	gibt	geben	VERB	VVFIN	_	9	acl	_	SpaceAfter=No
+19	gibt	geben	VERB	VVFIN	_	9	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	19	punct	_	_
 21	in	in	ADP	APPR	_	23	case	_	_
 22	die	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
 23	Wirklichkeit	Wirklichkeit	NOUN	NN	_	24	obl	_	_
-24	einführen	einführen	VERB	VVINF	_	4	acl	_	SpaceAfter=No
+24	einführen	einführen	VERB	VVINF	_	4	acl:relcl	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	30	punct	_	_
 26	und	und	CCONJ	KON	_	30	cc	_	_
 27	so	so	ADV	ADV	_	30	advmod	_	_
@@ -3676,7 +3676,7 @@
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	9	nsubj	_	_
 8	viel	viel	ADV	ADV	_	9	advmod	_	_
-9	besser	gut	ADJ	ADJD	_	5	acl	_	_
+9	besser	gut	ADJ	ADJD	_	5	acl:relcl	_	_
 10	ist	sein	AUX	VAFIN	_	9	cop	_	_
 11	als	als	CCONJ	KOKOM	_	12	case	_	_
 12	Null	null	NUM	CARD	_	9	nmod	_	SpaceAfter=No
@@ -3724,7 +3724,7 @@
 5	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	8	obj	_	_
 6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	_
 7	klar	klar	ADV	ADV	_	8	advmod	_	_
-8	weiß	weiß	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+8	weiß	weiß	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	14	punct	_	_
 10	oder	oder	CCONJ	KON	_	14	cc	_	_
 11	gar	gar	ADV	ADV	_	14	advmod	_	_
@@ -3872,7 +3872,7 @@
 44	engländischen	engländisch	ADJ	ADJA	_	45	amod	_	_
 45	Kritiker	Kritiker	NOUN	NN	Case=Nom	47	nsubj	_	_
 46	so	so	ADV	ADV	_	47	advmod	_	_
-47	klassisch	klassisch	ADJ	ADJD	_	38	acl	_	_
+47	klassisch	klassisch	ADJ	ADJD	_	38	acl:relcl	_	_
 48	sind	sein	AUX	VAFIN	_	47	cop	_	SpaceAfter=No
 49	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -4264,7 +4264,7 @@
 4	Mensch	Mensch	NOUN	NN	Case=Nom	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	7	nsubj:pass	_	_
-7	gebildet	bilden	VERB	VVPP	_	4	acl	_	_
+7	gebildet	bilden	VERB	VVPP	_	4	acl:relcl	_	_
 8	ist	sein	AUX	VAFIN	_	7	aux:pass	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
@@ -4376,7 +4376,7 @@
 14	doch	doch	ADV	ADV	_	17	advmod	_	_
 15	gewiß	gewiß	ADV	ADV	_	16	advmod	_	_
 16	ebensoviel	ebensoviel	ADV	ADV	_	17	advmod	_	_
-17	gewirkt	wirken	VERB	VVPP	_	10	acl	_	_
+17	gewirkt	wirken	VERB	VVPP	_	10	acl:relcl	_	_
 18	hat	haben	AUX	VAFIN	_	17	aux	_	_
 19	in	in	ADP	APPR	_	21	case	_	_
 20	der	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
@@ -4462,7 +4462,7 @@
 17	wählen	wählen	VERB	VVINF	_	8	parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	20	punct	_	_
 19	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	20	nsubj	_	_
-20	klassisch	klassisch	ADJ	ADJD	_	16	acl	_	_
+20	klassisch	klassisch	ADJ	ADJD	_	16	acl:relcl	_	_
 21	sind	sein	AUX	VAFIN	_	20	cop	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	27	punct	_	_
 23	und	und	CCONJ	KON	_	27	cc	_	_
@@ -4699,7 +4699,7 @@
 31	auch	auch	ADV	ADV	_	34	advmod	_	_
 32	unendlich	unendlich	ADJ	ADJD	_	33	advmod	_	_
 33	viel	viel	ADV	ADV	_	34	advmod	_	_
-34	wert	wert	ADJ	ADJD	_	26	acl	_	_
+34	wert	wert	ADJ	ADJD	_	26	acl:relcl	_	_
 35	ist	sein	AUX	VAFIN	_	34	cop	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	10	punct	_	_
 
@@ -4720,7 +4720,7 @@
 10	von	von	ADP	APPR	_	12	case	_	_
 11	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Kunst	Kunst	NOUN	NN	Case=Dat	13	nmod	_	_
-13	denken	denken	VERB	VVINF	_	3	acl	_	SpaceAfter=No
+13	denken	denken	VERB	VVINF	_	3	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	18	punct	_	_
 15	denn	denn	CCONJ	KON	_	18	mark	_	_
 16	das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	18	nsubj	_	_
@@ -5030,7 +5030,7 @@
 6	kleines	klein	ADJ	ADJA	_	7	amod	_	_
 7	Buch	Buch	NOUN	NN	Case=Acc	9	obj	_	_
 8	so	so	ADV	ADV	_	9	advmod	_	_
-9	ankündigen	ankündigen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+9	ankündigen	ankündigen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	als	als	SCONJ	KOKOM	_	19	mark	_	_
 12	ob	ob	SCONJ	KOUS	_	19	mark	_	_
@@ -5125,7 +5125,7 @@
 12	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	14	det	_	_
 13	harmonisch	harmonisch	ADJ	ADJD	_	14	amod	_	_
 14	Platter	Platter	NOUN	NN	Case=Acc	15	obj	_	_
-15	bewundert	bewundern	VERB	VVPP	_	5	acl	_	_
+15	bewundert	bewundern	VERB	VVPP	_	5	acl:relcl	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	liebt	lieben	VERB	VVFIN	_	15	conj	_	SpaceAfter=No
 18	;	;	PUNCT	$.	_	9	punct	_	_
@@ -5273,7 +5273,7 @@
 4	haben	haben	VERB	VVINF	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj:pass	_	_
-7	mitgeteilt	mitteilen	VERB	VVPP	_	3	acl	_	_
+7	mitgeteilt	mitteilen	VERB	VVPP	_	3	acl:relcl	_	_
 8	werden	werden	AUX	VAINF	_	7	aux:pass	_	_
 9	soll	sollen	AUX	VMFIN	_	7	aux	_	SpaceAfter=No
 10	;	;	PUNCT	$.	_	16	punct	_	_
@@ -5287,7 +5287,7 @@
 18	dem	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	21	obl:arg	_	_
 19	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	SpaceAfter=No
 20	's	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
-21	mitteilen	mitteilen	VERB	VVINF	_	15	acl	_	_
+21	mitteilen	mitteilen	VERB	VVINF	_	15	acl:relcl	_	_
 22	wollen	wollen	AUX	VMFIN	_	21	aux	_	_
 23	darf	dürfen	AUX	VMFIN	_	21	aux	_	SpaceAfter=No
 24	;	;	PUNCT	$.	_	31	punct	_	_
@@ -5445,7 +5445,7 @@
 5	schöne	schön	ADJ	ADJA	_	6	amod	_	_
 6	Verkettung	Verkettung	NOUN	NN	Case=Acc	8	obj	_	_
 7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	_
-8	preist	preisen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+8	preist	preisen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	haben	haben	AUX	VAFIN	_	0	root	_	_
 11	weniger	wenig	DET	PIAT	PronType=Ind	12	det	_	_
@@ -5466,7 +5466,7 @@
 25	Geiste	Geist	NOUN	NN	Case=Dat	28	obl	_	_
 26	eines	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	27	det	_	_
 27	Geistes	Geist	NOUN	NN	Case=Gen	25	nmod	_	_
-28	belebt	beleben	VERB	VVFIN	_	17	acl	_	SpaceAfter=No
+28	belebt	beleben	VERB	VVFIN	_	17	acl:relcl	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	28	punct	_	_
 30	nach	nach	ADP	APPR	_	32	case	_	_
 31	Einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	32	det	_	_
@@ -5528,7 +5528,7 @@
 13	nur	nur	ADV	ADV	_	16	advmod	_	_
 14	in	in	ADP	APPR	_	15	case	_	_
 15	dem	der	PRON	PDS	PronType=Dem,Rel	16	obl	_	_
-16	gefunden	finden	VERB	VVPP	_	4	acl	_	_
+16	gefunden	finden	VERB	VVPP	_	4	acl:relcl	_	_
 17	wird	werden	AUX	VAFIN	_	16	aux:pass	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	16	punct	_	_
 19	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	31	obj	_	_
@@ -5543,7 +5543,7 @@
 28	Welt	Welt	NOUN	NN	_	30	xcomp	_	_
 29	zu	zu	PART	PTKZU	_	30	mark	_	_
 30	nennen	nennen	VERB	VVINF	_	31	xcomp	_	_
-31	pflegt	pflegen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+31	pflegt	pflegen	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -5559,7 +5559,7 @@
 6	dessen	der	PRON	PRELAT	Case=Gen|Number=Sing|PronType=Dem,Rel	7	nmod	_	_
 7	Zusammenhang	Zusammenhang	NOUN	NN	_	9	obl	_	_
 8	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	9	nsubj	_	_
-9	zweifelt	zweifeln	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+9	zweifelt	zweifeln	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	ist	sein	AUX	VAFIN	_	9	cop	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	9	punct	_	_
@@ -5669,7 +5669,7 @@
 19	,	,	PUNCT	$,	_	17	punct	_	_
 20	so	so	ADV	ADV	_	22	advmod	_	_
 21	drüber	drüber	ADV	PROAV	_	22	advmod	_	_
-22	aufhängt	aufhängen	VERB	VVFIN	_	37	acl	_	SpaceAfter=No
+22	aufhängt	aufhängen	VERB	VVFIN	_	37	acl:relcl	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	22	punct	_	_
 24	um	um	SCONJ	KOUI	_	30	mark	_	_
 25	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	26	det	_	_
@@ -5731,7 +5731,7 @@
 9	welcher	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	12	nsubj	_	_
 10	tiefen	tief	ADJ	ADJA	_	11	amod	_	_
 11	Sinn	Sinn	NOUN	NN	Case=Acc	12	obj	_	_
-12	hat	haben	VERB	VVFIN	_	6	acl	_	_
+12	hat	haben	VERB	VVFIN	_	6	acl:relcl	_	_
 13	für	für	ADP	APPR	_	17	case	_	_
 14	das	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 15	wenige	weniger	ADJ	ADJA	_	17	amod	_	_
@@ -5751,7 +5751,7 @@
 29	hie	hie	ADV	ADV	_	32	advmod	_	_
 30	und	und	CCONJ	KON	_	31	cc	_	_
 31	da	da	ADV	ADV	_	29	conj	_	_
-32	gefunden	finden	VERB	VVPP	_	17	acl	_	_
+32	gefunden	finden	VERB	VVPP	_	17	acl:relcl	_	_
 33	wird	werden	AUX	VAFIN	_	32	aux:pass	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -5850,7 +5850,7 @@
 13	zu	zu	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 15	Witz	Witz	NOUN	NN	Case=Dat	16	obl	_	_
-16	macht	machen	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
+16	macht	machen	VERB	VVFIN	_	7	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	24	punct	_	_
 18	und	und	CCONJ	KON	_	24	cc	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	21	det	_	_
@@ -6050,7 +6050,7 @@
 10	sie	sie	PRON	PPER	Case=Acc|Person=3|PronType=Prs	13	obj	_	_
 11	für	für	ADP	APPR	_	12	case	_	_
 12	Täuschung	Täuschung	NOUN	NN	Case=Acc	13	obl	_	_
-13	halten	halten	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
+13	halten	halten	VERB	VVFIN	_	7	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	19	punct	_	_
 15	und	und	CCONJ	KON	_	19	cc	_	_
 16	entweder	entweder	CCONJ	KON	_	19	cc	_	_
@@ -6330,7 +6330,7 @@
 17	Prosa	Prosa	NOUN	NN	Case=Nom	20	nsubj	_	_
 18	ihr	ihr	DET	PPOSAT	Case=Dat|Person=3|Poss=Yes|PronType=Prs	20	obl:arg	_	_
 19	ja	ja	ADV	ADV	_	20	advmod	_	_
-20	lassen	lassen	VERB	VVINF	_	11	acl	_	_
+20	lassen	lassen	VERB	VVINF	_	11	acl:relcl	_	_
 21	muß	müssen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 22	:	:	PUNCT	$.	_	20	punct	_	_
 23	denn	denn	ADV	ADV	_	40	advmod	_	_
@@ -6629,7 +6629,7 @@
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	7	obj	_	_
 6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	erfunden	erfinden	VERB	VVPP	_	3	acl	_	_
+7	erfunden	erfinden	VERB	VVPP	_	3	acl:relcl	_	_
 8	hat	haben	AUX	VAFIN	_	7	aux	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	7	punct	_	_
 10	vor	vor	ADP	APPR	_	12	case	_	_
@@ -6754,7 +6754,7 @@
 23	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	26	nsubj	_	_
 24	doch	doch	ADV	ADV	_	26	advmod	_	_
 25	auch	auch	ADV	ADV	_	26	advmod	_	_
-26	notwendig	notwendig	ADJ	ADJD	_	20	acl	_	_
+26	notwendig	notwendig	ADJ	ADJD	_	20	acl:relcl	_	_
 27	ist	sein	AUX	VAFIN	_	26	cop	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	26	punct	_	_
 29	allmählich	allmählich	ADJ	ADJD	_	31	advmod	_	_
@@ -6891,7 +6891,7 @@
 5	nicht	nicht	PART	PTKNEG	_	8	advmod	_	_
 6	selbst	selbst	ADV	ADV	_	8	advmod	_	_
 7	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
-8	Kunstwerk	Kunstwerk	NOUN	NN	Case=Nom	2	acl	_	_
+8	Kunstwerk	Kunstwerk	NOUN	NN	Case=Nom	2	acl:relcl	_	_
 9	ist	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	8	punct	_	_
 11	entweder	entweder	CCONJ	KON	_	14	cc	_	_
@@ -6951,7 +6951,7 @@
 3	alles	alle	DET	PIS	Case=Nom|PronType=Tot	12	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj:pass	_	_
-6	abgenutzt	abnutzen	VERB	VVPP	_	3	acl	_	_
+6	abgenutzt	abnutzen	VERB	VVPP	_	3	acl:relcl	_	_
 7	werden	werden	AUX	VAINF	_	6	aux:pass	_	_
 8	kann	können	AUX	VMFIN	_	6	aux	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	6	punct	_	_
@@ -7446,7 +7446,7 @@
 37	in	in	ADP	APPR	_	39	case	_	_
 38	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	39	det:poss	_	_
 39	Johnson	Johnson	PROPN	NE	_	36	nmod	_	_
-40	aufnehmen	aufnehmen	VERB	VVINF	_	29	acl	_	_
+40	aufnehmen	aufnehmen	VERB	VVINF	_	29	acl:relcl	_	_
 41	würde	werden	AUX	VAFIN	_	40	aux	_	SpaceAfter=No
 42	,	,	PUNCT	$,	_	40	punct	_	_
 43	und	und	CCONJ	KON	_	47	cc	_	_
@@ -7600,7 +7600,7 @@
 50	mit	mit	ADP	APPR	_	52	case	_	_
 51	absolutem	absolut	ADJ	ADJA	_	52	amod	_	_
 52	Rigorismus	Rigorismus	NOUN	NN	Case=Dat	53	obl	_	_
-53	vereinigt	vereinigen	VERB	VVPP	_	39	acl	_	SpaceAfter=No
+53	vereinigt	vereinigen	VERB	VVPP	_	39	acl:relcl	_	SpaceAfter=No
 54	.	.	PUNCT	$.	_	26	punct	_	_
 
 # newpar id = lyceum-f124
@@ -7677,7 +7677,7 @@
 21	auf	auf	ADP	APPR	_	23	case	_	_
 22	den	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
 23	Tisch	Tisch	NOUN	NN	_	24	obl	_	_
-24	setzt	setzen	VERB	VVFIN	_	10	acl	_	SpaceAfter=No
+24	setzt	setzen	VERB	VVFIN	_	10	acl:relcl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	6	punct	_	_
 
 # genre = fragments
@@ -7855,7 +7855,7 @@
 6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
 7	davon	davon	ADV	PROAV	PronType=Dem	9	advmod	_	_
 8	anstecken	anstecken	VERB	VVINF	_	9	xcomp	_	_
-9	ließe	lassen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+9	ließe	lassen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	verdiente	verdienen	VERB	VVFIN	_	0	root	_	_
 12	wenigstens	wenigstens	ADV	ADV	_	11	advmod	_	_
@@ -8074,7 +8074,7 @@
 13	gesellige	gesellig	ADJ	ADJA	_	14	amod	_	_
 14	Welt	Welt	NOUN	NN	_	10	appos	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	10	punct	_	_
-16	beseelt	beseeln	VERB	VVPP	_	5	acl	_	SpaceAfter=No
+16	beseelt	beseeln	VERB	VVPP	_	5	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -8117,7 +8117,7 @@
 20	Übung	Übung	NOUN	NN	_	15	conj	_	_
 21	der	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
 22	Denkkraft	Denkkraft	NOUN	NN	_	20	nmod	_	_
-23	organisirt	organisieren	VERB	VVPP	_	11	acl	_	SpaceAfter=No
+23	organisirt	organisieren	VERB	VVPP	_	11	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	6	punct	_	_
 
 # newpar id = bluethenstaub-f5
@@ -8208,7 +8208,7 @@
 10	um	um	ADP	APPR	_	12	case	_	_
 11	verschiedene	verschieden	ADJ	ADJA	_	12	amod	_	_
 12	Töne	Ton	NOUN	NN	Case=Acc	13	obl	_	_
-13	hervorzubringen	hervorbringen	VERB	VVIZU	_	7	acl	_	SpaceAfter=No
+13	hervorzubringen	hervorbringen	VERB	VVIZU	_	7	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	13	punct	_	_
 15	bald	bald	ADV	ADV	_	16	advmod	_	_
 16	diese	dieser	DET	PDS	Case=Nom|PronType=Dem	20	nsubj	_	_
@@ -8322,7 +8322,7 @@
 12	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	15	obl	_	_
 13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	heben	heben	VERB	VVINF	_	15	xcomp	_	_
-15	ist	sein	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+15	ist	sein	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	als	als	CCONJ	KOKOM	_	20	case	_	_
 18	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	20	det	_	_
@@ -8456,7 +8456,7 @@
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Praktiker	Praktiker	NOUN	NN	Case=Nom	15	nsubj	_	_
 14	oft	oft	ADV	ADV	_	15	advmod	_	_
-15	kommentirt	kommentieren	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+15	kommentirt	kommentieren	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	findet	finden	VERB	VVFIN	_	0	root	_	_
 18	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
@@ -8848,7 +8848,7 @@
 8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	_
 9	immer	immer	ADV	ADV	_	11	advmod	_	_
 10	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
-11	weiß	weiß	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+11	weiß	weiß	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	ob	ob	SCONJ	KOUS	_	19	mark	_	_
 14	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	19	nsubj	_	_
@@ -9046,7 +9046,7 @@
 7	schon	schon	ADV	ADV	_	10	advmod	_	_
 8	von	von	ADP	APPR	_	9	case	_	_
 9	Sehen	Sehen	NOUN	NN	Case=Dat	10	obl	_	_
-10	träumten	träumen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+10	träumten	träumen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 11	!	!	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
@@ -9329,7 +9329,7 @@
 12	nie	nie	ADV	ADV	_	15	advmod	_	_
 13	zur	zu	ADP	APPRART	_	14	case	_	_
 14	Entwickelung	Entwickelung	NOUN	NN	_	15	obl	_	_
-15	kommt	kommen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+15	kommt	kommen	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	5	punct	_	_
 
 # newpar id = bluethenstaub-f22
@@ -9465,7 +9465,7 @@
 22	,	,	PUNCT	$,	_	25	punct	_	_
 23	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	25	nsubj	_	_
 24	daraus	daraus	ADV	PROAV	PronType=Dem	25	advmod	_	_
-25	entsteht	entstehen	VERB	VVFIN	_	21	acl	_	SpaceAfter=No
+25	entsteht	entstehen	VERB	VVFIN	_	21	acl:relcl	_	SpaceAfter=No
 26	;	;	PUNCT	$.	_	25	punct	_	_
 27	der	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
 28	Glaube	Glaube	NOUN	NN	_	21	conj	_	_
@@ -9750,7 +9750,7 @@
 22	Mangel	Mangel	NOUN	NN	_	9	conj	_	_
 23	an	an	ADP	APPR	_	24	case	_	_
 24	Sinn	Sinn	NOUN	NN	_	22	nmod	_	_
-25	bezeichnet	bezeichnen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+25	bezeichnet	bezeichnen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	5	punct	_	_
 
 # newpar id = bluethenstaub-f23
@@ -9905,7 +9905,7 @@
 10	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	13	nsubj	_	_
 11	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	13	obj	_	_
 12	weiter	weiter	ADV	ADV	_	13	advmod	_	_
-13	darstellen	darstellen	VERB	VVINF	_	6	acl	_	_
+13	darstellen	darstellen	VERB	VVINF	_	6	acl:relcl	_	_
 14	mag	mögen	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	13	punct	_	_
 16	als	als	CCONJ	KOKOM	_	18	case	_	_
@@ -9920,7 +9920,7 @@
 25	nicht	nicht	PART	PTKNEG	_	28	advmod	_	_
 26	über	über	ADP	APPR	_	27	case	_	_
 27	sich	sich	PRON	PRF	Person=3|PronType=Prs|Reflex=Yes	28	obl	_	_
-28	gewinnen	gewinnen	VERB	VVINF	_	21	acl	_	_
+28	gewinnen	gewinnen	VERB	VVINF	_	21	acl:relcl	_	_
 29	kann	können	AUX	VMFIN	_	28	aux	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	28	punct	_	_
 31	auch	auch	ADV	ADV	_	44	advmod	_	_
@@ -9979,7 +9979,7 @@
 14	Goethe	Goethe	PROPN	NE	_	17	obl	_	_
 15	so	so	ADV	ADV	_	16	advmod	_	_
 16	sehr	sehr	ADV	ADV	_	17	advmod	_	_
-17	bewundert	bewundern	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+17	bewundert	bewundern	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
 # newpar id = bluethenstaub-f26
@@ -10181,7 +10181,7 @@
 12	Überraschung	Überraschung	NOUN	NN	_	15	obl	_	_
 13	und	und	CCONJ	KON	_	14	cc	_	_
 14	Täuschung	Täuschung	NOUN	NN	_	12	conj	_	_
-15	hinausläuft	hinauslaufen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+15	hinausläuft	hinauslaufen	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -10226,7 +10226,7 @@
 16	über	über	ADP	APPR	_	19	case	_	SpaceAfter=No
 17	'n	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	18	det	_	_
 18	Weg	Weg	NOUN	NN	Case=Acc	19	obj	_	_
-19	läuft	laufen	VERB	VVFIN	_	13	acl	_	SpaceAfter=No
+19	läuft	laufen	VERB	VVFIN	_	13	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	21	punct	_	_
 21	Unglück	Unglück	NOUN	NN	_	13	orphan	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	3	punct	_	_
@@ -10543,7 +10543,7 @@
 23	der	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	26	obl	_	_
 24	die	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
 25	Anmuth	Anmut	NOUN	NN	Case=Nom	26	nsubj	_	_
-26	entspringt	entspringen	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
+26	entspringt	entspringen	VERB	VVFIN	_	14	acl:relcl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	26	punct	_	_
 28	muß	müssen	AUX	VMFIN	_	32	aux	_	_
 29	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	32	nsubj	_	_
@@ -10833,13 +10833,13 @@
 15	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
 16	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	17	det	_	_
 17	Mensch	Mensch	NOUN	NN	Case=Acc	18	obj	_	_
-18	reizt	reizen	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
+18	reizt	reizen	VERB	VVFIN	_	7	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	24	punct	_	_
 20	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	24	nsubj	_	_
 21	mit	mit	ADP	APPR	_	22	case	_	_
 22	sich	sich	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	24	obl	_	_
 23	selbst	selbst	ADV	ADV	_	22	advmod	_	_
-24	beschäftigt	beschäftigen	VERB	VVPP	_	4	acl	_	_
+24	beschäftigt	beschäftigen	VERB	VVPP	_	4	acl:relcl	_	_
 25	ist	sein	AUX	VAFIN	_	24	aux	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	24	punct	_	_
 27	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	33	nsubj	_	_
@@ -10848,7 +10848,7 @@
 30	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 31	Mittheilung	Mittheilung	NOUN	NN	Case=Acc	33	obl	_	_
 32	gleichsam	gleichsam	ADJ	ADJD	_	33	advmod	_	_
-33	einladet	einladen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+33	einladet	einladen	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 34	,	,	PUNCT	$,	_	33	punct	_	_
 35	an	an	ADP	APPR	_	37	case	_	_
 36	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	37	det:poss	_	_
@@ -11439,7 +11439,7 @@
 19	,	,	PUNCT	$,	_	13	punct	_	_
 20	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	22	nsubj	_	_
 21	so	so	ADV	ADV	_	22	advmod	_	_
-22	frey	frey	ADJ	ADJD	_	13	acl	_	_
+22	frey	frey	ADJ	ADJD	_	13	acl:relcl	_	_
 23	ist	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	22	punct	_	_
 25	als	als	CCONJ	KOKOM	_	27	case	_	_
@@ -11742,7 +11742,7 @@
 20	das	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	23	obj	_	_
 21	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	23	nsubj	_	_
 22	nur	nur	ADV	ADV	_	23	advmod	_	_
-23	suchten	suchen	VERB	VVFIN	_	18	acl	_	SpaceAfter=No
+23	suchten	suchen	VERB	VVFIN	_	18	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	23	punct	_	_
 25	um	um	SCONJ	KOUI	_	31	mark	_	_
 26	der	der	DET	ART	Definite=Def|PronType=Art	27	det	_	_
@@ -12048,7 +12048,7 @@
 6	nur	nur	ADV	ADV	_	9	advmod	_	_
 7	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	8	det	_	_
 8	Moment	Moment	NOUN	NN	Case=Acc	9	obj	_	_
-9	bedarf	bedürfen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+9	bedarf	bedürfen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	19	punct	_	_
 11	und	und	CCONJ	KON	_	19	cc	_	_
 12	mit	mit	ADP	APPR	_	15	case	_	_
@@ -12079,7 +12079,7 @@
 37	Ideal	Ideal	NOUN	NN	_	34	conj	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	34	punct	_	_
 39	wechselseitig	wechselseitig	ADJ	ADJD	_	40	advmod	_	_
-40	durchdrungen	durdringen	VERB	VVPP	_	28	acl	_	SpaceAfter=No
+40	durchdrungen	durdringen	VERB	VVPP	_	28	acl:relcl	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	46	punct	_	_
 42	nur	nur	ADV	ADV	_	46	advmod	_	_
 43	Ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	45	det	_	_
@@ -12108,7 +12108,7 @@
 11	eigentlichsten	eigentlich	ADJ	ADJA	_	12	amod	_	_
 12	Sinn	Sinn	NOUN	NN	Case=Dat	14	obl	_	_
 13	erst	erst	ADV	ADV	_	14	advmod	_	_
-14	verstanden	verstehen	VERB	VVPP	_	1	acl	_	_
+14	verstanden	verstehen	VERB	VVPP	_	1	acl:relcl	_	_
 15	werden	werden	AUX	VAFIN	_	14	aux:pass	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	14	punct	_	_
 17	macht	machen	VERB	VVFIN	_	0	root	_	_
@@ -12397,7 +12397,7 @@
 17	Geordnete	Geordnete	NOUN	NN	Case=Nom	20	nsubj	_	_
 18	so	so	ADV	ADV	_	20	advmod	_	_
 19	selten	selten	ADJ	ADJD	_	20	advmod	_	_
-20	erreicht	erreichen	VERB	VVPP	_	13	acl	_	SpaceAfter=No
+20	erreicht	erreichen	VERB	VVPP	_	13	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -12587,7 +12587,7 @@
 15	sichtbare	sichtbar	ADJ	ADJA	_	16	amod	_	_
 16	Erscheinung	Erscheinung	NOUN	NN	Case=Acc	18	obj	_	_
 17	idealisch	idealisch	ADJ	ADJD	_	18	advmod	_	_
-18	parodirt	parodiren	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+18	parodirt	parodiren	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	11	punct	_	_
 
 # genre = fragments
@@ -12663,7 +12663,7 @@
 9	um	um	ADP	APPR	_	11	case	_	_
 10	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Schönheit	Schönheit	NOUN	NN	Case=Acc	12	obl	_	_
-12	bewegt	bewegen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+12	bewegt	bewegen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -12974,7 +12974,7 @@
 7	in	in	ADP	APPR	_	9	case	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Revoluzion	Revoluzion	NOUN	NN	_	10	obl	_	_
-10	gewonnen	gewinnen	VERB	VVPP	_	2	acl	_	_
+10	gewonnen	gewinnen	VERB	VVPP	_	2	acl:relcl	_	_
 11	haben	haben	AUX	VAFIN	_	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	ist	sein	AUX	VAFIN	_	15	cop	_	_
@@ -13034,7 +13034,7 @@
 8	aus	aus	ADP	APPR	_	9	case	_	_
 9	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	11	obl	_	_
 10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
-11	machen	machen	VERB	VVINF	_	6	acl	_	_
+11	machen	machen	VERB	VVINF	_	6	acl:relcl	_	_
 12	können	können	AUX	VMFIN	_	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	11	punct	_	_
 14	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	16	obj	_	_
@@ -13296,7 +13296,7 @@
 16	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 17	ganzen	ganz	ADJ	ADJA	_	18	amod	_	_
 18	Fülle	Fülle	NOUN	NN	_	19	obl	_	_
-19	durchdrungen	durdringen	VERB	VVPP	_	4	acl	_	_
+19	durchdrungen	durdringen	VERB	VVPP	_	4	acl:relcl	_	_
 20	haben	haben	AUX	VAFIN	_	19	aux	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -13823,7 +13823,7 @@
 11	Fertigkeit	Fertigkeit	NOUN	NN	Case=Nom	14	nsubj	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	Energie	Energie	NOUN	NN	_	11	conj	_	_
-14	relativ	relativ	ADJ	ADJD	_	4	acl	_	_
+14	relativ	relativ	ADJ	ADJD	_	4	acl:relcl	_	_
 15	ist	sein	AUX	VAFIN	_	14	cop	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -14217,7 +14217,7 @@
 27	auch	auch	ADV	ADV	_	30	advmod	_	_
 28	ältern	ältern	ADJ	ADJA	_	29	amod	_	_
 29	Judaism	Judaism	NOUN	NN	_	30	xcomp	_	_
-30	nennen	nennen	VERB	VVINF	_	23	acl	_	_
+30	nennen	nennen	VERB	VVINF	_	23	acl:relcl	_	_
 31	kann	können	AUX	VMFIN	_	30	aux	_	SpaceAfter=No
 32	,	,	PUNCT	$,	_	34	punct	_	_
 33	beydes	beide	DET	ART	NumType=Card|PronType=Tot	34	det	_	_
@@ -14264,7 +14264,7 @@
 7	Mittler	Mittler	NOUN	NN	Case=Acc	10	obj	_	_
 8	als	als	ADP	APPR	_	9	case	_	_
 9	Mittler	Mittler	NOUN	NN	_	10	obl	_	_
-10	annimmt	annehmen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+10	annimmt	annehmen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 13	gleichsam	gleichsam	ADJ	ADJD	_	19	advmod	_	_
@@ -14324,7 +14324,7 @@
 35	von	von	ADP	APPR	_	36	case	_	_
 36	Grund	Grund	NOUN	NN	Case=Dat	34	nmod	_	_
 37	aus	aus	ADP	APZR	_	36	case	_	_
-38	umwandelte	umwandeln	ADJ	ADJA	_	27	acl	_	SpaceAfter=No
+38	umwandelte	umwandeln	ADJ	ADJA	_	27	acl:relcl	_	SpaceAfter=No
 39	,	,	PUNCT	$,	_	50	punct	_	_
 40	und	und	CCONJ	KON	_	50	cc	_	_
 41	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	50	nsubj	_	_
@@ -14435,7 +14435,7 @@
 64	Idee	Idee	NOUN	NN	Case=Dat	67	obl:arg	_	_
 65	eines	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	66	det	_	_
 66	Mittlers	Mittler	NOUN	NN	Case=Gen	64	nmod	_	_
-67	angemessen	angemessen	ADJ	ADJD	_	53	acl	_	_
+67	angemessen	angemessen	ADJ	ADJD	_	53	acl:relcl	_	_
 68	sey	sein	AUX	VAFIN	_	67	cop	_	SpaceAfter=No
 69	,	,	PUNCT	$,	_	76	punct	_	_
 70	und	und	CCONJ	KON	_	76	cc	_	_
@@ -14597,7 +14597,7 @@
 20	mit	mit	ADP	APPR	_	22	case	_	_
 21	der	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
 22	Gottheit	Gottheit	NOUN	NN	Case=Dat	19	nmod	_	_
-23	steht	stehen	VERB	VVFIN	_	12	acl	_	SpaceAfter=No
+23	steht	stehen	VERB	VVFIN	_	12	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	8	punct	_	_
 
 # newpar id = bluethenstaub-f75
@@ -14665,7 +14665,7 @@
 14	Kaisern	Kaiser	NOUN	NN	Case=Dat	16	nmod	_	_
 15	zu	zu	PART	PTKZU	_	16	mark	_	_
 16	realisiren	realisiren	VERB	VVINF	_	17	xcomp	_	_
-17	begonnen	beginnen	VERB	VVPP	_	6	acl	_	_
+17	begonnen	beginnen	VERB	VVPP	_	6	acl:relcl	_	_
 18	hatten	haben	AUX	VAFIN	_	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -14725,7 +14725,7 @@
 29	oder	oder	CCONJ	KON	_	31	cc	_	_
 30	des	der	DET	ART	Definite=Def|PronType=Art	31	det	_	_
 31	Volks	Volk	NOUN	NN	Case=Gen	28	conj	_	_
-32	gehört	gehören	VERB	VVFIN	_	18	acl	_	SpaceAfter=No
+32	gehört	gehören	VERB	VVFIN	_	18	acl:relcl	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	21	punct	_	_
 
 # genre = fragments
@@ -14894,7 +14894,7 @@
 20	Arten	Art	NOUN	NN	Case=Dat	23	obl	_	_
 21	zu	zu	ADP	APPR	_	22	case	_	_
 22	existiren	existiren	ADJ	ADJD	Case=Dat	23	advmod	_	_
-23	gemischt	mischen	VERB	VVPP	_	7	acl	_	_
+23	gemischt	mischen	VERB	VVPP	_	7	acl:relcl	_	_
 24	ist	sein	AUX	VAFIN	_	23	cop	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -15424,7 +15424,7 @@
 6	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
 8	gemein	gemein	ADJ	ADJD	_	9	advmod	_	_
-9	vorkommen	vorkommen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+9	vorkommen	vorkommen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	gehörte	gehören	VERB	VVFIN	_	0	root	_	_
 12	damals	damals	ADV	ADV	_	11	advmod	_	_
@@ -15516,7 +15516,7 @@
 15	Völkern	Volk	NOUN	NN	_	11	conj	_	_
 16	so	so	ADV	ADV	_	17	advmod	_	_
 17	hoch	hoch	ADJ	ADJD	_	18	advmod	_	_
-18	geschätzt	schätzen	VERB	VVPP	_	5	acl	_	_
+18	geschätzt	schätzen	VERB	VVPP	_	5	acl:relcl	_	_
 19	hat	haben	AUX	VAFIN	_	18	aux	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -15924,7 +15924,7 @@
 48	der	der	DET	ART	Definite=Def|PronType=Art	49	det	_	_
 49	Gottheit	Gottheit	NOUN	NN	Case=Dat	51	obl	_	_
 50	ärztlich	ärztlich	ADJ	ADJD	_	51	advmod	_	_
-51	behandelt	behandeln	VERB	VVPP	_	11	acl	_	SpaceAfter=No
+51	behandelt	behandeln	VERB	VVPP	_	11	acl:relcl	_	SpaceAfter=No
 52	,	,	PUNCT	$,	_	56	punct	_	_
 53	und	und	CCONJ	KON	_	56	cc	_	_
 54	entweder	entweder	CCONJ	KON	_	56	cc	_	_
@@ -16233,7 +16233,7 @@
 22	Gedanken	Gedanke	NOUN	NN	Case=Acc	24	obj	_	_
 23	zu	zu	PART	PTKZU	_	24	mark	_	_
 24	verkörpern	verkörpern	VERB	VVINF	_	25	xcomp	_	_
-25	vermag	vermögen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+25	vermag	vermögen	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	38	punct	_	_
 27	indem	indem	SCONJ	KOUS	_	38	mark	_	_
 28	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
@@ -16731,7 +16731,7 @@
 10	der	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	12	det	_	_
 11	Geschichtschreiber	Geschichtschreiber	ADJ	ADJA	Case=Dat	12	amod	_	_
 12	Form	Form	NOUN	NN	Case=Dat	13	obl:arg	_	_
-13	giebt	gieben	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
+13	giebt	gieben	VERB	VVFIN	_	7	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	16	punct	_	_
 15	durch	durch	ADP	APPR	_	16	case	_	_
 16	Belebung	Belebung	NOUN	NN	Case=Acc	13	obl	_	SpaceAfter=No
@@ -16900,7 +16900,7 @@
 5	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
 6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 7	selbst	selbst	ADV	ADV	_	6	advmod	_	_
-8	durchdrang	durchdringen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+8	durchdrang	durchdringen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	fand	finden	VERB	VVFIN	_	0	root	_	_
 11	hier	hier	ADV	ADV	_	10	advmod	_	_
@@ -16960,7 +16960,7 @@
 41	,	,	PUNCT	$,	_	44	punct	_	_
 42	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	44	nsubj:pass	_	_
 43	bisher	bisher	ADV	ADV	_	44	advmod	_	_
-44	zurückgelegt	zurücklegen	VERB	VVPP	_	40	acl	_	_
+44	zurückgelegt	zurücklegen	VERB	VVPP	_	40	acl:relcl	_	_
 45	wurde	werden	AUX	VAFIN	_	44	aux:pass	_	SpaceAfter=No
 46	,	,	PUNCT	$,	_	44	punct	_	_
 47	macht	machen	VERB	VVFIN	_	2	parataxis	_	_
@@ -17541,7 +17541,7 @@
 10	Bekannten	bekannte	NOUN	NN	Case=Dat	13	obl	_	_
 11	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 12	Art	Art	NOUN	NN	_	10	nmod	_	_
-13	vergrößern	vergrößern	VERB	VVINF	_	4	acl	_	_
+13	vergrößern	vergrößern	VERB	VVINF	_	4	acl:relcl	_	_
 14	kann	können	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -17798,7 +17798,7 @@
 6	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 8	wahre	wahr	ADJ	ADJA	_	9	amod	_	_
-9	Statthalter	Statthalter	NOUN	NN	Case=Nom	3	acl	_	_
+9	Statthalter	Statthalter	NOUN	NN	Case=Nom	3	acl:relcl	_	_
 10	des	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
 11	poetischen	poetisch	ADJ	ADJA	_	12	amod	_	_
 12	Geistes	Geist	NOUN	NN	Case=Gen	9	nmod	_	_
@@ -17862,7 +17862,7 @@
 17	in	in	ADP	APPR	_	19	case	_	_
 18	dem	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	Allgemeinen	allgemein	NOUN	NN	Case=Dat	20	obl	_	_
-20	gefunden	finden	VERB	VVPP	_	11	acl	_	_
+20	gefunden	finden	VERB	VVPP	_	11	acl:relcl	_	_
 21	hat	haben	AUX	VAFIN	_	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -18118,7 +18118,7 @@
 9	beyde	beide	DET	PDS	Case=Acc|NumType=Card|PronType=Tot	12	obj	_	_
 10	durch	durch	ADP	APPR	_	11	case	_	_
 11	Auflösung	Auflösung	NOUN	NN	Case=Acc	12	obl	_	_
-12	identifizirt	identifiziren	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+12	identifizirt	identifiziren	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	19	punct	_	_
 14	und	und	CCONJ	KON	_	19	cc	_	_
 15	diese	dieser	DET	PDAT	PronType=Dem	16	det	_	_
@@ -18367,7 +18367,7 @@
 26	aller	alle	DET	PIAT	PronType=Tot	28	det	_	_
 27	ächten	ächt	ADJ	ADJA	_	28	amod	_	_
 28	Gedanken	Gedanke	NOUN	NN	_	25	nmod	_	_
-29	wird	werden	VERB	VVFIN	_	21	acl	_	SpaceAfter=No
+29	wird	werden	VERB	VVFIN	_	21	acl:relcl	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	29	punct	_	_
 31	der	der	DET	ART	Definite=Def|PronType=Art	32	det	_	_
 32	Anlaß	Anlaß	NOUN	NN	_	25	appos	_	_
@@ -18401,14 +18401,14 @@
 58	Geistes	Geist	NOUN	NN	_	54	nmod	_	SpaceAfter=No
 59	,	,	PUNCT	$,	_	58	punct	_	_
 60	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	61	nmod	_	_
-61	Exponent	Exponent	NOUN	NN	Case=Nom	58	acl	_	_
+61	Exponent	Exponent	NOUN	NN	Case=Nom	58	acl:relcl	_	_
 62	oder	oder	CCONJ	KON	_	63	cc	_	_
 63	Wurzel	Wurzel	NOUN	NN	_	61	conj	_	_
 64	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	65	det:poss	_	_
 65	Individualität	Individualität	NOUN	NN	_	63	nmod	_	_
 66	ist	sein	AUX	VAFIN	_	61	cop	_	SpaceAfter=No
 67	,	,	PUNCT	$,	_	61	punct	_	_
-68	nöthigt	nöthigen	VERB	VVFIN	_	39	acl	_	SpaceAfter=No
+68	nöthigt	nöthigen	VERB	VVFIN	_	39	acl:relcl	_	SpaceAfter=No
 69	.	.	PUNCT	$.	_	68	punct	_	_
 
 # newpar id = bluethenstaub-f113
@@ -18795,7 +18795,7 @@
 9	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	12	nsubj	_	_
 10	nur	nur	ADV	ADV	_	12	advmod	_	_
 11	nicht	nicht	PART	PTKNEG	_	12	advmod	_	_
-12	Bibel	Bibel	NOUN	NN	Case=Nom	7	acl	_	_
+12	Bibel	Bibel	NOUN	NN	Case=Nom	7	acl:relcl	_	_
 13	sein	sein	AUX	VAINF	_	12	cop	_	_
 14	sollte	sollen	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 15	?	?	PUNCT	$.	_	7	punct	_	_
@@ -18894,7 +18894,7 @@
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	19	nsubj	_	_
 18	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
-19	emanzipieren	emanzipieren	VERB	VVINF	_	15	acl	_	_
+19	emanzipieren	emanzipieren	VERB	VVINF	_	15	acl:relcl	_	_
 20	will	wollen	AUX	VMFIN	_	19	aux	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -18949,7 +18949,7 @@
 16	reinen	rein	ADJ	ADJA	_	17	amod	_	_
 17	Gesetzen	Gesetz	NOUN	NN	_	19	nmod	_	_
 18	nicht	nicht	PART	PTKNEG	_	19	advmod	_	_
-19	bestimmt	bestimmen	VERB	VVPP	_	10	acl	_	_
+19	bestimmt	bestimmen	VERB	VVPP	_	10	acl:relcl	_	_
 20	werden	werden	AUX	VAINF	_	19	aux:pass	_	_
 21	kann	können	AUX	VMFIN	_	19	aux	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	19	punct	_	_
@@ -18970,7 +18970,7 @@
 37	nicht	nicht	PART	PTKNEG	_	40	advmod	_	_
 38	die	der	DET	ART	Definite=Def|PronType=Art	39	det	_	_
 39	Willkür	Willkür	NOUN	NN	Case=Nom	40	nsubj	_	_
-40	andrer	anderer	DET	VVINF	PronType=Ind	32	acl	_	SpaceAfter=No
+40	andrer	anderer	DET	VVINF	PronType=Ind	32	acl:relcl	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	40	punct	_	_
 42	und	und	CCONJ	KON	_	46	cc	_	_
 43	dadurch	dadurch	ADV	PROAV	PronType=Dem	46	advmod	_	_
@@ -19127,7 +19127,7 @@
 21	in	in	ADP	APPR	_	23	case	_	_
 22	den	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
 23	Weg	Weg	NOUN	NN	_	24	obl	_	_
-24	legt	legen	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
+24	legt	legen	VERB	VVFIN	_	7	acl:relcl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -19154,7 +19154,7 @@
 17	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Kniegürtel	Kniegürtel	NOUN	NN	Case=Acc	20	obj	_	_
 19	kreuzweise	kreuzweise	ADV	ADV	_	20	advmod	_	_
-20	binden	binden	VERB	VVINF	_	12	acl	_	SpaceAfter=No
+20	binden	binden	VERB	VVINF	_	12	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	24	punct	_	_
 22	gelbe	gelb	ADJ	ADJA	_	23	amod	_	_
 23	Strümpfe	Strümpf	NOUN	NN	Case=Acc	24	obj	_	_
@@ -19257,7 +19257,7 @@
 9	aus	aus	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Zukunft	Zukunft	NOUN	NN	Case=Dat	8	nmod	_	_
-12	nennen	nennen	VERB	VVINF	_	4	acl	_	_
+12	nennen	nennen	VERB	VVINF	_	4	acl:relcl	_	_
 13	könnte	können	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	ist	sein	AUX	VAFIN	_	28	cop	_	_
@@ -19278,7 +19278,7 @@
 30	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	33	nsubj	_	_
 31	bei	bei	ADP	APPR	_	32	case	_	_
 32	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nmod	_	_
-33	progressiv	progressiv	ADJ	ADJD	_	27	acl	_	SpaceAfter=No
+33	progressiv	progressiv	ADJ	ADJD	_	27	acl:relcl	_	SpaceAfter=No
 34	,	,	PUNCT	$,	_	38	punct	_	_
 35	bei	bei	ADP	APPR	_	36	case	_	_
 36	jenem	jener	DET	PDAT	Case=Dat|PronType=Dem	37	det	_	_
@@ -19342,7 +19342,7 @@
 17	des	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 18	Realen	Real	NOUN	NN	_	19	amod	_	_
 19	Bezug	Bezug	NOUN	NN	Case=Gen	15	conj	_	_
-20	hat	haben	AUX	VAFIN	_	5	acl	_	SpaceAfter=No
+20	hat	haben	AUX	VAFIN	_	5	acl:relcl	_	SpaceAfter=No
 21	;	;	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -19385,7 +19385,7 @@
 6	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj:pass	_	_
 7	besser	gut	ADV	ADV	_	9	advmod	_	_
 8	nur	nur	ADV	ADV	_	9	advmod	_	_
-9	gesagt	sagen	VERB	VVPP	_	3	acl	_	_
+9	gesagt	sagen	VERB	VVPP	_	3	acl:relcl	_	_
 10	würde	werden	AUX	VAFIN	_	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	und	und	CCONJ	KON	_	15	cc	_	_
@@ -19395,7 +19395,7 @@
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	19	nsubj	_	_
 18	schicklicher	schicklich	ADJ	ADJD	_	19	advmod	_	_
-19	gedruckt	drucken	VERB	VVPP	_	14	acl	_	_
+19	gedruckt	drucken	VERB	VVPP	_	14	acl:relcl	_	_
 20	wäre	sein	AUX	VAFIN	_	19	aux	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -19417,7 +19417,7 @@
 11	sagen	sagen	VERB	VVFIN	_	14	xcomp	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	schreiben	schreiben	VERB	VVINF	_	11	conj	_	_
-14	lassen	lassen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+14	lassen	lassen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	14	punct	_	_
 16	so	so	ADV	ADV	_	21	advmod	_	_
 17	ists	sein	AUX	VAFIN	_	21	cop	_	_
@@ -19572,7 +19572,7 @@
 7	von	von	ADP	APPR	_	8	case	_	_
 8	Trost	Trost	NOUN	NN	Case=Dat	6	nmod	_	_
 9	dagegen	dagegen	ADV	PROAV	PronType=Dem	10	advmod	_	_
-10	gibt	geben	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+10	gibt	geben	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	2	punct	_	_
 12	ist	sein	AUX	VAFIN	_	2	cop	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	2	punct	_	_
@@ -19734,7 +19734,7 @@
 15	das	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	18	obj	_	_
 16	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	_
 17	selbst	selbst	ADV	ADV	_	18	advmod	_	_
-18	veranstaltet	veranstalten	VERB	VVPP	_	11	acl	_	_
+18	veranstaltet	veranstalten	VERB	VVPP	_	11	acl:relcl	_	_
 19	hat	haben	AUX	VAFIN	_	18	aux	_	SpaceAfter=No
 20	?	?	PUNCT	$.	_	6	punct	_	_
 
@@ -19830,7 +19830,7 @@
 12	immer	immer	ADV	ADV	_	15	advmod	_	_
 13	das	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	erste	erst	ADJ	PIS	Degree=Pos|NumType=Ord	15	xcomp	_	_
-15	bleibt	bleiben	VERB	VVFIN	_	9	acl	_	SpaceAfter=No
+15	bleibt	bleiben	VERB	VVFIN	_	9	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	die	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 18	wichtigsten	wichtig	ADJ	ADJA	_	19	amod	_	_
@@ -19961,7 +19961,7 @@
 6	,	,	PUNCT	$,	_	9	punct	_	_
 7	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
 8	Bildungslosigkeit	Bildungslosigkeit	NOUN	NN	Case=Acc	9	obj	_	_
-9	adeln	adeln	VERB	VVINF	_	5	acl	_	_
+9	adeln	adeln	VERB	VVINF	_	5	acl:relcl	_	_
 10	kann	können	AUX	VMFIN	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	5	punct	_	_
 
@@ -20071,7 +20071,7 @@
 45	weltlichen	weltlich	ADJ	ADJA	_	43	conj	_	_
 46	Rechten	Recht	NOUN	NN	Case=Dat	34	obl	_	_
 47	darin	darin	X	PROAV	_	48	dep	_	_
-48	besteht	bestehen	VERB	VVFIN	_	25	acl	_	SpaceAfter=No
+48	besteht	bestehen	VERB	VVFIN	_	25	acl:relcl	_	SpaceAfter=No
 49	,	,	PUNCT	$,	_	48	punct	_	_
 50	daß	daß	SCONJ	KOUS	_	54	mark	_	_
 51	mehre	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	52	advmod	_	_
@@ -20100,7 +20100,7 @@
 11	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Acc	13	obj	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	haben	haben	VERB	VVINF	_	14	xcomp	_	_
-14	scheint	scheinen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+14	scheint	scheinen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -20118,7 +20118,7 @@
 8	wohl	wohl	ADV	ADV	_	11	advmod	_	_
 9	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	10	det	_	_
 10	Wort	Wort	NOUN	NN	Case=Acc	11	obj	_	_
-11	mitreden	mitreden	VERB	VVINF	_	5	acl	_	_
+11	mitreden	mitreden	VERB	VVINF	_	5	acl:relcl	_	_
 12	darf	dürfen	AUX	VMFIN	_	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	17	punct	_	_
 14	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
@@ -20206,7 +20206,7 @@
 28	vielleicht	vielleicht	ADV	ADV	_	29	advmod	_	_
 29	glücklichere	glücklich	ADJ	ADJA	_	26	conj	_	_
 30	Versuche	Versuch	NOUN	NN	Case=Acc	31	obl	_	_
-31	befördert	befördern	VERB	VVPP	_	21	acl	_	_
+31	befördert	befördern	VERB	VVPP	_	21	acl:relcl	_	_
 32	werden	werden	AUX	VAINF	_	31	aux:pass	_	_
 33	könnte	können	AUX	VMFIN	_	31	aux	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	15	punct	_	_
@@ -20233,7 +20233,7 @@
 14	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	17	obj	_	_
 15	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	16	det	_	_
 16	Mensch	Mensch	NOUN	NN	Case=Nom	17	nsubj	_	_
-17	hat	haben	VERB	VVFIN	_	12	acl	_	SpaceAfter=No
+17	hat	haben	VERB	VVFIN	_	12	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	17	punct	_	_
 19	haben	haben	VERB	VVFIN	_	8	conj	_	_
 20	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
@@ -20348,7 +20348,7 @@
 12	auf	auf	ADP	APPR	_	14	case	_	_
 13	der	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Bühne	Bühne	NOUN	NN	_	15	obl	_	_
-15	existiert	existieren	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+15	existiert	existieren	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	Foderungen	Foderung	NOUN	NN	Case=Acc	2	obj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	17	punct	_	_
@@ -20358,7 +20358,7 @@
 22	höhere	hoch	ADJ	ADJA	_	24	amod	_	_
 23	dramatische	dramatisch	ADJ	ADJA	_	24	amod	_	_
 24	Kunst	Kunst	NOUN	NN	Case=Acc	25	obl	_	_
-25	erfüllt	erfüllen	VERB	VVPP	_	17	acl	_	_
+25	erfüllt	erfüllen	VERB	VVPP	_	17	acl:relcl	_	_
 26	werden	werden	AUX	VAINF	_	25	aux:pass	_	_
 27	können	können	AUX	VMFIN	_	25	aux	_	SpaceAfter=No
 28	?	?	PUNCT	$.	_	2	punct	_	_
@@ -20457,7 +20457,7 @@
 6	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 7	sonst	sonst	ADV	ADV	_	9	advmod	_	_
 8	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
-9	haben	haben	AUX	VAINF	_	3	acl	_	_
+9	haben	haben	AUX	VAINF	_	3	acl:relcl	_	_
 10	würden	werden	AUX	VAFIN	_	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	9	punct	_	_
 12	erhalten	erhalten	VERB	VVFIN	_	0	root	_	_
@@ -20513,7 +20513,7 @@
 18	an	an	ADP	APPR	_	20	case	_	_
 19	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	20	det	_	_
 20	Organ	Organ	NOUN	NN	Case=Dat	21	obl	_	_
-21	fehlte	fehlen	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
+21	fehlte	fehlen	VERB	VVFIN	_	14	acl:relcl	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	37	punct	_	_
 23	um	um	SCONJ	KOUI	_	37	mark	_	_
 24	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	37	obj	_	_
@@ -20523,7 +20523,7 @@
 28	über	über	ADP	APPR	_	29	case	_	_
 29	die	der	PRON	PRELS	PronType=Dem,Rel	31	obl	_	_
 30	Kant	Kant	NOUN	NN	Case=Nom	31	nsubj	_	_
-31	geschrieben	schreiben	VERB	VVPP	_	27	acl	_	_
+31	geschrieben	schreiben	VERB	VVPP	_	27	acl:relcl	_	_
 32	hat	haben	AUX	VAFIN	_	31	aux	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	31	punct	_	_
 34	einige	einige	DET	PIAT	PronType=Ind	35	det	_	_
@@ -20539,7 +20539,7 @@
 44	das	der	DET	ART	Definite=Def|PronType=Art	46	det	_	_
 45	kleine	klein	ADJ	ADJA	_	46	amod	_	_
 46	Unglück	Unglück	NOUN	NN	Case=Acc	47	obj	_	_
-47	hatten	haben	AUX	VAFIN	_	40	acl	_	SpaceAfter=No
+47	hatten	haben	AUX	VAFIN	_	40	acl:relcl	_	SpaceAfter=No
 48	,	,	PUNCT	$,	_	51	punct	_	_
 49	niemand	niemand	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	51	obj	_	_
 50	zu	zu	PART	PTKZU	_	51	mark	_	_
@@ -20555,7 +20555,7 @@
 60	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	63	obj	_	_
 61	noch	noch	ADV	ADV	_	63	advmod	_	_
 62	verworrener	verworren	ADV	ADV	_	63	advmod	_	_
-63	ausdrückten	ausdrücken	VERB	VVFIN	_	57	acl	_	_
+63	ausdrückten	ausdrücken	VERB	VVFIN	_	57	acl:relcl	_	_
 64	als	als	CCONJ	KOKOM	_	65	cc	_	_
 65	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	63	obl	_	SpaceAfter=No
 66	.	.	PUNCT	$.	_	14	punct	_	_
@@ -20648,7 +20648,7 @@
 28	bei	bei	ADP	APPR	_	30	case	_	_
 29	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	30	det	_	_
 30	Werk	Werk	NOUN	NN	Case=Dat	31	obl	_	_
-31	gefragt	fragen	VERB	VVPP	_	8	acl	_	_
+31	gefragt	fragen	VERB	VVPP	_	8	acl:relcl	_	_
 32	wird	werden	AUX	VAFIN	_	31	aux:pass	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -20980,7 +20980,7 @@
 12	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 13	selbst	selbst	ADV	ADV	_	15	advmod	_	_
 14	unsäglich	unsäglich	ADV	ADV	_	15	advmod	_	_
-15	albern	albern	ADJ	ADJD	_	6	acl	_	_
+15	albern	albern	ADJ	ADJD	_	6	acl:relcl	_	_
 16	ist	sein	AUX	VAFIN	_	15	cop	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -21085,7 +21085,7 @@
 14	,	,	PUNCT	$,	_	17	punct	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 16	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	17	amod	_	_
-17	Regung	Regung	NOUN	NN	Case=Nom	5	acl	_	_
+17	Regung	Regung	NOUN	NN	Case=Nom	5	acl:relcl	_	_
 18	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	Philosophie	Philosophie	NOUN	NN	_	17	nmod	_	_
 20	ist	sein	AUX	VAFIN	_	17	cop	_	SpaceAfter=No
@@ -21319,7 +21319,7 @@
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
 8	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	9	obl:arg	_	_
-9	vorkömmt	vorkömmen	VERB	VVFIN	_	5	acl	_	_
+9	vorkömmt	vorkömmen	VERB	VVFIN	_	5	acl:relcl	_	_
 10	kritisiert	kritisieren	VERB	VVFIN	_	18	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	so	so	ADV	ADV	_	18	advmod	_	_
@@ -21676,7 +21676,7 @@
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Freiheit	Freiheit	NOUN	NN	Case=Acc	19	obl	_	_
 18	entbehrlich	entbehrlich	ADJ	ADJD	_	19	xcomp	_	_
-19	werden	werden	VERB	VFINF	_	10	acl	_	_
+19	werden	werden	VERB	VFINF	_	10	acl:relcl	_	_
 20	würden	werden	AUX	VAFIN	_	19	aux	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -21745,7 +21745,7 @@
 7	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 8	Kantische	kantisch	ADJ	ADJA	_	9	amod	_	_
 9	Philosophie	Philosophie	NOUN	NN	Case=Acc	10	obl	_	_
-10	existieren	existieren	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+10	existieren	existieren	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	3	punct	_	_
 12	sind	sein	AUX	VAFIN	_	15	cop	_	_
 13	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
@@ -21771,7 +21771,7 @@
 4	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	7	nsubj:pass	_	_
 5	in	in	ADP	APPR	_	6	case	_	_
 6	England	England	PROPN	NE	_	7	obl	_	_
-7	entstanden	entstehen	VERB	VVPP	_	2	acl	_	_
+7	entstanden	entstehen	VERB	VVPP	_	2	acl:relcl	_	_
 8	ist	sein	AUX	VAFIN	_	7	aux	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	7	punct	_	_
 10	drohte	drohen	VERB	VVFIN	_	0	root	_	_
@@ -22027,7 +22027,7 @@
 13	Wünsche	Wunsch	NOUN	NN	_	11	nmod	_	_
 14	völlig	völlig	ADJ	ADJD	_	16	advmod	_	_
 15	Verzicht	Verzicht	NOUN	NN	Case=Acc	16	obj	_	_
-16	tun	tun	VERB	VVINF	_	3	acl	_	_
+16	tun	tun	VERB	VVINF	_	3	acl:relcl	_	_
 17	kann	können	AUX	VMFIN	_	16	aux	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	24	punct	_	_
 19	wo	wo	ADV	PWAV	_	24	advmod	_	_
@@ -22138,7 +22138,7 @@
 14	Genuß	Genuß	NOUN	NN	Case=Dat	17	obl:arg	_	_
 15	des	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 16	Liebhabers	Liebhaber	NOUN	NN	Case=Gen	14	nmod	_	_
-17	verursachen	verursachen	VERB	VVINF	_	6	acl	_	_
+17	verursachen	verursachen	VERB	VVINF	_	6	acl:relcl	_	_
 18	soll	sollen	AUX	VMFIN	_	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -22329,7 +22329,7 @@
 17	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	wirklichen	wirklich	NOUN	NN	Case=Acc	20	obj	_	_
 19	zu	zu	PART	PTKZU	_	20	mark	_	_
-20	erraten	erraten	VERB	VVINF	_	10	acl	_	SpaceAfter=No
+20	erraten	erraten	VERB	VVINF	_	10	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	23	punct	_	_
 22	und	und	CCONJ	KON	_	23	cc	_	_
 23	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	5	conj	_	_
@@ -22813,7 +22813,7 @@
 17	oder	oder	CCONJ	KON	_	19	cc	_	_
 18	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
 19	Wink	Wink	NOUN	NN	_	16	conj	_	_
-20	geben	geben	VERB	VVINF	_	11	acl	_	SpaceAfter=No
+20	geben	geben	VERB	VVINF	_	11	acl:relcl	_	SpaceAfter=No
 21	;	;	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -22825,14 +22825,14 @@
 2	,	,	PUNCT	$,	_	5	punct	_	_
 3	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	5	nsubj	_	_
 4	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	_
-5	erklären	erklären	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
+5	erklären	erklären	VERB	VVFIN	_	1	acl:relcl	_	SpaceAfter=No
 6	;	;	PUNCT	$.	_	1	punct	_	_
 7	und	und	CCONJ	KON	_	8	cc	_	_
 8	Erklärungen	Erklärung	NOUN	NN	_	1	conj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	12	nsubj	_	_
 11	alles	alle	DET	PIS	Case=Acc|PronType=Tot	12	obj	_	_
-12	verdunkeln	verdunkeln	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+12	verdunkeln	verdunkeln	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	1	punct	_	_
 
 # genre = fragments
@@ -22863,7 +22863,7 @@
 21	Definition	Definition	NOUN	NN	Case=Nom	27	nsubj	_	_
 22	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	24	nsubj	_	_
 23	nicht	nicht	PART	PTKNEG	_	24	advmod	_	_
-24	witzig	witzig	ADJ	ADJD	_	21	acl	_	_
+24	witzig	witzig	ADJ	ADJD	_	21	acl:relcl	_	_
 25	ist	sein	AUX	VAFIN	_	24	cop	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	24	punct	_	_
 27	taugt	taugen	VERB	VVFIN	_	18	parataxis	_	_
@@ -23141,7 +23141,7 @@
 19	allein	allein	ADV	ADV	_	22	advmod	_	_
 20	den	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Namen	Name	NOUN	NN	Case=Acc	22	obj	_	_
-22	verdient	verdienen	VERB	VVPP	_	10	acl	_	SpaceAfter=No
+22	verdient	verdienen	VERB	VVPP	_	10	acl:relcl	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	22	punct	_	_
 24	der	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
 25	chemischen	chemisch	ADJ	ADJA	_	26	amod	_	_
@@ -23321,7 +23321,7 @@
 6	ganze	ganz	ADJ	ADJA	_	7	amod	_	_
 7	Tätigkeit	Tätigkeit	NOUN	NN	Case=Nom	9	nsubj	_	_
 8	darin	darin	ADV	PAV	PronType=Dem	9	advmod	_	_
-9	besteht	bestehen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+9	besteht	bestehen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	immer	immer	ADV	ADV	_	14	advmod	_	_
 12	Nein	Nein	NOUN	NN	Case=Acc	14	obj	_	_
@@ -23465,7 +23465,7 @@
 10	,	,	PUNCT	$,	_	13	punct	_	_
 11	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	13	nsubj	_	_
 12	praktisch	praktisch	ADJ	ADJD	_	13	advmod	_	_
-13	notwendig	notwendig	ADJ	ADJD	_	9	acl	_	_
+13	notwendig	notwendig	ADJ	ADJD	_	9	acl:relcl	_	_
 14	ist	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -23502,7 +23502,7 @@
 25	Poetik	Poetik	NOUN	NN	Case=Acc	28	obj	_	_
 26	und	und	CCONJ	KON	_	27	cc	_	_
 27	Ethik	Ethik	NOUN	NN	_	25	conj	_	_
-28	entgegengesetzte	entgegengesetzen	ADV	ADV	_	23	acl	_	SpaceAfter=No
+28	entgegengesetzte	entgegengesetzen	ADV	ADV	_	23	acl:relcl	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	31	punct	_	_
 30	und	und	CCONJ	KON	_	31	cc	_	_
 31	koordinierte	koordiniert	ADJ	ADJA	_	28	conj	_	_
@@ -23524,7 +23524,7 @@
 47	Möglichkeit	Möglichkeit	NOUN	NN	_	45	nmod	_	_
 48	eines	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	49	det	_	_
 49	Systems	Systems	NOUN	NN	Case=Gen	47	nmod	_	_
-50	ausgeht	ausgehen	VERB	VVFIN	_	33	acl	_	SpaceAfter=No
+50	ausgeht	ausgehen	VERB	VVFIN	_	33	acl:relcl	_	SpaceAfter=No
 51	.	.	PUNCT	$.	_	6	punct	_	_
 
 # newpar id = athenaeum-f92
@@ -23759,7 +23759,7 @@
 9	des	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 10	logischen	logisch	ADJ	ADJA	_	11	amod	_	_
 11	Ideals	Ideal	NOUN	NN	Case=Gen	8	nmod	_	_
-12	beiträgt	beitragen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+12	beiträgt	beitragen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	17	punct	_	_
 14	und	und	CCONJ	KON	_	17	cc	_	_
 15	wissenschaftliche	wissenschaftlich	ADJ	ADJA	_	16	amod	_	_
@@ -23816,7 +23816,7 @@
 8	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 9	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
 10	Menschen	Mensch	NOUN	NN	Case=Acc	11	obj	_	_
-11	eignet	eignen	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+11	eignet	eignen	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 12	?	?	PUNCT	$.	_	11	punct	_	SpaceAfter=No
 13	«	«	X	XY	_	11	obj	_	_
 
@@ -23958,7 +23958,7 @@
 19	weit	weit	ADJ	ADJD	_	22	advmod	_	_
 20	eher	eher	ADV	ADV	_	22	advmod	_	_
 21	lernen	lernen	VERB	VVINF	_	22	xcomp	_	_
-22	läßt	lassen	VERB	VVFIN	_	15	acl	_	SpaceAfter=No
+22	läßt	lassen	VERB	VVFIN	_	15	acl:relcl	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	8	punct	_	_
 
 # newpar id = athenaeum-f103
@@ -24050,7 +24050,7 @@
 15	deutsche	deutsch	ADJ	ADJA	_	17	amod	_	_
 16	philosophische	philosophisch	ADJ	ADJA	_	17	amod	_	_
 17	Literatur	Literatur	NOUN	NN	Case=Acc	18	obl	_	_
-18	interessiert	interessiert	ADJ	ADJD	_	7	acl	_	SpaceAfter=No
+18	interessiert	interessiert	ADJ	ADJD	_	7	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	7	punct	_	_
 
 # genre = fragments
@@ -24116,7 +24116,7 @@
 15	großen	groß	ADJ	ADJA	_	16	amod	_	_
 16	Meisters	Meister	NOUN	NN	Case=Gen	13	nmod	_	_
 17	selbständig	selbständig	ADV	ADV	_	18	advmod	_	_
-18	angeeignet	aneignen	VERB	VVPP	_	8	acl	_	SpaceAfter=No
+18	angeeignet	aneignen	VERB	VVPP	_	8	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	21	punct	_	_
 20	und	und	CCONJ	KON	_	21	cc	_	_
 21	angebildet	anbilden	VERB	VVPP	_	18	conj	_	_
@@ -24157,7 +24157,7 @@
 5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	_
 6	kritisierten	kritisiert	ADJ	ADJA	_	7	amod	_	_
 7	Mystizismus	Mystizismus	NOUN	NN	_	8	xcomp	_	_
-8	nennen	nennen	VERB	VVINF	_	2	acl	_	_
+8	nennen	nennen	VERB	VVINF	_	2	acl:relcl	_	_
 9	könnte	können	AUX	VMFIN	_	8	aux	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	8	punct	_	_
 11	endigt	endigen	VERB	VVFIN	_	0	root	_	SpaceAfter=No
@@ -24516,7 +24516,7 @@
 3	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	6	nsubj	_	_
 4	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	5	det	_	_
 5	Roman	Roman	NOUN	NN	Case=Acc	6	obj	_	_
-6	geben	geben	VERB	VVINF	_	2	acl	_	_
+6	geben	geben	VERB	VVINF	_	2	acl:relcl	_	_
 7	will	wollen	AUX	VMFIN	_	6	aux	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	müssen	müssen	AUX	VMFIN	_	10	aux	_	_
@@ -24528,7 +24528,7 @@
 15	nur	nur	ADV	ADV	_	18	advmod	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
 17	Ganzen	ganze	NOUN	NN	_	18	obl	_	_
-18	mitteilen	mitteilen	VERB	VVFIN	_	10	acl	_	SpaceAfter=No
+18	mitteilen	mitteilen	VERB	VVFIN	_	10	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	22	punct	_	_
 20	nicht	nicht	PART	PTKNEG	_	22	advmod	_	_
 21	einzeln	einzeln	ADJ	ADJD	Degree=Pos	22	advmod	_	_
@@ -24565,7 +24565,7 @@
 2	Philosophen	Philosoph	NOUN	NN	Case=Acc	8	obj	_	_
 3	welche	welcher	DET	PWAT	Case=Nom|PronType=Int,Rel	5	nsubj	_	_
 4	nicht	nicht	PART	PTKNEG	_	5	advmod	_	_
-5	gegeneinander	gegeneinander	ADV	ADV	_	2	acl	_	_
+5	gegeneinander	gegeneinander	ADV	ADV	_	2	acl:relcl	_	_
 6	sind	sein	AUX	VAFIN	_	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	5	punct	_	_
 8	verbindet	verbinden	VERB	VVFIN	_	0	root	_	_
@@ -24594,7 +24594,7 @@
 9	System	System	NOUN	NN	Case=Acc	12	obj	_	_
 10	von	von	ADP	APPR	_	11	case	_	_
 11	Definitionen	Definition	NOUN	NN	Case=Dat	9	nmod	_	_
-12	enthält	enthalten	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+12	enthält	enthalten	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
 # newpar id = athenaeum-f114
@@ -24888,7 +24888,7 @@
 31	das	der	DET	ART	Definite=Def|PronType=Art	33	det	_	_
 32	dichtende	dichtend	ADJ	ADJA	_	33	amod	_	_
 33	Kind	Kind	NOUN	NN	Case=Nom	34	nsubj	_	_
-34	aushaucht	aushauchen	VERB	VVFIN	_	28	acl	_	_
+34	aushaucht	aushauchen	VERB	VVFIN	_	28	acl:relcl	_	_
 35	in	in	ADP	APPR	_	37	case	_	_
 36	kunstlosen	kunstlos	ADJ	ADJA	_	37	amod	_	_
 37	Gesang	Gesang	NOUN	NN	_	34	obl	_	SpaceAfter=No
@@ -24937,7 +24937,7 @@
 36	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	39	nsubj	_	_
 37	so	so	ADV	ADV	_	39	advmod	_	_
 38	dazu	dazu	ADV	PAV	PronType=Dem	39	advmod	_	_
-39	gemacht	machen	VERB	VVPP	_	34	acl	_	_
+39	gemacht	machen	VERB	VVPP	_	34	acl:relcl	_	_
 40	wäre	sein	AUX	VAFIN	_	39	aux	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	47	punct	_	_
 42	den	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
@@ -24957,7 +24957,7 @@
 56	auch	auch	ADV	ADV	_	59	advmod	_	_
 57	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	58	det	_	_
 58	Roman	Roman	NOUN	NN	Case=Acc	59	obj	_	_
-59	schreiben	schreiben	VERB	VVINF	_	52	acl	_	_
+59	schreiben	schreiben	VERB	VVINF	_	52	acl:relcl	_	_
 60	wollten	wollen	AUX	VMFIN	_	59	aux	_	SpaceAfter=No
 61	,	,	PUNCT	$,	_	59	punct	_	_
 62	von	von	ADP	APPR	_	63	case	_	_
@@ -25079,7 +25079,7 @@
 26	,	,	PUNCT	$,	_	29	punct	_	_
 27	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	29	nsubj	_	_
 28	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	29	det	_	_
-29	Ganzes	ganze	NOUN	NN	Case=Nom	25	acl	_	_
+29	Ganzes	ganze	NOUN	NN	Case=Nom	25	acl:relcl	_	_
 30	in	in	ADP	APPR	_	32	case	_	_
 31	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
 32	Produkten	Produkt	NOUN	NN	_	29	nmod	_	_
@@ -25266,7 +25266,7 @@
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 9	mehr	mehr	ADV	ADV	_	11	advmod	_	_
 10	als	als	ADP	APPR	_	11	case	_	_
-11	Art	Art	NOUN	NN	Case=Nom	6	acl	_	SpaceAfter=No
+11	Art	Art	NOUN	NN	Case=Nom	6	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	16	punct	_	_
 13	und	und	CCONJ	KON	_	16	cc	_	_
 14	gleichsam	gleichsam	ADV	ADV	_	16	advmod	_	_
@@ -25310,7 +25310,7 @@
 13	und	und	CCONJ	KON	_	15	cc	_	_
 14	gleichsam	gleichsam	ADJ	ADJD	_	15	advmod	_	_
 15	Persönlichkeit	Persönlichkeit	NOUN	NN	_	11	nmod	_	_
-16	hat	haben	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
+16	hat	haben	VERB	VVFIN	_	1	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	20	punct	_	_
 18	wie	wie	ADP	APPR	_	20	case	_	_
 19	die	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
@@ -25379,7 +25379,7 @@
 34	dann	dann	ADV	ADV	_	37	advmod	_	_
 35	gewöhnlich	gewöhnlich	ADV	ADV	_	37	advmod	_	_
 36	des	der	DET	ART	Definite=Def|PronType=Art	37	det	_	_
-37	Verfassers	Verfasser	NOUN	NN	Case=Gen	31	acl	_	_
+37	Verfassers	Verfasser	NOUN	NN	Case=Gen	31	acl:relcl	_	_
 38	unartiges	unartig	ADJ	ADJA	_	39	amod	_	_
 39	Schoßkind	Schoßkind	NOUN	NN	_	37	nmod	_	_
 40	ist	sein	AUX	VAFIN	_	37	cop	_	SpaceAfter=No
@@ -25470,7 +25470,7 @@
 7	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
 8	bloß	bloß	ADV	ADV	_	10	advmod	_	_
 9	Eigensinn	Eigensinn	NOUN	NN	_	10	xcomp	_	_
-10	scheinen	scheinen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+10	scheinen	scheinen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	haben	haben	AUX	VAFIN	_	0	root	_	_
 13	oft	oft	ADV	ADV	_	12	advmod	_	_
@@ -25508,7 +25508,7 @@
 23	,	,	PUNCT	$,	_	22	punct	_	_
 24	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	26	nsubj	_	_
 25	so	so	ADV	ADV	_	26	advmod	_	_
-26	sicher	sicher	ADJ	ADJD	_	20	acl	_	_
+26	sicher	sicher	ADJ	ADJD	_	20	acl:relcl	_	_
 27	und	und	CCONJ	KON	_	29	cc	_	_
 28	so	so	ADV	ADV	_	29	advmod	_	_
 29	vollendet	vollenden	VERB	VVPP	_	26	conj	_	_
@@ -25560,7 +25560,7 @@
 22	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 23	soliden	solide	ADJ	ADJA	_	24	amod	_	_
 24	Wert	Wert	NOUN	NN	Case=Acc	25	obj	_	_
-25	behalten	behalten	VERB	VVINF	_	18	acl	_	SpaceAfter=No
+25	behalten	behalten	VERB	VVINF	_	18	acl:relcl	_	SpaceAfter=No
 26	,	,	PUNCT	$,	_	34	punct	_	_
 27	wenn	wenn	SCONJ	KOUS	_	34	mark	_	_
 28	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	34	nsubj	_	_
@@ -25695,7 +25695,7 @@
 8	nach	nach	ADP	APPR	_	10	case	_	_
 9	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Regel	Regel	NOUN	NN	Case=Dat	11	obl	_	_
-11	repräsentieren	repräsentieren	VERB	VVINF	_	5	acl	_	_
+11	repräsentieren	repräsentieren	VERB	VVINF	_	5	acl:relcl	_	_
 12	sollte	sollen	AUX	VMFIN	_	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	18	punct	_	_
 14	und	und	CCONJ	KON	_	18	cc	_	_
@@ -25728,7 +25728,7 @@
 15	Antithesen	Antithese	NOUN	NN	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	18	punct	_	_
 17	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	18	nsubj	_	_
-18	stete	sten	VERB	VVFIN	_	13	acl	_	_
+18	stete	sten	VERB	VVFIN	_	13	acl:relcl	_	_
 19	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	_
 20	selbst	selbst	ADV	ADV	_	19	advmod	_	_
 21	erzeugende	erzeugend	ADJ	ADJA	_	22	amod	_	_
@@ -25860,7 +25860,7 @@
 27	und	und	CCONJ	KON	_	30	cc	_	_
 28	als	als	ADP	APPR	_	29	case	_	_
 29	Wunder	Wunder	NOUN	NN	_	26	conj	_	_
-30	betrachtet	betrachten	VERB	VVPP	_	17	acl	_	SpaceAfter=No
+30	betrachtet	betrachten	VERB	VVPP	_	17	acl:relcl	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	41	punct	_	_
 32	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	41	obj	_	_
 33	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
@@ -25942,7 +25942,7 @@
 9	bei	bei	ADP	APPR	_	10	case	_	_
 10	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	12	nmod	_	_
 11	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	12	nsubj	_	_
-12	Instinkt	Instinkt	NOUN	NN	Case=Nom	7	acl	_	_
+12	Instinkt	Instinkt	NOUN	NN	Case=Nom	7	acl:relcl	_	_
 13	war	sein	AUX	VAFIN	_	12	cop	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	eigentlich	eigentlich	ADV	ADV	_	5	advmod	_	_
@@ -26009,7 +26009,7 @@
 11	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	14	nsubj	_	_
 12	einen	ein	DET	PIS	Definite=Ind|NumType=Card|PronType=Art	14	det	_	_
 13	weder	weder	CCONJ	KON	_	14	cc	_	_
-14	kalt	kalt	ADJ	ADJD	_	5	acl	_	_
+14	kalt	kalt	ADJ	ADJD	_	5	acl:relcl	_	_
 15	noch	noch	CCONJ	KON	_	16	cc	_	_
 16	warm	warm	ADJ	ADJD	_	14	conj	_	_
 17	macht	machen	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
@@ -26252,7 +26252,7 @@
 3	,	,	PUNCT	$,	_	6	punct	_	_
 4	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 5	jenem	jener	DET	PDS	Case=Dat|PronType=Dem	6	obl:arg	_	_
-6	fehlt	fehlen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+6	fehlt	fehlen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	hat	haben	AUX	VAFIN	_	0	root	_	_
 9	dieser	dieser	DET	PDS	Case=Nom|PronType=Dem	8	nsubj	_	SpaceAfter=No
@@ -26345,7 +26345,7 @@
 18	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	21	nsubj	_	_
 19	nicht	nicht	PART	PTKNEG	_	21	advmod	_	_
 20	einmal	einmal	ADV	ADV	_	21	advmod	_	_
-21	vortrefflich	vortrefflich	ADJ	ADJD	_	15	acl	_	_
+21	vortrefflich	vortrefflich	ADJ	ADJD	_	15	acl:relcl	_	_
 22	sind	sein	AUX	VAFIN	_	21	cop	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -26388,7 +26388,7 @@
 31	aber	aber	ADV	ADV	_	34	advmod	_	_
 32	dafür	dafür	ADV	PROAV	PronType=Dem	34	advmod	_	_
 33	auch	auch	ADV	ADV	_	34	advmod	_	_
-34	heißen	heißen	VERB	VVINF	_	25	acl	_	_
+34	heißen	heißen	VERB	VVINF	_	25	acl:relcl	_	_
 35	kann	können	AUX	VMFIN	_	34	aux	_	SpaceAfter=No
 36	:	:	PUNCT	$.	_	3	punct	_	_
 
@@ -26458,7 +26458,7 @@
 15	möchte	mögen	AUX	VMFIN	_	14	aux	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	14	punct	_	_
 17	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	18	nsubj	_	_
-18	gewohnt	gewohnt	VERB	VVPP	_	12	acl	_	_
+18	gewohnt	gewohnt	VERB	VVPP	_	12	acl:relcl	_	_
 19	ist	sein	AUX	VAFIN	_	18	cop	_	_
 20	im	in	ADP	APPRART	_	21	case	_	_
 21	Licht	Licht	NOUN	NN	_	25	obl	_	_
@@ -26611,7 +26611,7 @@
 14	Kraft	Kraft	NOUN	NN	_	12	nmod	_	_
 15	an	an	ADP	APPR	_	16	case	_	_
 16	Biegsamkeit	Biegsamkeit	NOUN	NN	_	17	obl	_	_
-17	fehlt	fehlen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+17	fehlt	fehlen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -26708,7 +26708,7 @@
 36	Namen	Name	NOUN	NN	Case=Dat	38	obl	_	_
 37	zu	zu	PART	PTKZU	_	38	mark	_	_
 38	bezeichnen	bezeichnen	VERB	VVINF	_	39	xcomp	_	_
-39	pflegt	pflegen	VERB	VVFIN	_	30	acl	_	SpaceAfter=No
+39	pflegt	pflegen	VERB	VVFIN	_	30	acl:relcl	_	SpaceAfter=No
 40	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -26758,7 +26758,7 @@
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
 9	nicht	nicht	PART	PTKNEG	_	10	advmod	_	_
-10	glauben	glauben	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+10	glauben	glauben	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	wo	wo	ADV	PWAV	_	15	advmod	_	_
 13	sie	sie	PRON	PPER	Case=Acc|Person=3|PronType=Prs	15	obj	_	_
@@ -26857,7 +26857,7 @@
 14	der	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
 15	bessern	bessern	ADJ	ADJA	_	16	amod	_	_
 16	Zukunft	Zukunft	NOUN	NN	_	13	nmod	_	_
-17	ertragen	ertragen	VERB	VVINF	_	5	acl	_	_
+17	ertragen	ertragen	VERB	VVINF	_	5	acl:relcl	_	_
 18	sollte	sollen	AUX	VMFIN	_	17	aux	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	17	punct	_	_
 20	mehr	mehr	DET	PIS	Degree=Cmp|ExtPos=ADV|PronType=Ind	24	advmod	_	_
@@ -27363,7 +27363,7 @@
 16	,	,	PUNCT	$,	_	17	punct	_	_
 17	Suetonius	Suetonius	PROPN	NE	_	13	conj	_	_
 18	das	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
-19	Urbanste	Urbanst	NOUN	NN	Case=Nom	6	acl	_	SpaceAfter=No
+19	Urbanste	Urbanst	NOUN	NN	Case=Nom	6	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	22	punct	_	_
 21	das	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
 22	Originalste	Originalste	NOUN	NN	_	19	conj	_	_
@@ -27456,7 +27456,7 @@
 6	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	9	obj	_	_
 7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	je	je	ADV	ADV	_	9	advmod	_	_
-9	gegeben	geben	VERB	VVPP	_	4	acl	_	_
+9	gegeben	geben	VERB	VVPP	_	4	acl:relcl	_	_
 10	hat	haben	AUX	VAFIN	_	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	9	punct	_	_
 12	ist	sein	AUX	VAFIN	_	13	cop	_	_
@@ -27495,7 +27495,7 @@
 9	wie	wie	SCONJ	KOUS	_	11	case	_	_
 10	Einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	_
 11	Autor	Autor	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
-12	las	las	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+12	las	las	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	17	punct	_	_
 14	alles	alle	DET	PIS	Case=Acc|PronType=Tot	17	obj	_	_
 15	im	in	ADP	APPRART	_	16	case	_	_
@@ -27554,7 +27554,7 @@
 14	Modernen	modern	NOUN	NN	_	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	17	punct	_	_
 16	die	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	17	nsubj	_	_
-17	war	sein	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+17	war	sein	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	19	punct	_	_
 19	ist	sein	VERB	VVFIN	_	17	conj	_	_
 20	oder	oder	CCONJ	KON	_	21	cc	_	_
@@ -27681,7 +27681,7 @@
 8	,	,	PUNCT	$,	_	11	punct	_	_
 9	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 10	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
-11	Redner	Redner	NOUN	NN	Case=Nom	5	acl	_	SpaceAfter=No
+11	Redner	Redner	NOUN	NN	Case=Nom	5	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	16	punct	_	_
 13	ja	ja	ADV	ADV	_	14	advmod	_	_
 14	sogar	sogar	ADV	ADV	_	16	advmod	_	_
@@ -27754,7 +27754,7 @@
 18	durch	durch	ADP	APPR	_	20	case	_	_
 19	die	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
 20	Tat	Tat	NOUN	NN	Case=Acc	21	obl	_	_
-21	gemacht	machen	VERB	VVPP	_	4	acl	_	_
+21	gemacht	machen	VERB	VVPP	_	4	acl:relcl	_	_
 22	haben	haben	AUX	VAINF	_	21	aux	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	28	punct	_	_
 24	oder	oder	CCONJ	KON	_	28	cc	_	_
@@ -27813,7 +27813,7 @@
 41	auf	auf	ADP	APPR	_	43	case	_	_
 42	die	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
 43	Erde	Erde	NOUN	NN	_	44	obl	_	_
-44	verflog	verfliegen	VERB	VVFIN	_	33	acl	_	SpaceAfter=No
+44	verflog	verfliegen	VERB	VVFIN	_	33	acl:relcl	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	14	punct	_	_
 
 # newpar id = athenaeum-f155
@@ -27971,7 +27971,7 @@
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	_	_
 9	Catullisch	Catullisch	ADJ	ADJD	_	10	xcomp	_	_
-10	scheinen	scheinen	VERB	VVINF	_	6	acl	_	_
+10	scheinen	scheinen	VERB	VVINF	_	6	acl:relcl	_	_
 11	könnte	können	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -28136,7 +28136,7 @@
 16	der	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 17	heroische	heroisch	ADJ	ADJA	_	18	amod	_	_
 18	Gegensatz	Gegensatz	NOUN	NN	_	19	obl	_	_
-19	fehlt	fehlen	VERB	VVFIN	_	13	acl	_	SpaceAfter=No
+19	fehlt	fehlen	VERB	VVFIN	_	13	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	19	punct	_	_
 21	spaltet	spalten	VERB	VVFIN	_	7	parataxis	_	_
 22	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
@@ -28258,7 +28258,7 @@
 17	wohl	wohl	ADV	ADV	_	19	advmod	_	_
 18	zu	zu	PART	PTKZU	_	19	mark	_	_
 19	können	können	AUX	VMINF	_	13	conj	_	_
-20	glaubten	glauben	VERB	VVFIN	_	4	acl	_	_
+20	glaubten	glauben	VERB	VVFIN	_	4	acl:relcl	_	_
 21	und	und	CCONJ	KON	_	22	cc	_	_
 22	vorgaben	vorgeben	VERB	VVFIN	_	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	20	punct	_	_
@@ -28625,7 +28625,7 @@
 11	Glauben	Glaube	NOUN	NN	Case=Dat	7	conj	_	_
 12	an	an	ADP	APPR	_	13	case	_	_
 13	sie	sie	PRON	PPER	Person=3|PronType=Prs	11	nmod	_	_
-14	ausgeht	ausgehen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+14	ausgeht	ausgehen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	18	punct	_	_
 16	und	und	CCONJ	KON	_	18	cc	_	_
 17	dann	dann	ADV	ADV	_	18	advmod	_	_
@@ -28748,7 +28748,7 @@
 8	durch	durch	ADP	APPR	_	10	case	_	_
 9	Herschelsche	Herschelsch	ADJ	ADJA	_	10	amod	_	_
 10	Teleskope	Teleskope	NOUN	NN	Case=Acc	11	obl	_	_
-11	sehen	sehen	VERB	VVINF	_	5	acl	_	SpaceAfter=No
+11	sehen	sehen	VERB	VVINF	_	5	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	zu	zu	PART	PTKZU	_	14	mark	_	_
 14	tun	tun	VERB	VVINF	_	15	xcomp	_	_
@@ -28882,7 +28882,7 @@
 15	nicht	nicht	PART	PTKNEG	_	18	advmod	_	_
 16	anders	anders	ADV	ADV	_	18	advmod	_	_
 17	dazu	dazu	ADV	PROAV	PronType=Dem	18	advmod	_	_
-18	kommen	kommen	VERB	VVFIN	_	12	acl	_	_
+18	kommen	kommen	VERB	VVFIN	_	12	acl:relcl	_	_
 19	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 20	Memoiren	Memoire	NOUN	NN	Case=Acc	22	obj	_	_
 21	zu	zu	PART	PTKZU	_	22	mark	_	_
@@ -29580,7 +29580,7 @@
 15	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	18	nsubj	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Hermaphroditen	Hermaphrodit	NOUN	NN	Case=Acc	18	obj	_	_
-18	erschuf	erschuf	VERB	VVFIN	_	13	acl	_	SpaceAfter=No
+18	erschuf	erschuf	VERB	VVFIN	_	13	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	13	punct	_	_
 
 # genre = fragments
@@ -29857,7 +29857,7 @@
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	Schatten	Schatten	NOUN	NN	_	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	19	punct	_	_
-19	fragten	fragen	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
+19	fragten	fragen	VERB	VVFIN	_	7	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	19	punct	_	_
 21	ob	ob	SCONJ	KOUS	_	27	mark	_	_
 22	die	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
@@ -30002,7 +30002,7 @@
 10	unter	unter	ADP	APPR	_	11	case	_	_
 11	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	13	obl	_	_
 12	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	13	nsubj:pass	_	_
-13	erreicht	erreichen	VERB	VVPP	_	8	acl	_	_
+13	erreicht	erreichen	VERB	VVPP	_	8	acl:relcl	_	_
 14	werden	werden	AUX	VAFIN	_	13	aux:pass	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	13	punct	_	_
 16	zu	zu	PART	PTKA	_	17	case	_	_
@@ -30061,7 +30061,7 @@
 11	peinture	peinture	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	8	nmod	_	Lang=fr|SpaceAfter=No
 12	«	«	PUNCT	NE	_	8	punct	_	_
 13	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
-14	taugt	taugen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+14	taugt	taugen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	14	punct	_	_
 16	ist	sein	AUX	VAFIN	_	18	cop	_	_
 17	das	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
@@ -30082,7 +30082,7 @@
 7	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	10	obj	_	_
 8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 9	irre	irre	ADJ	ADJA	_	10	xcomp	_	_
-10	führen	führen	VERB	VVINF	_	5	acl	_	_
+10	führen	führen	VERB	VVINF	_	5	acl:relcl	_	_
 11	könnte	können	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	durch	durch	ADP	APPR	_	16	case	_	_
@@ -30156,7 +30156,7 @@
 19	in	in	ADP	APPR	_	21	case	_	_
 20	der	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Natur	Natur	NOUN	NN	_	22	obl	_	_
-22	erfreut	erfreuen	VERB	VVPP	_	10	acl	_	SpaceAfter=No
+22	erfreut	erfreuen	VERB	VVPP	_	10	acl:relcl	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -30294,7 +30294,7 @@
 19	aus	aus	ADP	APPR	_	21	case	_	_
 20	dem	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Leben	Leben	NOUN	NN	Case=Dat	22	obl	_	_
-22	kommt	kommen	VERB	VVFIN	_	15	acl	_	_
+22	kommt	kommen	VERB	VVFIN	_	15	acl:relcl	_	_
 23	und	und	CCONJ	KON	_	27	cc	_	_
 24	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	27	nsubj	_	_
 25	kein	kein	DET	PIAT	PronType=Neg	26	det	_	_
@@ -30344,7 +30344,7 @@
 16	Kunstschätzen	Kunstschatz	NOUN	NN	_	19	obl	_	_
 17	so	so	ADV	ADV	_	18	advmod	_	_
 18	gewaltig	gewaltig	ADV	ADV	_	19	advmod	_	_
-19	übte	üben	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+19	übte	üben	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	19	punct	_	_
 21	jetzt	jetzt	ADV	ADV	_	25	advmod	_	_
 22	von	von	ADP	APPR	_	24	case	_	_
@@ -30437,7 +30437,7 @@
 6	Zeilen	Zeile	NOUN	NN	_	9	obl	_	_
 7	ebensoviel	ebensoviel	ADV	ADV	_	9	advmod	_	_
 8	Künstler	Künstler	NOUN	NN	_	9	xcomp	_	_
-9	charakterisieren	charakterisieren	VERB	VVINF	_	1	acl	_	_
+9	charakterisieren	charakterisieren	VERB	VVINF	_	1	acl:relcl	_	_
 10	konnte	können	AUX	VMFIN	_	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	9	punct	_	_
 12	ist	sein	AUX	VAFIN	_	14	cop	_	_
@@ -31226,7 +31226,7 @@
 10	vom	von	ADP	APPRART	_	11	case	_	_
 11	Katheder	Katheder	PROPN	NE	_	13	obl	_	_
 12	herab	herab	ADV	ADV	_	13	advmod	_	_
-13	sagt	sagen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+13	sagt	sagen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 14	:	:	PUNCT	$.	_	5	punct	_	_
 15	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 16	beste	gut	ADJ	ADJA	_	17	amod	_	_
@@ -31376,7 +31376,7 @@
 10	nur	nur	ADV	ADV	_	13	advmod	_	_
 11	ohne	ohne	ADP	APPR	_	12	case	_	_
 12	Freude	Freude	NOUN	NN	Case=Acc	13	obl	_	_
-13	dienen	dienen	VERB	VVINF	_	7	acl	_	_
+13	dienen	dienen	VERB	VVINF	_	7	acl:relcl	_	_
 14	darf	dürfen	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	4	punct	_	_
 
@@ -31407,7 +31407,7 @@
 20	sind	sein	AUX	VAFIN	_	23	cop	_	_
 21	wie	wie	ADV	ADV	_	23	advmod	_	_
 22	die	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
-23	Priester	Priester	NOUN	NN	Case=Nom	14	acl	_	_
+23	Priester	Priester	NOUN	NN	Case=Nom	14	acl:relcl	_	_
 24	der	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
 25	Cybele	Cybele	NOUN	NN	_	23	nmod	_	SpaceAfter=No
 26	?	?	PUNCT	$.	_	3	punct	_	_
@@ -31622,7 +31622,7 @@
 12	,	,	PUNCT	$,	_	15	punct	_	_
 13	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 14	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
-15	besuchte	besuchen	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+15	besuchte	besuchen	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	mit	mit	ADP	APPR	_	19	case	_	_
 18	der	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
@@ -31795,7 +31795,7 @@
 17	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	20	nsubj	_	_
 18	die	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 19	größere	groß	ADJ	ADJA	Case=Acc	20	obj	_	_
-20	despotisiert	despotisieren	VERB	VVFIN	_	15	acl	_	SpaceAfter=No
+20	despotisiert	despotisieren	VERB	VVFIN	_	15	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	20	punct	_	_
 22	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	24	det	_	_
 23	republikanische	republikanisch	ADJ	ADJA	_	24	amod	_	_
@@ -31923,12 +31923,12 @@
 9	keine	kein	DET	PIAT	PronType=Neg	10	det	_	_
 10	Revolution	Revolution	NOUN	NN	Case=Nom	12	nsubj	_	_
 11	wichtig	wichtig	ADJ	ADJD	_	12	xcomp	_	_
-12	scheinen	scheinen	VERB	VVINF	_	5	acl	_	_
+12	scheinen	scheinen	VERB	VVINF	_	5	acl:relcl	_	_
 13	kann	können	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	17	punct	_	_
 15	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	17	nsubj	_	_
 16	nicht	nicht	PART	PTKNEG	_	17	advmod	_	_
-17	laut	laut	ADJ	ADJD	_	10	acl	_	_
+17	laut	laut	ADJ	ADJD	_	10	acl:relcl	_	_
 18	und	und	CCONJ	KON	_	19	cc	_	_
 19	materiell	materiell	ADJ	ADJD	_	17	conj	_	_
 20	ist	sein	AUX	VAFIN	_	17	cop	_	SpaceAfter=No
@@ -31979,7 +31979,7 @@
 21	der	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
 22	charakterisierten	charakterisiert	ADJ	ADJA	_	23	amod	_	_
 23	Individuen	Individuum	NOUN	NN	_	20	nmod	_	_
-24	wiedergibt	wiedergeben	VERB	VVFIN	_	14	acl	_	SpaceAfter=No
+24	wiedergibt	wiedergeben	VERB	VVFIN	_	14	acl:relcl	_	SpaceAfter=No
 25	;	;	PUNCT	$.	_	26	punct	_	_
 26	das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	1	appos	_	_
 27	sind	sein	AUX	VAFIN	_	1	cop	_	_
@@ -32580,7 +32580,7 @@
 11	einem	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	12	det	_	_
 12	System	System	NOUN	NN	Case=Dat	14	obl	_	_
 13	historisch	historisch	ADV	ADV	_	14	advmod	_	_
-14	dargestellt	darstellen	VERB	VVPP	_	5	acl	_	SpaceAfter=No
+14	dargestellt	darstellen	VERB	VVPP	_	5	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	sondern	sondern	CCONJ	KON	_	21	cc	_	_
 17	nur	nur	ADV	ADV	_	21	advmod	_	_
@@ -32656,7 +32656,7 @@
 3	Staatenhistorie	Staatenhistorie	NOUN	NN	Case=Nom	29	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	6	nsubj	_	_
-6	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	3	acl	_	_
+6	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	3	acl:relcl	_	_
 7	ist	sein	AUX	VAFIN	_	6	cop	_	_
 8	als	als	CCONJ	KOKOM	_	11	case	_	_
 9	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	11	det	_	_
@@ -32702,7 +32702,7 @@
 13	Faustrecht	Faustrecht	NOUN	NN	Case=Acc	11	nmod	_	_
 14	und	und	CCONJ	KON	_	15	cc	_	_
 15	Mode	Mode	NOUN	NN	_	13	conj	_	_
-16	geadelt	adeln	VERB	VVPP	_	5	acl	_	_
+16	geadelt	adeln	VERB	VVPP	_	5	acl:relcl	_	_
 17	werden	werden	AUX	VAINF	_	16	aux:pass	_	_
 18	kann	können	AUX	VMFIN	_	16	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	5	punct	_	_
@@ -32959,7 +32959,7 @@
 22	Fakta	Fakta	PROPN	NE	Case=Acc	25	obj	_	_
 23	jeder	jeder	DET	PIAT	Number=Sing|PronType=Tot	24	det	_	_
 24	Art	Art	NOUN	NN	_	22	nmod	_	_
-25	beziehen	beziehen	VERB	VVINF	_	17	acl	_	_
+25	beziehen	beziehen	VERB	VVINF	_	17	acl:relcl	_	_
 26	soll	sollen	AUX	VMFIN	_	25	aux	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	1	punct	_	_
 
@@ -33044,7 +33044,7 @@
 20	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	23	nsubj	_	_
 21	hier	hier	ADV	ADV	_	23	advmod	_	_
 22	alle	alle	DET	PIS	PronType=Tot	20	appos	_	_
-23	zusammentreffen	zusammentreffen	VERB	VVFIN	_	16	acl	_	_
+23	zusammentreffen	zusammentreffen	VERB	VVFIN	_	16	acl:relcl	_	_
 24	und	und	CCONJ	KON	_	26	cc	_	_
 25	ineinander	ineinander	ADV	ADV	_	26	advmod	_	_
 26	greifen	greifen	VERB	VVINF	_	23	conj	_	SpaceAfter=No
@@ -33264,7 +33264,7 @@
 14	Vernunft	Vernunft	NOUN	NN	Case=Acc	17	obj	_	_
 15	und	und	CCONJ	KON	_	16	cc	_	_
 16	Glauben	Glaube	NOUN	NN	_	14	conj	_	_
-17	verwickelten	verwickeln	VERB	VVFIN	_	9	acl	_	SpaceAfter=No
+17	verwickelten	verwickeln	VERB	VVFIN	_	9	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	33	punct	_	_
 19	entweder	entweder	CCONJ	KON	_	22	cc	_	_
 20	zur	zu	ADP	APPRART	_	22	case	_	_
@@ -33365,7 +33365,7 @@
 9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Religion	Religion	NOUN	NN	Case=Acc	12	obj	_	_
 11	liberaler	liberal	ADJ	ADJD	_	12	xcomp	_	_
-12	machen	machen	VERB	VVINF	_	6	acl	_	_
+12	machen	machen	VERB	VVINF	_	6	acl:relcl	_	_
 13	könnte	können	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 14	?	?	PUNCT	$.	_	6	punct	_	_
 
@@ -33430,7 +33430,7 @@
 19	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	22	nsubj	_	_
 20	nicht	nicht	PART	PTKNEG	_	21	advmod	_	_
 21	bloße	bloß	ADJ	ADJA	_	22	amod	_	_
-22	Einbildungen	Einbildung	NOUN	NN	Case=Nom	17	acl	_	_
+22	Einbildungen	Einbildung	NOUN	NN	Case=Nom	17	acl:relcl	_	_
 23	sind	sein	AUX	VAFIN	_	22	cop	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -33540,7 +33540,7 @@
 13	Spinosa	Spinosa	PROPN	NE	_	10	nmod	_	_
 14	am	an	ADP	APPR	_	15	case	_	_
 15	meisten	meist	DET	PIS	Degree=Sup|PronType=Ind	16	obl	_	_
-16	nähern	nähern	VERB	VVINF	_	4	acl	_	_
+16	nähern	nähern	VERB	VVINF	_	4	acl:relcl	_	_
 17	dürfte	dürfen	AUX	VMFIN	_	16	aux	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	16	punct	_	_
 19	müßte	müssen	AUX	VMFIN	_	22	aux	_	_
@@ -33689,7 +33689,7 @@
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	alles	alle	DET	PIS	PronType=Tot	7	det	_	_
 10	das	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
-11	Verhältnis	Verhältnis	NOUN	NN	Case=Nom	4	acl	_	_
+11	Verhältnis	Verhältnis	NOUN	NN	Case=Nom	4	acl:relcl	_	_
 12	des	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Idealen	Ideal	NOUN	NN	Case=Gen	11	nmod	_	_
 14	und	und	CCONJ	KON	_	16	cc	_	_
@@ -34056,7 +34056,7 @@
 17	Zeit	Zeit	NOUN	NN	_	14	nmod	_	_
 18	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	20	nsubj	_	_
 19	noch	noch	ADV	ADV	_	20	advmod	_	_
-20	kommen	kommen	VERB	VVINF	_	17	acl	_	_
+20	kommen	kommen	VERB	VVINF	_	17	acl:relcl	_	_
 21	soll	sollen	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	8	punct	_	_
 
@@ -34157,7 +34157,7 @@
 11	allen	alle	DET	PIAT	PronType=Tot	12	det	_	_
 12	Seiten	Seite	NOUN	NN	Case=Dat	13	obl	_	_
 13	sehen	sehen	VERB	VVINF	_	14	xcomp	_	_
-14	lassen	lassen	VERB	VVINF	_	6	acl	_	SpaceAfter=No
+14	lassen	lassen	VERB	VVINF	_	6	acl:relcl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	6	punct	_	_
 
 # genre = fragments
@@ -34187,7 +34187,7 @@
 7	welches	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	10	nsubj	_	_
 8	der	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	9	det	_	_
 9	Menge	Menge	NOUN	NN	Case=Dat	10	obl:arg	_	_
-10	gefallen	fallen	VERB	VVINF	_	2	acl	_	_
+10	gefallen	fallen	VERB	VVINF	_	2	acl:relcl	_	_
 11	soll	sollen	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	muß	müssen	AUX	VMFIN	_	18	aux	_	_
@@ -34346,7 +34346,7 @@
 26	Äußern	äußern	NOUN	NN	_	29	obl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	26	punct	_	_
 28	ähnlich	ähnlich	ADJ	ADJD	_	29	xcomp	_	_
-29	werden	werden	VERB	VVINF	_	9	acl	_	_
+29	werden	werden	VERB	VVINF	_	9	acl:relcl	_	_
 30	kann	können	AUX	VMFIN	_	29	aux	_	SpaceAfter=No
 31	,	,	PUNCT	$,	_	38	punct	_	_
 32	und	und	CCONJ	KON	_	38	cc	_	_
@@ -34656,7 +34656,7 @@
 7	,	,	PUNCT	$,	_	10	punct	_	_
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
 9	zu	zu	ADV	ADV	_	10	advmod	_	_
-10	weich	weich	ADJ	ADJD	Case=Dat	2	acl	_	_
+10	weich	weich	ADJ	ADJD	Case=Dat	2	acl:relcl	_	_
 11	und	und	CCONJ	KON	_	12	cc	_	_
 12	gutmütig	gutmütig	ADJ	ADJD	_	10	conj	_	_
 13	sind	sein	AUX	VAFIN	_	10	cop	_	SpaceAfter=No
@@ -34701,7 +34701,7 @@
 14	Revolution	Revolution	NOUN	NN	Case=Acc	17	obj	_	_
 15	nur	nur	ADV	ADV	_	17	advmod	_	_
 16	hat	haben	AUX	VAFIN	_	17	aux	_	_
-17	verleumden	verleumden	VERB	VVINF	_	9	acl	_	_
+17	verleumden	verleumden	VERB	VVINF	_	9	acl:relcl	_	_
 18	wollen	wollen	AUX	VMINF	_	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
@@ -34845,7 +34845,7 @@
 47	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	50	obj	_	_
 48	nur	nur	ADV	ADV	_	50	advmod	_	_
 49	überhaupt	überhaupt	ADV	ADV	_	50	advmod	_	_
-50	begreifen	begreifen	VERB	VVINF	_	44	acl	_	_
+50	begreifen	begreifen	VERB	VVINF	_	44	acl:relcl	_	_
 51	kann	können	AUX	VMFIN	_	50	aux	_	SpaceAfter=No
 52	,	,	PUNCT	$,	_	50	punct	_	_
 53	schon	schon	ADV	ADV	_	57	advmod	_	_
@@ -34961,7 +34961,7 @@
 9	Platos	Plato	PROPN	NE	_	11	nmod:poss	_	_
 10	politische	politisch	ADJ	ADJA	_	11	amod	_	_
 11	Kunstlehre	Kunstlehre	NOUN	NN	Case=Acc	12	obj	_	_
-12	enthält	enthalten	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+12	enthält	enthalten	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	12	punct	_	_
 14	wäre	sein	AUX	VAFIN	_	16	cop	_	_
 15	der	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
@@ -34999,7 +34999,7 @@
 24	Kinde	Kind	NOUN	NN	Case=Dat	20	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	27	punct	_	_
 26	das	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	27	nsubj	_	_
-27	bildern	bildern	VERB	VVINF	_	24	acl	_	_
+27	bildern	bildern	VERB	VVINF	_	24	acl:relcl	_	_
 28	wollte	wollen	AUX	VMFIN	_	27	aux	_	SpaceAfter=No
 29	,	,	PUNCT	$,	_	32	punct	_	_
 30	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	32	det	_	_
@@ -35384,7 +35384,7 @@
 9	von	von	ADP	APPR	_	10	case	_	_
 10	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	nmod	_	_
 11	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj:pass	_	_
-12	hervorgebracht	hervorbringen	VERB	VVPP	_	10	acl	_	_
+12	hervorgebracht	hervorbringen	VERB	VVPP	_	10	acl:relcl	_	_
 13	werden	werden	AUX	VAINF	_	12	aux:pass	_	_
 14	soll	sollen	AUX	VMFIN	_	12	aux	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	19	punct	_	_
@@ -35483,7 +35483,7 @@
 5	auf	auf	ADP	APPR	_	7	case	_	_
 6	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	7	det	_	_
 7	Effekt	Effekt	NOUN	NN	_	8	obl	_	_
-8	geht	gehen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+8	geht	gehen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	und	und	CCONJ	KON	_	12	cc	_	_
 11	alle	alle	DET	PIAT	PronType=Tot	12	det	_	_
@@ -35501,7 +35501,7 @@
 23	Ausschweifungen	Ausschweifung	NOUN	NN	_	26	obl	_	_
 24	und	und	CCONJ	KON	_	25	cc	_	_
 25	Übertreibungen	Übertreibung	NOUN	NN	_	23	conj	_	_
-26	folgen	folgen	VERB	VVINF	_	12	acl	_	_
+26	folgen	folgen	VERB	VVINF	_	12	acl:relcl	_	_
 27	will	wollen	AUX	VMFIN	_	26	aux	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	31	punct	_	_
 29	um	um	SCONJ	KOUI	_	31	mark	_	_
@@ -35753,7 +35753,7 @@
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 14	einerlei	einerlei	ADV	ADV	_	15	advmod	_	_
-15	bedeuten	bedeuten	VERB	VVFIN	_	11	acl	_	SpaceAfter=No
+15	bedeuten	bedeuten	VERB	VVFIN	_	11	acl:relcl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	11	punct	_	_
 
 # newpar id = athenaeum-f263
@@ -35831,7 +35831,7 @@
 8	Industrie	Industrie	NOUN	NN	Case=Nom	11	nsubj	_	_
 9	zur	zu	ADP	APPRART	_	10	case	_	_
 10	Seite	Seite	NOUN	NN	_	11	nmod	_	_
-11	steht	stehen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+11	steht	stehen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -36022,7 +36022,7 @@
 42	welches	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	45	nsubj	_	_
 43	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	45	det	_	_
 44	fatigante	fatigant	ADJ	ADJA	_	45	amod	_	_
-45	Manoeuvre	Manoeuvre	NOUN	NN	Case=Nom	36	acl	_	_
+45	Manoeuvre	Manoeuvre	NOUN	NN	Case=Nom	36	acl:relcl	_	_
 46	sein	sein	AUX	VAINF	_	45	cop	_	_
 47	möchte	mögen	AUX	VMFIN	_	45	aux	_	SpaceAfter=No
 48	.	.	PUNCT	$.	_	2	punct	_	_
@@ -36057,7 +36057,7 @@
 22	mit	mit	ADP	APPR	_	24	case	_	_
 23	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Philosophie	Philosophie	NOUN	NN	Case=Dat	20	obl	_	_
-25	gehabt	haben	VERB	VVPP	_	15	acl	_	_
+25	gehabt	haben	VERB	VVPP	_	15	acl:relcl	_	_
 26	hat	haben	AUX	VAFIN	_	25	aux	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -36282,7 +36282,7 @@
 31	einige	einige	DET	PIS	PronType=Ind	26	conj	_	_
 32	die	der	PRON	PIS	Case=Nom|PronType=Dem,Rel	34	nsubj	_	_
 33	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
-34	mystifizieren	mystifizieren	VERB	VVFIN	_	31	acl	_	SpaceAfter=No
+34	mystifizieren	mystifizieren	VERB	VVFIN	_	31	acl:relcl	_	SpaceAfter=No
 35	,	,	PUNCT	$,	_	40	punct	_	_
 36	und	und	CCONJ	KON	_	40	cc	_	_
 37	also	also	ADV	ADV	_	40	advmod	_	_
@@ -36541,13 +36541,13 @@
 1	Vieles	viel	DET	NN	Case=Nom|PronType=Ind	7	nsubj	_	_
 2	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	_	_
 3	Dummheit	Dummheit	NOUN	NN	_	4	xcomp	_	_
-4	scheint	scheinen	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
+4	scheint	scheinen	VERB	VVFIN	_	1	acl:relcl	_	SpaceAfter=No
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	ist	sein	AUX	VAFIN	_	7	cop	_	_
 7	Narrheit	Narrheit	NOUN	NN	Case=Nom	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
-10	gemeiner	gemein	ADJ	ADJD	_	7	acl	_	_
+10	gemeiner	gemein	ADJ	ADJD	_	7	acl:relcl	_	_
 11	ist	sein	AUX	VAFIN	_	10	cop	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	15	punct	_	_
 13	als	als	CCONJ	KOKOM	_	15	mark	_	_
@@ -36900,7 +36900,7 @@
 15	jede	jeder	DET	PIAT	Number=Sing|PronType=Tot	17	det	_	_
 16	Fichtische	Fichtisch	ADJ	ADJA	_	17	amod	_	_
 17	Schrift	Schrift	NOUN	NN	_	18	obl	_	_
-18	paßt	passen	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+18	paßt	passen	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	8	punct	_	_
 
 # genre = fragments
@@ -36967,7 +36967,7 @@
 7	was	was	PRON	PRELS	Gender=Neut|Number=Sing|PronType=Int,Rel	10	nmod	_	_
 8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	_
 9	nie	nie	ADV	ADV	_	10	advmod	_	_
-10	genug	genug	ADV	ADV	PronType=Ind	5	acl	_	_
+10	genug	genug	ADV	ADV	PronType=Ind	5	acl:relcl	_	_
 11	sein	sein	AUX	VAINF	_	10	cop	_	_
 12	kann	können	AUX	VMFIN	_	10	aux	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
@@ -37337,7 +37337,7 @@
 7	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
 8	nur	nur	ADV	ADV	_	10	advmod	_	_
 9	magisches	magisch	ADJ	ADJA	_	10	amod	_	_
-10	Farbenspiel	Farbenspiel	NOUN	NN	Case=Nom	4	acl	_	_
+10	Farbenspiel	Farbenspiel	NOUN	NN	Case=Nom	4	acl:relcl	_	_
 11	in	in	ADP	APPR	_	13	case	_	_
 12	höhern	höhern	ADJ	ADJA	_	13	amod	_	_
 13	Sphären	Sphäre	NOUN	NN	_	10	nmod	_	_
@@ -37432,7 +37432,7 @@
 26	da	da	ADV	ADV	_	24	conj	_	_
 27	vorzüglich	vorzüglich	ADV	ADV	_	28	advmod	_	_
 28	allgemein	allgemein	ADJ	ADJD	_	29	xcomp	_	_
-29	geworden	werden	VERB	VVPP	_	21	acl	_	_
+29	geworden	werden	VERB	VVPP	_	21	acl:relcl	_	_
 30	sind	sein	AUX	VAFIN	_	29	aux	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	16	punct	_	_
 
@@ -37473,7 +37473,7 @@
 13	neue	neu	ADJ	ADJA	_	15	amod	_	_
 14	leichtere	leicht	ADJ	ADJA	_	15	amod	_	_
 15	Existenz	Existenz	NOUN	NN	Case=Acc	16	obj	_	_
-16	verschafft	verschaffen	VERB	VVFIN	_	5	acl	_	SpaceAfter=No
+16	verschafft	verschaffen	VERB	VVFIN	_	5	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
 # newpar id = athenaeum-f293
@@ -37705,7 +37705,7 @@
 65	,	,	PUNCT	$,	_	68	punct	_	_
 66	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	68	nsubj	_	_
 67	der	der	DET	ART	Definite=Def|PronType=Art	68	det	_	_
-68	Veranlassung	Veranlassung	NOUN	NN	Case=Nom	64	acl	_	_
+68	Veranlassung	Veranlassung	NOUN	NN	Case=Nom	64	acl:relcl	_	_
 69	nach	nach	ADP	APPR	_	71	case	_	_
 70	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	71	det	_	_
 71	Gelegenheitsschrift	Gelegenheitsschrift	NOUN	NN	Case=Dat	68	nmod	_	_
@@ -37782,7 +37782,7 @@
 62	viel	viel	ADV	ADV	_	65	advmod	_	_
 63	philologischen	philologisch	ADJ	ADJA	_	64	amod	_	_
 64	Geist	Geist	NOUN	NN	Case=Acc	65	obj	_	_
-65	hat	haben	AUX	VAFIN	_	58	acl	_	SpaceAfter=No
+65	hat	haben	AUX	VAFIN	_	58	acl:relcl	_	SpaceAfter=No
 66	,	,	PUNCT	$,	_	65	punct	_	_
 67	gefallen	gefallen	VERB	VVINF	_	68	xcomp	_	_
 68	lassen	lassen	VERB	VVINF	_	53	acl	_	_
@@ -37823,7 +37823,7 @@
 26	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 27	für	für	ADP	APPR	_	28	case	_	_
 28	unmöglich	unmöglich	ADJ	ADJD	Case=Acc	29	advmod	_	_
-29	hält	halten	VERB	VVFIN	_	23	acl	_	SpaceAfter=No
+29	hält	halten	VERB	VVFIN	_	23	acl:relcl	_	SpaceAfter=No
 30	,	,	PUNCT	$,	_	29	punct	_	_
 31	mit	mit	ADP	APPR	_	35	case	_	_
 32	dem	der	DET	ART	Definite=Def|PronType=Art	35	det	_	_
@@ -37899,7 +37899,7 @@
 3	Biber	Biber	NOUN	NN	Case=Nom	17	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	6	nsubj	_	_
-6	Academicien	Academicien	NOUN	NN	Case=Nom	3	acl	_	_
+6	Academicien	Academicien	NOUN	NN	Case=Nom	3	acl:relcl	_	_
 7	wäre	sein	AUX	VAFIN	_	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	6	punct	_	_
 9	könnte	können	AUX	VMFIN	_	17	aux	_	_
@@ -38198,7 +38198,7 @@
 7	Kennern	Kenner	NOUN	NN	Case=Dat	10	obl:arg	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Malerei	Malerei	NOUN	NN	_	7	nmod	_	_
-10	gelten	gelten	VERB	VVINF	_	2	acl	_	SpaceAfter=No
+10	gelten	gelten	VERB	VVINF	_	2	acl:relcl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -38220,7 +38220,7 @@
 12	,	,	PUNCT	$,	_	15	punct	_	_
 13	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 14	Physiognomie	Physiognomie	NOUN	NN	Case=Acc	15	obj	_	_
-15	hat	haben	VERB	VVFIN	_	11	acl	_	_
+15	hat	haben	VERB	VVFIN	_	11	acl:relcl	_	_
 16	mit	mit	ADP	APPR	_	19	case	_	_
 17	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
 18	paar	paar	ADJ	ADJA	Degree=Pos	19	amod	_	_
@@ -38374,7 +38374,7 @@
 5	Philosophie	Philosophie	NOUN	NN	Case=Nom	12	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	8	nsubj	_	_
-8	philosophisch	philosophisch	ADJ	ADJD	_	5	acl	_	_
+8	philosophisch	philosophisch	ADJ	ADJD	_	5	acl:relcl	_	_
 9	ist	sein	AUX	VAFIN	_	8	cop	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	8	punct	_	_
 11	unendlich	unendlich	ADJ	ADJD	_	12	advmod	_	_
@@ -38552,7 +38552,7 @@
 28	immer	immer	ADV	ADV	_	31	advmod	_	_
 29	von	von	ADP	APPR	_	30	case	_	_
 30	neuem	neu	NOUN	NN	Case=Dat	31	obl	_	_
-31	organisieren	organisieren	VERB	VVINF	_	24	acl	_	_
+31	organisieren	organisieren	VERB	VVINF	_	24	acl:relcl	_	_
 32	und	und	CCONJ	KON	_	33	cc	_	_
 33	desorganisieren	desorganisieren	VERB	VVINF	_	31	conj	_	_
 34	muß	müssen	AUX	VMFIN	_	31	aux	_	SpaceAfter=No
@@ -38743,7 +38743,7 @@
 8	allem	alle	DET	PIS	PronType=Tot	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	11	punct	_	_
 10	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
-11	transzendental	transzendental	ADJ	ADJD	_	8	acl	_	_
+11	transzendental	transzendental	ADJ	ADJD	_	8	acl:relcl	_	_
 12	ist	sein	AUX	VAFIN	_	11	cop	_	SpaceAfter=No
 13	;	;	PUNCT	$.	_	18	punct	_	_
 14	daher	daher	ADV	PROAV	PronType=Dem	18	advmod	_	_
@@ -38842,7 +38842,7 @@
 24	Meer	Meer	NOUN	NN	_	27	obl	_	_
 25	der	der	DET	ART	Definite=Def|PronType=Art	26	det	_	_
 26	Vergessenheit	Vergessenheit	NOUN	NN	_	24	nmod	_	_
-27	gestürzt	stürzen	VERB	VVPP	_	11	acl	_	_
+27	gestürzt	stürzen	VERB	VVPP	_	11	acl:relcl	_	_
 28	haben	haben	AUX	VAINF	_	27	aux	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -39141,7 +39141,7 @@
 33	,	,	PUNCT	$,	_	32	punct	_	_
 34	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
 35	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	36	nsubj	_	_
-36	Grundgesetz	Grundgesetz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	acl	_	_
+36	Grundgesetz	Grundgesetz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	acl:relcl	_	_
 37	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 38	griechischen	griechisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
 39	Kunst	Kunst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
@@ -39328,7 +39328,7 @@
 36	,	,	PUNCT	$,	_	39	punct	_	_
 37	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	39	nsubj	_	_
 38	dabei	dabei	ADV	PROAV	_	39	advmod	_	_
-39	stattfinden	stattfinden	VERB	VVINF	_	32	acl	_	_
+39	stattfinden	stattfinden	VERB	VVINF	_	32	acl:relcl	_	_
 40	konnte	können	AUX	VMFIN	_	39	aux	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	39	punct	_	_
 42	ohne	ohne	SCONJ	KOUI	_	45	mark	_	_
@@ -39523,7 +39523,7 @@
 20	der	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Schönheit	Schönheit	NOUN	NN	_	19	nmod	_	_
 22	darüber	darüber	ADV	PROAV	PronType=Dem	23	advmod	_	_
-23	verbreiten	verbreiten	VERB	VVINF	_	6	acl	_	_
+23	verbreiten	verbreiten	VERB	VVINF	_	6	acl:relcl	_	_
 24	kann	können	AUX	VMFIN	_	23	aux	_	SpaceAfter=No
 25	,	,	PUNCT	$,	_	34	punct	_	_
 26	und	und	CCONJ	KON	_	34	cc	_	_
@@ -39882,7 +39882,7 @@
 13	der	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
 14	Angelika	Angelika	ADJ	ADJA	_	15	amod	_	_
 15	Kauffmann	Kauffmann	NOUN	NN	_	12	nmod	_	_
-16	anzieht	anziehen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+16	anzieht	anziehen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	16	punct	_	_
 18	hat	haben	AUX	VAFIN	_	28	aux	_	_
 19	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	28	obj	_	_
@@ -39952,7 +39952,7 @@
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	7	obj	_	_
 6	Plinius	Plinius	PROPN	NE	Case=Nom	7	nsubj	_	_
-7	nennt	nennen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+7	nennt	nennen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	führt	führen	VERB	VVFIN	_	0	root	_	_
 10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
@@ -40016,7 +40016,7 @@
 8	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
 9	wenig	wenig	ADV	ADV	_	10	advmod	_	_
 10	müde	müde	ADJ	ADJA	_	11	xcomp	_	_
-11	gesehen	sehen	VERB	VVINF	_	1	acl	_	SpaceAfter=No
+11	gesehen	sehen	VERB	VVINF	_	1	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	findet	finden	VERB	VVFIN	_	0	root	_	_
 14	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
@@ -40238,7 +40238,7 @@
 20	für	für	ADP	APPR	_	22	case	_	_
 21	eins	ein	DET	PIS	Definite=Ind|NumType=Card|PronType=Art	23	obl	_	_
 22	Sinn	Sinn	NOUN	NN	Case=Acc	23	obj	_	_
-23	haben	haben	AUX	VAFIN	_	8	acl	_	SpaceAfter=No
+23	haben	haben	AUX	VAFIN	_	8	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	$,	_	23	punct	_	_
 25	nicht	nicht	PART	PTKNEG	_	29	advmod	_	_
 26	weil	weil	SCONJ	KOUS	_	29	mark	_	_
@@ -40392,7 +40392,7 @@
 13	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	16	nsubj	_	_
 14	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 15	nicht	nicht	PART	PTKNEG	_	16	advmod	_	_
-16	versteht	verstehen	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+16	versteht	verstehen	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	11	punct	_	_
 
 # genre = fragments
@@ -40419,7 +40419,7 @@
 17	oder	oder	CCONJ	KON	_	19	cc	_	_
 18	einen	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	19	det	_	_
 19	Kommentar	Kommentar	NOUN	NN	_	16	conj	_	_
-20	machen	machen	VERB	VVINF	_	9	acl	_	_
+20	machen	machen	VERB	VVINF	_	9	acl:relcl	_	_
 21	kann	können	AUX	VMFIN	_	20	aux	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	27	punct	_	_
 23	oder	oder	CCONJ	KON	_	27	cc	_	_
@@ -40799,7 +40799,7 @@
 3	,	,	PUNCT	$,	_	6	punct	_	_
 4	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	6	nsubj	_	_
 5	nicht	nicht	PART	PTKNEG	_	6	advmod	_	_
-6	verschweigt	verschweigen	VERB	VVPP	_	2	acl	_	_
+6	verschweigt	verschweigen	VERB	VVPP	_	2	acl:relcl	_	_
 7	und	und	CCONJ	KON	_	9	cc	_	_
 8	nicht	nicht	PART	PTKNEG	_	9	advmod	_	_
 9	sagt	sagen	VERB	VVFIN	_	6	conj	_	SpaceAfter=No
@@ -41004,7 +41004,7 @@
 11	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	14	nsubj	_	_
 12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Gewohnheit	Gewohnheit	NOUN	NN	Case=Acc	14	obj	_	_
-14	hatte	haben	AUX	VAFIN	_	9	acl	_	SpaceAfter=No
+14	hatte	haben	AUX	VAFIN	_	9	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	14	punct	_	_
 16	im	in	ADP	APPRART	_	17	case	_	_
 17	Gedränge	Gedränge	NOUN	NN	_	27	obl	_	_
@@ -41168,7 +41168,7 @@
 15	Hauptrubriken	Hauptrubrik	NOUN	NN	_	18	obl	_	_
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	ordnen	ordnen	VERB	VVINF	_	18	xcomp	_	_
-18	scheinen	scheinen	VERB	VVINF	_	5	acl	_	SpaceAfter=No
+18	scheinen	scheinen	VERB	VVINF	_	5	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -41423,7 +41423,7 @@
 9	an	an	ADP	APPR	_	10	case	_	_
 10	alle	alle	DET	PIS	PronType=Tot	12	obl	_	_
 11	drei	drei	NUM	CARD	_	10	amod	_	_
-12	glaubt	glauben	VERB	VVPP	_	6	acl	_	SpaceAfter=No
+12	glaubt	glauben	VERB	VVPP	_	6	acl:relcl	_	SpaceAfter=No
 13	!	!	PUNCT	$.	_	6	punct	_	_
 
 # newpar id = athenaeum-f328
@@ -41438,7 +41438,7 @@
 4	welcher	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	7	nsubj	_	_
 5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
 6	selbst	selbst	ADV	ADV	_	5	advmod	_	_
-7	setzt	setzen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+7	setzt	setzen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	7	punct	_	_
 9	kann	können	AUX	VMFIN	_	11	aux	_	_
 10	andre	anderer	DET	PIS	Case=Acc|PronType=Ind	11	obj	_	_
@@ -41458,7 +41458,7 @@
 6	welcher	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	9	nsubj	_	_
 7	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
 8	selbst	selbst	ADV	ADV	_	7	advmod	_	_
-9	annihiliert	annihilieren	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+9	annihiliert	annihilieren	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	12	det	_	_
 12	Recht	Recht	NOUN	NN	Case=Acc	2	obj	_	_
@@ -41631,7 +41631,7 @@
 7	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 8	menschlichen	menschlich	ADJ	ADJA	_	9	amod	_	_
 9	Natur	Natur	NOUN	NN	_	10	nmod	_	_
-10	schön	schön	ADJ	ADJD	_	3	acl	_	_
+10	schön	schön	ADJ	ADJD	_	3	acl:relcl	_	_
 11	ist	sein	AUX	VAFIN	_	10	cop	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	15	det	_	_
@@ -41688,7 +41688,7 @@
 8	an	an	ADP	APPR	_	9	case	_	_
 9	sich	sich	PRON	PRF	Person=3|PronType=Prs|Reflex=Yes	11	obl	_	_
 10	selbst	selbst	ADV	PIAT	_	9	advmod	_	_
-11	nehmen	nehmen	VERB	VVINF	_	3	acl	_	SpaceAfter=No
+11	nehmen	nehmen	VERB	VVINF	_	3	acl:relcl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -41788,7 +41788,7 @@
 6	mit	mit	ADP	APPR	_	8	case	_	_
 7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
 8	Zeit	Zeit	NOUN	NN	Case=Dat	9	obl	_	_
-9	fortgehn	fortgehn	VERB	VVPP	_	3	acl	_	SpaceAfter=No
+9	fortgehn	fortgehn	VERB	VVPP	_	3	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	gibt	geben	VERB	VVFIN	_	0	root	_	_
 12	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
@@ -41807,7 +41807,7 @@
 25	Stellen	Stelle	NOUN	NN	Case=Dat	28	obl	_	_
 26	nicht	nicht	PART	PTKNEG	_	28	advmod	_	_
 27	still	still	ADJ	ADJD	_	28	xcomp	_	_
-28	stehn	stehn	VERB	VVINF	_	13	acl	_	_
+28	stehn	stehn	VERB	VVINF	_	13	acl:relcl	_	_
 29	vollen	wollen	AUX	VMINF	_	28	aux	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	11	punct	_	_
 
@@ -41911,7 +41911,7 @@
 8	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	_
 9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
 10	dynamisch	dynamisch	ADV	ADV	_	11	advmod	_	_
-11	affiziert	affizieren	VERB	VVFIN	_	4	acl	_	SpaceAfter=No
+11	affiziert	affizieren	VERB	VVFIN	_	4	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	so	so	ADV	ADV	_	22	advmod	_	_
 14	wird	werden	AUX	VAFIN	_	22	aux	_	_
@@ -41947,7 +41947,7 @@
 8	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	11	obj	_	_
 9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	_
 10	nur	nur	ADV	ADV	_	11	advmod	_	_
-11	suchen	suchen	VERB	VVINF	_	5	acl	_	_
+11	suchen	suchen	VERB	VVINF	_	5	acl:relcl	_	_
 12	soll	sollen	AUX	VMFIN	_	11	aux	_	SpaceAfter=No
 13	,	,	PUNCT	$,	_	15	punct	_	_
 14	nicht	nicht	PART	PTKNEG	_	15	advmod	_	_
@@ -42042,7 +42042,7 @@
 51	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	52	det:poss	_	_
 52	Türe	Türe	NOUN	NN	_	54	obl	_	_
 53	stehn	stehn	VERB	VVINF	_	54	xcomp	_	_
-54	bleibt	bleiben	VERB	VVFIN	_	47	acl	_	SpaceAfter=No
+54	bleibt	bleiben	VERB	VVFIN	_	47	acl:relcl	_	SpaceAfter=No
 55	,	,	PUNCT	$,	_	54	punct	_	_
 56	zu	zu	PART	PTKZU	_	57	mark	_	_
 57	zeigen	zeigen	VERB	VVINF	_	54	xcomp	_	_
@@ -42184,7 +42184,7 @@
 7	mehr	mehr	ADV	ADV	_	10	advmod	_	_
 8	in	in	ADP	APPR	_	9	case	_	_
 9	sich	sich	PRON	PRF	Person=3|PronType=Prs|Reflex=Yes	10	obl	_	_
-10	hat	haben	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+10	hat	haben	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	10	punct	_	_
 12	als	als	CCONJ	KOKOM	_	15	cc	_	_
 13	diesen	dieser	DET	PDAT	PronType=Dem	15	det	_	_
@@ -42256,7 +42256,7 @@
 11	ihr	ihr	DET	PPER	Case=Dat|Person=3|Poss=Yes|PronType=Prs	14	obl:arg	_	_
 12	das	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Ganze	ganze	NOUN	NN	Case=Acc	14	obj	_	_
-14	übersehn	übersehn	VERB	VVINF	_	5	acl	_	_
+14	übersehn	übersehn	VERB	VVINF	_	5	acl:relcl	_	_
 15	könnt	können	AUX	VMFIN	_	14	aux	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	und	und	CCONJ	KON	_	19	cc	_	_
@@ -42409,7 +42409,7 @@
 15	jedem	jeder	DET	PIAT	Case=Dat|Number=Sing|PronType=Tot	18	obl:arg	_	_
 16	den	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Zutritt	Zutritt	NOUN	NN	Case=Acc	18	obj	_	_
-18	verstattet	verstatten	VERB	VVPP	_	9	acl	_	SpaceAfter=No
+18	verstattet	verstatten	VERB	VVPP	_	9	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	18	punct	_	_
 20	und	und	CCONJ	KON	_	25	cc	_	_
 21	doch	doch	ADV	ADV	_	25	advmod	_	_
@@ -42425,7 +42425,7 @@
 31	Sinn	Sinn	NOUN	NN	_	34	obl	_	_
 32	und	und	CCONJ	KON	_	33	cc	_	_
 33	Studium	Studium	NOUN	NN	_	31	conj	_	_
-34	mitbringen	mitbringen	VERB	VVINF	_	24	acl	_	SpaceAfter=No
+34	mitbringen	mitbringen	VERB	VVINF	_	24	acl:relcl	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	3	punct	_	_
 
 # genre = fragments
@@ -42497,7 +42497,7 @@
 36	,	,	PUNCT	$,	_	39	punct	_	_
 37	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	39	nsubj	_	_
 38	nicht	nicht	PART	PTKNEG	_	39	advmod	_	_
-39	niet-	niet	ADJ	ADJD	_	35	acl	_	_
+39	niet-	niet	ADJ	ADJD	_	35	acl:relcl	_	_
 40	und	und	CCONJ	KON	_	41	cc	_	_
 41	nagelfest	nagelfest	ADJ	ADJD	_	39	compound	_	_
 42	ist	sein	AUX	VAFIN	_	39	cop	_	SpaceAfter=No
@@ -42680,7 +42680,7 @@
 12	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	15	nsubj	_	_
 13	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
 14	nicht	nicht	PART	PTKNEG	_	15	advmod	_	_
-15	verstellen	verstellen	VERB	VVINF	_	10	acl	_	SpaceAfter=No
+15	verstellen	verstellen	VERB	VVINF	_	10	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	sondern	sondern	CCONJ	KON	_	19	cc	_	_
 18	nur	nur	ADV	ADV	_	19	advmod	_	_
@@ -42696,7 +42696,7 @@
 28	Vortreffliche	vortreffliche	NOUN	NN	Case=Acc	31	obj	_	_
 29	zu	zu	PART	PTKZU	_	30	mark	_	_
 30	ahnden	ahnden	VERB	VVINF	_	31	xcomp	_	_
-31	weiß	weiß	VERB	VVFIN	_	24	acl	_	SpaceAfter=No
+31	weiß	weiß	VERB	VVFIN	_	24	acl:relcl	_	SpaceAfter=No
 32	,	,	PUNCT	$,	_	31	punct	_	_
 33	so	so	ADV	ADV	_	34	advmod	_	_
 34	zauberisch	zauberisch	ADJ	ADJD	_	35	advmod	_	_
@@ -42718,7 +42718,7 @@
 50	Affinität	Affinität	NOUN	NN	Case=Dat	53	obl	_	_
 51	in	in	ADP	APPR	_	52	case	_	_
 52	Bewegung	Bewegung	NOUN	NN	_	53	obl	_	_
-53	gesetzt	setzen	VERB	VVPP	_	43	acl	_	_
+53	gesetzt	setzen	VERB	VVPP	_	43	acl:relcl	_	_
 54	wird	werden	AUX	VAFIN	_	53	aux:pass	_	SpaceAfter=No
 55	,	,	PUNCT	$,	_	53	punct	_	_
 56	zu	zu	ADP	APPR	_	59	case	_	_
@@ -42783,7 +42783,7 @@
 29	aus	aus	ADP	APPR	_	31	case	_	_
 30	reiner	rein	ADJ	ADJA	_	31	amod	_	_
 31	Unfähigkeit	Unfähigkeit	NOUN	NN	Case=Dat	32	obl	_	_
-32	hervorgehn	hervorgehn	VERB	VVPP	_	25	acl	_	SpaceAfter=No
+32	hervorgehn	hervorgehn	VERB	VVPP	_	25	acl:relcl	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -42915,7 +42915,7 @@
 7	mehr	mehr	ADV	ADV	_	10	advmod	_	_
 8	mit	mit	ADP	APPR	_	9	case	_	_
 9	Hörern	Hörer	NOUN	NN	Case=Dat	10	obl	_	_
-10	gedient	dienen	VERB	VVPP	_	4	acl	_	_
+10	gedient	dienen	VERB	VVPP	_	4	acl:relcl	_	_
 11	ist	sein	AUX	VAFIN	_	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	10	punct	_	_
 13	ist	sein	AUX	VAFIN	_	14	aux	_	_
@@ -42948,7 +42948,7 @@
 40	an	an	ADP	APPR	_	41	case	_	_
 41	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	43	obl	_	_
 42	alles	alle	DET	PIS	Case=Nom|PronType=Tot	43	nsubj	_	_
-43	lehrreich	lehrreich	ADJ	ADJD	_	36	acl	_	_
+43	lehrreich	lehrreich	ADJ	ADJD	_	36	acl:relcl	_	_
 44	und	und	CCONJ	KON	_	45	cc	_	_
 45	erbaulich	erbaulich	ADJ	ADJD	_	43	conj	_	_
 46	ist	sein	AUX	VAFIN	_	43	cop	_	SpaceAfter=No
@@ -42988,7 +42988,7 @@
 3	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	6	obj	_	_
 4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 5	nur	nur	ADV	ADV	_	6	advmod	_	_
-6	haben	haben	AUX	VAFIN	_	2	acl	_	SpaceAfter=No
+6	haben	haben	AUX	VAFIN	_	2	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	können	können	AUX	VMFIN	_	17	aux	_	_
 9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
@@ -43017,7 +43017,7 @@
 8	und	und	CCONJ	KON	_	9	cc	_	_
 9	temporellen	temporell	ADJ	ADJA	_	7	conj	_	_
 10	Verhältnissen	Verhältnis	NOUN	NN	Case=Dat	11	obl	_	_
-11	abhängt	abhängen	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
+11	abhängt	abhängen	VERB	VVFIN	_	1	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	darf	dürfen	AUX	VMFIN	_	18	aux	_	_
 14	keiner	kein	DET	PIS	Case=Nom|PronType=Neg	18	nsubj	_	_
@@ -43105,7 +43105,7 @@
 15	überall	überall	ADV	ADV	_	18	advmod	_	_
 16	ins	in	ADP	APPRART	_	17	case	_	_
 17	Spiel	Spiel	NOUN	NN	_	18	obl	_	_
-18	kommt	kommen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+18	kommt	kommen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	5	punct	_	_
 
 # genre = fragments
@@ -43168,7 +43168,7 @@
 53	,	,	PUNCT	$,	_	52	punct	_	_
 54	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	56	nsubj	_	_
 55	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	56	obl:arg	_	_
-56	fremde	fremd	VERB	VVFIN	_	52	acl	_	SpaceAfter=No
+56	fremde	fremd	VERB	VVFIN	_	52	acl:relcl	_	SpaceAfter=No
 57	,	,	PUNCT	$,	_	56	punct	_	_
 58	jenen	jener	DET	VVFIN	PronType=Dem	13	conj	_	_
 59	aber	aber	ADV	ADV	_	58	advmod	_	_
@@ -43247,7 +43247,7 @@
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	welches	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	19	nsubj	_	_
 18	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl:arg	_	_
-19	zukommt	zukommen	VERB	VVFIN	_	15	acl	_	SpaceAfter=No
+19	zukommt	zukommen	VERB	VVFIN	_	15	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
@@ -43401,7 +43401,7 @@
 17	,	,	PUNCT	$,	_	20	punct	_	_
 18	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	20	obj	_	_
 19	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl:arg	_	_
-20	angehört	angehören	VERB	VVFIN	_	16	acl	_	SpaceAfter=No
+20	angehört	angehören	VERB	VVFIN	_	16	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	20	punct	_	_
 22	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 23	Gedanken	Gedanke	NOUN	NN	_	16	nmod	_	_
@@ -43431,7 +43431,7 @@
 9	hierhin	hierhin	ADV	ADV	_	12	advmod	_	_
 10	bald	bald	ADV	ADV	_	11	advmod	_	_
 11	dorthin	dorthin	ADV	ADV	_	12	advmod	_	_
-12	gelegt	legen	VERB	VVPP	_	5	acl	_	_
+12	gelegt	legen	VERB	VVPP	_	5	acl:relcl	_	_
 13	wird	werden	AUX	VAFIN	_	12	aux:pass	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -43494,7 +43494,7 @@
 2	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	5	nsubj	_	_
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 4	selbst	selbst	ADV	ADV	_	3	advmod	_	_
-5	sieht	sehen	VERB	VVFIN	_	1	acl	_	SpaceAfter=No
+5	sieht	sehen	VERB	VVFIN	_	1	acl:relcl	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	5	punct	_	_
 7	wird	werden	VERB	VVFIN	_	0	root	_	_
 8	Geist	Geist	NOUN	NN	_	7	xcomp	_	SpaceAfter=No
@@ -43565,7 +43565,7 @@
 8	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	11	obj	_	_
 9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 10	Gemüt	Gemüt	NOUN	NN	_	11	xcomp	_	_
-11	nennen	nennen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+11	nennen	nennen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	darf	dürfen	AUX	VMFIN	_	16	aux	_	_
 14	nur	nur	ADV	ADV	_	16	advmod	_	_
@@ -43676,7 +43676,7 @@
 26	verworrne	verworrne	ADJ	ADJA	_	28	amod	_	_
 27	flüchtige	flüchtig	ADJ	ADJA	_	28	amod	_	_
 28	Leben	Leben	NOUN	NN	Case=Acc	29	obj	_	_
-29	ergreift	ergreifen	VERB	VVFIN	_	22	acl	_	_
+29	ergreift	ergreifen	VERB	VVFIN	_	22	acl:relcl	_	_
 30	und	und	CCONJ	KON	_	34	cc	_	_
 31	zur	zu	ADP	APPRART	_	33	case	_	_
 32	ewigen	ewig	ADJ	ADJA	_	33	amod	_	_
@@ -43851,7 +43851,7 @@
 24	Ruhe	Ruhe	NOUN	NN	Case=Dat	27	obl	_	_
 25	und	und	CCONJ	KON	_	26	cc	_	_
 26	Ernst	Ernst	NOUN	NN	_	24	conj	_	_
-27	betrachtet	betrachten	VERB	VVFIN	_	15	acl	_	SpaceAfter=No
+27	betrachtet	betrachten	VERB	VVFIN	_	15	acl:relcl	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	27	punct	_	_
 29	ist	sein	AUX	VAFIN	_	32	cop	_	_
 30	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	32	det	_	_
@@ -44223,7 +44223,7 @@
 10	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	13	obj	_	_
 11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	_
 12	so	so	ADV	ADV	_	13	advmod	_	_
-13	erklären	erklären	VERB	VVINF	_	3	acl	_	_
+13	erklären	erklären	VERB	VVINF	_	3	acl:relcl	_	_
 14	könnte	können	AUX	VMFIN	_	13	aux	_	SpaceAfter=No
 15	:	:	PUNCT	$.	_	19	punct	_	_
 16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -44301,7 +44301,7 @@
 3	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	_
 4	zwischen	zwischen	ADP	APPR	_	5	case	_	_
 5	beiden	beide	DET	PIS	NumType=Card|PronType=Tot	6	obl	_	_
-6	liegt	liegen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+6	liegt	liegen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	hat	haben	AUX	VAFIN	_	0	root	_	_
 9	diese	dieser	DET	PDAT	PronType=Dem	10	det	_	_
@@ -44516,7 +44516,7 @@
 30	kein	kein	DET	PIAT	PronType=Neg	32	det	_	_
 31	dauerndes	dauernd	ADJ	ADJA	_	32	amod	_	_
 32	Leben	Leben	NOUN	NN	Case=Acc	33	obj	_	_
-33	haben	haben	VERB	VVINF	_	25	acl	_	_
+33	haben	haben	VERB	VVINF	_	25	acl:relcl	_	_
 34	konnten	können	AUX	VMFIN	_	33	aux	_	SpaceAfter=No
 35	,	,	PUNCT	$,	_	39	punct	_	_
 36	noch	noch	ADV	ADV	_	39	advmod	_	_
@@ -44667,7 +44667,7 @@
 13	den	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Gerichten	Gericht	NOUN	NN	_	16	obl	_	_
 15	über	über	ADP	APPR	_	14	nmod	_	_
-16	gab	geben	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+16	gab	geben	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	16	punct	_	_
 18	um	um	SCONJ	KOUI	_	22	mark	_	_
 19	sie	sie	PRON	PPER	Case=Acc|Person=3|PronType=Prs	22	obj	_	_
@@ -44833,7 +44833,7 @@
 12	von	von	ADP	APPR	_	13	case	_	_
 13	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	15	obl	_	_
 14	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	_
-15	meint	meinen	VERB	VVFIN	_	8	acl	_	SpaceAfter=No
+15	meint	meinen	VERB	VVFIN	_	8	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	15	punct	_	_
 17	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	18	nsubj	_	_
 18	wüßten	wissen	VERB	VMFIN	_	15	ccomp	_	_
@@ -44926,7 +44926,7 @@
 12	mit	mit	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Sollen	Sollen	NOUN	NN	Case=Dat	15	obl	_	_
-15	anfangen	anfangen	VERB	VVINF	_	9	acl	_	_
+15	anfangen	anfangen	VERB	VVINF	_	9	acl:relcl	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	endigen	endigen	VERB	VVINF	_	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	3	punct	_	_
@@ -44973,7 +44973,7 @@
 11	nur	nur	ADV	ADV	_	14	advmod	_	_
 12	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	13	det	_	_
 13	Mathematiker	Mathematiker	NOUN	NN	Case=Nom	14	nsubj	_	_
-14	suchen	suchen	VERB	VVINF	_	4	acl	_	_
+14	suchen	suchen	VERB	VVINF	_	4	acl:relcl	_	_
 15	wollen	wollen	AUX	VMFIN	_	14	aux	_	_
 16	kann	können	AUX	VMFIN	_	14	aux	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	14	punct	_	_
@@ -45085,7 +45085,7 @@
 19	welche	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	22	nsubj	_	_
 20	den	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
 21	Scharfsinn	Scharfsinn	NOUN	NN	Case=Acc	22	obj	_	_
-22	üben	üben	VERB	VVFIN	_	17	acl	_	SpaceAfter=No
+22	üben	üben	VERB	VVFIN	_	17	acl:relcl	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	22	punct	_	_
 24	die	der	DET	ART	Definite=Def|PronType=Art	25	det	_	_
 25	Allegorien	Allegorie	NOUN	NN	_	17	conj	_	_
@@ -45096,7 +45096,7 @@
 30	das	der	DET	ART	Definite=Def|PronType=Art	31	det	_	_
 31	Abstrakte	Abstrakt	NOUN	NN	Case=Nom	33	nsubj	_	_
 32	lehrreich	lehrreich	ADV	ADV	_	33	advmod	_	_
-33	einkleiden	einkleiden	VERB	VVPP	_	25	acl	_	_
+33	einkleiden	einkleiden	VERB	VVPP	_	25	acl:relcl	_	_
 34	und	und	CCONJ	KON	_	36	cc	_	_
 35	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	hat	haben	VERB	VVFIN	_	14	conj	_	_
@@ -45432,7 +45432,7 @@
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 9	nicht	nicht	PART	PTKNEG	_	11	advmod	_	_
 10	müde	müde	ADJ	ADJD	_	11	xcomp	_	_
-11	werden	werden	AUX	VAINF	_	6	acl	_	SpaceAfter=No
+11	werden	werden	AUX	VAINF	_	6	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	17	punct	_	_
 13	gegen	gegen	ADP	APPR	_	15	case	_	_
 14	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
@@ -45453,7 +45453,7 @@
 29	Verwüstungen	Verwüstung	NOUN	NN	_	27	nmod	_	_
 30	in	in	ADP	APPR	_	31	case	_	_
 31	sich	sich	PRON	PRF	Person=3|PronType=Prs|Reflex=Yes	32	obl	_	_
-32	trägt	tragen	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+32	trägt	tragen	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 33	!	!	PUNCT	$.	_	1	punct	_	_
 
 # genre = fragments
@@ -45491,7 +45491,7 @@
 11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	Lehn	Lehn	NOUN	NN	Case=Dat	14	obl	_	_
-14	haben	haben	VERB	VVFIN	_	8	acl	_	_
+14	haben	haben	VERB	VVFIN	_	8	acl:relcl	_	_
 15	muß	müssen	AUX	VMFIN	_	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -45665,7 +45665,7 @@
 17	Schicklichen	Schicklich	NOUN	NN	Case=Gen	15	nmod	_	_
 18	zu	zu	PART	PTKZU	_	19	mark	_	_
 19	bemächtigen	bemächtigen	VERB	VVINF	_	20	xcomp	_	_
-20	weiß	weiß	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+20	weiß	weiß	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	31	punct	_	_
 22	oder	oder	CCONJ	KON	_	31	cc	_	_
 23	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	31	nsubj	_	_
@@ -45681,7 +45681,7 @@
 33	,	,	PUNCT	$,	_	36	punct	_	_
 34	die	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	36	nsubj	_	_
 35	weder	weder	CCONJ	KON	_	36	cc	_	_
-36	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	30	acl	_	_
+36	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	30	acl:relcl	_	_
 37	Schweres	schwere	NOUN	NN	_	36	nmod	_	_
 38	noch	noch	CCONJ	KON	_	39	cc	_	_
 39	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	36	conj	_	_
@@ -45916,7 +45916,7 @@
 18	hervor	hervor	ADP	PTKVZ	_	13	compound:prt	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	21	punct	_	_
 20	welches	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	21	nsubj:pass	_	_
-21	erregt	erregen	VERB	VVPP	_	17	acl	_	_
+21	erregt	erregen	VERB	VVPP	_	17	acl:relcl	_	_
 22	wird	werden	AUX	VAFIN	_	21	aux:pass	_	SpaceAfter=No
 23	,	,	PUNCT	$,	_	33	punct	_	_
 24	wenn	wenn	SCONJ	KOUS	_	33	mark	_	_
@@ -46145,7 +46145,7 @@
 23	darum	darum	ADV	PROAV	PronType=Dem	26	advmod	_	_
 24	als	als	CCONJ	KOKOM	_	26	case	_	_
 25	solche	solcher	DET	PIAT	Case=Acc|PronType=Dem	26	obj	_	_
-26	erscheint	erscheinen	VERB	VVFIN	_	17	acl	_	SpaceAfter=No
+26	erscheint	erscheinen	VERB	VVFIN	_	17	acl:relcl	_	SpaceAfter=No
 27	,	,	PUNCT	$,	_	32	punct	_	_
 28	weil	weil	SCONJ	KOUS	_	32	mark	_	_
 29	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
@@ -46215,7 +46215,7 @@
 22	als	als	CCONJ	KOKOM	_	24	case	_	_
 23	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	24	det	_	_
 24	Heilige	heilig	NOUN	NN	_	25	obl	_	_
-25	gemacht	machen	VERB	VVPP	_	7	acl	_	_
+25	gemacht	machen	VERB	VVPP	_	7	acl:relcl	_	_
 26	hätte	haben	AUX	VAFIN	_	25	aux	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	7	punct	_	_
 
@@ -46604,7 +46604,7 @@
 7	Menschheit	Menschheit	NOUN	NN	_	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	$,	_	10	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	10	nsubj	_	_
-10	da	da	ADV	ADV	_	7	acl	_	_
+10	da	da	ADV	ADV	_	7	acl:relcl	_	_
 11	war	sein	AUX	VAFIN	_	10	cop	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	22	punct	_	_
 13	ehe	ehe	SCONJ	KOUS	_	22	mark	_	_
@@ -46845,7 +46845,7 @@
 20	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	22	det	_	_
 21	große	groß	ADJ	ADJA	_	22	amod	_	_
 22	Art	Art	NOUN	NN	_	23	nmod	_	_
-23	zweckmäßig	zweckmäßig	ADJ	ADJD	_	12	acl	_	_
+23	zweckmäßig	zweckmäßig	ADJ	ADJD	_	12	acl:relcl	_	_
 24	und	und	CCONJ	KON	_	25	cc	_	_
 25	nützlich	nützlich	ADJ	ADJD	_	23	conj	_	_
 26	sind	sein	AUX	VAFIN	_	23	cop	_	SpaceAfter=No
@@ -46904,7 +46904,7 @@
 11	Kunst	Kunst	NOUN	NN	_	13	obl	_	_
 12	zu	zu	PART	PTKZU	_	13	mark	_	_
 13	philosophieren	philosophieren	VERB	VVINF	_	14	xcomp	_	_
-14	wünschen	wünschen	VERB	VVINF	_	6	acl	_	SpaceAfter=No
+14	wünschen	wünschen	VERB	VVINF	_	6	acl:relcl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -46999,7 +46999,7 @@
 6	nicht	nicht	PART	PTKNEG	_	7	advmod	_	_
 7	selten	selten	ADV	ADV	_	9	advmod	_	_
 8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
-9	Geist	Geist	NOUN	NN	Case=Nom	2	acl	_	_
+9	Geist	Geist	NOUN	NN	Case=Nom	2	acl:relcl	_	_
 10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Monarchien	Monarchien	NOUN	NN	_	9	nmod	_	_
 12	war	sein	AUX	VAFIN	_	9	cop	_	SpaceAfter=No
@@ -47179,7 +47179,7 @@
 16	wohl	wohl	ADV	ADV	_	19	advmod	_	_
 17	gar	gar	ADV	ADV	_	18	advmod	_	_
 18	republikanisch	republikanisch	ADJ	ADJD	_	19	xcomp	_	_
-19	schiene	schienen	VERB	VVFIN	_	9	acl	_	SpaceAfter=No
+19	schiene	schienen	VERB	VVFIN	_	9	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	12	punct	_	_
 
 # newpar id = athenaeum-f371
@@ -47325,7 +47325,7 @@
 19	entweder	entweder	CCONJ	KON	_	22	cc	_	_
 20	sorgfältig	sorgfältig	ADJ	ADJD	_	22	xcomp	_	_
 21	auseinander	auseinander	ADV	ADV	_	22	advmod	_	_
-22	gehalten	halten	VERB	VVPP	_	15	acl	_	_
+22	gehalten	halten	VERB	VVPP	_	15	acl:relcl	_	_
 23	oder	oder	CCONJ	KON	_	29	cc	_	_
 24	durch	durch	ADP	APPR	_	27	case	_	_
 25	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	27	det	_	_
@@ -47722,7 +47722,7 @@
 36	ganze	ganz	ADJ	ADJA	_	37	amod	_	_
 37	Mensch	Mensch	NOUN	NN	Case=Nom	39	nsubj	_	_
 38	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	39	obj	_	_
-39	bildet	bilden	VERB	VVFIN	_	31	acl	_	_
+39	bildet	bilden	VERB	VVFIN	_	31	acl:relcl	_	_
 40	und	und	CCONJ	KON	_	41	cc	_	_
 41	handelt	handeln	VERB	VVFIN	_	39	conj	_	SpaceAfter=No
 42	.	.	PUNCT	$.	_	2	punct	_	_
@@ -47819,7 +47819,7 @@
 25	alles	alle	DET	PIS	Case=Acc|PronType=Tot	28	obj	_	_
 26	in	in	ADP	APPR	_	27	case	_	_
 27	Erstaunen	Erstaunen	NOUN	NN	_	28	obl	_	_
-28	setzt	setzen	VERB	VVFIN	_	7	acl	_	SpaceAfter=No
+28	setzt	setzen	VERB	VVFIN	_	7	acl:relcl	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -47840,7 +47840,7 @@
 11	ersten	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	12	amod	_	_
 12	Eindrücke	Eindruck	NOUN	NN	Case=Nom	14	nsubj	_	_
 13	nicht	nicht	PART	PTKNEG	_	14	advmod	_	_
-14	stark	stark	ADJ	ADJD	_	6	acl	_	_
+14	stark	stark	ADJ	ADJD	_	6	acl:relcl	_	_
 15	sind	sein	AUX	VAFIN	_	14	cop	_	SpaceAfter=No
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	aber	aber	ADV	ADV	_	19	advmod	_	_
@@ -48111,7 +48111,7 @@
 39	gern	gern	ADV	ADV	_	41	advmod	_	_
 40	zu	zu	PART	PTKZU	_	41	mark	_	_
 41	umspielen	umspielen	VERB	VVINF	_	42	xcomp	_	_
-42	pflegt	pflegen	VERB	VVFIN	_	26	acl	_	SpaceAfter=No
+42	pflegt	pflegen	VERB	VVFIN	_	26	acl:relcl	_	SpaceAfter=No
 43	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -48198,7 +48198,7 @@
 12	Wechsel	Wechsel	NOUN	NN	Case=Acc	13	obj	_	_
 13	hervorzubringen	hervorzubringen	VERB	VVIZU	_	15	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	13	punct	_	_
-15	erhöhen	erhöhen	VERB	VVINF	_	3	acl	_	_
+15	erhöhen	erhöhen	VERB	VVINF	_	3	acl:relcl	_	_
 16	muß	müssen	AUX	VMFIN	_	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	15	punct	_	_
 18	beleidigt	beleidigen	VERB	VVFIN	_	0	root	_	_
@@ -48262,7 +48262,7 @@
 16	Schleier	Schleier	NOUN	NN	Case=Acc	19	obj	_	_
 17	über	über	ADP	APPR	_	18	case	_	_
 18	sie	sie	PRON	PPER	Person=3|PronType=Prs	19	obl	_	_
-19	wirft	werfen	VERB	VVFIN	_	3	acl	_	SpaceAfter=No
+19	wirft	werfen	VERB	VVFIN	_	3	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	10	punct	_	_
 
 # genre = fragments
@@ -48309,7 +48309,7 @@
 37	dessen	der	PRON	PRELS	Case=Gen|Number=Sing|PronType=Dem,Rel	40	obl	_	_
 38	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	40	obj	_	_
 39	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	40	nsubj	_	_
-40	liest	lesen	VERB	VVFIN	_	36	acl	_	_
+40	liest	lesen	VERB	VVFIN	_	36	acl:relcl	_	_
 41	angedeutet	andeuten	VERB	VVPP	_	25	advcl	_	_
 42	wird	werden	AUX	VAFIN	_	41	aux:pass	_	SpaceAfter=No
 43	,	,	PUNCT	$,	_	48	punct	_	_
@@ -48355,7 +48355,7 @@
 28	über	über	ADP	APPR	_	31	case	_	_
 29	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 30	Werke	Werk	NOUN	NN	_	31	acl	_	_
-31	ist	sein	AUX	VAFIN	_	21	acl	_	SpaceAfter=No
+31	ist	sein	AUX	VAFIN	_	21	acl:relcl	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	16	punct	_	_
 
 # genre = fragments
@@ -48531,7 +48531,7 @@
 16	Symmetrie	Symmetrie	NOUN	NN	_	12	conj	_	_
 17	den	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	architektonischen	architektonisch	ADJ	ADJA	_	19	xcomp	_	_
-19	nennen	nennen	VERB	VVINF	_	4	acl	_	_
+19	nennen	nennen	VERB	VVINF	_	4	acl:relcl	_	_
 20	möchte	mögen	AUX	VMFIN	_	19	aux	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
@@ -48727,7 +48727,7 @@
 10	nicht	nicht	PART	PTKNEG	_	13	advmod	_	_
 11	selten	selten	ADJ	ADJD	_	13	advmod	_	_
 12	real	real	ADV	ADV	_	13	advmod	_	_
-13	beschränken	beschränken	VERB	VVINF	_	6	acl	_	SpaceAfter=No
+13	beschränken	beschränken	VERB	VVINF	_	6	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	19	punct	_	_
 15	an	an	ADP	APPR	_	16	case	_	_
 16	die	der	PRON	PRELS	PronType=Dem,Rel	19	obl	_	_
@@ -48754,7 +48754,7 @@
 10	,	,	PUNCT	$,	_	13	punct	_	_
 11	welcher	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	13	nsubj	_	_
 12	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
-13	isoliert	isolieren	VERB	VVPP	_	9	acl	_	SpaceAfter=No
+13	isoliert	isolieren	VERB	VVPP	_	9	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	$,	_	23	punct	_	_
 15	und	und	CCONJ	KON	_	23	cc	_	_
 16	die	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
@@ -48830,7 +48830,7 @@
 16	Erreichung	Erreichung	NOUN	NN	_	19	nmod	_	_
 17	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	Zwecke	Zweck	NOUN	NN	_	16	nmod	_	_
-19	unentbehrlich	unentbehrlich	ADJ	ADJD	_	3	acl	_	_
+19	unentbehrlich	unentbehrlich	ADJ	ADJD	_	3	acl:relcl	_	_
 20	sind	sein	AUX	VAFIN	_	19	cop	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	19	punct	_	_
 22	kommt	kommen	VERB	VVFIN	_	0	root	_	_
@@ -48841,7 +48841,7 @@
 27	vor	vor	ADP	PTKVZ	_	22	compound:prt	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	30	punct	_	_
 29	welches	welcher	DET	PRELS	Case=Nom|PronType=Int,Rel	30	nsubj	_	_
-30	unvermeidlich	unvermeidlich	ADJ	ADJD	_	24	acl	_	_
+30	unvermeidlich	unvermeidlich	ADJ	ADJD	_	24	acl:relcl	_	_
 31	ist	sein	AUX	VAFIN	_	30	cop	_	SpaceAfter=No
 32	,	,	PUNCT	$,	_	42	punct	_	_
 33	und	und	CCONJ	KON	_	42	cc	_	_
@@ -48888,7 +48888,7 @@
 16	notwendig	notwendig	ADV	ADV	_	19	advmod	_	_
 17	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	18	det	_	_
 18	Veto	Veto	NOUN	NN	Case=Acc	19	obj	_	_
-19	haben	haben	AUX	VAFIN	_	10	acl	_	_
+19	haben	haben	AUX	VAFIN	_	10	acl:relcl	_	_
 20	müßte	müssen	AUX	VMFIN	_	19	aux	_	SpaceAfter=No
 21	,	,	PUNCT	$,	_	25	punct	_	_
 22	nicht	nicht	PART	PTKNEG	_	25	advmod	_	_
@@ -49151,7 +49151,7 @@
 4	,	,	PUNCT	$,	_	7	punct	_	_
 5	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	7	nsubj	_	_
 6	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	7	det	_	_
-7	Gewebe	Gewebe	NOUN	NN	Case=Nom	3	acl	_	_
+7	Gewebe	Gewebe	NOUN	NN	Case=Nom	3	acl:relcl	_	_
 8	von	von	ADP	APPR	_	10	case	_	_
 9	moralischen	moralisch	ADJ	ADJA	_	10	amod	_	_
 10	Dissonanzen	Dissonanz	NOUN	NN	Case=Dat	7	nmod	_	_
@@ -49251,7 +49251,7 @@
 8	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 9	doch	doch	ADV	ADV	_	11	advmod	_	_
 10	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	11	obj	_	_
-11	enthält	enthalten	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+11	enthält	enthalten	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	als	als	CCONJ	KOKOM	_	15	cc	_	_
 14	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	15	det	_	_
@@ -49266,7 +49266,7 @@
 23	selbst	selbst	ADV	ADV	_	26	advmod	_	_
 24	nur	nur	ADV	ADV	_	26	advmod	_	_
 25	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	26	det	_	_
-26	Versetzung	Versetzung	NOUN	NN	Case=Nom	15	acl	_	_
+26	Versetzung	Versetzung	NOUN	NN	Case=Nom	15	acl:relcl	_	_
 27	der	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
 28	Naturphilosophie	Naturphilosophie	NOUN	NN	_	26	nmod	_	_
 29	und	und	CCONJ	KON	_	30	cc	_	_
@@ -49335,7 +49335,7 @@
 12	das	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Leben	Leben	NOUN	NN	_	10	conj	_	_
 14	so	so	ADV	ADV	_	15	advmod	_	_
-15	betrachten	betrachten	VERB	VVFIN	_	6	acl	_	_
+15	betrachten	betrachten	VERB	VVFIN	_	6	acl:relcl	_	_
 16	und	und	CCONJ	KON	_	17	cc	_	_
 17	besprechen	besprechen	VERB	VVFIN	_	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	$,	_	33	punct	_	_
@@ -49473,7 +49473,7 @@
 6	Instinkt	Instinkt	NOUN	NN	Case=Acc	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	9	nsubj:pass	_	_
-9	gebildet	bilden	VERB	VVPP	_	6	acl	_	_
+9	gebildet	bilden	VERB	VVPP	_	6	acl:relcl	_	_
 10	werden	werden	AUX	VAINF	_	9	aux:pass	_	_
 11	muß	müssen	AUX	VMFIN	_	9	aux	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	25	punct	_	_
@@ -49507,7 +49507,7 @@
 8	,	,	PUNCT	$,	_	11	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 10	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	11	obj	_	_
-11	achten	achten	VERB	VVFIN	_	5	acl	_	_
+11	achten	achten	VERB	VVFIN	_	5	acl:relcl	_	_
 12	als	als	CCONJ	KOKOM	_	14	case	_	_
 13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 14	Notdurft	Notdurft	NOUN	NN	_	11	nmod	_	_
@@ -49552,7 +49552,7 @@
 23	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 24	Drechselbank	Drechselbank	NOUN	NN	_	26	obl	_	_
 25	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	26	nmod	_	_
-26	edler	edler	ADJ	ADJD	_	13	acl	_	_
+26	edler	edler	ADJ	ADJD	_	13	acl:relcl	_	_
 27	ist	sein	AUX	VAFIN	_	26	cop	_	_
 28	als	als	CCONJ	KOKOM	_	29	case	_	_
 29	Flachshecheln	Flachshechel	NOUN	NN	_	26	nmod	_	SpaceAfter=No
@@ -49799,7 +49799,7 @@
 29	eine	eine	ADJ	ADJA	_	31	amod	_	_
 30	krystallne	krystalln	ADJ	ADJA	_	31	amod	_	_
 31	Durchsichtigkeit	Durchsichtigkeit	NOUN	NN	_	24	conj	_	_
-32	haben	haben	AUX	VAFIN	_	11	acl	_	SpaceAfter=No
+32	haben	haben	AUX	VAFIN	_	11	acl:relcl	_	SpaceAfter=No
 33	,	,	PUNCT	$,	_	41	punct	_	_
 34	die	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	41	obj	_	_
 35	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	41	nsubj	_	_
@@ -49808,7 +49808,7 @@
 38	Wasser	Wasser	NOUN	NN	Case=Dat	41	obl	_	_
 39	der	der	DET	ART	Definite=Def|PronType=Art	40	det	_	_
 40	Diamanten	Diamant	NOUN	NN	_	38	nmod	_	_
-41	vergleichen	vergleichen	VERB	VVINF	_	31	acl	_	_
+41	vergleichen	vergleichen	VERB	VVINF	_	31	acl:relcl	_	_
 42	möchte	mögen	AUX	VMFIN	_	41	aux	_	SpaceAfter=No
 43	,	,	PUNCT	$,	_	41	punct	_	_
 44	sind	sein	AUX	VAFIN	_	3	parataxis	_	_
@@ -50062,7 +50062,7 @@
 8	der	der	PRON	PRELS	Case=Nom|PronType=Dem,Rel	11	nsubj	_	_
 9	den	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
 10	Namen	Name	NOUN	NN	Case=Acc	11	obj	_	_
-11	verdient	verdienen	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+11	verdient	verdienen	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -50165,7 +50165,7 @@
 8	selbst	selbst	ADV	ADV	_	7	advmod	_	_
 9	nur	nur	ADV	ADV	_	11	advmod	_	_
 10	halb	halb	ADV	ADV	_	11	advmod	_	_
-11	versteht	verstehen	VERB	VVFIN	_	2	acl	_	SpaceAfter=No
+11	versteht	verstehen	VERB	VVFIN	_	2	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	$,	_	11	punct	_	_
 13	muß	müssen	AUX	VMFIN	_	36	aux	_	_
 14	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	36	nsubj	_	_
@@ -50252,7 +50252,7 @@
 11	Sinn	Sinn	NOUN	NN	Case=Acc	14	obj	_	_
 12	und	und	CCONJ	KON	_	13	cc	_	_
 13	Geist	Geist	NOUN	NN	_	11	conj	_	_
-14	haben	haben	VERB	VVFIN	_	6	acl	_	SpaceAfter=No
+14	haben	haben	VERB	VVFIN	_	6	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	$,	_	17	punct	_	_
 16	zu	zu	PART	PTKZU	_	17	mark	_	_
 17	urteilen	urteilen	VERB	VVINF	_	14	xcomp	_	SpaceAfter=No
@@ -50394,7 +50394,7 @@
 12	Stoff	Stoff	NOUN	NN	Case=Nom	15	nsubj	_	_
 13	nur	nur	ADV	ADV	_	15	advmod	_	_
 14	das	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
-15	Klassische	klassische	NOUN	NN	Case=Nom	9	acl	_	_
+15	Klassische	klassische	NOUN	NN	Case=Nom	9	acl:relcl	_	_
 16	und	und	CCONJ	KON	_	18	cc	_	_
 17	schlechthin	schlechthin	ADV	ADV	_	18	advmod	_	_
 18	Ewige	Ewige	NOUN	NN	_	15	conj	_	_
@@ -50452,7 +50452,7 @@
 70	Interesse	Interesse	NOUN	NN	_	73	obl	_	_
 71	noch	noch	ADV	ADV	_	72	advmod	_	_
 72	Sinn	Sinn	NOUN	NN	Case=Acc	73	obj	_	_
-73	haben	haben	AUX	VAINF	_	59	acl	_	SpaceAfter=No
+73	haben	haben	AUX	VAINF	_	59	acl:relcl	_	SpaceAfter=No
 74	.	.	PUNCT	$.	_	7	punct	_	_
 
 # genre = fragments
@@ -50527,7 +50527,7 @@
 17	die	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
 18	Wissenschaften	Wissenschaft	NOUN	NN	Case=Acc	20	obj	_	_
 19	mehr	mehr	ADV	ADV	_	20	advmod	_	_
-20	kompilieren	kompilieren	VERB	VVINF	_	14	acl	_	_
+20	kompilieren	kompilieren	VERB	VVINF	_	14	acl:relcl	_	_
 21	als	als	CCONJ	KOKOM	_	22	mark	_	_
 22	kombinieren	kombinieren	VERB	VVINF	_	20	conj	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	1	punct	_	_
@@ -50628,7 +50628,7 @@
 31	Geschäft	Geschäft	NOUN	NN	_	34	obl	_	_
 32	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	33	det:poss	_	_
 33	Lebens	Leben	NOUN	NN	_	31	nmod	_	_
-34	wählen	wählen	VERB	VVINF	_	20	acl	_	_
+34	wählen	wählen	VERB	VVINF	_	20	acl:relcl	_	_
 35	kann	können	AUX	VMFIN	_	34	aux	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	13	punct	_	_
 
@@ -50803,7 +50803,7 @@
 18	von	von	ADP	APPR	_	19	case	_	_
 19	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	21	obl	_	_
 20	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	_
-21	weiß	weiß	VERB	VVFIN	_	12	acl	_	SpaceAfter=No
+21	weiß	weiß	VERB	VVFIN	_	12	acl:relcl	_	SpaceAfter=No
 22	,	,	PUNCT	$,	_	27	punct	_	_
 23	daß	daß	SCONJ	KOUS	_	27	mark	_	_
 24	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	27	nsubj	_	_
@@ -50960,7 +50960,7 @@
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
 4	für	für	ADP	APPR	_	5	case	_	_
 5	unerreichbar	unerreichbar	ADJ	ADJD	Case=Acc	6	xcomp	_	_
-6	halten	halten	VERB	VVINF	_	1	acl	_	SpaceAfter=No
+6	halten	halten	VERB	VVINF	_	1	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	$,	_	6	punct	_	_
 8	sind	sein	AUX	VAFIN	_	12	cop	_	_
 9	eben	eben	ADV	ADV	_	12	advmod	_	_
@@ -51161,7 +51161,7 @@
 15	von	von	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
 17	Sittlichkeit	Sittlichkeit	NOUN	NN	Case=Dat	18	nmod	_	_
-18	unzertrennlich	unzertrennlich	ADJ	ADJD	_	12	acl	_	_
+18	unzertrennlich	unzertrennlich	ADJ	ADJD	_	12	acl:relcl	_	_
 19	ist	sein	AUX	VAFIN	_	18	cop	_	SpaceAfter=No
 20	,	,	PUNCT	$,	_	28	punct	_	_
 21	und	und	CCONJ	KON	_	28	cc	_	_
@@ -51220,7 +51220,7 @@
 37	eben	eben	ADV	ADV	_	40	advmod	_	_
 38	für	für	ADP	APPR	_	39	case	_	_
 39	Sittlichkeit	Sittlichkeit	NOUN	NN	Case=Acc	40	obl	_	_
-40	gilt	gelten	VERB	VVFIN	_	34	acl	_	SpaceAfter=No
+40	gilt	gelten	VERB	VVFIN	_	34	acl:relcl	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	18	punct	_	_
 
 # genre = fragments
@@ -51283,7 +51283,7 @@
 10	den	der	PRON	PRELS	Case=Acc|PronType=Dem,Rel	13	obl	_	_
 11	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	13	nsubj	_	_
 12	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	13	det	_	_
-13	Individuum	Individuum	NOUN	NN	Case=Nom	7	acl	_	_
+13	Individuum	Individuum	NOUN	NN	Case=Nom	7	acl:relcl	_	_
 14	ist	sein	AUX	VAFIN	_	13	cop	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	6	punct	_	_
 
@@ -51598,7 +51598,7 @@
 37	gerührt	rühren	ADJ	ADJD	_	39	xcomp	_	_
 38	zu	zu	PART	PTKZU	_	39	mark	_	_
 39	werden	werden	VERB	VVFIN	_	40	xcomp	_	_
-40	verlangt	verlangen	VERB	VVFIN	_	30	acl	_	SpaceAfter=No
+40	verlangt	verlangen	VERB	VVFIN	_	30	acl:relcl	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	40	punct	_	_
 42	das	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
 43	Sentimentale	Sentimentale	NOUN	NN	Case=Nom	46	nsubj	_	_
@@ -51671,13 +51671,13 @@
 34	aus	aus	ADP	APPR	_	36	case	_	_
 35	alten	alt	ADJ	ADJA	_	36	amod	_	_
 36	Märchen	Märchen	NOUN	NN	Case=Dat	37	obl	_	_
-37	gebildet	bilden	VERB	VVPP	_	30	acl	_	SpaceAfter=No
+37	gebildet	bilden	VERB	VVPP	_	30	acl:relcl	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	37	punct	_	_
 39	im	in	ADP	APPRART	_	40	case	_	_
 40	ganzen	ganz	ADJ	ADJA	_	41	obl	_	_
 41	genommen	nehmen	VERB	VVPP	_	43	parataxis	_	_
 42	das	der	DET	ART	Definite=Def|PronType=Art	43	det	_	_
-43	Schönste	schöne	NOUN	NN	Case=Nom	25	acl	_	_
+43	Schönste	schöne	NOUN	NN	Case=Nom	25	acl:relcl	_	_
 44	ist	sein	AUX	VAFIN	_	43	cop	_	SpaceAfter=No
 45	:	:	PUNCT	$.	_	48	punct	_	_
 46	die	der	DET	ART	Definite=Def|PronType=Art	48	det	_	_
@@ -51984,7 +51984,7 @@
 6	bei	bei	ADP	APPR	_	7	case	_	_
 7	der	der	PRON	PRELS	Case=Dat|PronType=Dem,Rel	9	obl	_	_
 8	von	von	ADP	APPR	_	9	case	_	_
-9	Sittlichkeit	Sittlichkeit	NOUN	NN	Case=Dat	4	acl	_	_
+9	Sittlichkeit	Sittlichkeit	NOUN	NN	Case=Dat	4	acl:relcl	_	_
 10	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
 11	Frage	Frage	NOUN	NN	Case=Nom	9	nsubj	_	_
 12	sein	sein	AUX	VAINF	_	9	cop	_	_
@@ -52160,7 +52160,7 @@
 48	System	System	NOUN	NN	_	51	obl	_	_
 49	der	der	DET	ART	Definite=Def|PronType=Art	50	det	_	_
 50	Weiblichkeitslehre	Weiblichkeitslehre	NOUN	NN	_	48	nmod	_	_
-51	verbunden	verbinden	VERB	VVPP	_	41	acl	_	_
+51	verbunden	verbinden	VERB	VVPP	_	41	acl:relcl	_	_
 52	hat	haben	AUX	VAFIN	_	51	aux	_	SpaceAfter=No
 53	,	,	PUNCT	$,	_	61	punct	_	_
 54	in	in	ADP	APPR	_	55	case	_	_
@@ -52491,7 +52491,7 @@
 38	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 39	so	so	ADV	ADV	_	40	advmod	_	_
 40	viele	viel	DET	PIS	Case=Acc|PronType=Ind	41	obj	_	_
-41	hat	haben	VERB	VVFIN	_	35	acl	_	SpaceAfter=No
+41	hat	haben	VERB	VVFIN	_	35	acl:relcl	_	SpaceAfter=No
 42	.	.	PUNCT	$.	_	8	punct	_	_
 
 # genre = fragments
@@ -52606,7 +52606,7 @@
 14	eigentlich	eigentlich	ADV	ADV	_	17	advmod	_	_
 15	nur	nur	ADV	ADV	_	16	advmod	_	_
 16	humoristische	humoristisch	ADJ	ADJA	_	17	amod	_	_
-17	Sachen	Sache	NOUN	NN	Case=Nom	11	acl	_	_
+17	Sachen	Sache	NOUN	NN	Case=Nom	11	acl:relcl	_	_
 18	sind	sein	AUX	VAFIN	_	17	cop	_	SpaceAfter=No
 19	:	:	PUNCT	$.	_	22	punct	_	_
 20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
@@ -52698,7 +52698,7 @@
 34	das	der	PRON	PDS	Case=Nom|PronType=Dem,Rel	37	nsubj	_	_
 35	zu	zu	PART	PTKZU	_	36	mark	_	_
 36	tadeln	tadeln	VERB	VVINF	_	37	xcomp	_	_
-37	ist	sein	AUX	VAFIN	_	29	acl	_	SpaceAfter=No
+37	ist	sein	AUX	VAFIN	_	29	acl:relcl	_	SpaceAfter=No
 38	,	,	PUNCT	$,	_	46	punct	_	_
 39	daß	daß	SCONJ	KOUS	_	46	mark	_	_
 40	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	_
