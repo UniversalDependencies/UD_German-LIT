@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_German-LIT:
-commit 87c8f2c0ad0865e267dfca2d428b797fc5bf5575
-Merge: b7a9a03 bd9f7ee
+commit 9aa5b9fa4ae6b5624f156070bfead0b142afdf67
+Merge: 5b21baa 8f906ea
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'de_lit'
@@ -25,31 +25,33 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang de --max-err=10 UD_German-LIT/de_lit-ud-test.conllu
-[Line 3148 Sent lyceum-f59-s1]: [L3 Syntax too-many-objects] Multiple direct objects [22, 27] ('sich', 'Schuld') under the predicate 'abfinde'.
-[Line 4437 Sent lyceum-f81-s1]: [L3 Warning fixed-without-extpos] Fixed expression 'en detail' does not have the 'ExtPos' feature
-[Line 4451 Sent lyceum-f81-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'en gros' does not have the 'ExtPos' feature
-[Line 6588 Sent lyceum-f112-s3]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('sich', 'Leser') under the predicate 'konstruiert'.
-[Line 6741 Sent lyceum-f114-s2]: [L3 Syntax too-many-objects] Multiple direct objects [2, 7] ('sich', 'Gesellschaft') under the predicate 'verbinden'.
-[Line 7494 Sent lyceum-f122-s1]: [L3 Syntax too-many-objects] Multiple direct objects [80, 82] ('es', 'recht') under the predicate 'nehmen'.
-[Line 9908 Sent bluethenstaub-f25-s1]: [L3 Syntax too-many-objects] Multiple direct objects [11, 18] ('nichts', 'Erfahrungen') under the predicate 'darstellen'.
-[Line 10066 Sent bluethenstaub-f26-s2]: [L3 Syntax too-many-objects] Multiple direct objects [31, 36] ('Nothwendigkeit', 'Handlung') under the predicate 'adeln'.
-[Line 10092 Sent bluethenstaub-f27-s1]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'Verknüpfungen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 10613 Sent bluethenstaub-f33-s1]: [L3 Syntax too-many-objects] Multiple direct objects [10, 14] ('uns', 'Geistigkeit') under the predicate 'bemächtigen'.
-[Line 10836 Sent bluethenstaub-f35-s4]: [L3 Syntax too-many-objects] Multiple direct objects [15, 17] ('mich', 'Mensch') under the predicate 'reizt'.
-[Line 11710 Sent bluethenstaub-f47-s5]: [L3 Syntax too-many-objects] Multiple direct objects [2, 8] ('vielen', 'Zeitlang') under the predicate 'währt'.
-[Line 11738 Sent bluethenstaub-f47-s6]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'Jahren') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 13492 Sent bluethenstaub-f68-s15]: [L3 Warning obl-should-be-nmod] The parent (node [29] 'Menschheit') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 13668 Sent bluethenstaub-f70-s3]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'Armuth') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 13874 Sent bluethenstaub-f73-s5]: [L3 Syntax too-many-objects] Multiple direct objects [2, 14] ('Meisterschaft', 'Sinns') under the predicate 'verdankt'.
-...suppressing further errors regarding Syntax
-[Line 15243 Sent bluethenstaub-f77-s17]: [L3 Warning obl-should-be-nmod] The parent (node [36] 'Musik') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 15479 Sent bluethenstaub-f78-s5]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'Anwendung') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 16402 Sent bluethenstaub-f90-s3]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'Eintritt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 19928 Sent athenaeum-f31-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'so lange' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Syntax errors: 44
-Warnings: 35
-*** FAILED *** with 44 errors
+[Line 3148 Sent lyceum-f59-s1]: [L3 SYNTAX too-many-objects] Multiple direct objects [22, 27] ('sich', 'Schuld') under the predicate 'abfinde'.
+[Line 4437 Sent lyceum-f81-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'en detail' does not have the 'ExtPos' feature
+[Line 4451 Sent lyceum-f81-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'en gros' does not have the 'ExtPos' feature
+[Line 6588 Sent lyceum-f112-s3]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 9] ('sich', 'Leser') under the predicate 'konstruiert'.
+[Line 6741 Sent lyceum-f114-s2]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 7] ('sich', 'Gesellschaft') under the predicate 'verbinden'.
+[Line 7494 Sent lyceum-f122-s1]: [L3 SYNTAX too-many-objects] Multiple direct objects [80, 82] ('es', 'recht') under the predicate 'nehmen'.
+[Line 9908 Sent bluethenstaub-f25-s1]: [L3 SYNTAX too-many-objects] Multiple direct objects [11, 18] ('nichts', 'Erfahrungen') under the predicate 'darstellen'.
+[Line 10066 Sent bluethenstaub-f26-s2]: [L3 SYNTAX too-many-objects] Multiple direct objects [31, 36] ('Nothwendigkeit', 'Handlung') under the predicate 'adeln'.
+[Line 10092 Sent bluethenstaub-f27-s1]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'Verknüpfungen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10613 Sent bluethenstaub-f33-s1]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 14] ('uns', 'Geistigkeit') under the predicate 'bemächtigen'.
+[Line 10836 Sent bluethenstaub-f35-s4]: [L3 SYNTAX too-many-objects] Multiple direct objects [15, 17] ('mich', 'Mensch') under the predicate 'reizt'.
+[Line 11710 Sent bluethenstaub-f47-s5]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 8] ('vielen', 'Zeitlang') under the predicate 'währt'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 19928 Sent athenaeum-f31-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'so lange' does not have the 'ExtPos' feature
+[Line 20167 Sent athenaeum-f34-s3]: [L3 WARNING fixed-without-extpos] Fixed expression 'à quatre' does not have the 'ExtPos' feature
+[Line 25890 Sent athenaeum-f121-s6]: [L3 WARNING fixed-without-extpos] Fixed expression 'en detail' does not have the 'ExtPos' feature
+[Line 25897 Sent athenaeum-f121-s6]: [L3 WARNING fixed-without-extpos] Fixed expression 'en gros' does not have the 'ExtPos' feature
+[Line 28659 Sent athenaeum-f169-s1]: [L3 WARNING fixed-without-extpos] Fixed expression 'a priori' does not have the 'ExtPos' feature
+[Line 32999 Sent athenaeum-f226-s5]: [L3 WARNING fixed-without-extpos] Fixed expression 'a posteriori' does not have the 'ExtPos' feature
+[Line 33015 Sent athenaeum-f226-s5]: [L3 WARNING fixed-without-extpos] Fixed expression 'a priori' does not have the 'ExtPos' feature
+[Line 35598 Sent athenaeum-f259-s4]: [L3 WARNING fixed-without-extpos] Fixed expression 'lanx satura' does not have the 'ExtPos' feature
+[Line 45176 Sent athenaeum-f358-s1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'peut' lacks the 'Mood' feature
+[Line 45245 Sent athenaeum-f358-s3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'peut' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 13
+SYNTAX errors: 65
+*** FAILED *** with 65 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.2) = 0.0222222222222222
