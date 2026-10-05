@@ -108,14 +108,14 @@
     <dep name="fixed">19</dep>
     <dep name="flat">56</dep>
     <dep name="mark">973</dep>
-    <dep name="nmod">2027</dep>
+    <dep name="nmod">2049</dep>
     <dep name="nmod:poss">69</dep>
     <dep name="nsubj">3198</dep>
     <dep name="nsubj:outer">1</dep>
     <dep name="nsubj:pass">119</dep>
     <dep name="nummod">22</dep>
     <dep name="obj">1631</dep>
-    <dep name="obl">1609</dep>
+    <dep name="obl">1587</dep>
     <dep name="obl:agent">2</dep>
     <dep name="obl:arg">202</dep>
     <dep name="orphan">65</dep>

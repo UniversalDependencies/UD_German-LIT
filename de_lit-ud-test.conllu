@@ -10089,7 +10089,7 @@
 14	Vorfälle	Vorfall	NOUN	NN	_	10	nmod	_	_
 15	mit	mit	ADP	APPR	_	17	case	_	_
 16	wichtigern	wichtig	ADJ	ADJA	_	17	amod	_	_
-17	Begebenheiten	Begebenheit	NOUN	NN	Case=Dat	10	obl	_	SpaceAfter=No
+17	Begebenheiten	Begebenheit	NOUN	NN	Case=Dat	10	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	6	punct	_	_
 
 # genre = fragments
@@ -11735,7 +11735,7 @@
 13	oft	oft	ADV	ADV	_	16	advmod	_	_
 14	mit	mit	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
-16	Fund	Fund	NOUN	NN	Case=Dat	11	obl	_	_
+16	Fund	Fund	NOUN	NN	Case=Dat	11	nmod	_	_
 17	eines	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	18	det	_	_
 18	Systems	Systems	NOUN	NN	Case=Gen	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	$,	_	18	punct	_	_
@@ -13489,7 +13489,7 @@
 30	mit	mit	ADP	APPR	_	33	case	_	_
 31	jedem	jeder	DET	PIAT	Number=Sing|PronType=Tot	33	det	_	_
 32	einzelnen	einzeln	ADJ	ADJA	Degree=Pos	33	amod	_	_
-33	Menschen	Mensch	NOUN	NN	Case=Dat	29	obl	_	SpaceAfter=No
+33	Menschen	Mensch	NOUN	NN	Case=Dat	29	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	4	punct	_	_
 
 # genre = fragments
@@ -13665,7 +13665,7 @@
 5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
 6	Armuth	Armuth	NOUN	NN	Case=Acc	3	obj	_	_
 7	an	an	ADP	APPR	_	8	case	_	_
-8	Worten	Wort	NOUN	NN	_	6	obl	_	SpaceAfter=No
+8	Worten	Wort	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	$,	_	3	punct	_	_
 10	um	um	ADP	APPR	_	17	mark	_	_
 11	mehre	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	12	det	_	_
@@ -15240,7 +15240,7 @@
 39	Gepränge	Geprang	NOUN	NN	_	36	conj	_	SpaceAfter=No
 40	,	,	PUNCT	$,	_	42	punct	_	_
 41	mit	mit	ADP	APPR	_	42	case	_	_
-42	Stühlen	Stuhl	NOUN	NN	Case=Dat	36	obl	_	_
+42	Stühlen	Stuhl	NOUN	NN	Case=Dat	36	nmod	_	_
 43	für	für	ADP	APPR	_	46	case	_	_
 44	das	der	DET	ART	Definite=Def|PronType=Art	46	det	_	_
 45	gemeine	gemein	ADJ	ADJA	_	46	amod	_	_
@@ -15476,7 +15476,7 @@
 8	interessantesten	interessant	ADJ	ADJA	_	6	conj	_	_
 9	und	und	CCONJ	KON	_	10	cc	_	_
 10	allgemeinsten	allgemein	ADJ	ADJA	_	6	conj	_	_
-11	Seiten	Seite	NOUN	NN	_	2	obl	_	_
+11	Seiten	Seite	NOUN	NN	_	2	nmod	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Menschheit	Menschheit	NOUN	NN	_	11	nmod	_	_
 14	mußte	müssen	AUX	VMFIN	_	17	aux	_	_
@@ -16399,7 +16399,7 @@
 6	Eintritt	Eintritt	NOUN	NN	Case=Acc	2	obj	_	_
 7	in	in	ADP	APPR	_	9	case	_	_
 8	eine	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	9	det	_	_
-9	Wissenschaft	Wissenschaft	NOUN	NN	_	6	obl	_	SpaceAfter=No
+9	Wissenschaft	Wissenschaft	NOUN	NN	_	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
 # genre = fragments
@@ -20069,7 +20069,7 @@
 43	geistlichen	geistlich	ADJ	ADJA	_	46	amod	_	_
 44	und	und	CCONJ	KON	_	45	cc	_	_
 45	weltlichen	weltlich	ADJ	ADJA	_	43	conj	_	_
-46	Rechten	Recht	NOUN	NN	Case=Dat	34	obl	_	_
+46	Rechten	Recht	NOUN	NN	Case=Dat	34	nmod	_	_
 47	darin	darin	X	PROAV	_	48	dep	_	_
 48	besteht	bestehen	VERB	VVFIN	_	25	acl:relcl	_	SpaceAfter=No
 49	,	,	PUNCT	$,	_	48	punct	_	_
@@ -26365,11 +26365,11 @@
 8	die	der	PRON	PDS	PronType=Dem,Rel	5	nmod	_	_
 9	über	über	ADP	APPR	_	11	case	_	_
 10	den	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
-11	Gebrauch	Gebrauch	NOUN	NN	_	8	obl	_	_
+11	Gebrauch	Gebrauch	NOUN	NN	_	8	nmod	_	_
 12	des	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
 13	Sylbenmaßes	Sylbenmaß	NOUN	NN	Case=Gen	11	nmod	_	_
 14	im	in	ADP	APPRART	_	15	case	_	_
-15	Drama	Drama	NOUN	NN	_	11	obl	_	_
+15	Drama	Drama	NOUN	NN	_	11	nmod	_	_
 16	allzusehr	allzusehr	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	$,	_	3	punct	_	_
 18	daß	dass	SCONJ	KOUS	_	25	mark	_	_
@@ -27530,7 +27530,7 @@
 44	zu	zu	ADP	APPR	_	47	case	_	_
 45	einer	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	47	det	_	_
 46	materialen	material	ADJ	ADJA	_	47	amod	_	_
-47	Altertumslehre	Altertumslehre	NOUN	NN	Case=Dat	43	obl	_	SpaceAfter=No
+47	Altertumslehre	Altertumslehre	NOUN	NN	Case=Dat	43	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	$.	_	28	punct	_	_
 
 # genre = fragments
@@ -28101,7 +28101,7 @@
 13	Rücksicht	Rücksicht	NOUN	NN	Case=Acc	25	obj	_	_
 14	auf	auf	ADP	APPR	_	16	case	_	_
 15	den	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
-16	Instinkt	Instinkt	NOUN	NN	_	13	obl	_	_
+16	Instinkt	Instinkt	NOUN	NN	_	13	nmod	_	_
 17	des	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
 18	menschlichen	menschlich	ADJ	ADJA	_	19	amod	_	_
 19	Geistes	Geist	NOUN	NN	Case=Gen	16	nmod	_	_
@@ -31395,7 +31395,7 @@
 8	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
 9	Priester	Priester	NOUN	NN	Case=Acc	3	obj	_	_
 10	im	in	ADP	APPRART	_	11	case	_	_
-11	Tempel	Tempel	NOUN	NN	_	9	obl	_	_
+11	Tempel	Tempel	NOUN	NN	_	9	nmod	_	_
 12	der	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
 13	schönen	schön	ADJ	ADJA	_	14	amod	_	_
 14	Wissenschaften	Wissenschaft	NOUN	NN	_	11	nmod	_	SpaceAfter=No
@@ -32471,7 +32471,7 @@
 44	noch	noch	ADV	ADV	_	48	advmod	_	_
 45	nichts	nichts	PRON	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	48	obj	_	_
 46	von	von	ADP	APPR	_	47	case	_	_
-47	Syntax	Syntax	PROPN	NE	Case=Dat	45	obl	_	_
+47	Syntax	Syntax	PROPN	NE	Case=Dat	45	nmod	_	_
 48	ahnden	ahnden	VERB	VVFIN	_	38	conj	_	SpaceAfter=No
 49	,	,	PUNCT	$,	_	48	punct	_	_
 50	noch	noch	ADV	ADV	_	55	advmod	_	_
@@ -32635,7 +32635,7 @@
 4	keiner	kein	DET	ADJA	PronType=Neg	5	det	_	_
 5	Beziehung	Beziehung	NOUN	NN	_	9	obl	_	_
 6	aufs	auf	ADP	APPRART	_	7	case	_	_
-7	Reich	Reich	NOUN	NN	_	5	obl	_	_
+7	Reich	Reich	NOUN	NN	_	5	nmod	_	_
 8	Gottes	Gott	PROPN	NE	_	7	nmod:poss	_	_
 9	steht	stehen	VERB	VVFIN	_	14	csubj	_	_
 10	ist	sein	AUX	VAFIN	_	14	cop	_	_
@@ -33259,7 +33259,7 @@
 9	Streit	Streit	NOUN	NN	Case=Acc	33	obl	_	SpaceAfter=No
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	in	in	ADP	APPR	_	12	case	_	_
-12	den	der	PRON	PRELS	PronType=Dem,Rel	14	obl	_	_
+12	den	der	PRON	PRELS	PronType=Dem,Rel	14	nmod	_	_
 13	sie	sie	PRON	PPER	Case=Nom|Person=3|PronType=Prs	14	nsubj	_	_
 14	Vernunft	Vernunft	NOUN	NN	Case=Acc	17	obj	_	_
 15	und	und	CCONJ	KON	_	16	cc	_	_
@@ -34135,7 +34135,7 @@
 23	Elegien	Elegie	NOUN	NN	Case=Dat	19	obl	_	_
 24	über	über	ADP	APPR	_	26	case	_	_
 25	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
-26	Verlust	Verlust	NOUN	NN	_	23	obl	_	SpaceAfter=No
+26	Verlust	Verlust	NOUN	NN	_	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	8	punct	_	_
 
 # newpar id = athenaeum-f244
@@ -35363,7 +35363,7 @@
 17	für	für	ADP	APPR	_	20	case	_	_
 18	ein	ein	DET	ART	Definite=Ind|NumType=Card|PronType=Art	20	det	_	_
 19	psychologisches	psychologisch	ADJ	ADJA	_	20	amod	_	_
-20	Phänomen	Phänomen	NOUN	NN	Case=Acc	15	obl	_	_
+20	Phänomen	Phänomen	NOUN	NN	Case=Acc	15	nmod	_	_
 21	zu	zu	PART	PTKZU	_	22	mark	_	_
 22	halten	halten	VERB	VVINF	_	7	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	7	punct	_	_
@@ -36056,7 +36056,7 @@
 21	oder	oder	CCONJ	KON	_	24	cc	_	_
 22	mit	mit	ADP	APPR	_	24	case	_	_
 23	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
-24	Philosophie	Philosophie	NOUN	NN	Case=Dat	20	obl	_	_
+24	Philosophie	Philosophie	NOUN	NN	Case=Dat	20	nmod	_	_
 25	gehabt	haben	VERB	VVPP	_	15	acl:relcl	_	_
 26	hat	haben	AUX	VAFIN	_	25	aux	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
@@ -45234,7 +45234,7 @@
 34	diplomatischen	diplomatisch	ADJ	ADJA	_	28	conj	_	_
 35	und	und	CCONJ	KON	_	42	cc	_	_
 36	deren	der	PRON	PRELAT	Case=Gen|PronType=Dem,Rel	38	nmod:poss	_	_
-37	verwickelte	verwickelt	ADJ	ADJA	_	38	obl	_	_
+37	verwickelte	verwickelt	ADJ	ADJA	_	38	nmod	_	_
 38	Streitfragen	Streitfrage	NOUN	NN	Case=Acc	42	obj	_	_
 39	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	41	det:poss	_	_
 40	chirurgischen	chirurgisch	ADJ	ADJA	_	41	amod	_	_
@@ -48456,7 +48456,7 @@
 13	,	,	PUNCT	$,	_	16	punct	_	_
 14	sondern	sondern	CCONJ	KON	_	16	cc	_	_
 15	als	als	ADP	APPR	_	16	case	_	_
-16	Künstler	Künstler	NOUN	NN	_	12	obl	_	_
+16	Künstler	Künstler	NOUN	NN	_	12	nmod	_	_
 17	betrachtet	betrachten	VERB	VVPP	_	0	root	_	_
 18	werden	werden	AUX	VAINF	_	17	aux:pass	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	17	punct	_	_
@@ -51659,7 +51659,7 @@
 22	«	«	PUNCT	XY	_	21	punct	_	_
 23	und	und	CCONJ	KON	_	25	cc	_	_
 24	mit	mit	ADP	APPR	_	25	case	_	_
-25	allem	alle	DET	PIS	Case=Dat|PronType=Tot	18	obl	_	_
+25	allem	alle	DET	PIS	Case=Dat|PronType=Tot	18	nmod	_	_
 26	was	was	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	43	nsubj	_	_
 27	in	in	ADP	APPR	_	30	case	_	_
 28	den	der	DET	ART	Definite=Def|PronType=Art	30	det	_	_
