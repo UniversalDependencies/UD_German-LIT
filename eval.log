@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_German-LIT:
-commit 9aa5b9fa4ae6b5624f156070bfead0b142afdf67
-Merge: 5b21baa 8f906ea
+commit 150abe96fefaa497726a6672ea03cb77aa2365d6
+Merge: 702e573 c212364
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'de_lit'
@@ -33,10 +33,10 @@ Genres: found 1 out of 18 known.
 [Line 7494 Sent lyceum-f122-s1]: [L3 SYNTAX too-many-objects] Multiple direct objects [80, 82] ('es', 'recht') under the predicate 'nehmen'.
 [Line 9908 Sent bluethenstaub-f25-s1]: [L3 SYNTAX too-many-objects] Multiple direct objects [11, 18] ('nichts', 'Erfahrungen') under the predicate 'darstellen'.
 [Line 10066 Sent bluethenstaub-f26-s2]: [L3 SYNTAX too-many-objects] Multiple direct objects [31, 36] ('Nothwendigkeit', 'Handlung') under the predicate 'adeln'.
-[Line 10092 Sent bluethenstaub-f27-s1]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'Verknüpfungen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 10613 Sent bluethenstaub-f33-s1]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 14] ('uns', 'Geistigkeit') under the predicate 'bemächtigen'.
 [Line 10836 Sent bluethenstaub-f35-s4]: [L3 SYNTAX too-many-objects] Multiple direct objects [15, 17] ('mich', 'Mensch') under the predicate 'reizt'.
 [Line 11710 Sent bluethenstaub-f47-s5]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 8] ('vielen', 'Zeitlang') under the predicate 'währt'.
+[Line 13874 Sent bluethenstaub-f73-s5]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 14] ('Meisterschaft', 'Sinns') under the predicate 'verdankt'.
 ...suppressing further messages regarding ERROR/SYNTAX
 [Line 19928 Sent athenaeum-f31-s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'so lange' does not have the 'ExtPos' feature
 [Line 20167 Sent athenaeum-f34-s3]: [L3 WARNING fixed-without-extpos] Fixed expression 'à quatre' does not have the 'ExtPos' feature
@@ -50,8 +50,8 @@ Genres: found 1 out of 18 known.
 [Line 45245 Sent athenaeum-f358-s3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'peut' lacks the 'Mood' feature
 ...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 13
-SYNTAX errors: 65
-*** FAILED *** with 65 errors
+SYNTAX errors: 44
+*** FAILED *** with 44 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.2) = 0.0222222222222222
